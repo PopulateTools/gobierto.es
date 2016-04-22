@@ -1,0 +1,90 @@
+{% include modals.html %}
+
+<footer>
+
+	<div class="big_banner_block blog">
+
+		{% for post in site.posts limit:1 %}
+		  
+	    <a href="{{ post.url | prepend: site.baseurl }}">		     
+        {% if post.main_photo_big contains '://' %}
+		      <img src="{{ post.main_photo_big }}" class="heading" itemprop="img heading" title="{% if post.main_photo_caption %}{{ post.main_photo_caption }}{% endif %}">
+		    {% else %}
+		      {% img '{{ post.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ post.main_photo_caption }}' %}
+		    {% endif %}
+	    </a>
+	    <div class="bg"></div>
+	    <div class="content column">
+	    	<h3 class="h_line">En nuestro blog</h3>
+		    <h2><a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+		   </div>
+	  
+		  {% unless post.featured == true and page.url == '/' %}
+		  {% endunless %}
+
+		{% endfor %}
+
+	</div>
+
+	<div class="big_banner_block">
+		<div class="column">
+			<h3>Nuevos posts en tu buzón</h3>
+			<form>
+				<input type="email" placeholder="tu correo-e">
+				<button type="submit" class="button">Suscribirme</button>
+				<span class="disclaimer">Aprox 1 post a la semana, desapuntate cuando quieras, no spam</span>
+			</form>
+		</div>
+	</div>
+
+	<div class="pure-g">
+
+		<div class="links">
+
+			<a href="/" title="Gobierto">{% img 'logo_gobierto' class:'logo_gobierto' %}</a>
+
+			<menu>
+				<div class="pure-u-1 pure-u-md-1-6">
+					<a href="">Inicio</a>
+					<a href="">Quiénes somos</a>
+					<a href="">Blog</a>
+					<!-- <a href="">Clientes</a> -->
+					<a href="">Demo</a>
+					<a href="">Contacto</a>
+				</div>
+
+				<div class="pure-u-1 pure-u-md-1-6">
+					<h4><strong>Presupuestos</strong></h4>
+					<a href="">Visualización</a>
+					<a href="">Consultas</a>
+					<a href="">Historias</a>
+					<a href="">Inteligencia</a>
+				</div>
+
+				<div class="pure-u-1 pure-u-md-1-6">
+					
+				</div>
+
+				<div class="pure-u-1 pure-u-md-1-6">
+					
+				</div>
+
+				<div class="pure-u-1 pure-u-md-1-6">
+					
+				</div>
+
+				<div class="pure-u-1 pure-u-md-1-6">
+					
+				</div>
+			</menu>
+
+		</div>
+
+	</div>
+
+  <div class="logo_populate">
+    <p>Built by</p>
+    <a href="http://populate.tools" target="_blank" title="Tools for civic engagement">{% img 'logo_populate' %}</a>
+  </div>
+
+</footer>

@@ -1,0 +1,28 @@
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="posts_index">
+
+	<div class="column">
+
+	  <div class="pure-g">
+
+	    <div class="pure-u-1">
+
+	      {% for post in site.posts %}
+	      <div class="story">
+	        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+	        <p class="subtitle" itemprop="description">{{ post.subtitle }}</p>
+	      </div>
+	      {% endfor %}
+
+	    </div>
+	
+	  </div>
+	
+	</div>
+
+</div>
