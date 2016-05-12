@@ -17,6 +17,12 @@ bundle install
 jekyll serve -w --future
 </code>
 
+## Deploy
+
+```
+bin/deploy.sh
+```
+
 ## Article tools
 
 By default, an image in a post will take the full width of the column. Options:
