@@ -353,7 +353,9 @@ article {
   }
   h2, h3, h4 {
     font-family: $font_headings;
+    margin-top: 2em;
   }
+
   .subtitle {
     font-size: 1.5em;
     font-weight: 200;
@@ -501,16 +503,38 @@ article {
 
 
 .social_share {
-  display: inline-block;
-  padding: .35em .75em;
-  margin: 1em 1em 0 0;
+  // display: inline-block;
+  border-top: 1px solid $color_separator;
+  border-bottom: 1px solid $color_separator;
+  padding: 2em 0;
+  // margin: 1em 1em 0 0;
   color: #FFF;
   text-decoration: none;
   @include border-radius(3px);
-  .fa {
+  .fa, .icon {
     margin: 0;
     display: inline-block;
   }
+  h3 {
+    margin: 0 0 2em 0;
+    text-transform: uppercase;
+    font-size: .9em;
+    opacity: .5;
+  }
+  a {
+    border-radius: 3em;
+    padding: .5em 1.5em;
+    margin: 0 5% 0 0;
+    width: 28%;
+    display: inline-block;
+    box-sizing: border-box;
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+}
+.icon {
+  vertical-align: middle;
 }
 a.social_share {
   .fa {
