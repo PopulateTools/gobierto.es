@@ -10,6 +10,7 @@
 //= require vendor/select-and-tweet
 //= require vendor/klass
 //= require components/shareContent
+//= require mixpanel_sync
 // require components/readLater
 // require components/readingList
 

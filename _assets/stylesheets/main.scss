@@ -6,11 +6,16 @@
 
 $color_main: #368CA5;
 $color_main_dark: #0B4C6A;
+$color_main_greyed: #569096;
 
 $color_separator: #EFEFEF;
 $color_menu_items: #9B9B9B;
 
+$color_yellow: #F8B206;
 $color_blue: #00909E;
+$color_pink: #F69C95;
+$color_green_soft: #DCE4D4;
+
 $color_blue_dark: #005058;
 $color_grey_soft: #FAF8F8;
 
@@ -19,7 +24,6 @@ $color_facebook: #3A589A;
 $color_twitter: #00ABEF;
 $color_link: #276D97;
 $color_headers: #676767;
-
 
 $color_meta_text: #A5A5A5;
 $color_tool_bg: #EFEFEF;
@@ -51,6 +55,7 @@ $font_headings: 'PT Serif';
 body {
   font-size: 16px;
   font-family: $font_body, Arial;
+  color: $color_headers;
 }
 
 html, button, input, select, textarea, .pure-g [class *= "pure-u"] {

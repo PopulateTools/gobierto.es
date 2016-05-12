@@ -735,7 +735,12 @@ select {
 select::-ms-expand { /* for IE 11 */
   display: none;
 }
-  
+input.warning {
+  border: 1px solid red !important;
+}
+.missing_fields {
+  display: none;
+}
 
 /*
  * Modals
@@ -1014,6 +1019,10 @@ p.sub {
 
 h1, h2, h3, h4, h5 {
   // font-family: $font_headings;
+  color: $color_headers;
+}
+.light {
+  font-weight: 200 !important;
 }
 .box_blue {
   background: rgba($color_blue, .1);
@@ -1080,6 +1089,7 @@ h1, h2, h3, h4, h5 {
     }
   }
   .main_img {
+    padding: 20px 0 0 0;
     width: 100%;
     margin: 7em 0 3em 0;
     border-bottom: 1px solid $color_dark_bg;
@@ -1199,12 +1209,8 @@ h1, h2, h3, h4, h5 {
 footer {
   margin: 0 auto 8em auto;
 
-  .pure-g {
-    margin: 0 6em;
-  }
   .links {
-    margin: 6em 0;
-    width: 100%;
+    padding: 6em 0;
   }
   menu {
     border-top: 1px solid $color_separator;
@@ -1317,7 +1323,7 @@ footer {
   margin: 5em 0 0 0;
   background: $color_grey_soft;
   input[type=text], input[type=email], input[type=submit], .button, .option, select, option {
-    width: 80%;
+    width: 100%;
     margin: 0 0 1em 0;
     border: 1px solid $color_menu_items;
   }
@@ -1339,10 +1345,51 @@ footer {
     box-sizing: border-box;
     padding: 0 0 0 2em;
   }
-
+}
+.big_banner_block.list {
+  border-top: 1px solid $color_main;
+  border-bottom: 1px solid $color_main;
+  background: transparentize($color_main_greyed, .9);
+  ul, ol {
+    font-size: 1.5em;
+    li {
+      margin: 1.5em 0;
+      padding: 0 0 0 1em ;
+      font-weight: bold;
+      color: $color_dark_bg;
+      span {
+        font-weight: 200;
+        color: $color_headers;
+      }
+    }
+  }
 }
 
+/*.budgets { 
+  h2, h3 {
+    color: #F8B206; 
+  }
+}
+.indicators { 
+  h2, h3 {
+    color: #00909E; 
+  }
+}
+.participation { 
+  h2, h3 {
+    color: #F69C95; 
+  }
+}
+.crm { 
+  h2, h3 {
+    color: #DCE4D4; 
+  }
+}*/
 
+.yellow { color: #F8B206; }
+.blue { color: #00909E; }
+.pink { color: #F69C95; }
+.green_soft { color: #DCE4D4; }
 
 
 
@@ -1393,6 +1440,14 @@ h2.h_line:before, h3.h_line:before {
   padding: 0 2em;
   box-sizing: border-box;  
 }
+.p_h_3 {
+  padding: 0 3em;
+  box-sizing: border-box;  
+}
+.p_h_4 {
+  padding: 0 4em;
+  box-sizing: border-box;  
+}
 .p_v_1 {
   padding: 1em 0;
   box-sizing: border-box;  
@@ -1416,4 +1471,19 @@ h2.h_line:before, h3.h_line:before {
 }
 .m_v_4 {
   margin: 4em 0;
+}
+img {
+  height: auto;
+}
+.w_50 {
+  width: 50%;
+  margin: auto;
+}
+.w_60 {
+  width: 60%;
+  margin: auto;
+}
+.w_70 {
+  width: 70%;
+  margin: auto;
 }
