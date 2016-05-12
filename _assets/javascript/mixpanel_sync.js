@@ -27,7 +27,7 @@ $(function(){
     }
     // return isValid;
 
-    console.log('isValid: ' + isValid);
+    // console.log('isValid: ' + isValid);
 
     if(isValid == true) {
 
@@ -48,7 +48,7 @@ $(function(){
         // HTMLFormElement.prototype.submit.call($('#subscribe_form')[0]);
       }, 300);
 
-      console.log('submitted');
+      // console.log('submitted');
 
     }
 
