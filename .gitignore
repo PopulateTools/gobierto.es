@@ -5,3 +5,5 @@
 .s3cfg
 .jekyll-metadata
 _site/
+# Ignore bundler config.
+/.bundle
