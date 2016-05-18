@@ -20,7 +20,7 @@ Es por ejemplo el caso de [Galbarros](https://presupuestos.gobierto.es/places/ga
 
 Sin embargo, hay muchos otros municipios con grandes desviaciones de presupuesto y en Gobierto, mientras esperamos a los datos del 2015, hemos estado jugando con los datos del 2014 y hemos hecho una pequeña herramienta de visualización de los mismos.
 
-{% img 'posts/scatterplot_budgets.png' width:'80%' alt:'Municipios dentro y fuera de una desviación del 10% del presupuesto' title:'Municipios dentro y fuera de una desviación del 10% del presupuesto' %}
+{% img 'posts/b_vs_e_anim.gif' width:'80%' alt:'Municipios dentro y fuera de una desviación de entre el 10% y el 100% del presupuesto' title:'Municipios dentro y fuera de una desviación de entre el 10% y el 100% del presupuesto' %}
 
 Con ella hemos podido descubrir cosas como que, de todos aquellos municipios con datos presupuestarios (6426 de 8192): 
 
