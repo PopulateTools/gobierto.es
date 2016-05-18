@@ -1,0 +1,314 @@
+[
+  {
+    "id": "1",
+    "name": "Araba/Álava",
+    "aarr_id": "16",
+    "aarr_name": "País Vasco"
+  },
+  {
+    "id": "2",
+    "name": "Albacete",
+    "aarr_id": "8",
+    "aarr_name": "Castilla-La Mancha"
+  },
+  {
+    "id": "3",
+    "name": "Alicante/Alacant",
+    "aarr_id": "10",
+    "aarr_name": "Comunidad Valenciana"
+  },
+  {
+    "id": "4",
+    "name": "Almería",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "33",
+    "name": "Asturias",
+    "aarr_id": "3",
+    "aarr_name": "Principado de Asturias"
+  },
+  {
+    "id": "5",
+    "name": "Ávila",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "6",
+    "name": "Badajoz",
+    "aarr_id": "11",
+    "aarr_name": "Extremadura"
+  },
+  {
+    "id": "7",
+    "name": "Balears, Illes",
+    "aarr_id": "4",
+    "aarr_name": "Baleares"
+  },
+  {
+    "id": "8",
+    "name": "Barcelona",
+    "aarr_id": "9",
+    "aarr_name": "Cataluña"
+  },
+  {
+    "id": "48",
+    "name": "Bizkaia",
+    "aarr_id": "16",
+    "aarr_name": "País Vasco"
+  },
+  {
+    "id": "9",
+    "name": "Burgos",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "10",
+    "name": "Cáceres",
+    "aarr_id": "11",
+    "aarr_name": "Extremadura"
+  },
+  {
+    "id": "11",
+    "name": "Cádiz",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "39",
+    "name": "Cantabria",
+    "aarr_id": "6",
+    "aarr_name": "Cantabria"
+  },
+  {
+    "id": "12",
+    "name": "Castellón/Castelló",
+    "aarr_id": "10",
+    "aarr_name": "Comunidad Valenciana"
+  },
+  {
+    "id": "51",
+    "name": "Ceuta",
+    "aarr_id": "18",
+    "aarr_name": "Ceuta"
+  },
+  {
+    "id": "13",
+    "name": "Ciudad Real",
+    "aarr_id": "8",
+    "aarr_name": "Castilla-La Mancha"
+  },
+  {
+    "id": "14",
+    "name": "Córdoba",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "15",
+    "name": "Coruña, A",
+    "aarr_id": "12",
+    "aarr_name": "Galicia"
+  },
+  {
+    "id": "16",
+    "name": "Cuenca",
+    "aarr_id": "8",
+    "aarr_name": "Castilla-La Mancha"
+  },
+  {
+    "id": "20",
+    "name": "Gipuzkoa",
+    "aarr_id": "16",
+    "aarr_name": "País Vasco"
+  },
+  {
+    "id": "17",
+    "name": "Girona",
+    "aarr_id": "9",
+    "aarr_name": "Cataluña"
+  },
+  {
+    "id": "18",
+    "name": "Granada",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "19",
+    "name": "Guadalajara",
+    "aarr_id": "8",
+    "aarr_name": "Castilla-La Mancha"
+  },
+  {
+    "id": "21",
+    "name": "Huelva",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "22",
+    "name": "Huesca",
+    "aarr_id": "2",
+    "aarr_name": "Aragón"
+  },
+  {
+    "id": "23",
+    "name": "Jaén",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "26",
+    "name": "Rioja, La",
+    "aarr_id": "17",
+    "aarr_name": "La Rioja"
+  },
+  {
+    "id": "35",
+    "name": "Palmas, Las",
+    "aarr_id": "5",
+    "aarr_name": "Canarias"
+  },
+  {
+    "id": "24",
+    "name": "León",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "25",
+    "name": "Lleida",
+    "aarr_id": "9",
+    "aarr_name": "Cataluña"
+  },
+  {
+    "id": "27",
+    "name": "Lugo",
+    "aarr_id": "12",
+    "aarr_name": "Galicia"
+  },
+  {
+    "id": "28",
+    "name": "Madrid",
+    "aarr_id": "13",
+    "aarr_name": "Comunidad de Madrid"
+  },
+  {
+    "id": "29",
+    "name": "Málaga",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "52",
+    "name": "Melilla",
+    "aarr_id": "19",
+    "aarr_name": "Melilla"
+  },
+  {
+    "id": "30",
+    "name": "Murcia",
+    "aarr_id": "14",
+    "aarr_name": "Región de Murcia"
+  },
+  {
+    "id": "31",
+    "name": "Navarra",
+    "aarr_id": "15",
+    "aarr_name": "Comunidad Foral de Navarra"
+  },
+  {
+    "id": "32",
+    "name": "Ourense",
+    "aarr_id": "12",
+    "aarr_name": "Galicia"
+  },
+  {
+    "id": "34",
+    "name": "Palencia",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "36",
+    "name": "Pontevedra",
+    "aarr_id": "12",
+    "aarr_name": "Galicia"
+  },
+  {
+    "id": "37",
+    "name": "Salamanca",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "40",
+    "name": "Segovia",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "41",
+    "name": "Sevilla",
+    "aarr_id": "1",
+    "aarr_name": "Andalucía"
+  },
+  {
+    "id": "42",
+    "name": "Soria",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "43",
+    "name": "Tarragona",
+    "aarr_id": "9",
+    "aarr_name": "Cataluña"
+  },
+  {
+    "id": "38",
+    "name": "Santa Cruz de Tenerife",
+    "aarr_id": "5",
+    "aarr_name": "Canarias"
+  },
+  {
+    "id": "44",
+    "name": "Teruel",
+    "aarr_id": "2",
+    "aarr_name": "Aragón"
+  },
+  {
+    "id": "45",
+    "name": "Toledo",
+    "aarr_id": "8",
+    "aarr_name": "Castilla-La Mancha"
+  },
+  {
+    "id": "46",
+    "name": "Valencia/València",
+    "aarr_id": "10",
+    "aarr_name": "Comunidad Valenciana"
+  },
+  {
+    "id": "47",
+    "name": "Valladolid",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "49",
+    "name": "Zamora",
+    "aarr_id": "7",
+    "aarr_name": "Castilla y León"
+  },
+  {
+    "id": "50",
+    "name": "Zaragoza",
+    "aarr_id": "2",
+    "aarr_name": "Aragón"
+  }
+]
