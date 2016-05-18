@@ -2,14 +2,13 @@
 layout: post
 title: "Presupuestos participativos: un panorama"
 subtitle: Panorama sobre el pasado, presente y futuro de los procesos participativos de decisión económica
-date:   2016-04-12 14:00:00 +0100
+date: 2016-04-12 14:00:00 +0100
 categories: 
 # excerpt: Even more estimulating excerpt to be used in case you need it. 
 author: Álvaro Ortiz
 tags:
   - readinglist
 main_photo_big: https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
-listed: false
 ---
 
 ## Contexto 

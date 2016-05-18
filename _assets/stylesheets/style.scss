@@ -1173,7 +1173,6 @@ h1, h2, h3, h4, h5 {
     }
     li {
       margin: 0 0 1em 0;
-      font-size: .9em;
     }
     div {
       color: $color_text_light;
@@ -1244,7 +1243,8 @@ footer {
     font-size: .8em;
     line-height: 1.7em;
     a {
-      display: block;
+      display: inline-block;
+      margin: 0 1em 0 0;
     }
     h4 {
       margin: 0;
