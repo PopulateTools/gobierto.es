@@ -257,7 +257,7 @@ var xAxis = d3.svg.axis().orient('bottom').tickFormat(tick_format).ticks(5);
 var yAxis = d3.svg.axis().orient('left').tickFormat(tick_format).ticks(5);
 var padding = 45;
 
-var element = document.getElementsByTagName('body')[0];
+var element = document.getElementById("plot");
 var positionInfo = element.getBoundingClientRect();
 var w = positionInfo.width;
 var h = 2*w/3;
