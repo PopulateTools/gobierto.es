@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Presupuesto versus Ejecución"
-subtitle: Un ejercicio de comparación entre lo que presupuestan los municipios de España y lo que gastan
+title: "Presupuesto vs. Ejecución: Análisis de la desviación de los presupuestos municipales y el gasto real"
+subtitle: Un ejercicio de comparación entre lo que presupuestan los municipios de España y lo que realmente acaban gastando
 date:   2016-05-18 14:00:00 +0100
 categories: 
 # excerpt: Even more estimulating excerpt to be used in case you need it. 
@@ -9,7 +9,6 @@ author: Jorge Gómez Sancha
 tags:
   - readinglist
 main_photo_big: https://images.unsplash.com/photo-1443110189928-4448af4a2bc5?ixlib=rb-0.3.5&q=70&fm=jpg&crop=entropy&w=1600&h=700&fit=crop&s=c196b4d48c998f817f60f28ff2564500
-listed: false
 ---
 
 ¿Qué te parecería si descubrieras que tu municipio gasta un 621% más de lo que presupuesta? ¿O si por el contrario descubrieras que gasta tan sólo un 8% de su presupuesto anual? Porque esto es lo que pasó en el 2014 con los municipios de [Tollos, Alicante](https://presupuestos.gobierto.es/places/tollos/2014) y [Galbarros, Burgos](https://presupuestos.gobierto.es/places/galbarros/2014) respectivamente.
@@ -30,10 +29,13 @@ Con ella hemos podido descubrir cosas como que, de todos aquellos municipios con
 
 {% img 'posts/over_100percent.png' width:'80%' alt:'Municipios con una desviación igual o mayor al 100% de su presupuesto' title:'Municipios con una desviación igual o mayor al 100% de su presupuesto' %}
 
-Curiosamente, estos porcentajes de desviación no se mantienen cuando dividimos los datos por Comunidad Autónoma. Teniendo en cuenta que no hay datos presupuestarios para Navarra, País Vasco, Ceuta y Melilla, y tomando el 10% de desviación como referencia, tendríamos a Madrid, Asturias y Murcia como las comunidades autónomas con mayor número de municipios que se ciñen a su presupuesto (aprox. un 67% de los municipios de esas comunidades dentro de esa desviación); en el otro extremo, estaría la Rioja, donde sólamente un 24% de los municipios se ciñe a su presupuesto con una desviación del 10% o menos. Curiosamente, la gran mayoría (72%) de los municipios de la Rioja no llegan a ejecutar ni el 90% de su presupuesto.
+Curiosamente, estos porcentajes de desviación no se mantienen cuando dividimos los datos por Comunidad Autónoma. Teniendo en cuenta que no hay datos presupuestarios para Navarra, País Vasco, Ceuta y Melilla, y tomando el 10% de desviación como referencia, tendríamos a Madrid, Asturias y Murcia como las comunidades autónomas con mayor número de municipios que se ciñen a su presupuesto (aprox. un 67% de los municipios de esas comunidades dentro de esa desviación).
 
-La Comunidad Autónoma cuyos municipios más exceden sus presupuestos es Extremadura, dónde un 55% se desvía por encima del 10%. En su defensa habría que decir que no tiene prácticamente municipios que superen los 10000 habitantes, lo cual, como decíamos al principio, hace que las desviaciones sean bastante más visibles.
+En el otro extremo, estaría la Rioja, donde sólamente un 24% de los municipios se ciñe a su presupuesto con una desviación del 10% o menos. Curiosamente, la gran mayoría (72%) de los municipios de la Rioja no llegan a ejecutar ni el 90% de su presupuesto.
+
+La comunidad autónoma cuyos municipios más exceden sus presupuestos es Extremadura, dónde un 55% se desvía por encima del 10%. En su defensa habría que decir que no tiene prácticamente municipios que superen los 10000 habitantes, lo cual, como decíamos al principio, hace que las desviaciones sean bastante más visibles.
 
 Debajo dejamos la herramienta que hemos desarrollado para que saques tus propias conclusiones.
+
 
 <iframe src="/pages/presus_vs_ejecucion_2014.html" class="min_full_wide" style="height:900px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
