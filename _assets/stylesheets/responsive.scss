@@ -51,7 +51,7 @@
     }
   }
   progress {
-    top: 47px;
+    top: 0;
   }
   header.project {
     a.site-title {
@@ -170,6 +170,10 @@
       .header_text {
         padding: 0;
       }
+      h1 {
+        font-size: 1.8em;
+        color: $color_main;
+      }
     }
   }
   article {
@@ -179,9 +183,14 @@
     }
     .column {
       width: 90%;
+      .min_full_wide {
+        width: 100%;
+        margin: 0;
+      }
     }
     h1 {
       font-size: 1.6em;
+      color: $color_main;
     }
     .subtitle {
       font-size: 1.2em;
