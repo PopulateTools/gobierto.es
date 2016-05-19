@@ -68,6 +68,9 @@
   }
   div#bars {
     width: 25%;
+    /*position: absolute;
+    top: 200px;
+    left:110px;*/
   }
 
   .d3-tip {
@@ -270,19 +273,21 @@ svg = d3.select("div#plot")
 //xAxis
 svg.append('g')
     .attr('class','x axis')
-    .attr("transform", "translate(0," + (h - padding) + ")")
+    // .attr("transform", "translate(0," + (h - padding) + ")")
   .append('text')
+  .classed('x_axis_label',true)
   .attr('style', 'text-anchor:end')
-  .attr("transform","translate(" + (w - padding * 2) + ",-5)")
+  // .attr("transform","translate(" + (w - padding * 2) + ",-5)")
   .text('Presupuestado');
 
 //yAxis
 svg.append('g')
     .attr('class','y axis')
-    .attr("transform", "translate(" + padding + ",0)")
+    // .attr("transform", "translate(" + padding + ",0)")
   .append('text')
+  .classed('y_axis_label',true)
   .attr('style', 'text-anchor:start')
-  .attr("transform","translate(5," + (padding + 5) + ")")
+  // .attr("transform","translate(5," + (padding + 5) + ")")
   .text('Ejecutado');
 
 //Bars Variables
@@ -443,10 +448,13 @@ function render() {
   xAxis.scale(xScale);
   yAxis.scale(yScale);
 
+  d3.select('.x.axis').attr("transform", "translate(0," + (h - padding) + ")");
+  d3.select('.y.axis').attr("transform", "translate(" + padding + ",0)")
+
+  d3.select('.x_axis_label').attr("transform","translate(" + (w - padding * 2) + ",-5)")
+  d3.select('.y_axis_label').attr("transform","translate(5," + (padding + 5) + ")")
+
   d3.transition(svg).select(".x.axis").call(xAxis).selectAll('.tick text')
-    // .attr('x','3')
-    // .attr('y','3')
-    // .attr('dx','1em')
     .attr("transform", "rotate(-45)")
     .style("text-anchor", "end");
   d3.transition(svg).select(".y.axis").call(yAxis);
@@ -612,6 +620,16 @@ d3.json('/pages/data/bud_vs_exe_2014.json', function(error,json) {
   render();
   render_bars();
 });
+
+window.onresize = function() {
+  positionInfo = element.getBoundingClientRect();
+  w = positionInfo.width;
+  h = 2*w/3;
+  d3.select('#plot svg')
+    .attr('width',w)
+    .attr('height',h);
+  render();
+}
 </script>
 </body>
 </html>
