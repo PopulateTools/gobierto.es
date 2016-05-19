@@ -38,6 +38,9 @@ La comunidad autónoma cuyos municipios más exceden sus presupuestos es Extrema
 Debajo dejamos la herramienta que hemos desarrollado para que saques tus propias conclusiones.
 
 
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/3.5.3/iframeResizer.min.js"></script>
 <iframe src="/pages/presus_vs_ejecucion_2014.html" class="min_full_wide" style="height:700px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes"></iframe>
 
 Puedes profundizar en los presupuestos de los municipios desde <a href="http://presupuestos.gobierto.es">presupuestos.gobierto.es</a>. 
+
+<script type="text/javascript">iFrameResize( {heightCalculationMethod: 'documentElementOffset', checkOrigin:false}, 'iframe' );</script>

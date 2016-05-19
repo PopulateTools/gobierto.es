@@ -11,8 +11,6 @@
 //= require vendor/klass
 //= require components/shareContent
 //= require mixpanel_sync
-// require components/readLater
-// require components/readingList
 
 // some config
 var min_scroll_to_show_social_links = 650;
@@ -129,7 +127,7 @@ $(function(){
       console.log('out sticked');
     });
   */
-  
+
   // Show tweet_box when a on_viewport tweet is onview
   if($('.on_viewport').length) {
     var $tweetText = $('.tweet_to_show');
