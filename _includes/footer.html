@@ -75,10 +75,16 @@
 	<div class="big_banner_block">
 		<div class="column">
 			<h3>Nuevos posts en tu buzón</h3>
-			<form>
-				<input type="email" placeholder="tu correo-e">
-				<button type="submit" class="button">Suscribirme</button>
-				<span class="disclaimer">Aprox 1 post a la semana, desapuntate cuando quieras, no spam</span>
+			<form class="blog_subscribe">
+				<div class="fields">
+					<input type="email" placeholder="tu correo-e" name="email" class="email required">
+					<button type="submit" class="button">Suscribirme</button>
+					<span class="disclaimer">Aprox 1 post a la semana, desapuntate cuando quieras, no spam</span>
+					<div class="missing_fields"><p>Parece que falta algo por rellenar!</p></div>
+				</div>
+				<div class="notice success">
+					Genial, ya estás suscrito.
+				</div>
 			</form>
 		</div>
 	</div>

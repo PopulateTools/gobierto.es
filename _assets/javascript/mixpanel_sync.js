@@ -54,4 +54,55 @@ $(function(){
 
   });
 
+  // Track user in Mixpanel when she signs up
+  $('.blog_subscribe').submit(function(e) {
+    
+    var form = this;
+    e.preventDefault();
+
+    var email = $(this).find('.email').val();
+    var user_type = 'Professional';
+
+    var isValid = true;
+    $(this).find('.required').each(function() {
+      if($(this).val() === '') {
+        console.log($(this).attr('name') + ': ' + $(this).val());
+        isValid = false;
+        $(this).addClass('warning');
+      }
+    });
+    if(!isValid) {
+      var first_field = $(form).find('input:first');
+      $(this).find('.missing_fields').show();
+      $(first_field).focus();
+    }
+    // return isValid;
+
+    if(isValid == true) {
+
+      mixpanel.identify(email);
+      mixpanel.people.set({
+        // "$first_name": name,
+        "Web Corp Subscribed": true,
+        "Web Corp Subscribed Date": new Date().toISOString(),
+        "$email": email
+      });
+      mixpanel.people.union({
+        "User Type": [user_type]
+      });
+
+      $(this).find('.fields').hide();
+      $(this).find('.notice').show();
+      
+      // setTimeout( function () { 
+      //   form.submit();
+      //   // HTMLFormElement.prototype.submit.call($('#subscribe_form')[0]);
+      // }, 300);
+
+      // console.log('submitted');
+
+    }
+
+  });
+
 });

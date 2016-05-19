@@ -1270,6 +1270,21 @@ footer {
       height: auto;
     }
   }
+  .email, .email:hover {
+    background: #FFF;
+  }
+  .missing_fields {
+    color: #FFF;
+    opacity: .5;
+  }
+  .big_banner_block {
+    .notice {
+      display: none;
+      background: #FFF;
+      padding: 1em;
+      @include border-radius(4px);
+    }
+  }
 }
 .big_banner_block {
   background: $color_blue;
