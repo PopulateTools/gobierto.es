@@ -10,10 +10,22 @@
     font-family: sans-serif;
     font-size:12px;
   }
+  .clearfix, %clearfix {
 
+    &:after, &:before {
+      content: '';
+      display: table;
+    }
+
+    &:after {
+      clear: both;
+    }
+  }
+  .container {
+    width: 100%;
+  }
   h4 {
     font-size:13px;
-    white-space: nowrap;
   }
 
   ul {
@@ -21,32 +33,41 @@
     padding:0;
     margin:0;
   }
-
   div#charts {
-    width: 50%;
+    width: 100%;
     display: inline-block;
     float: left;
-    min-width: 525px;
+    border-top: 1px solid #DFDFDF;
   }
-  
+  .controls_cont {
+    border-top: 1px solid #DFDFDF;
+  }
   ul#controls {
-    display: inline-block;
-    width: 40%;
     vertical-align: top;
-    float: left;
-    margin-left:5%;
+    
   }
-
   li.control_holder {
-    width: 80%;
-    display: block;
+    width: 33%;
+    display: inline-block;
     vertical-align: top;
-    min-width: 150px;
-    max-width: 250px;
+    padding: 2%;
+    box-sizing: border-box;
+    float: left;
+  }
+  li h4 {
+    height: 36px;
   }
 
   div#plot, div#bars {
-    display: block;
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+  }
+  div#plot {
+    width: 75%;
+  }
+  div#bars {
+    width: 25%;
   }
 
   .d3-tip {
@@ -162,34 +183,39 @@
   </style>
 </head>
 <body>
-  <div id="charts">
-    <div id="plot">
+  <div class="container">
+    <div class="controls_cont" class="clearfix">
+      <ul id="controls" class="clearfix" >
+        <li class="control_holder">
+          <h4>Desviación de Ejecución sobre Presupuesto (por habitante)</h4>
+          <div id="deviation"></div>
+          <div class="legend">
+            <span id="deviation_number"></span>
+          </div>
+        </li>
+        <li class="control_holder">
+          <h4>Habitantes</h4>
+          <div id="population"></div>
+          <div class="legend">
+            Entre <span id='size_value_0'></span> y <span id='size_value_1'></span>
+          </div>
+        </li>
+        <li class="control_holder">
+          <h4>Comunidad Autónoma</h4>
+          <div id="aarr_province">
+            
+          </div>
+        </li>
+      </ul>
     </div>
-    <div id="bars">
+    <div id="charts">
+      <div id="plot">
+      </div>
+      <div id="bars">
+      </div>
     </div>
   </div>
-  <ul id="controls">
-    <li class="control_holder">
-      <h4>Desviación de Ejecución sobre Presupuesto (por habitante)</h4>
-      <div id="deviation"></div>
-      <div class="legend">
-        <span id="deviation_number"></span>
-      </div>
-    </li>
-    <li class="control_holder">
-      <h4>Habitantes</h4>
-      <div id="population"></div>
-      <div class="legend">
-        Entre <span id='size_value_0'></span> y <span id='size_value_1'></span>
-      </div>
-    </li>
-    <li class="control_holder">
-      <h4>Comunidad Autónoma</h4>
-      <div id="aarr_province">
-        
-      </div>
-    </li>
-  </ul>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js" charset="utf-8"></script>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js" charset="utf-8"></script>
@@ -229,9 +255,9 @@ var tScale = d3.scale.threshold();
 var tRange = ["short","inrange","exceed"];
 var xAxis = d3.svg.axis().orient('bottom').tickFormat(tick_format).ticks(5);
 var yAxis = d3.svg.axis().orient('left').tickFormat(tick_format).ticks(5);
-var w = 600;
-var h = 400;
-var padding = 50;
+var w = 730;
+var h = 500;
+var padding = 45;
 
 svg = d3.select("div#plot")
               .append('svg')

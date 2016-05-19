@@ -285,6 +285,12 @@ menu.on_logo_hover {
   margin: auto;
   width: 75%;
 }
+.column {
+  .min_full_wide {
+    width: 140%;
+    margin-left: -20%;
+  }
+}
 article {
   color: #555;
 
