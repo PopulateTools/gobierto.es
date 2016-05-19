@@ -44,7 +44,7 @@
   }
   ul#controls {
     vertical-align: top;
-    
+
   }
   li.control_holder {
     width: 33%;
@@ -161,7 +161,7 @@
 
   .label {
     font-family: sans-serif;
-    font-size: 10px; 
+    font-size: 10px;
     display: none;
     fill:red;
   }
@@ -203,7 +203,7 @@
         <li class="control_holder">
           <h4>Comunidad Autónoma</h4>
           <div id="aarr_province">
-            
+
           </div>
         </li>
       </ul>
@@ -215,7 +215,7 @@
       </div>
     </div>
   </div>
-  
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js" charset="utf-8"></script>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js" charset="utf-8"></script>
@@ -255,9 +255,12 @@ var tScale = d3.scale.threshold();
 var tRange = ["short","inrange","exceed"];
 var xAxis = d3.svg.axis().orient('bottom').tickFormat(tick_format).ticks(5);
 var yAxis = d3.svg.axis().orient('left').tickFormat(tick_format).ticks(5);
-var w = 730;
-var h = 500;
 var padding = 45;
+
+var element = document.getElementsByTagName('body')[0];
+var positionInfo = element.getBoundingClientRect();
+var w = positionInfo.width;
+var h = 2*w/3;
 
 svg = d3.select("div#plot")
               .append('svg')
@@ -354,7 +357,7 @@ function population_upper_limit() {
 
 function within_population_range(d) {
   return (population_lower_limit() <= d['population'] && d['population'] <= population_upper_limit());
-} 
+}
 
 function outside_population_range(d) {
   return (d.population < population_lower_limit() || population_upper_limit() < d.population);
@@ -389,9 +392,9 @@ function count_dataset() {
 function update_counts_and_colors(values, handle) {
   cScale.domain([threshold()*-1,threshold()]);
   tScale.domain([threshold()*-1,threshold()]);
-  
+
   d3.selectAll('circle')
-    .attr('fill', function(d) { 
+    .attr('fill', function(d) {
         return cScale(delta(d));
     })
     .attr('class', function(d) {
@@ -421,7 +424,7 @@ function render() {
 
   var max = d3.max(filtered_dataset, function(d) { return d3.max([d[budgeted_kw],d[executed_kw]]); })
   var min = d3.min(filtered_dataset, function(d) { return d3.min([d[budgeted_kw],d[executed_kw]]); })
-  
+
   xScale.domain([min, max])
   xScale.range([padding, w - padding * 2]);
 
@@ -448,15 +451,15 @@ function render() {
     .style("text-anchor", "end");
   d3.transition(svg).select(".y.axis").call(yAxis);
 
-  var tip = d3.tip().attr('class', 'd3-tip').html(function(d) { 
+  var tip = d3.tip().attr('class', 'd3-tip').html(function(d) {
     return "<strong>" + d.name + "</strong>" +
           "<br>Población: " + d.population +
           "<br>Desviación: " + percent(delta(d)) +
           "<table cellspacing='0' cellpadding='0'> " +
           "<tr><th></th><th>Presupuesto</th><th>Ejecución</th></th>" +
-          "<tr><td>" + dimension_translated + "</td>" + 
+          "<tr><td>" + dimension_translated + "</td>" +
           "<td>" + locale.numberFormat("$,2f")(d[budgeted_kw]) + "</td><td>" + locale.numberFormat("$,2f")(d[executed_kw]) + "</td></td></tr>" +
-          "<tr><td>" + other_dimension_translated + "</td>" + 
+          "<tr><td>" + other_dimension_translated + "</td>" +
           "<td>" + locale.numberFormat("$,2f")(d[other_budgeted_kw]) + "</td><td>" + locale.numberFormat("$,2f")(d[other_executed_kw]) + "</td></td></tr>"
   });
 
@@ -464,7 +467,7 @@ function render() {
 
   var circles = svg.selectAll('circle')
       .data(filtered_dataset, function(d) { return d.ine_code })
-  
+
   var circles_enter = circles.enter()
       .append('circle')
       .on('mouseover', function(d, i) {
@@ -526,9 +529,9 @@ function render_bars() {
       .attr("y", function(d) { return bars_yScale(d.key); })
       .attr('fill', function(d) { return bars_cScale(d.key)});
 
-  var bars_update = d3.transition(bars)    
+  var bars_update = d3.transition(bars)
       .attr("width", function(d) {return bars_xScale(d.value) - bars_padding });
-      
+
   var texts = svg_bars.selectAll('text')
         .data(counted_dataset, function(d) { return d.key });
 
@@ -538,8 +541,8 @@ function render_bars() {
   var texts_update = d3.transition(texts)
         .attr('x', function(d) { return bars_xScale(d.value) + 4 })
         .text(function(d) { return d.value + " (" + d.percent + ")" });
-  
-      
+
+
 }
 
 var dev_slider = document.getElementById('deviation');
