@@ -58,7 +58,7 @@
     height: 36px;
   }
 
-  div#plot, div#bars {
+  div#plot, div#bars,div#search {
     display: inline-block;
     float: left;
     overflow: hidden;
@@ -71,6 +71,10 @@
     /*position: absolute;
     top: 200px;
     left:110px;*/
+  }
+
+  #search {
+    padding-left:50px;
   }
 
   .d3-tip {
@@ -183,6 +187,18 @@
     stroke:#f5f5f5;
     stroke-width:.5;
   }
+
+  .selected {
+    stroke-width:3;
+    stroke:#f90;
+  }
+
+  .autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+  .autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+  .autocomplete-selected { background: #F0F0F0; }
+  .autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+  .autocomplete-group { padding: 2px 5px; }
+  .autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
   </style>
 </head>
 <body>
@@ -216,9 +232,15 @@
       </div>
       <div id="bars">
       </div>
+      <div id="search">
+        <h4>Localiza un municipio</h4>
+        <input id="suggest" type="text" placeholder="Nombre Municipio">
+      </div>
     </div>
   </div>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.devbridge-autocomplete/1.2.24/jquery.autocomplete.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/8.5.1/nouislider.min.js" charset="utf-8"></script>
   <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.6.7/d3-tip.min.js" charset="utf-8"></script>
@@ -239,7 +261,7 @@ var locale = d3.locale({
   "shortMonths": ["Ene", "Feb", "Mar", "Abr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"]
 });
 
-var dataset, filtered_dataset, provinceset, aarrset, counted_set;
+var dataset, filtered_dataset, provinceset, aarrset, counted_set, tip;
 var dimension = 'inhabitant';
 var other_dimension = (dimension == 'inhabitant') ? 'total' : 'inhabitant';
 var dimension_translated = (dimension == 'inhabitant') ? 'Por habitante' : 'Total';
@@ -250,7 +272,7 @@ var tick_format = locale.numberFormat("$,0f");
 var xScale = d3.scale.log();
 var yScale = d3.scale.log();
 var rScale = d3.scale.log();
-var rRange = [3,3];
+var rRange = [4,4];
 var cScale = d3.scale.threshold();
 var cRange = ["#7bccc4","#43a2ca","#0868ac"];
 // var cRange = ["#0868ac","#43a2ca","#0868ac"];
@@ -265,6 +287,21 @@ var element = document.getElementById("plot");
 var positionInfo = element.getBoundingClientRect();
 var w = positionInfo.width;
 var h = 2*w/3;
+
+d3.selection.prototype.moveToFront = function() {  
+  return this.each(function(){
+    this.parentNode.appendChild(this);
+  });
+};
+
+d3.selection.prototype.moveToBack = function() {  
+    return this.each(function() { 
+        var firstChild = this.parentNode.firstChild; 
+        if (firstChild) { 
+            this.parentNode.insertBefore(this, firstChild); 
+        } 
+    });
+};
 
 svg = d3.select("div#plot")
               .append('svg')
@@ -421,6 +458,23 @@ function update_visible_circles() {
     .attr('style', 'display:inline')
 }
 
+function reset_auto_complete() {
+  $('#suggest').val('');
+  $('#suggest').autocomplete({
+    lookup: filter_municipality_suggestions(),
+    onInvalidateSelection: function() { 
+      tip.hide();
+      d3.select("circle.selected").classed("selected",false).moveToBack(); 
+    },
+    onSelect: function(suggestion) {
+      tip.hide();
+      d3.select("circle.selected").classed("selected",false).moveToBack();
+      var selected = d3.select("circle[data-ine-code='" + suggestion.data + "']").classed('selected',true).moveToFront();
+      tip.show(selected.datum(), selected.node());
+    }
+  })
+}
+
 function render() {
   var budgeted_kw = "budgeted_" + dimension;
   var executed_kw = "executed_" + dimension;
@@ -460,7 +514,10 @@ function render() {
     .style("text-anchor", "end");
   d3.transition(svg).select(".y.axis").call(yAxis);
 
-  var tip = d3.tip().attr('class', 'd3-tip').html(function(d) {
+  if (tip != undefined)
+    tip.hide();
+
+  tip = d3.tip().attr('class', 'd3-tip').html(function(d) {
     return "<strong>" + d.name + "</strong>" +
           "<br>Población: " + d.population +
           "<br>Desviación: " + percent(delta(d)) +
@@ -472,6 +529,8 @@ function render() {
           "<td>" + locale.numberFormat("$,2f")(d[other_budgeted_kw]) + "</td><td>" + locale.numberFormat("$,2f")(d[other_executed_kw]) + "</td></td></tr>"
   });
 
+  tip.offset([-5,0]);
+
   svg.call(tip);
 
   var circles = svg.selectAll('circle')
@@ -480,7 +539,7 @@ function render() {
   var circles_enter = circles.enter()
       .append('circle')
       .on('mouseover', function(d, i) {
-        tip.show(d);
+        tip.show(d,this);
       })
       .on('mouseout', function(d, i) {
         tip.hide();
@@ -491,13 +550,16 @@ function render() {
 
   var circles_update = d3.transition(circles)
       .attr('cx', function(d) { return xScale(d[budgeted_kw]); })
-      .attr('r', function(d) { return rScale(d.population); })
+      .attr('r', 4)
+      //.attr('r', function(d) { return rScale(d.population); })
       .attr('cy', function(d) { return yScale(d[executed_kw]); })
+      .attr('data-ine-code', function(d) { return d.ine_code; })
 
   var circles_exit = circles.exit()
     .remove();
 
   update_counts_and_colors();
+  reset_auto_complete();
 }
 
 function render_provinces() {
@@ -552,6 +614,14 @@ function render_bars() {
         .text(function(d) { return d.value + " (" + d.percent + ")" });
 
 
+}
+
+function filter_municipality_suggestions() {
+  var municipality_suggestions = [];
+  $.each(filtered_dataset, function(index, val) {
+    municipality_suggestions.push({value: val.name, data: val.ine_code})
+  })
+  return municipality_suggestions;
 }
 
 var dev_slider = document.getElementById('deviation');
@@ -631,6 +701,8 @@ window.onresize = function() {
     .attr('height',h);
   render();
 }
+
+
 </script>
 </body>
 </html>
