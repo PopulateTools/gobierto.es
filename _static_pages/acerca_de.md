@@ -76,7 +76,7 @@ permalink: /acerca-de/
         <span>D3.js</span>
       </li>
       <li>
-        <img src="https://pbs.twimg.com/profile_images/724294163139842048/oCSAOGG7_bigger.png" alt="Fb30fb620ed6cad93fea8b84132c2c6b bigger" />
+        <img src="https://pbs.twimg.com/profile_images/732576231808479232/pbQzU5Cd_bigger.jpg" alt="Fb30fb620ed6cad93fea8b84132c2c6b bigger" />
         <strong>Ajo Galván</strong>
         <a href="http://twitter.com/AjoGalvan">@AjoGalvan</a>
         <span>Ilustraciones</span>
