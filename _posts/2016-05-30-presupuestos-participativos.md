@@ -19,7 +19,7 @@ Foros de participación, consultas sobre distintos temas, y presupuestos partici
 
 ## Precedentes de éxito
 
-Los procesos de presupuestos participativos han tenido su [principal desarrollo en Brásil y otros lugares de latinoamérica](https://es.wikipedia.org/wiki/Presupuesto_participativo#Presupuestos_Participativos_en_Porto_Alegre) en las últimas décadas. En España también se han desarrollado distintos procesos en municipios medianos o pequeños, sin que hayan tenido demasiada repercusión mediática más allá del nivel local. 
+Los procesos de presupuestos participativos han tenido su [principal desarrollo en Brasil y otros lugares de latinoamérica](https://es.wikipedia.org/wiki/Presupuesto_participativo#Presupuestos_Participativos_en_Porto_Alegre) en las últimas décadas. En España también se han desarrollado distintos procesos en municipios medianos o pequeños, sin que hayan tenido demasiada repercusión mediática más allá del nivel local. 
 
 
 ## Qué son los presupuestos participativos
@@ -48,7 +48,7 @@ El reto no es pequeño: ¿cómo conseguir que una ciudad de millones de personas
 
 ## ¿Qué se puede hacer?
 
-En un contexto en el que nuestra comunidad de vecinos es más proactiva comunicando información económica que nuestro municipio, dónde no hay cultura de participación, y dónde sentimos a las administraciones lejanas y ajenas, pensamos que se puede aplicar tecnología y diseño centrado en el usuario (en este caso, ciudadano) para investigar y descubrir cómo articular la participación, cómo conseguir incorporar la opinión de las personas en las decisiones que nos afectan a todos.
+En un contexto en el que nuestra comunidad de vecinos es más proactiva comunicando información económica que nuestro municipio, donde no hay cultura de participación, y donde sentimos a las administraciones lejanas y ajenas, pensamos que se puede aplicar tecnología y diseño centrado en el usuario (en este caso, ciudadano) para investigar y descubrir cómo articular la participación, cómo conseguir incorporar la opinión de las personas en las decisiones que nos afectan a todos.
 
 En Gobierto estamos explorando y experimentando con ideas para generar participación. Mañana, siguiente post. Suscríbete para recibirlo en tu buzón.
 
