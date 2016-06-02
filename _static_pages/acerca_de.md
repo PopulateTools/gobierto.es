@@ -109,6 +109,12 @@ permalink: /acerca-de/
 
     </ul>
 
+    <div class="separator m_v_2"></div>
+
+    <h2>Créditos</h2>
+
+    <p>Usamos iconos de <a href="http://fontastic.me">Fontastic</a> y fotos de <a href="https://unsplash.com/">Unsplash</a>.</p>
+
   </div>
 
 </div>
