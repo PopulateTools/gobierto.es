@@ -2,7 +2,7 @@
 layout: post
 title: "Presupuestos participativos - ¿Qué pasaría si nuestro municipio fuese como nuestra comunidad de vecinos? (2 de 3)"
 subtitle: Retos, mínimos, y principios para definir el camino a la participación
-date: 2016-06-02 14:00:00 +0100
+date: 2016-06-02 8:00:00 +0100
 categories: 
 # excerpt: Even more estimulating excerpt to be used in case you need it. 
 author: Álvaro Ortiz
