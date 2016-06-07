@@ -30,11 +30,17 @@ $(function(){
     // console.log('isValid: ' + isValid);
 
     if(isValid == true) {
-
+      
       mixpanel.identify(email);
+      var date = new Date().toISOString();
+      mixpanel.people.set_once({
+        "$created": date,
+        "Web Corp Subscribed Date": date
+      });
       mixpanel.people.set({
         // "$first_name": name,
         // "$last_name": surname,
+        "$created": date,
         "$email": email,
         "Phone": phone
       });
@@ -81,10 +87,14 @@ $(function(){
     if(isValid == true) {
 
       mixpanel.identify(email);
+      var date = new Date().toISOString();
+      mixpanel.people.set_once({
+        "$created": date
+      });
       mixpanel.people.set({
         // "$first_name": name,
         "Web Corp Subscribed": true,
-        "Web Corp Subscribed Date": new Date().toISOString(),
+        "Web Corp Subscribed Date": date,
         "$email": email
       });
       mixpanel.people.union({

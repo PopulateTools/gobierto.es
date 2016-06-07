@@ -1278,10 +1278,6 @@ footer {
   .email, .email:hover {
     background: #FFF;
   }
-  .missing_fields {
-    color: #FFF;
-    opacity: .5;
-  }
   .big_banner_block {
     .notice {
       display: none;
@@ -1314,6 +1310,15 @@ footer {
     color: #FFF;
     opacity: .5;
     font-size: .8em;
+  }
+  .missing_fields {
+    color: #FFF;
+    opacity: .5;
+  }
+}
+.big_banner_block.demo {
+  .missing_fields {
+    color: #666;
   }
 }
 .big_banner_block.blog {
