@@ -86,7 +86,7 @@ Visita: [boston.com](http://archive.boston.com/news/politics/2008/specials/budge
 
 ## Committee for a responsible federal budget: Stabilize The Debt
 
-Otro juego-visualización sobre la deuda federal de Estados Unidos, enfocado a esatbilizar la deuda en el 60% (desde el 72%) a lo largo de varios años. Esta simulación tiene muchísimo detalle y permite profundizar, tal vez demasiado, en la complejidad del presupuesto federal. Este proyecto forma parte de la campaña [Fix The Debt](http://www.fixthedebt.org/).
+Otro juego-visualización sobre la deuda federal de Estados Unidos, enfocado a estabilizar la deuda en el 60% (desde el 72%) a lo largo de varios años. Esta simulación tiene muchísimo detalle y permite profundizar, tal vez demasiado, en la complejidad del presupuesto federal. Este proyecto forma parte de la campaña [Fix The Debt](http://www.fixthedebt.org/).
 
 {% img 'posts/160606-crfb-1' %}
 
