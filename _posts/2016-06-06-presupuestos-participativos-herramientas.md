@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Presupuestos participativos - Articulando la participación sobre presupuestos (3 de 3)"
+title: "Presupuestos participativos (3 de 3) - 5 ejemplos de participación ciudadana efectiva"
 subtitle: Ejemplos de herramientas para comunicar presupuestos y recopilar opiniones
 date: 2016-06-06 8:00:00 +0100
 categories: 
