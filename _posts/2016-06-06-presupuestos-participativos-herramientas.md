@@ -15,12 +15,12 @@ Parte 3 de 3 de la serie sobre presupuestos y participación. Lee las entradas a
 
 <div class="separator"></div>
 
-A la hora de plantear iniciativas para recabar opinión sobre presupuestos sin fricción, progresivas, que permitan una participación informada y que tengan un componente de juego para favorecer que la gente se involucre, muchas organizaciones han optado por un género de herramienta en torno a la simulación de presupuestos. En este artículo os dejamos algunos ejemplos. 
+Las iniciativas que más exito tienen a la hora de recabar opinión sobre presupuestos son aquellas que tienen una complejidad progresiva, permiten una participación informada y tienen un componente de juego que favorece que la gente se involucre. Para ello, muchas organizaciones han optado por herramientas en torno a la *simulación de presupuestos*. En este artículo os dejamos algunos ejemplos. 
 
 Las claves de estas herramientas: 
 
-- **Recaban opinión del ciudadano**, sin exigir un esfuerzo considerable: el ciudadano puede dar su opinión mediante un proceso sencillo y accesible, con unos mecanismos de interacción básicos
-- **Permiten explorar la estructura y el contenido de los presupuestos**: es probable que cuando una persona explorar estos juegos no tenga todavía mucha experiencia sobre la estructura y el contenido de un presupuesto. La propia herramienta permite que el usuario vaya explorando el presupuesto al tiempo que aporta su opinión.
+- **Recaban opinión del ciudadano, sin exigir un esfuerzo considerable**: el ciudadano puede dar su opinión mediante un proceso sencillo y accesible, con unos mecanismos de interacción básicos
+- **Permiten explorar la estructura y el contenido de los presupuestos**: es habitual que las personas que llegan a estos juegos no sepan nada sobre la estructura y el contenido de un presupuesto. La propia herramienta permite que el usuario vaya explorando el presupuesto al tiempo que aporta su opinión.
 - **Hacen un trabajo de selección**: no obligan al usuario a enfrentarse a todo el presupuesto; seleccionan las partidas que se pueden entender con más facilidad, dejando de lado las cuestiones más técnicas.
 
 
