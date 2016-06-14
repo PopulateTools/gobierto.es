@@ -2,7 +2,7 @@
 
 var debtEvolution = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 20, right: 50, bottom: 30, left: 60};
+    var margin = {top: 20, right: 50, bottom: 30, left: 90};
 
     this.width = width - margin.left - margin.right;
     this.height = height - margin.top - margin.bottom;
@@ -53,7 +53,7 @@ var debtEvolution = Class.extend({
         .attr('class', 'd3-tip')
         .html(function(d) {
           return "<strong>Año:</strong> " + d.date.getFullYear() + "</strong>" +
-            "<br><strong>Deuda:</strong> " + d.value + "<br>(en millones de €)";
+            "<br><strong>Deuda:</strong> " + accounting.formatMoney(d.value);
         });
       this.svg.call(this.tip);
 

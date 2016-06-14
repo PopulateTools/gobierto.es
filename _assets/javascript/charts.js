@@ -9,7 +9,7 @@
 
 accounting.settings = {
   currency: {
-    symbol: "€",    // default currency symbol is '$'
+    symbol: "mill €",    // default currency symbol is '$'
     format: "%v %s", // controls output: %s = symbol, %v = value/number (can be object: see below)
     decimal: ",",   // decimal point separator
     thousand:  ".",  // thousands separator
