@@ -20,6 +20,9 @@ collections:
   tools:
     output: true
     permalink: /herramientas/:title/
+  charts:
+    output: true
+    permalink: /charts/:slug/
 
 # urls for sections/pages
 url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
@@ -55,9 +58,6 @@ assets:
     - _assets/javascript
     - _assets/images
     - _assets/stylesheets
-  compress:
-    js: true
-  cachebust: hard
   gzip: [ text/css, application/javascript ]
 
 timezone: Europe/Madrid
