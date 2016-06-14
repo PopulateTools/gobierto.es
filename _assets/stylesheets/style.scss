@@ -23,10 +23,6 @@ header.project {
   width: 100%;
   border-bottom: 2px solid $color_separator;
 
-  a {
-    color: #FFF;
-    text-decoration: none;
-  }
   .site-title {
     display: inline-block;
     padding: 0;
@@ -166,6 +162,9 @@ header.project.sticked {
   a:hover {
     color: darken($color_text_light, 20%);
   }
+  h2 {
+    margin-top: 0;
+  }
   h3 {
     color: $color_main;
     text-transform: uppercase;
@@ -284,6 +283,10 @@ menu.on_logo_hover {
 .column_c {
   margin: auto;
   width: 75%;
+}
+.column_w {
+  margin: auto;
+  width: 90%;
 }
 .column {
   .min_full_wide {
@@ -1549,5 +1552,72 @@ img {
     display: block;
     @include border-radius(50%);
     margin: 5% auto;
+  }
+}
+
+
+body.slim {
+  header.project {
+    padding: 3em 0 1em;
+    margin: 0 0 4em 0;
+    .logo {
+      position: relative;
+      top: initial;
+      left: initial;
+    }
+  }
+  h1 {
+    font-size: 1.2em;
+  }
+  .access_to_site {
+    box-sizing: border-box;
+    padding: 1em;
+  }
+}
+.tool {
+  menu {
+    margin: 0;
+    padding: 0 5em 0 0;
+  }
+  .scroll-nav {
+    font-size: .85em;
+    a {
+      color: $color_meta_text;
+      text-decoration: none;
+    }
+    ol {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        margin: 0 0 1em 0;
+      }
+      li.in-view {
+        font-weight: bold;
+      }
+    }
+  }
+  .indexed_content {
+    box-sizing: border-box;
+    h2 {
+      font-weight: normal;
+      font-size: 2.6em;
+      border-bottom: 1px solid rgba($color_main, .1);
+      padding: 0 6em .5em 0;
+    }
+    .block {
+      margin-bottom: 5em;
+      .insights {
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            list-style-type: none;
+            font-size: 1.4em;
+            margin: 0 0 1em 0;
+          }
+        }
+      }
+    }
   }
 }

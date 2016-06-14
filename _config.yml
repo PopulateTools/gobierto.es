@@ -14,12 +14,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /blog/:year:month:day-:title.html
 
 collections:
-  articles:
-    output: true
-    permalink: /:year:month:day-:title.html
   static_pages:
     output: true
     permalink: /pages/:path/
+  tools:
+    output: true
+    permalink: /herramientas/:title/
 
 # urls for sections/pages
 url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
