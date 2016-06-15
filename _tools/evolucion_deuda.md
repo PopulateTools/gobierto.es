@@ -56,7 +56,7 @@ title: Evolución de la deuda municipal
       <div class="block">
         <h2>Visualiza y analiza la deuda viva municipal</h2>
         <div class="block_content">
-          <iframe style="width:100%;height:750px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/explora-deuda/#550"></iframe>
+          <iframe style="width:100%;height:590px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/explora-deuda/#590"></iframe>
         </div>
       </div>
 

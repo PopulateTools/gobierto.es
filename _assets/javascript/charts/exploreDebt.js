@@ -79,8 +79,8 @@ var exploreDebt = Class.extend({
 
     //Bars Variables
     var bars_w = 350;
-    var bars_h = 200;
-    this.bars_padding = 50;
+    var bars_h = 130;
+    this.bars_padding = 40;
     this.bars_yScale = d3.scale.ordinal().rangeRoundBands([bars_h - this.bars_padding, this.bars_padding], .1);
     this.bars_yScale.domain(this.tRange);
     this.bars_xScale = d3.scale.linear();
@@ -109,7 +109,7 @@ var exploreDebt = Class.extend({
 
     this.svg_bars.append('g')
         .attr('class','y axis')
-        .attr("transform", "translate(" + this.bars_padding + ",0)")
+        .attr("transform", "translate(44,0)")
 
     //Dropdown variables
     this.aarr_dropdown;
@@ -128,7 +128,7 @@ var exploreDebt = Class.extend({
       step: 0.01,
       range: {
         'min': 0,
-        'max': 1
+        'max': 0.5
       }
     });
 
@@ -345,13 +345,13 @@ var exploreDebt = Class.extend({
       onInvalidateSelection: function() {
         this.tip.hide();
         d3.select("circle.selected").classed("selected",false).moveToBack();
-      },
+      }.bind(this),
       onSelect: function(suggestion) {
         this.tip.hide();
         d3.select("circle.selected").classed("selected",false).moveToBack();
         var selected = d3.select("circle[data-ine-code='" + suggestion.data + "']").classed('selected',true).moveToFront();
         this.tip.show(selected.datum(), selected.node());
-      }
+      }.bind(this)
     })
   },
 
