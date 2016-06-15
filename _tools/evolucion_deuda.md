@@ -26,7 +26,8 @@ title: Evolución de la deuda municipal
           <div class="pure-u-1 pure-u-md-1-3 insights">
             <ul>
               <li>Los municipios tienen una deuda pendiente de 28.735 millones de €, o 616 € por habitante.</li>
-              <li>La deuda vuelve a estar en niveles de 2010. En 2013 subió un 22% (respecto a 2010), hasta los 34.906 millones de euros.</li>
+              <li>La deuda vuelve a estar en niveles de 2010. En 2012 subió un 23% (respecto a 2010), hasta los 35.163 millones de euros.</li>
+              <li>Lleva 3 años consecutivos bajando</li>
               <li>30 municipios acumulan alrededor del 50% de la deuda, y representan el 25% de la población.</li>
               <li>Los municipios dedican de media un 6,54% de su presupuesto a pagar la deuda (en los pueblos de más de 50.000 habitantes, el porcentaje sube al 10%)</li>
             </ul>
