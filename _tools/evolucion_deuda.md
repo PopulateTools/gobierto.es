@@ -21,7 +21,7 @@ title: Evolución de la deuda municipal
         <h2>¿Cómo ha evolucionado la deduda de los municipios en los últimos años?</h2>
         <div class="block_content pure-g">
           <div class="pure-u-1 pure-u-md-2-3">
-            <iframe style="width:100%;height:450px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/debt-evolution/#450"></iframe>
+            <iframe style="width:100%;height:450px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/evolucion-deuda/#450"></iframe>
           </div>
           <div class="pure-u-1 pure-u-md-1-3 insights">
             <ul>
@@ -56,7 +56,7 @@ title: Evolución de la deuda municipal
       <div class="block">
         <h2>Visualiza y analiza la deuda viva municipal</h2>
         <div class="block_content">
-          <div id="analyzeDebt"></div>
+          <iframe style="width:100%;height:750px;" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/explora-deuda/#550"></iframe>
         </div>
       </div>
 

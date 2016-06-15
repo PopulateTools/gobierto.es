@@ -4,6 +4,8 @@
 //= require vendor/d3-tip.min
 //= require vendor/queue.min
 //= require vendor/accounting.min
+//= require vendor/jquery.autocomplete.min
+//= require vendor/nouislider.min
 //= require vendor/klass
 //= require_directory ./charts/
 
@@ -42,13 +44,17 @@ $(function(){
         height = minHeight;
       }
     }
-
     console.log(width, height);
 
     switch ($container.data('chart-container')) {
       case 'debtEvolution':
         var g = new debtEvolution($container.attr('id'), width, height);
         g.render($container.data('chart-data-url'));
+        break;
+      case 'exploreDebt':
+        var g = new exploreDebt($container.attr('id'), width, height);
+        g.render($container.data('chart-data-url'));
+        break;
     }
   });
 
