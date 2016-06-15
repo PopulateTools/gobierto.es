@@ -29,7 +29,7 @@ var debtEvolution = Class.extend({
         .x(function(d) { return this.x(d.date); }.bind(this))
         .y(function(d) { return this.y(d.value); }.bind(this));
 
-    this.svg = d3.select("body").append("svg")
+    this.svg = d3.select("#"+containerId).append("svg")
         .attr("width", this.width + margin.left + margin.right)
         .attr("height", this.height + margin.top + margin.bottom)
       .append("g")
