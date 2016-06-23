@@ -55,7 +55,16 @@ $(function(){
         var g = new exploreDebt($container.attr('id'), width, height);
         g.render($container.data('chart-data-url'));
         break;
+      case 'municipalitiesDebt':
+        var g = new municipalitiesDebt($container.attr('id'), width, height);
+        g.render($container.data('chart-data-url'));
+        break;
+      case 'municipalitiesDebtScatterPlot':
+        var g = new municipalitiesDebtScatterPlot($container.attr('id'), width, height);
+        g.render($container.data('chart-data-url'));
+        break;
     }
+
   });
 
 });

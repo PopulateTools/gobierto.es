@@ -4,6 +4,10 @@ body {
   font: 13px Source Sans Pro;
 }
 
+h1 {
+  font-size: 1.3em;
+}
+
 .axis.y {
   path,line {
     display: none;
@@ -30,7 +34,7 @@ body {
 .line {
   fill: none;
   stroke: #168dd9;
-  stroke-width: 2px;
+  stroke-width: 3px;
 }
 
 rect {

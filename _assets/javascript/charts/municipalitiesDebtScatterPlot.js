@@ -1,8 +1,8 @@
 'use strict';
 
-var exploreDebt = Class.extend({
+var municipalitiesDebtScatterPlot = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 20, right: 30, bottom: 50, left: 30};
+    var margin = {top: 40, right: 30, bottom: 50, left: 80};
 
     this.width = width - margin.left - margin.right;
     this.height = height - margin.top - margin.bottom;
@@ -29,16 +29,16 @@ var exploreDebt = Class.extend({
     this.aarrset = null;
     this.tip = null;
     this.percent = d3.format('.0%');
-    this.xScale = d3.scale.log();
+    this.xScale = d3.scale.linear();
     this.yScale = d3.scale.log();
     this.cScale = d3.scale.threshold();
     this.cRange = ["#7bccc4","#43a2ca","#0868ac"];
     this.tRange = ["inrange","exceed"];
 
-    var xAxisFormat = l.numberFormat(",0f");
+    var xAxisFormat = l.numberFormat(",%");
     var yAxisFormat = l.numberFormat(",%");
     this.xAxis = d3.svg.axis().orient('bottom').tickFormat(xAxisFormat).ticks(5);
-    this.yAxis = d3.svg.axis().orient('left').tickFormat(yAxisFormat).ticks(15);
+    this.yAxis = d3.svg.axis().orient('left').tickFormat(yAxisFormat).ticks(10);
 
     d3.selection.prototype.moveToFront = function() {
       return this.each(function(){
@@ -198,9 +198,9 @@ var exploreDebt = Class.extend({
       // d.diff = (d.budget_line_amount > 0 && d.debt > 0) ? d.debt / d.budget_line_amount : 0;
 
       // Porcentaje de deuda respecto al total del presupuesto
-      d.diff = (d.debt > 0) ? (d.total_budget)/d.debt : 0;
+      d.diff = (d.total_budget > 0) ? d.debt/d.total_budget : 0;
 
-      d.diff2 = (d.total_budget > 0) ? (d.budget_line_amount/d.total_budget)*100 : 0;
+      d.diff2 = (d.total_budget > 0) ? (d.budget_line_amount/d.total_budget) : 0;
       return d;
     }
 
@@ -208,7 +208,24 @@ var exploreDebt = Class.extend({
       if (error) console.warn(error);
       // Remove zero values
       this.dataset = data.filter(function(d){return d.diff > 0 });
-      console.log(this.dataset[0]);
+      // TODO: render mean
+      console.log('---------------');
+      var total = 0;
+      var n = 0;
+      for(var i = 0; i< this.dataset.length; i++){
+        total += this.dataset[i].diff;
+        n++;
+      }
+      console.log(total / n);
+      var total = 0;
+      var n = 0;
+      for(var i = 0; i< this.dataset.length; i++){
+        total += this.dataset[i].diff2;
+        n++;
+      }
+      console.log(total / n);
+      console.log('---------------');
+      // TODO: render mean
       this._filter_dataset();
       this._render();
       this._render_bars();
@@ -219,7 +236,7 @@ var exploreDebt = Class.extend({
 
   _render: function(){
     var padding = 0;
-    this.xScale.domain(d3.extent(this.dataset, function(d){ return d.population; }));
+    this.xScale.domain(d3.extent(this.dataset, function(d){ return d.diff2; }));
     this.xScale.range([0, this.width]);
 
     this.yScale.domain(d3.extent(this.dataset, function(d){ return d.diff; }))
@@ -232,7 +249,7 @@ var exploreDebt = Class.extend({
     this.yAxis.scale(this.yScale);
 
     d3.select('.x.axis').attr("transform", "translate(0," + (this.height - padding) + ")");
-    d3.select('.y.axis').attr("transform", "translate(20,0)")
+    d3.select('.y.axis').attr("transform", "translate(0,0)")
 
     d3.select('.x_axis_label').attr("transform","translate(" + (this.width - padding * 2) + ",-5)")
     d3.select('.y_axis_label').attr("transform","translate(5," + (padding + 5) + ")")
@@ -274,7 +291,7 @@ var exploreDebt = Class.extend({
         .attr('style','opacity:1');
 
     var circles_update = d3.transition(circles)
-        .attr('cx', function(d) { return this.xScale(d.population); }.bind(this))
+        .attr('cx', function(d) { return this.xScale(d.diff2); }.bind(this))
         .attr('r', 4)
         .attr('cy', function(d) { return this.yScale(d.diff); }.bind(this))
         .attr('data-ine-code', function(d) { return d.ine_code; })
