@@ -2,6 +2,7 @@
 //= require analytics
 //= require vendor/d3.v3.min
 //= require vendor/d3-tip.min
+//= require vendor/d3-legend
 //= require vendor/queue.min
 //= require vendor/accounting.min
 //= require vendor/jquery.autocomplete.min

@@ -34,7 +34,22 @@ h1 {
 .line {
   fill: none;
   stroke: #168dd9;
-  stroke-width: 3px;
+  stroke-width: 4px;
+}
+
+.circle {
+  fill: #168dd9;
+  stroke: #168dd9;
+}
+.secondary-line {
+  fill: none;
+  stroke: #a03b0e;
+  stroke-width: 4px;
+}
+
+.secondary-circle {
+  fill: #a03b0e;
+  stroke: #a03b0e;
 }
 
 rect {
@@ -205,8 +220,6 @@ div#bars {
 .label {
   font-family: sans-serif;
   font-size: 10px;
-  display: none;
-  fill:red;
 }
 
 .legend {
