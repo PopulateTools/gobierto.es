@@ -36,7 +36,16 @@ h1 {
   stroke: #168dd9;
   stroke-width: 4px;
 }
-
+.small-line {
+  fill: none;
+  stroke: #168dd9;
+  stroke-width: 2px;
+}
+.current-time-separator {
+  fill: none;
+  stroke: #000;
+  stroke-width: 1px;
+}
 .circle {
   fill: #168dd9;
   stroke: #168dd9;

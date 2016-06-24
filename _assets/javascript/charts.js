@@ -3,10 +3,7 @@
 //= require vendor/d3.v3.min
 //= require vendor/d3-tip.min
 //= require vendor/d3-legend
-//= require vendor/queue.min
 //= require vendor/accounting.min
-//= require vendor/jquery.autocomplete.min
-//= require vendor/nouislider.min
 //= require vendor/klass
 //= require_directory ./charts/
 
@@ -27,6 +24,8 @@ accounting.settings = {
 
 $(function(){
 
+  var g;
+
   // Load charts
   $('[data-chart-container]').each(function(){
     var $container = $(this);
@@ -45,27 +44,25 @@ $(function(){
         height = minHeight;
       }
     }
+    height = 800;
     console.log(width, height);
 
     switch ($container.data('chart-container')) {
       case 'debtEvolution':
-        var g = new debtEvolution($container.attr('id'), width, height);
+        g = new debtEvolution($container.attr('id'), width, height);
         g.render($container.data('chart-data-url'));
         break;
-      case 'exploreDebt':
-        var g = new exploreDebt($container.attr('id'), width, height);
-        g.render($container.data('chart-data-url'));
-        break;
-      case 'municipalitiesDebt':
-        var g = new municipalitiesDebt($container.attr('id'), width, height);
-        g.render($container.data('chart-data-url'));
-        break;
-      case 'municipalitiesDebtScatterPlot':
-        var g = new municipalitiesDebtScatterPlot($container.attr('id'), width, height);
+      case 'debtProjection':
+        g = new debtProjection($container.attr('id'), width, height);
         g.render($container.data('chart-data-url'));
         break;
     }
+  });
 
+  $('[data-action]').on('click', function(e){
+    e.preventDefault();
+    console.log('projecting...');
+    g.renderProjection();
   });
 
 });
