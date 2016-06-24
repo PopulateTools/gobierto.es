@@ -33,13 +33,13 @@ h1 {
 
 .line {
   fill: none;
-  stroke: #168dd9;
+  stroke: #4292a1;
   stroke-width: 4px;
 }
 .small-line {
   fill: none;
-  stroke: #168dd9;
-  stroke-width: 2px;
+  stroke: #4292a1;
+  stroke-width: 0.5px;
 }
 .current-time-separator {
   fill: none;
@@ -47,18 +47,23 @@ h1 {
   stroke-width: 1px;
 }
 .circle {
-  fill: #168dd9;
-  stroke: #168dd9;
+  fill: #4292a1;
+  stroke: #4292a1;
 }
 .secondary-line {
   fill: none;
-  stroke: #a03b0e;
+  stroke: #fcb842;
   stroke-width: 4px;
+}
+.small-secondary-line {
+  fill: none;
+  stroke: #fcb842;
+  stroke-width: 0.5px;
 }
 
 .secondary-circle {
-  fill: #a03b0e;
-  stroke: #a03b0e;
+  fill: #fcb842;
+  stroke: #fcb842;
 }
 
 rect {

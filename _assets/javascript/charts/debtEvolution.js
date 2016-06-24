@@ -40,12 +40,12 @@ var debtEvolution = Class.extend({
 
     this.debtLine = d3.svg.line()
         .interpolate("cardinal")
-        .x(function(d) { return this.x(d.date); }.bind(this))
+        .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.debt); }.bind(this));
 
     this.percentageLine = d3.svg.line()
         .interpolate("cardinal")
-        .x(function(d) { return this.x(d.date); }.bind(this))
+        .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yPercentage(d.percentage); }.bind(this));
 
     this.svg = d3.select("#"+containerId).append("svg")
@@ -59,7 +59,7 @@ var debtEvolution = Class.extend({
 
   render: function(url){
     function type(d) {
-      d.date = d3.time.format("%Y").parse(d.date);
+      d.year = d3.time.format("%Y").parse(d.year);
       d.debt = +d.debt/1000000;
       d.percentage = +d.percentage;
       return d;
@@ -74,11 +74,11 @@ var debtEvolution = Class.extend({
         .html(function(d) {
           return "<strong>" + accounting.formatMoney(d.debt) + " deuda</strong><br>" +
                  "<strong>" + d.percentage + "% presupuesto</strong><br>" +
-                 "en </strong> " + d.date.getFullYear() + "</strong>";
+                 "en </strong> " + d.year.getFullYear() + "</strong>";
         });
       this.svg.call(this.tip);
 
-      this.x.domain(d3.extent(data, function(d) { return d.date; }));
+      this.x.domain(d3.extent(data, function(d) { return d.year; }));
       this.yDebt.domain([0, d3.max(data, function(d) { return d.debt; })]);
       this.yPercentage.domain([0, d3.max(data, function(d) { return d.percentage; })]);
 
@@ -112,8 +112,8 @@ var debtEvolution = Class.extend({
           .data(data)
           .enter()
             .append('rect')
-            .attr('data-year', function(d){return d.date.getFullYear()})
-            .attr("x", function(d){return this.x(d.date) - rectSize/2;}.bind(this))
+            .attr('data-year', function(d){return d.year.getFullYear()})
+            .attr("x", function(d){return this.x(d.year) - rectSize/2;}.bind(this))
             .attr("y", function(d){ return d3.min([this.yDebt(d.debt), this.yPercentage(d.percentage)]) }.bind(this))
             .attr("width", rectSize)
             .attr("height", function(d){ return Math.abs(this.yDebt(d.debt)-this.yPercentage(d.percentage)); }.bind(this))
@@ -121,11 +121,11 @@ var debtEvolution = Class.extend({
             .attr("stroke", "black")
             .attr("opacity", 0)
             .on('mouseover', function(d){
-              $('circle[data-year='+d.date.getFullYear()+']').attr('opacity', 1);
+              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
               this.tip.show(d);
             }.bind(this))
             .on('mouseout', function(d){
-              $('circle[data-year='+d.date.getFullYear()+']').attr('opacity', 0);
+              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
               this.tip.hide(d);
             }.bind(this));
 
@@ -135,8 +135,8 @@ var debtEvolution = Class.extend({
           .enter()
             .append('circle')
             .attr('r', 5)
-            .attr('data-year', function(d){return d.date.getFullYear()})
-            .attr("cx", function(d){return this.x(d.date);}.bind(this))
+            .attr('data-year', function(d){return d.year.getFullYear()})
+            .attr("cx", function(d){return this.x(d.year);}.bind(this))
             .attr("cy", function(d){return this.yDebt(d.debt);}.bind(this))
             .attr("opacity", 0)
             .attr("class", 0);
@@ -147,8 +147,8 @@ var debtEvolution = Class.extend({
           .enter()
             .append('circle')
             .attr('r', 5)
-            .attr('data-year', function(d){return d.date.getFullYear()})
-            .attr("cx", function(d){return this.x(d.date);}.bind(this))
+            .attr('data-year', function(d){return d.year.getFullYear()})
+            .attr("cx", function(d){return this.x(d.year);}.bind(this))
             .attr("cy", function(d){return this.yPercentage(d.percentage);}.bind(this))
             .attr("opacity", 0)
             .attr('class', 'secondary-circle');

@@ -9,7 +9,7 @@
 
 accounting.settings = {
   currency: {
-    symbol: "mill €",    // default currency symbol is '$'
+    symbol: "€ / hab.",    // default currency symbol is '$'
     format: "%v %s", // controls output: %s = symbol, %v = value/number (can be object: see below)
     decimal: ",",   // decimal point separator
     thousand:  ".",  // thousands separator
@@ -23,8 +23,6 @@ accounting.settings = {
 }
 
 $(function(){
-
-  var g;
 
   // Load charts
   $('[data-chart-container]').each(function(){
@@ -49,12 +47,12 @@ $(function(){
 
     switch ($container.data('chart-container')) {
       case 'debtEvolution':
-        g = new debtEvolution($container.attr('id'), width, height);
-        g.render($container.data('chart-data-url'));
+        window.g = new debtEvolution($container.attr('id'), width, height);
+        window.g.render($container.data('chart-data-url'));
         break;
       case 'debtProjection':
-        g = new debtProjection($container.attr('id'), width, height);
-        g.render($container.data('chart-data-url'));
+        window.g = new debtProjection($container.attr('id'), width, height);
+        window.g.render($container.data('chart-data-url'));
         break;
     }
   });
@@ -62,7 +60,13 @@ $(function(){
   $('[data-action]').on('click', function(e){
     e.preventDefault();
     console.log('projecting...');
-    g.renderProjection();
+    window.g.renderProjection();
+  });
+
+  $('[data-municipality]').on('click', function(e){
+    e.preventDefault();
+    console.log('rendering municipality...');
+    window.g.renderMunicipalityLine($(this).data('municipality'));
   });
 
 });
