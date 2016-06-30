@@ -10,6 +10,7 @@ source_url: http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Administracion%20El
 data-chart-data-url="/charts/debt-projection.csv"></div>
 
 <a href="#" data-action="renderProjection">Proyectar</a>
+<a href="#" data-action="renderDebtProjectionDistribution">Distr</a>
 <a href="#" data-municipality="28079">Madrid</a>
 <a href="#" data-municipality="18147">Órgiva</a>
 <a href="#" data-municipality="28007">Alcorcón</a>

@@ -59,8 +59,8 @@ $(function(){
 
   $('[data-action]').on('click', function(e){
     e.preventDefault();
-    console.log('projecting...');
-    window.g.renderProjection();
+    console.log($(this).data('action'));
+    window.g[$(this).data('action')]();
   });
 
   $('[data-municipality]').on('click', function(e){

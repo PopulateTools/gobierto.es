@@ -59,6 +59,7 @@ var debtProjection = Class.extend({
     this.projectedMunicipalityDebtLine = null;
     this.maxYears = 30;
     this.usedData = [];
+    this.dataDebtProjectionClosed = null;
   },
 
   render: function(url){
@@ -71,101 +72,114 @@ var debtProjection = Class.extend({
       return d;
     }
 
+    function typeDebtProjectedClosed(d) {
+      d.ine_code = +d.ine_code;
+      return d;
+    }
+
+
     d3.csv(url, type, function(error, data) {
-      if (error) throw error;
+      d3.csv('/charts/debt-projected-closed.csv', typeDebtProjectedClosed, function(error, dataDebtProjectionClosed) {
+        if (error) throw error;
 
-      this.municipalitiesData = data.filter(function(d){
-        return d.ine_code !== 0;
-      });
+        this.dataDebtProjectionClosed = d3.nest()
+          .key(function(d) { return d3.time.format("%Y").parse(d.year); })
+          .rollup(function(leaves) { return leaves.length; })
+          .entries(dataDebtProjectionClosed);
 
-      this.countryData = data.filter(function(d){
-        return d.ine_code === 0;
-      });
-
-      this.usedData = this.usedData.concat(this.countryData);
-
-      var x = this.countryData.map(function(d){ return d.year.getFullYear(); }).slice(3, 6);
-      var y = this.countryData.map(function(d){ return d.value; }).slice(3, 6);
-      this.lr = this._linearRegression(x, y);
-
-      this.tip = d3.tip()
-        .direction('s')
-        .attr('class', 'd3-tip')
-        .html(function(d) {
-          return "<strong>" + accounting.formatMoney(d.value) + "</strong><br>" +
-                 "en </strong> " + d.year.getFullYear() + "</strong>";
+        this.municipalitiesData = data.filter(function(d){
+          return d.ine_code !== 0;
         });
-      this.svg.call(this.tip);
 
-      this.x.domain(d3.extent(this.countryData, function(d) { return d.year; }));
-      this.yDebt.domain([
-          0,
-          d3.max(this.usedData, function(d) { return d.value * 1.05; })
-      ]);
+        this.countryData = data.filter(function(d){
+          return d.ine_code === 0;
+        });
 
-      this.svg.append("g")
-          .attr("class", "x axis")
-          .attr("transform", "translate(0," + this.height + ")")
-          .call(this.xAxis);
+        this.usedData = this.usedData.concat(this.countryData);
 
-      this.svg.append("g")
-          .attr("class", "y axis")
-          .call(this.yAxisDebt);
+        var x = this.countryData.map(function(d){ return d.year.getFullYear(); }).slice(3, 6);
+        var y = this.countryData.map(function(d){ return d.value; }).slice(3, 6);
+        this.lr = this._linearRegression(x, y);
 
-      this.svg.append("path")
-          .datum(this.countryData)
-          .attr("class", "line")
-          .attr("d", this.debtLine);
+        this.tip = d3.tip()
+          .direction('s')
+          .attr('class', 'd3-tip')
+          .html(function(d) {
+            return "<strong>" + accounting.formatMoney(d.value) + "</strong><br>" +
+                   "en </strong> " + d.year.getFullYear() + "</strong>";
+          });
+        this.svg.call(this.tip);
 
-      this.svg.append("g")
-        .append('rect')
-        .attr("x", 0)
-        .attr("y", 0)
-        .attr("width", this.width)
-        .attr("height", this.height)
-        .attr("fill", "#aaa")
-        .attr("stroke", "#ccc")
-        .attr('class', 'background-rect')
-        .attr("opacity", 0.3);
+        this.x.domain(d3.extent(this.countryData, function(d) { return d.year; }));
+        this.yDebt.domain([
+            0,
+            d3.max(this.usedData, function(d) { return d.value * 1.05; })
+        ]);
 
-      this.svg.append("g")
-          .selectAll(".rect")
-          .data(this.countryData)
-          .enter()
-            .append('rect')
-            .attr('data-year', function(d){return d.year.getFullYear()})
-            .attr("x", function(d){return this.x(d.year) - this.rectSize/2;}.bind(this))
-            .attr("y", function(d){return this.yDebt(d.value) - this.rectSize / 2;}.bind(this))
-            .attr("width", this.rectSize)
-            .attr("height", this.rectSize)
-            .attr("fill", "black")
-            .attr("stroke", "black")
-            .attr("opacity", 0)
-            .attr("class", 'rect')
-            .on('mouseover', function(d){
-              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
-              this.tip.show(d);
-            }.bind(this))
-            .on('mouseout', function(d){
-              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
-              this.tip.hide(d);
-            }.bind(this));
+        this.svg.append("g")
+            .attr("class", "x axis")
+            .attr("transform", "translate(0," + this.height + ")")
+            .call(this.xAxis);
 
-      this.svg.append("g")
-          .selectAll("circle")
-          .data(this.countryData)
-          .enter()
-            .append('circle')
-            .attr('r', 5)
-            .attr('data-year', function(d){return d.year.getFullYear()})
-            .attr("cx", function(d){return this.x(d.year);}.bind(this))
-            .attr("cy", function(d){return this.yDebt(d.value);}.bind(this))
-            .attr("opacity", 0)
-            .attr("class", 'circle');
+        this.svg.append("g")
+            .attr("class", "y axis")
+            .call(this.yAxisDebt);
 
-      setTimeout(function(){
-        this.renderProjection();
-      }.bind(this), 300);
+        this.svg.append("path")
+            .datum(this.countryData)
+            .attr("class", "line")
+            .attr("d", this.debtLine);
+
+        this.svg.append("g")
+          .append('rect')
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("width", this.width)
+          .attr("height", this.height)
+          .attr("fill", "#aaa")
+          .attr("stroke", "#ccc")
+          .attr('class', 'background-rect')
+          .attr("opacity", 0.3);
+
+        this.svg.append("g")
+            .selectAll(".rect")
+            .data(this.countryData)
+            .enter()
+              .append('rect')
+              .attr('data-year', function(d){return d.year.getFullYear()})
+              .attr("x", function(d){return this.x(d.year) - this.rectSize/2;}.bind(this))
+              .attr("y", function(d){return this.yDebt(d.value) - this.rectSize / 2;}.bind(this))
+              .attr("width", this.rectSize)
+              .attr("height", this.rectSize)
+              .attr("fill", "black")
+              .attr("stroke", "black")
+              .attr("opacity", 0)
+              .attr("class", 'rect')
+              .on('mouseover', function(d){
+                $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+                this.tip.show(d);
+              }.bind(this))
+              .on('mouseout', function(d){
+                $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+                this.tip.hide(d);
+              }.bind(this));
+
+        this.svg.append("g")
+            .selectAll("circle")
+            .data(this.countryData)
+            .enter()
+              .append('circle')
+              .attr('r', 5)
+              .attr('data-year', function(d){return d.year.getFullYear()})
+              .attr("cx", function(d){return this.x(d.year);}.bind(this))
+              .attr("cy", function(d){return this.yDebt(d.value);}.bind(this))
+              .attr("opacity", 0)
+              .attr("class", 'circle');
+
+        setTimeout(function(){
+          this.renderProjection();
+        }.bind(this), 300);
+      }.bind(this));
     }.bind(this));
   },
 
@@ -191,9 +205,11 @@ var debtProjection = Class.extend({
       value: projectedDebtPerPerson
     });
 
+    var newMaxYear = d3.max(this.countryDataProjected, function(d) { return d.year; });
+    newMaxYear = new Date(newMaxYear.getFullYear()+13, 0, 1);
     this.x.domain([
       d3.min(this.countryData, function(d) { return d.year; }),
-      d3.max(this.countryDataProjected, function(d) { return d.year; })
+      newMaxYear
     ]);
 
     // New projected line
@@ -234,9 +250,6 @@ var debtProjection = Class.extend({
           .attr('y', this.height + 30)
           .style('text-anchor', 'middle')
           .text('Momento actual');
-
-      console.log(this.countryDataProjected);
-      console.log(this.projectedDebtLine);
 
       path = this.svg.append("path")
         .datum(this.countryDataProjected)
@@ -296,15 +309,12 @@ var debtProjection = Class.extend({
 
   renderMunicipalityLine: function(ineCode){
     var municipalityData = this.municipalitiesData.filter(function(d){ return d.ine_code === ineCode; });
-    console.log(municipalityData);
     this.usedData = this.usedData.concat(municipalityData);
     this.yDebt.domain([
         0,
         d3.max(this.usedData, function(d) { return d.value; })
     ]);
     this.yProjectedDebt.domain(this.yDebt.domain());
-    console.log('yDebt');
-    console.log(this.yDebt.domain());
 
     var t = this.svg.transition().duration(1500).ease("sin-in-out");
     t.selectAll(".y.axis").call(this.yAxisDebt);
@@ -450,6 +460,55 @@ var debtProjection = Class.extend({
           .attr("opacity", 0)
           .attr("class", 'secondary-circle');
   },
+
+  renderDebtProjectionDistribution: function(){
+    var x = d3.scale.ordinal().rangeRoundBands([0, this.width], .1);
+    var height = (2*this.height)/3;
+
+    var y = d3.scale.linear()
+      .range([this.height, height]);
+
+    var yAxis = d3.svg.axis()
+      .scale(y)
+      .orient("left");
+
+    // FIXME
+    x.domain(this.dataDebtProjectionClosed.map(function(d) { return d.key; }));
+    var xValues = [];
+    var from = this.x.domain()[0].getFullYear();
+    var to = this.x.domain()[1].getFullYear();
+    for(var i = from; i<to; i++){
+      xValues.push(new Date(i, 0, 1));
+    }
+    x.domain(xValues);
+    y.domain([0, d3.max(this.dataDebtProjectionClosed, function(d) { return d.values; })]);
+
+    this.svg.append("g")
+      .attr("class", "y axis")
+      .call(yAxis)
+      .append("text")
+      .attr("transform", "rotate(-90)")
+      .attr("y", 6)
+      .attr("dy", ".71em")
+      .style("text-anchor", "end")
+      .text("Frequency");
+
+    this.svg.selectAll(".bar")
+      .data(this.dataDebtProjectionClosed)
+      .enter().append("rect")
+      .attr("class", "bar")
+      .attr('fill', '#fad9d6')
+      .attr('opacity', '0.5')
+      .attr("x", function(d) {
+        console.log(new Date(d.key).getFullYear() > 2037 ? new Date(2037, 0,1) : new Date(d.key));
+        console.log(x(new Date(d.key).getFullYear() > 2037 ? new Date(2037, 0,1) : new Date(d.key)));
+        return x(new Date(d.key).getFullYear() > 2037 ? new Date(2037, 0,1) : new Date(d.key));
+      })
+      .attr("width", x.rangeBand())
+      .attr("y", function(d) { return y(d.values); })
+      .attr("height", function(d) { return this.height - y(d.values); }.bind(this));
+  },
+
 
   // PRIVATE
   _linearRegression: function(x, y){
