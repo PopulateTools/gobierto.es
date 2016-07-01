@@ -60,6 +60,7 @@ var debtProjection = Class.extend({
     this.maxYears = 30;
     this.usedData = [];
     this.dataDebtProjectionClosed = null;
+    this.projectedDebtClosedOffset = 6;
   },
 
   render: function(url){
@@ -136,7 +137,7 @@ var debtProjection = Class.extend({
           .attr("y", 0)
           .attr("width", this.width)
           .attr("height", this.height)
-          .attr("fill", "#aaa")
+          .attr("fill", "#f5f5f5")
           .attr("stroke", "#ccc")
           .attr('class', 'background-rect')
           .attr("opacity", 0.3);
@@ -206,7 +207,7 @@ var debtProjection = Class.extend({
     });
 
     var newMaxYear = d3.max(this.countryDataProjected, function(d) { return d.year; });
-    newMaxYear = new Date(newMaxYear.getFullYear()+13, 0, 1);
+    newMaxYear = new Date(newMaxYear.getFullYear()+this.projectedDebtClosedOffset, 0, 1);
     this.x.domain([
       d3.min(this.countryData, function(d) { return d.year; }),
       newMaxYear
@@ -390,6 +391,7 @@ var debtProjection = Class.extend({
   },
 
   renderMunicipalityLineProjection: function(ineCode){
+    this.municipalityDataProjected = [];
     var municipalityData = this.municipalitiesData.filter(function(d){ return d.ine_code === ineCode; });
 
     var newYear = 2016;
@@ -403,6 +405,7 @@ var debtProjection = Class.extend({
       projectedDebtPerPerson = this.municipalityLr.fn(newYear);
     }
     this.municipalityDataProjected.push({year: new Date(newYear, 0, 1), value: projectedDebtPerPerson});
+    console.log(this.municipalityDataProjected);
 
     this.projectedMunicipalityDebtLine = d3.svg.line()
         //.interpolate("cardinal")
@@ -462,6 +465,7 @@ var debtProjection = Class.extend({
   },
 
   renderDebtProjectionDistribution: function(){
+    // Define axis and scales
     var x = d3.scale.ordinal().rangeRoundBands([0, this.width], .1);
     var height = (2*this.height)/3;
 
@@ -470,7 +474,7 @@ var debtProjection = Class.extend({
 
     var yAxis = d3.svg.axis()
       .scale(y)
-      .orient("left");
+      .orient("right");
 
     // FIXME
     x.domain(this.dataDebtProjectionClosed.map(function(d) { return d.key; }));
@@ -481,17 +485,38 @@ var debtProjection = Class.extend({
       xValues.push(new Date(i, 0, 1));
     }
     x.domain(xValues);
+    var maxYear = this.x.domain()[1].getFullYear();
+
+    // Transform the data
+    var total = 0;
+    this.dataDebtProjectionClosed.slice().reverse().forEach(function(d, index, object) {
+      var date = new Date(d.key);
+      if(date.getFullYear() >= maxYear){
+        total += d.values;
+        this.dataDebtProjectionClosed.splice(object.length - 1 - index, 1);
+      }
+    }.bind(this));
+
+    var lastIndex = this.dataDebtProjectionClosed.findIndex(function(d, index, object){
+      var date = new Date(d.key);
+      return date.getFullYear() == maxYear - 1;
+    });
+
+    this.dataDebtProjectionClosed[lastIndex].values = total;
+
     y.domain([0, d3.max(this.dataDebtProjectionClosed, function(d) { return d.values; })]);
 
     this.svg.append("g")
-      .attr("class", "y axis")
+      .attr("class", "axis")
       .call(yAxis)
-      .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Frequency");
+      .attr("transform", "translate(" + this.width + ",0)")
+      ;
+      // .append("text")
+      // .attr("transform", "rotate(-90)")
+      // .attr("y", 6)
+      // .attr("dy", ".71em")
+      // .style("text-anchor", "end")
+      // .text("Num. municipios que saldan su deuda por año");
 
     this.svg.selectAll(".bar")
       .data(this.dataDebtProjectionClosed)
@@ -499,11 +524,7 @@ var debtProjection = Class.extend({
       .attr("class", "bar")
       .attr('fill', '#fad9d6')
       .attr('opacity', '0.5')
-      .attr("x", function(d) {
-        console.log(new Date(d.key).getFullYear() > 2037 ? new Date(2037, 0,1) : new Date(d.key));
-        console.log(x(new Date(d.key).getFullYear() > 2037 ? new Date(2037, 0,1) : new Date(d.key)));
-        return x(new Date(d.key).getFullYear() > 2037 ? new Date(2037, 0,1) : new Date(d.key));
-      })
+      .attr("x", function(d) { return x(d.key); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.values); })
       .attr("height", function(d) { return this.height - y(d.values); }.bind(this));
