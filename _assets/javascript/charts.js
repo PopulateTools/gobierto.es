@@ -42,7 +42,8 @@ $(function(){
         height = minHeight;
       }
     }
-    height = 800;
+    height = 500;
+    width = 900;
     console.log(width, height);
 
     switch ($container.data('chart-container')) {

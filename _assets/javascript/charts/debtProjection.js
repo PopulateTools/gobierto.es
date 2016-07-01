@@ -118,6 +118,17 @@ var debtProjection = Class.extend({
         ]);
 
         this.svg.append("g")
+          .append('rect')
+          .attr("x", 0)
+          .attr("y", 0)
+          .attr("width", this.width)
+          .attr("height", this.height)
+          .attr("fill", "#f5f5f5")
+          .attr("stroke", "#f5f5f5")
+          .attr('class', 'background-rect')
+          .attr("opacity", 1);
+
+        this.svg.append("g")
             .attr("class", "x axis")
             .attr("transform", "translate(0," + this.height + ")")
             .call(this.xAxis);
@@ -130,17 +141,6 @@ var debtProjection = Class.extend({
             .datum(this.countryData)
             .attr("class", "line")
             .attr("d", this.debtLine);
-
-        this.svg.append("g")
-          .append('rect')
-          .attr("x", 0)
-          .attr("y", 0)
-          .attr("width", this.width)
-          .attr("height", this.height)
-          .attr("fill", "#f5f5f5")
-          .attr("stroke", "#ccc")
-          .attr('class', 'background-rect')
-          .attr("opacity", 0.3);
 
         this.svg.append("g")
             .selectAll(".rect")
