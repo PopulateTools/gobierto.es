@@ -148,11 +148,12 @@ header.project.sticked {
 }
 
 /*
- * Sidebar blocks
+ * $%&/ blocks
  *
  */
 .block {
   margin: 0 0 3em 0;
+  box-sizing: border-box;
   font-size: .85em;
   color: $color_text_light;
   a {
@@ -161,6 +162,12 @@ header.project.sticked {
   }
   a:hover {
     color: darken($color_text_light, 20%);
+  }
+  h1, h2, h3 {
+    color: $color_blue;
+  }
+  h1 {
+    font-size: 2.4em;
   }
   h2 {
     margin-top: 0;
@@ -197,6 +204,35 @@ header.project.sticked {
     @include border-radius(6px);
   }
 }
+
+
+/*
+ * Widgets
+ *
+ */
+.widget.box_blue {
+  padding: 1em;
+  @include border-radius(8px);
+}
+.widget {
+  .highlight_big, .highlight_med {
+    color: $color_blue;
+  }
+  .highlight_big {
+    font-size: 4.8em;
+    font-weight: bold;
+  }
+  .highlight_med {
+    font-size: 2.6em;
+    font-weight: 200;
+  }
+  .separator {
+    border-top: 1px solid rgba($color_blue, .3);
+    margin: 3em 7em;
+  }
+}
+
+
 
 
 /*
@@ -287,6 +323,10 @@ menu.on_logo_hover {
 .column_w {
   margin: auto;
   width: 90%;
+  .full_width {
+    margin-left: -5.5%;
+    width: 111%;
+  }
 }
 .column {
   .min_full_wide {
@@ -1007,7 +1047,14 @@ img.inline {
   margin: 3em 0;
   border-top: 1px solid $color_separator;
 }
-
+.separator.blue {
+  border-top: 1px solid rgba($color_blue, 0.3);
+}
+.separator.short {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
 .pad-right-3 {
   padding-right: 30px;
 }
@@ -1565,9 +1612,9 @@ body.slim {
       top: initial;
       left: initial;
     }
-  }
-  h1 {
-    font-size: 1.2em;
+    h1 {
+      font-size: 1.2em;
+    }
   }
   .access_to_site {
     box-sizing: border-box;

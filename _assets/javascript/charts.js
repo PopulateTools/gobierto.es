@@ -9,7 +9,7 @@
 
 accounting.settings = {
   currency: {
-    symbol: "€ / hab.",    // default currency symbol is '$'
+    symbol: "€/hab.",    // default currency symbol is '$'
     format: "%v %s", // controls output: %s = symbol, %v = value/number (can be object: see below)
     decimal: ",",   // decimal point separator
     thousand:  ".",  // thousands separator
@@ -42,8 +42,8 @@ $(function(){
         height = minHeight;
       }
     }
-    height = 500;
-    width = 900;
+    // height = 700;
+    // width = 900;
     console.log(width, height);
 
     switch ($container.data('chart-container')) {
