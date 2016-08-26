@@ -38,7 +38,8 @@ h1, td { color: #777; font-family: 'Tahoma', sans-serif;}
         <tbody><tr>
           <td style="font-family: Tahoma, sans-serif; text-align: center">
           
-          <p style="text-align: center;margin: 1em 0 0 0;font-family: Roboto, Arial;"><a href="http://gobierto.es{{  page.utm }}" target="_blank" class="logo">{% img 'logo_gobierto.png' width:'50%' height:'auto' %}</a></p>
+          <!-- {% img 'logo_gobierto.png' %} -->
+          <p style="text-align: center;margin: 1em 0 0 0;font-family: Roboto, Arial;"><a href="http://gobierto.es{{  page.utm }}" target="_blank" class="logo"><img src="{{ site.url }}{{ site.assets.baseurl}}logo_gobierto.png" style="width: 50%; height: auto"></a></p>
           <p style="font-size: 14px; margin: 0 0 1em 0;">Transparencia y participación para administraciones públicas</p>
 
           <div class="separator" style="border: 4px solid #E5F3F5;margin: 2em 0 3em 0;"></div>
@@ -47,7 +48,8 @@ h1, td { color: #777; font-family: 'Tahoma', sans-serif;}
 
           <p style="color: #58585A;">{{ page.subtitle }}</p>
 
-          <p style="margin: 2em 0 4em 0; border: 1px solid #DFDFDF">{% img '{{ page.main_img }}' %}</p>
+          <!-- {% img '{{ page.main_img }}' %} -->
+          <p style="margin: 2em 0 4em 0; border: 1px solid #DFDFDF"><img src="{{ site.url }}{{ site.assets.baseurl}}{{ page.main_img }}"></p>
 
           {% if page.reasons_1 %}
           <table style="width: 100%; margin: 0 0 1em 0">
@@ -82,7 +84,8 @@ h1, td { color: #777; font-family: 'Tahoma', sans-serif;}
 
           <div class="separator" style="border: 4px solid #E5F3F5;margin: 3em 0;"></div>
           
-          {% img 'illustrations/cuentas.jpg' width:'75%' height:'auto'  %}
+          <!-- {% img 'illustrations/cuentas.jpg' width:'75%' height:'auto'  %} -->
+          <img src="{{ site.url }}{{ site.assets.baseurl}}illustrations/cuentas.jpg" style="width: 75%; height: auto">
 
           <p style="font-size: 24px;">La aplicación de {{ page.title }} forma parte del portal de Gobierto Abierto de Gobierto</p>
           <p style="font-size: 18px;"">Pon en marcha las siguientes herramientas para conectar mejor con tus vecinos</p>
@@ -121,7 +124,8 @@ h1, td { color: #777; font-family: 'Tahoma', sans-serif;}
 
           <div class="separator" style="border: 4px solid #E5F3F5;margin: 3em 0;"></div>
 
-          {% img 'illustrations/consultas.jpg' width:'75%' height:'auto'  %}
+          <!--{% img 'illustrations/consultas.jpg' width:'75%' height:'auto'  %}-->
+          <img src="{{ site.url }}{{ site.assets.baseurl}}illustrations/consultas.jpg" style="width: 75%; height: auto">
 
           <p style="font-size: 18px; margin: 2em 0;">Si te interesa poner en marcha las herramientas de Gobierto, danos un toque</p>
           <p style="font-size: 18px; font-weight: bold;"><a href="mailto:info@gobierto.es" style="color: #4496A4">info@gobierto.es</a></p>
@@ -130,7 +134,8 @@ h1, td { color: #777; font-family: 'Tahoma', sans-serif;}
           <div class="separator" style="border: 4px solid #E5F3F5;margin: 3em 0;"></div>
 
           <p style="text-align: center">Gobierto es un producto de</p>
-          <a href="http://populate.tools">{% img 'logo_populate.png' width:'100px' height:'auto' %}</a>
+          <!-- {% img 'logo_populate.png' width:'100px' height:'auto' %} -->
+          <a href="http://populate.tools"><img src="{{ site.url }}{{ site.assets.baseurl}}logo_populate.png" style="width: 100px; height: auto"></a>
 
           <div class="separator" style="border: 1px solid #E5F3F5;margin: 3em 0;"></div>
 

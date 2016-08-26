@@ -62,5 +62,6 @@ assets:
     js: true
   cachebust: hard
   gzip: [ text/css, application/javascript ]
+  digest: false
 
 timezone: Europe/Madrid
