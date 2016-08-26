@@ -1004,6 +1004,11 @@ img.inline {
   margin: 3em 0;
   border-top: 1px solid $color_separator;
 }
+.separator_short {
+  margin: 3em auto;
+  border-top: 1px solid $color_separator;
+  width: 33%;
+}
 
 .pad-right-3 {
   padding-right: 30px;

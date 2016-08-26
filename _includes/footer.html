@@ -53,11 +53,13 @@
 		{% for post in site.posts limit:1 %}
 		  
 	    <a href="{{ post.url | prepend: site.baseurl }}">		     
-        {% if post.main_photo_big contains '://' %}
-		      <img src="{{ post.main_photo_big }}" class="heading" itemprop="img heading" title="{% if post.main_photo_caption %}{{ post.main_photo_caption }}{% endif %}">
-		    {% else %}
-		      {% img '{{ post.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ post.main_photo_caption }}' %}
-		    {% endif %}
+	    	{% if post.main_photo_big %}
+	        {% if post.main_photo_big contains '://' %}
+			      <img src="{{ post.main_photo_big }}" class="heading" itemprop="img heading" title="{% if post.main_photo_caption %}{{ post.main_photo_caption }}{% endif %}">
+			    {% else %}
+			      {% img '{{ post.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ post.main_photo_caption }}' %}
+			    {% endif %}
+			  {% endif %}
 	    </a>
 	    <div class="bg"></div>
 	    <div class="content column_c">
