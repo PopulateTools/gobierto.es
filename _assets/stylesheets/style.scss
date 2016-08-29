@@ -1047,14 +1047,23 @@ img.inline {
   margin: 3em 0;
   border-top: 1px solid $color_separator;
 }
+
 .separator.blue {
   border-top: 1px solid rgba($color_blue, 0.3);
 }
+
+.separator_short {
+  margin: 3em auto;
+  border-top: 1px solid $color_separator;
+  width: 33%;
+}
+
 .separator.short {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
+
 .pad-right-3 {
   padding-right: 30px;
 }

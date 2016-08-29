@@ -17,6 +17,9 @@ collections:
   static_pages:
     output: true
     permalink: /pages/:path/
+  newsletters:
+    output: true
+    permalink: /newsletters/:title.html
   tools:
     output: true
     permalink: /herramientas/:title/
@@ -59,5 +62,6 @@ assets:
     - _assets/images
     - _assets/stylesheets
   gzip: [ text/css, application/javascript ]
+  digest: false
 
 timezone: Europe/Madrid
