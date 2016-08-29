@@ -25,7 +25,7 @@ collections:
     permalink: /herramientas/:title/
   charts:
     output: true
-    permalink: /charts/:slug/
+    permalink: /charts/:path/
 
 # urls for sections/pages
 url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
