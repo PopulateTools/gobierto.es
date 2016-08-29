@@ -20,6 +20,9 @@ collections:
   static_pages:
     output: true
     permalink: /pages/:path/
+  newsletters:
+    output: true
+    permalink: /newsletters/:title.html
 
 # urls for sections/pages
 url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
@@ -59,5 +62,6 @@ assets:
     js: true
   cachebust: hard
   gzip: [ text/css, application/javascript ]
+  digest: false
 
 timezone: Europe/Madrid
