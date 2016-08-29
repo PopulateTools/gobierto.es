@@ -4,11 +4,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
   {% stylesheet main %}
+  {% stylesheet charts %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   {% javascript application %}
+  {% javascript charts %}
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="{{ site.twitter_username }}" />
@@ -37,7 +39,7 @@
     {% endif %}
   {% endif %}
 
-  
+
   <link rel="apple-touch-icon" sizes="57x57" href="{% asset_path 'favicons/apple-touch-icon-57x57.png' %}" >
   <link rel="apple-touch-icon" sizes="60x60" href="{% asset_path 'favicons/apple-touch-icon-60x60.png' %}">
   <link rel="apple-touch-icon" sizes="72x72" href="/{% asset_path 'favicons/apple-touch-icon-72x72.png' %}">
@@ -56,6 +58,6 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-TileImage" content="{% asset_path 'favicons/mstile-144x144.png' %}">
   <meta name="theme-color" content="#A33A00">
-  
-  
+
+
 </head>

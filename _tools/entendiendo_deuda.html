@@ -10,7 +10,7 @@ title: Entendiendo la deuda municipal
   <div class="pure-g center">
 
     <div class="pure-u-1 pure-u-md-11-24">
-      <div class="block widget box_blue ">
+      <div class="block widget box_blue " data-height-reference>
         <div class="p_v_2">
           <div class="highlight_big">28.735 M€</div>
           <div class="highlight_med">616€ por habitante</div>
@@ -18,24 +18,23 @@ title: Entendiendo la deuda municipal
           <p class="p_h_4">Es la deuda pendiente que tienen nuestro municipios con bancos a final del 2015</p>
         </div>
       </div>
-      Pero esto es solo una pequeña parte de lo que debemos en total: la deuda total de España (incluyendo comunidades autónomas, administración central, etc) a abril de 2016 es de 1.078.806M€, 23.188€ por habitante
+      Pero esto es sólo una pequeña parte de lo que debemos en total: la deuda total de España (incluyendo comunidades autónomas, administración central, etc) a abril de 2016 es de 1.078.806M€, 23.188€ por habitante
     </div>
 
     <div class="pure-u-md-2-24"></div>
 
     <div class="pure-u-1 pure-u-md-11-24">
-      
+
       <div class="block widget box_blue">
-        
-        <!-- pensamos en evitar incluir iframes? tal vez ralentiza y no nos aporta demasiado? --alvaro -->
-        <iframe style="width:100%; height: 500px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/evolucion-deuda/#400"></iframe>
+
+        <div id="debtEvolution" class="debt-chart" data-chart-container="debtEvolution" width="100%" data-chart-data-url="/charts/data/debt-evolution.csv"></div>
 
       </div>
 
       La deuda municipal ha descendido en los últimos años, al tiempo que el esfuerzo que cada municipio dedica a pagar su deuda va aumentando
 
     </div>
-  
+
   </div>
 
   <div class="separator blue short"></div>
@@ -45,7 +44,7 @@ title: Entendiendo la deuda municipal
     <div class="pure-g">
 
       <div class="pure-u-1 pure-u-md-7-24 box_blue">
-        
+
         <p>Los municipios tienen una deuda media de un 45% de su presupuesto anual</p>
 
         <p>En el último año han dedicado un 7% de su presupuesto a ir pagándola</p>
@@ -57,8 +56,10 @@ title: Entendiendo la deuda municipal
       </div>
 
       <div class="pure-u-1 pure-u-md-17-24">
-          
-        <iframe style="width:100%; height: 600px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/proyeccion-deuda/#600"></iframe>
+
+        <!--
+        iframe style="width:100%; height: 600px" frameborder="0" marginwidth="0" marginheight="0" scrolling="yes" src="/charts/proyeccion-deuda/#600"></iframe
+        -->
 
       </div>
 

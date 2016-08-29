@@ -55,7 +55,7 @@ $(function(){
   rebindAll();
 
   $(".stick_ip").stick_in_parent();
-  
+
   $('article a').after(function() {
     if($(this).attr('href').match(/^http/) !== null){
       $(this).attr('target', '_blank');

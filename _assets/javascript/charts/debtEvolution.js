@@ -2,10 +2,11 @@
 
 var debtEvolution = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 40, right: 90, bottom: 30, left: 66};
+    var margin = {top: 40, right: 90, bottom: 30, left: 82};
+    var heightOffset = 8;
 
     this.width = width - margin.left - margin.right;
-    this.height = height - margin.top - margin.bottom;
+    this.height = height + heightOffset - margin.top - margin.bottom;
 
     this.x = d3.time.scale()
         .range([0, this.width]);
@@ -17,15 +18,20 @@ var debtEvolution = Class.extend({
         .range([this.height, 0]);
 
     this.legendScale = d3.scale.ordinal()
-        .domain(['total deuda', 'porcentaje presupuesto'])
-        .range([ "#168dd9", "a03b0e"]);
+        .domain(['Evolución de la deuda acumulada por habitante', '% del presupuesto anual dedicado a pagar deuda'])
+        .range([ "#4292a1", "#fcb842"]);
 
     this.xAxis = d3.svg.axis()
         .scale(this.x)
+        .ticks(4)
         .orient("bottom");
 
     this.yAxisDebt = d3.svg.axis()
         .scale(this.yDebt)
+        // .ticks(8)
+        // .innerTickSize(-this.width - 20)
+        // .outerTickSize(0)
+        // .tickPadding(10)
         .tickFormat(function(v){
           return accounting.formatMoney(v);
         })
@@ -36,15 +42,13 @@ var debtEvolution = Class.extend({
         .tickFormat(function(v){
           return v + '%';
         })
-        .orient("left");
+        .orient("right");
 
     this.debtLine = d3.svg.line()
-        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.debt); }.bind(this));
 
     this.percentageLine = d3.svg.line()
-        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yPercentage(d.percentage); }.bind(this));
 
@@ -69,7 +73,7 @@ var debtEvolution = Class.extend({
       if (error) throw error;
 
       this.tip = d3.tip()
-        .direction('s')
+        .direction('w')
         .attr('class', 'd3-tip')
         .html(function(d) {
           return "<strong>" + accounting.formatMoney(d.debt) + " deuda</strong><br>" +
@@ -93,7 +97,7 @@ var debtEvolution = Class.extend({
 
       this.svg.append("g")
           .attr("class", "y axis")
-          .attr("transform", "translate(" + (this.width+30) + ",0)")
+          .attr("transform", "translate(" + (this.width) + ",0)")
           .call(this.yAxisPercentage);
 
       this.svg.append("path")
@@ -106,7 +110,7 @@ var debtEvolution = Class.extend({
           .attr("class", "secondary-line")
           .attr("d", this.percentageLine);
 
-      var rectSize = 60;
+      var rectSize = 80;
       this.svg.append("g")
           .selectAll("rect")
           .data(data)
@@ -139,7 +143,7 @@ var debtEvolution = Class.extend({
             .attr("cx", function(d){return this.x(d.year);}.bind(this))
             .attr("cy", function(d){return this.yDebt(d.debt);}.bind(this))
             .attr("opacity", 0)
-            .attr("class", 0);
+            .attr("class", 'circle');
 
       this.svg.append("g")
           .selectAll("circle")
@@ -155,7 +159,7 @@ var debtEvolution = Class.extend({
 
       this.svg.append("g")
         .attr("class", "legendOrdinal")
-        .attr("transform", "translate(10,"+(this.height - 40)+")");
+        .attr("transform", "translate(30,"+(this.height - 40)+")");
 
       var legendOrdinal = d3.legend.color()
         .shape("path", d3.svg.symbol().type("circle").size(150)())

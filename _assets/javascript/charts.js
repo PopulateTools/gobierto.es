@@ -1,10 +1,7 @@
-//= require vendor/jquery-3.0.0.min
-//= require analytics
 //= require vendor/d3.v3.min
 //= require vendor/d3-tip.min
 //= require vendor/d3-legend
 //= require vendor/accounting.min
-//= require vendor/klass
 //= require_directory ./charts/
 
 accounting.settings = {
@@ -29,22 +26,15 @@ $(function(){
     var $container = $(this);
     var height;
     var heightOffset = 20;
-    var width = $container.parents('.chart-body').width();
+    var width = $container.parents('.widget').width();
 
     if(window.location.hash !== ""){
       height = parseFloat(window.location.hash.substr(1));
       height = height - $container.parents('.chart-container').height() - heightOffset;
     } else {
       var minHeight = (3*width) / 4;
-      height = $container.parents('.chart-container').height() - heightOffset;
-
-      if(height < minHeight) {
-        height = minHeight;
-      }
+      var height = $('[data-height-reference]').height();
     }
-    // height = 700;
-    // width = 900;
-    console.log(width, height);
 
     switch ($container.data('chart-container')) {
       case 'debtEvolution':
