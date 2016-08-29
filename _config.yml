@@ -31,7 +31,7 @@ url_producto_presupuestos_historias:
 url_producto_presupuestos_inteligencia: 
 
 # The configuration entry `url` is generated in plugins/site_url_generator.rb depending on the environment variable
-production_url: "http://www.gobierto.es"
+production_url: "http://gobierto.es"
 staging_url: ""
 development_url: "http://localhost:4000"
 
