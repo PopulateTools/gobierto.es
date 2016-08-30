@@ -330,6 +330,9 @@ var debtProjection = Class.extend({
   },
 
   renderMunicipalityLine: function(ineCode, callback){
+    if(ineCode === ""){
+      return;
+    }
     this.clearMunicipalityLine();
 
     ineCode = parseInt(ineCode);
