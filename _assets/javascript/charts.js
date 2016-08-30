@@ -2,11 +2,12 @@
 //= require vendor/d3-tip.min
 //= require vendor/d3-legend
 //= require vendor/accounting.min
+//= require vendor/jquery.autocomplete.min
 //= require_directory ./charts/
 
 accounting.settings = {
   currency: {
-    symbol: "€/hab.",    // default currency symbol is '$'
+    symbol: "M €",    // default currency symbol is '$'
     format: "%v %s", // controls output: %s = symbol, %v = value/number (can be object: see below)
     decimal: ",",   // decimal point separator
     thousand:  ".",  // thousands separator
@@ -33,7 +34,7 @@ $(function(){
       height = height - $container.parents('.chart-container').height() - heightOffset;
     } else {
       var minHeight = (3*width) / 4;
-      var height = $('[data-height-reference]').height();
+      var height = $('[data-height-reference='+$container.attr('id')+']').height();
     }
 
     switch ($container.data('chart-container')) {
@@ -43,21 +44,40 @@ $(function(){
         break;
       case 'debtProjection':
         window.g = new debtProjection($container.attr('id'), width, height);
-        window.g.render($container.data('chart-data-url'));
+        window.g.render($container.data('chart-data-url'), function(){
+          // Filter municipalities with data in 2015
+          var municipalities = window.g.municipalitiesData.filter(function(e){
+            return e.year.getFullYear() == 2015;
+          }).
+          map(function(e){
+            return {value: e.name, data: e.ine_code};
+          });
+
+          $('#suggest').autocomplete({
+            lookup: municipalities,
+            minChars: 3,
+            onSelect: function(suggestion) {
+              $('[data-municipality-projection] input:hidden').val(suggestion.data);
+            }
+          });
+        });
         break;
     }
   });
 
   $('[data-action]').on('click', function(e){
     e.preventDefault();
-    console.log($(this).data('action'));
     window.g[$(this).data('action')]();
+    var $parent = $(this).parent();
+    var currentStep = $parent.data('step');
+    $parent.hide();
+    $('[data-step='+(currentStep+1)+']').show();
   });
 
-  $('[data-municipality]').on('click', function(e){
+  $('[data-municipality-projection]').on('submit', function(e){
     e.preventDefault();
-    console.log('rendering municipality...');
-    window.g.renderMunicipalityLine($(this).data('municipality'));
+    var ineCode = $(this).find('input:hidden').val();
+    window.g.renderMunicipalityLine(ineCode);
   });
 
 });

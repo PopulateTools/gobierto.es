@@ -2,7 +2,7 @@
 
 var debtProjection = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 40, right: 90, bottom: 30, left: 120};
+    var margin = {top: 10, right: 90, bottom: 30, left: 120};
 
     this.width = width - margin.left - margin.right;
     this.height = height - margin.top - margin.bottom;
@@ -25,19 +25,19 @@ var debtProjection = Class.extend({
 
     this.yAxisDebt = d3.svg.axis()
         .scale(this.yDebt)
+        .innerTickSize(-this.width)
+        .outerTickSize(0)
+        .tickPadding(10)
         .tickFormat(function(v){
           return accounting.formatMoney(v);
         })
         .orient("left");
 
     this.debtLine = d3.svg.line()
-        //.interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.value); }.bind(this));
 
     this.municipalityDebtLine = d3.svg.line()
-        //.interpolate("cardinal")
-        //.x(function(d) { return this.xMunicipalities(d.year); }.bind(this))
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.value); }.bind(this));
 
@@ -63,7 +63,7 @@ var debtProjection = Class.extend({
     this.projectedDebtClosedOffset = 6;
   },
 
-  render: function(url){
+  render: function(url, callback){
     function type(d) {
       d.year = d3.time.format("%Y").parse(d.year);
       d.debt = +d.debt;
@@ -80,7 +80,7 @@ var debtProjection = Class.extend({
 
 
     d3.csv(url, type, function(error, data) {
-      d3.csv('/charts/debt-projected-closed.csv', typeDebtProjectedClosed, function(error, dataDebtProjectionClosed) {
+      d3.csv('/charts/data/debt-projected-closed.csv', typeDebtProjectedClosed, function(error, dataDebtProjectionClosed) {
         if (error) throw error;
 
         this.dataDebtProjectionClosed = d3.nest()
@@ -125,7 +125,7 @@ var debtProjection = Class.extend({
           .attr("height", this.height)
           .attr("fill", "#f5f5f5")
           .attr("stroke", "#f5f5f5")
-          .attr('class', 'background-rect')
+          .classed('background-rect', true)
           .attr("opacity", 1);
 
         this.svg.append("g")
@@ -155,13 +155,13 @@ var debtProjection = Class.extend({
               .attr("fill", "black")
               .attr("stroke", "black")
               .attr("opacity", 0)
-              .attr("class", 'rect')
+              .attr("class", 'rect debt-projection')
               .on('mouseover', function(d){
-                $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+                $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
                 this.tip.show(d);
               }.bind(this))
               .on('mouseout', function(d){
-                $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+                $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
                 this.tip.hide(d);
               }.bind(this));
 
@@ -175,11 +175,11 @@ var debtProjection = Class.extend({
               .attr("cx", function(d){return this.x(d.year);}.bind(this))
               .attr("cy", function(d){return this.yDebt(d.value);}.bind(this))
               .attr("opacity", 0)
-              .attr("class", 'circle');
+              .attr("class", 'circle debt-projection');
 
-        setTimeout(function(){
-          this.renderProjection();
-        }.bind(this), 300);
+        if(callback)
+          callback();
+
       }.bind(this));
     }.bind(this));
   },
@@ -240,7 +240,7 @@ var debtProjection = Class.extend({
       // Line actual moment
       var x = this.x(d3.max(this.countryData, function(d){return d.year;}));
       var path = this.svg.append("line")
-          .attr("class", "current-time-separator")
+          .attr("class", "current-time-separator debt-projection")
           .attr('x1', x)
           .attr('x2', x)
           .attr('y1', -20)
@@ -254,7 +254,7 @@ var debtProjection = Class.extend({
 
       path = this.svg.append("path")
         .datum(this.countryDataProjected)
-        .attr("class", "small-line")
+        .attr("class", "small-line debt-projection")
         .attr("d", this.projectedDebtLine)
         .attr('fill', 'none');
 
@@ -267,7 +267,6 @@ var debtProjection = Class.extend({
         .duration(2000)
         .ease("linear")
         .attr("stroke-dashoffset", 0);
-
 
       this.svg.append("g")
           .selectAll("rect")
@@ -282,13 +281,13 @@ var debtProjection = Class.extend({
             .attr("fill", "black")
             .attr("stroke", "black")
             .attr("opacity", 0)
-            .attr("class", 'rect')
+            .attr("class", 'rect debt-projection')
             .on('mouseover', function(d){
-              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+              $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
               this.tip.show(d);
             }.bind(this))
             .on('mouseout', function(d){
-              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+              $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
               this.tip.hide(d);
             }.bind(this));
 
@@ -302,13 +301,24 @@ var debtProjection = Class.extend({
             .attr("cx", function(d){return this.x(d.year);}.bind(this))
             .attr("cy", function(d){return this.yDebt(d.value);}.bind(this))
             .attr("opacity", 0)
-            .attr("class", 'circle');
+            .attr("class", 'circle debt-projection');
 
     }.bind(this));
 
   },
 
+  clearMunicipalityLine: function(){
+                           $('.municipality-line.debt-projection').remove();
+                           this.municipalityTip = null;
+                           $('.secondary-line.debt-projection').remove();
+                           $('.secondary-circle.debt-projection').remove();
+                           $('.small-secondary-line.debt-projection').remove();
+  },
+
   renderMunicipalityLine: function(ineCode){
+    this.clearMunicipalityLine();
+
+    ineCode = parseInt(ineCode);
     var municipalityData = this.municipalitiesData.filter(function(d){ return d.ine_code === ineCode; });
     this.usedData = this.usedData.concat(municipalityData);
     this.yDebt.domain([
@@ -324,11 +334,11 @@ var debtProjection = Class.extend({
       .attr("cx", function(d){return this.x(d.year);}.bind(this))
       .attr("cy", function(d){return this.yDebt(d.value);}.bind(this));
 
-    t.selectAll(".rect")
+    t.selectAll(".rect.debt-projection")
       .attr("x", function(d){return this.x(d.year) - this.rectSize/2;}.bind(this))
       .attr("y", function(d){return this.yDebt(d.value) - this.rectSize / 2;}.bind(this));
 
-    t.selectAll(".small-line").attr("d", this.projectedDebtLine);
+    t.selectAll(".small-line.debt-projection").attr("d", this.projectedDebtLine);
 
     var x = municipalityData.map(function(d){ return d.year.getFullYear(); }).slice(3, 6);
     var y = municipalityData.map(function(d){ return d.value; }).slice(3, 6);
@@ -343,11 +353,10 @@ var debtProjection = Class.extend({
       });
     this.svg.call(this.municipalityTip);
 
-    //this.xMunicipalities.domain(d3.extent(municipalityData, function(d) { return d.year; }));
-
+    // here
     this.svg.append("path")
         .datum(municipalityData)
-        .attr("class", "secondary-line")
+        .attr("class", "secondary-line debt-projection")
         .attr("d", this.municipalityDebtLine);
 
     this.svg.append("g")
@@ -364,13 +373,15 @@ var debtProjection = Class.extend({
           .attr("fill", "black")
           .attr("stroke", "black")
           .attr("opacity", 0)
-          .attr("class", 'rect')
+          .classed('rect', true)
+          .classed('municipality-line', true)
+          .classed('debt-projection', true)
           .on('mouseover', function(d){
-            $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
             this.tip.show(d);
           }.bind(this))
           .on('mouseout', function(d){
-            $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
             this.tip.hide(d);
           }.bind(this));
 
@@ -385,7 +396,9 @@ var debtProjection = Class.extend({
           .attr("cx", function(d){return this.x(d.year);}.bind(this))
           .attr("cy", function(d){return this.yDebt(d.value);}.bind(this))
           .attr("opacity", 0)
-          .attr("class", 'circle');
+          .classed('secondary-circle', true)
+          .classed('debt-projection', true)
+          .classed('municipality-line', true);
 
     this.renderMunicipalityLineProjection(ineCode);
   },
@@ -408,13 +421,12 @@ var debtProjection = Class.extend({
     console.log(this.municipalityDataProjected);
 
     this.projectedMunicipalityDebtLine = d3.svg.line()
-        //.interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yProjectedDebt(d.value); }.bind(this));
 
     path = this.svg.append("path")
       .datum(this.municipalityDataProjected)
-      .attr("class", "small-secondary-line")
+      .attr("class", "small-secondary-line debt-projection")
       .attr("d", this.projectedMunicipalityDebtLine)
       .attr('fill', 'none');
 
@@ -441,13 +453,13 @@ var debtProjection = Class.extend({
           .attr("fill", "black")
           .attr("stroke", "black")
           .attr("opacity", 0)
-          .attr("class", 'rect')
+          .attr("class", 'rect municipality-line debt-projection')
           .on('mouseover', function(d){
-            $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
             this.tip.show(d);
           }.bind(this))
           .on('mouseout', function(d){
-            $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
             this.tip.hide(d);
           }.bind(this));
 
@@ -461,7 +473,7 @@ var debtProjection = Class.extend({
           .attr("cx", function(d){return this.x(d.year);}.bind(this))
           .attr("cy", function(d){return this.yProjectedDebt(d.value);}.bind(this))
           .attr("opacity", 0)
-          .attr("class", 'secondary-circle');
+          .attr("class", 'secondary-circle debt-projection');
   },
 
   renderDebtProjectionDistribution: function(){
