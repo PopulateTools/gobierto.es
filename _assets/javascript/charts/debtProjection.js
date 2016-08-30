@@ -29,10 +29,9 @@ var debtProjection = Class.extend({
         .outerTickSize(0)
         .tickPadding(10)
         .tickFormat(function(v){
-          return accounting.formatMoney(v);
+          return accounting.formatMoney(v, '€/hab.');
         })
         .orient("left");
-
     this.debtLine = d3.svg.line()
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.value); }.bind(this));
@@ -61,6 +60,7 @@ var debtProjection = Class.extend({
     this.usedData = [];
     this.dataDebtProjectionClosed = null;
     this.projectedDebtClosedOffset = 6;
+    this.municipalityDebtCompleteYear = null;
   },
 
   render: function(url, callback){
@@ -106,7 +106,7 @@ var debtProjection = Class.extend({
           .direction('s')
           .attr('class', 'd3-tip')
           .html(function(d) {
-            return "<strong>" + accounting.formatMoney(d.value) + "</strong><br>" +
+            return "<strong>" + accounting.formatMoney(d.value, '€/hab.') + "</strong><br>" +
                    "en </strong> " + d.year.getFullYear() + "</strong>";
           });
         this.svg.call(this.tip);
@@ -315,7 +315,7 @@ var debtProjection = Class.extend({
                            $('.small-secondary-line.debt-projection').remove();
   },
 
-  renderMunicipalityLine: function(ineCode){
+  renderMunicipalityLine: function(ineCode, callback){
     this.clearMunicipalityLine();
 
     ineCode = parseInt(ineCode);
@@ -348,7 +348,7 @@ var debtProjection = Class.extend({
       .direction('s')
       .attr('class', 'd3-tip')
       .html(function(d) {
-        return "<strong>" + accounting.formatMoney(d.value) + "</strong><br>" +
+        return "<strong>" + accounting.formatMoney(d.value, '€/hab.') + "</strong><br>" +
                "en </strong> " + d.year.getFullYear() + "</strong>";
       });
     this.svg.call(this.municipalityTip);
@@ -400,10 +400,10 @@ var debtProjection = Class.extend({
           .classed('debt-projection', true)
           .classed('municipality-line', true);
 
-    this.renderMunicipalityLineProjection(ineCode);
+    this.renderMunicipalityLineProjection(ineCode, callback);
   },
 
-  renderMunicipalityLineProjection: function(ineCode){
+  renderMunicipalityLineProjection: function(ineCode, callback){
     this.municipalityDataProjected = [];
     var municipalityData = this.municipalitiesData.filter(function(d){ return d.ine_code === ineCode; });
 
@@ -417,8 +417,8 @@ var debtProjection = Class.extend({
       maxYears += 1;
       projectedDebtPerPerson = this.municipalityLr.fn(newYear);
     }
+    this.municipalityDebtCompleteYear = newYear;
     this.municipalityDataProjected.push({year: new Date(newYear, 0, 1), value: projectedDebtPerPerson});
-    console.log(this.municipalityDataProjected);
 
     this.projectedMunicipalityDebtLine = d3.svg.line()
         .x(function(d) { return this.x(d.year); }.bind(this))
@@ -474,6 +474,9 @@ var debtProjection = Class.extend({
           .attr("cy", function(d){return this.yProjectedDebt(d.value);}.bind(this))
           .attr("opacity", 0)
           .attr("class", 'secondary-circle debt-projection');
+
+    if(callback)
+      callback();
   },
 
   renderDebtProjectionDistribution: function(){
@@ -542,6 +545,17 @@ var debtProjection = Class.extend({
       .attr("height", function(d) { return this.height - y(d.values); }.bind(this));
   },
 
+  renderTextResults: function(municipalityName, year, $container){
+     var message;
+
+     if(year < 2026) {
+       message = "¡Enhorabuena! " + municipalityName + " al ritmo actual acabaría de pagar su deuda antes que la media de los municipios."
+     } else {
+       message = "¡Ooohhh! " + municipalityName + " al ritmo actual acabaría de pagar su deuda después que la media de los municipios."
+     }
+
+     $container.html(message);
+  },
 
   // PRIVATE
   _linearRegression: function(x, y){

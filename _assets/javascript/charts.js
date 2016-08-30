@@ -77,7 +77,15 @@ $(function(){
   $('[data-municipality-projection]').on('submit', function(e){
     e.preventDefault();
     var ineCode = $(this).find('input:hidden').val();
-    window.g.renderMunicipalityLine(ineCode);
+    var municipalityName = $(this).find('input:text').val();
+    var $parent = $(this).parent();
+    window.g.renderMunicipalityLine(ineCode, function(){
+      var currentStep = $parent.data('step');
+      $parent.hide();
+      $('[data-step='+(currentStep+1)+']').show();
+      var $containerResults = $('[data-step='+(currentStep+1)+']').find('p > strong');
+      window.g.renderTextResults(municipalityName, window.g.municipalityDebtCompleteYear, $containerResults);
+    });
   });
 
 });
