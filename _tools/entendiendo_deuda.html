@@ -67,7 +67,7 @@ title: Entendiendo la deuda municipal
         </div>
 
         <div class="block widget box_blue" data-step="3" style="display:none">
-          <p><strong>{{results}}</strong></p>
+          <p><strong></strong></p>
 
           <p>Pero, ¿cómo estamos respecto al resto de municipios?</p>
 
@@ -75,7 +75,10 @@ title: Entendiendo la deuda municipal
         </div>
 
         <div class="block widget box_blue" data-step="4" style="display:none">
-          <p><strong>Wadus wadus wadus paso 5</strong></p>
+          <p><strong>Un 85% de los municipios habrán pagado su deuda en los próximos 15 años. Hay casos más excepcionales.</strong></p>
+
+          <p>Recordemos que en 2012 el Gobierto aprobó la <strong>Ley de Estabilidad Presupuestaria y Sostenibilidad Financiera</strong>, que obliga a las Corporaciones Locales
+          a no endeudarse en total más del 3% del PIB</a>. <a href="https://www.boe.es/buscar/act.php?id=BOE-A-2012-5730" target="_blank">Leer el texto completo de la ley</a>.</p>
         </div>
 
       </div>
@@ -91,5 +94,47 @@ title: Entendiendo la deuda municipal
     </div>
 
   </div>
+
+  <!-- Este HTML se puede cambiar -->
+  <footer>
+
+    <h2>Metodología y Fuentes</h2>
+    <div class="block_content">
+      <p><strong>Datos deuda municipal:</strong>Los datos de la deuda viva se han obtenido a través del <a href="http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/DeudaViva.aspx" target="_blank">Ministerio de Hacienda y Administraciones Públicas</a>.</p>
+      <p>El dato de la deuda corresponde a la deuda viva a 31 de diciembre del año citado de cada uno de los ayuntamientos. Esta cifra incluye:</p>
+
+      <ul>
+        <li>Deudas con entidades de crédito obligadas a declarar a la Central de Información de
+          Riesgos del Banco de España, como bancos, cajas de ahorro, cooperativas de crédito,
+          sucursales en España de entidades de crédito no residentes y establecimientos financieros
+          de crédito.</li>
+
+        <li>Las cuantías correspondientes a emisiones de deuda pública. Se utiliza el protocolo
+          de déficit excesivo y para valorar la cuantía de la deuda se han considerado:
+          <ul>
+            <li>Créditos financieros</li>
+            <li>Valores de renta fija</li>
+            <li>Productos devengados por activos dudosos</li>
+            <li>Préstamos o créditos transferidos a terceros</li>
+            <li>Factoring sin recurso</li>
+            <li>Fondo de Financiación Pago a Proveedores</li>
+            <li>Asociaciones Publico Privadas (APP’s)</li>
+          </ul>
+        </li>
+      </ul>
+      <p><a
+          href="http://www.minhap.gob.es/Documentacion/Publico/DGCFEL/DeudaViva/Informe%20Deuda%20Viva%202015%20Total_OVEL_20160506.pdf"
+          target="_blank">Más información</a></p>
+
+      <p><strong>Datos presupuestarios:</strong>Los datos económicos de los presupuestos de los municipios están extraídos de la base de datos que publica el Ministerio de Economía y Hacienda a través de la Secretaría General de Coordinación Autónomica y Local. La publicación de esta base de datos se realiza en esta URL: <a href="http://serviciosweb.meh.es/apps/EntidadesLocales">serviciosweb.meh.es/apps/EntidadesLocales</a>.  Se publican de forma anual datos sobre los presupuestos y la ejecución presupuestaria.</p>
+
+      <p>Los datos se publican en formato Microsoft Access. Populate ha transformado esta base de datos para la carga en su sistema y ha publicado dicho código. La Secretaría publica una Nota Metodológica sobre los datos de los presupuestos. La última actualización de los datos de los presupuestos corresponde a la actualización del 30/12/2015 por parte del Ministerio.</p>
+
+      <p><strong>Datos de población:</strong> La información sobre la población de los municipios proviene del INE, extraída y transformada usando la librería <a href="https://github.com/PopulateTools/ruby-px">Ruby-PX</a> desarrollada por <a href="http://populate.tools">Populate</a>.</p>
+
+      <p>Si te interesan estos u otros conjuntos de datos ponte en contacto con nosostros en info@gobierto.es</p>
+    </div>
+
+  </footer>
 
 </div>

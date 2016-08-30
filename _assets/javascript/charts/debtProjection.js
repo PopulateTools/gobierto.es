@@ -170,6 +170,10 @@ var debtProjection = Class.extend({
             .data(this.countryData)
             .enter()
               .append('circle')
+              .on('mouseover', function(d){
+                $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+                this.tip.show(d);
+              }.bind(this))
               .attr('r', 5)
               .attr('data-year', function(d){return d.year.getFullYear()})
               .attr("cx", function(d){return this.x(d.year);}.bind(this))
@@ -296,6 +300,10 @@ var debtProjection = Class.extend({
           .data(this.countryDataProjected)
           .enter()
             .append('circle')
+            .on('mouseover', function(d){
+              $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+              this.tip.show(d);
+            }.bind(this))
             .attr('r', 5)
             .attr('data-year', function(d){return d.year.getFullYear()})
             .attr("cx", function(d){return this.x(d.year);}.bind(this))
@@ -303,8 +311,14 @@ var debtProjection = Class.extend({
             .attr("opacity", 0)
             .attr("class", 'circle debt-projection');
 
-    }.bind(this));
+      this.svg.append('circle')
+        .attr('r', 5)
+        .attr("cx", this.x(this.countryDataProjected[this.countryDataProjected.length-1].year))
+        .attr("cy", this.height)
+        .attr("opacity", 1)
+        .attr("class", 'circle');
 
+    }.bind(this));
   },
 
   clearMunicipalityLine: function(){
@@ -330,7 +344,7 @@ var debtProjection = Class.extend({
     var t = this.svg.transition().duration(1500).ease("sin-in-out");
     t.selectAll(".y.axis").call(this.yAxisDebt);
     t.selectAll(".line").attr("d", this.debtLine);
-    t.selectAll("circle")
+    t.selectAll("circle.debt-projection")
       .attr("cx", function(d){return this.x(d.year);}.bind(this))
       .attr("cy", function(d){return this.yDebt(d.value);}.bind(this));
 
@@ -390,6 +404,10 @@ var debtProjection = Class.extend({
         .data(municipalityData)
         .enter()
           .append('circle')
+          .on('mouseover', function(d){
+            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+            this.tip.show(d);
+          }.bind(this))
           .attr('r', 5)
           .attr('data-year', function(d){return d.year.getFullYear()})
           //.attr("cx", function(d){return this.xMunicipalities(d.year);}.bind(this))
@@ -441,39 +459,50 @@ var debtProjection = Class.extend({
       .attr("stroke-dashoffset", 0);
 
     this.svg.append("g")
-        .selectAll("rect")
-        .data(this.municipalityDataProjected)
-        .enter()
-          .append('rect')
-          .attr('data-year', function(d){return d.year.getFullYear()})
-          .attr("x", function(d){return this.x(d.year) - this.rectSize/2;}.bind(this))
-          .attr("y", function(d){return this.yProjectedDebt(d.value) - this.rectSize / 2;}.bind(this))
-          .attr("width", this.rectSize)
-          .attr("height", this.rectSize)
-          .attr("fill", "black")
-          .attr("stroke", "black")
-          .attr("opacity", 0)
-          .attr("class", 'rect municipality-line debt-projection')
-          .on('mouseover', function(d){
-            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
-            this.tip.show(d);
-          }.bind(this))
-          .on('mouseout', function(d){
-            $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
-            this.tip.hide(d);
-          }.bind(this));
+      .selectAll("rect")
+      .data(this.municipalityDataProjected)
+      .enter()
+        .append('rect')
+        .attr('data-year', function(d){return d.year.getFullYear()})
+        .attr("x", function(d){return this.x(d.year) - this.rectSize/2;}.bind(this))
+        .attr("y", function(d){return this.yProjectedDebt(d.value) - this.rectSize / 2;}.bind(this))
+        .attr("width", this.rectSize)
+        .attr("height", this.rectSize)
+        .attr("fill", "black")
+        .attr("stroke", "black")
+        .attr("opacity", 0)
+        .attr("class", 'rect municipality-line debt-projection')
+        .on('mouseover', function(d){
+          $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+          this.tip.show(d);
+        }.bind(this))
+        .on('mouseout', function(d){
+          $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+          this.tip.hide(d);
+        }.bind(this));
 
     this.svg.append("g")
-        .selectAll("circle")
-        .data(this.municipalityDataProjected)
-        .enter()
-          .append('circle')
-          .attr('r', 5)
-          .attr('data-year', function(d){return d.year.getFullYear()})
-          .attr("cx", function(d){return this.x(d.year);}.bind(this))
-          .attr("cy", function(d){return this.yProjectedDebt(d.value);}.bind(this))
-          .attr("opacity", 0)
-          .attr("class", 'secondary-circle debt-projection');
+      .selectAll("circle")
+      .data(this.municipalityDataProjected)
+      .enter()
+        .append('circle')
+        .on('mouseover', function(d){
+          $('circle.debt-projection[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+          this.tip.show(d);
+        }.bind(this))
+        .attr('r', 5)
+        .attr('data-year', function(d){return d.year.getFullYear()})
+        .attr("cx", function(d){return this.x(d.year);}.bind(this))
+        .attr("cy", function(d){return this.yProjectedDebt(d.value);}.bind(this))
+        .attr("opacity", 0)
+        .attr("class", 'secondary-circle debt-projection');
+
+    this.svg.append('circle')
+      .attr('r', 5)
+      .attr("cx", this.x(this.municipalityDataProjected[this.municipalityDataProjected.length-1].year))
+      .attr("cy", this.height)
+      .attr("opacity", 1)
+      .attr("class", 'secondary-circle');
 
     if(callback)
       callback();
@@ -485,22 +514,27 @@ var debtProjection = Class.extend({
     var height = (2*this.height)/3;
 
     var y = d3.scale.linear()
-      .range([this.height, height]);
+      .range([this.height, 20]);
 
     var yAxis = d3.svg.axis()
       .scale(y)
+      .tickFormat(function(v){
+        return v + '%';
+      })
       .orient("right");
 
-    // FIXME
-    x.domain(this.dataDebtProjectionClosed.map(function(d) { return d.key; }));
-    var xValues = [];
-    var from = this.x.domain()[0].getFullYear();
-    var to = this.x.domain()[1].getFullYear();
-    for(var i = from; i<to; i++){
-      xValues.push(new Date(i, 0, 1));
-    }
-    x.domain(xValues);
     var maxYear = this.x.domain()[1].getFullYear();
+
+    var totalMunicipalities = 0;
+    this.dataDebtProjectionClosed.forEach(function(d){
+      totalMunicipalities += d.values;
+    });
+
+    this.dataDebtProjectionClosed = this.dataDebtProjectionClosed.map(function(d){
+      return { key: new Date(d.key), values: d.values };
+    }).sort(function(a, b){
+      return a.key - b.key;
+    });
 
     // Transform the data
     var total = 0;
@@ -517,12 +551,32 @@ var debtProjection = Class.extend({
       return date.getFullYear() == maxYear - 1;
     });
 
-    this.dataDebtProjectionClosed[lastIndex].values = total;
+    //this.dataDebtProjectionClosed[lastIndex].values = total;
+
+    this.dataDebtProjectionClosed.forEach(function(d){
+      d.values = (d.values / totalMunicipalities)*100;
+    });
+
+    var dates = this.dataDebtProjectionClosed.map(function(d){
+      return d.key;
+    });
+
+    dates.unshift(new Date(2014, 0, 1));
+    dates.unshift(new Date(2013, 0, 1));
+    dates.unshift(new Date(2012, 0, 1));
+    dates.unshift(new Date(2011, 0, 1));
+    dates.unshift(new Date(2010, 0, 1));
+    x.domain(dates);
 
     y.domain([0, d3.max(this.dataDebtProjectionClosed, function(d) { return d.values; })]);
 
+    var t = 0;
+    this.dataDebtProjectionClosed.forEach(function(d){
+      t += d.values;
+    });
+
     this.svg.append("g")
-      .attr("class", "axis")
+      .attr("class", "y axis")
       .call(yAxis)
       .attr("transform", "translate(" + this.width + ",0)")
       ;
@@ -537,23 +591,33 @@ var debtProjection = Class.extend({
       .data(this.dataDebtProjectionClosed)
       .enter().append("rect")
       .attr("class", "bar")
-      .attr('fill', '#fad9d6')
+      .attr('fill', '#fa7d76')
       .attr('opacity', '0.5')
       .attr("x", function(d) { return x(d.key); })
       .attr("width", x.rangeBand())
       .attr("y", function(d) { return y(d.values); })
       .attr("height", function(d) { return this.height - y(d.values); }.bind(this));
+
+    this.svg.selectAll(".bar-text")
+      .data(this.dataDebtProjectionClosed)
+      .enter().append("text")
+      .text(function(d){
+        return d.values.toFixed(1) + '%';
+      })
+      .attr("class", "bar-text")
+      .attr("fill", "white")
+      .attr("text-anchor", "middle")
+      .attr("x", function(d) { return x(d.key) + 20; })
+      .attr("y", function(d) { return y(d.values) + 15; });
   },
 
   renderTextResults: function(municipalityName, year, $container){
      var message;
-
      if(year < 2026) {
        message = "¡Enhorabuena! " + municipalityName + " al ritmo actual acabaría de pagar su deuda antes que la media de los municipios."
      } else {
        message = "¡Ooohhh! " + municipalityName + " al ritmo actual acabaría de pagar su deuda después que la media de los municipios."
      }
-
      $container.html(message);
   },
 
