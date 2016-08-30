@@ -2,7 +2,7 @@
 
 var debtEvolution = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 40, right: 90, bottom: 30, left: 82};
+    var margin = {top: 40, right: 30, bottom: 30, left: 82};
     var heightOffset = 8;
 
     this.width = width - margin.left - margin.right;
@@ -18,7 +18,7 @@ var debtEvolution = Class.extend({
         .range([this.height, 0]);
 
     this.legendScale = d3.scale.ordinal()
-        .domain(['Evolución de la deuda acumulada por habitante', '% del presupuesto anual dedicado a pagar deuda'])
+        .domain(['Evolución de la deuda acumulada', '% del presupuesto anual dedicado a pagar deuda'])
         .range([ "#4292a1", "#fcb842"]);
 
     this.xAxis = d3.svg.axis()
@@ -102,12 +102,14 @@ var debtEvolution = Class.extend({
 
       this.svg.append("path")
           .datum(data)
-          .attr("class", "line")
+          .classed("line", true)
+          .classed("debt-evolution", true)
           .attr("d", this.debtLine);
 
       this.svg.append("path")
           .datum(data)
-          .attr("class", "secondary-line")
+          .classed("secondary-line", true)
+          .classed("debt-evolution", true)
           .attr("d", this.percentageLine);
 
       var rectSize = 80;
@@ -125,11 +127,11 @@ var debtEvolution = Class.extend({
             .attr("stroke", "black")
             .attr("opacity", 0)
             .on('mouseover', function(d){
-              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
+              $('circle.debt-evolution[data-year='+d.year.getFullYear()+']').attr('opacity', 1);
               this.tip.show(d);
             }.bind(this))
             .on('mouseout', function(d){
-              $('circle[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
+              $('circle.debt-evolution[data-year='+d.year.getFullYear()+']').attr('opacity', 0);
               this.tip.hide(d);
             }.bind(this));
 
@@ -143,7 +145,8 @@ var debtEvolution = Class.extend({
             .attr("cx", function(d){return this.x(d.year);}.bind(this))
             .attr("cy", function(d){return this.yDebt(d.debt);}.bind(this))
             .attr("opacity", 0)
-            .attr("class", 'circle');
+            .classed("circle", true)
+            .classed("debt-evolution", true);
 
       this.svg.append("g")
           .selectAll("circle")
@@ -155,7 +158,8 @@ var debtEvolution = Class.extend({
             .attr("cx", function(d){return this.x(d.year);}.bind(this))
             .attr("cy", function(d){return this.yPercentage(d.percentage);}.bind(this))
             .attr("opacity", 0)
-            .attr('class', 'secondary-circle');
+            .classed("secondary-circle", true)
+            .classed("debt-evolution", true);
 
       this.svg.append("g")
         .attr("class", "legendOrdinal")
