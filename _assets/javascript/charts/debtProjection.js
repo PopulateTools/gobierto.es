@@ -517,7 +517,7 @@ var debtProjection = Class.extend({
     var height = (2*this.height)/3;
 
     var y = d3.scale.linear()
-      .range([this.height, 20]);
+      .range([this.height, 150]);
 
     var yAxis = d3.svg.axis()
       .scale(y)
@@ -557,7 +557,7 @@ var debtProjection = Class.extend({
     //this.dataDebtProjectionClosed[lastIndex].values = total;
 
     this.dataDebtProjectionClosed.forEach(function(d){
-      d.values = (d.values / totalMunicipalities)*100;
+      d.values = ((d.values / totalMunicipalities)*100).toFixed();
     });
 
     var dates = this.dataDebtProjectionClosed.map(function(d){
@@ -605,7 +605,7 @@ var debtProjection = Class.extend({
       .data(this.dataDebtProjectionClosed)
       .enter().append("text")
       .text(function(d){
-        return d.values.toFixed(1);
+        return d.values + '%';
       })
       .attr("class", "bar-text")
       .attr("fill", "white")
