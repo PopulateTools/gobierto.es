@@ -79,9 +79,9 @@ main_photo_big:
             <input type="hidden" name="ine_code" />
           </form>
           <p><small>Ejemplos: 
-          	<a href="">Pontevedra</a>,
-          	<a href="">Sevilla</a>,
-          	<a href="">Alicante</a>
+          	<a href="" data-fill-autocomplete="36038">Pontevedra</a>,
+          	<a href="" data-fill-autocomplete="41091">Sevilla</a>,
+          	<a href="" data-fill-autocomplete="3014">Alicante</a>
           </small></p>
 
         </div>
@@ -98,7 +98,7 @@ main_photo_big:
           <p>En total, el 85% de los municipios habrán saldado su deuda en los próximos 15 años (siempre que no se genere nueva deuda, claro).</p>
           <p>Casi un 7% de los municpios no tiene deuda o la habrá podido pagar al final de este año.</p>
 
-          <p><small><button class="button "><i class="fa fa-circle-o-notch"></i> Empezar de nuevo</button></small></p>
+          <p><small><button class="button" data-restart-projection><i class="fa fa-circle-o-notch"></i> Empezar de nuevo</button></small></p>
 
         </div>
 

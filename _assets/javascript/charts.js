@@ -88,4 +88,44 @@ $(function(){
     });
   });
 
+  $('[data-fill-autocomplete]').on('click', function(e){
+    e.preventDefault();
+    $('[data-municipality-projection] input:hidden').val($(this).data('fill-autocomplete'));
+    $('[data-municipality-projection] input:text').val($(this).html());
+    $('[data-municipality-projection]').submit();
+  });
+
+  $('[data-restart-projection]').on('click', function(e){
+    $('[data-step=4]').hide();
+    $('[data-step=1]').show();
+
+    var $container = $('#debtProjection');
+    $container.html('');
+    $('[data-municipality-projection] input:text').val('');
+
+    var height;
+    var heightOffset = 20;
+    var width = $container.parents('.widget').width();
+
+    var height = $('[data-height-reference='+$container.attr('id')+']').outerHeight();
+
+    window.g = new debtProjection($container.attr('id'), width, height);
+    window.g.render($container.data('chart-data-url'), function(){
+      // Filter municipalities with data in 2015
+      var municipalities = window.g.municipalitiesData.filter(function(e){
+        return e.year.getFullYear() == 2015;
+      }).
+      map(function(e){
+        return {value: e.name, data: e.ine_code};
+      });
+
+      $('#suggest').autocomplete({
+        lookup: municipalities,
+        minChars: 3,
+        onSelect: function(suggestion) {
+          $('[data-municipality-projection] input:hidden').val(suggestion.data);
+        }
+      });
+    });
+  });
 });
