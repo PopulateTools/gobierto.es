@@ -34,7 +34,7 @@ $(function(){
       height = height - $container.parents('.chart-container').height() - heightOffset;
     } else {
       var minHeight = (3*width) / 4;
-      var height = $('[data-height-reference='+$container.attr('id')+']').height();
+      var height = $('[data-height-reference='+$container.attr('id')+']').outerHeight();
     }
 
     switch ($container.data('chart-container')) {
