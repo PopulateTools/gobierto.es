@@ -2,7 +2,7 @@
 
 var debtProjection = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 10, right: 0, bottom: 50, left: 120};
+    var margin = {top: 10, right: 0, bottom: 60, left: 120};
 
     this.width = width - margin.left - margin.right;
     this.height = height - margin.top - margin.bottom;
@@ -605,12 +605,12 @@ var debtProjection = Class.extend({
       .data(this.dataDebtProjectionClosed)
       .enter().append("text")
       .text(function(d){
-        return d.values.toFixed(1) + '%';
+        return d.values.toFixed(1);
       })
       .attr("class", "bar-text")
       .attr("fill", "white")
       .attr("text-anchor", "middle")
-      .attr("x", function(d) { return x(d.key) + 20; })
+      .attr("x", function(d) { return x(d.key) + 12; })
       .attr("y", function(d) { return y(d.values) + 15; });
   },
 

@@ -258,6 +258,11 @@
     stroke-width:3;
     stroke:#f90;
   }
+
+  .bar-text {
+    font-size: .85em;
+    font-weight: bold;
+  }
 }
 
 .autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
