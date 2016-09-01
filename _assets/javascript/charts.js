@@ -29,13 +29,7 @@ $(function(){
     var heightOffset = 20;
     var width = $container.parents('.widget').width();
 
-    if(window.location.hash !== ""){
-      height = parseFloat(window.location.hash.substr(1));
-      height = height - $container.parents('.chart-container').height() - heightOffset;
-    } else {
-      var minHeight = (3*width) / 4;
-      var height = $('[data-height-reference='+$container.attr('id')+']').outerHeight();
-    }
+    var height = $('[data-height-reference='+$container.attr('id')+']').outerHeight();
 
     switch ($container.data('chart-container')) {
       case 'debtEvolution':
@@ -55,11 +49,27 @@ $(function(){
 
           $('#suggest').autocomplete({
             lookup: municipalities,
-            minChars: 3,
+            minChars: 2,
             onSelect: function(suggestion) {
               $('[data-municipality-projection] input:hidden').val(suggestion.data);
             }
           });
+
+          if(window.location.hash !== ""){
+            var municipality = municipalities.filter(function(d){
+              return d.data == window.location.hash.substring(1);
+            })[0];
+            if(municipality !== undefined){
+              window.g.renderProjection(function(){
+                $('[data-step=1]').hide();
+                $('[data-step=2]').show();
+
+                $('[data-municipality-projection] input:hidden').val(municipality.data);
+                $('[data-municipality-projection] input:text').val(municipality.value);
+                $('[data-municipality-projection]').submit();
+              });
+            }
+          }
         });
         break;
     }
@@ -70,10 +80,10 @@ $(function(){
     window.g[$(this).data('action')]();
     var $parent = $(this).parent();
     var currentStep = $parent.data('step');
-    
+
     $parent.hide();
     // $parent.velocity("transition.slideLeftBigOut").velocity({ display: 'none'});
-    
+
     // $('[data-step='+(currentStep+1)+']').show();
     $('[data-step='+(currentStep+1)+']').velocity("transition.slideRightBigIn");
 
@@ -82,6 +92,7 @@ $(function(){
   $('[data-municipality-projection]').on('submit', function(e){
     e.preventDefault();
     var ineCode = $(this).find('input:hidden').val();
+    window.location.hash = ineCode;
     var municipalityName = $(this).find('input:text').val();
     var $parent = $(this).parent();
     window.g.renderMunicipalityLine(ineCode, function(){
@@ -109,9 +120,7 @@ $(function(){
     $('[data-municipality-projection] input:text').val('');
 
     var height;
-    var heightOffset = 20;
     var width = $container.parents('.widget').width();
-
     var height = $('[data-height-reference='+$container.attr('id')+']').outerHeight();
 
     window.g = new debtProjection($container.attr('id'), width, height);

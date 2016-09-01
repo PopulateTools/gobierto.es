@@ -190,7 +190,7 @@ var debtProjection = Class.extend({
     }.bind(this));
   },
 
-  renderProjection: function(){
+  renderProjection: function(callback){
     var newYear = 2016;
     var maxYears = 0;
     var projectedDebtPerPerson = this.lr.fn(newYear);
@@ -319,6 +319,10 @@ var debtProjection = Class.extend({
         .attr("cy", this.height)
         .attr("opacity", 1)
         .attr("class", 'circle');
+
+      if(callback){
+        setTimeout(callback, 1500);
+      }
 
     }.bind(this));
   },
