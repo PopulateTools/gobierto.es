@@ -418,6 +418,13 @@ article {
     line-height: 1.5em;
     margin: 0 0 3em 0;
   }
+  .note {
+    font-size: .85em;
+    line-height: 1.4em;
+    background: $color_grey_soft;
+    padding: 2em 3em;
+    @include border-radius(6px);
+  }
 
   .meta, .sidebar {
     font-size: .85em;
@@ -557,7 +564,6 @@ article {
 .column .tool {
   margin: 0 -20%;
   max-width: 1500px;
-
 }
 
 

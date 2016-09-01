@@ -1,7 +1,7 @@
 ---
 layout: post
-title: ¿Cuánto tardaríamos en pagar toda la deuda municipal?
-subtitle: ¿Cuánta deuda tienen los municipios? ¿Cuánto se tardará en pagarla? ¿Crece o está controlada? ¿Cuánto pagamos de intereses?
+title: ¿Cuándo terminará tu municipio de pagar toda su deuda?
+subtitle: Los servicios públicos nos cuestan más de lo que recaudamos via impuestos. Los municipios 
 date: 2016-08-31 8:00:00 +0100
 categories: 
 # excerpt: Even more estimulating excerpt to be used in case you need it. 
@@ -120,6 +120,10 @@ main_photo_big:
 
 <div class="separator blue short"></div>
 
+<p>Pensar que a partir de ahora solo vamos a conseguir reducir la deuda de los municipios es tal vez ser demasiado optimista. Este es por tanto uno de los mejores escenarios posibles. Tampoco consideramos que endeudarse sea necesariamente malo, aunque desde luego que endeudarse sin control si que lo es. La buena noticia es que parece que la deuda de los municipios está más o menos controlada.</p>
+
+<p>La mala noticia es que la deuda de los municipios es solo una parte muy pequeña, apenas un 3%, de la deuda de todas las administraciones públicas. En próximas entregas nos meteremos a analizar la deuda de comunidades autónomas y otros.</p>
+
 <p>En <a href="http://presupuestos.gobierto.es">presupuestos.gobierto.es</a> puedes revisar el presupuesto de tu municipio, y <a href="https://presupuestos.gobierto.es/compare">comparar</a> tu municipio con otros.</p>
 
 
@@ -160,7 +164,7 @@ main_photo_big:
 
   <p>Si te interesan estos u otros conjuntos de datos ponte en contacto con nosostros en info@gobierto.es</p>
 
-  <p>Enlaces de interés:</p>
+  <p><strong>Enlaces de interés:</strong></p>
 
   <ul>
   	<li><a href="http://www.rendiciondecuentas.es/es/informaciongeneral/ingresosentidades/LimitesEndeudamientoEntidadesLocales.html">¿Cuáles son los límites al endeudamiento de las Entidades locales?</a> en rendiciondecuentas.es</li>    

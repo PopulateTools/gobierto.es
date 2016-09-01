@@ -2,7 +2,7 @@
 
 var debtEvolution = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 40, right: 30, bottom: 30, left: 82};
+    var margin = {top: 40, right: 50, bottom: 30, left: 82};
     var heightOffset = 8;
 
     this.width = width - margin.left - margin.right;
