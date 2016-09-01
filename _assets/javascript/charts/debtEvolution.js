@@ -45,10 +45,12 @@ var debtEvolution = Class.extend({
         .orient("right");
 
     this.debtLine = d3.svg.line()
+        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.debt); }.bind(this));
 
     this.percentageLine = d3.svg.line()
+        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yPercentage(d.percentage); }.bind(this));
 

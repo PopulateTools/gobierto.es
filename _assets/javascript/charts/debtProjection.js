@@ -33,10 +33,12 @@ var debtProjection = Class.extend({
         })
         .orient("left");
     this.debtLine = d3.svg.line()
+        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.value); }.bind(this));
 
     this.municipalityDebtLine = d3.svg.line()
+        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yDebt(d.value); }.bind(this));
 
@@ -221,7 +223,7 @@ var debtProjection = Class.extend({
     this.yProjectedDebt.domain(this.yDebt.domain());
 
     this.projectedDebtLine = d3.svg.line()
-        //.interpolate("cardinal")
+        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yProjectedDebt(d.value); }.bind(this));
 
@@ -442,6 +444,7 @@ var debtProjection = Class.extend({
     this.municipalityDataProjected.push({year: new Date(newYear, 0, 1), value: projectedDebtPerPerson});
 
     this.projectedMunicipalityDebtLine = d3.svg.line()
+        .interpolate("cardinal")
         .x(function(d) { return this.x(d.year); }.bind(this))
         .y(function(d) { return this.yProjectedDebt(d.value); }.bind(this));
 
