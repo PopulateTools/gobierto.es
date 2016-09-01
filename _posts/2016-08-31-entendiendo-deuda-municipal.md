@@ -1,8 +1,8 @@
 ---
 layout: post
 title: ¿Cuándo terminará tu municipio de pagar toda su deuda?
-subtitle: Los servicios públicos nos cuestan más de lo que recaudamos via impuestos. Los municipios 
-date: 2016-08-31 8:00:00 +0100
+subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse de su deuda
+date: 2016-09-01 8:00:00 +0100
 categories: 
 # excerpt: Even more estimulating excerpt to be used in case you need it. 
 author: Populate
