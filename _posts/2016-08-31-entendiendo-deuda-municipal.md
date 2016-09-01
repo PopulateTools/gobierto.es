@@ -162,6 +162,8 @@ main_photo_big:
 
   <p><strong>Datos de población:</strong> La información sobre la población de los municipios proviene del INE, extraída y transformada usando la librería <a href="https://github.com/PopulateTools/ruby-px">Ruby-PX</a> desarrollada por <a href="http://populate.tools">Populate</a>.</p>
 
+  <p><strong>Proyección deuda futura</strong> La proyección de cómo evolucionará la deuda en los próximos años la hemos realizado mediante una regresión lineal basada en los datos de los últimos 4 años.</p>
+
   <p>Si te interesan estos u otros conjuntos de datos ponte en contacto con nosostros en info@gobierto.es</p>
 
   <p><strong>Enlaces de interés:</strong></p>
