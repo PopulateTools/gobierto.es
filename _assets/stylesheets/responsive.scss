@@ -16,6 +16,10 @@
       }
     }
   }
+  .column .tool {
+    margin: initial;
+    max-width: initial;
+  }
 }
 
 @include screen(900) {

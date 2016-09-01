@@ -23,10 +23,6 @@ header.project {
   width: 100%;
   border-bottom: 2px solid $color_separator;
 
-  a {
-    color: #FFF;
-    text-decoration: none;
-  }
   .site-title {
     display: inline-block;
     padding: 0;
@@ -152,19 +148,29 @@ header.project.sticked {
 }
 
 /*
- * Sidebar blocks
+ * $%&/ blocks
  *
  */
 .block {
   margin: 0 0 3em 0;
+  box-sizing: border-box;
   font-size: .85em;
-  color: $color_text_light;
-  a {
+  // color: $color_text_light;
+  /*a {
     color: $color_text_light;
     text-decoration: none;
   }
   a:hover {
     color: darken($color_text_light, 20%);
+  }*/
+  h1, h2, h3 {
+    color: $color_blue;
+  }
+  h1 {
+    font-size: 2.4em;
+  }
+  h2 {
+    margin-top: 0;
   }
   h3 {
     color: $color_main;
@@ -198,6 +204,37 @@ header.project.sticked {
     @include border-radius(6px);
   }
 }
+
+
+/*
+ * Widgets
+ *
+ */
+.widget.box_blue {
+  padding: 1em;
+  @include border-radius(8px);
+}
+.widget {
+  .highlight_big, .highlight_med {
+    color: $color_blue;
+  }
+  .highlight_big {
+    font-size: 4.8em;
+    font-weight: bold;
+    line-height: 1.5em;
+  }
+  .highlight_med {
+    font-size: 2.6em;
+    font-weight: 200;
+    line-height: 1.5em;
+  }
+  .separator {
+    border-top: 1px solid rgba($color_blue, .3);
+    margin: 3em 7em;
+  }
+}
+
+
 
 
 /*
@@ -284,6 +321,14 @@ menu.on_logo_hover {
 .column_c {
   margin: auto;
   width: 75%;
+}
+.column_w {
+  margin: auto;
+  width: 90%;
+  .full_width {
+    margin-left: -5.5%;
+    width: 111%;
+  }
 }
 .column {
   .min_full_wide {
@@ -372,6 +417,13 @@ article {
     font-weight: 400;
     line-height: 1.5em;
     margin: 0 0 3em 0;
+  }
+  .note {
+    font-size: .85em;
+    line-height: 1.4em;
+    background: $color_grey_soft;
+    padding: 2em 3em;
+    @include border-radius(6px);
   }
 
   .meta, .sidebar {
@@ -508,6 +560,10 @@ article {
   .tool a:hover {
     background: darken($color_tool_bg, 5%);
   }
+}
+.column .tool {
+  margin: 0 -20%;
+  max-width: 1500px;
 }
 
 
@@ -704,7 +760,7 @@ a.social_share {
  * Forms
  *
  */
-input[type=text], input[type=email], input[type=submit], .button, .option, select, option {
+input[type=text], input[type=email], input[type=submit], a.button, .button, .option, select, option {
   box-sizing: border-box;
   height: 54px;
   padding: 0 1em; 
@@ -714,7 +770,7 @@ input[type=text], input[type=email], input[type=submit], .button, .option, selec
   @include border-radius(6px);
   border: 0;
 }
-input[type=submit], .button {
+input[type=submit], .button, a.button {
   @include transition;
   border: 0;
   background: $color_blue_dark;
@@ -1004,10 +1060,21 @@ img.inline {
   margin: 3em 0;
   border-top: 1px solid $color_separator;
 }
+
+.separator.blue {
+  border-top: 1px solid rgba($color_blue, 0.3);
+}
+
 .separator_short {
   margin: 3em auto;
   border-top: 1px solid $color_separator;
   width: 33%;
+}
+
+.separator.short {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
 }
 
 .pad-right-3 {
@@ -1554,5 +1621,89 @@ img {
     display: block;
     @include border-radius(50%);
     margin: 5% auto;
+  }
+}
+
+
+body.slim {
+  header.project {
+    padding: 3em 0 1em;
+    margin: 0 0 4em 0;
+    .logo {
+      position: relative;
+      top: initial;
+      left: initial;
+    }
+    h1 {
+      font-size: 1.2em;
+    }
+  }
+  .access_to_site {
+    box-sizing: border-box;
+    padding: 1em;
+  }
+}
+.tool {
+  menu {
+    margin: 0;
+    padding: 0 5em 0 0;
+  }
+  .scroll-nav {
+    font-size: .85em;
+    a {
+      color: $color_meta_text;
+      text-decoration: none;
+    }
+    ol {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      li {
+        margin: 0 0 1em 0;
+      }
+      li.in-view {
+        font-weight: bold;
+      }
+    }
+  }
+  .indexed_content {
+    box-sizing: border-box;
+    h2 {
+      font-weight: normal;
+      font-size: 2.6em;
+      border-bottom: 1px solid rgba($color_main, .1);
+      padding: 0 6em .5em 0;
+    }
+    .block {
+      margin-bottom: 5em;
+      .insights {
+        ul {
+          margin: 0;
+          padding: 0;
+          li {
+            list-style-type: none;
+            font-size: 1.4em;
+            margin: 0 0 1em 0;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+/*
+ * Features
+ *
+ */
+.debt_story_slides {
+  .block {
+    min-height: 300px;
+    padding: 2em;
+    font-size: 1.2em;    
+  }
+  #suggest {
+    width: 65%;
   }
 }

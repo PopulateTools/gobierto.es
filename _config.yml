@@ -14,15 +14,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 permalink: /blog/:year:month:day-:title.html
 
 collections:
-  articles:
-    output: true
-    permalink: /:year:month:day-:title.html
   static_pages:
     output: true
     permalink: /pages/:path/
   newsletters:
     output: true
     permalink: /newsletters/:title.html
+  tools:
+    output: true
+    permalink: /herramientas/:title/
+  charts:
+    output: true
+    permalink: /charts/:path/
 
 # urls for sections/pages
 url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
@@ -58,9 +61,6 @@ assets:
     - _assets/javascript
     - _assets/images
     - _assets/stylesheets
-  compress:
-    js: true
-  cachebust: hard
   gzip: [ text/css, application/javascript ]
   digest: false
 

@@ -2,6 +2,7 @@
 //= require vendor/jquery-2.2.0.min
 //= require vendor/sticky-kit.min
 //= require vendor/velocity.min
+//= require vendor/velocity.ui
 //= require vendor/jquery.magnific-popup.min
 //= require vendor/jquery.waypoints.min
 //= require vendor/jquery.waypoints.inview
@@ -11,6 +12,8 @@
 //= require vendor/klass
 //= require components/shareContent
 //= require mixpanel_sync
+//= require vendor/jquery.scrollNav.min
+
 
 // some config
 var min_scroll_to_show_social_links = 650;
@@ -53,10 +56,33 @@ $(function(){
 
   rebindAll();
 
+  $(".stick_ip").stick_in_parent();
+
   $('article a').after(function() {
     if($(this).attr('href').match(/^http/) !== null){
       $(this).attr('target', '_blank');
     }
+  });
+
+  $('.indexed_content').scrollNav({
+    sections: 'h2',
+    subSections: false,
+    sectionElem: 'section',
+    showHeadline: false,
+    // headlineText: 'Scroll To',
+    showTopLink: true,
+    topLinkText: 'Inicio',
+    fixedMargin: 40,
+    scrollOffset: 40,
+    animated: true,
+    speed: 500,
+    insertTarget: $('.doc_index'),
+    insertLocation: 'insertBefore',
+    arrowKeys: true,
+    scrollToHash: true,
+    // onInit: null,
+    // onRender: null,
+    // onDestroy: null
   });
 
   // autocaptions for article images
@@ -78,7 +104,6 @@ $(function(){
       $(this).after('<caption>' + $(this).attr('title') + '</caption></div>');
     }
   });
-
 
   // autocaptions for article header image
   if($('article img.heading').length > 0 && $('article img.heading').attr('title').length > 0) {
@@ -114,19 +139,6 @@ $(function(){
   //     }, 200);
   //   });
   // }
-
-  // init fixed header
-  /*
-  $(".stickable").stick_in_parent().
-    on("sticky_kit:stick", function(e) {
-      $("header.project").addClass('sticked');
-      console.log('sticked');
-    })
-    .on("sticky_kit:unstick", function(e) {
-      $("header.project").removeClass('sticked');
-      console.log('out sticked');
-    });
-  */
 
   // Show tweet_box when a on_viewport tweet is onview
   if($('.on_viewport').length) {
