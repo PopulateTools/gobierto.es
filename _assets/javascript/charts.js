@@ -70,8 +70,13 @@ $(function(){
     window.g[$(this).data('action')]();
     var $parent = $(this).parent();
     var currentStep = $parent.data('step');
+    
     $parent.hide();
-    $('[data-step='+(currentStep+1)+']').show();
+    // $parent.velocity("transition.slideLeftBigOut").velocity({ display: 'none'});
+    
+    // $('[data-step='+(currentStep+1)+']').show();
+    $('[data-step='+(currentStep+1)+']').velocity("transition.slideRightBigIn");
+
   });
 
   $('[data-municipality-projection]').on('submit', function(e){
@@ -82,8 +87,8 @@ $(function(){
     window.g.renderMunicipalityLine(ineCode, function(){
       var currentStep = $parent.data('step');
       $parent.hide();
-      $('[data-step='+(currentStep+1)+']').show();
-      var $containerResults = $('[data-step='+(currentStep+1)+']').find('p > strong');
+      $('[data-step='+(currentStep+1)+']').velocity("transition.slideRightBigIn");
+      var $containerResults = $('[data-step='+(currentStep+1)+']').find('#projection_result');
       window.g.renderTextResults(municipalityName, window.g.municipalityDebtCompleteYear, $containerResults);
     });
   });
@@ -97,7 +102,7 @@ $(function(){
 
   $('[data-restart-projection]').on('click', function(e){
     $('[data-step=4]').hide();
-    $('[data-step=1]').show();
+    $('[data-step=1]').velocity("transition.slideRightBigIn");
 
     var $container = $('#debtProjection');
     $container.html('');

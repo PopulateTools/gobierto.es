@@ -91,27 +91,30 @@
 // Debt charts
 
 .debt-chart {
+  .background-rect {
+    fill: #FFF;
+  }
   .axis.y {
     path,line {
-      stroke: #c2c6c7;
+      stroke: #DFDFDF;
       stroke-width: 1px;
     }
+    path.domain {
+      stroke-width: 0;
+    }
   }
-
   .axis text {
     fill: #848484;
   }
-
   .axis.x {
     path,line {
-      stroke: #c2c6c7;
+      stroke: #DFDFDF;
       stroke-width: 1px;
     }
     text {
       font-weight: bold;
     }
   }
-
   .axis path,
   .axis line {
     stroke: #c2c6c7;
@@ -119,7 +122,6 @@
     stroke: #000;
     shape-rendering: crispEdges;
   }
-
   .line {
     fill: none;
     stroke: #4292a1;
@@ -165,7 +167,7 @@
     width: 100%;
   }
   h4 {
-    font-size:13px;
+    font-size: 13px;
   }
 
   ul {
@@ -226,22 +228,22 @@
 
   .axis text {
     font-family: sans-serif;
-    font-size: 11px;
+    font-size: 13px;
     z-index: -1;
   }
 
   .label {
     font-family: sans-serif;
-    font-size: 10px;
+    font-size: 13px;
   }
 
   .legend {
-    margin-top:15px;
+    margin-top: 15px;
   }
 
   .legend span {
     display: inline-block;
-    width:35px;
+    width: 35px;
     text-align: center;
   }
 
@@ -255,13 +257,20 @@
   }
 
   .selected {
-    stroke-width:3;
-    stroke:#f90;
+    stroke-width: 3;
+    stroke: #f90;
   }
 
   .bar-text {
-    font-size: .85em;
+    font-size: 1em;
     font-weight: bold;
+  }
+  .actual_moment {
+    text-anchor: middle;
+    font-family: sans-serif;
+    fill: #666;
+    font-size: 11px;
+
   }
 }
 

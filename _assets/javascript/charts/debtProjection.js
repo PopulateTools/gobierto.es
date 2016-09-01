@@ -125,8 +125,8 @@ var debtProjection = Class.extend({
           .attr("y", 0)
           .attr("width", this.width)
           .attr("height", this.height)
-          .attr("fill", "#f5f5f5")
-          .attr("stroke", "#f5f5f5")
+          // .attr("fill", "#f5f5f5")
+          // .attr("stroke", "#f5f5f5")
           .classed('background-rect', true)
           .attr("opacity", 1);
 
@@ -255,7 +255,7 @@ var debtProjection = Class.extend({
       this.svg.append("text")
           .attr('x', x)
           .attr('y', this.height + 30)
-          .style('text-anchor', 'middle')
+          .classed('actual_moment', true)
           .text('Momento actual');
 
       path = this.svg.append("path")
@@ -620,9 +620,9 @@ var debtProjection = Class.extend({
   renderTextResults: function(municipalityName, year, $container){
      var message;
      if(year < 2026) {
-       message = "¡Enhorabuena! " + municipalityName + " al ritmo actual acabaría de pagar su deuda antes que la media de los municipios."
+       message = "¡Enhorabuena! Al ritmo actual <strong>" + municipalityName + "</string> acabaría de pagar su deuda antes que la media de los municipios."
      } else {
-       message = "¡Ooohhh! " + municipalityName + " al ritmo actual acabaría de pagar su deuda después que la media de los municipios."
+       message = "¡Ooohhh! Al ritmo actual <strong>" + municipalityName + "</strong> acabaría de pagar su deuda después que la media de los municipios."
      }
      $container.html(message);
   },

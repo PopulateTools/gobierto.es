@@ -87,16 +87,16 @@ main_photo_big:
         </div>
 
         <div class="block widget box_blue" data-step="3" style="display:none">
-          <p><strong></strong></p>
+          <p id="projection_result"><</p>
 
-          <p>Pero, ¿cómo estamos respecto al resto de municipios?</p>
+          <p>Y en general, ¿cuándo acabarían de pagar su deuda todos los municipios?</p>
 
           <button class="button next" data-action="renderDebtProjectionDistribution">Veamos...</button>
         </div>
 
         <div class="block widget box_blue" data-step="4" style="display:none">
-          <p>En total, el 85% de los municipios habrán saldado su deuda en los próximos 15 años (siempre que no se genere nueva deuda, claro).</p>
-          <p>Casi un 7% de los municpios no tiene deuda o la habrá podido pagar al final de este año.</p>
+          <p><strong>El 85% de los municipios habrán saldado su deuda en los próximos 15 años</strong> (siempre que no se genere nueva deuda, claro).</p>
+          <p>Casi un 7% de los municpios no tiene deuda o la habrá podido pagar a final de este año.</p>
 
           <p><small><button class="button" data-restart-projection><i class="fa fa-circle-o-notch"></i> Empezar de nuevo</button></small></p>
 
@@ -118,48 +118,53 @@ main_photo_big:
 
 </div>
 
+<div class="separator blue short"></div>
 
 <p>En <a href="http://presupuestos.gobierto.es">presupuestos.gobierto.es</a> puedes revisar el presupuesto de tu municipio, y <a href="https://presupuestos.gobierto.es/compare">comparar</a> tu municipio con otros.</p>
 
-<p></p>
+
 
 <div class="separator blue short"></div>
-  
-<h2>Metodología y Fuentes</h2>
 
-<p><strong>Datos deuda municipal:</strong> Los datos de la deuda viva se han obtenido a través del <a href="http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/DeudaViva.aspx" target="_blank">Ministerio de Hacienda y Administraciones Públicas</a>. El dato de la deuda corresponde a la deuda viva a 31 de diciembre del año citado de cada uno de los ayuntamientos. Esta cifra incluye:</p>
+<div class="note">
 
-<ul>
-  <li>Deudas con entidades de crédito obligadas a declarar a la Central de Información de
-    Riesgos del Banco de España, como bancos, cajas de ahorro, cooperativas de crédito,
-    sucursales en España de entidades de crédito no residentes y establecimientos financieros
-    de crédito.</li>
+  <h2>Metodología y Fuentes</h2>
 
-  <li>Las cuantías correspondientes a emisiones de deuda pública. Se utiliza el protocolo
-    de déficit excesivo y para valorar la cuantía de la deuda se han considerado:
-    <ul>
-      <li>Créditos financieros</li>
-      <li>Valores de renta fija</li>
-      <li>Productos devengados por activos dudosos</li>
-      <li>Préstamos o créditos transferidos a terceros</li>
-      <li>Factoring sin recurso</li>
-      <li>Fondo de Financiación Pago a Proveedores</li>
-      <li>Asociaciones Publico Privadas (APP’s)</li>
-    </ul>
-  </li>
-</ul>
+  <p><strong>Datos deuda municipal:</strong> Los datos de la deuda viva se han obtenido a través del <a href="http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/DeudaViva.aspx" target="_blank">Ministerio de Hacienda y Administraciones Públicas</a>. El dato de la deuda corresponde a la deuda viva a 31 de diciembre del año citado de cada uno de los ayuntamientos. Esta cifra incluye:</p>
 
-<p><a href="http://www.minhap.gob.es/Documentacion/Publico/DGCFEL/DeudaViva/Informe%20Deuda%20Viva%202015%20Total_OVEL_20160506.pdf" target="_blank">Más información</a></p>
+  <ul>
+    <li>Deudas con entidades de crédito obligadas a declarar a la Central de Información de
+      Riesgos del Banco de España, como bancos, cajas de ahorro, cooperativas de crédito,
+      sucursales en España de entidades de crédito no residentes y establecimientos financieros
+      de crédito.</li>
 
-<p><strong>Datos presupuestarios:</strong> Se han extraído de <a href="http://presupuestos.gobierto.es">presupuestos.gobierto.es</a>. <a href="https://presupuestos.gobierto.es/about#method">Ver metodología y fuentes</a>.</p>
+    <li>Las cuantías correspondientes a emisiones de deuda pública. Se utiliza el protocolo
+      de déficit excesivo y para valorar la cuantía de la deuda se han considerado:
+      <ul>
+        <li>Créditos financieros</li>
+        <li>Valores de renta fija</li>
+        <li>Productos devengados por activos dudosos</li>
+        <li>Préstamos o créditos transferidos a terceros</li>
+        <li>Factoring sin recurso</li>
+        <li>Fondo de Financiación Pago a Proveedores</li>
+        <li>Asociaciones Publico Privadas (APP’s)</li>
+      </ul>
+    </li>
+  </ul>
 
-<p><strong>Datos de población:</strong> La información sobre la población de los municipios proviene del INE, extraída y transformada usando la librería <a href="https://github.com/PopulateTools/ruby-px">Ruby-PX</a> desarrollada por <a href="http://populate.tools">Populate</a>.</p>
+  <p><a href="http://www.minhap.gob.es/Documentacion/Publico/DGCFEL/DeudaViva/Informe%20Deuda%20Viva%202015%20Total_OVEL_20160506.pdf" target="_blank">Más información</a></p>
 
-<p>Si te interesan estos u otros conjuntos de datos ponte en contacto con nosostros en info@gobierto.es</p>
+  <p><strong>Datos presupuestarios:</strong> Se han extraído de <a href="http://presupuestos.gobierto.es">presupuestos.gobierto.es</a>. <a href="https://presupuestos.gobierto.es/about#method">Ver metodología y fuentes</a>.</p>
 
-<p>Enlaces de interés:</p>
+  <p><strong>Datos de población:</strong> La información sobre la población de los municipios proviene del INE, extraída y transformada usando la librería <a href="https://github.com/PopulateTools/ruby-px">Ruby-PX</a> desarrollada por <a href="http://populate.tools">Populate</a>.</p>
 
-<ul>
-	<li><a href="http://www.rendiciondecuentas.es/es/informaciongeneral/ingresosentidades/LimitesEndeudamientoEntidadesLocales.html">¿Cuáles son los límites al endeudamiento de las Entidades locales?</a> en rendiciondecuentas.es</li>    
-</ul>
+  <p>Si te interesan estos u otros conjuntos de datos ponte en contacto con nosostros en info@gobierto.es</p>
+
+  <p>Enlaces de interés:</p>
+
+  <ul>
+  	<li><a href="http://www.rendiciondecuentas.es/es/informaciongeneral/ingresosentidades/LimitesEndeudamientoEntidadesLocales.html">¿Cuáles son los límites al endeudamiento de las Entidades locales?</a> en rendiciondecuentas.es</li>    
+  </ul>
+
+</div>
 

@@ -2,6 +2,7 @@
 //= require vendor/jquery-2.2.0.min
 //= require vendor/sticky-kit.min
 //= require vendor/velocity.min
+//= require vendor/velocity.ui
 //= require vendor/jquery.magnific-popup.min
 //= require vendor/jquery.waypoints.min
 //= require vendor/jquery.waypoints.inview
@@ -12,6 +13,7 @@
 //= require components/shareContent
 //= require mixpanel_sync
 //= require vendor/jquery.scrollNav.min
+
 
 // some config
 var min_scroll_to_show_social_links = 650;
