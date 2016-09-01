@@ -2,7 +2,7 @@
 
 var debtProjection = Class.extend({
   init: function(containerId, width, height){
-    var margin = {top: 10, right: 20, bottom: 60, left: 120};
+    var margin = {top: 10, right: 30, bottom: 60, left: 120};
 
     this.width = width - margin.left - margin.right;
     this.height = height - margin.top - margin.bottom;
