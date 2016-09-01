@@ -120,6 +120,14 @@ main_photo_big:
 
 <div class="separator blue short"></div>
 
+<p>Algunos ejemplos de la proyección (ver nota al pie para detalles sobre cómo hemos proyectado los datos):</p>
+
+{% img 'posts/160901-debt-ex2' %}
+
+{% img 'posts/160901-debt-ex3' %}
+
+<div class="separator blue short"></div>
+
 <p>Pensar que a partir de ahora solo vamos a conseguir reducir la deuda de los municipios es tal vez ser demasiado optimista. Este es por tanto uno de los mejores escenarios posibles. Tampoco consideramos que endeudarse sea necesariamente malo, aunque desde luego que endeudarse sin control si que lo es. La buena noticia es que parece que la deuda de los municipios está más o menos controlada.</p>
 
 <p>La mala noticia es que la deuda de los municipios es solo una parte muy pequeña, apenas un 3%, de la deuda de todas las administraciones públicas. En próximas entregas nos meteremos a analizar la deuda de comunidades autónomas y otros.</p>

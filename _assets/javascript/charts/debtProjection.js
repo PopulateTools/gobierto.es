@@ -249,12 +249,12 @@ var debtProjection = Class.extend({
           .attr("class", "current-time-separator debt-projection")
           .attr('x1', x)
           .attr('x2', x)
-          .attr('y1', -20)
-          .attr('y2', this.height + 20);
+          .attr('y1', -10)
+          .attr('y2', this.height + 25);
 
       this.svg.append("text")
           .attr('x', x)
-          .attr('y', this.height + 30)
+          .attr('y', this.height + 35)
           .classed('actual_moment', true)
           .text('Momento actual');
 
