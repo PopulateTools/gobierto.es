@@ -67,7 +67,7 @@ $(function(){
     e.preventDefault();
 
     var email = $(this).find('.email').val();
-    var user_type = 'Professional';
+    var user_type = 'Blog Subscribe';
 
     var isValid = true;
     $(this).find('.required').each(function() {
