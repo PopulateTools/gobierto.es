@@ -20,9 +20,9 @@ collections:
   newsletters:
     output: true
     permalink: /newsletters/:title.html
-  tools:
+  widgets:
     output: true
-    permalink: /herramientas/:title/
+    permalink: /widgets/:title/
   charts:
     output: true
     permalink: /charts/:path/

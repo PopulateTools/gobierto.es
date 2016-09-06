@@ -55,64 +55,7 @@ main_photo_big:
 
   <div class="full_width">
 
-    <div class="pure-g">
-
-      <div class="pure-u-1 pure-u-md-9-24 debt_story_slides">
-        <div class="block widget box_blue" data-step="1" data-height-reference="debtProjection" >
-          <p><strong>Los municipios tienen una deuda media de un 45% de su presupuesto anual.</strong></p>
-
-          <p>En el último año han dedicado un 7% de su presupuesto a ir pagándola.</p>
-
-          <p>A este ritmo, ¿cuánto tiempo tardarán los municipios en pagar toda la deuda pendiente?</p>
-
-          <button class="button next" data-action="renderProjection">Veamos...</button>
-        </div>
-
-        <div class="block widget box_blue" data-step="2" style="display:none">
-          <p><strong>Si un municipio continuase pagando su deuda al ritmo actual, sin endeudarse más, tardaría 10 años de media en pagar toda su deuda.</strong></p>
-
-          <p>¿Cuánto tardaría tu municipio exactamente en devolver lo prestado?</p>
-
-          <form data-municipality-projection>
-            <input type="text" placeholder="Tu municipio..." id="suggest" />
-            <input type="submit" value="Ver" style="padding: 0 1em"/>
-            <input type="hidden" name="ine_code" />
-          </form>
-          <p><small>Ejemplos: 
-          	<a href="" data-fill-autocomplete="36038">Pontevedra</a>,
-          	<a href="" data-fill-autocomplete="41091">Sevilla</a>,
-          	<a href="" data-fill-autocomplete="3014">Alicante</a>
-          </small></p>
-
-        </div>
-
-        <div class="block widget box_blue" data-step="3" style="display:none">
-          <p id="projection_result"><</p>
-
-          <p>Y en general, ¿cuándo acabarían de pagar su deuda todos los municipios?</p>
-
-          <button class="button next" data-action="renderDebtProjectionDistribution">Veamos...</button>
-        </div>
-
-        <div class="block widget box_blue" data-step="4" style="display:none">
-          <p><strong>El 85% de los municipios habrán saldado su deuda en los próximos 15 años</strong> (siempre que no se genere nueva deuda, claro).</p>
-          <p>Casi un 7% de los municpios no tiene deuda o la habrá podido pagar a final de este año.</p>
-
-          <p><small><button class="button" data-restart-projection><i class="fa fa-circle-o-notch"></i> Empezar de nuevo</button></small></p>
-
-        </div>
-
-      </div>
-
-      <div class="pure-u-1 pure-u-md-15-24">
-
-        <div class="block widget">
-          <div id="debtProjection" class="debt-chart" data-chart-container="debtProjection" width="100%" data-chart-data-url="/charts/data/debt-projection.csv"></div>
-        </div>
-
-      </div>
-
-    </div>
+    <iframe src="/widgets/debt_projection_interactive/" id="debt_evolution_widget" scrolling="no" style="border: 0; padding: 0; margin: 0; height: 350px; width: 100%;" frameborder="no" align="center"></iframe>
 
   </div>
 

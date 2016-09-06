@@ -363,8 +363,24 @@
     margin: 0 0 1em 0;
     float: none;
   }
+
+  /* features */
+  #debt_evolution_widget {
+    height: 700px !important;
+  }
+  .debt_story_slides {
+    .block {
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+  }
+  
 }
 
+
+
+
+/* MOBILE MENU */
 .mobile_menu {
   .mfp-container {
     padding: 0;
