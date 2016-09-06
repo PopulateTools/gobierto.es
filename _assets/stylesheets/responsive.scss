@@ -17,8 +17,12 @@
     }
   }
   .column .tool {
-    margin: initial;
-    max-width: initial;
+    margin: 0 -30%;
+    width: 160%;
+  }
+
+  #debt_evolution_widget {
+    height: 450px !important;
   }
 }
 
@@ -39,7 +43,6 @@
     .home {
       .home_main {
         height: 25em;
-        
       }
     }
   }
@@ -191,6 +194,10 @@
         width: 100%;
         margin: 0;
       }
+    }
+    .column .tool {
+      margin: 0 -5%;
+      width: 110%;
     }
     h1 {
       font-size: 1.6em;
@@ -374,7 +381,7 @@
       margin-bottom: 1em;
     }
   }
-  
+
 }
 
 
