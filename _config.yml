@@ -28,8 +28,8 @@ collections:
     permalink: /charts/:path/
 
 # urls for sections/pages
-url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales.html"
-url_producto_presupuestos_consultas: "presupuestos_participativos_consultas.html"
+url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
+url_producto_presupuestos_consultas: "presupuestos_participativos_consultas"
 url_producto_presupuestos_historias: 
 url_producto_presupuestos_inteligencia: 
 
