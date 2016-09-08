@@ -195,10 +195,6 @@
         margin: 0;
       }
     }
-    .column .tool {
-      margin: 0 -5%;
-      width: 110%;
-    }
     h1 {
       font-size: 1.6em;
       color: $color_main;
@@ -369,17 +365,6 @@
     width: 100%;
     margin: 0 0 1em 0;
     float: none;
-  }
-
-  /* features */
-  #debt_evolution_widget {
-    height: 700px !important;
-  }
-  .debt_story_slides {
-    .block {
-      padding: 1em;
-      margin-bottom: 1em;
-    }
   }
 
 }

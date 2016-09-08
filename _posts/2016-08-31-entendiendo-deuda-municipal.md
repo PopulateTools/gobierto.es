@@ -55,6 +55,8 @@ main_photo_big:
 
   <div class="full_width">
 
+    <!-- {% stylesheet feature_debt_projection_interactive %} -->
+    <link type="text/css" rel="stylesheet" href="/assets/feature_debt_projection_interactive.css">
     <iframe src="/widgets/debt_projection_interactive/" id="debt_evolution_widget" scrolling="no" style="border: 0; padding: 0; margin: 0; height: 350px; width: 100%;" frameborder="no" align="center"></iframe>
 
   </div>
