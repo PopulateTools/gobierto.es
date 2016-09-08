@@ -667,6 +667,7 @@ a.social_share {
 }
 
 
+
 /*
  * Scroll, Donation box
  *
@@ -838,6 +839,7 @@ input.warning {
 .missing_fields {
   display: none;
 }
+
 
 /*
  * Modals
@@ -1065,23 +1067,19 @@ img.inline {
   margin: 3em 0;
   border-top: 1px solid $color_separator;
 }
-
 .separator.blue {
   border-top: 1px solid rgba($color_blue, 0.3);
 }
-
 .separator_short {
   margin: 3em auto;
   border-top: 1px solid $color_separator;
   width: 33%;
 }
-
 .separator.short {
   margin-left: auto;
   margin-right: auto;
   width: 20%;
 }
-
 .pad-right-3 {
   padding-right: 30px;
 }
@@ -1094,7 +1092,6 @@ img.inline {
 .pad-left-4 {
   padding-left: 40px;
 }
-
 .video_wrapper {
   width: 100%;
   position: relative;
@@ -1127,6 +1124,12 @@ h1, h2, h3, h4, h5 {
 }
 .box_blue {
   background: rgba($color_blue, .1);
+}
+.big {
+  font-size: 2em;
+}
+.big_super {
+  font-size: 4em;
 }
 
 
@@ -1346,6 +1349,11 @@ footer {
 
   .links {
     padding: 6em 0;
+    ul, li {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
   }
   menu {
     border-top: 1px solid $color_separator;
@@ -1355,7 +1363,6 @@ footer {
     line-height: 1.7em;
     a {
       display: inline-block;
-      margin: 0 1em 0 0;
     }
     h4 {
       margin: 0;
@@ -1368,7 +1375,7 @@ footer {
     margin: 0 0 0 -38px;
   }
   .logos {
-    font-size: .75em;
+    font-size: .85em;
     img {
       width: 70%;
       height: auto;
@@ -1376,11 +1383,11 @@ footer {
     }
   }
   .logo_populate {
-    text-align: center;
-    margin: 3em 0;
+    margin: 2em 0;
     p {
       font-size: .75em;
       opacity: .6;
+      margin: 0 0 .5em 0;
     }
     img {
       width: 100px;

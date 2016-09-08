@@ -99,38 +99,43 @@
 
 			<menu>
 				
-				<div class="pure-u-1">
-					<a href="/">Inicio</a>
-					<a href="/acerca-de/">Quiénes somos</a>
-					<a href="/{{ site.url_producto_presupuestos_visualizacion }}">Visualización Presupuestos Municipales</a> 
-					<a href="/blog/">Blog</a>
-					<a href="#demo">Demo</a>
-					<a href="/acerca-de/#contacto">Contacto</a>
+				<div class="pure-u-1 pure-u-md-1-4">
+					<ul>
+						<li><a href="/">Inicio</a></li>
+						<li><a href="/acerca-de/">Quiénes somos</a></li>
+						<li><a href="/blog/">Blog</a></li>
+						<li><a href="#demo">Demo</a></li>
+						<li><a href="/acerca-de/#contacto">Contacto</a></li>
+					</ul>
 				</div>
 
-				<!--
-				
-				<div class="pure-u-1 pure-u-md-1-3">
+				<div class="pure-u-1 pure-u-md-1-4">
 					<h4><strong>Presupuestos</strong></h4>
-					<a href="/">Visualización</a>
-					<a href="">Consultas</a>
-					<a href="">Historias</a>
-					<a href="">Inteligencia</a>
+					<ul>
+		        <li><a href="/{{ site.url_producto_presupuestos_visualizacion }}">Visualización</a></li>
+		        <li><a href="/{{ site.url_producto_presupuestos_consultas }}">Consultas</a></li>
+		        <li>Historias</li>
+		        <li>Inteligencia</li>
+		      </ul>
+					
 				</div>
 
-				<div class="pure-u-1 pure-u-md-1-3">
+				<div class="pure-u-1 pure-u-md-1-4">
 					
-				</div> -->
+				</div>
+
+				<div class="pure-u-1 pure-u-md-1-4 right">
+					<p>Gobierto es <a href="/open-source">open source</a></p>
+					<div class="logo_populate">
+						<p>Un producto de</p>
+    				<a href="http://populate.tools" target="_blank" title="Tools for civic engagement">{% img 'logo_populate' %}</a>
+    			</div>
+				</div>
 
 			</menu>
 
 		</div>
 
 	</div>
-
-  <div class="logo_populate">
-    <p>Built by</p>
-    <a href="http://populate.tools" target="_blank" title="Tools for civic engagement">{% img 'logo_populate' %}</a>
-  </div>
 
 </footer>
