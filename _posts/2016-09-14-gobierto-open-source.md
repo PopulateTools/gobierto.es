@@ -20,7 +20,7 @@ Ahora mismo Gobierto resuelve 3 casos de uso principales, sobre todo en torno a 
 - Instalación multisite para múltiples entidades
 - Herramienta de comparador de presupuestos de entidades equivalentes:  [presupuestos.gobierto.es](http://presupuestos.gobierto.es)
 
-Tienes más información en la página del proyecto, así como instrucciones para ponerte en marcha: [https://github.com/PopulateTools/gobierto](github.com/PopulateTools/gobierto)
+Tienes más información en la página del proyecto, así como instrucciones para ponerte en marcha: [https://github.com/PopulateTools/gobierto](https://github.com/PopulateTools/gobierto)
 
 ## Por qué hacemos Gobierto
 
@@ -36,7 +36,7 @@ A la hora de pensar en poner en marcha Gobierto y definir qué es lo que es -y s
 
 Más información: 
 - [Gobierto Open Source](/open-source/)
-- El código: [github.com/PopulateTools/gobierto](http://github.com/PopulateTools/gobierto/)
+- El código: [github.com/PopulateTools/gobierto](https://github.com/PopulateTools/gobierto/)
 
 
 
