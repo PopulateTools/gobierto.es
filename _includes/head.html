@@ -36,6 +36,8 @@
       {% else %}
         <meta property="og:image" content="{{site.url}}{% asset_path {{page.main_photo}} %}" />
       {% endif %}
+    {% else %}
+      <meta property="og:image" content="{{site.url}}{% asset_path 'posts/_default_post_image.png' %}" />
     {% endif %}
   {% endif %}
 
