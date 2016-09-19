@@ -29,7 +29,7 @@ permalink: /acerca-de/
 
         <h2 id="contacto">Contacto</h2>
 
-        <p>Puedes localizarnos en info@gobierto.es. Síguenos en <a href="http://twitter.com/gobierto">@gobierto</a> y <a href="http://twitter.com/populatetools">@populatetools</a>.</p>
+        <p>Puedes localizarnos en abre@gobierto.es. Síguenos en <a href="http://twitter.com/gobierto">@gobierto</a> y <a href="http://twitter.com/populatetools">@populatetools</a>.</p>
 
 
         <div class="separator m_v_2"></div>

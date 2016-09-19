@@ -52,7 +52,7 @@ En un contexto en el que nuestra comunidad de vecinos es más proactiva comunica
 
 En Gobierto estamos explorando y experimentando con ideas para generar participación. Mañana, siguiente post. Suscríbete para recibirlo en tu buzón.
 
-**¿Trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación?** En Gobierto construimos herramientas diseñadas para el ciudadano para ayudarte a [comunicar tus presupuestos](/visualizacion_presupuestos_municipales). Nos gustaría hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:info@gobierto.es).
+**¿Trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación?** En Gobierto construimos herramientas diseñadas para el ciudadano para ayudarte a [comunicar tus presupuestos](/visualizacion_presupuestos_municipales). Nos gustaría hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
 
 
 

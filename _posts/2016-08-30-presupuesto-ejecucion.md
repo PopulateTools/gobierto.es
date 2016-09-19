@@ -37,8 +37,8 @@ Proximamente: cómo se compara la ejecución de partidas específicas entre dist
 
 <div class="separator_short"></div>
 
-Mientras preparamos nuestra API, si trabajas en un medio o simplemente tienes interés y quieres acceso a estos datos en crudo para preparar otras visualizaciones, escribenos: <a href="mailto:info@gobierto.es">info@gobierto.es</a>.
+Mientras preparamos nuestra API, si trabajas en un medio o simplemente tienes interés y quieres acceso a estos datos en crudo para preparar otras visualizaciones, escribenos: <a href="mailto:abre@gobierto.es">abre@gobierto.es</a>.
 
 <div class="separator_short"></div>
 
-Gobierto crea herramientas para mejorar la comunicación de municipios y administraciones públicas. Si trabajas para un municipio y quieres ofrecer una <a href="/visualizacion_presupuestos_municipales">visulización de tus presupuestos municipales</a> y otras herramientas de implementación ágil para mejorar la comunicación con tus vecinos, escríbenos: <a href="mailto:info@gobierto.es">info@gobierto.es</a>.
+Gobierto crea herramientas para mejorar la comunicación de municipios y administraciones públicas. Si trabajas para un municipio y quieres ofrecer una <a href="/visualizacion_presupuestos_municipales">visulización de tus presupuestos municipales</a> y otras herramientas de implementación ágil para mejorar la comunicación con tus vecinos, escríbenos: <a href="mailto:abre@gobierto.es">abre@gobierto.es</a>.

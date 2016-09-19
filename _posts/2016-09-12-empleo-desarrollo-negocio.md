@@ -40,7 +40,7 @@ Gobierto está arrancando, por lo que podrás contribuir en la definición de nu
 
 **Dónde**: Nuestra oficina está en el centro de Madrid y tenemos un ambiente de trabajo distendido y con horarios flexibles.
 
-**¿Eres tú?** Si todo esto te suena bien, te gusta la idea y crees en el proyecto, escribe un correo-e a info@gobierto.es con el asunto “Puesto: ”. Cuéntanos:
+**¿Eres tú?** Si todo esto te suena bien, te gusta la idea y crees en el proyecto, escribe un correo-e a abre@gobierto.es con el asunto “Puesto: ”. Cuéntanos:
 
 - Qué has hecho previamente, qué haces ahora, y qué te gustaría estar haciendo dentro de 10 años
 - 3 cosas que cambiarías de [presupuestos.gobierto.es](http://presupuestos.gobierto.es), por qué, y cómo lo harías tú

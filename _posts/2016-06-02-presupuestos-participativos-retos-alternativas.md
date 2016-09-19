@@ -58,4 +58,4 @@ En la próxima entrega, un repaso de iniciativas de participación a lo largo de
 
 <div class="separator"></div>
 
-**¿Trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación?** En Gobierto construimos herramientas diseñadas para el ciudadano para ayudarte a comunicar tus presupuestos. Nos gustaría hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:info@gobierto.es).
+**¿Trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación?** En Gobierto construimos herramientas diseñadas para el ciudadano para ayudarte a comunicar tus presupuestos. Nos gustaría hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).

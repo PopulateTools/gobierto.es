@@ -37,7 +37,7 @@ Si trabajas en un municipio puedes utilizar la herramienta de rankings para pone
 
 ## Siguientes pasos
 
-Como siempre, tenemos muchas ideas de mejoras a incluir. Ya os iremos avisando. Si mientras tanto queréis algo en especial, no dudéis en escribirnos, nos encanta escuchar ideas: info@gobierto.es
+Como siempre, tenemos muchas ideas de mejoras a incluir. Ya os iremos avisando. Si mientras tanto queréis algo en especial, no dudéis en escribirnos, nos encanta escuchar ideas: abre@gobierto.es
 
 ¿Quieres esta herramienta en tu web?
 

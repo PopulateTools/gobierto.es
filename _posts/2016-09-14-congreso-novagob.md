@@ -14,5 +14,5 @@ El 29 y 30 de este mes se celebra en [San Cristobal de La Laguna](https://presup
 
 Hablaremos sobre cómo pensamos que la [transparencia útil](/blog/20160411-la-usabilidad-de-los-datos.html) y la [participación](/blog/20160602-presupuestos-participativos-retos-alternativas.html) pueden ir sentando las bases de un gobierno abierto. 
 
-Para los que estéis por allí, nos encantará charlar sobre cómo las herramientas de Gobierto pueden ayudar en estos temas. Escríbenos a info@gobierto.es para asegurar que nos vemos.
+Para los que estéis por allí, nos encantará charlar sobre cómo las herramientas de Gobierto pueden ayudar en estos temas. Escríbenos a abre@gobierto.es para asegurar que nos vemos.
 

@@ -95,4 +95,4 @@ Visita: [Stabilize The Debt](http://crfb.org/stabilizethedebt/)
 
 <div class="separator"></div>
 
-**En Gobierto estamos diseñando nuestra propia herramienta de consultas sobre presupuestos**, que acompañará a nuestra [herramienta de visualización](/visualizacion_presupuestos_municipales) (¡y otras!). Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:info@gobierto.es).
+**En Gobierto estamos diseñando nuestra propia herramienta de consultas sobre presupuestos**, que acompañará a nuestra [herramienta de visualización](/visualizacion_presupuestos_municipales) (¡y otras!). Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
