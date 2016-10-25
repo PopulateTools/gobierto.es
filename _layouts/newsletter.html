@@ -1,6 +1,11 @@
 <!DOCTYPE html>
 <html>
 {% include head.html %}
+<style type="text/css">
+img {
+  width: 100%;
+}
+</style>
 <body>
 
 <table class="body-wrap" style="width: 100%;">
@@ -15,13 +20,12 @@
           
           <!-- {% img 'logo_gobierto.png' %} -->
           <p style="text-align: center;margin: 1em 0 0 0;font-family: Roboto, Arial;"><a href="http://gobierto.es{{  page.utm }}" target="_blank" class="logo"><img src="{{ site.production_url }}{{ site.assets.baseurl}}logo_gobierto.png" style="width: 50%; height: auto"></a></p>
+          <p style="font-size: 14px; margin: 0 0 0em 0;"><strong>Plataforma de gobierno abierto open source</strong></p>
           <p style="font-size: 14px; margin: 0 0 1em 0;">Transparencia y participación para administraciones públicas</p>
 
           <div class="separator" style="border: 4px solid #E5F3F5;margin: 2em 0 3em 0;"></div>
 
           {{ content }}
-
-          
 
           <!-- {% img 'illustrations/cuentas.jpg' width:'75%' height:'auto'  %} -->
           <img src="{{ site.production_url }}{{ site.assets.baseurl}}illustrations/cuentas.jpg" style="width: 75%; height: auto">
