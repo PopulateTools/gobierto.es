@@ -30,6 +30,14 @@ Veamos ahora cómo gastan. La Comunidad de Madrid tiene una red muy extensa de t
 
 {% img 'posts/161104-rankings-05.png' %}
 
-Parece que Parla es el municipio que en 2016 gastó más por habitante en transporte público. Las razones pueden ser diversas; normalmente el aumento de gasto se debe a una inversión extra en infraestructuras, como nuevos trazados de ferrocarril o reemplazar parte de la flota de autobuses si se ha quedado obsoleta. De nuevo, si los ciudadanos conocen estos datos es más fácil para el ayuntamiento explicar cómo se ha gestionado su dinero. Este es el objetivo principal de Gobierto: hacer transparencia útil, ayudar a los ayuntamientos y a sus vecinos a estar más informados, comunicarse mejor y en consecuencia, tomar mejores decisiones.
+Parece que Parla es el municipio que en 2016 gastó más por habitante en transporte público. Las razones pueden ser diversas; normalmente el aumento de gasto se debe a una inversión extra en infraestructuras, como marquesinas nuevas o reemplazar parte de la flota de autobuses si se ha quedado obsoleta. En el caso de Parla, estos gastos se comparten entre el ayuntamiento y la Comunidad a través del [Consorcio Regional de Transportes](http://www.crtm.es/comunicacion/sala-de-prensa/noticias/noticias/26102016-reuni%C3%B3n-parla-crtm.aspx). De nuevo, si los ciudadanos conocen estos datos es más fácil para el ayuntamiento explicar cómo se ha gestionado su dinero. Este es el objetivo principal de Gobierto: hacer transparencia útil, ayudar a los gobernantes y a sus vecinos a estar más informados, comunicarse mejor y en consecuencia, tomar mejores decisiones.
+
+## Un paso más: El módulo de inteligencia para ayuntamientos
+
+{% img 'posts/161104-rankings-06.png' %}
+
+Gobierto cuenta además con una aplicación web más avanzada, creada específicamente para que los responsables de un municipio obtengan informes sobre su presupuesto y ejecución de forma automática: El **módulo de inteligencia**. Es como tener un analista dedicado a procesar el detalle de cientos de partidas de cada uno de los presupuestos y ejecuciones de miles de ayuntamientos. Esto permite identificar las partidas más significativas de un presupuesto por sus variaciones y ratios.
+
+Esta radiografía del presupuesto y la ejecución permite detectar anomalías y realizar un análisis sobre la situación presupuestaria comparando años, regiones, municipios de tamaño similar, etc.
 
 ¿Te interesa esta herramienta? ¿Eres responsable de un municipio y quieres estas funcionalidades dentro de tu página web? Hemos creado Gobierto para ayudarte. [Ponte en contacto con nosotros](http://gobierto.es/acerca-de/#demo) y te contamos.
