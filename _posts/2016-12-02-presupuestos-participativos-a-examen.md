@@ -44,7 +44,7 @@ En **Bilbao** existe desde hace tiempo el llamado Plan Auzokide, un plan de deli
 
 {% img 'posts/161202-presupuestosparticipatexam_02.png' %}
 
-Los representantes de participación de **A Coruña** están satisfechos con su último proceso, si bien el mayor reto continúa siendo la participación: Votaron 1.964 personas, que suponen el 0,9106% del universo de población que podía participar en el proceso. Aun así, teniendo en cuenta el resto de municipios de referencia, lo consideran un buen dato. A las 21 propuestas más votadas se destinaron un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía. 
+Los representantes de participación de **A Coruña** están satisfechos con [su último proceso](https://aportaaberta.coruna.es/presupuestos-participativos-resultados), que consideran un proyecto piloto sobre el que seguir construyendo. De hecho, para el año que viene solicitan más importe y más difusión. Votaron 1.964 personas y 4.1143 visitaron la plataforma durante el proceso. De las 98 propuestas técnicamente viables, 21 fueron las más votadas. A esas 21 se destinó un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía. 
 
 ## Municipios de población más reducida
 
