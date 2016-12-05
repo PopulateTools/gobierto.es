@@ -8,10 +8,9 @@ author: Rafa de las Cuevas
 main_photo_big: posts/161202-presupuestosparticipatexam_00.png
 ---
 
-Las concejalías de participación ciudadana han tenido tradicionalmente poco peso institucional.
-Pero después de las elecciones de 2015 han cobrado una relevancia inusitada. Los presupuestos participativos no son iniciativas nuevas: se llevan realizando desde hace décadas. Pero es ahora, con la facilidad de acceso que permite la tecnología, cuando han alcanzado una relevancia especial.
+La ola de iniciativas de **gobierno abierto** que recorre los ayuntamientos ha convertido a las concejalías de participación en piezas indispensables del organigrama público en su estrategia *open government*. Los procesos de **presupuestos participativos** no son nuevos pero es ahora, con la facilidad de acceso que permite la tecnología, cuando han alcanzado una relevancia especial.
 
-Sin embargo, a pesar del esfuerzo realizado –tanto económico como de tiempo y recursos– ningún ayuntamiento ha dado todavía con la tecla para conseguir una participación efectiva. Los escollos principales: Falta de información (que se traduce en falta de interés), poca costumbre a la hora de acudir a estos procesos, incentivos escasos (¿cual será el resultado real de mi aportación?) y brecha digital en la vertiente online. Todo esto se traduce en participación escasa y –algo quizá más preocupante– una escasa representatividad.
+Los ayuntamientos están invirtiendo un esfuerzo considerable en lanzar y mejorar sus propuestas de participación ciudadana. Se enfrentan a cuatro retos principales: Fomentar la cultura de la participación, reducir la incertudumbre ciudadana (¿cuánto cuenta realmente mi aportación?), equilibrar la representatividad (que todos los sectores sientan que tienen voz y voto) y atajar la brecha digital en la vertiente online.
 
 Por eso en Gobierto estamos recopilando información de todos los procesos de presupuestos participativos que se realizan actualmente en España. ¿Qué podemos aprender de cada uno de ellos?
 
@@ -57,18 +56,19 @@ Por último, el caso de **Guadalajara** es común a muchos otros municipios espa
 
 ¿Qué conclusiones se desprenden de todos estos procesos?
 
-* El mayor reto al que se enfrentan los ayuntamientos es el **informativo**. Si los ciudadanos no conocen bien cómo funciona un presupuesto municipal resulta difícil involucrarles en un proceso de estas características.
+* El mayor reto al que se enfrentan los ayuntamientos es el **informativo**. Si los ciudadanos están informados y conocen cómo funciona un presupuesto municipal será mucho más fácil que se involucren en su gestión.
 
-* También es complejo informar sobre el propio proceso. Muchos de ellos tienen varias fases (propuestas, debates, votaciones…), sistemas propios de deliberación y la necesidad de presentar de forma clara y ordenada todas las propuestas.
+* Informar sobre el propio proceso puede ser complejo. Muchos de ellos tienen varias fases (propuestas, debates, votaciones…), sistemas propios de deliberación y la necesidad de presentar de forma clara y ordenada todas las propuestas. Por eso es importante poner el foco en la **experiencia de usuario** a la hora de diseñar la estrategia informativa online y offline.
 
-* Son procesos con un grado de implicación elevado y requieren una cultura fuerte de participación.
+* Muchos de estos procesos tienen un grado de implicación elevado y requieren una cultura fuerte de participación. Si existen iniciativas previas más leves y rápidas, es posible crear una cultura de participación progresiva.
 
-* Se genera poca movilización social. Algunos colectivos están sobrerrepresentados, y otros prácticamente no tienen representación.
+* La movilización social es uno de los grandes retos. Conseguir que los colectivos ajenos a estas iniciativas se sientan integrados y escuchados.
 
-* A pesar de todo, las propuestas ciudadanas se suelen traducir en decisiones concretas, gracias a la labor de los técnicos del ayuntamiento que estudian la viabilidad, caso por caso.
+* Las propuestas ciudadanas van desde las muy detalladas y concretas a las generalistas y trasversales. De nuevo, es importante la información y diseño previo para ayudar a filtrar correctamente todas y ahorrar tiempo a los técnicos del ayuntamiento que estudian su viabilidad, caso por caso.
 
-* Aunque todavía no se haya conseguido una participación realmente significativa, sí está creciendo el número de procesos y de ciudadanos involucrados.
+* Aunque todavía no se haya conseguido una participación masiva, sí está creciendo el número de procesos y de ciudadanos involucrados.
 
+Queda mucho por hacer, pero si echamos la vista atrás nos daremos cuenta de que todos estos procesos han revitalizado el debate ciudadano. Todos estos municipios han conseguido acercar a sus vecinos todavía más a su labor de gobierno.
 
-En Gobierto desarrollamos herramientas de participación sencilla y con poca fricción, como las **[consultas sobre presupuestos](http://gobierto.es/blog/20161020-alternativa-presupuestos-participativos.html)**. Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recibir feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
+¿Cómo podemos ayudar a dinamizar y reforzar este acercamiento? En [Gobierto](http://www.gobierto.es) creemos que en esta primera fase de participación lo más importante es informar y conseguir un acercamiento progresivo, con poca fricción. Por eso desarrollamos herramientas de participación sencilla, inmediata y con un componente interactivo, como las **[consultas sobre presupuestos](http://gobierto.es/blog/20161020-alternativa-presupuestos-participativos.html)**. Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recibir feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
 
