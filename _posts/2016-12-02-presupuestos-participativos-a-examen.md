@@ -2,7 +2,7 @@
 layout: post
 title: "Presupuestos participativos a examen: Los procesos más recientes"
 subtitle: Repasamos las últimas iniciativas de presupuestos participativos en municipios de distintos tamaños. ¿Qué podemos aprender de ellos?
-date: 2016-12-02 10:00:00 +0100
+date: 2016-12-05 10:00:00 +0100
 categories: transparencia
 author: Rafa de las Cuevas
 main_photo_big: posts/161202-presupuestosparticipatexam_00.png
