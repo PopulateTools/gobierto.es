@@ -20,11 +20,11 @@ Cada municipio pone sus propias reglas, y el tipo de proceso varía en función 
 
 * Los vecinos pueden presentar y discutir sus propias propuestas antes de votarlas
 
-* El dinero normalmente sale de la partida del presupuesto destinada a Inversiones: El capítulo VI de la partida de gastos según su clasificación económica.
+* El dinero normalmente sale de la partida del presupuesto destinada a [Inversiones](https://madrid.gobierto.es/presupuestos/partidas/6/2015/economic/G): El capítulo VI de la partida de gastos según su clasificación económica.
 
 * El proceso suele durar un año, para incorporar los resultados al presupuesto del año siguiente.
 
-Vamos a hacer un pequeño repaso por algunos de los más significativos.
+Vamos a hacer un repaso por algunos de los más significativos. Lo que sigue es un pequeño esbozo, a modo de introducción, de un informe que estamos preparando.
 
 ## Grandes ciudades: Madrid y Barcelona
 
@@ -48,13 +48,15 @@ Los representantes de participación de **A Coruña** están satisfechos con [su
 
 ## Municipios de población más reducida
 
-Los municipios más pequeños cuentan con la ventaja del boca a boca y la concreción de las propuestas: En **Irún**, siguiendo la tradición deportiva, la propuesta más votada del presupuesto de este año fue la de construir cubiertas para revitalizar el espacio deportivo-recreativo de Txingudi Ikastola. En total participaron 7.224 personas (de un total de 61.481). Para llevar a buen término las propuestas más votadas se destinan 1.295.600 euros del presupuesto
+Los municipios más pequeños cuentan con la ventaja del boca a boca y la concreción de las propuestas: En **Irún**, la propuesta más votada del presupuesto de este año ha sido la de incrementar los trazados de carril bici. En total todas las propuestas recibieron 2.917 votos. Para llevar a buen término las más votadas se han destinado cinco millones de euros del presupuesto.
+
+Los responsables del área de participación del ayuntamiento de Irún nos has relatado el proceso y su experiencia de años pasados. Anteriormente se pedía NIF y fecha de nacimiento; ahora la identificación de los votantes se realiza por medio de la firma electrónica avanzada incluida en una tarjeta municipal ciudadana. El asociacionismo consigue movilizar a muchos vecinos (puerta a puerta si es necesario), aunque hay secciones de la población que siguen escasamente representadas (los jóvenes). También aseguran que entre los participantes de este último año hay ciudadanos que han realizado propuestas especialmente trabajadas e interesantes, y que se están manifestando en todos los medios a su alcance para publicitar el proceso.
 
 En la localidad Murciana de **Molina de Segura** se han reservado 500.000€ del presupuesto a las propuestas de sus vecinos. La más votada ha sido mejorar el servicio de abastecimiento y distribución de aguas, los recursos hidráulicos y el saneamiento. 2.815 personas han depositado sus votos en las urnas dispuestas en centros sociales de barrio. En este caso, la participación ha sido exclusivamente presencial.
 
 Por último, el caso de **Guadalajara** es común a muchos otros municipios españoles. La participación ha sido escasa: 143 vecinos. El consistorio propuso a los participantes una consulta basada en cuatro puntos: mejorar un rincón de la ciudad, priorizar una obra, seleccionar un área de gasto concreta para mejorar su partida presupuestaria, y acometer el asfaltado de las calles. En cada punto se ofrecía una lista de opciones disponibles.
 
-¿Qué conclusiones se desprenden de todos estos procesos?
+## ¿Qué conclusiones podemos sacar?
 
 * El mayor reto al que se enfrentan los ayuntamientos es el **informativo**. Si los ciudadanos están informados y conocen cómo funciona un presupuesto municipal será mucho más fácil que se involucren en su gestión.
 
@@ -62,13 +64,15 @@ Por último, el caso de **Guadalajara** es común a muchos otros municipios espa
 
 * Muchos de estos procesos tienen un grado de implicación elevado y requieren una cultura fuerte de participación. Si existen iniciativas previas más leves y rápidas, es posible crear una cultura de participación progresiva.
 
-* La movilización social es uno de los grandes retos. Conseguir que los colectivos ajenos a estas iniciativas se sientan integrados y escuchados.
+* La movilización social es uno de los grandes retos. Conseguir que los colectivos con menos presencia (jóvenes, inmigrantes) se sientan integrados y escuchados.
 
 * Las propuestas ciudadanas van desde las muy detalladas y concretas a las generalistas y trasversales. De nuevo, es importante la información y diseño previo para ayudar a filtrar correctamente todas y ahorrar tiempo a los técnicos del ayuntamiento que estudian su viabilidad, caso por caso.
 
+* Cuanto más cercana y concreta es la propuesta, mayor participación. Los asuntos de barrio generan más interés que las políticas de amplio calado. 
+
 * Aunque todavía no se haya conseguido una participación masiva, sí está creciendo el número de procesos y de ciudadanos involucrados.
 
-Queda mucho por hacer, pero si echamos la vista atrás nos daremos cuenta de que todos estos procesos han revitalizado el debate ciudadano. Todos estos municipios han conseguido acercar a sus vecinos todavía más a su labor de gobierno.
+Queda mucho por hacer, pero si echamos la vista atrás podemos ver que todos estos procesos han revitalizado el debate ciudadano. Los municipios han conseguido acercar a sus vecinos todavía más a su labor de gobierno.
 
-¿Cómo podemos ayudar a dinamizar y reforzar este acercamiento? En [Gobierto](http://www.gobierto.es) creemos que en esta primera fase de participación lo más importante es informar y conseguir un acercamiento progresivo, con poca fricción. Por eso desarrollamos herramientas de participación sencilla, inmediata y con un componente interactivo, como las **[consultas sobre presupuestos](http://gobierto.es/blog/20161020-alternativa-presupuestos-participativos.html)**. Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recibir feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
+¿Cómo podemos ayudar a dinamizar y reforzar este acercamiento? En [Gobierto](http://www.gobierto.es) creemos que en esta primera fase de participación lo más importante es **informar** y conseguir un acercamiento progresivo, con poca fricción. Por eso desarrollamos herramientas de **participación sencilla, inmediata y con un componente interactivo**, como las **[consultas sobre presupuestos](http://gobierto.es/blog/20161020-alternativa-presupuestos-participativos.html)**. Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recibir feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
 
