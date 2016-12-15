@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Los vecinos deciden: Algunos ejemplos de presupuestos participativos"
+title: "Panorama sobre los presupuestos participativos en España"
 subtitle: Repasamos varias iniciativas de presupuestos participativos en municipios de distintos tamaños. ¿Qué podemos aprender de ellos?
-date: 2016-12-14 10:00:00 +0100
+date: 2016-12-12 10:00:00 +0100
 categories: transparencia
 author: Rafa de las Cuevas
 main_photo_big: posts/161202-presupuestosparticipatexam_00.jpg
@@ -20,7 +20,7 @@ Cada municipio pone sus propias reglas, y el tipo de proceso varía en función 
 
 * Los vecinos pueden presentar y discutir sus propias propuestas antes de votarlas
 
-* El dinero normalmente sale de la partida del presupuesto destinada a [Inversiones](https://madrid.gobierto.es/presupuestos/partidas/6/2015/economic/G): El capítulo VI de la partida de gastos según su clasificación económica.
+* El dinero normalmente sale de la partida del presupuesto destinada a Inversiones: El capítulo VI de la partida de gastos según su clasificación económica.
 
 * El proceso suele durar un año, para incorporar los resultados al presupuesto del año siguiente.
 
@@ -28,13 +28,11 @@ Vamos a hacer un repaso por algunos de los más significativos. Lo que sigue es 
 
 ## Grandes ciudades: Madrid y Barcelona
 
-Madrid acaba de cerrar su proceso de presupuestos participativos. Además en estos días ha hermanado a 28 instituciones con el compromiso de repetir y mejorar el proceso. Las 28 se han comprometido a hacer sus procesos con **Cónsul**, el software libre de participación. Tanto Madrid como Barcelona han contribuido este año a despertar el interés por abrir los ayuntamientos. Ambas ciudades tienen sus portales dedicados en exclusiva a procesos participativos: [Decide Madrid](https://decide.madrid.es) y [Decidim Barcelona](https://decidim.barcelona).
-
-En otro post ya hemos analizado [el caso madrileño](http://gobierto.es/blog/20160530-presupuestos-participativos.html), pero vamos a repasar las cifras del último proceso aprobado: las propuestas de 2016 que marcan las actuaciones para el presupuesto de 2017. En total han participado 45.522 ciudadanos de un total de dos millones de habitantes. Se han destinado 60 millones de euros a las propuestas seleccionadas. Las propuestas más votadas han sido una nueva red de puntos limpios, el aumento del número de casas de acogida para mujeres maltratadas y un plan de reforestación.
+Madrid [cerró recientemente su primer proceso](http://gobierto.es/blog/20160530-presupuestos-participativos.html), y está a punto de abrir el segundo. Algunas cifras: Se han destinado 60 millones de euros (de un total de 4.400M€, un 1,34% del presupuesto). Han participado 45.522 ciudadanos de un total de dos millones de habitantes. Las propuestas más votadas han sido una nueva red de puntos limpios, el aumento del número de casas de acogida para mujeres maltratadas y un plan de reforestación. [Todos los resultados](https://decide.madrid.es/presupuestos-participativos-resultados).
 
 {% img 'posts/161202-presupuestosparticipatexam_01.jpg' %}
 
-El caso de **Barcelona** es ligeramente distinto. En la ciudad condal funciona desde hace años el Plan de Actuación Municipal (PAM), un sistema de decisión conjunta sobre todas las iniciativas del ayuntamiento durante la legislatura. En el más reciente, que corresponde a la legislatura actual, han participado 39.049 barceloneses de los 72 barrios de la ciudad. Además, el consistorio que dirige Ada Colau destina un 5% de las inversiones a presupuestos participativos. Ese 5% se reparte entre los siete distritos en función de sus necesidades. Actualmente se encuentran abiertos los procesos del Eixample (500.000 euros de gasto) y Gràcia (150.000 euros). Las propuestas son variopintas y van desde la habilitación de pisos vacíos con fines sociales a las políticas de atención a la gente mayor.
+El caso de **[Barcelona](https://presupuestos.gobierto.es/places/barcelona)** es ligeramente distinto. En la ciudad condal funciona desde hace años el Plan de Actuación Municipal (PAM), un sistema de decisión conjunta sobre todas las iniciativas del ayuntamiento durante la legislatura. En el más reciente, que corresponde a la legislatura actual, han participado 39.049 barceloneses de los 72 barrios de la ciudad. Además, el consistorio que dirige Ada Colau destina un 5% de las inversiones a presupuestos participativos. Ese 5% se reparte entre los siete distritos en función de sus necesidades. Actualmente se encuentran abiertos los procesos del Eixample (500.000 euros de gasto) y Gràcia (150.000 euros). Las propuestas son variopintas y van desde la habilitación de pisos vacíos con fines sociales a las políticas de atención a la gente mayor.
 
 ## Núcleos medianos de población
 
@@ -44,7 +42,7 @@ En **Bilbao** existe desde hace tiempo el llamado Plan Auzokide, un plan de deli
 
 {% img 'posts/161202-presupuestosparticipatexam_02.jpg' %}
 
-Los representantes de participación de **A Coruña** están satisfechos con [su último proceso](https://aportaaberta.coruna.es/presupuestos-participativos-resultados), que consideran un proyecto piloto sobre el que seguir construyendo. De hecho, para el año que viene solicitan más importe y más difusión. Votaron 1.964 personas y 4.1143 visitaron la plataforma durante el proceso. De las 98 propuestas técnicamente viables, 21 fueron las más votadas. A esas 21 se destinó un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía. 
+Los representantes de participación de **[A Coruña](https://presupuestos.gobierto.es/places/coruna-a/2015)** están satisfechos con [su último proceso](https://aportaaberta.coruna.es/presupuestos-participativos-resultados), que consideran un proyecto piloto sobre el que seguir construyendo. De hecho, para el año que viene solicitan más importe y más difusión. Votaron 1.964 personas y 4.1143 visitaron la plataforma durante el proceso. De las 98 propuestas técnicamente viables, 21 fueron las más votadas. A esas 21 se destinó un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía. 
 
 ## Municipios de población más reducida
 
@@ -52,9 +50,9 @@ Los municipios más pequeños cuentan con la ventaja del boca a boca y la concre
 
 Los responsables del área de participación del ayuntamiento de Irún nos han contado el proceso y su experiencia de años pasados. Antes pedían el NIF y la fecha de nacimiento; ahora la identificación de los votantes se realiza por medio de la firma electrónica avanzada incluida en una tarjeta municipal ciudadana. El asociacionismo consigue movilizar a muchos vecinos (puerta a puerta si es necesario), aunque esto es un arma de doble filo: se puede conseguir mucha participación pero "artificial" porque ciertos grupos tienen mucha representación. Y luego está el problema de los jóvenes, a los que es difícil atraer. Eso sí, entre los participantes de este último año hay ciudadanos que han realizado propuestas especialmente trabajadas e interesantes, y que se están manifestando en todos los medios a su alcance para publicitar el proceso.
 
-En la localidad Murciana de **Molina de Segura** se han reservado 500.000€ del presupuesto a las propuestas de sus vecinos. La más votada ha sido mejorar el servicio de abastecimiento y distribución de aguas, los recursos hidráulicos y el saneamiento. 2.815 personas han depositado sus votos en las urnas dispuestas en centros sociales de barrio. En este caso, la participación ha sido exclusivamente presencial.
+En la localidad Murciana de **[Molina de Segura](https://presupuestos.gobierto.es/places/molina-de-segura)** se han reservado 500.000€ del presupuesto a las propuestas de sus vecinos. La más votada ha sido mejorar el servicio de abastecimiento y distribución de aguas, los recursos hidráulicos y el saneamiento. 2.815 personas han depositado sus votos en las urnas dispuestas en centros sociales de barrio. En este caso, la participación ha sido exclusivamente presencial.
 
-Por último, el caso de **Guadalajara** es común a muchos otros municipios españoles. La participación ha sido escasa: 143 vecinos. El consistorio propuso a los participantes una consulta basada en cuatro puntos: mejorar un rincón de la ciudad, priorizar una obra, seleccionar un área de gasto concreta para mejorar su partida presupuestaria, y acometer el asfaltado de las calles. En cada punto se ofrecía una lista de opciones disponibles.
+Por último, el caso de **[Guadalajara](https://presupuestos.gobierto.es/places/guadalajara)** es común a muchos otros municipios españoles. La participación ha sido escasa: 143 vecinos. El consistorio propuso a los participantes una consulta basada en cuatro puntos: mejorar un rincón de la ciudad, priorizar una obra, seleccionar un área de gasto concreta para mejorar su partida presupuestaria, y acometer el asfaltado de las calles. En cada punto se ofrecía una lista de opciones disponibles.
 
 ## ¿Qué conclusiones podemos sacar?
 

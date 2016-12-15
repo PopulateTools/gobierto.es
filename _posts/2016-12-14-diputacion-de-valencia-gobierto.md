@@ -2,7 +2,7 @@
 layout: post
 title: "Gobierto colabora con la Diputación de Valencia para poner en marcha iniciativas de gobierno abierto"
 subtitle: Ayudamos a la Diputación a implantar el módulo de Personas y Agendas de Gobierto
-date: 2016-11-17 8:00:00 +0100
+date: 2016-12-14 8:00:00 +0100
 categories: transparencia
 author: Álvaro Ortiz
 main_photo_big: posts/161214-dival.jpg
