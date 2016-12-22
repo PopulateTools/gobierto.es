@@ -14,7 +14,7 @@ En Gobierto nos hemos planteado qué cosas contaríamos si tuviéramos que hacer
 
 ## ¿Para qué sirve una diputación?
 
-Las diputaciones son los órganos de gobierno de las provincias. Sin ellas sería muy difícil garantizar servicios municipales de calidad, especialmente en los ayuntamientos pequeños. Si un municipio tiene menos de 20.000 habitantes, la Diputación provincial se asegura de que funcione todo esto:
+Las diputaciones son los órganos de gobierno de las provincias. Sin ellas sería muy difícil garantizar servicios municipales de calidad, especialmente en los ayuntamientos pequeños. Si tu municipio tiene menos de 20.000 habitantes, la Diputación provincial se asegura de que funcione todo esto:
 
 * Recogida y tratamiento de residuos
 
@@ -64,9 +64,9 @@ Por eso sus obligaciones de **transparencia** y **rendición de cuentas** deber�
 
 <div class="separator blue short"></div>
 
-Entonces, ¿por qué se cuestiona a veces su función? Bueno, tiene mucho que ver la repercusión mediática de dos casos de corrupción especialmente sonados: Los de los presidentes de las diputaciones de [Ourense](https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Baltar#Acusaci.C3.B3n_de_corrupci.C3.B3n) y de [Castellón](https://es.wikipedia.org/wiki/Carlos_Fabra_Carreras#Prisi.C3.B3n). Y los partidos políticos suelen atacar más a la labor de las diputaciones cuando no las controlan. ¿Hay alternativas? Desde luego, pero hay que abordarlas desde un punto de vista constructivo.
+Entonces, ¿por qué se cuestiona a veces su función? Bueno, tiene mucho que ver la repercusión mediática de dos casos de corrupción especialmente sonados: Los de los presidentes de las diputaciones de [Ourense](https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Baltar#Acusaci.C3.B3n_de_corrupci.C3.B3n) y de [Castellón](https://es.wikipedia.org/wiki/Carlos_Fabra_Carreras#Prisi.C3.B3n). Y los partidos políticos suelen atacar más a la labor de las diputaciones cuando no las controlan. ¿Alternativas? Mover todas esas competencias a las CCAA (habría que redimensionar toda su estructura) y/o unificar municipios pequeños (con el consiguiente coste económico y social). No parece que haya una alternativa fácil y barata.
 
-En todo caso, en Gobierto estamos convencidos de que la mejor medida para hacer administraciones más eficiente es la Transparencia. Abrir todas –no sólo las diputaciones sino también Ayuntamientos y CCAA– es la mejor forma de darles "superpoderes". Por eso recientemente en Gobierto hemos empezado a [colaborar con la Diputación de Valencia](http://gobierto.es/blog/20161215-diputacion-de-valencia-gobierto.html) para poner en marcha varios proyectos de gobierno abierto, como la implantación de nuestro **módulo de Altos cargos y Agendas**. 
+En todo caso, en Gobierto estamos convencidos de que la mejor medida para hacer administraciones más eficiente es la Transparencia. Abrir todas –no sólo las diputaciones sino también Ayuntamientos y CCAA– es la mejor forma de acercarlas a los ciudadanos y de ahorrar costes. Por eso recientemente en Gobierto hemos empezado a [colaborar con la Diputación de Valencia](http://gobierto.es/blog/20161215-diputacion-de-valencia-gobierto.html) para poner en marcha varios proyectos de gobierno abierto, como la implantación de nuestro **módulo de Altos cargos y Agendas**. 
 
 ¿Trabajas en una diputación, cabildo o consejo? ¿Eres un ciudadano interesado en abrir tu diputación? **[Escríbenos](mailto:abre@gobierto.es)**.
 
