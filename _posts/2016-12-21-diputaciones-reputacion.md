@@ -2,19 +2,19 @@
 layout: post
 title: "Una campaña de mejora de reputación de las Diputaciones"
 subtitle: Nadie sabe muy bien qué hace una diputación, pero ¿podrían sobrevivir los pueblos pequeños sin ellas?
-date: 2016-12-21 9:00:00 +0100
+date: 2016-12-22 9:00:00 +0100
 categories: transparencia
 author: Rafa de las Cuevas
 main_photo_big: posts/161221-diputaciones_00.jpg
 ---
 
-¿Quién es el presidente de tu diputación? Si tiene que googlearlo –o directamente no sabes si en tu región existe tal cosa– no te preocupes: Las Diputaciones son las administraciones más desconocidas de nuestro país. Y eso que existen desde hace dos siglos y **prestan servicio al 95% de los municipios de España**. 
+¿Son las Diputaciones las administraciones públicas con peor reputación de España? Desde luego son las más desconocidas. Y eso que existen desde hace dos siglos y **prestan servicio al 85% de los municipios de nuestro país**. 
 
 En Gobierto nos hemos planteado qué cosas contaríamos si tuviéramos que hacer una campaña de comunicación para una diputación: ¿Para qué sirven? ¿Son necesarias?
 
 ## ¿Para qué sirve una diputación?
 
-Las diputaciones son los órganos de gobierno de las provincias. Sin ellas sería muy difícil garantizar servicios municipales de calidad, especialmente en los ayuntamientos pequeños. Si tu municipio tiene menos de 20.000 habitantes, la Diputación provincial se asegura de que funcione todo esto:
+Las diputaciones son los órganos de gobierno de las provincias. Sin ellas sería muy difícil garantizar diversos servicios municipales, especialmente en los ayuntamientos pequeños. Si tu municipio tiene menos de 20.000 habitantes, la Diputación provincial se asegura de que funcione todo esto:
 
 * Recogida y tratamiento de residuos
 
@@ -34,17 +34,17 @@ Las diputaciones son los órganos de gobierno de las provincias. Sin ellas serí
 
 * Implantar y gestionar la administración digital en los municipios que no se lo puedan permitir
 
-Esto es lo básico, pero dependiendo del tamaño de la provincia pueden tener muchas más funciones. Por ejemplo, las de Sevilla y Jaén tienen más competencias que el resto. 
-
-En España hay 8.125 municipios. ¿Cuantos tienen menos de 20.000 hab.? Nada menos que 7.723. Es decir, **el 95% de los municipios se encuentran bajo el paragüas de las Diputaciones**. Y si nos vamos a los muy pequeños (menos de 1.000 hab.), las cifras son especialmente significativas: un **61%**. Hay que tener en cuenta que la mayoría de la población española se concentra en unos cientos de núcleos más grandes de población, en los que se pueden optimizar mejor los costes de la recogida de basura, abastecimiento de agua, internet...
+Esto es lo básico. Y aunque es posible que los municipios de menos de 20.000 hab. asuman algunas de estas competencias, por ley es la diputación la que tiene que velar por el cumplimiento de todas. Y dependiendo del tamaño de la provincia pueden tener muchas más funciones. Por ejemplo, las de Sevilla y Jaén tienen más competencias que el resto. 
 
 Cada provincia tiene su Diputación, menos en las comunidades uniprovinciales (Asturias, Cantabria, Navarra, La Rioja, Madrid y Murcia). En el País Vasco se llaman **Diputaciones Forales** y tienen algo más de poder que las demás; en Mallorca se llaman **Consejos Insulares**; y en Canarias, **Cabildos Insulares**.
 
+En España hay 8.125 municipios. ¿Cuantos tienen menos de 20.000 hab. y están en comunidades de varias provincias? Nada menos que 6.942. Es decir, **el 85% de los municipios se encuentran bajo el paragüas de las Diputaciones**. Y si nos vamos a los muy pequeños (menos de 1.000 hab.), las cifras son especialmente significativas: un **56%**. Hay que tener en cuenta que la mayoría de la población española se concentra en unos cientos de núcleos más grandes de población, en los que se pueden optimizar mejor los costes de la recogida de basura, abastecimiento de agua, internet...
+
 {% img 'posts/161221-diputaciones01.jpg' %}
 
-## ¿Cuánto dinero gastan?
+## ¿Cuánto dinero gastan y cómo se financian?
 
-Una de las razones del halo de misterio que rodea a estos organismos es que no votamos a sus miembros de gobierno. No directamente, al menos. Los eligen los alcaldes y concejales de los ayuntamientos (menos los de las Forales, esos sí se eligen por sufragio directo). 
+Una de las razones del halo de misterio que rodea a estos organismos es que no votamos a sus miembros de gobierno. No directamente, al menos. Los eligen los alcaldes y concejales de los ayuntamientos (menos los de las Forales, esos sí se eligen por sufragio directo). Su financiación principal son las transferencias del Estado, a través de las cesiones de los impuestos directos e indirectos. También reciben transferencias de las CCAA y tienen una parte de ingresos propios. 
 
 Por eso sus obligaciones de **transparencia** y **rendición de cuentas** deberían tener un peso especial. Algunos partidos quieren recortar el presupuesto a las diputaciones, o incluso eliminarlas. Teniendo en cuenta todo lo que hacen, ¿Se ahorraría una cantidad suficiente? Veamos los datos:
 
@@ -52,7 +52,7 @@ Por eso sus obligaciones de **transparencia** y **rendición de cuentas** deber�
 
 * **Poca deuda:** Son las instituciones menos endeudadas de España. Algunas han acabado incluso con superávit en años de crisis. El último informe del Banco de España (2015) cifra su deuda en 6.542  millones de euros.
 
-* **Personal reducido:** Actualmente sólo un 3,4% de todo el personal de entidades autonómicas, provinciales y locales trabaja en diputaciones. Y han recortado bastante: ahora tienen 18.000 trabajadores menos que en 2009, según el Boletín Estadístico del Personal al Servicio de las Administraciones Públicas.
+* **Personal reducido:** Actualmente hay 62.159 personas trabajando en diputaciones. Eso es un 3,4% de todo el personal de entidades autonómicas y locales. Y han recortado bastante: ahora tienen 18.000 trabajadores menos que en 2009, según el Boletín Estadístico del Personal al Servicio de las Administraciones Públicas.
 
 <div class="separator blue short"></div>
 
@@ -66,7 +66,5 @@ Por eso sus obligaciones de **transparencia** y **rendición de cuentas** deber�
 
 Entonces, ¿por qué se cuestiona a veces su función? Bueno, tiene mucho que ver la repercusión mediática de dos casos de corrupción especialmente sonados: Los de los presidentes de las diputaciones de [Ourense](https://es.wikipedia.org/wiki/Jos%C3%A9_Luis_Baltar#Acusaci.C3.B3n_de_corrupci.C3.B3n) y de [Castellón](https://es.wikipedia.org/wiki/Carlos_Fabra_Carreras#Prisi.C3.B3n). Y los partidos políticos suelen atacar más a la labor de las diputaciones cuando no las controlan. ¿Alternativas? Mover todas esas competencias a las CCAA (habría que redimensionar toda su estructura) y/o unificar municipios pequeños (con el consiguiente coste económico y social). No parece que haya una alternativa fácil y barata.
 
-En todo caso, en Gobierto estamos convencidos de que la mejor medida para hacer administraciones más eficiente es la Transparencia. Abrir todas –no sólo las diputaciones sino también Ayuntamientos y CCAA– es la mejor forma de acercarlas a los ciudadanos y de ahorrar costes. Por eso recientemente en Gobierto hemos empezado a [colaborar con la Diputación de Valencia](http://gobierto.es/blog/20161215-diputacion-de-valencia-gobierto.html) para poner en marcha varios proyectos de gobierno abierto, como la implantación de nuestro **módulo de Altos cargos y Agendas**. 
-
-¿Trabajas en una diputación, cabildo o consejo? ¿Eres un ciudadano interesado en abrir tu diputación? **[Escríbenos](mailto:abre@gobierto.es)**.
+En todo caso, en Gobierto estamos convencidos de que la mejor medida para hacer administraciones más eficiente es la Transparencia. Abrir todas –no sólo las diputaciones sino también Ayuntamientos y CCAA– es la mejor forma de acercarlas a los ciudadanos y de ahorrar costes. Por eso recientemente en Gobierto hemos empezado a [colaborar con la Diputación de Valencia](http://gobierto.es/blog/20161215-diputacion-de-valencia-gobierto.html) para poner en marcha varios proyectos de gobierno abierto.
 
