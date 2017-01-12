@@ -1342,7 +1342,13 @@ h1, h2, h3, h4, h5 {
     left: -609px;
   }
 }
-
+blockquote {
+  margin: 0 0 2em 0;
+  padding: 2em;
+  font-size: .85em;
+  line-height: 1.5em;
+  background: $color_grey_soft;
+}
 
 
 /*
@@ -1742,6 +1748,8 @@ body.slim {
     }
   }
 }
+
+
 
 
 /*
