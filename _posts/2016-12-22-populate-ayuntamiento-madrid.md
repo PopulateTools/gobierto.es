@@ -10,7 +10,7 @@ author: Álvaro Ortiz
 
 El Ayuntamiento de Madrid, a través de Medialab-Prado, ha decidido contar con la ayuda de Populate para diseñar y construir el módulo de legislación colaborativa para Cónsul. Esta nueva herramienta permitirá a aquellas organizaciones que lo utilizan incorporar la opinión de los ciudadanos durante el proceso de definición o modificación de normativa. 
 
-Desde Populate, en colaboración con Medialan-Prado y el Ayuntamiento, estamos definiendo el diseño y la funcionalidad de la herramienta teniendo en cuenta los requisitos que plantea el Artículo 133 de la Ley 39 y la experiencia previa del Ayuntamiento en procesos legistlativos colaborativos.
+Desde Populate, en colaboración con Medialab-Prado y el Ayuntamiento, estamos definiendo el diseño y la funcionalidad de la herramienta teniendo en cuenta los requisitos que plantea el Artículo 133 de la Ley 39 y la experiencia previa del Ayuntamiento en procesos legistlativos colaborativos.
 
 Nuestro trabajo incluye el desarrollo completo: desde la definición de funcionalidad y UX, pasando por el front-end, hasta todo el código de back-end. 
 
