@@ -60,6 +60,6 @@ En Gobierto estamos explorando y experimentando con ideas para generar participa
 
 Algunos enlaces de interés sobre presupuestos participativos que iremos actualizando: 
 
-- [presupuestosparticipativos.com](presupuestosparticipativos.com)
+- [presupuestosparticipativos.com](http://presupuestosparticipativos.com)
 - [Guía metodológica de presupuestos participativos](http://www.presupuestosparticipativos.com/Gu%C3%ADa-metodol%C3%B3gica-de-presupuestos-partic/_C3VTDDatmVEmYYYsYdvRIsil_ngZxyrxbR-Co1vM8dPZXii7nhO1eoDdtJ5vvY_Q)
 - [International Budget Partnership](http://www.internationalbudget.org/)
