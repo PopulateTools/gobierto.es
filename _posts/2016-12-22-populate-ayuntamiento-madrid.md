@@ -1,20 +1,22 @@
 ---
 layout: post
-title: "Populate colabora con el Ayuntamiento de Madrid en su proyecto de participación"
-subtitle: Comenzamos a colaborar en el desarrollo de Cónsul, la herramienta de participación desarrollada por el Ayuntamiento de Madrid 
+title: "Populate colabora en el desarrollo de la herramienta de participación del Ayuntamiento de Madrid"
+subtitle: Diseñamos y construimos para el Medialab-Prado del Ayuntamiento de Madrid el módulo de legislación colaborativa de Cónsul, la herramienta de participación disponible en decide.madrid.es
 date: 2017-01-13 8:00:00 +0100
 categories: transparencia
 author: Álvaro Ortiz
-# main_photo_big: posts/161214-dival.jpg
+# main_photo_big: 
 ---
 
-El Ayuntamiento de Madrid, a través de Medialab-Prado, ha decidido contar con la ayuda de Populate para diseñar y construir el módulo de legislación colaborativa para Cónsul. Esta nueva herramienta permitirá a aquellas organizaciones que lo utilizan incorporar la opinión de los ciudadanos durante el proceso de definición o modificación de normativa. 
+Medialab-Prado (entidad dependiente del Ayuntamiento de Madrid) y su ParticipaLAB han decidido contar con la ayuda de Populate para diseñar y construir el módulo de legislación colaborativa de Consul, la herramienta de participación creada por el Ayuntamiento y liberada como software libre. Esta nueva herramienta permitirá a aquellas organizaciones que lo utilizan incorporar la opinión de los ciudadanos durante el proceso de definición o modificación de normativa. 
 
 Desde Populate, en colaboración con Medialab-Prado y el Ayuntamiento, estamos definiendo el diseño y la funcionalidad de la herramienta teniendo en cuenta los requisitos que plantea el Artículo 133 de la Ley 39 y la experiencia previa del Ayuntamiento en procesos legistlativos colaborativos.
 
 Nuestro trabajo incluye el desarrollo completo: desde la definición de funcionalidad y UX, pasando por el front-end, hasta todo el código de back-end. 
 
-El módulo de legislación colaborativa en Cónsul estará disponible en las próximas semanas. El código resultante será abierto y estará disponible para cualquiera que quiera usarlo o modificarlo, siguiendo la propia licencia de Cónsul. Además, puedes consultar [algunos de los bocetos en los que estamos trabajando](https://invis.io/XD9AQKLEU), y [seguir en vivo el desarrollo del código desde el repositorio de Github](https://github.com/medialab-prado/consul/projects/1).
+{% img 'newsletter/newsletter-170118-consul.png' %}
+
+El módulo de legislación colaborativa en Cónsul estará disponible en las próximas semanas. El código resultante será abierto y estará disponible para cualquiera que quiera usarlo o modificarlo, siguiendo la propia licencia de Consul. Además, puedes consultar [algunos de los bocetos en los que estamos trabajando](https://invis.io/XD9AQKLEU), y [seguir en vivo el desarrollo del código desde el repositorio de Github](https://github.com/medialab-prado/consul/projects/1).
 
 
 ## Implantación de Cónsul y desarrollo en Ruby on Rails
