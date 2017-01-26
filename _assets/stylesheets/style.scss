@@ -398,7 +398,7 @@ article {
   }
   header {
     margin: 0 0 1em 0;
-    padding: 5em 0 0 0;
+    padding: 3em 0 0 0;
     // border-bottom: 1px solid $color_tool_bg;
     text-align: center;
   }
@@ -504,6 +504,9 @@ article {
     width: 100%;
     height: auto;
     border: 1px solid #DFDFDF;
+  }
+  img.heading {
+    border-top: 0;
   }
 }
 
