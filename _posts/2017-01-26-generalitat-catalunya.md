@@ -22,7 +22,7 @@ El Comparador de Gobierto utiliza datos abiertos que la Generalitat de Catalunya
 
 La Generalitat de Catalunya continúa aumentando su compromiso con la transparencia ofreciendo esta herramienta de comparación y contextualización de datos, que viene a complementar herramientas e iniciativas organizadas en torno a la web transparenciacatalunya.cat. 
 
-Puedes acceder al Comparador de Presupuestos en [pressupostosmunicipals.transparenciacatalunya.cat](http://pressupostosmunicipals.transparenciacatalunya.cat).
+Puedes acceder al Comparador de Presupuestos en [pressupostosmunicipals.transparenciacatalunya.cat](http://pressupostosmunicipals.transparenciacatalunya.cat). 
 
 
 
