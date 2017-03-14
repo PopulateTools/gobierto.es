@@ -12,7 +12,7 @@ Sencelles acaba de lanzar una consulta utilizando la herramienta de Gobierto par
 
 Las Consultas de Gobierto permiten al ayuntamiento seleccionar las partidas sobre las que se quiere consultar, añadir el gasto planeado, y describir lo que se podrá o no hacer si se reduce, mantiene o aumenta el gasto.
 
-La herramienta va informando en tiempo real si con las deciciones tomadas se está entrando en déficit o superhavit, o se mantiene el equilibrio presupuestario. Junto a la visualización de los [presupuestos municipales](https://pressupostsoberts.sencelles.cat), los vecinos tienen los mecanismos necesarios para entender la estructura de gastos e ingresos del municipio.  
+La herramienta va informando en tiempo real si con las deciciones tomadas se está entrando en déficit o superávit, o se mantiene el equilibrio presupuestario. Junto a la visualización de los [presupuestos municipales](https://pressupostsoberts.sencelles.cat), los vecinos tienen los mecanismos necesarios para entender la estructura de gastos e ingresos del municipio.  
 
 Así es como funciona la herramienta:
 
