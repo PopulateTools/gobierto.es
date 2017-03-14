@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Gobierto es premiado en la conferencia anual de Socrata"
-subtitle: La solución de Gobierto para la Generalitat de Catalunya resulta premiado en la conferencia anual de Socrata
+title: "El proyecto de Gobierto para la Generalitat de Catalunya es premiado en la conferencia anual de Socrata"
+subtitle: la integración de los datos abiertos de presupuestos municipales catalanes en Gobierto es destacado por el proveedor del portal open data
 date: 2017-03-10 8:00:00 +0100
 categories: transparencia
 author: Álvaro Ortiz
@@ -18,4 +18,4 @@ Es un ejemplo de "libro" de reutilización de datos: la Generalitat publica una 
 
 {% img 'posts/170310-socrata.jpg' class:'inline caption' title:"En la imagen Xavi Puig de la Generalitat de Catalunya y Toni Rubio de Desidedatum" %}
 
-Puedes visitar el Comparador de Presupuestos de la Generalitat (el producto premiado) en [pressupostosmunicipals.transparenciacatalunya.cat](http://pressupostosmunicipals.transparenciacatalunya.cat). Más información sobre [el proyecto](/blog/20170126-generalitat-catalunya.html). 
+Puedes visitar el Comparador de Presupuestos de la Generalitat (el producto premiado) en [pressupostosmunicipals.transparenciacatalunya.cat](http://pressupostosmunicipals.transparenciacatalunya.cat). Más información sobre [el proyecto](/blog/20170126-generalitat-catalunya.html).
