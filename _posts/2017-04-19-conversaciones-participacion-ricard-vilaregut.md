@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Conversaciones sobre participación ciudadana I: Ricard Vilaregut"
+title: 'Ricard Vilaregut: "Antes, el presupuesto de inversiones del ayuntamiento lo decidían 30 personas. Ahora lo deciden 8.000"'
 subtitle: "Empezamos una nueva serie de entrevistas a expertos en participación con Ricard Vilaregut, Doctor en Ciencia política y asesor en los últimos procesos participativos del Ayuntamiento de Badalona"
 date: 2017-04-19 18:00:00 +0100
 categories: participacion, gobierno abierto
@@ -34,9 +34,13 @@ La nueva esfera es la esfera ciudadana no organizada, en la cual, efectivamente,
  
 Tenemos un pastel y hay unos comensales. ¿Cual es la forma más justa de repartirse el pastel? Pues que uno corte el pastel y que otro escoja el corte. La persona que corta el pastel sabrá que tiene que ser muy justo; tendrá que cortar a mitades iguales porque el que escoge es el otro. Esta metáfora nos explica muy bien la idea de que la parte política representativa y la parte deliberativa tienen que ser muy conscientes de que tienen que ser muy justos, muy del interés común porque finalmente decidirá el ciudadano no organizado a través de un proceso tecnológico. Creo que esta fórmula es muy interesante porque garantiza un equilibrio entre las dos partes.
 
+<div class="separator blue short"></div>
+{% img 'posts/170425-participa-badalona.png' %}
+<div class="separator blue short"></div>
+
 **¿Cómo podemos reducir los sesgos? ¿Cómo atajamos las brechas generacionales, tecnológicas y socioeconómicas?**
 
-**RV:** A nivel metodológico este es el reto que tenemos que ir trabajando con ensayo-error. No hay más. En Badalona votó un 4,8% del censo que es bastante gente comparada con otras experiencias; muy poca en relación a lo que queríamos hacer. A nivel discursivo, si nos dicen “Ese 4% es poca gente”, decimos: sí, pero el presupuesto de inversiones del ayuntamiento hasta ahora lo decidían como máximo 30 personas como mucho: Es decir, el pleno. De 30 a 8.000 personas es bastante.
+**RV:** A nivel metodológico este es el reto que tenemos que ir trabajando con ensayo-error. No hay más. En Badalona votó un 4,8% del censo que es bastante gente comparada con otras experiencias; muy poca en relación a lo que queríamos hacer. A nivel discursivo, si nos dicen “Ese 4% es poca gente”, decimos: sí, pero el presupuesto de inversiones del ayuntamiento hasta ahora lo decidían como máximo 30 personas como mucho: Es decir, el pleno. Ahora lo deciden 8.000 personas.
  
 Lai dea es que estas decisiones que antes las decidían sólo 30 personas ahora las deciden a diferentes niveles mucha más gente.
  
