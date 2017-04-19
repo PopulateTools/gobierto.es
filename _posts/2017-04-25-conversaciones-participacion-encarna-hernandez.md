@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Conversaciones sobre participación ciudadana II: Encarna Hernández"
-subtitle: "Seguimos nuestra serie de conversaciones con expertos en participación ciudadana. Encarna Hernández vivió desde dentro el primer presupuesto participativo de un municipio de la Región de Murcia"
+subtitle: "Seguimos nuestra serie de conversaciones con expertos en participación ciudadana. Encarna Hernández vivió desde dentro el primer presupuesto participativo municipal de la Región de Murcia"
 date: 2017-04-25 18:00:00 +0100
 categories: participacion, gobierno abierto
 author: Rafa de las Cuevas
