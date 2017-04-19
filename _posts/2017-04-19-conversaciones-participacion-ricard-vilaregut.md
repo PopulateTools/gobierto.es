@@ -8,6 +8,10 @@ author: Rafa de las Cuevas
 main_photo: posts/170425-conversaciones-participacion-ricard_v.png
 ---
 
+Nadie tiene la varita mágica para acelerar la cultura de la participación. Pero se pueden extraer conocimientos muy valiosos de las personas que viven los procesos participativos desde dentro: técnicos, representantes de asociaciones, expertos, académicos y ciudadanía no organizada. Hoy iniciamos una serie de conversaciones sobre participación para recabar algunos datos de la mano de los expertos en los nuevos procesos de democracia mediada por la tecnología. 
+
+Por lo general, es difícil conseguir más de un 1% de participación ciudadana en procesos de presupuestos participativos. Sin embargo el Ayuntamiento de Badalona alcanzó más de un 4% en su último proceso sobre el Plan de Inversión Municipal. Hoy hablamos con **[Ricard Vilartegut](https://twitter.com/RicardVilaregut)**, Doctor en Ciencia Política y asesor del consistorio catalán en este y otros procesos participativos.
+
 **¿Qué diferencias hay entre los procesos de participación que se hacían antes (en los 80, 90) y los que se están haciendo ahora? No me refiero sólo a la tecnológica, también en cuanto a filosofía, métodos y alcance.**
 
 **Ricard Vilaregut:** Las diferencias fundamentales son dos. En primer lugar, hay un avance importante en conocimiento de la metodología. Hace unos 15 años empiezan los presupuestos participativos de Porto Alegre. Y a partir de ahí la participación se pone en la agenda política global.
