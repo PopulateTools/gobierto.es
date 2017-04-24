@@ -18,4 +18,4 @@ En Populate estamos aportando nuestra experiencia para diseñar y construir herr
 
 También en el caso de Barcelona, su software Decidim es de código abierto, por lo que las mejoras que estamos aportando estarán disponibles para todos los usuarios del software.
 
-Este proyecto se une a nuestra [colaboración con Consul](https://gobierto.es/blog/20170419-mejoras-consul.html) (el software del Ayuntamiento de Madrid, usado también en varias organizaciones) y a nuestro progreso con Gobierto, nuestra propia plataforma de gobierto abierto que reúne herramientas de transparencia y participación.
+Este proyecto se une a nuestra [colaboración con Consul](https://gobierto.es/blog/20170419-mejoras-consul.html) (el software del Ayuntamiento de Madrid, usado también en varias organizaciones) y a nuestro progreso con Gobierto, nuestra propia plataforma de gobierto abierto que reúne herramientas de [transparencia](/blog/20161215-diputacion-de-valencia-gobierto.html) y [participación](/blog/20170314-sencelles-consultas.html).
