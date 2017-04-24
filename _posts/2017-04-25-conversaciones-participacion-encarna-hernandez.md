@@ -22,7 +22,7 @@ En el campo profesional, ahora soy directora de comunicación en [NovaGob](http:
 
 Creo los procesos de participación tradicional que se han venido desarrollando en las últimas décadas (destacaría la larga trayectoria de la tradición participativa local en España) han generado un capital social que debe ser aprovechado y potenciado por las nuevas posibilidades que ofrece la tecnología. Tenemos que prestar atención a los límites y sesgos de los dos modelos, complementarlos en transiciones no demasiado rupturistas: no todo puede ser virtual o sectorial, por poner un ejemplo. 
 
-Siguen siendo necesarios escenarios presenciales y territorializados, pero la tecnología nos permite, por ejemplo, intercambiar buenas prácticas, tejer redes entre comunidades, superar los límites del espacio, generar procesos más flexibles… Sigue siendo necesaria la deliberación, cuyos esquemas tenemos que trasladar al ámbito online, integrando las tradicionales reglas para deliberar y avanzar en consensos con nuevas normas del contexto 2.0.  
+Siguen siendo necesarios escenarios presenciales y territorializados, pero la tecnología nos permite, por ejemplo, intercambiar buenas prácticas, tejer redes entre comunidades, superar los límites del espacio, generar procesos más flexibles… **Sigue siendo necesaria la deliberación, cuyos esquemas tenemos que trasladar al ámbito online**, integrando las tradicionales reglas para deliberar y avanzar en consensos con nuevas normas del contexto 2.0.  
 
 **Uno de los grandes retos de la participación es reducir los sesgos. ¿Cómo podemos hacerlo? ¿Cómo atajamos las brechas generacionales, tecnológicas y socioeconómicas?**
 
