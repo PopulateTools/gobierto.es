@@ -14,11 +14,11 @@ main_photo: posts/170419-conversaciones-participacion-encarna_h.png
 
 En el campo profesional, ahora soy directora de comunicación en [NovaGob](http://novagob.org/), y también participo en proyectos que desarrollamos desde su laboratorio de Gobierno ([NovaGob.Lab](https://lab.novagob.org/)) en materia de participación ciudadana. En NovaGob tenemos una visión de las políticas de participación ciudadana conectada con los conceptos de innovación abierta y gobernanza inteligente.
 
-**¿Qué diferencias hay entre los procesos de participación que se hacían antes (en los 80, 90) y los que se están haciendo ahora? No me refiero sólo a la tecnológica, también en cuanto a filosofía, métodos y alcance.**
+**¿Qué diferencias hay entre los procesos de participación, digamos, "tradicionales" y los que se están haciendo ahora?**
 
 **EH:** La principal diferencia es que los procesos participativos vienen reconfigurándose en torno a la implantación en la Administración de las TIC y el uso de medios sociales en el contexto de la nueva gobernanza y del Gobierno Abierto. Aquí surgen tensiones en torno al papel que asociaciones y ciudadanos individuales (no organizados) juegan en los procesos participativos, o lo que es lo mismo, lo que podríamos llamar la representación frente a la deliberación abierta a toda la ciudadanía. Creo que una de las cuestiones fundamentales, además de la que afecta a la tecnología y los derechos de ciudadanía digital (o 2.0), es la idea de transversalidad, es decir, que la manera de hacer participativa se traslade a todas las áreas de actividad de una Administración (transformando a la propia organización y su forma de gobernar y de relacionarse con la ciudadanía) y que se contemple en todo el ciclo de las políticas públicas en distintos grados de apertura (desde la consulta al empoderamiento). 
 
-**¿Qué lecciones podemos aprender de la participación tradicional y aplicarlas a nuevos procesos de participación apoyada en la tecnología?**
+**¿Qué lecciones podemos aprender de la participación presencial y aplicarlas a nuevos procesos de participación apoyada en la tecnología?**
 
 Creo los procesos de participación tradicional que se han venido desarrollando en las últimas décadas (destacaría la larga trayectoria de la tradición participativa local en España) han generado un capital social que debe ser aprovechado y potenciado por las nuevas posibilidades que ofrece la tecnología. Tenemos que prestar atención a los límites y sesgos de los dos modelos, complementarlos en transiciones no demasiado rupturistas: no todo puede ser virtual o sectorial, por poner un ejemplo. 
 
