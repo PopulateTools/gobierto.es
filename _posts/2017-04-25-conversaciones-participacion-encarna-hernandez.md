@@ -14,6 +14,11 @@ main_photo: posts/170419-conversaciones-participacion-encarna_h.png
 
 En el campo profesional, ahora soy directora de comunicación en [NovaGob](http://novagob.org/), y también participo en proyectos que desarrollamos desde su laboratorio de Gobierno ([NovaGob.Lab](https://lab.novagob.org/)) en materia de participación ciudadana. En NovaGob tenemos una visión de las políticas de participación ciudadana conectada con los conceptos de innovación abierta y gobernanza inteligente.
 
+<div class="separator blue short"></div>
+{% img 'posts/170419-conversaciones-encarna-MolinayCabannes.jpg' %}
+<p>Charla de José Molina e Yves Cabannes sobre presupuestos participativos en Molina de Segura</p>
+<div class="separator blue short"></div>
+
 **¿Qué diferencias hay entre los procesos de participación, digamos, "tradicionales" y los que se están haciendo ahora?**
 
 **EH:** La principal diferencia es que los procesos participativos vienen reconfigurándose en torno a la implantación en la Administración de las TIC y el uso de medios sociales en el contexto de la nueva gobernanza y del Gobierno Abierto. Aquí surgen tensiones en torno al papel que asociaciones y ciudadanos individuales (no organizados) juegan en los procesos participativos, o lo que es lo mismo, lo que podríamos llamar la representación frente a la deliberación abierta a toda la ciudadanía. Creo que una de las cuestiones fundamentales, además de la que afecta a la tecnología y los derechos de ciudadanía digital (o 2.0), es la idea de transversalidad, es decir, que la manera de hacer participativa se traslade a todas las áreas de actividad de una Administración (transformando a la propia organización y su forma de gobernar y de relacionarse con la ciudadanía) y que se contemple en todo el ciclo de las políticas públicas en distintos grados de apertura (desde la consulta al empoderamiento). 
@@ -28,6 +33,10 @@ Siguen siendo necesarios escenarios presenciales y territorializados, pero la te
 
 Cada modelo de participación tiene sus sesgos que pueden ser atajados desde la complementaridad. No hace mucho, al hilo de la propuesta pionera de presupuesto participativo en la Región de Murcia, realicé algunas consideraciones al respecto, centradas en la necesaria complementariedad entre lo presencial y lo digital y la posibilidad de combinar la participación individual con la intervención de colectivos. Un ejemplo: se pueden recabar propuestas de actuación telemáticamente sin que por ello se desconecte la tradicional influencia de colectivos y asociaciones, que pueden capitalizar parte del proceso. 
 
+<div class="separator blue short"></div>
+{% img 'posts/170419-conversaciones-encarna-flyer.png' %}
+<p>Página de la guía de los presupuestos participativos de Molina de Segura</p>
+<div class="separator blue short"></div>
 
 **Se tiende a pensar que participar es sinónimo de votar. Pero muchas veces se olvida que además de la democracia representativa y la democracia directa está la democracia deliberativa. ¿Hace falta más deliberación en los procesos participativos? ¿Estamos confundiendo participar con decidir?**
 
