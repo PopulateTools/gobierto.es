@@ -83,8 +83,9 @@
       if(text.length > 101) {
         text = text.substring(0,101) + '…';
       }
-      return text = text+" {{ site.twitter_hashtag_for_social_share }}";
-      
+      // return text = text+" {{ site.twitter_hashtag_for_social_share }}";
+      return text;
+
     };
 
   });
