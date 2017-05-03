@@ -64,7 +64,7 @@ jQuery(document).ready(function($) {
       }
 
       // concat the account name to the selection text
-      st = st+' {{ site.twitter_hashtag_for_social_share }}';
+      // st = st+' {{ site.twitter_hashtag_for_social_share }}';
 
       // create the sharing button
       $('body').append("<a href=\"https://twitter.com/share?url="+encodeURIComponent(sl)+"&text="+encodeURIComponent(st)+"\" class='twtshare icon-social-twitter' onclick=\"window.open(this.href, \'\', \'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600\');return false;\" data-track-event=\"Social Share|Click Twitter|From Selected Text\"></a>");
