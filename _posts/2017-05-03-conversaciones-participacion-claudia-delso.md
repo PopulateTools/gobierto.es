@@ -8,7 +8,7 @@ author: Rafa de las Cuevas
 main_photo: posts/170503-foto-claudia-delso.jpg
 ---
 
-La participación ciudadana está cambiando la forma de trabajar de los técnicos del Ayuntamiento de A Coruña. El consistorio gallego ha pasado de no tener concejalía de participación a completar un proceso de presupuestos participativos de un millón de euros (que se triplica este año). También han impulsado otras iniciativas de calado como un proceso participativo en torno a la división por distritos de la ciudad. Claudia Delso, concejala responsable del área, nos relata su experiencia durante estos dos años y reflexiona sobre lo que queda por hacer en torno al gobierno abierto.
+La participación ciudadana está cambiando la forma de trabajar de los técnicos del Ayuntamiento de A Coruña. El consistorio gallego ha pasado de no tener concejalía de participación a completar un proceso de presupuestos participativos de un millón de euros (que se triplica este año). También han impulsado otras iniciativas de calado como un proceso participativo en torno a la división por distritos de la ciudad. **[Claudia Delso](https://twitter.com/claudia__delso)**, concejala responsable del área, nos relata su experiencia durante estos dos años y reflexiona sobre lo que queda por hacer en torno al gobierno abierto.
 
 **En Coruña tenéis una actividad participativa bastante intensa y muy reciente. ¿Qué diferencias ves entre los procesos que se hacen ahora en ayuntamientos como el vuestro y la participación que se hacía décadas atrás en nuestro país?**
 
@@ -16,7 +16,12 @@ La participación ciudadana está cambiando la forma de trabajar de los técnico
 
 Además, hay una diferencia interesante: cada vez hay más procesos que parten de abajo. En Coruña tenemos un ejemplo muy bonito, que es [“O Noso Patio”](http://www.coruna.gal/participacion/es/procesos-participativos/o-noso-patio?argIdioma=es), donde una comunidad escolar de un centro público nos propuso hacer un proceso participativo para repensar el patio escolar. Es un proceso que ha partido completamente de abajo, de una comunidad con una representación plural. El deseo venía de la directiva del centro, del ANPA y de los propios chavales. Ahora tienen un proyecto de patio que lo han decidido a través de un proceso participado, y la propia comunidad educativa también va a participar en la ejecución de las obras.
 
-**Que se normalicen procesos de participación en centros escolares tiene todo el sentido: a nivel pedagógico y a nivel de empoderamiento, de conciencia ciudadana**. Si tú has participado en el diseño de tu patio y luego ves que puedes participar en la decisión de las inversiones, en los presupuestos participativos, normalizas que la participación además de un derecho puede y debe convertirse en un hábito, en una conciencia que transforma nuestra manera de entender la gobernanza de una ciudad.  
+Que se normalicen procesos de participación en centros escolares tiene todo el sentido: a nivel pedagógico y a nivel de empoderamiento, de conciencia ciudadana. Si tú has participado en el diseño de tu patio y luego ves que puedes participar en la decisión de las inversiones, en los presupuestos participativos, normalizas que la participación además de un derecho puede y debe convertirse en un hábito, en una conciencia que transforma nuestra manera de entender la gobernanza de una ciudad.  
+
+<blockquote class="quote">
+  Que se normalicen procesos de participación en centros escolares tiene todo el sentido: a nivel pedagógico y a nivel de empoderamiento, de conciencia ciudadana
+  <cite>Claudia Delso</cite>
+</blockquote>
 
 Todo esto debería contribuir a entender la participación como algo irreversible y que los procesos de participación se impulsen desde los gobiernos pero sobre todo desde la ciudadanía. Y eso a su vez contribuye a afectar positivamente a la transformación de la administración pública; a que la administración cuente cada vez y de una manera normalizada con la ciudadanía como un actor fundamental en su funcionamiento ordinario. El caso de A Coruña es paradigmático porque es la primera vez que existe una concejalía de Participación e Innovación Democrática específica como tal. Eso significa que hay un montón de camino que otras ciudades ya han recorrido: impulsar procesos, espacios, órganos de participación… Aquí estaba todo por hacer y eso convierte nuestro trabajo en un reto y una oportunidad.
 
@@ -30,12 +35,15 @@ Pero obviamente hay una necesidad –que las propias entidades manifiestan– de
 
 Eso sí, sin olvidar a la ciudadanía no organizada, a la persona individual, porque esta concepción de la participación como un derecho es igual a todas las personas, estén organizadas o no lo estén. En A Coruña estamos trabajando desde esa perspectiva. Manteniendo una interlocución activa y constante especialmente con las entidades vecinales, pero también con todo el tejido asociativo de la ciudad, tratando de involucrarlos en todos los procesos de participación.
 
+<div class="separator blue short"></div>
+{% img 'posts/170503-orzamentos03.jpg' %}
+<div class="separator blue short"></div>
+
 En el caso concreto de los presupuestos participativos se les invita a que sean elementos activos dentro del proceso y organicen sus propios espacios de debate. Desde el ayuntamiento les facilitamos una formación metodológica y una serie de claves para mediar: un espacio de participación, formación en el uso de la plataforma digital, etc.… Tratamos de acompañar y de dar los recursos necesarios para que las propias entidades puedan ser elementos activos en todos los procesos de participación además de contribuir a su formación y actualización.
 
 El año pasado, con la experiencia piloto de los presupuestos participativos, tuvimos un debate en el que aparecieron ciertas resistencias, por hablar abiertamente de la participación individual. Se generan muchos miedos porque no hay costumbre; es algo que se tenía que haber normalizado hace muchos años. En el caso de A Coruña la participación en los presupuestos participativos es individual pero si eres de una asociación puedes dejar constancia de ello. Por poner un ejemplo: el año pasado, de las 516 propuestas que recibimos para los presupuestos participativos, alrededor de 150 fueron propuestas por personas vinculadas a asociaciones. Es una manera de que las propias asociaciones generen espacios de debate y trabajo colectivo alrededor de las necesidades de sus barrios y de la ciudad. Obviamente el resto de canales de relación con el Ayuntamiento funcionan y tenemos reuniones periódicas con las asociaciones. En nuestro caso los presupuestos participativos además de ser una herramienta de democracia directa al servicio de la ciudadanía se convierten también en un canal muy útil para que las entidades trasladen y difundan directamente sus demandas.
 
 Poco a poco, esa resistencia inicial está derivando en un diálogo, yo creo que muy rico, en el que las asociaciones se van involucrando cada vez más en los procesos de participación de la misma manera que los ciudadano/as a título individual. Y eso a lo único que contribuye es a nutrir y a fortalecer la democracia participativa en nuestra ciudad.
-
 
 **¿Qué lecciones podríamos aprender de la participación tradicional para aplicarlas a nuevos procesos de participación apoyada en la tecnología?**
 
@@ -49,6 +57,10 @@ La tecnología es un medio, una herramienta que en este momento no puedes no uti
 
 Y luego obviamente en la situación que tenemos de ley Montoro, la ley de Racionalización. En el caso de Coruña, que tiene una concejalía nueva con muy poco personal, sería absolutamente inviable hacer un proceso tradicional de presupuestos participativos con urnas, por toda la ciudad, etc. En nuestro caso lo que estamos haciendo es tratar de trabajar con el contexto que tenemos, con las herramientas de software libre que tenemos, y tratar de buscar un equilibrio entre lo tradicional y lo actual, es decir realizando un proceso actualizado al momento presente.
 
+<div class="separator blue short"></div>
+{% img 'posts/170503-orzamentos01.png' %}
+<div class="separator blue short"></div>
+
 **¿Cómo podemos reducir los sesgos? ¿Cómo atajamos las brechas generacionales, tecnológicas y socioeconómicas?**
 
 **C.D.**: Aquí apostamos por las posibilidades que nos da la tecnología pero obviamente teniendo en cuenta que para llegar a todo el mundo tenemos que trabajar con mecanismos que reduzcan esa brecha que puede ser generacional o de manejo de las nuevas tecnologías. Que las asociaciones tengan ahí un papel activo tiene todo el sentido porque reciben una formación en el manejo de la plataforma y luego transmiten ese conocimiento a su base social.
@@ -61,22 +73,18 @@ Este año por ejemplo, tanto la Universidad Senior como la Federación de Asocia
 
 Y también vamos a contar con un autobús itinerante que recorrerá la ciudad tratando de llegar a esos lugares por donde no llegábamos por otros medios. Dentro del autobús habrá mediadores y mediadoras para que la gente pueda hacer sus propias propuestas y apoyarlas.
 
-<div class="separator blue short"></div>
-{% img 'posts/170503-orzamentos01.png' %}
-<div class="separator blue short"></div>
-
 **Se tiende a pensar que participar es sinónimo de votar. Pero muchas veces se olvida que además de la democracia representativa y la democracia directa está la democracia deliberativa. ¿Hace falta más deliberación en los procesos participativos? ¿Estamos confundiendo participar con decidir?**
 
+**C.D.**: Creo que ahora mismo estamos en un momento en el que la participación se puede ver como una moda. Y esa moda lleva a una especie de ansiedad porque se generan muchas expectativas. Hay una cosa en la que yo creo totalmente (y que políticamente quizás no de mucho rédito) y es en reivindicar la lentitud de los procesos de participación. Entender nuestro trabajo como un trabajo de hormiguita, pues los resultados los veremos muy a medio-largo plazo.
+
 <blockquote class="quote">
-  La participación se ve como una moda, y esto genera muchas expectativas y por tanto ansieddad. Yo reivindico la lentitud de los procesos de participación
+  La participación se ve como una moda, y esto genera muchas expectativas y por tanto ansiedad. Yo reivindico la lentitud de los procesos de participación
   <cite>Claudia Delso</cite>
 </blockquote>
 
-**C.D.**: Creo que ahora mismo estamos en un momento en el que la participación se puede ver como una moda. Y esa moda lleva a una especie de ansiedad porque se generan muchas expectativas. Hay una cosa en la que yo creo totalmente (y que políticamente quizás no de mucho rédito) y es en **reivindicar la lentitud de los procesos de participación**. Entender nuestro trabajo como un trabajo de hormiguita, pues los resultados los veremos muy a medio-largo plazo.
-
 Por supuesto, ponemos todos los medios para generar espacios y procesos de deliberación y garantizar ese acceso en igualdad de condiciones. En Coruña este año triplicamos la cantidad que se destina a los presupuestos participativos. El año pasado fué una experiencia piloto donde sólo se permitían propuestas de ciudad. Este año como hemos hecho un proceso de organización de la ciudad en distritos y tenemos un mapa de distritos propuesto, lo vamos a utilizar como herramienta de políticas redistributivas. Tenemos un millón para proyectos de ciudad y dos millones distribuidos de manera equitativa entre los diez distritos.
 
-También creo que **hay otra confusión y otro mito que es el de que todo el mundo tiene que participar**. Tenemos que hacer lo posible porque todo el mundo sea consciente de que tiene derecho a participar y haga lo posible por participar. Pero también nos tenemos que quitar esta idea de que todo el mundo va a participar. Hay mucha gente que no participa por distintas razones. Cuando las razones son por cuestiones de desigualdad, ahí es donde tenemos que hacer más esfuerzos. Por otro lado, las nuevas tecnologías sí posibilitan que personas que por múltiples razones no pueden desplazarse o no tienen tanto tiempo, tengan el mismo derecho de acceso.
+También creo que hay otra confusión y otro mito que es el de que todo el mundo tiene que participar. Tenemos que hacer lo posible porque todo el mundo sea consciente de que tiene derecho a participar y haga lo posible por participar. Pero también nos tenemos que quitar esta idea de que todo el mundo va a participar. Hay mucha gente que no participa por distintas razones. Cuando las razones son por cuestiones de desigualdad, ahí es donde tenemos que hacer más esfuerzos. Por otro lado, las nuevas tecnologías sí posibilitan que personas que por múltiples razones no pueden desplazarse o no tienen tanto tiempo, tengan el mismo derecho de acceso.
 
 El año pasado tuvimos algunas alarmas comunes a este tipo de procesos: ¿Y si el millón de euros se va a una propuesta en el centro de la ciudad y el resto de los barrios se quedan sin dinero? Realmente lo que pasó es que se distribuyó muchísimo el dinero. Se decidió invertir el millón de euros en 21 proyectos muy diferentes: proyectos de desarrollo de software, de infraestructuras, de espacio público... Hubo muchísima diversidad. De media, cada persona que votó distribuyó el dinero en aproximadamente cinco propuestas.
 
@@ -90,7 +98,12 @@ El año pasado tuvimos algunas alarmas comunes a este tipo de procesos: ¿Y si e
 
 **C.D.**: Creo que deberían. El contagio es inevitable de alguna manera, por mucho que haya mucha resistencia. Daniel Ordaz, un jurista suizo que ha hecho una propuesta de reforma constitucional, trata de aplicar el modelo de democracia directa de Suiza al contexto español. Es una propuesta bastante interesante, que incita al debate. Se llama Reforma 13. El otro dia fui a una conferencia suya y el debate que se generó después me parece interesante. Habla de eso mismo: de que en España puede que haya un hastío a nivel parlamentario pero por otro lado la sociedad española se ha manifestado de una manera muy clara y plural. Y cosas como tener gobiernos pluricolores a través de las listas abiertas –que en otros países es algo muy habitual– aquí nos parece muy alejado de la realidad.
 
-**Creo que también hay un error, o una confusión y es asociar las políticas de participación exclusivamente a gobiernos de izquierda**. Y eso, por mucho que nos pese, tenemos que superarlo. Porque quizá el matiz estará en las formas, en el cómo hacerlo. Pero debería ser indiscutible. Como también debería ser indiscutible que hubiera concejalías de participación. Luego podemos debatir sobre cómo se tratan los procesos, las metodologías… Pero no quedarnos en si lo hace un gobierno de derechas o de izquierdas. Porque otro problema que tenemos es que falta continuidad en los procesos, y puede ser por esa polarización que tenemos. Creo que tenemos un ejemplo interesante muy cerca, en Portugal. Allí, además de tener una tradición de presupuestos participativos de todos los colores desde hace muchos años, se acaba de lanzar a un proceso de presupuestos participativos a nivel estatal. Creo que el debate llegará y el contagio es inevitable. No se cuanto tardará, pero bueno.
+Creo que también hay un error, o una confusión y es asociar las políticas de participación exclusivamente a gobiernos de izquierda. Y eso, por mucho que nos pese, tenemos que superarlo. Porque quizá el matiz estará en las formas, en el cómo hacerlo. Pero debería ser indiscutible. Como también debería ser indiscutible que hubiera concejalías de participación. Luego podemos debatir sobre cómo se tratan los procesos, las metodologías… Pero no quedarnos en si lo hace un gobierno de derechas o de izquierdas. Porque otro problema que tenemos es que falta continuidad en los procesos, y puede ser por esa polarización que tenemos. Creo que tenemos un ejemplo interesante muy cerca, en Portugal. Allí, además de tener una tradición de presupuestos participativos de todos los colores desde hace muchos años, se acaba de lanzar a un proceso de presupuestos participativos a nivel estatal. Creo que el debate llegará y el contagio es inevitable. No se cuanto tardará, pero bueno.
+
+<blockquote class="quote">
+  Creo que también hay un error, o una confusión y es asociar las políticas de participación exclusivamente a gobiernos de izquierda
+  <cite>Claudia Delso</cite>
+</blockquote>
 
 **Hablemos de la legislación colaborativa. Según el artículo 133 de la Ley 39/2015 se debe consultar a los ciudadanos –a través del portal web de la Administración competente– antes de elaborar una nueva ley o reglamento. ¿Cómo crees que se debe afrontar este nuevo reto de ampliación del espacio democrático?**
 
