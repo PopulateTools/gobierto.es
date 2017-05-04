@@ -8,7 +8,7 @@ author: Rafa de las Cuevas
 main_photo: posts/170503-foto-claudia-delso.jpg
 ---
 
-La participación ciudadana está cambiando la forma de trabajar de los técnicos del Ayuntamiento de A Coruña. El consistorio gallego ha pasado de no tener concejalía de participación a completar un proceso de presupuestos participativos de un millón de euros (que se triplica este año). También han impulsado otras iniciativas de calado como un proceso participativo en torno a la división por distritos de la ciudad. **[Claudia Delso](https://twitter.com/claudia__delso)**, concejala responsable del área, nos relata su experiencia durante estos dos años y reflexiona sobre lo que queda por hacer en torno al gobierno abierto.
+La participación ciudadana está cambiando la forma de trabajar de los técnicos del Ayuntamiento de A Coruña. El consistorio gallego ha pasado de no tener concejalía de participación a completar un proceso de presupuestos participativos de un millón de euros (que se triplica este año). También han impulsado otras iniciativas de calado como un proceso participativo en torno a la división por distritos de la ciudad. **[Claudia Delso](https://twitter.com/claudia__delso)**, concejala responsable del área, nos relata su experiencia durante estos dos años y reflexiona sobre lo que queda por hacer en torno al gobierno abierto. (Foto de cabecera: Antía García Sendón. Resto de imágenes: Ayuntamiento de A Coruña)
 
 **En Coruña tenéis una actividad participativa bastante intensa y muy reciente. ¿Qué diferencias ves entre los procesos que se hacen ahora en ayuntamientos como el vuestro y la participación que se hacía décadas atrás en nuestro país?**
 
