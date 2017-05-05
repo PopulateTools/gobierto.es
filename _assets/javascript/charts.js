@@ -1,4 +1,5 @@
 //= require vendor/d3.v3.min
+//= require vendor/queue.min
 //= require vendor/d3-tip.min
 //= require vendor/d3-legend
 //= require vendor/accounting.min
@@ -21,6 +22,12 @@ accounting.settings = {
 }
 
 $(function(){
+  
+  // New posts!
+  if ($('.js-cartogram').length !== 0) {
+    var carto = new cartogram('.js-cartogram');
+    carto.render();
+  }
 
   // Load charts
   $('[data-chart-container]').each(function(){
