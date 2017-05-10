@@ -5,7 +5,7 @@ subtitle: 'El modelo de participación de Irún está enraizado con modelos prev
 date: 2017-05-10
 categories: participacion, gobierno abierto
 author: Rafa de las Cuevas
-main_photo: 
+main_photo: posts/170510-arranz01.jpg
 ---
 
 El jefe del área de Participación del Ayuntamiento de Irún ha vivido el desarrollo tecnológico de su municipio desde el nacimiento de internet. Javier Arranz lleva 30 años trabajando en el consistorio guipuzcoano y ha desarrollado junto con su equipo un portal de participación propio, adaptado a sus propias necesidades. Arranz cree en la integración progresiva del flujo de datos en los ayuntamientos, poco a poco, sin arrebatos ni sorpresas. Y tiene la misma filosofía con la participación: se tarda en conseguir una nueva cultura cívica de participación, pero a la larga acabará dando sus frutos.
@@ -27,6 +27,11 @@ Esta ciudad ha tenido desde hace muchos años un espíritu bastante participativ
 
 Pero hubo un evento que marcó un antes y un después: El [foro ciudadano de Irún](http://www.forociudadanoirunes.org/) en 2001. Constituido en modelo ágora griega, movió a más de 400 personas y se configuró con cinco ejes estratégicos que tenían formas asamblearias de trabajo, aportaciones ya por internet, etc. Eso dio lugar al Libro blanco del primer foro ciudadano de Irún, un documento que se ha tenido muy presente a la hora de construir programas electorales y acciones de gobierno. Entre los mayores impulsores de los presupuestos participativos estaban personas que siguen manteniendo vivo ese foro.
 
+<div class="separator blue short"></div>
+{% img 'posts/170510-arranz03.JPG' %}
+<p>Una de las sesiones presenciales de los presupuestos participativos de Irún.</p>
+<div class="separator blue short"></div>
+
 **¿Qué lecciones podemos aprender de la participación tradicional y aplicarlas a nuevos procesos de participación apoyada en la tecnología?**
 
 Internet te pone cierta máscara pero está claro que se trabaja para los ciudadanos, para las personas. Y ellos viven los problemas de una manera más directa de lo que podemos hacerlo nosotros como técnicos del ayuntamiento. Hay personas a las que les cuesta explicarse o no se les da bien intervenir públicamente. Y desde el ordenador pueden aportar cosas muy valiosas. Así que diseñamos la web para que puedan compartir opiniones y aunar transparencia, participación y rendición de cuentas.
@@ -44,6 +49,11 @@ El funcionamiento de los presupuestos participativos es bastante básico: Una re
 
 Aparte de todos esos proyectos se incorporan otros tantos para los que no han estado en las sesiones presenciales, y estos sí son con votación online. Pueden pasar a la votación final a través de una prevotación electrónica ya con autenticación. Hay un filtro técnico para que asegurarse de que todos los proyectos cumplan los requisitos y que entren en el presupesto asignado. Y todo esto se consolida en una sesión de presentación abierta a toda la ciudadanía en la que se explican en detalle los proyectos (el año pasado fueron 48). Se vota, y lo que sale se incorpora al presupesto.
 Lo que tenemos claro es que estamos aprendiendo. Cada año nos hemos encontrado con situaciones distintas. Poir ejemplo, un año tuvimos un efecto lobby brutal.
+
+<div class="separator blue short"></div>
+{% img 'posts/170510-arranz05.jpg' %}
+<p>Grupo de trabajo de los presupuestos participativos en el antiguo hospital de Irún.</p>
+<div class="separator blue short"></div>
 
 **Hablando de los lobbies, ¿cómo intentáis reducir ese tipo sesgos, o las brechas generacionales, tecnológicas y de género?**
 
@@ -67,6 +77,11 @@ El factor género no es un problema en nuestro caso. La media de participación 
 Tenemos un problema con los jóvenes. Nos cuesta muchísimo que participen en los procesos, incluso en los específicos para ellos. Tenemos una vertiente juvenil de los presupuestos participativos en los que se reservan 200.000€ y hacemos de todo: Visitar centros de formación profesional e institutos, hemos contratado una empresa para que chavales de su edad les intenten animar a participar, hemos intentado involucrar los locales de jóvenes… Ha servido de algo, pero poco.
 
 También hemos tenido en cuenta la participación de personas sordomudas incorporando un intérprete de lenguaje de signos; algo que no cuesta nada porque los pone la diputación provincial. Y siempre se da apoyo a personas con otro tipo de deficiencias físicas o cognitivas.
+
+<div class="separator blue short"></div>
+{% img 'posts/170510-arranz04.jpg' %}
+<p>Centro cívico del Ayuntamiento de Irún.</p>
+<div class="separator blue short"></div>
 
 **A veces se propaga el miedo a que ganen propuestas muy descabelladas o que no recojan el interés general. ¿Hace falta más deliberación en los procesos participativos? ¿Estamos confundiendo participar con decidir?**
 
