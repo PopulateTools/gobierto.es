@@ -46,9 +46,9 @@ Yo creo que el Ayuntamiento de Irún, pese a su tamaño, ha ido por encima de la
 
 El funcionamiento de los presupuestos participativos es bastante básico: Una recogida de aportaciones online sin ningún tipo de identificación ciudadana: todo el que quiere proponer algo lo propone. Eso se traslada a las sesiones presenciales para que tengan toda la información de lo que ha entrado por internet. En las sesiones presenciales se hacen grupos de trabajo que exponen los proyectos más interesantes. Finalmente se votan entre todos los asistentes las propuestas que pasarán a la votación final.
 
-Aparte de todos esos proyectos se incorporan otros tantos para los que no han estado en las sesiones presenciales, y estos sí son con votación online. Pueden pasar a la votación final a través de una prevotación electrónica ya con autenticación. Hay un filtro técnico para que asegurarse de que todos los proyectos cumplan los requisitos y que entren en el presupesto asignado.
+Aparte de todos esos proyectos se incorporan otros tantos para los que no han estado en las sesiones presenciales, y estos sí son con votación online. Pueden pasar a la votación final a través de una prevotación electrónica ya con autenticación. Hay un filtro técnico para que asegurarse de que todos los proyectos cumplan los requisitos y que entren en el presupuesto asignado.
 
-Y todo esto se consolida en una sesión de presentación abierta a toda la ciudadanía en la que se explican en detalle los proyectos (el año pasado fueron 48). Se vota, y lo que sale se incorpora al presupesto. Lo que tenemos claro es que estamos aprendiendo. Cada año nos hemos encontrado con situaciones distintas. Por ejemplo, un año tuvimos un efecto lobby brutal.
+Y todo esto se consolida en una sesión de presentación abierta a toda la ciudadanía en la que se explican en detalle los proyectos (el año pasado fueron 48). Se vota, y lo que sale se incorpora al presupuesto. Lo que tenemos claro es que estamos aprendiendo. Cada año nos hemos encontrado con situaciones distintas. Por ejemplo, un año tuvimos un efecto lobby brutal.
 
 <div class="separator blue short"></div>
 {% img 'posts/170510-arranz05.jpg' class:'caption' title:'Grupo de trabajo de los presupuestos participativos en el antiguo hospital de Irún' %}
