@@ -2,10 +2,10 @@
 layout: post
 title: 'Javier Arranz: “Se participa poco en ámbitos estratégicos como la legislación colaborativa. Pero estoy convencido de que es la manera”'
 subtitle: 'El modelo de participación de Irún está enraizado con modelos previos muy consensuados. Javier Arranz explica los mecanismos de sus presupuestos participativos y enumera algunas dificultades como el “efecto lobby”'
-date: 2017-05-11
+date: 2017-05-10
 categories: participacion, gobierno abierto
 author: Rafa de las Cuevas
-main_photo: posts/170503-foto-claudia-delso.jpg
+main_photo: 
 ---
 
 El jefe del área de Participación del Ayuntamiento de Irún ha vivido el desarrollo tecnológico de su municipio desde el nacimiento de internet. Javier Arranz lleva 30 años trabajando en el consistorio guipuzcoano y ha desarrollado junto con su equipo un portal de participación propio, adaptado a sus propias necesidades. Arranz cree en la integración progresiva del flujo de datos en los ayuntamientos, poco a poco, sin arrebatos ni sorpresas. Y tiene la misma filosofía con la participación: se tarda en conseguir una nueva cultura cívica de participación, pero a la larga acabará dando sus frutos.
