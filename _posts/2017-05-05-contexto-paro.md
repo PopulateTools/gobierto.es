@@ -7,6 +7,4 @@ categories: datos, gobierto
 author: Martín González
 main_photo_big: posts/170425-indicadores-1.png
 ---
-
-
 <div class="js-cartogram"></div>

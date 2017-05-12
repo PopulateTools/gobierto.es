@@ -22,13 +22,6 @@ accounting.settings = {
 }
 
 $(function(){
-  
-  // New posts!
-  if ($('.js-cartogram').length !== 0) {
-    var carto = new cartogram('.js-cartogram');
-    carto.render();
-  }
-
   // Load charts
   $('[data-chart-container]').each(function(){
     var $container = $(this);
