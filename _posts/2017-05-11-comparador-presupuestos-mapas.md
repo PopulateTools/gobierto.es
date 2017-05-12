@@ -2,7 +2,7 @@
 layout: post
 title: 'Mejoramos nuestro comparador de presupuestos abierto: mapas de las cuentas municipales'
 subtitle: 'Lanzamos el nuevo mapa de los presupuestos municipales. ¿Cuánto ingresan los ayuntamientos por impuestos? ¿Cuánto dinero se destina al pago de la deuda? ¿Cuánto gastan en políticas sociales?'
-date: 2017-05-11
+date: 2017-05-12
 categories: presupuestos, transparencia, gobierno abierto
 author: Rafa de las Cuevas
 main_photo_big: posts/170510-mapa-presupuestos01.jpg
