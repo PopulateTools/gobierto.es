@@ -6,28 +6,27 @@ var cartogram = Class.extend({
     
     this.data = null;
     this.pop = null;
-    this.width = d3.select(containerId).node().clientWidth; - margin.left - margin.right;
+    this.epa = null;
+    this.width = d3.select(containerId).node().clientWidth - margin.left - margin.right;
     this.height = this.width * 0.8 - margin.top - margin.bottom;
     this.padding = 4;
-    
-    this.projection = d3.geoConicConformalSpain()
-      .translate([this.width / 2, this.height / 2])
-      .scale(3500);
-      
-    this.svg = d3.select(containerId).append("svg")
-      .attr("width", this.width)
-      .attr("height", this.height);
+
+    this.svg = d3.select(containerId).append('svg')
+      .attr('width', this.width)
+      .attr('height', this.height);
       
     this.rectSize = d3.scaleSqrt()
-      .range([20, 120]);
+      .range([20, 120]);      
   },
   getData: function() {
     d3.queue()
       .defer(d3.json, '/data/es-provinces.v1.json')
       .defer(d3.json, '/data/ccaa_pop.json')
-      .await(function(error, es, pop) {
+      .defer(d3.json, '/data/epa_latest.json')
+      .await(function(error, es, pop, epa) {
         this.data = es;
         this.pop = pop;
+        this.epa = epa;
         
         this.updateRender();
       }.bind(this));
@@ -41,16 +40,31 @@ var cartogram = Class.extend({
   },
   updateRender: function(callback) {
     this.rectSize.domain(d3.extent(this.pop, function(d) {return d.value }));
-    var provinces = topojson.feature(this.data, this.data.objects.autonomous_regions).features;
+    
+    var ccaa = topojson.feature(this.data, this.data.objects.autonomous_regions);
+    var provinces = ccaa.features;
+    
+    var projection = d3.geoConicConformalSpain()
+      .fitSize([this.width, this.height], ccaa);
+    
+    var color = d3.scaleThreshold()
+      .domain([12, 14, 16, 18, 20, 22, 24, 26])
+      .range(['#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#253494','#081d58']);
 
     var obj = [];
     
     this.pop.forEach(function(d) {
       obj[d.id] = d;
     });
+    
+    var objEpa = [];
+    
+    this.epa.forEach(function(d) {
+      objEpa[d.location_id] = d;
+    });
 
     provinces.forEach(function(d) {
-      d.pos = this.projection(d3.geoCentroid(d))
+      d.pos = projection(d3.geoCentroid(d))
       d.x = d.pos[0]
       d.y = d.pos[1]
       d.area = this.rectSize(obj[d.id].value) // How we scale
@@ -61,47 +75,83 @@ var cartogram = Class.extend({
       .domain(d3.extent(provinces, function(d) { return d.area }))
 
     var simulation = d3.forceSimulation(provinces)
-      .force("x", d3.forceX(function(d) { return d.pos[0] }).strength(.1))
-      .force("y", d3.forceY(function(d) { return d.pos[1] }).strength(.1))
-      .force("collide", collide)
+      .force('x', d3.forceX(function(d) { return d.pos[0] }).strength(.1))
+      .force('y', d3.forceY(function(d) { return d.pos[1] }).strength(.1))
+      .force('collide', collide)
 
     for (var i = 0; i < 120; ++i) simulation.tick()
 
-    var rect = this.svg.selectAll("g")
+    var rect = this.svg.selectAll('g')
       .data(provinces)
       .enter()
-      .append("g")
-      .attr("class", function(d) { return "ccaa-" + d.id })
-      .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")" })
+      .append('g')
+      .attr('class', function(d) { return 'ccaa-' + d.id })
+      .attr('transform', function(d) { return 'translate(' + d.x + ',' + d.y + ')' })
 
-    rect.append("rect")
+    rect.append('rect')
       .each(function(d) {
         d3.select(this)
-          .attr("width", d.area)
-          .attr("height", d.area)
-          .attr("x", -d.area / 2)
-          .attr("y", -d.area / 2)
-          // .attr("fill", color(d.properties.paro))
-          .attr("stroke", "white")
-          .attr("rx", 2)
+          .attr('width', d.area)
+          .attr('height', d.area)
+          .attr('x', -d.area / 2)
+          .attr('y', -d.area / 2)
+          .attr('fill', color(objEpa[d.id].value))
+          .attr('stroke', 'rgba(0,0,0,.5)')
+          .attr('stroke-width', 0.5)
+          .attr('rx', 1)
         });
 
-    rect.append("text")
+    rect.append('text')
       .each(function(d) {
         d3.select(this)
-          .attr("text-anchor", "middle")
-          .attr("dy", 3)
-          .text(d.id)
-          .style("fill", "white")
-          .style("font-size", fontSize(d.area) + "px")
+          .attr('text-anchor', 'middle')
+          .attr('dy', 3)
+          .text(obj[d.id].abbr)
+          .style('fill', objEpa[d.id].value > 18 ? 'white' : '#111')
+          .style('font-size', fontSize(d.area) + 'px')
       });
 
     // Canary islands path
-    this.svg.append("path")
-      .style("fill","none")
-      .style("stroke","black")
-      .attr("d", this.projection.getCompositionBorders());
+    this.svg.append('path')
+      .style('fill','none')
+      .style('stroke','black')
+      .attr('d', projection.getCompositionBorders());
       
+    var legend = this.svg.append('g')
+      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 50) + ')')
+      .attr('class', 'legend');
+      
+    legend.selectAll('rect')
+      .data(color.range())
+      .enter()
+      .append('rect')
+      .attr('x', function(d, i) {
+        return i * 25
+      })
+      .attr('width', 25)
+      .attr('height', 10)
+      .attr('fill', function(d) {
+        return d;
+      })
+    
+    legend.selectAll('text')
+      .data(color.domain())
+      .enter()
+      .append('text')
+      .attr('dx', 19)
+      .attr('dy', '25')
+      .attr('x', function(d, i) {
+        return i * 25;
+      })
+      .text(function(d) {
+        return d;
+      })
+    
+    legend.append('text')
+      .attr('class', 'legend-title')
+      .text('Tasa de paro (%)')
+      .attr('dy', -8);
+    
     function collide() {
       for (var k = 0, iterations = 4, strength = 0.5; k < iterations; ++k) {
         for (var i = 0, n = provinces.length; i < n; ++i) {
