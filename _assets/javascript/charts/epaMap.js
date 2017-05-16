@@ -48,7 +48,7 @@ var epaMap = Class.extend({
     
     var color = d3.scaleThreshold()
       .domain([12, 14, 16, 18, 20, 22, 24, 26])
-      .range(['#ffffd9','#edf8b1','#c7e9b4','#7fcdbb','#41b6c4','#1d91c0','#225ea8','#253494','#081d58']);
+      .range(['#fff7f3','#fde0dd','#fcc5c0','#fa9fb5','#f768a1','#dd3497','#ae017e','#7a0177','#49006a']);
     
     var fontSize = d3.scaleLinear()
       .range([8, 24])

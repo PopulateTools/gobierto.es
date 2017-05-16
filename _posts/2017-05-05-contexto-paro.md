@@ -19,7 +19,7 @@ El problema surge al comparar las regiones. Comunidades más extensas como Casti
 
 Uno de los métodos más populares para contrarrestar este *bias* son los [cartogramas](https://es.wikipedia.org/wiki/Cartograma). En este ejemplo cada cuadrado es una comunidad autónoma pero su tamaño está escalado de acuerdo con la población. De esta manera realmente es posible ver qué regiones son más relevantes desde el punto de vista demográfico.
 
-El problema con este tipo de gráficos es la pérdida de la referencia geográfica. Existen varios tipos de cartogramas (contiguos, con círculos), y cada uno de ellos intenta establecer un balance entre fidelidad geográfica y estadística.
+El problema con este tipo de gráficos es la pérdida de la referencia geográfica. Existen varios tipos de cartogramas ([contiguos](http://prag.ma/code/d3-cartogram/#popest/2010), de [círculos](https://mbostock.github.io/protovis/ex/cartogram.html)), y cada uno de ellos intenta establecer un balance diferente entre fidelidad geográfica y estadística.
 
 <style>
 p {
