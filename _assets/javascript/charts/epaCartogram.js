@@ -9,14 +9,18 @@ var epaCartogram = Class.extend({
     this.epa = null;
     this.width = d3.select(containerId).node().clientWidth - margin.left - margin.right;
     this.height = this.width * 0.8 - margin.top - margin.bottom;
-    this.padding = 4;
+    this.padding = 2;
 
     this.svg = d3.select(containerId).append('svg')
       .attr('width', this.width)
       .attr('height', this.height);
       
+    this.squareScale = d3.scaleLinear()
+      .range([30, 100])
+      .domain([320, 600]);
+      
     this.rectSize = d3.scaleSqrt()
-      .range([20, 120]);      
+      .range([20, this.squareScale(this.width)]);      
   },
   getData: function() {
     d3.queue()
@@ -71,7 +75,7 @@ var epaCartogram = Class.extend({
     }.bind(this));
     
     var fontSize = d3.scaleLinear()
-      .range([8, 24])
+      .range([8, 20])
       .domain(d3.extent(provinces, function(d) { return d.area }))
 
     var simulation = d3.forceSimulation(provinces)
@@ -118,7 +122,7 @@ var epaCartogram = Class.extend({
       .attr('d', projection.getCompositionBorders());
       
     var legend = this.svg.append('g')
-      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 50) + ')')
+      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
       .attr('class', 'legend');
       
     legend.selectAll('rect')

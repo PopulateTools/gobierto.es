@@ -150,7 +150,7 @@ var epaMap = Class.extend({
       .attr('d', projection.getCompositionBorders());
       
     var legend = this.svg.append('g')
-      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 50) + ')')
+      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
       .attr('class', 'legend');
       
     legend.selectAll('rect')

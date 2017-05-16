@@ -22,6 +22,9 @@ Uno de los métodos más populares para contrarrestar este *bias* son los [carto
 El problema con este tipo de gráficos es la pérdida de la referencia geográfica. Existen varios tipos de cartogramas ([contiguos](http://prag.ma/code/d3-cartogram/#popest/2010), de [círculos](https://mbostock.github.io/protovis/ex/cartogram.html)), y cada uno de ellos intenta establecer un balance diferente entre fidelidad geográfica y estadística.
 
 <style>
+.column {
+  width: 90%;
+}
 p {
   max-width: 560px;
   margin: 0 auto;
@@ -29,11 +32,6 @@ p {
 }
 .g-headline {
   margin-top: 0.5em;
-}
-.js-cartogram,
-.js-map {
-  display: inline-block;
-  width: 49%;
 }
 .border {
   fill: none;
@@ -55,4 +53,18 @@ p {
   text-transform: uppercase;
   font-size: 0.75rem;
 }
+@media (min-width: 1240px) {
+  .js-cartogram,
+  .js-map {
+    display: inline-block;
+    width: 49%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .column {
+    width: 60%;
+  }
+}
+
 </style>
