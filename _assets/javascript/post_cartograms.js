@@ -21,9 +21,9 @@ $(function(){
     var incomeProvinces = new incomeProvinceCartogram('.js-income-provinces');
     incomeProvinces.render();
   }
-  
-  if ($('.js-places-map').length !== 0) {
-    var epaPlaces = new epaPlacesMap('.js-places-map');
-    epaPlaces.render();
-  }
+  // 
+  // if ($('.js-places-map').length !== 0) {
+  //   var epaPlaces = new epaPlacesMap('.js-places-map');
+  //   epaPlaces.render();
+  // }
 });
