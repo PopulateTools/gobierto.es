@@ -43,56 +43,6 @@ var epaPlacesMap = Class.extend({
     var places = topojson.feature(this.data, this.data.objects.municipalities);
     var provinces = ccaa.features;
     
-    var popObj = [];
-    this.pop.forEach(function(d) {
-      popObj[d.location_id] = d;
-    });
-    
-    var projection = d3.geoConicConformalSpain()
-      .fitSize([this.width, this.height], ccaa)
-    
-    var color = d3.scaleThreshold()
-      .domain([12, 14, 16, 18, 20, 22, 24, 26])
-      .range(['#fff7f3','#fde0dd','#fcc5c0','#fa9fb5','#f768a1','#dd3497','#ae017e','#7a0177','#49006a']);
-
-    var path = d3.geoPath()
-      .projection(projection);
-      
-    this.svg.append("path")
-      .datum(topojson.mesh(this.data, this.data.objects.nation))
-      .attr("class", "nation")
-      .attr("d", path);
-    
-    this.svg.append("path")
-      .datum(topojson.mesh(this.data, this.data.objects.provinces, function(a, b) { return a !== b; }))
-      .attr("class", "border")
-      .attr("d", path);
-        
-    var triangleScale = d3.scaleLinear()
-      .domain([10000, 30000])
-      .range([1, 12])
-      // .clamp(true)
-      
-    this.svg.append('g')
-      .attr('class', 'ccaa')
-      .selectAll('path')
-      .data(places.features)
-      .enter()
-      .append('path')
-      .attr('class', 'triangles')
-      .attr('d', function(d) { 
-        var x = projection(d3.geoCentroid(d)), y = projection(d3.geoCentroid(d));
-        if (popObj[d.id]) {
-          return 'M ' + x +' '+ y + ' l 3 ' + triangleScale(popObj[d.id].value) + ' M ' + x + ' ' + y + ' l -3 ' + triangleScale(popObj[d.id].value);
-        }
-      })
-      // .attr('stroke', '#111')
-      .attr('stroke', function(d) {
-        if (popObj[d.id]) {
-          return popObj[d.id].value > 24602 ? 'steelblue' : 'darkred';
-        }
-      })
-      
     var cities = [
       {
         'id': '13',
@@ -126,24 +76,74 @@ var epaPlacesMap = Class.extend({
       }
     ];
     
-    var cities = this.svg.append('g')
+    var popObj = [];
+    this.pop.forEach(function(d) {
+      popObj[d.location_id] = d;
+    });
+    
+    var projection = d3.geoConicConformalSpain()
+      .fitSize([this.width, this.height], ccaa)
+    
+    var color = d3.scaleThreshold()
+      .domain([12, 14, 16, 18, 20, 22, 24, 26])
+      .range(['#fff7f3','#fde0dd','#fcc5c0','#fa9fb5','#f768a1','#dd3497','#ae017e','#7a0177','#49006a']);
+
+    var path = d3.geoPath()
+      .projection(projection);
+      
+    this.svg.append("path")
+      .datum(topojson.mesh(this.data, this.data.objects.nation))
+      .attr("class", "nation")
+      .attr("d", path);
+    
+    this.svg.append("path")
+      .datum(topojson.mesh(this.data, this.data.objects.provinces, function(a, b) { return a !== b; }))
+      .attr("class", "border")
+      .attr("d", path);
+  
+    var triangleScale = d3.scaleQuantile()
+      .range([1, 4, 8, 12, 16, 20])
+      .domain([10396, 61643])
+      // .clamp(true)
+      
+    this.svg.append('g')
+      .attr('class', 'ccaa')
+      .selectAll('path')
+      .data(places.features)
+      .enter()
+      .append('path')
+      .attr('class', 'triangles')
+      .attr('d', function(d) { 
+        var x = projection(d3.geoCentroid(d)), y = projection(d3.geoCentroid(d));
+        if (popObj[d.id]) {
+          return 'M ' + x +' '+ y + ' l 3 ' + triangleScale(popObj[d.id].value) + ' M ' + x + ' ' + y + ' l -3 ' + triangleScale(popObj[d.id].value);
+        }
+      })
+      // .attr('stroke', '#111')
+      .attr('stroke', function(d) {
+        if (popObj[d.id]) {
+          return popObj[d.id].value > 24602 ? 'steelblue' : 'darkred';
+        }
+      })
+    
+    var citiesLabels = this.svg.append('g')
       .attr('class', 'cities')
       .selectAll('g')
       .data(cities)
       .enter();
       
-    var city = cities
+    var city = citiesLabels
       .append('g')
       .attr('class', 'city')
       .attr('transform', function(d) {
         return 'translate(' + projection(d.coords)[0] + ',' + projection(d.coords)[1] + ')'
       })
       
-    city.append('rect')
-      .attr('width', 6)
-      .attr('height', 6)
-      .attr('stroke', 'black')
-      .style('fill', 'white')
+    // city.append('rect')
+    //   .attr('width', 6)
+    //   .attr('height', 6)
+    //   .attr('stroke', 'black')
+    //   .style('fill', 'white')
       
     city.append('text')
       .attr('text-anchor', 'middle')

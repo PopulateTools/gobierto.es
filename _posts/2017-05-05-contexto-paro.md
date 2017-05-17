@@ -30,9 +30,9 @@ La población se concentra sobre todo en Madrid y Barcelona. Andalucía también
 <div class="js-income-provinces"></div>
 
 <h2 class="center">Los picos y valles de la renta española</h2>
-Por último, y más como un experimento, he visualizado la renta a nivel municipal con triángulos. A mayor altura, más ingresos brutos. Los triángulos rojos son municipios con una renta inferior a la media española (24.106€), y los azules, superior.
+Por último, y más como un experimento, he visualizado la renta a nivel municipal con triángulos. A mayor altura, más ingresos brutos. Los triángulos rojos son municipios con una renta inferior a la media española (24.106€), y los azules, superior (sólo se incluyen los que tienen más de mil habitantes).
 
-Podemos ver lomas en la zona sur, donde la renta es menor, y mucha concentración alrededor de las de capitales de provincia. La riqueza se concentra en las ciudades, que también tienen una población más alta. Sólo se incluyen los municipios de más de mil habitantes.
+Podemos ver lomas en la zona sur, donde la renta es menor, y mucha concentración de picos alrededor de las de capitales de provincia. Y es que la riqueza se concentra en las ciudades, donde también hay más oportunidades laborales. 
 
 <div class="js-places-map"></div>
 
@@ -43,7 +43,7 @@ Podemos ver lomas en la zona sur, donde la renta es menor, y mucha concentració
 }
 .triangles {
   fill: none;
-  stroke-width: 1.1;
+  stroke-width: 1.2;
   opacity: 0.5;
   mix-blend-mode: multiply;
 }
