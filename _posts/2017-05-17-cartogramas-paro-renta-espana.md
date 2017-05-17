@@ -165,7 +165,7 @@ Hay concentraciones de picos alrededor de las de capitales de provincia, y valle
 	</div>
 
 	<!-- Artboard: small -->
-	<div id='g-breakpoints-small' class='g-artboard g-artboard-v3 ' data-min-width='300' data-max-width='419'>
+	<div id='g-breakpoints-small' class='g-artboard g-artboard-v3 ' data-min-width='250' data-max-width='419'>
 		<style type='text/css' media='screen,print'>
 			#g-breakpoints-small{
 				position:relative;
@@ -234,6 +234,9 @@ Fuentes: INE, Agencia Tributaria.
 }
 .column {
   width: 90%;
+}
+.big_banner_block .column {
+  width: 62%;
 }
 p {
   max-width: 560px;
