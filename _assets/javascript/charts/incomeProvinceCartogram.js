@@ -3,12 +3,11 @@
 var incomeProvinceCartogram = Class.extend({
   init: function(containerId){
     var margin = {top: 10, right: 10, bottom: 10, left: 10};
-    
     this.data = null;
     this.pop = null;
     this.income = null;
     this.width = d3.select(containerId).node().clientWidth - margin.left - margin.right;
-    this.height = this.width * 0.8 - margin.top - margin.bottom;
+    this.height = innerWidth < 768 ? 290 : this.width * 0.8 - margin.top - margin.bottom;
     this.padding = 2;
 
     this.svg = d3.select(containerId).append('svg')
@@ -17,10 +16,10 @@ var incomeProvinceCartogram = Class.extend({
       
     this.squareScale = d3.scaleLinear()
       .range([30, 150])
-      .domain([320, 960]);
+      .domain([268, 960]);
       
     this.rectSize = d3.scaleSqrt()
-      .range([20, this.squareScale(this.width)]);      
+      .range([15, this.squareScale(this.width)]);      
   },
   getData: function() {
     d3.queue()
@@ -48,6 +47,7 @@ var incomeProvinceCartogram = Class.extend({
     }
   },
   updateRender: function(callback) {
+    var isMobile = innerWidth < 768;
     this.rectSize.domain(d3.extent(this.pop, function(d) {return d.value }));
     
     var ccaa = topojson.feature(this.data, this.data.objects.provinces);
@@ -118,13 +118,14 @@ var incomeProvinceCartogram = Class.extend({
       .each(function(d) {
         d3.select(this)
           .attr('text-anchor', 'middle')
-          .attr('dy', 3)
+          .attr('dy', isMobile ? 9 : 3)
           .text(obj[d.id].abbr)
           .style('fill', function() {
             if (objIncome[d.id]) {
               return objIncome[d.id].value > 20000 ? 'white' : '#111'
             }
           })
+          .style('display', isMobile ? obj[d.id].value > 3000000 ? 'block' : 'none'  : 'block')
           .style('font-size', fontSize(d.area) + 'px')
       });
 
@@ -135,7 +136,7 @@ var incomeProvinceCartogram = Class.extend({
       .attr('d', projection.getCompositionBorders());
       
     var legend = this.svg.append('g')
-      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
+      .attr('transform', isMobile ? 'translate(' + (this.width - 135) + ',' + (this.height - 30) + ')' : 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
       .attr('class', 'legend');
       
     legend.selectAll('rect')
@@ -143,9 +144,9 @@ var incomeProvinceCartogram = Class.extend({
       .enter()
       .append('rect')
       .attr('x', function(d, i) {
-        return i * 25
+        return isMobile ? i * 15 : i * 25
       })
-      .attr('width', 25)
+      .attr('width', isMobile ? 15 : 25)
       .attr('height', 10)
       .attr('fill', function(d) {
         return d;
@@ -155,19 +156,20 @@ var incomeProvinceCartogram = Class.extend({
       .data(color.domain())
       .enter()
       .append('text')
-      .attr('dx', 19)
-      .attr('dy', '25')
+      .attr('dx', isMobile ? 6 : 19)
+      .attr('dy', isMobile ? '25' : '25')
       .attr('x', function(d, i) {
-        return i * 25;
+        return isMobile ? i * 15 : i * 25;
       })
       .text(function(d) {
-        return (d / 1000) + 'k'
+        return isMobile ? d === 16000 ? d / 1000 + 'k' : '' || d === 28000 ? d / 1000 + 'k' : '' : d / 1000 + 'k';
       })
     
     legend.append('text')
       .attr('class', 'legend-title')
-      .text('Renta provincial media bruta (€)')
-      .attr('dy', -8);
+      .text(isMobile ? 'Renta media bruta (€)' : 'Renta provincial media bruta (€)')
+      .attr('dy', -8)
+      .style('text-shadow', isMobile ? '1px 1px 0px rgb(255, 255, 255), -1px -1px 0px rgb(255, 255, 255), 1px -1px 0px rgb(255, 255, 255), -1px 1px 0px rgb(255, 255, 255)' : '')
     
     function collide() {
       for (var k = 0, iterations = 4, strength = 0.5; k < iterations; ++k) {

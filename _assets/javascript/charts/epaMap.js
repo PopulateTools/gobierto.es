@@ -34,6 +34,7 @@ var epaMap = Class.extend({
     }
   },
   updateRender: function(callback) {
+    var isMobile = innerWidth < 768;
     var ccaa = topojson.feature(this.data, this.data.objects.autonomous_regions);
     var provinces = ccaa.features;
     
@@ -83,16 +84,19 @@ var epaMap = Class.extend({
       {
         'id': '13',
         'name': 'Madrid',
+        'mobile': true,
         'coords': [-3.6808241, 40.4078974]
       },
       {
         'id': '09',
         'name': 'Barcelona',
+        'mobile': true,
         'coords': [2.1487679, 41.3947901]
       },
       {
         'id': '01',
         'name': 'Sevilla',
+        'mobile': true,
         'coords': [-5.9270774, 37.3629559]
       },
       {
@@ -131,6 +135,7 @@ var epaMap = Class.extend({
       .style('fill', function(d) {
         return obj[d.id].value > 25 ? 'white' : '#111';
       })
+      .style('display', function(d) { return isMobile ? d.mobile ? 'block' : 'none' : 'block'})
       
     city.append('text')
       .attr('text-anchor', 'middle')
@@ -141,7 +146,8 @@ var epaMap = Class.extend({
       .style('text-shadow', function(d) {
         return obj[d.id].value > 25 ? '' : '1px 1px 0 #fff, -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff';
       })
-      .text(function(d) { return d.name; });
+      .text(function(d) { return d.name; })
+      .style('display', function(d) { return isMobile ? d.mobile ? 'block' : 'none' : 'block'})
     
     // Canary islands path
     this.svg.append('path')
@@ -150,7 +156,7 @@ var epaMap = Class.extend({
       .attr('d', projection.getCompositionBorders());
       
     var legend = this.svg.append('g')
-      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
+      .attr('transform', isMobile ? 'translate(' + (this.width - 135) + ',' + (this.height - 30) + ')' : 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
       .attr('class', 'legend');
       
     legend.selectAll('rect')
@@ -158,9 +164,9 @@ var epaMap = Class.extend({
       .enter()
       .append('rect')
       .attr('x', function(d, i) {
-        return i * 25
+        return isMobile ? i * 15 : i * 25
       })
-      .attr('width', 25)
+      .attr('width', isMobile ? 15 : 25)
       .attr('height', 10)
       .attr('fill', function(d) {
         return d;
@@ -170,13 +176,13 @@ var epaMap = Class.extend({
       .data(color.domain())
       .enter()
       .append('text')
-      .attr('dx', 19)
-      .attr('dy', '25')
+      .attr('dx', isMobile ? 6 : 19)
+      .attr('dy', isMobile ? '25' : '25')
       .attr('x', function(d, i) {
-        return i * 25;
+        return isMobile ? i * 15 : i * 25;
       })
       .text(function(d) {
-        return d;
+        return isMobile ? d === 12 ? d : '' || d === 26 ? d : '' : d;
       })
     
     legend.append('text')
