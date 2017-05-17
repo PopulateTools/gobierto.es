@@ -8,7 +8,7 @@ var epaCartogram = Class.extend({
     this.pop = null;
     this.epa = null;
     this.width = d3.select(containerId).node().clientWidth - margin.left - margin.right;
-    this.height = this.width * 0.95 - margin.top - margin.bottom;
+    this.height = innerWidth < 768 ? this.width * 0.95 - margin.top - margin.bottom : this.width * 0.8 - margin.top - margin.bottom;
     this.padding = 2;
 
     this.svg = d3.select(containerId).append('svg')
