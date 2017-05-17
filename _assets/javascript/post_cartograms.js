@@ -3,6 +3,8 @@
 //= require vendor/d3-composite-projections
 //= require ./charts/epaCartogram
 //= require ./charts/epaMap
+//= require ./charts/epaPlacesMap
+//= require ./charts/incomeProvinceCartogram
 
 $(function(){
   if ($('.js-cartogram').length !== 0) {
@@ -14,4 +16,14 @@ $(function(){
     var map = new epaMap('.js-map');
     map.render();
   }
+  
+  if ($('.js-income-provinces').length !== 0) {
+    var incomeProvinces = new incomeProvinceCartogram('.js-income-provinces');
+    incomeProvinces.render();
+  }
+  
+  // if ($('.js-places-map').length !== 0) {
+  //   var epaPlaces = new epaPlacesMap('.js-places-map');
+  //   epaPlaces.render();
+  // }
 });

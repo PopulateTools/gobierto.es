@@ -1,0 +1,338 @@
+[
+  {
+    "value": 18785,
+    "location_id": 4,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "4/2014-01-01"
+  },
+  {
+    "value": 19158,
+    "location_id": 14,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "14/2014-01-01"
+  },
+  {
+    "value": 21479,
+    "location_id": 29,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "29/2014-01-01"
+  },
+  {
+    "value": 22808,
+    "location_id": 44,
+    "date": "2014",
+    "autonomous_region_id": 2,
+    "_id": "44/2014-01-01"
+  },
+  {
+    "value": 24693,
+    "location_id": 7,
+    "date": "2014",
+    "autonomous_region_id": 4,
+    "_id": "7/2014-01-01"
+  },
+  {
+    "value": 22891,
+    "location_id": 24,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "24/2014-01-01"
+  },
+  {
+    "value": 22874,
+    "location_id": 34,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "34/2014-01-01"
+  },
+  {
+    "value": 22612,
+    "location_id": 42,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "42/2014-01-01"
+  },
+  {
+    "value": 19335,
+    "location_id": 27,
+    "date": "2014",
+    "autonomous_region_id": 12,
+    "_id": "27/2014-01-01"
+  },
+  {
+    "value": 32305,
+    "location_id": 28,
+    "date": "2014",
+    "autonomous_region_id": 13,
+    "_id": "28/2014-01-01"
+  },
+  {
+    "value": 20500,
+    "location_id": 3,
+    "date": "2014",
+    "autonomous_region_id": 10,
+    "_id": "3/2014-01-01"
+  },
+  {
+    "value": 21848,
+    "location_id": 12,
+    "date": "2014",
+    "autonomous_region_id": 10,
+    "_id": "12/2014-01-01"
+  },
+  {
+    "value": 23204,
+    "location_id": 46,
+    "date": "2014",
+    "autonomous_region_id": 10,
+    "_id": "46/2014-01-01"
+  },
+  {
+    "value": 20867,
+    "location_id": 18,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "18/2014-01-01"
+  },
+  {
+    "value": 19142,
+    "location_id": 21,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "21/2014-01-01"
+  },
+  {
+    "value": 24881,
+    "location_id": 33,
+    "date": "2014",
+    "autonomous_region_id": 3,
+    "_id": "33/2014-01-01"
+  },
+  {
+    "value": 24853,
+    "location_id": 19,
+    "date": "2014",
+    "autonomous_region_id": 8,
+    "_id": "19/2014-01-01"
+  },
+  {
+    "value": 20997,
+    "location_id": 5,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "5/2014-01-01"
+  },
+  {
+    "value": 24618,
+    "location_id": 47,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "47/2014-01-01"
+  },
+  {
+    "value": 21350,
+    "location_id": 49,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "49/2014-01-01"
+  },
+  {
+    "value": 18928,
+    "location_id": 6,
+    "date": "2014",
+    "autonomous_region_id": 11,
+    "_id": "6/2014-01-01"
+  },
+  {
+    "value": 21634,
+    "location_id": 36,
+    "date": "2014",
+    "autonomous_region_id": 12,
+    "_id": "36/2014-01-01"
+  },
+  {
+    "value": 30026,
+    "location_id": 51,
+    "date": "2014",
+    "autonomous_region_id": 18,
+    "_id": "51/2014-01-01"
+  },
+  {
+    "value": 22736,
+    "location_id": 35,
+    "date": "2014",
+    "autonomous_region_id": 5,
+    "_id": "35/2014-01-01"
+  },
+  {
+    "value": 21605,
+    "location_id": 38,
+    "date": "2014",
+    "autonomous_region_id": 5,
+    "_id": "38/2014-01-01"
+  },
+  {
+    "value": 20471,
+    "location_id": 2,
+    "date": "2014",
+    "autonomous_region_id": 8,
+    "_id": "2/2014-01-01"
+  },
+  {
+    "value": 20487,
+    "location_id": 45,
+    "date": "2014",
+    "autonomous_region_id": 8,
+    "_id": "45/2014-01-01"
+  },
+  {
+    "value": 24595,
+    "location_id": 17,
+    "date": "2014",
+    "autonomous_region_id": 9,
+    "_id": "17/2014-01-01"
+  },
+  {
+    "value": 23329,
+    "location_id": 25,
+    "date": "2014",
+    "autonomous_region_id": 9,
+    "_id": "25/2014-01-01"
+  },
+  {
+    "value": 24444,
+    "location_id": 43,
+    "date": "2014",
+    "autonomous_region_id": 9,
+    "_id": "43/2014-01-01"
+  },
+  {
+    "value": 21297,
+    "location_id": 30,
+    "date": "2014",
+    "autonomous_region_id": 14,
+    "_id": "30/2014-01-01"
+  },
+  {
+    "value": 21773,
+    "location_id": 11,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "11/2014-01-01"
+  },
+  {
+    "value": 17771,
+    "location_id": 23,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "23/2014-01-01"
+  },
+  {
+    "value": 22634,
+    "location_id": 41,
+    "date": "2014",
+    "autonomous_region_id": 1,
+    "_id": "41/2014-01-01"
+  },
+  {
+    "value": 24456,
+    "location_id": 39,
+    "date": "2014",
+    "autonomous_region_id": 6,
+    "_id": "39/2014-01-01"
+  },
+  {
+    "value": 20439,
+    "location_id": 13,
+    "date": "2014",
+    "autonomous_region_id": 8,
+    "_id": "13/2014-01-01"
+  },
+  {
+    "value": 24706,
+    "location_id": 9,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "9/2014-01-01"
+  },
+  {
+    "value": 23106,
+    "location_id": 37,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "37/2014-01-01"
+  },
+  {
+    "value": 19827,
+    "location_id": 32,
+    "date": "2014",
+    "autonomous_region_id": 12,
+    "_id": "32/2014-01-01"
+  },
+  {
+    "value": 28712,
+    "location_id": 52,
+    "date": "2014",
+    "autonomous_region_id": 19,
+    "_id": "52/2014-01-01"
+  },
+  {
+    "value": 23061,
+    "location_id": 22,
+    "date": "2014",
+    "autonomous_region_id": 2,
+    "_id": "22/2014-01-01"
+  },
+  {
+    "value": 25205,
+    "location_id": 50,
+    "date": "2014",
+    "autonomous_region_id": 2,
+    "_id": "50/2014-01-01"
+  },
+  {
+    "value": 19780,
+    "location_id": 16,
+    "date": "2014",
+    "autonomous_region_id": 8,
+    "_id": "16/2014-01-01"
+  },
+  {
+    "value": 22750,
+    "location_id": 40,
+    "date": "2014",
+    "autonomous_region_id": 7,
+    "_id": "40/2014-01-01"
+  },
+  {
+    "value": 28912,
+    "location_id": 8,
+    "date": "2014",
+    "autonomous_region_id": 9,
+    "_id": "8/2014-01-01"
+  },
+  {
+    "value": 19499,
+    "location_id": 10,
+    "date": "2014",
+    "autonomous_region_id": 11,
+    "_id": "10/2014-01-01"
+  },
+  {
+    "value": 22966,
+    "location_id": 15,
+    "date": "2014",
+    "autonomous_region_id": 12,
+    "_id": "15/2014-01-01"
+  },
+  {
+    "value": 23617,
+    "location_id": 26,
+    "date": "2014",
+    "autonomous_region_id": 17,
+    "_id": "26/2014-01-01"
+  }
+]
