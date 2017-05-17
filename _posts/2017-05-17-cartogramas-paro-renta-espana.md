@@ -25,7 +25,7 @@ El problema con este tipo de gráficos es la pérdida de la referencia geográfi
 
 Aquí, el mismo ejercicio, pero con los últimos datos de la renta por provincias. A medida que tenemos más regiones en el cartograma se vuelve más fácil percibir la geografía, haciéndolo más efectivo.
 
-La población se concentra sobre todo en Madrid y Barcelona. Andalucía también está muy poblada, pero está más distribuida por provincias. Los datos de la [Agencia Tributaria](http://www.agenciatributaria.es/AEAT.internet/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF_por_municipios.shtml) no incluyen País Vasco ni Navarra, al tener Hacienda propia.
+La población se concentra sobre todo en Madrid y Barcelona. Andalucía también está muy poblada, pero está más distribuida por provincias. Los datos de la [Agencia Tributaria](http://www.agenciatributaria.es/AEAT.internet/datosabiertos/catalogo/hacienda/Estadistica_de_los_declarantes_del_IRPF_por_municipios.shtml) no incluyen País Vasco ni Navarra.
 
 <div class="js-income-provinces"></div>
 
