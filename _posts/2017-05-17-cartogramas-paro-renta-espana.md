@@ -17,7 +17,7 @@ Cada tres meses escuchamos en el telediario la nueva tasa de desempleo. Esa mism
 
 El problema surge al comparar las regiones. Comunidades más extensas como Castilla y León parecen más importantes al ojo debido a su tamaño, aunque éste no tenga nada que ver con la variable que estemos pintando.
 
-Uno de los métodos más populares para contrarrestar este *bias* son los [cartogramas](https://es.wikipedia.org/wiki/Cartograma). En este ejemplo cada cuadrado es una comunidad autónoma pero su tamaño está escalado de acuerdo con la población. Así es más sencillo ver qué regiones son más relevantes desde el punto de vista demográfico.
+Uno de los métodos más populares para contrarrestar este sesgo son los [cartogramas](https://es.wikipedia.org/wiki/Cartograma). En este ejemplo cada cuadrado es una comunidad autónoma pero su tamaño está escalado de acuerdo con la población. Así es más sencillo ver qué regiones son más relevantes desde el punto de vista demográfico.
 
 El problema con este tipo de gráficos es la pérdida de la referencia geográfica. Existen varios tipos de cartogramas ([contiguos](http://prag.ma/code/d3-cartogram/#popest/2010), de [círculos](https://mbostock.github.io/protovis/ex/cartogram.html)), y cada uno de ellos intenta establecer un balance diferente entre fidelidad geográfica y estadística.
 
@@ -32,7 +32,7 @@ La población se concentra sobre todo en Madrid y Barcelona. Andalucía también
 <h2 class="center">Los picos y valles de la renta española</h2>
 Por último, y más como un experimento, he visualizado la renta a nivel municipal con triángulos. Un pico más alto significa mayores ingresos brutos, un valle, menos. Los triángulos azules tienen una renta superior a la media (24.106€), los rojos, inferior (sólo se incluyen los que tienen más de mil habitantes).
 
-Hay concentraciones de picos alrededor de las de capitales de provincia, y valles en la zona sur, donde la renta es menor. Y es las ciudades suelen tener mayor riqueza, ya que también tienen más oportunidades laborales. 
+Hay concentraciones de picos alrededor de las de capitales de provincia, y valles en la zona sur, donde la renta es menor. Las ciudades suelen tener más oportunidades laborales y por tanto en ellas se concentra mayor riqueza. 
 
 <div class="center">
 <p style="padding-bottom: 0.25rem;"><strong>Renta municipal bruta</strong></p>
