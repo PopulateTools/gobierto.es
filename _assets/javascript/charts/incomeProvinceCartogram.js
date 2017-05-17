@@ -97,7 +97,6 @@ var incomeProvinceCartogram = Class.extend({
 
     rect.append('rect')
       .each(function(d) {
-        console.log(objIncome[d.id]);
         d3.select(this)
           .attr('width', d.area)
           .attr('height', d.area)

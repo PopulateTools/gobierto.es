@@ -2,7 +2,7 @@
 layout: post
 title: Los mapas no cuentan (toda) la verdad
 subtitle: "Hay muchas maneras de visualizar datos geográficos. Aquí proponemos unas cuantas más."
-date: 2017-05-05
+date: 2017-05-17
 categories: mapas, datos, gráficos
 author: Martín González
 ---
@@ -30,11 +30,20 @@ La población se concentra sobre todo en Madrid y Barcelona. Andalucía también
 <div class="js-income-provinces"></div>
 
 <h2 class="center">Los picos y valles de la renta española</h2>
-Por último, y más como un experimento, he visualizado la renta a nivel municipal con triángulos. A mayor altura, más ingresos brutos. Los triángulos rojos son municipios con una renta inferior a la media española (24.106€), y los azules, superior (sólo se incluyen los que tienen más de mil habitantes).
+Por último, y más como un experimento, he visualizado la renta a nivel municipal con triángulos. Un pico más alto significa mayores ingresos brutos, un valle, menos. Los triángulos azules tienen una renta superior a la media (24.106€), los rojos, inferior (sólo se incluyen los que tienen más de mil habitantes).
 
-Podemos ver lomas en la zona sur, donde la renta es menor, y mucha concentración de picos alrededor de las de capitales de provincia. Y es que la riqueza se concentra en las ciudades, donde también hay más oportunidades laborales. 
+Hay concentraciones de picos alrededor de las de capitales de provincia, y valles en la zona sur, donde la renta es menor. Y es las ciudades suelen tener mayor riqueza, ya que también tienen más oportunidades laborales. 
+
+<div class="center">
+<p style="padding-bottom: 0.25rem;"><strong>Renta municipal bruta</strong></p>
+<p style="text-transform: uppercase; font-size: 0.85rem;"><svg xmlns="http://www.w3.org/2000/svg" width="8" height="auto" viewBox="0 0 78 94"><g fill="none" fill-rule="evenodd" stroke="steelblue" stroke-width="15" transform="translate(1 2)" stroke-linecap="square"><path d="M.5 90.5L36.5.5M37 0L75.1837662 89.0954544"/></g></svg> Superior a la media <svg style="padding-left: 0.5rem" xmlns="http://www.w3.org/2000/svg" width="8" height="auto" viewBox="0 0 78 94"> <g fill="none" fill-rule="evenodd" stroke="#8B0000" stroke-width="15" transform="rotate(-180 38.5 46)" stroke-linecap="square"><path d="M.5 90.5L36.5.5M37 0L75.1837662 89.0954544"/></g></svg> Inferior a la media</p>
+</div>
 
 <div class="js-places-map"></div>
+
+<hr style="color: rgba(0,0,0,.1);max-width: 560px;">
+
+Fuentes: INE, Agencia Tributaria.
 
 <style>
 .js-income-provinces {
@@ -43,9 +52,15 @@ Podemos ver lomas en la zona sur, donde la renta es menor, y mucha concentració
 }
 .triangles {
   fill: none;
-  stroke-width: 1.2;
+  stroke-width: 1.4;
   opacity: 0.5;
   mix-blend-mode: multiply;
+}
+.red {
+  opacity: 0.25;
+}
+.blue {
+  opacity: 0.65;
 }
 .column {
   width: 90%;
@@ -68,7 +83,7 @@ p {
   stroke: #878787
 }
 .js-places-map .nation {
-  fill: #eee;
+  fill: #f5f5f5;
   stroke: black;
   stroke-width: 0.5;
 }

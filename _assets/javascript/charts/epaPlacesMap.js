@@ -101,9 +101,9 @@ var epaPlacesMap = Class.extend({
       .attr("class", "border")
       .attr("d", path);
   
-    var triangleScale = d3.scaleQuantile()
-      .range([1, 4, 8, 12, 16, 20])
-      .domain([10396, 61643])
+    var triangleScale = d3.scaleLinear()
+      .range([-15, 15])
+      .domain([10396, 31929])
       // .clamp(true)
       
     this.svg.append('g')
@@ -116,7 +116,7 @@ var epaPlacesMap = Class.extend({
       .attr('d', function(d) { 
         var x = projection(d3.geoCentroid(d)), y = projection(d3.geoCentroid(d));
         if (popObj[d.id]) {
-          return 'M ' + x +' '+ y + ' l 3 ' + triangleScale(popObj[d.id].value) + ' M ' + x + ' ' + y + ' l -3 ' + triangleScale(popObj[d.id].value);
+          return 'M ' + x +' '+ y + ' l 5 ' + triangleScale(popObj[d.id].value) + ' M ' + x + ' ' + y + ' l -5 ' + triangleScale(popObj[d.id].value);
         }
       })
       // .attr('stroke', '#111')
@@ -124,6 +124,11 @@ var epaPlacesMap = Class.extend({
         if (popObj[d.id]) {
           return popObj[d.id].value > 24602 ? 'steelblue' : 'darkred';
         }
+      })
+      .attr('class', function(d) {
+        if (popObj[d.id]) {
+          return popObj[d.id].value > 24602 ? 'blue' : 'red';
+        } 
       })
     
     var citiesLabels = this.svg.append('g')
@@ -139,15 +144,15 @@ var epaPlacesMap = Class.extend({
         return 'translate(' + projection(d.coords)[0] + ',' + projection(d.coords)[1] + ')'
       })
       
-    // city.append('rect')
-    //   .attr('width', 6)
-    //   .attr('height', 6)
-    //   .attr('stroke', 'black')
-    //   .style('fill', 'white')
+    city.append('rect')
+      .attr('width', 4)
+      .attr('height', 4)
+      // .attr('stroke', 'black')
+      .style('fill', 'black')
       
     city.append('text')
-      .attr('text-anchor', 'middle')
-      .attr('dy', -5)
+      .attr('dy', 5)
+      .attr('dx', 10)
       .style('fill', 'white')
       .style('text-shadow', '1px 1px 0 #111, -1px -1px 0 #111, 1px -1px 0 #111, -1px 1px 0 #111')
       .text(function(d) { return d.name; });
@@ -157,41 +162,6 @@ var epaPlacesMap = Class.extend({
       .style('fill','none')
       .style('stroke','black')
       .attr('d', projection.getCompositionBorders());
-      
-    var legend = this.svg.append('g')
-      .attr('transform', 'translate(' + (this.width - 225) + ',' + (this.height - 40) + ')')
-      .attr('class', 'legend');
-      
-    legend.selectAll('rect')
-      .data(color.range())
-      .enter()
-      .append('rect')
-      .attr('x', function(d, i) {
-        return i * 25
-      })
-      .attr('width', 25)
-      .attr('height', 10)
-      .attr('fill', function(d) {
-        return d;
-      })
-    
-    legend.selectAll('text')
-      .data(color.domain())
-      .enter()
-      .append('text')
-      .attr('dx', 19)
-      .attr('dy', '25')
-      .attr('x', function(d, i) {
-        return i * 25;
-      })
-      .text(function(d) {
-        return d;
-      })
-    
-    legend.append('text')
-      .attr('class', 'legend-title')
-      .text('Tasa de paro (%)')
-      .attr('dy', -8);
-      
+
   },
 });
