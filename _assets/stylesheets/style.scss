@@ -317,6 +317,10 @@ menu.on_logo_hover {
 .column {
   margin: auto;
   width: 62%;
+  .min_full_wide {
+    width: 140%;
+    margin-left: -20%;
+  }
 }
 .column_c {
   margin: auto;
@@ -328,12 +332,6 @@ menu.on_logo_hover {
   .full_width {
     margin-left: -5.5%;
     width: 111%;
-  }
-}
-.column {
-  .min_full_wide {
-    width: 140%;
-    margin-left: -20%;
   }
 }
 .col_50 {
