@@ -235,7 +235,7 @@ author: Martín González
 
 <div class="column_c">
 
-  <p>Como nota final, incluiremos estos gráficos en el <a href="/blog/20170425-gobierto-indicadores.html">módulo de indicadores</a> de Gobierto. Los datos los he extraído con Populate Data, una base de datos abiertos que lanzaremos próximamente. Si te interesa, escríbenos a [lets@populate.tools](mailto:lets@populate.tools).</p>
+  <p>Como nota final, incluiremos estos gráficos en el <a href="/blog/20170425-gobierto-indicadores.html">módulo de indicadores</a> de Gobierto. Los datos los he extraído con Populate Data, una base de datos abiertos que lanzaremos próximamente. Si te interesa, escríbenos a <a href="mailto:lets@populate.tools">lets@populate.tools</a>.</p>
 
   <blockquote>
     Fuentes: INE, Agencia Tributaria.
