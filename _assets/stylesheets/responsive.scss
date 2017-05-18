@@ -21,6 +21,7 @@
     width: 160%;
   }
 
+
   #debt_evolution_widget {
     height: 450px !important;
   }
@@ -46,10 +47,17 @@
       }
     }
   }
+  .column {
+    width: 90%;
+    .min_full_wide {
+      width: 100%;
+      margin: 0;
+    }
+  }
 }
 
 @include screen(740) {
-  
+
   body.full_embed {
     header.project {
       .logo {
@@ -125,18 +133,18 @@
     }
 
   }
-  
+
   .social_links_container {
     position: fixed;
     bottom: 0;
-    left: 0;  
+    left: 0;
     a {
       margin: 0 0 .5em .5em;
       width: 3em;
       padding: .9em .2em;
     }
   }
-  
+
   // facebook #3A589A
   // twitter #00ABEF
 
@@ -144,7 +152,7 @@
     .home_main {
       h1 {
         font-size: 2em;
-      }  
+      }
     }
     .main_story_first, .main_story_second {
       .story {
@@ -170,7 +178,7 @@
       color: $color_headers;
       .header_text {
         position: initial;
-      } 
+      }
       .bg {
         display: none;
       }
@@ -188,20 +196,13 @@
       border-bottom: none;
       margin: 0;
     }
-    .column {
-      width: 90%;
-      .min_full_wide {
-        width: 100%;
-        margin: 0;
-      }
-    }
     h1 {
       font-size: 1.6em;
       color: $color_main;
     }
     .subtitle {
       font-size: 1.2em;
-    } 
+    }
     .meta {
       .authored {
         width: 50%;
@@ -221,7 +222,7 @@
         }
       }
       .tool.reading_time {
-        text-align: right; 
+        text-align: right;
         width: auto;
         margin-top: -2.6em;
         margin-bottom: 1em;
@@ -241,7 +242,7 @@
     padding: 1em;
     right: 0;
     bottom: 0;
-    text-align: right; 
+    text-align: right;
     @include box-shadow(0, -5px, 20px);
     .social_share {
       margin: 1em 0 0 1em;
@@ -266,7 +267,7 @@
       text-align: center;
       a.button {
         height: initial;
-        margin: 0; 
+        margin: 0;
       }
     }
   }
@@ -291,7 +292,7 @@
   #donate_modal {
     font-size: .8em;
     padding: 0;
-  
+
   }
   footer {
     .modal {
@@ -333,12 +334,12 @@
         border: none;
       }
     }
-    
+
   }
 
   .home > .pure-g {
     padding: 1em;
-  } 
+  }
   .home {
     .all_stories {
       .story {
@@ -352,9 +353,9 @@
     .pad-right-4, .pad-left-4 {
       padding: 0;
     }
-  } 
+  }
 
-  .graph_small_out_right, 
+  .graph_small_out_right,
   .graph_small_out_left,
   .graph_small_right,
   .graph_small_left,
@@ -426,7 +427,7 @@
     }
     a {
       @include border-radius(0);
-      border: none;  
+      border: none;
       font-weight: 400;
       text-transform: none;
       padding: .5em 0;

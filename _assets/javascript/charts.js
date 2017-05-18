@@ -1,4 +1,5 @@
 //= require vendor/d3.v3.min
+//= require vendor/queue.min
 //= require vendor/d3-tip.min
 //= require vendor/d3-legend
 //= require vendor/accounting.min
@@ -21,7 +22,6 @@ accounting.settings = {
 }
 
 $(function(){
-
   // Load charts
   $('[data-chart-container]').each(function(){
     var $container = $(this);
