@@ -317,6 +317,10 @@ menu.on_logo_hover {
 .column {
   margin: auto;
   width: 62%;
+  .min_full_wide {
+    width: 140%;
+    margin-left: -20%;
+  }
 }
 .column_c {
   margin: auto;
@@ -328,12 +332,6 @@ menu.on_logo_hover {
   .full_width {
     margin-left: -5.5%;
     width: 111%;
-  }
-}
-.column {
-  .min_full_wide {
-    width: 140%;
-    margin-left: -20%;
   }
 }
 .col_50 {
@@ -423,7 +421,7 @@ article {
     font-size: 1.1em;
     font-weight: 400;
     line-height: 1.5em;
-    max-width: 960px;
+    // max-width: 960px;
     margin: 0 auto;
     padding: 0 0 3em 0;
   }
