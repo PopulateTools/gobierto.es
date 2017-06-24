@@ -38,7 +38,7 @@ permalink: /acerca-de/
 
         <p>Gobierto está liderado por un equipo con larga experiencia en la creación de productos digitales y asesorado por los máximos expertos en transparencia, participación y gobierno abierto en España y Latinoamérica. Llevamos más de 10 años ofreciendo consultoría de negocio digital a grandes corporaciones; creando comunidades online con millones de usuarios, y definiendo y lanzando startups. A medio camino entre el activismo y la consultoría, somos una empresa de servicios profesionales con numerosos proyectos en torno al civic engagement.</p>
 
-        
+
 
       </div>
 
@@ -62,12 +62,6 @@ permalink: /acerca-de/
         <strong>Fernando Blat</strong>
         <a href="http://twitter.com/ferblape">@ferblape</a>
         <span>Back, Elastic Search, Rails</span>
-      </li>
-      <li>
-        <img src="https://media.licdn.com/mpr/mpr/shrink_100_100/p/4/000/181/330/38d106b.jpg" alt="38d106b" width="73" height="73" />
-        <strong>Jorge Gómez Sancha</strong>
-        <a href="http://twitter.com/jorgesancha">@jorgesancha</a>
-        <span>Producto, Rails</span>
       </li>
       <li>
         <img src="https://pbs.twimg.com/profile_images/644504357082398720/Hs2771LP_bigger.jpg" alt="Hs2771lp bigger" />
@@ -118,5 +112,3 @@ permalink: /acerca-de/
   </div>
 
 </div>
-
-
