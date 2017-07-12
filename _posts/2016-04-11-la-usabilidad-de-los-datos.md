@@ -3,8 +3,8 @@ layout: post
 title: La usabilidad de los datos
 subtitle: Usabilidad, datos públicos y Ley de Transparencia
 date:   2016-04-11 14:00:00 +0100
-categories: 
-# excerpt: Even more estimulating excerpt to be used in case you need it. 
+categories:
+# excerpt: Even more estimulating excerpt to be used in case you need it.
 author: Álvaro Ortiz
 tags:
   - readinglist
@@ -38,3 +38,5 @@ El objetivo de una Ley de Transparencia debería ser que los ciudadanos puedan a
 En nuestra opinión, muchas organizaciones está cumpliendo con el acceso al dato (publicando esos inhóspitos PDFs), pero no con el acceso a la información. La usabilidad de los datos es la asignatura pendiente para garantizar la transparencia.
 
 Gobierto crea herramientas para que los datos públicos de municipios y otras organizaciones sean más usables, y puedas conectar mejor con tus vecinos. Si eres un municipio, regístrate y te montamos una demo con tus datos.
+
+La usabilidad de los datos y una transparencia útil frente a la transparencia legalista forma parte de [nuestros principios de diseño](/blog/20170711-principios-de-diseno-gobierto.html).
