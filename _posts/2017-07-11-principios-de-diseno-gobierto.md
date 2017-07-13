@@ -16,7 +16,7 @@ Uno de los objetivos de Gobierto es conseguir una implementación eficiente - pu
 
 ## Foco en el uso
 
-Los fundadores del proyecto tenemos una larga trayectoria en el diseño de productos digitales (por ejemplo, creamos Actuable, en lo que luego se convirtió Change.org) y aplicamos las técnicas de diseño centrado en el usuario para hacer productos usables. No solo vale con publicar la información, hay que diseñar la experiencia de consumo.
+Los fundadores del proyecto tenemos una larga trayectoria en el diseño de productos digitales (por ejemplo, creamos Actuable, en lo que luego se convirtió Change.org) y aplicamos las técnicas de diseño centrado en el usuario para hacer productos usables. No solo vale con publicar la información, hay que diseñar la experiencia de consumo. [Consideramos necesario consolidar el uso de la experiencia de usuario entre los distintos canales de una administración](/blog/20170615-patrones-y-estandares-en-la-administracion.html).
 
 ## Abierto e interoperable
 

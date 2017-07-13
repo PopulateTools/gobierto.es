@@ -45,11 +45,11 @@ Esto nos lleva a aumentar una serie de costes:
 
 ## Ejemplos: Reino Unido, Estados Unidos, y también España
 
-En Reino Unido existe desde hace varios años el **Government Digital Service**, que se dedica precisamente a todo esto. Puedes echar un vistazo a sus [https://www.gov.uk/design-principles](principios de diseño) y comenzar a explorar la multitud de recursos que han publicado.
+En Reino Unido existe desde hace varios años el **Government Digital Service**, que se dedica precisamente a todo esto. Puedes echar un vistazo a sus [principios de diseño](https://www.gov.uk/design-principles) y comenzar a explorar la multitud de recursos que han publicado.
 
 En EEUU han empezado hace no mucho con el 18F, algo similar enfocado a ayudar a agencias federales a desarrollar servicios con filosofía ágil. Entre otras guías han creado esta sobre [diseño de producto _lean_](https://lean-product-design.18f.gov).
 
-En España también hay gente dentro de la administración pensando en estas cosas, como Antonio Ibañez [https://twitter.com/aibapas](@aibapas) de la Junta de Castilla y León. En su [http://blogs.jcyl.es/wp/gobiernoabierto](blog de gobierno abierto)) tienes posts como: [Elementos clave para la estrategia de diseño de un portal web](http://blogs.jcyl.es/wp/gobiernoabierto/2017/02/22/elementos-clave-para-la-estrategia-de-diseno-de-un-portal-web/).
+En España también hay gente dentro de la administración pensando en estas cosas, como Antonio Ibañez [@aibapas](https://twitter.com/aibapas) de la Junta de Castilla y León. En su [blog de gobierno abierto](http://blogs.jcyl.es/wp/gobiernoabierto)) tienes posts como: [Elementos clave para la estrategia de diseño de un portal web](http://blogs.jcyl.es/wp/gobiernoabierto/2017/02/22/elementos-clave-para-la-estrategia-de-diseno-de-un-portal-web/).
 
 
 ## ¿Tendría sentido tener un GDS en la administración española?
