@@ -12,7 +12,7 @@ main_photo_big: posts/161024-historia-gobierno-abierto-1.png
 
 El miedo a que los ciudadanos participen más en sus gobiernos existe desde hace siglos. La historia demuestra, sin embargo, que las sociedades más desarrolladas son precisamente las más abiertas; las que saben crear mecanismos eficientes de **transparencia** y **participación**.
 
-{% img 'posts/161024-historia-gobierno-abierto-2.png' %} 
+{% img 'posts/161024-historia-gobierno-abierto-2.png' %}
 
 El presidente Cleveland no era el único que criticaba el voto femenino. A principios del siglo XX, los cafés de las principales ciudades del mundo rebosaban de tertulianos trajeados que se revolvían cada vez que oían la palabra "sufragista". Señoras recatadas se horrorizaban ante la posibilidad de que ellas, personas *sin experiencia* en los asuntos públicos, pudieran decidir el destino de su país. La **democracia**, decían, **ya está bien como está**.
 
@@ -41,4 +41,3 @@ El pasado nos deja muchos ejemplos de que transparencia y participación equival
 <div class="separator blue short"></div>
 
 También hay momentos en los que la civilización parece encallar o retroceder. Y otros en los que corremos el riesgo de cuestionar los procesos democráticos. Después de la **Revolución Francesa**, los derechos de sufragio en Francia avanzaron y retrocedieron durante casi un siglo. Pero finalmente se alcanzó el sufragio universal. Por cada paso atrás la humanidad siempre acaba dando dos hacia delante. Por eso está bien tener cautela a la hora de diseñar estrategias de gobierno abierto, pero nunca hay que conformarse con "dejar la democracia como está".
-

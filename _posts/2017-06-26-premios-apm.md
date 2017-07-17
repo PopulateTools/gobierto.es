@@ -3,7 +3,8 @@ layout: post
 title: 'Populate recibe el premio al Periodista del Año por su participación en los Papeles de Panamá'
 subtitle: 'La Asociación de la Prensa de Madrid premia de forma colectiva a todos los españoles que participaron en el proyecto'
 date: 2017-06-26
-categories: diseño
+categories:
+  - gobierto
 author: Álvaro Ortiz
 main_photo: posts/170615-premios-apm_.jpg
 ---

@@ -1,9 +1,11 @@
 ---
 layout: post
 title: "Descubre lo que gastan otros municipios para mejorar el tuyo"
-subtitle: Cómo usar los rankings de Gobierto para mejorar la gestión del dinero público 
+subtitle: Cómo usar los rankings de Gobierto para mejorar la gestión del dinero público
 date: 2016-11-04 9:00:00 +0100
-categories: transparencia
+categories:
+  - transparencia
+  - visualizacion_de_datos
 author: Rafa de las Cuevas
 main_photo_big: posts/161104-rankings-01.png
 ---
@@ -14,7 +16,7 @@ main_photo_big: posts/161104-rankings-01.png
 
 Hace unos años habría sido extremadamente complejo para un ciudadano analizar cifras presupuestarias de varios municipios. La única forma de saber lo que hacía el ayuntamiento vecino era el boca-oreja. Incluso con la entrada en vigor de la Ley de Transparencia, la mayoría de ayuntamientos publican sus presupuestos en PDF con una estructura difícil de entender. Por eso Gobierto ofrece una herramienta visual y sencilla, basada en nuestra base de datos con los presupuestos de todos los municipios de España.
 
-Entender cómo ingresan y gastan los ayuntamientos cercanos puede ser la clave para **detectar patrones** y **mejorar las cuentas** del nuestro. La información hace que los ciudadanos entiendan mejor cómo se gestiona su dinero y se sientan más cerca del trabajo que realiza el ayuntamiento. 
+Entender cómo ingresan y gastan los ayuntamientos cercanos puede ser la clave para **detectar patrones** y **mejorar las cuentas** del nuestro. La información hace que los ciudadanos entiendan mejor cómo se gestiona su dinero y se sientan más cerca del trabajo que realiza el ayuntamiento.
 
 Un ejemplo: vamos a ver cómo tratan el dinero público los municipios madrileños. Entramos en el apartado de [Ingresos y filtramos por "Comunidad de Madrid"](https://presupuestos.gobierto.es/ranking/2016/I/economic/amount?&f[population][from]=0&f[population][to]=5000000&f[total][from]=0&f[total][to]=5000000000&f[per_inhabitant][from]=0&f[per_inhabitant][to]=20000&f[aarr]=13).
 

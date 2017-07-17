@@ -3,18 +3,20 @@ layout: post
 title: "Abrimos Gobierto: ya es open source"
 subtitle: Abrimos el código de Gobierto
 date: 2016-09-14 9:00:00 +0100
-categories: eventos
+categories:
+  - gobierto
+  - tecnologia
 author: Álvaro Ortiz
-main_photo_big: 
+main_photo_big:
 ---
 
-Hoy anunciamos que Gobierto ya es software libre. Era nuestro plan desde que empezamos a imaginarnos esta herramienta pero es hoy cuando liberamos el código  y elegimos una licencia específica. Cualquier persona puede descargar el software para comenzar a usarlo, modificarlo según necesite, y aportar cambios y mejoras al proyecto. 
+Hoy anunciamos que Gobierto ya es software libre. Era nuestro plan desde que empezamos a imaginarnos esta herramienta pero es hoy cuando liberamos el código  y elegimos una licencia específica. Cualquier persona puede descargar el software para comenzar a usarlo, modificarlo según necesite, y aportar cambios y mejoras al proyecto.
 
 ## Qué es y qué puedes hacer con Gobierto
 
-Gobierto es un software para hacer posible que administraciones públicas hagan transparencia útil y participación progresiva a través de distintas herramientas. Comenzamos con la visualización de presupuestos, y continuamos por otras áreas donde nos parece que hay oportunidades para que las administraciones conecten mejor con los ciudadanos. 
+Gobierto es un software para hacer posible que administraciones públicas hagan transparencia útil y participación progresiva a través de distintas herramientas. Comenzamos con la visualización de presupuestos, y continuamos por otras áreas donde nos parece que hay oportunidades para que las administraciones conecten mejor con los ciudadanos.
 
-Ahora mismo Gobierto resuelve 3 casos de uso principales, sobre todo en torno a la visualización de presupuestos: 
+Ahora mismo Gobierto resuelve 3 casos de uso principales, sobre todo en torno a la visualización de presupuestos:
 
 - Visualización de presupuestos para una entidad, como un municipio.
 - Instalación multisite para múltiples entidades
@@ -32,13 +34,8 @@ A la hora de pensar en poner en marcha Gobierto y definir qué es lo que es -y s
 
 - **Diseño**: Nos hemos acostumbrado a temer las interacciones con la administración pública. Hacer una gestión, solicitar un permiso, consultar información. Ventanillas, vuelva usted mañana, papeleos imposibles… No tiene todo tiene que ser difícil, feo, incómodo y dar miedo. Ya hay administraciones que ofrecen servicios con muy buena calidad. **El diseño es un ingrediente esencial para construir servicios cercanos, accesibles, usables, interesantes y eficientes**. Tenemos años de experiencia aplicándolo en otros ámbitos, y ahora lo haremos en este.
 
-- **Eficiencia**: en último término, queremos construir un software eficiente para contribuir a la eficiencia. De las propias administraciones, para que puedan poner en marcha herramientas con un coste contenido que faciliten el consumo de información y la participación. De los propios ciudadanos, que podrán resolver necesidades hasta ahora no cubiertas con facilidad. Y de otras organizaciones que reutilicen el software y los datos que tratamos. 
+- **Eficiencia**: en último término, queremos construir un software eficiente para contribuir a la eficiencia. De las propias administraciones, para que puedan poner en marcha herramientas con un coste contenido que faciliten el consumo de información y la participación. De los propios ciudadanos, que podrán resolver necesidades hasta ahora no cubiertas con facilidad. Y de otras organizaciones que reutilicen el software y los datos que tratamos.
 
-Más información: 
+Más información:
 - [Gobierto Open Source](/open-source/)
 - El código: [github.com/PopulateTools/gobierto](https://github.com/PopulateTools/gobierto/)
-
-
-
-
-

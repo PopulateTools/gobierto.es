@@ -3,28 +3,30 @@ layout: post
 title: "Presupuestos participativos - Madrid: gran proceso, pocos participantes ¿Qué más se puede hacer? (1 de 3)"
 subtitle: Mini serie sobre presupuestos participativos, retos y posibilidades para articular la participación
 date: 2016-05-30 14:00:00 +0100
-categories: 
-# excerpt: Even more estimulating excerpt to be used in case you need it. 
+categories:
+# excerpt: Even more estimulating excerpt to be used in case you need it.
 author: Álvaro Ortiz
-tags:
-  - readinglist
+categories:
+  - participacion
+  - experiencia_de_usuario
+  - diseno_de_servicios
 main_photo_big: https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
 ---
 
-## Contexto 
+## Contexto
 
-La llegada de nuevas opciones políticas a los municipios españoles ha traído consigo una serie de iniciativas encaminadas a que los ciudadanos dispongan de más información sobre la actividad de gobierno, y a que puedan influir en sus decisiones más que solo una vez cada cuatro años. Si la ola de la transparencia y la participación empezaba a moverse, este ha sido el aliciente definitivo para que coja volumen. 
+La llegada de nuevas opciones políticas a los municipios españoles ha traído consigo una serie de iniciativas encaminadas a que los ciudadanos dispongan de más información sobre la actividad de gobierno, y a que puedan influir en sus decisiones más que solo una vez cada cuatro años. Si la ola de la transparencia y la participación empezaba a moverse, este ha sido el aliciente definitivo para que coja volumen.
 
 Foros de participación, consultas sobre distintos temas, y presupuestos participativos son los principales ejemplos. Si nos fijamos en los municipios de mayor tamaño es inevitable fijarse en Madrid: el municipio más grande es uno de los más activos, y además está utilizando software libre (que cualquiera puede reutilizar para adaptarlo o mejorarlo) para dar soporte a estos procesos.
 
 ## Precedentes de éxito
 
-Los procesos de presupuestos participativos han tenido su [principal desarrollo en Brasil y otros lugares de latinoamérica](https://es.wikipedia.org/wiki/Presupuesto_participativo#Presupuestos_Participativos_en_Porto_Alegre) en las últimas décadas. En España también se han desarrollado distintos procesos en municipios medianos o pequeños, sin que hayan tenido demasiada repercusión mediática más allá del nivel local. 
+Los procesos de presupuestos participativos han tenido su [principal desarrollo en Brasil y otros lugares de latinoamérica](https://es.wikipedia.org/wiki/Presupuesto_participativo#Presupuestos_Participativos_en_Porto_Alegre) en las últimas décadas. En España también se han desarrollado distintos procesos en municipios medianos o pequeños, sin que hayan tenido demasiada repercusión mediática más allá del nivel local.
 
 
 ## Qué son los presupuestos participativos
 
-En su esencia el objetivo es que los vecinos puedan tomar parte en las decisiones. En la práctica significa un proceso complejo de participación: supone la definición de unas reglas, el garantizar el acceso a la información, el acceso universal al proceso, la formación y comunicación, la creación de espacios para discutir las propuestas, la recopilación de las opiniones... Hacer un proceso inclusivo exige que la gente esté preparada a distintos niveles, algo más complejo de lo que parece. 
+En su esencia el objetivo es que los vecinos puedan tomar parte en las decisiones. En la práctica significa un proceso complejo de participación: supone la definición de unas reglas, el garantizar el acceso a la información, el acceso universal al proceso, la formación y comunicación, la creación de espacios para discutir las propuestas, la recopilación de las opiniones... Hacer un proceso inclusivo exige que la gente esté preparada a distintos niveles, algo más complejo de lo que parece.
 
 Recomendamos la lectura de la completísima [Guía metodológica de presupuestos participativos](http://www.presupuestosparticipativos.com/Gu%C3%ADa-metodol%C3%B3gica-de-presupuestos-partic/_C3VTDDatmVEmYYYsYdvRIsil_ngZxyrxbR-Co1vM8dPZXii7nhO1eoDdtJ5vvY_Q) para zambullirse en este mundo y tener una perspectiva completa.
 
@@ -39,7 +41,7 @@ Los procesos de presupuestos participativos se suelen estructurar en las siguien
 
 Justo en estos días los vecinos de Madrid [pueden votar sobre las propuestas](https://decide.madrid.es/participatory_budget) enviadas por otros vecinos. Hay para repartir 60 millones de € (para poner en perspectiva la cantidad, recordad que el [presupuesto de Madrid](https://presupuestos.gobierto.es/places/madrid/2015) es de más de 4.000 millones). A este proceso de presupuestos le han precedido distintas iniciativas de participación: un [foro de debates](https://decide.madrid.es/debates), un área de [propuestas](https://decide.madrid.es/proposals), [entrevistas ciudadanas con concejales](https://decide.madrid.es/debates?order=created_at&page=1&search=%23T%C3%BAPreguntas&utf8=%E2%9C%93), un [par de consultas sobre temas específicos](), y ahora los presupuestos participativos.
 
-En el caso de debates y propuestas la participación no ha sido pequeña: hay debates con miles de votos y cientos de comentarios; hay propuestas con más de 20.000 apoyos. Pero si tenemos en cuenta los 3,1M de habitantes de la ciudad la participación parece todavía pequeña y poco representativa. 
+En el caso de debates y propuestas la participación no ha sido pequeña: hay debates con miles de votos y cientos de comentarios; hay propuestas con más de 20.000 apoyos. Pero si tenemos en cuenta los 3,1M de habitantes de la ciudad la participación parece todavía pequeña y poco representativa.
 
 En el caso de los presupuestos participativos a pesar de la comunicación offline realizada, los eventos físicos, y todos los esfuerzos online, la realidad es que las propuestas que se han realizado son variaciones de unos pocos temas dando la sensación de que se puede y se debe llegar mucho más allá para canalizar la opinión de la gente de una forma representativa.
 
@@ -58,7 +60,7 @@ En Gobierto estamos explorando y experimentando con ideas para generar participa
 
 ## Recursos
 
-Algunos enlaces de interés sobre presupuestos participativos que iremos actualizando: 
+Algunos enlaces de interés sobre presupuestos participativos que iremos actualizando:
 
 - [presupuestosparticipativos.com](http://presupuestosparticipativos.com)
 - [Guía metodológica de presupuestos participativos](http://www.presupuestosparticipativos.com/Gu%C3%ADa-metodol%C3%B3gica-de-presupuestos-partic/_C3VTDDatmVEmYYYsYdvRIsil_ngZxyrxbR-Co1vM8dPZXii7nhO1eoDdtJ5vvY_Q)

@@ -3,7 +3,9 @@ layout: post
 title: "Participación: una lista de la compra compartida"
 subtitle: "¿Confundimos participar con decidir? Las propuestas ciudadanas mejoran cuando pasan por una fase de deliberación clara y estructurada"
 date: 2017-04-11 19:30:00 +0100
-categories: participacion, gobierno abierto
+categories:
+  - participacion
+  - gobierno_abierto
 author: Rafa de las Cuevas
 main_photo_big: posts/170411-participacion-lista-compra.png
 ---
@@ -27,10 +29,10 @@ Podemos aprender de algunos fracasos de procesos participativos por falta de del
 Por tanto, un proceso participativo que implique democracia directa (voto) tiene carencias si:
 
 1. los vecinos no han tenido oportunidad de informarse ni debatir (no se han proporcionado escenarios ni herramientas para ellos).
-1. Se les ha instado a decidir sobre un listado de opciones que no podían comprender en su totalidad, discutir ni modificar. 
+1. Se les ha instado a decidir sobre un listado de opciones que no podían comprender en su totalidad, discutir ni modificar.
 
 Otra cosa distinta sería un proceso consultivo, no vinculante y a pequeña escala. Por ejemplo, una encuesta que el ayuntamiento lanza entre la ciudadanía para conocer su opinión sobre un asunto concreto. Tomar la temperatura de la opinión ciudadana puede ser una buena herramienta informativa. Y aun así, la labor de transparencia previa y los espacios abiertos y permanentes de deliberación son fundamentales.
 
-Siguiendo con la analogía culinaria, si no conoces los productos o nadie te ha hablado de ellos echarás al carro lo que te suena, lo que has comido siempre o lo que tenga un aspecto más apetitoso sin pararte a pensar [si es saludable](https://www.nytimes.com/2016/08/09/us/politics/donald-trump-diet.html). 
+Siguiendo con la analogía culinaria, si no conoces los productos o nadie te ha hablado de ellos echarás al carro lo que te suena, lo que has comido siempre o lo que tenga un aspecto más apetitoso sin pararte a pensar [si es saludable](https://www.nytimes.com/2016/08/09/us/politics/donald-trump-diet.html).
 
 Por eso, al diseñar una plataforma de participación no se pueden diseñar sólo listas de la compra: Hay que dar las herramientas necesarias que los ciudadanos estemos informados en todo momento, para que compartamos nuestra experiencia con los demás y podamos **redactar entre todos una lista de la compra consensuada**. Cada vez tenemos menos tiempo para cocinar ¡y menos aún para participar!. Cuando más fácil sea mantener una conversación y llegar a un consenso, mucho mejor.

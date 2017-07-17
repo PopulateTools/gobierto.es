@@ -3,7 +3,9 @@ layout: post
 title: Gobierto Indicadores, nuevo módulo para mostrar tu municipio en cifras
 subtitle: "Un paseo por el nuevo módulo de indicadores, que resume y contextualiza los datos abiertos de población, empleo y economía"
 date: 2017-04-25
-categories: datos, gobierto
+categories:
+  - visualizacion_de_datos
+  - gobierto
 author: Martín González
 main_photo_big: posts/170425-indicadores-1.png
 ---

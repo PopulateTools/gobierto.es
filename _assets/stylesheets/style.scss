@@ -517,7 +517,8 @@ article {
 
 .page_navitation {
   font-size: .85em;
-  margin: 5em 0;
+  margin-top: 5em;
+  margin-bottom: 5em;
   .prev {
     float: left;
     width: 45%;
@@ -1380,12 +1381,36 @@ blockquote.quote:before {
   color: #DFDFDF;
 }
 
+.themes {
+  background: $color_yellow;
+  padding: 4em 0;
+
+  color: #FFF;
+  p.headed {
+    font-family: $font_headings;
+    font-style: italic;
+  }
+  .themes_list a {
+    font-family: $font_headings;
+    font-size: 1.2em;
+    line-height: 1.6;
+    display: block;
+  }
+  p.last {
+    margin: 2em 0;
+    font-size: .9em;
+  }
+  a {
+    color: #FFF;
+  }
+}
+
 /*
  * Footer
  *
  */
 footer {
-  margin: 0 auto 8em auto;
+  margin: 5em auto 8em auto;
 
   .links {
     padding: 6em 0;
@@ -1523,7 +1548,7 @@ footer {
   }
 }
 .big_banner_block.demo {
-  margin: 5em 0 0 0;
+  margin: 0;
   background: $color_grey_soft;
   input[type=text], input[type=email], input[type=submit], .button, .option, select, option {
     width: 100%;

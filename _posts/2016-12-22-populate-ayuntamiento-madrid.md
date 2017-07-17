@@ -3,30 +3,30 @@ layout: post
 title: "Populate colabora en el desarrollo de la herramienta de participación del Ayuntamiento de Madrid"
 subtitle: Diseñamos y construimos para el Medialab-Prado del Ayuntamiento de Madrid el módulo de legislación colaborativa de Cónsul, la herramienta de participación disponible en decide.madrid.es
 date: 2017-01-13 8:00:00 +0100
-categories: transparencia
+categories: clientes
 author: Álvaro Ortiz
 main_photo: newsletter/newsletter-170118-consul.png
 ---
 
-Medialab-Prado (entidad dependiente del Ayuntamiento de Madrid) y su ParticipaLAB han decidido contar con la ayuda de Populate para diseñar y construir el módulo de legislación colaborativa de Consul, la herramienta de participación creada por el Ayuntamiento y liberada como software libre. Esta nueva herramienta permitirá a aquellas organizaciones que lo utilizan incorporar la opinión de los ciudadanos durante el proceso de definición o modificación de normativa. 
+Medialab-Prado (entidad dependiente del Ayuntamiento de Madrid) y su ParticipaLAB han decidido contar con la ayuda de Populate para diseñar y construir el módulo de legislación colaborativa de Consul, la herramienta de participación creada por el Ayuntamiento y liberada como software libre. Esta nueva herramienta permitirá a aquellas organizaciones que lo utilizan incorporar la opinión de los ciudadanos durante el proceso de definición o modificación de normativa.
 
 Desde Populate, en colaboración con Medialab-Prado y el Ayuntamiento, estamos definiendo el diseño y la funcionalidad de la herramienta teniendo en cuenta los requisitos que plantea el Artículo 133 de la Ley 39 y la experiencia previa del Ayuntamiento en procesos legislativos colaborativos.
 
-Nuestro trabajo incluye el desarrollo completo: desde la definición de funcionalidad y UX, pasando por el front-end, hasta todo el código de back-end. 
+Nuestro trabajo incluye el desarrollo completo: desde la definición de funcionalidad y UX, pasando por el front-end, hasta todo el código de back-end.
 
 El módulo de legislación colaborativa en Cónsul estará disponible en las próximas semanas. El código resultante será abierto y estará disponible para cualquiera que quiera usarlo o modificarlo, siguiendo la propia licencia de Consul. Además, puedes consultar [algunos de los bocetos en los que estamos trabajando](https://invis.io/XD9AQKLEU), y [seguir en vivo el desarrollo del código desde el repositorio de Github](https://github.com/medialab-prado/consul/projects/1).
 
 
 ## Implantación de Cónsul y desarrollo en Ruby on Rails
 
-En Populate estamos colaborando con [varias administraciones](/blog/20161215-diputacion-de-valencia-gobierto.html) públicas para ayudarles a instalar, personalizar y extender Cónsul, software desarrollado con Ruby on Rails. El equipo de Populate (creadores de Gobierto) fue pionero en la introducción de Ruby On Rails en España hace más de 10 años cuando creamos La Coctelera, el mayor portal de blogs en España y Latinoamérica con más de 250.000 blogs en marcha; y combinamos nuestra experiencia tecnológica con la participación y el activismo fundando Actuable, plataforma que se convirtió en Change.org donde reunimos a más de 1 millón de personas firmando peticiones en menos de un año. 
+En Populate estamos colaborando con [varias administraciones](/blog/20161215-diputacion-de-valencia-gobierto.html) públicas para ayudarles a instalar, personalizar y extender Cónsul, software desarrollado con Ruby on Rails. El equipo de Populate (creadores de Gobierto) fue pionero en la introducción de Ruby On Rails en España hace más de 10 años cuando creamos La Coctelera, el mayor portal de blogs en España y Latinoamérica con más de 250.000 blogs en marcha; y combinamos nuestra experiencia tecnológica con la participación y el activismo fundando Actuable, plataforma que se convirtió en Change.org donde reunimos a más de 1 millón de personas firmando peticiones en menos de un año.
 
 Si en tu organización necesitáis ayuda para implantar Cónsul u otros desarrollos con Ruby on Rails, [escríbenos](mailto:lets@populate.tools).
 
 
 ## Cónsul y Gobierto
 
-Gobierto (la plataforma de gobierno abierto que estamos construyendo en Populate) se complementa bien con Cónsul: además de las funcionalidades de participación y presupuestos participativos de Cónsul, Gobierto te permite visualizar tus presupuestos, explorar el organigrama de cargos y sus agendas, consultar indicadores estadísticos, realizar consultas sobre presupuestos, geolocalizar recursos... 
+Gobierto (la plataforma de gobierno abierto que estamos construyendo en Populate) se complementa bien con Cónsul: además de las funcionalidades de participación y presupuestos participativos de Cónsul, Gobierto te permite visualizar tus presupuestos, explorar el organigrama de cargos y sus agendas, consultar indicadores estadísticos, realizar consultas sobre presupuestos, geolocalizar recursos...
 
 
 ## Grupo de trabajo de investigación sobre participación

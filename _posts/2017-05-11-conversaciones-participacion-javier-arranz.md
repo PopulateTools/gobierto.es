@@ -3,7 +3,9 @@ layout: post
 title: 'Javier Arranz: “Se participa poco en ámbitos estratégicos como la legislación colaborativa. Pero estoy convencido de que es la manera”'
 subtitle: 'El modelo de participación de Irún está enraizado con modelos previos muy consensuados. Javier Arranz explica los mecanismos de sus presupuestos participativos y enumera algunas dificultades como el “efecto lobby”'
 date: 2017-05-10
-categories: participacion, gobierno abierto
+categories:
+  - participacion
+  - gobierno_abierto
 author: Rafa de las Cuevas
 main_photo: posts/170510-arranz01.jpg
 ---
