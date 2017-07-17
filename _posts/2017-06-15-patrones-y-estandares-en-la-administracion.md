@@ -6,6 +6,7 @@ date: 2017-06-15
 categories:
   - gobierto
   - experiencia_de_usuario
+  - estrategia
 author: Álvaro Ortiz
 main_photo_big: https://images.unsplash.com/reserve/81gZijLSWfge41LgzqQ6_Moving%20Parts.JPG?dpr=1&auto=format&fit=crop&w=1500&h=700&q=80&cs=tinysrgb&crop=&bg=d
 
