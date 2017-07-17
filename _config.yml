@@ -7,7 +7,7 @@
 
 # Site settings
 title: "Gobierto · Herramientas para conectar con tus vecinos"
-description: Gobierto crea herramientas de transparencia y participación que funcionan de verdad para mejorar la comunicación con  tus vecinos 
+description: Gobierto crea herramientas de transparencia y participación que funcionan de verdad para mejorar la comunicación con  tus vecinos
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # default permalink for blog posts
@@ -26,12 +26,16 @@ collections:
   charts:
     output: true
     permalink: /charts/:path/
+  category:
+    output: true
+    permalink: /temas/:title/
+
 
 # urls for sections/pages
 url_producto_presupuestos_visualizacion: "visualizacion_presupuestos_municipales"
 url_producto_presupuestos_consultas: "presupuestos_participativos_consultas"
-url_producto_presupuestos_historias: 
-url_producto_presupuestos_inteligencia: 
+url_producto_presupuestos_historias:
+url_producto_presupuestos_inteligencia:
 
 # The configuration entry `url` is generated in plugins/site_url_generator.rb depending on the environment variable
 production_url: "http://gobierto.es"

@@ -82,7 +82,7 @@ layout: default
 
 <div class="posts_index column_w">
 
-	<h3 class="center m_v_1">Últimos posts</h3>
+  <h3 class="center m_v_1">Últimos posts</h3>
 
   <div class="pure-g">
 
@@ -107,5 +107,11 @@ layout: default
       {% endif %}
     </div>
   </div>
+
+  <!--
+    {% for category in site.category %}
+      <a href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a>
+    {% endfor %}
+  -->
 
 </div>

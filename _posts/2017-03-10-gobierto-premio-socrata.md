@@ -3,7 +3,7 @@ layout: post
 title: "El proyecto de Gobierto para la Generalitat de Catalunya es premiado en la conferencia anual de Socrata"
 subtitle: la integración de los datos abiertos de presupuestos municipales catalanes en Gobierto es destacado por el proveedor del portal open data
 date: 2017-03-10 8:00:00 +0100
-categories: transparencia
+categories: clientes
 author: Álvaro Ortiz
 # main_photo:
 ---

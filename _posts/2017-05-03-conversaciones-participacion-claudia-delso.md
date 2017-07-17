@@ -3,7 +3,9 @@ layout: post
 title: 'Claudia Delso: "Tenemos muchos miedos con la participación, pero lo más importante es que la practiquemos"'
 subtitle: "¿Cómo se construye una concejalía de participación desde cero? La concejala de Participación de A Coruña nos cuenta su experiencia y explica los temores y lugares comunes que suelen aparecer en torno a los presupuestos participativos"
 date: 2017-05-03
-categories: participacion, gobierno abierto
+categories:
+  - participacion
+  - gobierno_abierto
 author: Rafa de las Cuevas
 main_photo: posts/170503-foto-claudia-delso.jpg
 ---

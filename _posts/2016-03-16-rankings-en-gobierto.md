@@ -3,11 +3,13 @@ layout: post
 title: "Lanzamos los rankings en Gobierto: ¿quién se gasta más en qué?"
 subtitle: Explora los gastos e ingresos por tamaño del municipio, gasto total, por habitante y comunidad autónoma
 date:   2016-03-16 14:00:00 +0100
-categories: 
-# excerpt: Even more estimulating excerpt to be used in case you need it. 
+categories:
+# excerpt: Even more estimulating excerpt to be used in case you need it.
 author: Álvaro Ortiz
-tags:
-  - readinglist
+categories:
+  - gobierto
+  - experiencia_de_usuario
+  - visualizacion_de_datos
 # main_photo: path/to/image/url
 ---
 
@@ -15,7 +17,7 @@ Hoy lanzamos los rankings en Gobierto Presupuestos Municipales. Es una nueva for
 
 ## Filtra por partida
 
-Además de poder ver el ranking por ingreso o gasto total (lo cual casi siempre resultará obvio al ir muy relacionado con la población del municipio), puedes ir buceando en las distintas partidas de ingresos y gastos para descubrir quién ingresa/gasta más por una partida específica, en total y por habitante. O desde la página de un municipio y una partida, podrás acceder a la posición de ese municipio. 
+Además de poder ver el ranking por ingreso o gasto total (lo cual casi siempre resultará obvio al ir muy relacionado con la población del municipio), puedes ir buceando en las distintas partidas de ingresos y gastos para descubrir quién ingresa/gasta más por una partida específica, en total y por habitante. O desde la página de un municipio y una partida, podrás acceder a la posición de ese municipio.
 
 Por ejemplo, ¿Madrid se gasta mucho en la recogida de basuras por habitante? En términos absolutos, ¿quién se gasta más en festejos?
 

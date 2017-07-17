@@ -3,7 +3,9 @@ layout: post
 title: 'Ricard Vilaregut: "Antes, el presupuesto de inversiones del ayuntamiento lo decidían 30 personas. Ahora lo deciden 8.000"'
 subtitle: "Empezamos una nueva serie de entrevistas a expertos en participación con Ricard Vilaregut, Doctor en Ciencia política y asesor en los últimos procesos participativos del Ayuntamiento de Badalona"
 date: 2017-04-19 9:00:00 +0100
-categories: participacion, gobierno abierto
+categories:
+  - participacion
+  - gobierno_abierto
 author: Rafa de las Cuevas
 main_photo: posts/170425-conversaciones-participacion-ricard_v.png
 ---

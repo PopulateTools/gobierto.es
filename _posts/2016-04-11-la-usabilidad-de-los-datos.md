@@ -6,8 +6,9 @@ date:   2016-04-11 14:00:00 +0100
 categories:
 # excerpt: Even more estimulating excerpt to be used in case you need it.
 author: Álvaro Ortiz
-tags:
-  - readinglist
+categories:
+  - transparencia
+  - comunicacion_clara
 main_photo_big: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?crop=entropy&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
 ---
 

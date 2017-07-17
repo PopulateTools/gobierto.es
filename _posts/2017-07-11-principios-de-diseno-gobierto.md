@@ -3,7 +3,9 @@ layout: post
 title: '¿Cómo tomamos las decisiones para construir Gobierto? Nuestros principios de diseño'
 subtitle: 'Una serie de reglas que dirigen, simplifican y normalizan las decisiones que tomamos'
 date: 2017-07-11
-categories: diseño
+categories:
+  - gobierto
+  - experiencia_de_usuario
 author: Álvaro Ortiz
 main_photo_big: https://images.unsplash.com/photo-1468589802575-eca3c023c8fb?dpr=2&auto=format&fit=crop&w=1500&h=850&q=80&cs=tinysrgb&crop=
 ---

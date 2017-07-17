@@ -3,7 +3,8 @@ layout: post
 title: Los mapas no cuentan (toda) la verdad
 subtitle: "Hay muchas maneras de visualizar datos geográficos. Aquí proponemos unas cuantas más."
 date: 2017-05-17
-categories: mapas, datos, gráficos
+categories:
+  - visualizacion_de_datos
 author: Martín González
 ---
 

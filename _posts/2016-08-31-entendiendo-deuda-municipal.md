@@ -3,10 +3,12 @@ layout: post
 title: ¿Cuándo terminará tu municipio de pagar toda su deuda?
 subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse de su deuda
 date: 2016-09-01 8:00:00 +0100
-categories: 
-# excerpt: Even more estimulating excerpt to be used in case you need it. 
+categories:
+  - transparencia
+  - visualizacion_de_datos
+# excerpt: Even more estimulating excerpt to be used in case you need it.
 author: Populate
-main_photo_big: 
+main_photo_big:
 ---
 
 <div class="tool">
@@ -23,7 +25,7 @@ main_photo_big:
           <p class="p_h_4">Es la deuda pendiente que tienen el conjunto de nuestros municipios a final del 2015</p>
         </div>
       </div>
-      
+
     </div>
 
     <div class="pure-u-1 pure-u-md-1-24"></div>
@@ -126,4 +128,3 @@ main_photo_big:
   </ul>
 
 </div>
-

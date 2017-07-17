@@ -3,7 +3,8 @@ layout: post
 title: "Panorama sobre los presupuestos participativos en España"
 subtitle: Repasamos varias iniciativas de presupuestos participativos en municipios de distintos tamaños. ¿Qué podemos aprender de ellos?
 date: 2016-12-12 10:00:00 +0100
-categories: transparencia
+categories:
+  - participacion
 author: Rafa de las Cuevas
 main_photo_big: posts/161202-presupuestosparticipatexam_00.jpg
 ---
@@ -42,7 +43,7 @@ En **Bilbao** existe desde hace tiempo el llamado Plan Auzokide, un plan de deli
 
 {% img 'posts/161202-presupuestosparticipatexam_02.jpg' %}
 
-Los representantes de participación de **[A Coruña](https://presupuestos.gobierto.es/places/coruna-a/2015)** están satisfechos con [su último proceso](https://aportaaberta.coruna.es/presupuestos-participativos-resultados), que consideran un proyecto piloto sobre el que seguir construyendo. De hecho, para el año que viene solicitan más importe y más difusión. Votaron 1.964 personas y 4.1143 visitaron la plataforma durante el proceso. De las 98 propuestas técnicamente viables, 21 fueron las más votadas. A esas 21 se destinó un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía. 
+Los representantes de participación de **[A Coruña](https://presupuestos.gobierto.es/places/coruna-a/2015)** están satisfechos con [su último proceso](https://aportaaberta.coruna.es/presupuestos-participativos-resultados), que consideran un proyecto piloto sobre el que seguir construyendo. De hecho, para el año que viene solicitan más importe y más difusión. Votaron 1.964 personas y 4.1143 visitaron la plataforma durante el proceso. De las 98 propuestas técnicamente viables, 21 fueron las más votadas. A esas 21 se destinó un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía.
 
 ## Municipios de población más reducida
 
@@ -66,11 +67,10 @@ Por último, el caso de **[Guadalajara](https://presupuestos.gobierto.es/places/
 
 * Las propuestas ciudadanas van desde las muy detalladas y concretas a las generalistas y trasversales. De nuevo, es importante la información y diseño previo para ayudar a filtrar correctamente todas y ahorrar tiempo a los técnicos del ayuntamiento que estudian su viabilidad, caso por caso.
 
-* Cuanto más cercana y concreta es la propuesta, mayor participación. Los asuntos de barrio generan más interés que las políticas de amplio calado. 
+* Cuanto más cercana y concreta es la propuesta, mayor participación. Los asuntos de barrio generan más interés que las políticas de amplio calado.
 
 * Aunque todavía no se haya conseguido una participación masiva, sí está creciendo el número de procesos y de ciudadanos involucrados.
 
 Queda mucho por hacer, pero si echamos la vista atrás podemos ver que todos estos procesos han revitalizado el debate ciudadano. Los municipios han conseguido acercar a sus vecinos todavía más a su labor de gobierno.
 
 ¿Cómo podemos ayudar a dinamizar y reforzar este acercamiento? En [Gobierto](http://www.gobierto.es) creemos que en esta primera fase de participación lo más importante es **informar** y conseguir un acercamiento progresivo, con poca fricción. Por eso desarrollamos herramientas de **participación sencilla, inmediata y con un componente interactivo**, como las **[consultas sobre presupuestos](http://gobierto.es/blog/20161020-alternativa-presupuestos-participativos.html)**. Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recibir feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
-
