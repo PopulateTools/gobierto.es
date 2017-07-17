@@ -10,6 +10,7 @@ categories:
   - participacion
   - experiencia_de_usuario
   - diseno_de_servicios
+  - investigacion
 main_photo_big: https://images.unsplash.com/reserve/oIpwxeeSPy1cnwYpqJ1w_Dufer%20Collateral%20test.jpg?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
 ---
 

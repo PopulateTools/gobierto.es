@@ -11,12 +11,7 @@ permalink: /blog/
   <div class="pure-g">
 
     {% for post in site.posts %}
-    <div class="pure-u-1 pure-u-md-1-3">
-    	<div class="story">
-	      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
-	      <p class="subtitle" itemprop="description">{{ post.subtitle }}</p>
-	    </div>
-    </div>
+      {% include post.html %}
     {% endfor %}
 
   </div>

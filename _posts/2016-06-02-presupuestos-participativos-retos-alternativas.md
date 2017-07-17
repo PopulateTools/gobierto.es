@@ -10,6 +10,7 @@ categories:
   - participacion
   - experiencia_de_usuario
   - diseno_de_servicios
+  - investigacion
 main_photo_big: https://images.unsplash.com/photo-1464013778555-8e723c2f01f8?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
 ---
 
