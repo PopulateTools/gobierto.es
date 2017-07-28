@@ -66,3 +66,8 @@ Algunos enlaces de interés sobre presupuestos participativos que iremos actuali
 - [presupuestosparticipativos.com](http://presupuestosparticipativos.com)
 - [Guía metodológica de presupuestos participativos](http://www.presupuestosparticipativos.com/Gu%C3%ADa-metodol%C3%B3gica-de-presupuestos-partic/_C3VTDDatmVEmYYYsYdvRIsil_ngZxyrxbR-Co1vM8dPZXii7nhO1eoDdtJ5vvY_Q)
 - [International Budget Partnership](http://www.internationalbudget.org/)
+
+## Continúa leyendo:
+
+- [Presupuestos participativos - ¿Qué pasaría si nuestro municipio fuese como nuestra comunidad de vecinos? (2 de 3)](http://localhost:5000/blog/20160602-presupuestos-participativos-retos-alternativas.html)
+- [Presupuestos participativos (3 de 3) - 5 ejemplos de participación ciudadana efectiva](/blog/20160606-presupuestos-participativos-herramientas.html)
