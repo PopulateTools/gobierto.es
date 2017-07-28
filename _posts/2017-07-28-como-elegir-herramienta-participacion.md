@@ -31,7 +31,9 @@ En [Populate](http://populate.tools) (creadores de Gobierto) llevamos muchos añ
   Nuestra recomendación basada en la experiencia: la herramienta es lo de menos, y no nos debe condicionar. Es más importante definir un plan y extraer requisitos, que instalar una herramienta y comenzar a adaptarnos a ella (lo que es díficil que funcione)
 </blockquote>
 
-En Gobierto estamos poniendo en marcha nuestro módulo de Participación en colaboración con uno de los municipios con mayor trayectoria y experiencia en transparencia y participación en España. Hemos desarrollado una serie de talleres y realizado un trabajo de investigación como base para el diseño, estructura y posibilidades de la herramienta, y estas preguntas son algunas de las que nos hemos hecho durante el proceso. En los próximos meses iremos compartiendo más aprendizajes de este proceso.
+**Y lo más importante: hacer participación no es poner un foro de debates.**
+
+En Gobierto estamos poniendo en marcha nuestro módulo de Participación en colaboración con uno de los municipios con mayor trayectoria y experiencia en transparencia y participación en España. Hemos desarrollado una serie de talleres y realizado un trabajo de investigación como base para el diseño, estructura y posibilidades de la herramienta, y estas preguntas son algunas de las que nos hemos hecho durante el proceso. En los próximos meses iremos compartiendo más aprendizajes de este proyecto (además de mostrarlo cuando esté en marcha, claro ;).
 
 <div class="separator blue short"></div>
 
