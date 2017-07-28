@@ -52,3 +52,8 @@ El ciudadano puede compartir su simulación en redes sociales, y la entidad reci
 **Consultas sobre presupuestos** es otro de los módulos de Gobierto, una plataforma de gobierno abierto open source. Reunimos herramientas en una única plataforma para ganar eficiencia en la puesta en marcha. Nos centramos en transparencia útil para el ciudadano (más allá de cumplir simplemente la norma), y mecanismos de participación progresivos que consiguen involucración y representatividad.
 
 Ya estamos trabajando con diversas administraciones públicas para ayudarles a implantar Gobierto. [Nos encantará conocer tus planes y mostrarte cómo Gobierto](mailto:abre@gobierto.es) te puede ayudar a hacer transparencia útil y participación efectiva con una inversión muy eficiente.
+
+
+## Ejemplo práctico
+
+[Consulta como usa Sencelles la herramienta de Consultas sobre presupuestos de Gobierto](/blog/20170314-sencelles-consultas.html)

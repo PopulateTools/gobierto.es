@@ -94,6 +94,10 @@ Otro juego-visualización sobre la deuda federal de Estados Unidos, enfocado a e
 
 Visita: [Stabilize The Debt](http://crfb.org/stabilizethedebt/)
 
+## Gobierto Consultas sobre presupuestos
+
+Visita: [Consultas sobre presupuestos de Gobierto](/blog/20161020-alternativa-presupuestos-participativos.html)
+
 
 <div class="separator"></div>
 
