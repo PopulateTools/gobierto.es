@@ -5,6 +5,10 @@
   overflow: hidden;
   padding: 100px 0;
   background: $cBlue;
+
+}
+.Cover--intro .Cover__browser {
+  transform: rotate(-6deg) translate(0, 0);
 }
 .Cover__inner {
   position: relative;
@@ -25,12 +29,14 @@
   position: absolute;
   top: -12%;
   right: -40%;
-  transform: rotate(-6deg);
   z-index: 1;
+  transition: transform 1.5s ease-out;
+
+  transform: rotate(-20deg) translate(520px, 612px);
 }
 
 .Cover__browser:hover {
-  transform: rotate(-6deg) translate(0, -12px);
+  transform: rotate(-6deg) translate(0, -22px);
 }
 .Cover__header {
   position: relative;

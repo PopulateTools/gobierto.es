@@ -1,0 +1,29 @@
+@import 'helpers/helpers';
+
+.GlobalFunctionalities {
+  padding: 120px 0;
+  background: $cRed url(asset_path('logo-shadow.svg')) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.GlobalFunctionalities__inner {
+  width: $innerSize;
+  margin: auto;
+}
+.GlobalFunctionalities__header {
+  margin: 0 0 60px;
+  width: $innerSize;
+  margin: 0 auto 60px;
+}
+.GlobalFunctionalities__title {
+  @include sans-serif(42px, 700, $cWhite);
+  line-height: 120%;
+}
+.GlobalFunctionalities__description {
+  @include sans-serif(36px, 700, $cBlue);
+  line-height: 120%;
+}
+.GlobalFunctionalities__content {
+  text-align: left;
+  display: flex;
+}

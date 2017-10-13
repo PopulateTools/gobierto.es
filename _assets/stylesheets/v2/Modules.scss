@@ -10,6 +10,7 @@
   width: 1110px;
   margin: auto;
 }
+
 .Module__item {
   position: relative;
   padding: 126px 0;
@@ -71,7 +72,7 @@
   right: auto;
 }
 
-.Module__item:hover .Module__browser {
+.animate .Module__browser {
   transform: translate(0, -12px);
   box-shadow: 0 4px 32px 0 rgba(0,0,0,0.30);
 }
