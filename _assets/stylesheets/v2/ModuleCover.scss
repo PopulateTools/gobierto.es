@@ -6,7 +6,6 @@
   padding: 100px 0;
   background: $cBlue;
 }
-
 .ModuleCover__inner {
   position: relative;
   width: $innerSize;
@@ -61,11 +60,9 @@
   height: 3px;
   background: $cYellow;
 }
-
-.ModuleCover__browser {
+.ModuleCover__browserContainer {
   position: relative;
 }
-
 .Module__shadow {
   background: url(/../../v2/images/module-shadow.svg) no-repeat 0 0;
   top: 0px;

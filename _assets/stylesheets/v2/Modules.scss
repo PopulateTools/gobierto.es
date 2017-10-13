@@ -12,7 +12,7 @@
 }
 .Module__item {
   position: relative;
-  margin: 126px 0;
+  padding: 126px 0;
   display: flex;
 }
 .Module__item--right {
@@ -69,4 +69,9 @@
 .Module__item--right .Module__preview {
   left: -35%;
   right: auto;
+}
+
+.Module__item:hover .Module__browser {
+  transform: translate(0, -12px);
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.30);
 }

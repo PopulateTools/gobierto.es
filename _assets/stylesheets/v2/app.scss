@@ -42,7 +42,13 @@ strong {
   padding-left: 3px;
   font-weight: 900;
 }
+
+.Gobiertify:hover::before {
+  transform: rotate(360deg);
+}
 .Gobiertify::before {
+  transform-origin: 12px;
+  transition: all .8s ease-in-out;
   content: '';
   position: relative;
   display: inline-block;
