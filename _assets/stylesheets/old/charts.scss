@@ -1,0 +1,283 @@
+.clearfix, %clearfix {
+  &:after, &:before {
+    content: '';
+    display: table;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+
+// TOOLTIPS
+
+.d3-tip {
+  line-height: 1.2em;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 11px;
+  padding: 12px;
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  border-radius: 2px;
+  pointer-events: none;
+  z-index: 10000000;
+}
+
+.d3-tip strong {
+  font-weight: bold;
+  font-size:1.3em;
+  display: block;
+  margin-bottom: .2em;
+}
+
+.d3-tip table {
+  margin:1em 0;
+}
+
+.d3-tip th,
+.d3-tip td {
+  padding:.4em;
+  text-align: right;
+}
+
+/* Creates a small triangle extender for the tooltip */
+.d3-tip:after {
+  box-sizing: border-box;
+  display: inline;
+  font-size: 10px;
+  width: 100%;
+  line-height: 1;
+  color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  pointer-events: none;
+}
+
+/* Northward tooltips */
+.d3-tip.n:after {
+  content: "\25BC";
+  margin: -1px 0 0 0;
+  top: 100%;
+  left: 0;
+  text-align: center;
+}
+
+/* Eastward tooltips */
+.d3-tip.e:after {
+  content: "\25C0";
+  margin: -4px 0 0 0;
+  top: 50%;
+  left: -8px;
+}
+
+/* Southward tooltips */
+.d3-tip.s:after {
+  content: "\25B2";
+  margin: 0 0 1px 0;
+  top: -8px;
+  left: 0;
+  text-align: center;
+}
+
+/* Westward tooltips */
+.d3-tip.w:after {
+  content: "\25B6";
+  margin: -4px 0 0 -1px;
+  top: 50%;
+  left: 100%;
+}
+
+
+// Debt charts
+
+.debt-chart {
+  .background-rect {
+    fill: #FFF;
+  }
+  .axis.y {
+    path,line {
+      stroke: #DFDFDF;
+      stroke-width: 1px;
+    }
+    path.domain {
+      stroke-width: 0;
+    }
+  }
+  .axis text {
+    fill: #848484;
+  }
+  .axis.x {
+    path,line {
+      stroke: #DFDFDF;
+      stroke-width: 1px;
+    }
+    text {
+      font-weight: bold;
+    }
+  }
+  .axis path,
+  .axis line {
+    stroke: #c2c6c7;
+    stroke-width: 1px;
+    stroke: #000;
+    shape-rendering: crispEdges;
+  }
+  .line {
+    fill: none;
+    stroke: #4292a1;
+    stroke-width: 4px;
+  }
+  .small-line {
+    fill: none;
+    stroke: #4292a1;
+    stroke-width: 0.5px;
+  }
+  .current-time-separator {
+    fill: none;
+    stroke: #000;
+    stroke-width: 1px;
+  }
+  .circle {
+    fill: #4292a1;
+    stroke: #4292a1;
+  }
+  .secondary-line {
+    fill: none;
+    stroke: #fcb842;
+    stroke-width: 4px;
+  }
+  .small-secondary-line {
+    fill: none;
+    stroke: #fcb842;
+    stroke-width: 0.5px;
+  }
+
+  .secondary-circle {
+    fill: #fcb842;
+    stroke: #fcb842;
+  }
+
+  rect {
+    z-index: 100;
+  }
+
+  /// EXPLORE CHART
+
+  .container {
+    width: 100%;
+  }
+  h4 {
+    font-size: 13px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+  }
+  div#charts {
+    width: 100%;
+    display: inline-block;
+    float: left;
+    border-top: 1px solid #DFDFDF;
+  }
+  .controls_cont {
+    border-top: 1px solid #DFDFDF;
+  }
+  ul#controls {
+    vertical-align: top;
+
+  }
+  li.control_holder {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em;
+    box-sizing: border-box;
+    float: left;
+  }
+  li h4 {
+    height: 36px;
+  }
+
+  div#plot, div#bars,div#search {
+    display: inline-block;
+    float: left;
+    overflow: hidden;
+  }
+  div#plot {
+    width: 75%;
+  }
+  div#bars {
+    width: 25%;
+    /*position: absolute;
+    top: 200px;
+    left:110px;*/
+  }
+
+  #search {
+    padding-left:50px;
+  }
+
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+
+  .axis text {
+    font-family: sans-serif;
+    font-size: 13px;
+    z-index: -1;
+  }
+
+  .label {
+    font-family: sans-serif;
+    font-size: 13px;
+  }
+
+  .legend {
+    margin-top: 15px;
+  }
+
+  .legend span {
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+  }
+
+  .legendOrdinal text {
+    fill: #848484;
+  }
+
+  .short, .exceed {
+    stroke:#f5f5f5;
+    stroke-width:.5;
+  }
+
+  .selected {
+    stroke-width: 3;
+    stroke: #f90;
+  }
+
+  .bar-text {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  .actual_moment {
+    text-anchor: middle;
+    font-family: sans-serif;
+    fill: #666;
+    font-size: 11px;
+
+  }
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
+
