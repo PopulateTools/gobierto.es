@@ -1,0 +1,59 @@
+@import 'helpers/helpers';
+
+.Blog {
+  background: $cWhite;
+  padding: 120px 0;
+}
+.Blog__inner {
+  width: $innerSize;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+.Blog__content {
+  width: 443px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.Blog__header {
+}
+.Blog__footer {
+  padding: 20px 0;
+}
+.Blog__entryTitle {
+  @include sans-serif(24px, 700, $cCyan);
+  margin: 0 0 4px;
+  line-height: 120%;
+}
+.Blog__entryDescription {
+  opacity: 0.7;
+  @include sans-serif(18px, 400, $cDarkGray);
+  line-height: 120%;
+}
+.Blog__slideshow {
+  width: 653px;
+}
+.Blog__thumbnail {
+  width: 653px;
+  height: 297px;
+  background: $cLightGray;
+  margin: 0 0 12px;
+}
+.Blog__title {
+  margin: 0 0 4px;
+  @include sans-serif(42px, 700, $cYellow);
+  line-height: 120%;
+}
+.Blog__description {
+  opacity: 0.7;
+  @include sans-serif(24px, 400, $cDarkGray);
+  line-height: 120%;
+}
+
+.Button.Blog__CTA {
+  font-size: 16px;
+  width: 100%;
+  margin: 32px 0 0;
+  padding: 20px 32px;
+}

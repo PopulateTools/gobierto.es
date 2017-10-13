@@ -1,0 +1,77 @@
+@import 'helpers/helpers';
+
+.ModuleCover {
+  position: relative;
+  overflow: hidden;
+  padding: 100px 0;
+  background: $cBlue;
+}
+
+.ModuleCover__inner {
+  position: relative;
+  width: $innerSize;
+  margin: auto;
+}
+
+.ModuleCover__top {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 0 120px;
+}
+
+.ModuleCover__header {
+  width: 400px;
+}
+
+.ModuleCover__title {
+  @include sans-serif(48px, 700, $cWhite);
+  text-transform: uppercase;
+  line-height: 120%;
+  margin: 0 0 4px;
+}
+.ModuleCover__description {
+  @include sans-serif(18px, 400, $cWhite);
+  line-height: 135%;
+  margin: 0 0 32px;
+  opacity: .7;
+}
+
+.ModuleCover__keys {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ModuleCover__key {
+  width: 200px;
+  @include sans-serif(18px, 400, $cWhite);
+}
+
+.ModuleCover__key:first-child::before {
+  background: $cRed;
+}
+.ModuleCover__key:last-child::before {
+  background: $cGreen;
+}
+.ModuleCover__key::before {
+  position: absolute;
+  margin-top: -12px;
+  content: '';
+  width: 60px;
+  height: 3px;
+  background: $cYellow;
+}
+
+.ModuleCover__browser {
+  position: relative;
+}
+
+.Module__shadow {
+  background: url(/../../v2/images/module-shadow.svg) no-repeat 0 0;
+  top: 0px;
+  left: 0;
+  position: absolute;
+  background-size: cover;
+	width: 1199px;
+	height: 952px;
+}

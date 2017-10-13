@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+{% include v2/head.html %}
+<body>
+  {% include v2/header.html %}
+  {{ content }}
+  {% include v2/footer.html %}
+  {% if jekyll.environment == "development" %}
+    <!-- dev -->
+  {% elsif jekyll.environment == "production" %}
+    <!-- prod -->
+  {% endif %}
+</body>
+</html>

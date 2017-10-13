@@ -1,0 +1,34 @@
+@import 'helpers/helpers';
+
+.Demo {
+  padding: 120px 0;
+}
+
+.Demo__inner {
+  width: $innerSize;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Demo__formFields {
+  margin: 0 0 32px;
+}
+.Demo__content {
+  width: 464px;
+}
+.Demo__title {
+  @include sans-serif(42px, 700, $cWhite);
+  line-height: 120%;
+}
+.Demo__description {
+  @include sans-serif(24px, 400, $cWhite);
+  line-height: 120%;
+}
+.Demo__input {
+  margin: 0 0 1px;
+}
+.Demo__CTA {
+  font-size: 20px;
+  width: 100%;
+  padding: 23px 0;
+}

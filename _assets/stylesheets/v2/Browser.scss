@@ -1,0 +1,60 @@
+@import 'helpers/helpers';
+
+.Browser.Browser--large {
+  width: 1024px;
+  height: 800px;
+}
+.Browser.Browser--medium {
+  width: 800px;
+  height: 540px;
+}
+
+.Browser {
+  background: $cWhite;
+  border-radius: 6px;
+  width: 634px;
+  height: 390px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
+  transition: box-shadow $transitionSlow ease-in-out, all $transitionSlow ease-in-out;
+}
+
+.Browser:hover {
+  transform: translate(0, -12px);
+  box-shadow: 0 4px 32px 0 rgba(0,0,0,0.30);
+}
+
+.Browser__header {
+  width: 100%;
+  height: 32px;
+  background: #f0f0f0;
+  border-radius: 6px 6px 0 0;
+  display: flex;
+  padding: 0 12px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.Browser.Browser--large .Browser__header,
+.Browser.Browser--medium .Browser__header {
+  height: 45px;
+}
+
+.Browser__button {
+  width: 9px;
+  height: 9px;
+  background: #D8D8D8;
+  border-radius: 100%;
+  margin: 0 6px 0 0;
+  transition: background $transitionSlow ease-in-out;
+  cursor: pointer;
+}
+
+.Browser.Browser--large .Browser__button,
+.Browser.Browser--medium .Browser__button {
+  width: 12px;
+  height: 12px;
+}
+
+.Browser__button:hover {
+  background: #CCC;
+}

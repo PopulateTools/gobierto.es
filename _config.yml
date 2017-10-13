@@ -47,7 +47,7 @@ twitter_hashtag_for_social_share: '#gobierto'
 
 # Build settings
 markdown: kramdown
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bin']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bin', '.git', '.asset-cache']
 
 plugins: [jekyll-assets]
 
@@ -63,7 +63,8 @@ assets:
   baseurl: /assets/
   sources:
     - _assets/javascript
-    - _assets/images
+    - _assets/images/v1
+    - _assets/images/v2
     - _assets/stylesheets
   gzip: [ text/css, application/javascript ]
   digest: false

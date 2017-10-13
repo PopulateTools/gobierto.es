@@ -1,0 +1,39 @@
+@import 'helpers/helpers';
+
+.Clients {
+  background: $cWhite;
+  padding: 56px;
+}
+.Clients__inner {
+  display: flex;
+  justify-content: space-between;
+  width: $innerSize;
+  margin: auto;
+}
+.Clients__content {
+  text-align: center;
+  width: 1110px;
+  margin: auto;
+  padding: 48px 0;
+}
+.Clients__title {
+  @include sans-serif(24px, 700, $cBlue);
+  margin: 0 0 48px;
+}
+.Client__link {
+}
+.Client__logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.Client__logo {
+  display: block;
+  opacity: 0.3;
+  transition: opacity $transitionSlow ease-in-out;
+}
+.Client__logo:hover {
+  opacity: 0.5;
+}
+

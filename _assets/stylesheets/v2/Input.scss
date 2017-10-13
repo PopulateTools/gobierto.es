@@ -1,0 +1,53 @@
+@import 'helpers/helpers';
+
+.Input  {
+  width: 560px;
+  position: relative;
+}
+.Input__field {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 20px 34px;
+  padding-right: 60px;
+  box-sizing: border-box;
+  @include sans-serif(24px, 400, #333);
+  transition: background $transitionSlow ease-in-out, box-shadow $transitionSlow ease-in-out;
+}
+.Input__field:focus,
+.Input__field:hover {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+  background: #f3f3f3;
+}
+.Input--text {
+}
+.Input_nok {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  margin-top: -13px;
+  top: 50%;
+  right: 20px;
+}
+.Input_ok {
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  margin-top: -13px;
+  top: 50%;
+  right: 20px;
+}
+
+
+.Input__field::-webkit-input-placeholder { 
+  opacity: 0.40;
+}
+.Input__field::-moz-placeholder { 
+  opacity: 0.40;
+}
+.Input__field:-ms-input-placeholder { 
+  opacity: 0.40;
+}
+.Input__field:-moz-placeholder { 
+  opacity: 0.40;
+}

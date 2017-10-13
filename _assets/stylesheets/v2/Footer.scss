@@ -1,0 +1,51 @@
+@import 'helpers/helpers';
+
+.Footer {
+  border-top: 1px solid $cGreen;
+}
+.Footer__inner {
+  background: $cGreen;
+}
+.Footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+.Footer__logos {
+  flex: 1;
+  padding: 64px 0;
+  background: $cWhite;
+}
+.Footer__logo {
+  margin: auto;
+}
+.Footer__navigation {
+  display: flex;
+  padding: 80px 0;
+  flex: 3;
+  background: $cGreen;
+}
+.Footer__link {
+  @include sans-serif(18px, 400, $cWhite);
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity $transitionRegular ease-in-out;
+}
+.Footer__link:hover {
+  opacity: 1;
+}
+.Footer__area {
+  margin: 0 112px 0 0;
+}
+.Footer__area:first-child {
+  margin-left: 300px;
+}
+.Footer__areaTitle {
+  @include sans-serif(18px, 700, $cWhite);
+  text-transform: uppercase;
+  margin: 0 0 10px;
+}
+.Footer__section {
+  margin: 0 0 8px;
+}
+.Footer__sections {
+}

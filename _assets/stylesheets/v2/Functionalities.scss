@@ -1,0 +1,85 @@
+@import 'helpers/helpers';
+
+.Functionalities {
+  padding: 120px 0;
+}
+.Functionalities__inner {
+  width: $innerSize;
+  margin: auto;
+}
+.Functionalities__header {
+  margin: 0 0 60px;
+  width: $innerSize;
+  margin: 0 auto 60px;
+}
+.Functionalities__title {
+  @include sans-serif(42px, 700, $cWhite);
+  line-height: 120%;
+}
+.Functionalities__description {
+  @include sans-serif(36px, 700, $cYellow);
+  line-height: 120%;
+}
+.Functionalities__content {
+  text-align: left;
+  display: flex;
+}
+.Functionalities__explanation {
+  width: 100%;
+  position: relative;
+  background: rgba(255,255,255,0.20);
+  padding: 64px;
+  box-sizing: border-box;
+}
+
+.Functionalities__explanation p {
+  margin: 0 0 16px;
+}
+
+.Functionalities__features {
+  background: $cBlue;
+}
+.FunctionalityList {
+}
+.FunctionalityList__itemShadow {
+  width: 40px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background: #FFFFFF;
+  opacity: 0;
+  background-image: linear-gradient(270deg, #425E7C 0%, #000 80%, #000 90%);
+  transition: opacity $transitionRegular linear;
+}
+.FunctionalityList__item {
+  position: relative;
+  padding: 18px 0 18px 95px;
+  display: flex;
+  align-items: center;
+  transition: background $transitionSlow ease-in-out;
+  cursor: pointer;
+}
+.FunctionalityList__item:hover {
+  background: #425E7C;
+}
+.FunctionalityList__item:hover .FunctionalityList__itemShadow {
+  opacity: .3;
+}
+.FunctionalityList__itemContent {
+  margin: 0 0 0 10px;
+  width: 500px;
+}
+.FunctionalityList__item:last-child {
+  margin: 0;
+}
+.FunctionalityList__itemTitle {
+  text-transform: uppercase;
+  @include sans-serif(24px, 700, $cWhite);
+}
+.FunctionalityList__itemDescription {
+  opacity: 0.6;
+  line-height: 120%;
+
+  @include sans-serif(16px, 300, $cWhite);
+}

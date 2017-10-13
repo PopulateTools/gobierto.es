@@ -1,0 +1,56 @@
+@import 'helpers/helpers';
+
+.Users {
+  background: $cWhite;
+  padding: 120px 0;
+}
+.Users__inner {
+  width: $innerSize;
+  margin: auto;
+}
+.Users__title {
+  text-transform: uppercase;
+  @include sans-serif(42px, 400, #12365B);
+  margin: 0 0 12px;
+  line-height: 120%;
+}
+.Users__content {
+  display: flex;
+  justify-content: space-between;
+}
+.Users__description {
+  line-height: 120%;
+  @include sans-serif(24px, 400, #333);
+  width: 500px;
+}
+.Users__kinds {
+  width: 424px;
+}
+.Users__group {
+  margin: 0 0 24px;
+}
+.Users__group:last-child {
+  margin: 0;
+}
+.Users__groupsTitle {
+  position: relative;
+  line-height: 120%;
+  @include sans-serif(24px, 700, #676767);
+}
+.Users__groupsTitle::before {
+  content: '';
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 12px;
+  left: -18px;
+  background: $cOrange;
+  border-radius: 100%;
+}
+.Users__groupsExamples {
+}
+.Users__groupsExample {
+  line-height: 120%;
+  opacity: 0.7;
+  @include sans-serif(24px, 400, #676767);
+}

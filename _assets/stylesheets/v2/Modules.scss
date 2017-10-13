@@ -1,0 +1,72 @@
+@import 'helpers/fonts';
+@import 'helpers/colors';
+
+.Modules {
+  background: $cWhite;
+  padding: 80px 0;
+  overflow: hidden;
+}
+.Modules__inner {
+  width: 1110px;
+  margin: auto;
+}
+.Module__item {
+  position: relative;
+  margin: 126px 0;
+  display: flex;
+}
+.Module__item--right {
+  flex-direction: row-reverse;
+}
+.Module__separator {
+  background: #f0f0f0;
+  width: 70%;
+  height: 1px;
+  margin: auto;
+}
+.Module__CTA {
+  font-size: 16px;
+  margin: auto;
+  padding: 12px 16px;
+}
+.Module__content {
+  padding: 22px 0 0 0px;
+  width: 557px;
+  text-align: center;
+}
+.Module__title {
+  @include sans-serif(42px, 700, $cCyan);
+  line-height: 120%;
+  margin: 0 0 4px;
+  text-align: left;
+}
+.Module__description {
+  opacity: 0.6;
+  @include sans-serif(24px, 400, $cDarkGray);
+  line-height: 120%;
+  margin: 0 0 32px;
+  text-align: left;
+}
+.Module__features {
+  text-align: left;
+  margin: 0 0 70px;
+}
+.Module__feature {
+  @include sans-serif(18px, 700, $cDarkGray);
+  border-bottom: 1px solid $cSubtleGray;
+  padding: 0 0 16px;
+  margin: 0 0 16px;
+}
+.Module__feature:last-child {
+  border: none;
+}
+.Module__preview {
+  position: absolute;
+  right: -32%;
+  top: 50%;
+  margin-top: -285px;
+}
+.Module__item--right .Module__preview {
+  left: -35%;
+  right: auto;
+}

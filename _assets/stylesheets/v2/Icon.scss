@@ -1,0 +1,99 @@
+@import 'helpers/fonts';
+@import 'helpers/colors';
+
+.Icon__tick--thick {
+  display: inline-block;
+  background: url(asset_path('tick-thick.svg')) 0 0 no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  width: 15px;
+  height: 15px;
+  margin-top: -4px;
+}
+
+.Icon__tick {
+  display: inline-block;
+  background: url(asset_path('tick.svg')) 0 0 no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  margin-top: -4px;
+}
+
+.Icon__ok {
+  display: inline-block;
+  background: url(asset_path('ok.svg')) 0 0 no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  margin-top: -4px;
+}
+
+.Icon__nok {
+  display: inline-block;
+  background: url(asset_path('nok.svg')) 0 0 no-repeat;
+  background-size: cover;
+  vertical-align: middle;
+  width: 26px;
+  height: 26px;
+  margin-top: -4px;
+}
+
+.Icon__Madrid {
+  display: block;
+  background: url(asset_path('clients/madrid.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 162px;
+  height: 30px;
+}
+.Icon__Barcelona {
+  display: block;
+  background: url(asset_path('clients/barcelona.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 162px;
+  height: 44px;
+}
+.Icon__Valencia {
+  display: block;
+  background: url(asset_path('clients/valencia.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 118px;
+  height: 60px;
+}
+.Icon__Alcobendas {
+  display: block;
+  background: url(asset_path('clients/alcobendas.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 161px;
+  height: 60px;
+}
+.Icon__Getafe {
+  display: block;
+  background: url(asset_path('clients/getafe.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 160px;
+  height: 79px;
+}
+.Icon__Esplugues {
+  display: block;
+  background: url(asset_path('clients/esplugues.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 145px;
+  height: 68px;
+}
+
+.Icon__browser {
+  background: url(asset_path('browser.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 1050px;
+  height: 559px;
+}
+
+.Icon__browser--large {
+  background: url(asset_path('browser-large.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 1071px;
+  height: 879px;
+}

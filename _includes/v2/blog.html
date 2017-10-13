@@ -1,0 +1,18 @@
+<div class="Blog"><div class="Blog__inner">
+    <div class="Blog__content">
+      <div class="Blog__header">
+        <div class="Blog__title">Blog de Gobierto</div>
+        <div class="Blog__description">Últimos artículos en nuestro blog</div>
+      </div>
+      <div class="Blog__footer">
+        <a href="/blog" class="Button Blog__CTA">Visita el blog</a>
+      </div>
+    </div>
+    <div class="Blog__slideshow">
+      {% for post in site.posts limit:1 %}
+      {% include v2/post.html %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
