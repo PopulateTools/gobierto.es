@@ -3,18 +3,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  {% stylesheet main %}
-  {% stylesheet charts %}
+  {% stylesheet old/main %}
+  {% stylesheet old/charts %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  {% javascript application %}
+  {% javascript old/application %}
   
   {% if page.title == 'Los mapas no cuentan (toda) la verdad' %}
-    {% javascript post_cartograms %}
+    {% javascript old/post_cartograms %}
   {% else %}
-    {% javascript charts %}
+    {% javascript old/charts %}
   {% endif %}
 
   <meta name="twitter:card" content="summary_large_image" />

@@ -49,7 +49,7 @@ twitter_hashtag_for_social_share: '#gobierto'
 markdown: kramdown
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bin']
 
-gems: [jekyll-assets]
+plugins: [jekyll-assets]
 
 jekyll-press:
   exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns

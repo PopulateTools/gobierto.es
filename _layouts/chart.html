@@ -6,12 +6,12 @@
       <meta http-equiv="X-UA-Compatible" content="IE=edge">
       <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-      {% stylesheet charts %}
+      {% stylesheet old/charts %}
 
       <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
       <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-      {% javascript charts %}
+      {% javascript old/charts %}
 
       <title>Chart</title>
       <link rel="apple-touch-icon" sizes="57x57" href="{% asset_path 'favicons/apple-touch-icon-57x57.png' %}" >
