@@ -1,0 +1,25 @@
+{% if post.main_photo_big %}
+  {% if post.main_photo_big contains '://' %}
+    {% assign image_url = post.main_photo_big %}
+  {% else %}
+    {% capture image_url %}/assets/{{ post.main_photo_big }}{% endcapture %}
+  {% endif %}
+{% elsif post.main_photo %}
+  {% capture image_url %}/assets/{{ post.main_photo }}{% endcapture %}
+{% endif %}
+
+<div class="pure-u-1 pure-u-md-1-3">
+
+  <div class="story" >
+    <div class="bg-img" style="background-image: url('{{ image_url }}')">
+      <a href="{{ post.url | prepend: site.baseurl }}"></a>
+    </div>
+    <div class="inner">
+      <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      <p class="subtitle" itemprop="description">{{ post.subtitle }}</p>
+    </div>
+  </div>
+
+</div>
+
+{% capture image_url %}{% endcapture %}

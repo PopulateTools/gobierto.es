@@ -1,0 +1,65 @@
+/*
+ * Home
+ *
+ */
+.home {
+	padding: 3em;
+	h2 {
+		font-weight: normal;
+		font-size: 1.6em;
+	}
+	.sec_block {
+		margin: 5em 0;
+		h2 {
+			text-transform: uppercase;
+			font-size: 1.2em;
+			font-weight: bold;
+		}
+		div > p {
+			font-size: .85em;
+			margin: 0 20%;
+		}
+	}
+	.sections_overview {
+		ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		li {
+			margin: 0 0 1em 0;
+		}
+		h3 {
+			position: relative;
+			padding: 2em 0 0 0;
+		}
+		h3:before {
+			content: "";
+			position: absolute;
+			border: 20px solid $color_yellow;
+			@include border-radius(30px);
+			left: calc(50% - 20px);
+			top: -1em;
+		}
+		.budgets { 
+		  h3:before {
+		    border-color: #F8B206; 
+		  }
+		}
+		.indicators { 
+		  h3:before {
+		    border-color: #00909E; 
+		  }
+		}
+		.participation { 
+		  h3:before {
+		    border-color: #F69C95; 
+		  }
+		}
+		.crm { 
+		  h3:before {
+		    border-color: #DCE4D4; 
+		  }
+		}
+	}
+}
