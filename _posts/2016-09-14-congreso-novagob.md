@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Gobierto en Congreso Novagob 2016"
 subtitle: Participamos en la mesa Gobierno abierto como palanca de cambio
 date: 2016-09-14 8:00:00 +0100

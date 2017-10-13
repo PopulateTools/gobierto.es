@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Presupuestos participativos - ¿Qué pasaría si nuestro municipio fuese como nuestra comunidad de vecinos? (2 de 3)"
 subtitle: Retos, mínimos, y principios para definir el camino a la participación
 date: 2016-06-02 8:00:00 +0100

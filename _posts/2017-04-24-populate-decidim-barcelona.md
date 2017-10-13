@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: Colaboramos con el Ayuntamiento de Barcelona en su software de participación
 subtitle: "En Populate estamos diseñando y construyendo herramientas de rendición de cuentas dentro de Decidim, la plataforma de participación promovida por el Ayuntamiento de Barcelona"
 date: 2017-04-19 9:00:00 +0100

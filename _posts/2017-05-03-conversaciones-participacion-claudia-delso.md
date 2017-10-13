@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: 'Claudia Delso: "Tenemos muchos miedos con la participación, pero lo más importante es que la practiquemos"'
 subtitle: "¿Cómo se construye una concejalía de participación desde cero? La concejala de Participación de A Coruña nos cuenta su experiencia y explica los temores y lugares comunes que suelen aparecer en torno a los presupuestos participativos"
 date: 2017-05-03
@@ -38,7 +38,7 @@ Pero obviamente hay una necesidad –que las propias entidades manifiestan– de
 Eso sí, sin olvidar a la ciudadanía no organizada, a la persona individual, porque esta concepción de la participación como un derecho es igual a todas las personas, estén organizadas o no lo estén. En A Coruña estamos trabajando desde esa perspectiva. Manteniendo una interlocución activa y constante especialmente con las entidades vecinales, pero también con todo el tejido asociativo de la ciudad, tratando de involucrarlos en todos los procesos de participación.
 
 <div class="separator blue short"></div>
-{% img 'posts/170503-orzamentos03.jpg' %}
+{% img 'v1/posts/170503-orzamentos03.jpg' %}
 <div class="separator blue short"></div>
 
 En el caso concreto de los presupuestos participativos se les invita a que sean elementos activos dentro del proceso y organicen sus propios espacios de debate. Desde el ayuntamiento les facilitamos una formación metodológica y una serie de claves para mediar: un espacio de participación, formación en el uso de la plataforma digital, etc.… Tratamos de acompañar y de dar los recursos necesarios para que las propias entidades puedan ser elementos activos en todos los procesos de participación además de contribuir a su formación y actualización.
@@ -60,7 +60,7 @@ La tecnología es un medio, una herramienta que en este momento no puedes no uti
 Y luego obviamente en la situación que tenemos de ley Montoro, la ley de Racionalización. En el caso de Coruña, que tiene una concejalía nueva con muy poco personal, sería absolutamente inviable hacer un proceso tradicional de presupuestos participativos con urnas, por toda la ciudad, etc. En nuestro caso lo que estamos haciendo es tratar de trabajar con el contexto que tenemos, con las herramientas de software libre que tenemos, y tratar de buscar un equilibrio entre lo tradicional y lo actual, es decir realizando un proceso actualizado al momento presente.
 
 <div class="separator blue short"></div>
-{% img 'posts/170503-orzamentos01.png' %}
+{% img 'v1/posts/170503-orzamentos01.png' %}
 <div class="separator blue short"></div>
 
 **¿Cómo podemos reducir los sesgos? ¿Cómo atajamos las brechas generacionales, tecnológicas y socioeconómicas?**
@@ -93,7 +93,7 @@ El año pasado tuvimos algunas alarmas comunes a este tipo de procesos: ¿Y si e
 **Yo creo que tenemos muchos miedos con la participación. Y lo más importante es que la practiquemos**. Y que nos situemos todos en proceso de aprendizaje. También la administración pública, por mucho que le cueste. Procesos de aprendizaje, de prototipado, de testeo. Vamos a ver cómo se van dando las cosas. Creo que ninguno tenemos –ni queremos tener– el método de cual es el mejor modelo de presupuestos participativos. Lo iremos viendo. Tenemos los ejemplos de los 80 y los 90, y ahora está sucediendo esta nueva ola, si la queremos llamar así.
 
 <div class="separator blue short"></div>
-{% img 'posts/170503-orzamentos02.jpg' %}
+{% img 'v1/posts/170503-orzamentos02.jpg' %}
 <div class="separator blue short"></div>
 
 **¿Pueden las iniciativas de participación que se están produciendo ahora inspirar una nueva cultura de la regeneración democrática a nivel estatal?**

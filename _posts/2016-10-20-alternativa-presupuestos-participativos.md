@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Anunciamos las consultas sobre presupuestos de Gobierto"
 subtitle: Una alternativa ágil y eficiente a los presupuestos participativos
 date: 2016-10-20 9:00:00 +0100
@@ -39,11 +39,11 @@ Sabemos que estas deciciones orientan los resultados en una dirección determina
 
 Después de tener estas características en la cabeza nos lanzamos a "pintarlas". Nuestro planteamiento es permitir que el ciudadano opine sobre un número limitado de partidas con una interacción sencilla. Para cada una de las partidas le ofrecemos primero información de contexto para que pueda ir formándose un criterio sobre lo que va a opinar: evolución del gasto, comparación con municipios de su entorno y tamaño... (esta información la sacamos automaticamente de nuestro [comparador de presupuestos](http://presupuestos.gobierto.es)).
 
-{% img 'posts/161020-consultas-1.png' %}
+{% img 'v1/posts/161020-consultas-1.png' %}
 
 **Después**, le pedimos opinión. Para reducir la fricción mostramos la interacción más simple posible: que el ciudadano opine si quiere mantener la inversión propuesta, aumentarla un poco o reducirla un poco. Si dice que desea aumentarla, **le remarcamos que entra en decifit** (puede compensarlo si reduce de otras partidas), y le mostramos la deuda actual de la entidad.
 
-{% img 'posts/161020-consultas-2.png' %}
+{% img 'v1/posts/161020-consultas-2.png' %}
 
 El ciudadano puede compartir su simulación en redes sociales, y la entidad recibe un informe de los resultados con segmentación sociodemográfica. Con estos resultados podrán informar sus decisiones a la hora de elaborar el presupuesto.  
 

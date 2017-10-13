@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: '¿Cómo tomamos las decisiones para construir Gobierto? Nuestros principios de diseño'
 subtitle: 'Una serie de reglas que dirigen, simplifican y normalizan las decisiones que tomamos'
 date: 2017-07-11

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: La usabilidad de los datos
 subtitle: Usabilidad, datos públicos y Ley de Transparencia
 date:   2016-04-11 14:00:00 +0100

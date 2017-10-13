@@ -1,5 +1,5 @@
 ---
-layout: chart
+layout: v1/chart
 title: Endeudamiento municipios respecto al total de su presupuesto
 description: Endeudamiento municipios respecto al total de su presupuesto
 source_name: Ministerio Hacienda y Administraciones Públicas

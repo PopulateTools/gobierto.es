@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Los presupuestos municipales de Madrid, un ejemplo de uso de Gobierto"
 subtitle: Una herramienta para explorar los presupuestos municipales de la capital
 date: 2016-09-14 9:00:00 +0100

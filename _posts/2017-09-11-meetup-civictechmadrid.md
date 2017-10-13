@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: v1/post
 title: '2º CivicTechMadrid: Parlamentos Abiertos y madridenfemenino'
 subtitle: 'Con Miguel Ángel Gonzalo y Lorena Madrazo el miércoles 20 de septiembre en Designit Madrid'
 date: 2017-09-11
 categories:
   - participacion
 author: Álvaro Ortiz
-main_photo: posts/170911-CivicTechMadridBase@2x.png
+main_photo: /posts/170911-CivicTechMadridBase@2x.png
 ---
 
 El próximo miércoles 20 de septiembre celebramos el 2º <a href="https://twitter.com/search?q=%23CivicTechMadrid&src=typd">#CivicTechMadrid</a>, encuentros sobre diseño y tecnología cívica en Designit Madrid. La primera edición en junio con Marina Rico y Miguel Álvarez estuvo muy animada (nos quedamos sin tiempo para el debate, eso lo dice todo).

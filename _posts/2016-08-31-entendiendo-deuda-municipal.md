@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: ¿Cuándo terminará tu municipio de pagar toda su deuda?
 subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse de su deuda
 date: 2016-09-01 8:00:00 +0100
@@ -57,8 +57,8 @@ main_photo_big:
 
   <div class="full_width">
 
-    <!-- {% stylesheet old/feature_debt_projection_interactive %} -->
-    <link type="text/css" rel="stylesheet" href="/assets/old/feature_debt_projection_interactive.css">
+    <!-- {% stylesheet v1/feature_debt_projection_interactive %} -->
+    <link type="text/css" rel="stylesheet" href="/assets/v1/feature_debt_projection_interactive.css">
     <iframe src="/widgets/debt_projection_interactive/" id="debt_evolution_widget" scrolling="no" style="border: 0; padding: 0; margin: 0; height: 350px; width: 100%;" frameborder="no" align="center"></iframe>
 
   </div>
@@ -69,9 +69,9 @@ main_photo_big:
 
 <p>Algunos ejemplos de la proyección (ver nota al pie para detalles sobre cómo hemos proyectado los datos):</p>
 
-{% img 'posts/160901-debt-ex2' %}
+{% img 'v1/posts/160901-debt-ex2' %}
 
-{% img 'posts/160901-debt-ex3' %}
+{% img 'v1/posts/160901-debt-ex3' %}
 
 <div class="separator blue short"></div>
 

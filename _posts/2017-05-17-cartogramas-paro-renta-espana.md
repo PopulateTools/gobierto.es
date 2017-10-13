@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: Los mapas no cuentan (toda) la verdad
 subtitle: "Hay muchas maneras de visualizar datos geográficos. Aquí proponemos unas cuantas más."
 date: 2017-05-17
@@ -104,7 +104,7 @@ author: Martín González
   			.g-aiPtransformed p { white-space: nowrap; }
   		</style>
   		<div id='g-breakpoints-wide-graphic'>
-        {% img 'ai2html/breakpoints-wide.png' id:"g-ai0-0" class:"g-aiImg" %}
+        {% img 'v1/ai2html/breakpoints-wide.png' id:"g-ai0-0" class:"g-aiImg" %}
   			<div id='g-ai0-1' class='g-Layer_1 g-aiAbs' style='top:1.2863%;left:56.914%;width:7.6219%;margin-left:-3.8109%;'>
   				<p class='g-aiPstyle0'>Santander</p>
   			</div>
@@ -165,7 +165,7 @@ author: Martín González
   			.g-aiPtransformed p { white-space: nowrap; }
   		</style>
   		<div id='g-breakpoints-medium-graphic'>
-        {% img 'ai2html/breakpoints-medium.png' id:"g-ai1-0" class:"g-aiImg" %}
+        {% img 'v1/ai2html/breakpoints-medium.png' id:"g-ai1-0" class:"g-aiImg" %}
 
   			<div id='g-ai1-1' class='g-Layer_1 g-aiAbs' style='top:1.2527%;left:56.6883%;width:12.5843%;margin-left:-6.2922%;'>
   				<p class='g-aiPstyle0'>Santander</p>
@@ -216,7 +216,7 @@ author: Martín González
   			.g-aiPtransformed p { white-space: nowrap; }
   		</style>
   		<div id='g-breakpoints-small-graphic'>
-        {% img 'ai2html/breakpoints-small.png' id:"g-ai2-0" class:"g-aiImg" %}
+        {% img 'v1/ai2html/breakpoints-small.png' id:"g-ai2-0" class:"g-aiImg" %}
   			<div id='g-ai2-1' class='g-Layer_1 g-aiAbs' style='top:13.9582%;left:83.7611%;width:16.5157%;margin-left:-8.2579%;'>
   				<p class='g-aiPstyle0'>Barcelona</p>
   			</div>

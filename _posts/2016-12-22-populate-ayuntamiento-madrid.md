@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: v1/post
 title: "Populate colabora en el desarrollo de la herramienta de participación del Ayuntamiento de Madrid"
 subtitle: Diseñamos y construimos para el Medialab-Prado del Ayuntamiento de Madrid el módulo de legislación colaborativa de Cónsul, la herramienta de participación disponible en decide.madrid.es
 date: 2017-01-13 8:00:00 +0100
 categories: clientes
 author: Álvaro Ortiz
-main_photo: newsletter/newsletter-170118-consul.png
+main_photo: /newsletter/newsletter-170118-consul.png
 ---
 
 Medialab-Prado (entidad dependiente del Ayuntamiento de Madrid) y su ParticipaLAB han decidido contar con la ayuda de Populate para diseñar y construir el módulo de legislación colaborativa de Consul, la herramienta de participación creada por el Ayuntamiento y liberada como software libre. Esta nueva herramienta permitirá a aquellas organizaciones que lo utilizan incorporar la opinión de los ciudadanos durante el proceso de definición o modificación de normativa.

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Ayuntamiento: ¿cómo puedes conectar mejor con tus vecinos?"
 subtitle: Cumplir la Ley de Transparencia es un gran avance en cuanto a la cantidad de información que se que se proporciona a nuestros vecinos. Pero, ¿es suficiente?
 date:   2016-03-09 14:00:00 +0100

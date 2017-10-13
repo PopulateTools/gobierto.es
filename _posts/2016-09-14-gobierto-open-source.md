@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Abrimos Gobierto: ya es open source"
 subtitle: Abrimos el código de Gobierto
 date: 2016-09-14 9:00:00 +0100

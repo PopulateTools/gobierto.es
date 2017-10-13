@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Oferta de empleo: Desarrollo de Negocio en Gobierto"
 subtitle: Ayúdanos a dar a conocer Gobierto y a explicarlo
 date: 2016-09-12 8:00:00 +0100

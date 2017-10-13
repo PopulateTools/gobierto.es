@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Panorama sobre los presupuestos participativos en España"
 subtitle: Repasamos varias iniciativas de presupuestos participativos en municipios de distintos tamaños. ¿Qué podemos aprender de ellos?
 date: 2016-12-12 10:00:00 +0100
@@ -31,7 +31,7 @@ Vamos a hacer un repaso por algunos de los más significativos. Lo que sigue es 
 
 Madrid [cerró recientemente su primer proceso](http://gobierto.es/blog/20160530-presupuestos-participativos.html), y está a punto de abrir el segundo. Algunas cifras: Se han destinado 60 millones de euros (de un total de 4.400M€, un 1,34% del presupuesto). Han participado 45.522 ciudadanos de un total de dos millones de habitantes. Las propuestas más votadas han sido una nueva red de puntos limpios, el aumento del número de casas de acogida para mujeres maltratadas y un plan de reforestación. [Todos los resultados](https://decide.madrid.es/presupuestos-participativos-resultados).
 
-{% img 'posts/161202-presupuestosparticipatexam_01.jpg' %}
+{% img 'v1/posts/161202-presupuestosparticipatexam_01.jpg' %}
 
 El caso de **[Barcelona](https://presupuestos.gobierto.es/places/barcelona)** es ligeramente distinto. En la ciudad condal funciona desde hace años el Plan de Actuación Municipal (PAM), un sistema de decisión conjunta sobre todas las iniciativas del ayuntamiento durante la legislatura. En el más reciente, que corresponde a la legislatura actual, han participado 39.049 barceloneses de los 72 barrios de la ciudad. Además, el consistorio que dirige Ada Colau destina un 5% de las inversiones a presupuestos participativos. Ese 5% se reparte entre los siete distritos en función de sus necesidades. Actualmente se encuentran abiertos los procesos del Eixample (500.000 euros de gasto) y Gràcia (150.000 euros). Las propuestas son variopintas y van desde la habilitación de pisos vacíos con fines sociales a las políticas de atención a la gente mayor.
 
@@ -41,7 +41,7 @@ Los municipios vascos son pioneros en procesos participativos y gobierno abierto
 
 En **Bilbao** existe desde hace tiempo el llamado Plan Auzokide, un plan de deliberación común entre ayuntamiento, consejos de distrito y vecinos sobre las obras y actuaciones de mejora de los distritos. El ayuntamiento destina 14 millones de euros en total a presupuestos participativos. De esa cantidad, 12 millones van a parar al Plan Auzokide y 2 millones se emplean en el resultado de un proceso anual abierto similar a los presupuestos participativos que nos ocupan. Esos 2 millones se emplean en políticas del resto de ámbitos: Desarrollo económico y buen gobierno, Políticas Sociales, Políticas culturales, Euskera, Educación, Juventud y Deporte, Seguridad Ciudadana, políticas de movilidad, medio ambiente, vivienda y desarrollo saludable, Políticas de Sostenibilidad y desarrollo urbano.
 
-{% img 'posts/161202-presupuestosparticipatexam_02.jpg' %}
+{% img 'v1/posts/161202-presupuestosparticipatexam_02.jpg' %}
 
 Los representantes de participación de **[A Coruña](https://presupuestos.gobierto.es/places/coruna-a/2015)** están satisfechos con [su último proceso](https://aportaaberta.coruna.es/presupuestos-participativos-resultados), que consideran un proyecto piloto sobre el que seguir construyendo. De hecho, para el año que viene solicitan más importe y más difusión. Votaron 1.964 personas y 4.1143 visitaron la plataforma durante el proceso. De las 98 propuestas técnicamente viables, 21 fueron las más votadas. A esas 21 se destinó un millón de euros del presupuesto. Para atajar el reto de la brecha digital trabajaron con las bibliotecas públicas, utilizándolas como espacio de mediación con la ciudadanía.
 

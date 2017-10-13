@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: '¿Cómo elegir una herramienta de participación ciudadana?'
 subtitle: 'En los últimos años han surgido varias opciones muy sólidas para poner en marcha participación ciudadana online. ¿Cómo elegir la herramienta más apropiada?'
 date: 2017-07-28

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: v1/default
 ---
 
 <div class="home">
@@ -9,11 +9,11 @@ layout: default
     <div class="pure-u-1 center ">
 
       <div class="m_v_4 center">
-        {% img 'illustrations/personaliza' width:'35%' %}
+        {% img 'v1/illustrations/personaliza' width:'35%' %}
       </div>
 
       <div class="m_v_4 center">
-        {% img 'logo_gobierto' width:'30%'  %}
+        {% img 'v1/logo_gobierto' width:'30%'  %}
       </div>
 
       <h2><strong>La plataforma de gobierno abierto open source</strong></h2>
@@ -28,7 +28,7 @@ layout: default
 
     <div class="pure-u-1 pure-u-md-1-2">
 
-      <div class="m_v_2">{% img 'illustrations/cuentas' width:'38%' %}</div>
+      <div class="m_v_2">{% img 'v1/illustrations/cuentas' width:'38%' %}</div>
 
       <h2>Transparencia</h2>
       <p>La transparencia no son decenas de PDFs dificilmente entendibles por un ciudadano. Consigue que realmente puedan entender y consumir tu información</p>
@@ -37,7 +37,7 @@ layout: default
 
     <div class="pure-u-1 pure-u-md-1-2">
 
-      <div class="m_v_2">{% img 'illustrations/consultas' width:'70%' %}</div>
+      <div class="m_v_2">{% img 'v1/illustrations/consultas' width:'70%' %}</div>
 
       <h2>Participación</h2>
       <p>Articular la participación supone muchos retos. Gobierto lleva años poniendo en marcha comunidades online con millones de usuarios</p>
@@ -109,7 +109,7 @@ layout: default
     <div class="pure-g">
 
       {% for post in site.posts limit:3 %}
-        {% include post.html %}
+        {% include v1/post.html %}
       {% endfor %}
 
     </div>

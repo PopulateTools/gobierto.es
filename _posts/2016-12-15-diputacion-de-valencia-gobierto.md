@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Gobierto colabora con la Diputación de Valencia para poner en marcha iniciativas de gobierno abierto"
 subtitle: Ayudamos a la Diputación a implantar el módulo de Personas y Agendas de Gobierto
 date: 2016-12-15 8:00:00 +0100

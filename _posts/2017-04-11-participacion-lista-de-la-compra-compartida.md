@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Participación: una lista de la compra compartida"
 subtitle: "¿Confundimos participar con decidir? Las propuestas ciudadanas mejoran cuando pasan por una fase de deliberación clara y estructurada"
 date: 2017-04-11 19:30:00 +0100

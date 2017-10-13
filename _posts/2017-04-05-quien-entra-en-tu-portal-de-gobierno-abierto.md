@@ -1,11 +1,11 @@
 ---
-layout: post
+layout: v1/post
 title: "¿Quién entra en tu portal de gobierno abierto?"
 subtitle: "Habitualmente hablamos del objeto de la transparencia y la participación en générico: los ciudadanos. Pero ¿quienes son? ¿Qué motivos tienen para entrar en un portal de gobierno abierto?"
 date: 2017-04-05 18:00:00 +0100
 categories: transparencia, participacion
 author: Rafa de las Cuevas
-main_photo: posts/170406-quien-entra-portal-gob-abierto.png
+main_photo: /posts/170406-quien-entra-portal-gob-abierto.png
 ---
 
 Cuando voy a una conferencia sobre **transparencia**, **participación** o **gobierno abierto** me llama la atención que se suele hablar de información dirigida a “los ciudadanos”; participación enfocada a “los vecinos” y herramientas muy potentes pensadas para “los usuarios”. Casi siempre se habla en plural genérico y difuso. ¿Quienes son esas personas? **¿Qué razones tienen para entrar en un portal de gobierno abierto?** ¿De qué forma real y tangible les ayuda la información pública?

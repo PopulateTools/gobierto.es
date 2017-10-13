@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Las claves de un sistema de agendas para entidades públicas"
 subtitle: Diseñando el sistema de agendas ideal
 date: 2017-01-26 8:00:00 +0100
@@ -14,13 +14,13 @@ Muchas entidades opinan que si es algo que se debería publicar y lo han incluí
 
 ## Algunos ejemplos de agendas
 
-{% img 'posts/170215-agendas-madrid.png' class:'inline caption' title:"agendas.madrid.es - El Ayuntamiento de Madrid publica agendas de muchos cargos, pero es información pasada y sin demasiado detalle" %}
+{% img 'v1/posts/170215-agendas-madrid.png' class:'inline caption' title:"agendas.madrid.es - El Ayuntamiento de Madrid publica agendas de muchos cargos, pero es información pasada y sin demasiado detalle" %}
 
 
-{% img 'posts/170215-agendas-ssreyes.png' class:'inline caption' title:"Hay organizaciones que directamente incrustan un calendario de Google Calendar u otros sistemas similares " %}
+{% img 'v1/posts/170215-agendas-ssreyes.png' class:'inline caption' title:"Hay organizaciones que directamente incrustan un calendario de Google Calendar u otros sistemas similares " %}
 
 
-{% img 'posts/170215-agendas-moncloa.png' class:'inline caption' title:"Otras organizaciones se limitan a listar eventos demasiado institucionales, que no aportan un valor específico" %}
+{% img 'v1/posts/170215-agendas-moncloa.png' class:'inline caption' title:"Otras organizaciones se limitan a listar eventos demasiado institucionales, que no aportan un valor específico" %}
 
 
 En los distintos sistemas que ya están en marcha vemos oportunidades de mejora de cara a hacer una información más usable y a conseguir que la información se consuma más (ya que se hace, que se haga lo mejor posible). Esto nos lleva a pensar: **¿cómo sería el sistema de agendas ideal?** Además de realizar el ejercicio teórico estamos implementando el resultado de nuestra reflexión en el módulo de [Altos Cargos y Agendas de Gobierto que verá pronto la luz](https://gobierto.es/blog/20161215-diputacion-de-valencia-gobierto.html).

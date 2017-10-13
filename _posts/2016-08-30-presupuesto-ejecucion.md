@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Presupuesto vs. Ejecución: comprueba cómo tu ayuntamiento ha gastado realmente el dinero planificado en el presupuesto"
 subtitle: Ampliamos nuestro comparador de presupuestos mostrando la información de la ejecución del presupuesto de los municipios de España
 date: 2016-08-30 8:00:00 +0100
@@ -17,19 +17,19 @@ Los ayuntamientos españoles están obligados a reportar su presupuesto y la inf
 
 Puedes acceder desde la  "Ejecución vs. Presupuesto" en la página de cada municipio.
 
-{% img 'posts/160830-pres-vs-eje-1.png' %}
+{% img 'v1/posts/160830-pres-vs-eje-1.png' %}
 
 <div class="separator_short"></div>
 
 En primer lugar te mostramos un resumen general: la desviación total de ingresos y gastos para el año en cuestión.
 
-{% img 'posts/160830-pres-vs-eje-2.png' %}
+{% img 'v1/posts/160830-pres-vs-eje-2.png' %}
 
 <div class="separator_short"></div>
 
 Y para que puedas entrar en detalle, te mostramos las partidas cuya ejecución más se ha desviado del plan:
 
-{% img 'posts/160830-pres-vs-eje-3.png' %}
+{% img 'v1/posts/160830-pres-vs-eje-3.png' %}
 
 <div class="separator_short"></div>
 

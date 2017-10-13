@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Sencelles lanza una consulta sobre sus presupuestos con Gobierto"
 subtitle: El municipio mallorquín consulta a sus vecinos sobre el destino del presupuesto
 date: 2017-03-14 8:00:00 +0100

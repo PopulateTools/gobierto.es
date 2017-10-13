@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: v1/default
 title: Acerca de
 permalink: /acerca-de/
 ---
@@ -9,7 +9,7 @@ permalink: /acerca-de/
   <div class="pure-g">
 
     <div class="m_v_4">
-      {% img 'illustrations/presupuestos' width:'60%' %}
+      {% img 'v1/illustrations/presupuestos' width:'60%' %}
     </div>
 
     <div class="column">

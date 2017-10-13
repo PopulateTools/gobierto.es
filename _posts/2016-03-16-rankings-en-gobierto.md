@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "Lanzamos los rankings en Gobierto: ¿quién se gasta más en qué?"
 subtitle: Explora los gastos e ingresos por tamaño del municipio, gasto total, por habitante y comunidad autónoma
 date:   2016-03-16 14:00:00 +0100

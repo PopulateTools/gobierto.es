@@ -1,12 +1,12 @@
 ---
-layout: post
+layout: v1/post
 title: 'CivicTechMadrid, encuentros sobre diseño y tecnología cívica'
 subtitle: 'Primera edición: miércoles 21 de junio'
 date: 2017-06-14
 categories:
   - gobierto
 author: Álvaro Ortiz
-main_photo: posts/170614-CivicTechMadridBase.png
+main_photo: /posts/170614-CivicTechMadridBase.png
 ---
 
 El próximo miércoles 21 de junio tendremos la primera edición de CivicTechMadrid, un espacio virtual y físico donde reunirnos personas interesadas en el diseño y tecnología cívicos. El objetivo es compartir experiencias, ideas, e inquietudes en torno a cómo la tecnología, el diseño, y las redes pueden ayudar a mejorar la vida pública en sentido amplío.

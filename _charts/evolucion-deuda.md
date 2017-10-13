@@ -1,5 +1,5 @@
 ---
-layout: chart
+layout: v1/chart
 title: Evolución de la deuda municipal y del porcentaje de gasto en deuda respecto el total del presupuesto entre 2010 y 2015
 description: Evolución de la deuda municipal entre 2010 y 2015 en millones de € y evolución de la partida de Deuda Pública respecto al total presupuestado. Media realizada entre todos los municipios de los que se disponía de datos.
 source_name: Ministerio Hacienda y Administraciones Públicas

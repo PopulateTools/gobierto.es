@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: Mejorando Consul, el software de participación creado por el Ayuntamiento de Madrid
 subtitle: "Colaboración entre administraciones y sector privado: haciendo más eficiente el uso de los recursos"
 date: 2017-04-19 9:00:00 +0100

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: 'Consolidando la experiencia de usuario online de las administraciones públicas'
 subtitle: 'Metodología, diseño de servicios, y patrones para ganar eficiencia'
 date: 2017-06-15

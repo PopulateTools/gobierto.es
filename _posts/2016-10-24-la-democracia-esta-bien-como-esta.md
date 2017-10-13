@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: v1/post
 title: "La democracia, ¿está bien como está?"
 subtitle: La historia demuestra que los gobiernos más abiertos producen sociedades más desarrolladas
 date: 2016-10-24 9:00:00 +0100
@@ -12,7 +12,7 @@ main_photo_big: posts/161024-historia-gobierno-abierto-1.png
 
 El miedo a que los ciudadanos participen más en sus gobiernos existe desde hace siglos. La historia demuestra, sin embargo, que las sociedades más desarrolladas son precisamente las más abiertas; las que saben crear mecanismos eficientes de **transparencia** y **participación**.
 
-{% img 'posts/161024-historia-gobierno-abierto-2.png' %}
+{% img 'v1/posts/161024-historia-gobierno-abierto-2.png' %}
 
 El presidente Cleveland no era el único que criticaba el voto femenino. A principios del siglo XX, los cafés de las principales ciudades del mundo rebosaban de tertulianos trajeados que se revolvían cada vez que oían la palabra "sufragista". Señoras recatadas se horrorizaban ante la posibilidad de que ellas, personas *sin experiencia* en los asuntos públicos, pudieran decidir el destino de su país. La **democracia**, decían, **ya está bien como está**.
 
@@ -24,7 +24,7 @@ Es el mismo runrún que recorre hoy las comidas del domingo en familia cada vez 
 
 Suecia tiene la [ley más antigua de acceso a la información](https://www.ucl.ac.uk/constitution-unit/research/foi/countries/sweden), aprobada en 1766. Desde hace dos siglos y medio cualquier ciudadano puede pedir bases de datos públicas, correspondencia de sus gobernantes, declaraciones de bienes, borradores de leyes... Algunas de estas cosas se han vetado en España hasta 2013 (y otras todavía lo están). Los suecos del siglo XVIII pensaron que su gobierno podía ser más abierto; por eso hoy sus descendientes viven en de uno de los países menos corruptos según el [Índice de Percepción de la Corrupción de Transparencia Internacional](http://www.transparency.org/cpi2015#results-table).
 
-{% img 'posts/161024-historia-gobierno-abierto-3' %}
+{% img 'v1/posts/161024-historia-gobierno-abierto-3' %}
 
 ## Los "enderezadores" griegos
 
