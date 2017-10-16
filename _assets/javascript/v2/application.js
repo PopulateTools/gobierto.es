@@ -52,19 +52,38 @@ var setupTooltips = function () {
 
   for (var i = 0; i < tooltips.length; i++) {
     var tooltip = tooltips[i];
-    var p = tooltip.parentElement;
-    var parent = tooltip.parentElement.querySelector('a');
 
-    p.onmouseleave = function () {
+    var target = tooltip.parentElement.querySelectorAll('.js-tooltip-target')[0];
+    var parent = tooltip.parentElement.querySelector('button');
+
+    tooltip.parentElement.onmouseleave = function () {
       tooltip.classList.add('Tooltip--hidden');
     }
 
     parent.onmouseover = function () {
       tooltip.classList.remove('Tooltip--hidden');
+      tooltip.style.right = '-' + (target.offsetLeft + target.offsetWidth + 1)+ 'px';
     }
   };
 
 };
+
+var setupSmoothScroll = function () {
+  var elements = document.querySelectorAll('.js-smooth-scroll');
+
+  for (var i = 0; i < elements.length; i++) {
+    var e = elements[i];
+
+    e.onclick = function (evt) {
+      evt.preventDefault();
+      evt.stopPropagation();
+      var hash = this.href.toString().split('#')[1];
+      var target = document.getElementById(hash).scrollIntoView({
+        behavior: 'smooth'
+      });
+    }
+  }
+}
 
 window.onscroll = function () {
   var elements = document.querySelectorAll('.js-module-cover');
@@ -84,4 +103,5 @@ window.onload = function () {
   setupTooltips();
   setupHamburger();
   setupIntroCover();
+  setupSmoothScroll();
 };

@@ -31,15 +31,27 @@
   @include sans-serif(18px, 400, $cDarkGray);
   line-height: 120%;
 }
+.Blog__entryLink {
+  text-decoration: none;
+  @include sans-serif(24px, 700, $cCyan);
+}
 .Blog__slideshow {
   width: 653px;
 }
 .Blog__thumbnail {
-  width: 653px;
-  height: 297px;
+  display: block;
+  width: 100%;
+  height: 200px;
   background: $cLightGray;
   margin: 0 0 12px;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: all $transitionRegular ease-in-out;
 }
+.Blog__thumbnail:hover {
+  background-size: 220% 220%;
+}
+
 .Blog__title {
   margin: 0 0 4px;
   @include sans-serif(42px, 700, $cYellow);
@@ -61,4 +73,40 @@
   width: 100%;
   margin: 32px 0 0;
   padding: 20px 32px;
+}
+
+
+.Posts {
+  background: $cWhite;
+  padding: 120px 0;
+}
+
+.Posts__inner {
+  width: 90%;
+  display: grid;
+  box-sizing: border-box;
+  margin: auto;
+  grid-gap: 24px;
+  grid-row-gap: 34px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+@media only screen and (min-width : $cMediaStretched) {
+  .Posts__inner {
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  }
+}
+
+
+@media only screen and (max-width : 1280px) {
+  .Posts__inner {
+    width: $innerSize;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+}
+
+@media only screen and (max-width : $cMediaStretched) {
+  .Posts__inner {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
 }

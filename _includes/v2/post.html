@@ -1,4 +1,17 @@
-<div class="Blog__thumbnail"></div>
-<div class="Blog__entryTitle">{{ post.title }}</div>
+{% if post.main_photo_big %}
+  {% if post.main_photo_big contains '://' %}
+    {% assign image_url = post.main_photo_big %}
+  {% else %}
+    {% capture image_url %}/assets/v1/{{ post.main_photo_big }}{% endcapture %}
+  {% endif %}
+{% elsif post.main_photo %}
+  {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
+{% endif %}
 
+<a href="{{ post.url | prepend: site.baseurl }}" class="Blog__thumbnail" style="background-image: url('{{ image_url }}')"> 
+</a>
+<div class="Blog__entryTitle">
+  <a class="Blog__entryLink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
 <div class="Blog__entryDescription">{{ post.excerpt }}</div>
+
+{% capture image_url %}{% endcapture %}

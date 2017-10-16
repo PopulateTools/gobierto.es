@@ -1,0 +1,15 @@
+---
+layout: v2/default
+title: Blog
+permalink: /blog/
+---
+<div class="Posts">
+  <h2>El blog de Gobierto</h2>
+  <div class="Posts__inner">
+    {% for post in site.posts %}
+    <div class="Posts__post">
+      {% include v2/post.html %}
+    </div>
+    {% endfor %}
+  </div>
+</div>

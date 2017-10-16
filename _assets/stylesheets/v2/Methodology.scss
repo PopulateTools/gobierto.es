@@ -17,7 +17,7 @@
   height: $w;
   margin-left: -$w/2;
   margin-top: -$w/2;
-  opacity: .1;
+  opacity: .08;
   background-size: $w $w;
 }
 .Methodology__inner {
@@ -40,13 +40,13 @@
 .Methodology__logo {
 }
 .st1 {
-  animation: pulse-me 3s linear infinite;
+  animation: pulse-me 3s ease-in-out infinite;
 }
 
 .st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
 .st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
 .st2{opacity:0.5;fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:2;}
-.st3{fill:#FA8884;}
+.st3{fill:$cYellow;}
 .st4{font-family:'SourceSansPro-Bold';}
 .st5{font-size:10px;}
 .st6{fill:#FFFFFF;}

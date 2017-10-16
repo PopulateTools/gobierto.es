@@ -1,0 +1,72 @@
+@import 'helpers/helpers';
+
+.Post {
+  background: $cWhite;
+  padding: 64px 0;
+}
+.Post__inner {
+  width: $innerSize;
+  margin: auto;
+}
+
+.Post__header {
+  width: 960px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.Post__title {
+  @include sans-serif(42px, 700, $cBlue);
+  line-height: 120%;
+  margin: 0 0 8px;
+}
+
+.Post__subtitle {
+  @include sans-serif(20px, 400, $cYellow);
+  line-height: 120%;
+  text-transform: uppercase;
+  width: 800px;
+  margin: auto;
+}
+
+
+.Post__content {
+  margin: auto;
+  width: 800px;
+  @include sans-serif(20px, 400, #333);
+  line-height: 145%;
+}
+
+.Post__content h2 {
+  font-weight: 700;
+  margin: 48px 0 16px 0;
+  color: $cYellow;
+  font-size: 22px;
+  text-transform: uppercase;
+}
+
+.Post__content a {
+  color: $cGreen;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Post__content p {
+  margin: 0 0 16px;
+}
+
+
+.Post__content ul {
+  margin: 0 0 0 16px;
+}
+
+.Post__content li {
+  //padding: 0 0 0 10px;
+}
+
+.Post__content li:before {
+  content: '•';
+  font-size: 28px;
+  color: $cYellow;
+  margin: 0 4px 0 0;
+}

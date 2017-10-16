@@ -1,5 +1,15 @@
 @import 'helpers/helpers';
 
+.Browser {
+  position: relative;
+  background: $cWhite;
+  border-radius: 6px;
+  width: 634px;
+  height: 390px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
+  transition: box-shadow $transitionSlow ease-in-out, all $transitionSlow ease-in-out;
+}
+
 .Browser.Browser--large {
   width: 1024px;
   height: 800px;
@@ -7,15 +17,6 @@
 .Browser.Browser--medium {
   width: 800px;
   height: 540px;
-}
-
-.Browser {
-  background: $cWhite;
-  border-radius: 6px;
-  width: 634px;
-  height: 390px;
-  box-shadow: 0 4px 16px 0 rgba(0,0,0,0.10);
-  transition: box-shadow $transitionSlow ease-in-out, all $transitionSlow ease-in-out;
 }
 
 .Browser__header {

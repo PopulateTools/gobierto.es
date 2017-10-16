@@ -66,9 +66,14 @@
 .Module__shadow {
   background: url(asset_path('module-shadow.svg')) no-repeat 0 0;
   top: 0px;
-  left: 0;
+  left: 20px;
   position: absolute;
   background-size: cover;
 	width: 1199px;
 	height: 952px;
+	z-index: 1;
+}
+
+.ModuleCover__browser {
+  z-index: 10;
 }

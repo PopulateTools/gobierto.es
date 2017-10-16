@@ -13,7 +13,6 @@
 	.st7{font-family:'SourceSansPro-Regular';}
 	.st8{font-size:8.4845px;}
 </style>
-
 <polyline class="st0" points="160.3,215.8 160.3,196 140.5,196 "/>
 <circle class="st0" cx="358.9" cy="107.3" r="12.4"/>
 <circle class="st1" cx="358.9" cy="107.3" r="8.7"/>
@@ -28,7 +27,7 @@
 <circle class="st0" cx="347.6" cy="232.9" r="12.4"/>
 <circle class="st1" cx="347.6" cy="232.9" r="8.7"/>
 <polyline class="st2" points="374.1,88.8 406.7,56.2 442.2,56.2 "/>
-<polyline class="st2" points="243,165.3 193.1,115.4 194,86.4 "/>
+<polyline class="st2" points="243,165.3 193.1,115.4 193.1,86.4 "/>
 <polyline class="st2" points="159.1,359.1 195,323.2 223.6,323.2 244.7,302.1 "/>
 <polyline class="st2" points="420.1,393.8 395,393.8 372.7,371.4 "/>
 <polyline class="st2" points="60,272.2 91.5,240.7 121,240.7 "/>
