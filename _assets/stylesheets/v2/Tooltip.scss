@@ -1,6 +1,7 @@
 @import 'helpers/helpers';
 
 .Tooltip__target {
+  margin: 0 0 0 3px;
   display: inline-block;
   background: url(asset_path('tooltip-target.svg')) 0 0 no-repeat;
   width: 10px;
@@ -11,7 +12,7 @@
 
 .Tooltip {
   position: absolute;
-  top: 28px;
+  top: 32px;
   right: -100px;
   min-width: 180px;
   background: $cGreen;

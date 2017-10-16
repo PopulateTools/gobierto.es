@@ -1,0 +1,46 @@
+@import 'helpers/helpers';
+
+.Methodology {
+  position: relative;
+  padding: 100px 0;
+  background: $cGreen;
+  overflow: hidden;
+}
+
+.Methodology__shadow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: url(asset_path('methodology-shadow.svg')) no-repeat 50% 50%;
+  $w: 1400px;
+  width:  $w;
+  height: $w;
+  margin-left: -$w/2;
+  margin-top: -$w/2;
+  opacity: .1;
+  background-size: $w $w;
+}
+.Methodology__inner {
+  position: relative;
+  width: $innerSize;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.Methodology__content {
+  width: 460px;
+}
+.Methodology__title {
+  @include sans-serif(42px, 700, $cWhite);
+  line-height: 120%;
+}
+.Methodology__description {
+  @include sans-serif(24px, 400, $cWhite);
+  line-height: 120%;
+}
+.Methodology__logo {
+  background: url(asset_path('graph.svg')) no-repeat 0 0;
+  width:  835px;
+  height: 835px;
+  background-size: 800px 800px;
+}

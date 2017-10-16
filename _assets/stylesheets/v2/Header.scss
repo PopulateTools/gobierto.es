@@ -9,15 +9,18 @@
   margin: auto;
   width: $innerSize;
   justify-content: space-between;
-}
-.Header__CTA {
+  align-items: center;
+  position: relative;
+  z-index: 100;
 }
 .Header__options {
   display: flex;
   width: 416px;
   justify-content: space-between;
+  align-items: center;
 }
 .Header__option {
+  padding: 5px 0;
   position: relative;
 }
 .Header__link {
@@ -29,6 +32,11 @@
 .Header__link:hover {
   color: $cDarkGray;
 }
+
+.Header__hamburger {
+  display: none;
+}
+
 .Header__hamburgerIcon {
   display: none;
   background: red;
@@ -66,7 +74,6 @@
 }
 
 .Header__hamburgerItem {
-  //display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -83,10 +90,22 @@
   color: $cBlue;
 }
 
+@media (max-width: $cMediaStretched) {
+  .Header__inner {
+    width: 90%;
+  }
+}
+
 @media (max-width: $cMediaTablet) {
+  .Header__inner {
+    width: 90%;
+  }
 }
 
 @media (max-width: $cMediaMobile) {
+  .Header__hamburger {
+    display: block;
+  }
   .Header__hamburgerIcon {
     display: block;
   }
@@ -106,5 +125,20 @@
   .Header__options {
     display: none;
   }
+}
 
+#banner {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+#banner canvas {
+  margin: auto;
 }

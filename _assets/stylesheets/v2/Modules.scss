@@ -7,7 +7,7 @@
   overflow: hidden;
 }
 .Modules__inner {
-  width: 1110px;
+  width: $innerSize;
   margin: auto;
 }
 
@@ -53,6 +53,8 @@
   margin: 0 0 70px;
 }
 .Module__feature {
+  display: flex;
+  align-items: center;
   @include sans-serif(18px, 700, $cDarkGray);
   border-bottom: 1px solid $cSubtleGray;
   padding: 0 0 16px;
@@ -60,6 +62,9 @@
 }
 .Module__feature:last-child {
   border: none;
+}
+.Module__featureDescription {
+  margin: 0 0 0 4px;
 }
 .Module__preview {
   position: absolute;
@@ -75,4 +80,13 @@
 .animate .Module__browser {
   transform: translate(0, -12px);
   box-shadow: 0 4px 32px 0 rgba(0,0,0,0.30);
+}
+
+@media (max-width: $cMediaMobile) {
+  .Modules__inner {
+    width: 90%;
+  }
+  .Module__browser {
+    display: none;
+  }
 }
