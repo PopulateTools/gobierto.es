@@ -24,23 +24,50 @@
   position: relative;
   width: $innerSize;
   margin: auto;
-  display: flex;
-  justify-content: space-between;
 }
 .Methodology__content {
-  width: 460px;
+  width: 660px;
 }
 .Methodology__title {
   @include sans-serif(42px, 700, $cWhite);
+  margin: 0 0 4px;
   line-height: 120%;
 }
 .Methodology__description {
-  @include sans-serif(24px, 400, $cWhite);
+  @include sans-serif(18px, 400, $cWhite);
   line-height: 120%;
 }
 .Methodology__logo {
-  background: url(asset_path('graph.svg')) no-repeat 0 0;
-  width:  835px;
-  height: 835px;
-  background-size: 800px 800px;
 }
+.st1 {
+  animation: pulse-me 3s linear infinite;
+}
+
+.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
+.st2{opacity:0.5;fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:2;}
+.st3{fill:#FA8884;}
+.st4{font-family:'SourceSansPro-Bold';}
+.st5{font-size:10px;}
+.st6{fill:#FFFFFF;}
+.st7{font-family:'SourceSansPro-Regular';}
+.st8{font-size:8.4845px;}
+
+
+@keyframes pulse-me{
+  0%{
+    r: 0;
+    opacity: 0;
+  }
+  50%{
+    opacity: 0.5;
+  }
+  70%{
+    opacity: 0.09;
+  }
+  100%{
+    r: 9;
+    opacity: 0;
+  }
+}
+
