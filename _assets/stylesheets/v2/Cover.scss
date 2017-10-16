@@ -63,3 +63,21 @@
   @include sans-serif(16px, 700, $cYellow);
   text-transform: uppercase;
 }
+
+
+@media all and (max-width: 700px) {
+  .Cover__keys {
+    flex-direction: column;
+  }
+  .Cover__header {
+    width: 100%;
+  }
+  .Cover__inner {
+    width: 90%;
+    background: red;
+  }
+  .Cover__browser {
+    display: none;
+  }
+}
+

@@ -8,6 +8,36 @@ function isScrolledIntoView(elem) {
 
 }
 
+var setupHamburger = function () {
+  var hamburger = document.querySelectorAll('.js-hamburger')[0];
+  var close = document.querySelectorAll('.js-hamburger-close')[0];
+
+  if (hamburger && close) {
+    hamburger.onclick = function () {
+      hamburger.parentElement.classList.add('is-open');
+
+      bindEscKey(function () {
+        hamburger.parentElement.classList.remove('is-open');
+        document.onkeyup = null;
+      });
+    }
+
+    close.onclick = function () {
+      hamburger.parentElement.classList.remove('is-open');
+    }
+  }
+};
+
+var bindEscKey = function (callback) {
+  document.onkeyup = function(e) {
+    e = e || window.event;
+    if (e.keyCode == 27) {
+      console.log('fin')
+      callback && callback();
+    }
+  };
+};
+
 var setupIntroCover = function () {
   var cover = document.querySelectorAll('.js-cover')[0];
 
@@ -51,5 +81,6 @@ window.onscroll = function () {
 
 window.onload = function () {
   setupTooltips();
+  setupHamburger();
   setupIntroCover();
 };
