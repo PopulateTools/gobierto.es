@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
 
-@mixin sans-serif($size: auto, $weight: 300, $color: none) {
+@mixin sans-serif($size: auto, $weight: 400, $color: none) {
   font-family: 'Source Sans Pro', serif;
   font-size: $size;
   font-weight: $weight;

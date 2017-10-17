@@ -138,7 +138,7 @@ strong {
   opacity: 0.6;
   line-height: 120%;
 
-  @include sans-serif(16px, 300, $cWhite);
+  @include sans-serif(16px, 400, $cWhite);
 }
 
 
@@ -161,7 +161,7 @@ strong {
   width: 246px;
 }
 .Features__keyDescription {
-  @include sans-serif(18px, 300, #333);
+  @include sans-serif(18px, 400, #333);
   line-height: 120%;
 }
 .Features__keyIcon {

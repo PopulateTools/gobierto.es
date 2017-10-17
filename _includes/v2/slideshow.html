@@ -1,15 +1,29 @@
-<div class="Blog">
-  <div class="Blog__inner">
-    <div class="Blog__content">
-      <div class="Blog__header">
-        <div class="Blog__title">Blog de Gobierto</div>
-        <div class="Blog__description">Últimos artículos en <a href="/blog" class="Blog__link">nuestro blog</a></div>
+{% if post.main_photo_big %}
+  {% if post.main_photo_big contains '://' %}
+    {% assign image_url = post.main_photo_big %}
+  {% else %}
+    {% capture image_url %}/assets/v1/{{ post.main_photo_big }}{% endcapture %}
+  {% endif %}
+{% elsif post.main_photo %}
+  {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
+{% endif %}
+
+<div class="Slideshow">
+  <div class="Slideshow__inner">
+    <div class="Slideshow__content">
+      <div class="Slideshow__header">
+        <div class="Slideshow__title">Blog de Gobierto</div>
+        <div class="Slideshow__description">Últimos artículos en <a href="/blog" class="Slideshow__link">nuestro blog</a></div>
       </div>
     </div>
-    <div class="Slideshow">
+    <div class="Slideshow__items">
       {% for post in site.posts limit:1 %}
-      {% include v2/slideshow_item.html %}
+      <a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('{{ image_url }}')"></a>
+      <a class="Slideshow__itemTitle" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <div class="Slideshow__itemDescription">{{ post.subtitle }}</div>
+      {% capture image_url %}{% endcapture %}
       {% endfor %}
     </div>
   </div>
 </div>
+

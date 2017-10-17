@@ -43,16 +43,43 @@
   animation: pulse-me 3s ease-in-out infinite;
 }
 
-.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
-.st2{opacity:0.5;fill:none;stroke:#FFFFFF;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:2;}
-.st3{fill:$cYellow;}
-.st4{font-family:'SourceSansPro-Bold';}
-.st5{font-size:10px;}
-.st6{fill:#FFFFFF;}
-.st7{font-family:'SourceSansPro-Regular';}
-.st8{font-size:8.4845px;}
-
+.st0 {
+  fill:none;
+  stroke:$cWhite;
+  stroke-miterlimit:10;
+}
+.st1 {
+  fill:$cWhite;
+  stroke:$cWhite;
+  stroke-miterlimit:10;
+}
+.st2 {
+  opacity:0.5;
+  fill:none;
+  stroke: $cWhite;
+  stroke-linecap:round;
+  stroke-linejoin:round;
+  stroke-miterlimit:10;
+  stroke-dasharray:2;
+}
+.st3 {
+  fill:$cYellow;
+}
+.st4 {
+  @include sans-serif(42px, 700, $cWhite);
+}
+.st5 {
+  font-size:10px;
+}
+.st6 {
+  fill: $cWhite;
+}
+.st7 {
+  @include sans-serif(42px, 400, $cWhite);
+}
+.st8 {
+  font-size: 9px;
+}
 
 @keyframes pulse-me{
   0%{

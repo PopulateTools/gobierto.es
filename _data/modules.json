@@ -1,13 +1,22 @@
 {
   "participacion": {
     permalink: '/modulos/participacion',
-    title: "Participación",
-    short-title: "Participación",
+      title: "Participación",
+      short-title: "Participación",
       description: "Extiende y amplifica tus iniciativas de participación offline. Crea un espacio de colaboración online.",
       url: "participacion",
       key0: "Complementa y extiende tu participación offline con herramientas digitales.",
       key1: "Define como quieres que la herramienta se adapte a tu estrategia y objetivos.",
       key2: "Elige herramientas para cada necesidad de participación: capta opiniones, genera ideas, prioriza y vota.",
+      users: [{
+        title: 'Administraciones públicas',
+        users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+      }, {
+        title: 'Empresas y grupos de trabajo'
+      }, {
+        title: 'ONGs y asociaciones',
+        users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+      }],
       functionalities: [{
         title: 'Perfiles personales',
         description: 'Permite la exploración progresiva',
@@ -40,13 +49,22 @@
   },
     "presupuestos": {
       permalink: '/modulos/presupuestos',
-      title: "Visualización de presupuestos",
-      short-title: "Presupuestos",
+        title: "Visualización de presupuestos",
+        short-title: "Presupuestos",
         description: "Muestra de forma entendible el presupuesto y la ejecución presupuestaria de tu organización, y ofrece herramientas para explicar las cuentas",
         url: "presupuestos",
         key0: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
         key1: "Ayuda a entender tus presupuestos: desde visión general a  detalle de contabilidad.",
         key2: "Complementa el presupuesto con las facturas, contratos, proyectos y planificación.",
+        users: [{
+          title: 'Administraciones públicas',
+          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+        }, {
+          title: 'Empresas y grupos de trabajo'
+        }, {
+          title: 'ONGs y asociaciones',
+          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+        }],
         functionalities: [{
           title: 'Perfiles personales',
           description: 'Permite la exploración progresiva',
@@ -79,13 +97,22 @@
     },
     "indicadores": {
       permalink: '/modulos/indicadores',
-      title: "Indicadores",
-      short-title: "Indicadores",
+        title: "Indicadores",
+        short-title: "Indicadores",
         description: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
         url: "indicadores",
         key0: "?",
         key1: "?",
         key2: "?",
+        users: [{
+          title: 'Administraciones públicas',
+          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+        }, {
+          title: 'Empresas y grupos de trabajo'
+        }, {
+          title: 'ONGs y asociaciones',
+          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+        }],
         functionalities: [{
           title: 'Perfiles personales',
           description: 'Permite la exploración progresiva',
@@ -118,13 +145,22 @@
     },
     "altos-cargos-y-agendas": {
       permalink: '/modulos/altos-cargos-y-agendas',
-      title: "Altos cargos y agendas",
-      short-title: "Altos cargos y agendas",
+        title: "Altos cargos y agendas",
+        short-title: "Altos cargos y agendas",
         description: "Muestra el organigrama y agendas de altos cargos y directivos de tu organización y permite seguir su actividad con alertas personalizadas.",
         url: "altos-cargos-y-agendas",
         key0: "Muestra el organigrama de tu organización y datos personales: formación, experiencia, declaraciones de bienes y actividades…",
         key1: "Publica la agenda de cada alto cargo, directamente sincronizada con su agenda de Outlook, Google o IBM Notes.",
         key2: "Permite a los vecinos seguir a una persona para estar al tanto de sus actividades.",
+        users: [{
+          title: 'Administraciones públicas',
+          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+        }, {
+          title: 'Empresas y grupos de trabajo'
+        }, {
+          title: 'ONGs y asociaciones',
+          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+        }],
         functionalities: [{
           title: 'Perfiles personales',
           description: 'Permite la exploración progresiva',

@@ -59,6 +59,12 @@
   font-size: 22px;
   text-transform: uppercase;
 }
+.Post__content em {
+  font-style: italic;
+}
+.Post__content strong {
+  font-weight: 700;
+}
 
 .Post__content a {
   color: $cGreen;

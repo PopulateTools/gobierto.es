@@ -69,7 +69,7 @@
 
 .Tooltip__link {
   text-decoration: none;
-  @include sans-serif(16px, 300, #fff);
+  @include sans-serif(16px, 400, #fff);
   transition: color $transitionRegular linear;
 }
 
