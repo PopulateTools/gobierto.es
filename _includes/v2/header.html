@@ -3,7 +3,7 @@
     <div class="Header__logo"><a href="/" class="Logo"></a></div>
     <ul class="Header__options">
       <li class="Header__option">
-        <a href="/acerca-de" class="Header__link">Nosotros</a>
+        <a href="/acerca-de" class="Header__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Nosotros</a>
       </li>
       <li class="Header__option">
         <button class="Header__link{% if page.kind == 'module' %} is-active{% endif %}">Módulos <span class="Tooltip__target js-tooltip-target"></span></button>

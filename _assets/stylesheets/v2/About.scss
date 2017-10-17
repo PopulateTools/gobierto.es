@@ -1,0 +1,115 @@
+@import 'helpers/helpers';
+
+.About {
+  background: $cWhite;
+  padding: 32px 0;
+}
+.About__inner {
+  width: $innerSize;
+  margin: auto;
+}
+.About__title {
+  margin: 0 auto 32px;
+  @include sans-serif(42px, 700, $cYellow);
+  text-transform: uppercase;
+  line-height: 120%;
+  textalign: center;
+}
+
+.About__header {
+  width: 960px;
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.About__content {
+  margin: auto;
+  width: 800px;
+  @include sans-serif(20px, 400, #333);
+  line-height: 145%;
+}
+
+.About__content h2 {
+  margin: 48px 0 16px 0;
+  text-transform: uppercase;
+
+  @include sans-serif(22px, 700, $cYellow);
+}
+
+.About__content h3 {
+  margin: 16px 0 16px 0;
+  @include sans-serif(18px, 700, $cRed);
+  text-transform: uppercase;
+}
+
+.About__content em {
+  font-style: italic;
+}
+.About__content strong {
+  font-weight: 700;
+}
+
+.About__content a {
+  color: $cGreen;
+  font-weight: 700;
+  text-decoration: none;
+  transition: color $transitionRegular ease-in-out;
+}
+
+.About__content a:hover {
+  color: darken($cGreen, 20%);
+}
+
+.About__content p {
+  margin: 0 0 16px;
+}
+
+
+.About__content ul {
+  margin: 0 0 0 32px;
+}
+
+.About__content li {
+  margin: 0 0 16px;
+}
+
+.About__content li:before {
+  content: '•';
+  font-size: 28px;
+  color: $cYellow;
+  margin: 0 8px 0 0;
+}
+
+.Team {
+  margin: 32px 0 32px;
+  display: grid;
+  grid-gap: 24px;
+  grid-row-gap: 34px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+
+.Team__member {
+  text-align: center;
+}
+
+.Team__memberInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Team__memberInfo span {
+  opacity: .5;
+  font-size: 16px;
+}
+
+.Team__memberPhoto img {
+  border-radius: 4px;
+  max-width: 80px;
+  height: auto;
+}
+
+.Team__memberLink {
+  line-height: 120%;
+}

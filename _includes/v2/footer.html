@@ -16,7 +16,7 @@
               <a href="/#demo" class="Footer__link js-smooth-scroll">Solicita una demo</a>
             </li>
             <li class="Footer__section">
-              <a href="/acerca-de" class="Footer__link">Quiénes somos</a>
+              <a href="/acerca-de" class="Footer__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Quiénes somos</a>
             </li>
             <li class="Footer__section">
               <a href="/blog" class="Footer__link {% if page.url == '/blog/' or page.layout == 'v2/post' %} is-active {% endif %}">Blog</a>
