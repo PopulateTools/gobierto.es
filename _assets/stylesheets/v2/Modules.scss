@@ -1,5 +1,4 @@
-@import 'helpers/fonts';
-@import 'helpers/colors';
+@import 'helpers/helpers';
 
 .Modules {
   background: $cWhite;
@@ -10,13 +9,12 @@
   width: $innerSize;
   margin: auto;
 }
-
-.Module__item {
+.Module__listItem {
   position: relative;
   padding: 126px 0;
   display: flex;
 }
-.Module__item--right {
+.Module__listItem:nth-child(even) {
   flex-direction: row-reverse;
 }
 .Module__separator {
@@ -64,7 +62,8 @@
   border: none;
 }
 .Module__featureDescription {
-  margin: 0 0 0 4px;
+  width: 580px;
+  margin: 0 0 0 12px;
 }
 .Module__preview {
   position: absolute;
@@ -72,11 +71,13 @@
   top: 50%;
   margin-top: -285px;
 }
-.Module__item--right .Module__preview {
+.Module__listItem:nth-child(even) .Module__preview {
   left: -35%;
   right: auto;
 }
-
+.Module__browser {
+  display: block;
+}
 .animate .Module__browser {
   transform: translate(0, -12px);
   box-shadow: 0 4px 32px 0 rgba(0,0,0,0.30);
