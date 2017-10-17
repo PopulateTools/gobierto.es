@@ -2,72 +2,24 @@
   <div class="Functionalities__inner">
     <div class="Functionalities__header">
       <div class="Functionalities__title">Funcionalidades</div>
-      <div class="Functionalities__description">del módulo de Participación</div>
+      <div class="Functionalities__description">del módulo de {{ include.title }}</div>
     </div>
     <div class="Functionalities__content">
-      <div class="Functionalities__explanation">
-        <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing.</p>
-        <p>Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing.</p>
-
+      <div class="Functionalities__explanation js-explanation">
+        <div class="Functionalities__explanationContent">{{ include.functionalities[0].explanation }}</div>
       </div>
       <div class="Functionalities__features">
         <ul class="FunctionalityList">
-          <li class="FunctionalityList__item">
-            <span class="Icon__tick"></span> 
+          {% for f in include.functionalities %}
+          <li class="FunctionalityList__item js-functionality" data-explanation="{{ f.explanation }}">
+            <span class="Icon__tick"></span>
             <div class="FunctionalityList__itemShadow"></div>
             <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Perfiles personales</div>
-              <div class="FunctionalityList__itemDescription">Permite la exploración progresiva</div>
+              <div class="FunctionalityList__itemTitle">{{ f.title }}</div>
+              <div class="FunctionalityList__itemDescription">{{ f.description }}</div>
             </div>
           </li>
-          <li class="FunctionalityList__item">
-            <span class="Icon__tick"></span> 
-            <div class="FunctionalityList__itemShadow"></div>
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Agendas</div>
-              <div class="FunctionalityList__itemDescription">Sincronizada con la agenda nativa de cada cargo</div>
-            </div>
-          </li>
-          <li class="FunctionalityList__item">
-            <span class="Icon__tick"></span> 
-            <div class="FunctionalityList__itemShadow"></div>
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Información personalizada</div>
-              <div class="FunctionalityList__itemDescription">Configura la información que muestras sobre cada persona</div>
-            </div>
-          </li>
-          <li class="FunctionalityList__item">
-            <span class="Icon__tick"></span> 
-            <div class="FunctionalityList__itemShadow"></div>
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Grupos políticos</div>
-              <div class="FunctionalityList__itemDescription">Organiza personas de acuerdo a los grupos</div>
-            </div>
-          </li>
-          <li class="FunctionalityList__item">
-            <span class="Icon__tick"></span> 
-            <div class="FunctionalityList__itemShadow"></div>
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Declaraciones</div>
-              <div class="FunctionalityList__itemDescription">Bienes y actividades, viajes, obsequios</div>
-            </div>
-          </li>
-          <li class="FunctionalityList__item">
-            <div class="FunctionalityList__itemShadow"></div>
-            <span class="Icon__tick"></span> 
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Seguimiento de eventos y personas</div>
-              <div class="FunctionalityList__itemDescription">Permite a los vecinos seguir lo que les interesa</div>
-            </div>
-          </li>
-          <li class="FunctionalityList__item">
-            <span class="Icon__tick"></span> 
-            <div class="FunctionalityList__itemShadow"></div>
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">Blog</div>
-              <div class="FunctionalityList__itemDescription">Cada cargo cuenta con su propio blog</div>
-            </div>
-          </li>
+          {% endfor %}
         </ul>
       </div>
     </div>

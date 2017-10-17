@@ -5,10 +5,6 @@
   {% include v2/header.html %}
   {{ content }}
   {% include v2/footer.html %}
-  {% if jekyll.environment == "development" %}
-    <!-- dev -->
-  {% elsif jekyll.environment == "production" %}
-    <!-- prod -->
-  {% endif %}
+  {% include v2/analytics_footer.html %}
 </body>
 </html>

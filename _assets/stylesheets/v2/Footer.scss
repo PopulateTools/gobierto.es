@@ -30,6 +30,9 @@
   opacity: 0.7;
   transition: opacity $transitionRegular ease-in-out;
 }
+.Footer__link.is-active {
+  font-weight: 700;
+}
 .Footer__link:hover {
   opacity: 1;
 }

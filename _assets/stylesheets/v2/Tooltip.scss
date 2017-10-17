@@ -64,15 +64,19 @@
 }
 
 .Tooltip__item {
-  //border-bottom: 1px solid #f0f0f0;
   padding: 6px 0;
 }
 
 .Tooltip__link {
   text-decoration: none;
   @include sans-serif(16px, 300, #fff);
+  transition: color $transitionRegular linear;
 }
 
 .Tooltip__link:hover {
   color: $cBlue;
 }
+.Tooltip__link.is-active {
+  font-weight: 700;
+}
+

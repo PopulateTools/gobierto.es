@@ -1,3 +1,4 @@
+//= require ../v1/analytics
 
 function isScrolledIntoView(elem) {
   var scrollPosition = window.scrollY;
@@ -10,8 +11,8 @@ function isScrolledIntoView(elem) {
 }
 
 var setupHamburger = function () {
-  var hamburger = document.querySelectorAll('.js-hamburger')[0];
-  var close = document.querySelectorAll('.js-hamburger-close')[0];
+  var hamburger = document.querySelector('.js-hamburger');
+  var close = document.querySelector('.js-hamburger-close');
 
   if (hamburger && close) {
     hamburger.onclick = function () {
@@ -33,14 +34,13 @@ var bindEscKey = function (callback) {
   document.onkeyup = function(e) {
     e = e || window.event;
     if (e.keyCode == 27) {
-      console.log('fin')
       callback && callback();
     }
   };
 };
 
 var setupIntroCover = function () {
-  var cover = document.querySelectorAll('.js-cover')[0];
+  var cover = document.querySelector('.js-cover');
 
   if (cover) {
     cover.classList.add('Cover--intro');
@@ -53,7 +53,7 @@ var setupTooltips = function () {
   for (var i = 0; i < tooltips.length; i++) {
     var tooltip = tooltips[i];
 
-    var target = tooltip.parentElement.querySelectorAll('.js-tooltip-target')[0];
+    var target = tooltip.parentElement.querySelector('.js-tooltip-target');
     var parent = tooltip.parentElement.querySelector('button');
 
     tooltip.parentElement.onmouseleave = function () {
@@ -75,13 +75,95 @@ var setupSmoothScroll = function () {
     var e = elements[i];
 
     e.onclick = function (evt) {
-      evt.preventDefault();
-      evt.stopPropagation();
       var hash = this.href.toString().split('#')[1];
-      var target = document.getElementById(hash).scrollIntoView({
-        behavior: 'smooth'
-      });
+      var el = document.getElementById(hash);
+
+      if (el) {
+        evt.preventDefault();
+        evt.stopPropagation();
+
+        var target = el.scrollIntoView({
+          behavior: 'smooth'
+        });
+      }
     }
+  }
+}
+
+var setupFunctionalities = function () {
+  var explanation = document.querySelector('.js-explanation');
+  var functionalities = document.querySelectorAll('.js-functionality');
+
+  if (!explanation) {
+    return;
+  }
+
+  window.currentExplanation = explanation.querySelector('div').innerHTML;
+
+  for (var i = 0; i < functionalities.length; i++) {
+    var functionality = functionalities[i];
+    functionality.onmouseenter = function () {
+      var explanationText = this.getAttribute('data-explanation');
+
+      if (window.currentExplanation == explanationText) {
+        return;
+      }
+
+      window.currentExplanation = explanationText;
+
+      if (window.explanationTimeout) {
+        clearTimeout(window.explanationTimeout);
+      }
+
+      explanation.classList.add('is-hidden');
+
+      window.explanationTimeout = setTimeout(function () {
+        explanation.querySelector('div').innerHTML = explanationText;
+        explanation.classList.remove('is-hidden');
+      }.bind(this), 200);
+    };
+  };
+}
+
+var setupSubscription = function () {
+  var form = document.querySelector('.js-subscribe');
+
+  if (!form) {
+    return;
+  }
+
+  form.onsubmit = function (e) {
+    e.preventDefault();
+    e.stopPropagation();
+
+    var email = form.querySelector('input[type="email"]').value;
+    var user_type = 'Blog Subscribe';
+
+    var isValid = true;
+
+    mixpanel.identify(email);
+
+    var date = new Date().toISOString();
+
+    mixpanel.people.set_once({
+      "$created": date
+    });
+
+    mixpanel.people.set({
+      "Web Corp Subscribed": true,
+      "Web Corp Subscribed Date": date,
+      "$email": email
+    });
+
+    mixpanel.people.union({
+      "User Type": [user_type]
+    });
+
+    var input = form.querySelector('.js-input');
+    var success = form.querySelector('.js-success');
+
+    input.classList.add('is-hidden');
+    success.classList.remove('is-hidden');
   }
 }
 
@@ -104,4 +186,6 @@ window.onload = function () {
   setupHamburger();
   setupIntroCover();
   setupSmoothScroll();
+  setupSubscription();
+  setupFunctionalities();
 };

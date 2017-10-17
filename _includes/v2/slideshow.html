@@ -6,9 +6,9 @@
         <div class="Blog__description">Últimos artículos en <a href="/blog" class="Blog__link">nuestro blog</a></div>
       </div>
     </div>
-    <div class="Blog__slideshow">
+    <div class="Slideshow">
       {% for post in site.posts limit:1 %}
-      {% include v2/post.html %}
+      {% include v2/slideshow_item.html %}
       {% endfor %}
     </div>
   </div>

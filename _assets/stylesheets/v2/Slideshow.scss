@@ -1,0 +1,40 @@
+@import 'helpers/helpers';
+
+.Slideshow {
+  width: 653px;
+}
+.Slideshow__itemTitle {
+  display: block;
+  text-decoration: none;
+  @include sans-serif(24px, 700, $cCyan);
+  margin: 0 0 8px;
+  line-height: 120%;
+  transition: color $transitionRegular ease-in-out;
+}
+.Slideshow__itemTitle:hover {
+  color: darken($cGreen, 20%);
+}
+.Slideshow__itemDescription {
+  opacity: 0.7;
+  @include sans-serif(18px, 400, $cDarkGray);
+  line-height: 120%;
+}
+.Slideshow__itemDescription a {
+  color: $cGreen;
+  font-weight: 300;
+  //text-decoration: none;
+  transition: color $transitionRegular ease-in-out;
+}
+.Slideshow__itemDescription a:hover {
+  color: darken($cGreen, 20%);
+}
+.Slideshow__thumbnail {
+  display: block;
+  width: 100%;
+  min-height: 300px;
+  background: $cLightGray;
+  margin: 0 0 12px;
+  background-size: cover;
+  background-position: 50% 50%;
+  transition: all $transitionRegular ease-in-out;
+}

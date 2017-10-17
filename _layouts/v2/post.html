@@ -1,15 +1,23 @@
 ---
 layout: v2/default
 ---
+{% capture i18n_date -%}
+{{ page.date | date: "%-d" -}}
+{% assign m = page.date | date: "%-m" | minus: 1 %}
+de {{ site.data.months[m] }}
+de {{ page.date | date: "%Y" -}}
+{% endcapture -%}
 
 <div class="Post">
   <div class="Post__inner">
     <div class="Post__header">
       <div class="Post__title">{{ page.title }}</div>
       <div class="Post__subtitle">{{ page.subtitle }}</div>
-      <div class="Post__meta">
-        <div class="Post__author">{{ page.author }}</div>
-        <div class="Post__date">{{ page.date | date: "%b %-d, %Y" }}</div>
+    </div>
+    <div class="Post__meta">
+      <div class="Post__author">{{ page.author }}</div>
+      <div class="Post__date">
+        {{ i18n_date }}
       </div>
     </div>
     <div class="Post__content">{{ content }}</div>

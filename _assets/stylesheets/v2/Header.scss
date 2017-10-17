@@ -34,6 +34,11 @@
   margin: 0 5px;
   transition: color $transitionSlow ease-in-out;
 }
+.Header__link.is-active {
+  font-weight: 700;
+}
+.Header__link.is-active:hover {
+}
 .Header__link:hover {
   color: $cDarkGray;
 }

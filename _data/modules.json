@@ -1,0 +1,158 @@
+{
+  "participacion": {
+    permalink: '/modulos/participacion',
+    title: "Participación",
+    short-title: "Participación",
+      description: "Extiende y amplifica tus iniciativas de participación offline. Crea un espacio de colaboración online.",
+      url: "participacion",
+      key0: "Complementa y extiende tu participación offline con herramientas digitales.",
+      key1: "Define como quieres que la herramienta se adapte a tu estrategia y objetivos.",
+      key2: "Elige herramientas para cada necesidad de participación: capta opiniones, genera ideas, prioriza y vota.",
+      functionalities: [{
+        title: 'Perfiles personales',
+        description: 'Permite la exploración progresiva',
+        explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+      }, {
+        title: 'Agendas',
+        description: 'Sincronizada con la agenda nativa de cada cargo',
+        explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+      }, {
+        title: 'Información personalizada',
+        description: 'Configura la información que muestras sobre cada persona',
+        explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+      }, {
+        title: 'Grupos políticos',
+        description: 'Organiza personas de acuerdo a los grupos',
+        explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+      }, {
+        title: 'Declaraciones',
+        description: 'Bienes y actividades, viajes, obsequios',
+        explanation: 'lorem'
+      }, {
+        title: 'Seguimiento de eventos y personas',
+        description: 'Permite a los vecinos seguir lo que les interesa',
+        explanation: 'lorem'
+      }, {
+        title: 'Blog',
+        description: 'Cada cargo cuenta con su propio blog',
+        explanation: 'lorem'
+      }]
+  },
+    "presupuestos": {
+      permalink: '/modulos/presupuestos',
+      title: "Visualización de presupuestos",
+      short-title: "Presupuestos",
+        description: "Muestra de forma entendible el presupuesto y la ejecución presupuestaria de tu organización, y ofrece herramientas para explicar las cuentas",
+        url: "presupuestos",
+        key0: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
+        key1: "Ayuda a entender tus presupuestos: desde visión general a  detalle de contabilidad.",
+        key2: "Complementa el presupuesto con las facturas, contratos, proyectos y planificación.",
+        functionalities: [{
+          title: 'Perfiles personales',
+          description: 'Permite la exploración progresiva',
+          explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+        }, {
+          title: 'Agendas',
+          description: 'Sincronizada con la agenda nativa de cada cargo',
+          explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+        }, {
+          title: 'Información personalizada',
+          description: 'Configura la información que muestras sobre cada persona',
+          explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+        }, {
+          title: 'Grupos políticos',
+          description: 'Organiza personas de acuerdo a los grupos',
+          explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+        }, {
+          title: 'Declaraciones',
+          description: 'Bienes y actividades, viajes, obsequios',
+          explanation: 'lorem'
+        }, {
+          title: 'Seguimiento de eventos y personas',
+          description: 'Permite a los vecinos seguir lo que les interesa',
+          explanation: 'lorem'
+        }, {
+          title: 'Blog',
+          description: 'Cada cargo cuenta con su propio blog',
+          explanation: 'lorem'
+        }]
+    },
+    "indicadores": {
+      permalink: '/modulos/indicadores',
+      title: "Indicadores",
+      short-title: "Indicadores",
+        description: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
+        url: "indicadores",
+        key0: "?",
+        key1: "?",
+        key2: "?",
+        functionalities: [{
+          title: 'Perfiles personales',
+          description: 'Permite la exploración progresiva',
+          explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+        }, {
+          title: 'Agendas',
+          description: 'Sincronizada con la agenda nativa de cada cargo',
+          explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+        }, {
+          title: 'Información personalizada',
+          description: 'Configura la información que muestras sobre cada persona',
+          explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+        }, {
+          title: 'Grupos políticos',
+          description: 'Organiza personas de acuerdo a los grupos',
+          explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+        }, {
+          title: 'Declaraciones',
+          description: 'Bienes y actividades, viajes, obsequios',
+          explanation: 'lorem'
+        }, {
+          title: 'Seguimiento de eventos y personas',
+          description: 'Permite a los vecinos seguir lo que les interesa',
+          explanation: 'lorem'
+        }, {
+          title: 'Blog',
+          description: 'Cada cargo cuenta con su propio blog',
+          explanation: 'lorem'
+        }]
+    },
+    "altos-cargos-y-agendas": {
+      permalink: '/modulos/altos-cargos-y-agendas',
+      title: "Altos cargos y agendas",
+      short-title: "Altos cargos y agendas",
+        description: "Muestra el organigrama y agendas de altos cargos y directivos de tu organización y permite seguir su actividad con alertas personalizadas.",
+        url: "altos-cargos-y-agendas",
+        key0: "Muestra el organigrama de tu organización y datos personales: formación, experiencia, declaraciones de bienes y actividades…",
+        key1: "Publica la agenda de cada alto cargo, directamente sincronizada con su agenda de Outlook, Google o IBM Notes.",
+        key2: "Permite a los vecinos seguir a una persona para estar al tanto de sus actividades.",
+        functionalities: [{
+          title: 'Perfiles personales',
+          description: 'Permite la exploración progresiva',
+          explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+        }, {
+          title: 'Agendas',
+          description: 'Sincronizada con la agenda nativa de cada cargo',
+          explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+        }, {
+          title: 'Información personalizada',
+          description: 'Configura la información que muestras sobre cada persona',
+          explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+        }, {
+          title: 'Grupos políticos',
+          description: 'Organiza personas de acuerdo a los grupos',
+          explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+        }, {
+          title: 'Declaraciones',
+          description: 'Bienes y actividades, viajes, obsequios',
+          explanation: 'lorem'
+        }, {
+          title: 'Seguimiento de eventos y personas',
+          description: 'Permite a los vecinos seguir lo que les interesa',
+          explanation: 'lorem'
+        }, {
+          title: 'Blog',
+          description: 'Cada cargo cuenta con su propio blog',
+          explanation: 'lorem'
+        }]
+    }
+}

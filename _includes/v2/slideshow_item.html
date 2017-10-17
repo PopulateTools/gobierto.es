@@ -1,0 +1,16 @@
+{% if post.main_photo_big %}
+  {% if post.main_photo_big contains '://' %}
+    {% assign image_url = post.main_photo_big %}
+  {% else %}
+    {% capture image_url %}/assets/v1/{{ post.main_photo_big }}{% endcapture %}
+  {% endif %}
+{% elsif post.main_photo %}
+  {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
+{% endif %}
+
+<a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('{{ image_url }}')"> 
+</a>
+<a class="Slideshow__itemTitle" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<div class="Slideshow__itemDescription">{{ post.excerpt }}</div>
+
+{% capture image_url %}{% endcapture %}

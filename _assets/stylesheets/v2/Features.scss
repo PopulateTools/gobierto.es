@@ -80,6 +80,14 @@ strong {
   padding: 64px;
   box-sizing: border-box;
 }
+.Functionalities__explanation div {
+  opacity: 1;
+  transition: opacity $transitionRegular ease-in-out;
+}
+.Functionalities__explanation.is-hidden div {
+  opacity: 0;
+  visibility: hidden;
+}
 
 .Functionalities__explanation p {
   margin: 0 0 16px;

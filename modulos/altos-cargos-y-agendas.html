@@ -1,13 +1,13 @@
 ---
 layout: v2/default
+kind: module
 ---
 
-
 {% include v2/module_cover.html module=site.data.modules.altos-cargos-y-agendas %}
-{% include v2/features.html %}
-{% include v2/functionalities.html %}
+{% include v2/features.html title=site.data.modules.altos-cargos-y-agendas.title %}
+{% include v2/functionalities.html title=site.data.modules.altos-cargos-y-agendas.title functionalities=site.data.modules.altos-cargos-y-agendas.functionalities %}
 {% include v2/users.html %}
 {% include v2/demo.html %}
-{% include v2/blog.html %}
+{% include v2/slideshow.html %}
 {% include v2/contact.html %}
 {% include v2/clients.html %}
