@@ -6,24 +6,14 @@
     </div>
     <div class="Features__content">
       <div class="Features__keys">
+        {% for feature in include.features -%}
         <div class="Feature__key">
           <div class="Features__keyIcon"></div>
           <div class="Features__keyDescription">
-            Cumple de forma eficiente y usable con la ley de transparencia.
+            {{ feature }}
           </div>
         </div>
-        <div class="Feature__key">
-          <div class="Features__keyIcon"></div>
-          <div class="Features__keyDescription">
-            Automatiza la publicación de agendas.
-          </div>
-        </div>
-        <div class="Feature__key">
-          <div class="Features__keyIcon"></div>
-          <div class="Features__keyDescription">
-            Facilita la exploración de la información de cargos y directivos.
-          </div>
-        </div>
+        {% endfor -%}
       </div>
     </div>
   </div>

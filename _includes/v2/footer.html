@@ -16,7 +16,7 @@
               <a href="/#demo" class="Footer__link js-smooth-scroll">Solicita una demo</a>
             </li>
             <li class="Footer__section">
-              <a href="/acerca-de" class="Footer__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Quiénes somos</a>
+              <a href="/acerca-de" class="Footer__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Nosotros</a>
             </li>
             <li class="Footer__section">
               <a href="/blog" class="Footer__link {% if page.url == '/blog/' or page.layout == 'v2/post' %} is-active {% endif %}">Blog</a>
@@ -26,6 +26,7 @@
             </li>
           </ul>
         </div>
+
         <div class="Footer__area">
           <div class="Footer__areaTitle">Módulos</div>
           <ul class="Footer__sections">
@@ -36,6 +37,24 @@
             </li>
 
             {% endfor %}
+          </ul>
+        </div>
+        <div class="Footer__area">
+          <div class="Footer__areaTitle">Contacto</div>
+          <ul class="Footer__sections">
+
+            <li class="Footer__section">
+              <a href="mailto:abre@gobierto.es" class="Footer__link">abre@gobierto.es</a>
+            </li>
+
+            <li class="Footer__section">
+              <a href="http://twitter.com/gobierto" class="Footer__link">@gobierto</a>
+            </li>
+
+            <li class="Footer__section">
+              <a href="http://twitter.com/populate" class="Footer__link">@populate</a>
+            </li>
+
           </ul>
         </div>
       </div>

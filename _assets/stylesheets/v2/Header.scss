@@ -76,9 +76,6 @@
 }
 
 .Header__hamburgerMenu {
-  //display: flex;
-  //justify-content: space-around;
-  //flex-direction: column;
   text-align: center;
   overflow-y: auto;
 }
@@ -92,14 +89,28 @@
   border-bottom: 1px solid #ccc;
 }
 
-.Header__hamburgerMenu .Tooltip__items {
-}
-
-
 .Header__hamburgerMenu .Tooltip__link {
   color: $cBlue;
 }
 
+#banner {
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+
+#banner canvas {
+  margin: auto;
+}
+
+
+/*
 @media (max-width: $cMediaStretched) {
   .Header__inner {
     width: 90%;
@@ -136,19 +147,4 @@
     display: none;
   }
 }
-
-#banner {
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  z-index: 0;
-}
-
-#banner canvas {
-  margin: auto;
-}
+*/
