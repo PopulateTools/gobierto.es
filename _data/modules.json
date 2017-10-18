@@ -1,16 +1,79 @@
 {
-  "participacion": {
-    permalink: '/modulos/participacion',
-      title: "Participación",
-      short-title: "Participación",
-      description: "Extiende y amplifica tus iniciativas de participación offline. Crea un espacio de colaboración online.",
-      url: "participacion",
-      key0: "Complementa y extiende tu participación offline con herramientas digitales.",
-      key1: "Define como quieres que la herramienta se adapte a tu estrategia y objetivos.",
-      key2: "Elige herramientas para cada necesidad de participación: capta opiniones, genera ideas, prioriza y vota.",
-      features: [
-        'a', 'b', 'c'
-      ],
+  "presupuestos": {
+    permalink: '/modulos/presupuestos',
+      title: "Visualización de presupuestos",
+      short-title: "Presupuestos",
+      description: "Muestra de forma entendible el presupuesto y la ejecución presupuestaria de tu organización, y ofrece herramientas para explicar las cuentas",
+      url: "presupuestos",
+      key0: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
+      key1: "Ayuda a entender tus presupuestos: desde visión general a  detalle de contabilidad.",
+      key2: "Complementa el presupuesto con las facturas, contratos, proyectos y planificación.",
+    features: [
+      'a', 'b', 'c'
+    ],
+    users: [{
+      "title": "Administraciones públicas",
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }, {
+      "title": 'Empresas y grupos de trabajo',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }, {
+      "title": "ONGs y asociaciones",
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }],
+    functionalities: [{
+      "title": "Visualización del presupuesto",
+      "description": "Permite la exploración progresiva",
+      explanation: "Convierte tu proyecto de presupuestos de una visualización interactiva que muestra de forma progresiva tus cuentas. <br><br> Desde indicadores generales de contexto con las cifras principales, hasta el detalle de cada partida. Muestra gráficos de reparto de ingresos y gasto, evolución temporal a lo largo de los ejercicios, métricas principales sobre cada partida, y datos de contexto relativos a población."
+    }, {
+      "title": "Ejecución presupuestaria",
+      "description": "Información en tiempo real sobre la ejecución",
+      "explanation": "Muestra de forma visual el progreso de la ejecución de ingresos y gastos. Visualizaciones configurables para contextualizar la desviación en porcentaje o valor absoluto, tipo de gasto..."
+    }, {
+      "title": "Indicadores",
+      "description": "Información externa al presupuesto para contextualizarlo",
+      "explanation": "Extraemos de forma automática indicadores externos al presupuesto de fuentes oficiales para contextualizar las cifras del presupuesto, así como los indicadores presupuestarios oficiales que calcumaos de forma automática a partir de los datos del presupuesto. <br><br> Desde información sobre población, hasta los datos medios de provincia, comunidad autónoma y estado para comparar ratios según geografía."
+    }, {
+      "title": "Elaboración del presupuesto",
+      "description": "Haz transparente el proceso de elaboración del presupuesto",
+      "explanation": "Gobierto te permite publicar el borrador de tu presupuesto para compartir de forma pública el proyecto presupuestario a lo largo de su elaboración. Publica varias versiones, compara los nuevos datos con los de los ejercicios anteriores, y señala las claves del nuevo proyecto presupuestario."
+    }, {
+      "title": "El recibo de tus impuestos",
+      "description": "Una simulación sobre la aportación de cada ciudadano al presupuesto",
+      "explanation": "Permite a tus ciudadanos comprobar cual es su aportación específica al presupuesto en base a las tasas e impuestos locales de acuerdo a su tipo de vivienda, vado, etc."
+    }, {
+      "title": "Historias sobre el presupuesto",
+      "description": "Aporta narrativa a las decisiones presupuestarias",
+      "explanation": "Publica historias que resuman las principales claves del presupuesto e ilustren las decisiones. Crea publicaciones que mezclen texto, datos e interactivos para guiar en el descubrimiento del presupuesto. <br><br> Te ayudamos a crear este contenido y a definir una estrategia de comunicación para darle visibilidad, y crear una nueva vía de entrada a tus datos presupuestarios. "
+    }, {
+      "title": "Guía del presupuesto",
+      "description": "Un manual de uso del presupuesto",
+      "explanation": "La Guía del Presupuesto Gobierto es un material didáctico que permite a cualquier neófito entender un presupuesto: su estructura, el significado de las secciones principales y de conceptos puntuales."
+    }, {
+      "title": "Facturas y proveedores",
+      "description": "Visión de conjunto sobre los proveedores y detalle a nivel de factura",
+      "explanation": "Permite explorar las facturas y los proveedores. Detalle de cada facture, y visualización que resume el gasto por proveedores: tamaño, tipo, número de facturas. <br><br>Permite entender quiénes y cómo son los proveedores de la organización y el detalle de los pagos que han recibido. "
+    }, {
+      "title": "Integración con tus datos",
+      "description": "Nos conectamos a tus fuentes de datos para automatizar",
+      "explanation": "Utilizamos tu portal de datos abiertos para recoger automaticamente los datos que ya estés publicando, para no generar trabajo extra. Nos encargamos de los procesos ETL (extracción, transformación y carga). <br><br> Si todavía no estás publicando datos, nos coordinamos para utilizar tus ficheros XBRL con los que informas al Ministerio, o para conectarnos a fuentes de datos internas.<br><br> Definimos conjuntamente la periodicidad de actualización de los datos, desde una carga diaria, a semanal, mensual o trimestral."
+    }
+    ]
+  },
+  "observatorio-estadistico": {
+    "permalink": '/modulos/observatorio-estadistico',
+    "title": "Observatorio estadístico",
+    "short-title": "Observatorio estadístico",
+    "description": "Muestra tu organización a través de sus principales indicadores sociodemográficos, económicos, fiscales...",
+    "url": "observatorio-estadistico",
+    "key0": "Nos conectamos a decenas de fuentes de datos públicas para que no te tengas que preocupar",
+    "key1": "Muestra los principales indicadores y su evolución",
+    "key2": "Visualizaciones y diseño moderno para comunicar con sencillez temas complejos",
+    "features": [
+      "Datos de Demografía, Empleo, Economía, Impuestos...",
+      "Contextualización con otras entidades de tu geografía",
+      "Actualización automática de los datos"
+    ],
       users: [{
         title: 'Administraciones públicas',
         users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
@@ -21,186 +84,129 @@
         users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
       }],
       functionalities: [{
-        title: 'Perfiles personales',
-        description: 'Permite la exploración progresiva',
-        explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+        "title": "Tu organización en cifras",
+        "description": "Los principales indicadores que describen tu organización",
+        "explanation": "Permite a tus usuarios visualizar y comprender el estado de las principales cifras de tu organización. Las características demográficas, estructura del empleo, renta per cápita, impuestos... <br><br>Visualización en modo cuadro de mando para ver el estado actual y la evolución en los últimos ejercicios."
       }, {
-        title: 'Agendas',
-        description: 'Sincronizada con la agenda nativa de cada cargo',
-        explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+        "title": "Decenas de fuentes de datos",
+        "description": "Simplificamos la recolección de datos",
+        "explanation": "Gobierto utiliza el servicio de Populate Data que compila decenas de fuentes de datos públicos de organismos oficiales, y los procesa para poder extraer indicadores de cada organización.<br><br>Simplificamos de forma radical la compilación de datos de fuentes diversas para reunirlos en un interfaz visualmente atractivo."
       }, {
-        title: 'Información personalizada',
-        description: 'Configura la información que muestras sobre cada persona',
-        explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+        "title": "Visualización de datos",
+        "description": "Facilita la comprensión de los datos",
+        "explanation": "Te proporcionamos una herramienta de visualización para facilitar la comprensión y el consumo de los datos.<br><br>Creamos visualizaciones y herramientas específicas para cada tipo de dato.<br><br>Visualizaciones de conjunto para facilitar la contextualización de datos."
       }, {
-        title: 'Grupos políticos',
-        description: 'Organiza personas de acuerdo a los grupos',
-        explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+        "title": "Datos abiertos",
+        "description": "Fomenta la reutilización de los datos",
+        "explanation": "Gobierto republica todos los indicadores como datos abiertos en formatos reutilizables para permitir su descarga y explotación en herramientas externas.<br><br>Permite que los usuarios mezclen los datos, los visualicen de formas alternativas y los analicen. Son suyos."
       }, {
-        title: 'Declaraciones',
-        description: 'Bienes y actividades, viajes, obsequios',
-        explanation: 'lorem'
+        "title": "Actualización automática",
+        "description": "Nos ocupamos de mantener los datos actualizados",
+        "explanation": "Gracias al servicio de Populate Data, todos los indicadores se actualizan de forma automática, por lo que no tienes que preocuparte sobre la actualización de los mismos.<br><br>Además, si deseas conectar alguna fuente de datos a tus aplicaciones internas, podrás hacerlo. Consúltanos. "
       }, {
-        title: 'Seguimiento de eventos y personas',
-        description: 'Permite a los vecinos seguir lo que les interesa',
-        explanation: 'lorem'
-      }, {
-        title: 'Blog',
-        description: 'Cada cargo cuenta con su propio blog',
-        explanation: 'lorem'
+        "title": "Seguimiento de datos",
+        "description": "Alertas automáticas a tus usuarios cuando los datos se actualicen",
+        "explanation": "Los ciudadanos podrán suscribirse a alertas de aquellos datos que les interesen. Cuando un dato se actualice, recibirá una alerta de forma automática.<br><br>De esta forma la organización podrá generar impactos de comunicación con un coste marginal."
       }]
   },
-    "presupuestos": {
-      permalink: '/modulos/presupuestos',
-        title: "Visualización de presupuestos",
-        short-title: "Presupuestos",
-        description: "Muestra de forma entendible el presupuesto y la ejecución presupuestaria de tu organización, y ofrece herramientas para explicar las cuentas",
-        url: "presupuestos",
-        key0: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
-        key1: "Ayuda a entender tus presupuestos: desde visión general a  detalle de contabilidad.",
-        key2: "Complementa el presupuesto con las facturas, contratos, proyectos y planificación.",
-      features: [
-        'a', 'b', 'c'
-      ],
-        users: [{
-          title: 'Administraciones públicas',
-          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-        }, {
-          title: 'Empresas y grupos de trabajo'
-        }, {
-          title: 'ONGs y asociaciones',
-          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-        }],
-        functionalities: [{
-          title: 'Perfiles personales',
-          description: 'Permite la exploración progresiva',
-          explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
-        }, {
-          title: 'Agendas',
-          description: 'Sincronizada con la agenda nativa de cada cargo',
-          explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
-        }, {
-          title: 'Información personalizada',
-          description: 'Configura la información que muestras sobre cada persona',
-          explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
-        }, {
-          title: 'Grupos políticos',
-          description: 'Organiza personas de acuerdo a los grupos',
-          explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
-        }, {
-          title: 'Declaraciones',
-          description: 'Bienes y actividades, viajes, obsequios',
-          explanation: 'lorem'
-        }, {
-          title: 'Seguimiento de eventos y personas',
-          description: 'Permite a los vecinos seguir lo que les interesa',
-          explanation: 'lorem'
-        }, {
-          title: 'Blog',
-          description: 'Cada cargo cuenta con su propio blog',
-          explanation: 'lorem'
-        }]
-    },
-    "indicadores": {
-      permalink: '/modulos/indicadores',
-        title: "Indicadores",
-        short-title: "Indicadores",
-        description: "Las cuentas claras. Permite a tus vecinos consultar y entender el presupuesto de tu entidad, y cómo se está gastando.",
-        url: "indicadores",
-        key0: "?",
-        key1: "?",
-        key2: "?",
-      features: [
-        'a', 'b', 'c'
-      ],
-        users: [{
-          title: 'Administraciones públicas',
-          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-        }, {
-          title: 'Empresas y grupos de trabajo'
-        }, {
-          title: 'ONGs y asociaciones',
-          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-        }],
-        functionalities: [{
-          title: 'Perfiles personales',
-          description: 'Permite la exploración progresiva',
-          explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
-        }, {
-          title: 'Agendas',
-          description: 'Sincronizada con la agenda nativa de cada cargo',
-          explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
-        }, {
-          title: 'Información personalizada',
-          description: 'Configura la información que muestras sobre cada persona',
-          explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
-        }, {
-          title: 'Grupos políticos',
-          description: 'Organiza personas de acuerdo a los grupos',
-          explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
-        }, {
-          title: 'Declaraciones',
-          description: 'Bienes y actividades, viajes, obsequios',
-          explanation: 'lorem'
-        }, {
-          title: 'Seguimiento de eventos y personas',
-          description: 'Permite a los vecinos seguir lo que les interesa',
-          explanation: 'lorem'
-        }, {
-          title: 'Blog',
-          description: 'Cada cargo cuenta con su propio blog',
-          explanation: 'lorem'
-        }]
-    },
-    "altos-cargos-y-agendas": {
-      permalink: '/modulos/altos-cargos-y-agendas',
-        title: "Altos cargos y agendas",
-        short-title: "Altos cargos y agendas",
-        description: "Muestra el organigrama y agendas de altos cargos y directivos de tu organización y permite seguir su actividad con alertas personalizadas.",
-        url: "altos-cargos-y-agendas",
-        key0: "Muestra el organigrama de tu organización y datos personales: formación, experiencia, declaraciones de bienes y actividades…",
-        key1: "Publica la agenda de cada alto cargo, directamente sincronizada con su agenda de Outlook, Google o IBM Notes.",
-        key2: "Permite a los vecinos seguir a una persona para estar al tanto de sus actividades.",
-      features: [
-        'a', 'b', 'c'
-      ],
-        users: [{
-          title: 'Administraciones públicas',
-          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-        }, {
-          title: 'Empresas y grupos de trabajo'
-        }, {
-          title: 'ONGs y asociaciones',
-          users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-        }],
-        functionalities: [{
-          title: 'Perfiles personales',
-          description: 'Permite la exploración progresiva',
-          explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
-        }, {
-          title: 'Agendas',
-          description: 'Sincronizada con la agenda nativa de cada cargo',
-          explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
-        }, {
-          title: 'Información personalizada',
-          description: 'Configura la información que muestras sobre cada persona',
-          explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
-        }, {
-          title: 'Grupos políticos',
-          description: 'Organiza personas de acuerdo a los grupos',
-          explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
-        }, {
-          title: 'Declaraciones',
-          description: 'Bienes y actividades, viajes, obsequios',
-          explanation: 'lorem'
-        }, {
-          title: 'Seguimiento de eventos y personas',
-          description: 'Permite a los vecinos seguir lo que les interesa',
-          explanation: 'lorem'
-        }, {
-          title: 'Blog',
-          description: 'Cada cargo cuenta con su propio blog',
-          explanation: 'lorem'
-        }]
-    }
+  "altos-cargos-y-agendas": {
+    "permalink": '/modulos/altos-cargos-y-agendas',
+    "title": "Altos cargos y agendas",
+    "short-title": "Altos cargos y agendas",
+    "description": "Muestra el organigrama y agendas de altos cargos y directivos de tu organización y permite seguir su actividad con alertas personalizadas.",
+    "url": "altos-cargos-y-agendas",
+    "key0": "Muestra el organigrama de tu organización y datos personales: formación, experiencia, declaraciones de bienes y actividades…",
+    "key1": "Publica la agenda de cada alto cargo, directamente sincronizada con su agenda de Outlook, Google o IBM Notes.",
+    "key2": "Permite a los vecinos seguir a una persona para estar al tanto de sus actividades.",
+    "features": [
+      "Cumple de forma eficiente con la Ley de Transparencia",
+      "Permite consultar de forma usable las declaraciones de bienes, actividades, viajes...",
+      "Automatiza la publicación de agendas"
+    ],
+    "users": [{
+      title: 'Administraciones públicas',
+      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }, {
+      title: 'Empresas y grupos de trabajo'
+    }, {
+      title: 'ONGs y asociaciones',
+      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }],
+    "functionalities": [{
+      "title": "Perfiles personales",
+      "description": "Una ficha con toda la información de cada persona",
+      "explanation": "Publica toda la información sobre tus cargos y directivos; a la que obliga la Ley de Transparencia, pero también la que resultará útil para tus ciudadanos: biografía, curriculum, experiencia, intereses...<br><br>Adjunta el original de los CVs y personaliza la imagen de cada cargo o directivo. <br><br>Configura el tipo y estructura de la información que quieres publicar. Formas de contacto personalizables e integración con redes sociales."
+    }, {
+      "title": "Agendas sincronizadas",
+      "description": "Haz transparente la agenda de tu organización",
+      "explanation": "Gobierto publica de forma automática la agenda de cada cargo para simplificar esta tarea. Nos sincronizamos con Outlook, Google Calendar o IBM Notes. Puedes configurar los eventos que se publican, o moderar antes de publicar. <br><br>Una vez que la información de cada evento se ha cargado, puedes complementarla o mejorarla a través de un interfaz web moderno. Visualiza los eventos en un formato de calendario con vista diaria, semanal o mensual, y permite consultar el archivo en modo listado. <br><br>Cada evento dispondrá de una URL permanente para facilitar el compartir en redes sociales y generar actividad en torno a cada evento."
+    }, {
+      "title": "Declaraciones",
+      "description": "Bienes y actividades, viajes, obsequios...",
+      "explanation": "Gobierto te permite publicar en un formato visualmente atractivo y usable el contenido de las declaraciones definidas por la Ley de Transparencia.<br><br>La información se publica en un formato tabla, directamente visible en el navegador sin necesidad de descargar adjuntos poco usables.<br><br>Personaliza la estructura de la información que publicas de acuerdo a tus modelos de declaraciones, además de permitir adjuntar los archivos originales escaneados.<br><br>Toda la información de las declaraciones puede ser exportada como datos abiertos en formatos reutilizables para su proceso en otras herramientas."
+    }, {
+      "title": "Grupos políticos y áreas directivas",
+      "description": "Personaliza Gobierto con tus grupos políticos",
+      "explanation": "Define los grupos políticos en tu organización y permite la exploración de cargos filtrando en base a este criterio. Diferencia entre cargos del gobierno y oposición. Permite explorar a los directivos de acuerdo a su área, que podrás personalizar."
+    }, {
+      "title": "Seguimiento de eventos y personas",
+      "description": "Conecta con tus vecinos",
+      "explanation": "A través de Gobierto CRM un ciudadano podrá hacer seguimiento de la actividad de los cargos, de un cargo específico, o de un evento concreto. El usuario podrá suscribirse y recibir notificaciones de nuevos eventos en la agenda, así como de la actualización que tenga lugar sobre un evento.<br><br>Además de la información a priori que se publique sobre un evento (tema, fecha y hora, localización, asistentes) Gobierto permite actualizar la ficha del evento con información sobre la misma: fotografías, videos, un resumen de lo tratado... Estas actualizaciones llegarán de forma automática a los ciudadanos, y podrán ser compartidas en redes sociales."
+    }, {
+      "title": "Blog",
+      "description": "Diario personal de cada cargo",
+      "explanation": "Cada cargo o directivo dispondrá de un blog para publicar su propio diario. Cada persona podrá gestionar directamente su propio perfil y blog, o se podrán designar usuarios editores para gestionar personas específicas.<br><br>Cada entrada de blog puede ser compartida en redes sociales."
+    }]
+  },
+  "participacion": {
+    permalink: '/modulos/participacion',
+    title: "Participación",
+    short-title: "Participación",
+    description: "Extiende y amplifica tus iniciativas de participación offline. Crea un espacio de colaboración online para medir las preferencias, generar ideas, y captar la opinión de expertos",
+    url: "participacion",
+    key0: "Complementa y extiende tu participación offline con herramientas digitales.",
+    key1: "Define como quieres que la herramienta se adapte a tu estrategia y objetivos.",
+    key2: "Elige herramientas para cada necesidad de participación: capta opiniones, genera ideas, prioriza y vota.",
+    features: [
+      'a', 'b', 'c'
+    ],
+    users: [{
+      title: 'Administraciones públicas',
+      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }, {
+      title: 'Empresas y grupos de trabajo'
+    }, {
+      title: 'ONGs y asociaciones',
+      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }],
+    functionalities: [{
+      title: 'Perfiles personales',
+      description: 'Permite la exploración progresiva',
+      explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+    }, {
+      title: 'Agendas',
+      description: 'Sincronizada con la agenda nativa de cada cargo',
+      explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+    }, {
+      title: 'Información personalizada',
+      description: 'Configura la información que muestras sobre cada persona',
+      explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+    }, {
+      title: 'Grupos políticos',
+      description: 'Organiza personas de acuerdo a los grupos',
+      explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+    }, {
+      title: 'Declaraciones',
+      description: 'Bienes y actividades, viajes, obsequios',
+      explanation: 'lorem'
+    }, {
+      title: 'Seguimiento de eventos y personas',
+      description: 'Permite a los vecinos seguir lo que les interesa',
+      explanation: 'lorem'
+    }, {
+      title: 'Blog',
+      description: 'Cada cargo cuenta con su propio blog',
+      explanation: 'lorem'
+    }]
+  }
 }
