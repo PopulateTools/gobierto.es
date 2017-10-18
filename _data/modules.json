@@ -74,40 +74,40 @@
       "Contextualización con otras entidades de tu geografía",
       "Actualización automática de los datos"
     ],
-      users: [{
-        title: 'Administraciones públicas',
-        users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-      }, {
-        title: 'Empresas y grupos de trabajo'
-      }, {
-        title: 'ONGs y asociaciones',
-        users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
-      }],
-      functionalities: [{
-        "title": "Tu organización en cifras",
-        "description": "Los principales indicadores que describen tu organización",
-        "explanation": "Permite a tus usuarios visualizar y comprender el estado de las principales cifras de tu organización. Las características demográficas, estructura del empleo, renta per cápita, impuestos... <br><br>Visualización en modo cuadro de mando para ver el estado actual y la evolución en los últimos ejercicios."
-      }, {
-        "title": "Decenas de fuentes de datos",
-        "description": "Simplificamos la recolección de datos",
-        "explanation": "Gobierto utiliza el servicio de Populate Data que compila decenas de fuentes de datos públicos de organismos oficiales, y los procesa para poder extraer indicadores de cada organización.<br><br>Simplificamos de forma radical la compilación de datos de fuentes diversas para reunirlos en un interfaz visualmente atractivo."
-      }, {
-        "title": "Visualización de datos",
-        "description": "Facilita la comprensión de los datos",
-        "explanation": "Te proporcionamos una herramienta de visualización para facilitar la comprensión y el consumo de los datos.<br><br>Creamos visualizaciones y herramientas específicas para cada tipo de dato.<br><br>Visualizaciones de conjunto para facilitar la contextualización de datos."
-      }, {
-        "title": "Datos abiertos",
-        "description": "Fomenta la reutilización de los datos",
-        "explanation": "Gobierto republica todos los indicadores como datos abiertos en formatos reutilizables para permitir su descarga y explotación en herramientas externas.<br><br>Permite que los usuarios mezclen los datos, los visualicen de formas alternativas y los analicen. Son suyos."
-      }, {
-        "title": "Actualización automática",
-        "description": "Nos ocupamos de mantener los datos actualizados",
-        "explanation": "Gracias al servicio de Populate Data, todos los indicadores se actualizan de forma automática, por lo que no tienes que preocuparte sobre la actualización de los mismos.<br><br>Además, si deseas conectar alguna fuente de datos a tus aplicaciones internas, podrás hacerlo. Consúltanos. "
-      }, {
-        "title": "Seguimiento de datos",
-        "description": "Alertas automáticas a tus usuarios cuando los datos se actualicen",
-        "explanation": "Los ciudadanos podrán suscribirse a alertas de aquellos datos que les interesen. Cuando un dato se actualice, recibirá una alerta de forma automática.<br><br>De esta forma la organización podrá generar impactos de comunicación con un coste marginal."
-      }]
+    "users": [{
+      "title": 'Administraciones públicas',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }, {
+      "title": 'Empresas y grupos de trabajo'
+    }, {
+      "title": 'ONGs y asociaciones',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    }],
+    functionalities: [{
+      "title": "Tu organización en cifras",
+      "description": "Los principales indicadores que describen tu organización",
+      "explanation": "Permite a tus usuarios visualizar y comprender el estado de las principales cifras de tu organización. Las características demográficas, estructura del empleo, renta per cápita, impuestos... <br><br>Visualización en modo cuadro de mando para ver el estado actual y la evolución en los últimos ejercicios."
+    }, {
+      "title": "Decenas de fuentes de datos",
+      "description": "Simplificamos la recolección de datos",
+      "explanation": "Gobierto utiliza el servicio de Populate Data que compila decenas de fuentes de datos públicos de organismos oficiales, y los procesa para poder extraer indicadores de cada organización.<br><br>Simplificamos de forma radical la compilación de datos de fuentes diversas para reunirlos en un interfaz visualmente atractivo."
+    }, {
+      "title": "Visualización de datos",
+      "description": "Facilita la comprensión de los datos",
+      "explanation": "Te proporcionamos una herramienta de visualización para facilitar la comprensión y el consumo de los datos.<br><br>Creamos visualizaciones y herramientas específicas para cada tipo de dato.<br><br>Visualizaciones de conjunto para facilitar la contextualización de datos."
+    }, {
+      "title": "Datos abiertos",
+      "description": "Fomenta la reutilización de los datos",
+      "explanation": "Gobierto republica todos los indicadores como datos abiertos en formatos reutilizables para permitir su descarga y explotación en herramientas externas.<br><br>Permite que los usuarios mezclen los datos, los visualicen de formas alternativas y los analicen. Son suyos."
+    }, {
+      "title": "Actualización automática",
+      "description": "Nos ocupamos de mantener los datos actualizados",
+      "explanation": "Gracias al servicio de Populate Data, todos los indicadores se actualizan de forma automática, por lo que no tienes que preocuparte sobre la actualización de los mismos.<br><br>Además, si deseas conectar alguna fuente de datos a tus aplicaciones internas, podrás hacerlo. Consúltanos. "
+    }, {
+      "title": "Seguimiento de datos",
+      "description": "Alertas automáticas a tus usuarios cuando los datos se actualicen",
+      "explanation": "Los ciudadanos podrán suscribirse a alertas de aquellos datos que les interesen. Cuando un dato se actualice, recibirá una alerta de forma automática.<br><br>De esta forma la organización podrá generar impactos de comunicación con un coste marginal."
+    }]
   },
   "altos-cargos-y-agendas": {
     "permalink": '/modulos/altos-cargos-y-agendas',
@@ -124,13 +124,13 @@
       "Automatiza la publicación de agendas"
     ],
     "users": [{
-      title: 'Administraciones públicas',
-      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+      "title": 'Administraciones públicas',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
     }, {
-      title: 'Empresas y grupos de trabajo'
+      "title": 'Empresas y grupos de trabajo'
     }, {
-      title: 'ONGs y asociaciones',
-      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+      "title": 'ONGs y asociaciones',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
     }],
     "functionalities": [{
       "title": "Perfiles personales",
@@ -159,54 +159,64 @@
     }]
   },
   "participacion": {
-    permalink: '/modulos/participacion',
-    title: "Participación",
-    short-title: "Participación",
-    description: "Extiende y amplifica tus iniciativas de participación offline. Crea un espacio de colaboración online para medir las preferencias, generar ideas, y captar la opinión de expertos",
-    url: "participacion",
-    key0: "Complementa y extiende tu participación offline con herramientas digitales.",
-    key1: "Define como quieres que la herramienta se adapte a tu estrategia y objetivos.",
-    key2: "Elige herramientas para cada necesidad de participación: capta opiniones, genera ideas, prioriza y vota.",
-    features: [
-      'a', 'b', 'c'
+    "permalink": '/modulos/participacion',
+    "title": "Participación",
+    "short-title": "Participación",
+    "description": "Extiende y amplifica tus iniciativas de participación offline. Crea un espacio de colaboración online para medir las preferencias, generar ideas, y captar la opinión de expertos",
+    "url": "participacion",
+    "key0": "Complementa y extiende tu participación offline con herramientas digitales.",
+    "key1": "Define como quieres que la herramienta se adapte a tu estrategia y objetivos.",
+    "key2": "Elige herramientas para cada necesidad de participación: capta opiniones, genera ideas, prioriza y vota.",
+    "features": [
+      "",
+      "",
+      ""
     ],
-    users: [{
-      title: 'Administraciones públicas',
-      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+    "users": [{
+      "title": 'Administraciones públicas',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
     }, {
-      title: 'Empresas y grupos de trabajo'
+      "title": 'Empresas y grupos de trabajo'
     }, {
-      title: 'ONGs y asociaciones',
-      users: ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
+      "title": 'ONGs y asociaciones',
+      "users": ['Municipios', 'Diputaciones y Cabildos', 'Comunidades Autónomas']
     }],
-    functionalities: [{
-      title: 'Perfiles personales',
-      description: 'Permite la exploración progresiva',
-      explanation: 'Dolor pariatur sit expedita dolorem neque non! Voluptatibus eligendi tempore voluptates dicta labore. Asperiores deleniti cumque voluptas voluptate tempora. Adipisci ea asperiores eum ipsum non. Tenetur possimus velit magnam voluptatem?'
+    "functionalities": [{
+      "title": "Procesos y grupos",
+      "description": "Flexibilidad para crear espacios personalizados",
+      "explanation": "Define los espacios de participación que necesites de acuerdo a tus objetivos y las características de tu organización.<br><br>Procesos: Crea y configura con flexibilidad tus procesos de participación. Define las fases, con su objetivo, descripción y fecha, y asocia una herramienta de interacción (información, agenda, encuestas, aportaciones, votaciones, resultados...) a cada una de ellas.<br><br>Grupos: crea un espacio temático y controla quién puede acceder para leer o escribir en el grupo. Crea grupos de trabajo para acciones o puntuales, o permanentes en el tiempo. Asocia las herramientas de interacción que necesites."
     }, {
-      title: 'Agendas',
-      description: 'Sincronizada con la agenda nativa de cada cargo',
-      explanation: 'Sit vero quas adipisci iste voluptatem pariatur. Veniam commodi animi repudiandae ea illum quisquam! Blanditiis accusantium sint quod alias magnam Architecto laboriosam aliquid dolor amet reprehenderit aut nihil Nulla perspiciatis?'
+      "title": "Herramientas de interacción",
+      "description": "Consulta, contribución, valoración... Una herramienta para cada necesidad",
+      "explanation": "Supera el foro de debate como mecanismo de participación. Gobierto innova en la forma de interacción para reducir la fricción, aumentar la participación, y mejorar la calidad de los aportaciones obtenidas.<br><br>Experimentamos e iteramos con nuevos formatos, porque no tiene sentido continuar usando después de más de 20 años el formato de foro de debate."
     }, {
-      title: 'Información personalizada',
-      description: 'Configura la información que muestras sobre cada persona',
-      explanation: 'Ipsum debitis iusto reprehenderit similique cum non, modi perspiciatis Impedit iusto odit dignissimos quis impedit Incidunt rem dolorem sequi atque minima? Voluptas quaerat maiores quae doloremque expedita! <strong>Dignissimos fuga porro</strong>'
+      "title": "Información y comunicación",
+      "description": "Gestión de contenidos: Agenda, noticias y documentos",
+      "explanation": "La participación necesita elementos básicos de comunicación que a veces no son cubiertos por otras herramientas. En Gobierto somos conscientes de su importancia, y por eso te las proporcionamos de partida.<br><br><strong>Agendas</strong> para poder comunicar las reuniones presenciales, de presentación de resultados, etc en torno a tus procesos.<br><br><strong>Noticias</strong> para ir actualizando sobre la marcha de las acciones.<br><br>Y un repositorio de <strong>documentos</strong> para compartir información y facilitar su seguimiento.<br><br>Cada proceso o grupo podrá tener sus agendas, noticias y documentos diferenciados."
     }, {
-      title: 'Grupos políticos',
-      description: 'Organiza personas de acuerdo a los grupos',
-      explanation: 'Consectetur illum dolorem et iusto voluptate hic? Eos similique ea magnam natus illo amet? Rerum laborum amet quas aliquam beatae. Eligendi repellat accusantium excepturi tempore culpa Fugit voluptatibus ut fugiat.'
+      "title": "Presupuestos participativos",
+      "description": "Lanza tus presupuestos participativos con Gobierto",
+      "explanation": "La flexibilidad de Gobierto Participación te permite configurar, entre otros, un proceso de presupuestos participativos.<br><br>Define las fases y selecciona la herramienta para cada una: información sobre el proceso, agenda con reuniones informativas y deliberativas, creación de propuestas, validación técnica, votación, publicación de resultados...<br><br>Aprovecha las herramientas de comunicación e información transversales para mantener a los usuarios involucrados y actualizados.<br><br>Ofrece una experiencia de participación moderna y usable."
     }, {
-      title: 'Declaraciones',
-      description: 'Bienes y actividades, viajes, obsequios',
-      explanation: 'lorem'
+      "title": "Consultas y encuestas",
+      "description": "Herramientas ágiles de interacción",
+      "explanation": "Crea y publica encuestas y consultas abiertas con facilidad. Ofrece una herramienta con gran calidad de diseño y con una gran facilidad de uso. Crea encuestas multipreguntas, configurando cada pregunta con respuestas cerradas, abiertas, selección simple, múltiple...<br><br>Obtén resultados anónimos y segmentados sociodemograficamente para analizar qué tipo de ciudadanos están participando (¡y cuáles no!). Descarga los resultados para el análisis en herramientas externas."
     }, {
-      title: 'Seguimiento de eventos y personas',
-      description: 'Permite a los vecinos seguir lo que les interesa',
-      explanation: 'lorem'
+      "title": "Elaboración de normativa",
+      "description": "Una herramienta usable para la consulta previa",
+      "explanation": "Gobierto da soporte a la obligación de consultar publicamente y de forma online sobre la elaboración o modificación de normativa.<br><br>Puedes configurar la herramienta para hacer una primera consulta previa guiada por un cuestionario y un espacio de aportaciones, mediante el que detectar necesidades, demandas, ideas, etc.<br><br>Y otro espacio donde publicar un borrador de la norma y permitir realizar comentarios sobre segmentos específicos del texto."
     }, {
-      title: 'Blog',
-      description: 'Cada cargo cuenta con su propio blog',
-      explanation: 'lorem'
+      "title": "Resultados",
+      "description": "Información continuada",
+      "explanation": "Facilita que los ciudadanos reciban actualizaciones sobre los resultados de los procesos de participación. Gobierto te proporciona herramientas para informar de los resultados, y la generación de comunicaciones y alertas para informar puntualmente."
+    }, {
+      "title": "Temas y ámbitos geográficos",
+      "description": "Segmentación y personalización",
+      "explanation": "Personaliza los temas o áreas de interés bajo los que quieres clasificar los grupos o procesos de participación, así como los ámbitos geográficos.<br><br>Identifica procesos o grupos de trabajo relativos a un tema o a un ámbito geográfico determinado.<br><br>Junto a Gobierto CRM, podrás enviar comunicaciones segmentadas a usuarios de una zona específica o que se hayan interesado en cierto tema."
+    }, {
+      "title": "Conexión con el censo y SSO",
+      "description": "Seguridad y verificación",
+      "explanation": "Nos conectamos con tu censo para garantizar la verificación de usuarios en aquellas interacciones que lo requieran.<br><br>Si ya tienes un sistema de identidad de usuario online, nos integramos para evitar tener varias cuentas relativas a la misma entidad."
     }]
   }
 }
