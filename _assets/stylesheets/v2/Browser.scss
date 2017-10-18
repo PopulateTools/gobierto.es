@@ -34,8 +34,15 @@
   background: url(asset_path('mockup.svg')) 0 0 no-repeat;
 }
 .Browser.Browser--indicadores .Browser__screen {
-  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
+  background: url(asset_path('modules/indicadores.svg')) 0 0 no-repeat!Important;
+  background-size: 634px !important;
+  top: 32px;
 }
+.Browser.Browser--medium.Browser--indicadores .Browser__screen {
+  background-size: 800px!important;
+}
+
+
 .Browser.Browser--participacion .Browser__screen {
   background: url(asset_path('modules/participacion.png')) 0 0 no-repeat!Important;
   background-size: 634px !important;
@@ -44,6 +51,7 @@
 .Browser.Browser--medium.Browser--participacion .Browser__screen {
   background-size: 800px!important;
 }
+
 .Browser.Browser--large .Browser__screen {
   top: 44px;
   background: url(asset_path('mockup.svg')) 0 0 no-repeat;
