@@ -28,8 +28,14 @@
 }
 
 .Browser.Browser--altos-cargos-y-agendas .Browser__screen {
-  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
+  background: url(asset_path('modules/agenda.svg')) 0 0 no-repeat!Important;
+  background-size: 634px !important;
+  top: 32px;
 }
+.Browser.Browser--medium.Browser--altos-cargos-y-agendas .Browser__screen {
+  background-size: 800px!important;
+}
+
 
 .Browser.Browser--presupuestos .Browser__screen {
   background: url(asset_path('modules/presupuestos.svg')) 0 0 no-repeat!Important;
