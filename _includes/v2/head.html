@@ -5,6 +5,46 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript" charset="utf-8"></script>
   {% stylesheet v2/app %}
   {% javascript v2/application %}
+
+
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+
+  {% if page.title == 'Los mapas no cuentan (toda) la verdad' %}
+  {% javascript v1/post_cartograms %}
+  {% else %}
+  {% javascript v1/charts %}
+  {% endif %}
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="{{ site.twitter_username }}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} · Gobierto</title>
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
+
+  <meta name="description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+
+  <link rel="apple-touch-icon" sizes="57x57" href="{% asset_path 'v2/favicons/apple-touch-icon-57x57.png' %}" >
+  <link rel="apple-touch-icon" sizes="60x60" href="{% asset_path 'v2/favicons/apple-touch-icon-60x60.png' %}">
+  <link rel="apple-touch-icon" sizes="72x72" href="/{% asset_path 'v2/favicons/apple-touch-icon-72x72.png' %}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{% asset_path 'v2/favicons/apple-touch-icon-76x76.png' %}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{% asset_path 'v2/favicons/apple-touch-icon-114x114.png' %}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{% asset_path 'v2/favicons/apple-touch-icon-120x120.png' %}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{% asset_path 'v2/favicons/apple-touch-icon-144x144.png' %}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{% asset_path 'v2/favicons/apple-touch-icon-152x152.png' %}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% asset_path 'v2/favicons/apple-touch-icon-180x180.png' %}">
+  <link rel="icon" type="image/png" href="{% asset_path 'v2/favicons/favicon-32x32.png' %}" sizes="32x32">
+  <link rel="icon" type="image/png" href="{% asset_path 'v2/favicons/android-chrome-192x192.png' %}" sizes="192x192">
+  <link rel="icon" type="image/png" href="{% asset_path 'v2/favicons/favicon-96x96.png' %}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{% asset_path 'v2/favicons/favicon-16x16.png' %}" sizes="16x16">
+  <link rel="manifest" href="{% asset_path 'v2/favicons/manifest.json' %}">
+  <link rel="mask-icon" href="{% asset_path 'v2/favicons/safari-pinned-tab.svg' %}" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="msapplication-TileImage" content="{% asset_path 'v2/favicons/mstile-144x144.png' %}">
+  <meta name="theme-color" content="#A33A00">
   <!--{% javascript v2/cover %}-->
 </head>
 
