@@ -27,19 +27,23 @@
   vertical-align: middle;
 }
 
-.Browser--altos-cargos-y-agendas .Browser__screen {
+.Browser.Browser--altos-cargos-y-agendas .Browser__screen {
   background: url(asset_path('mockup.svg')) 0 0 no-repeat;
 }
-.Browser--presupuestos .Browser__screen {
+.Browser.Browser--presupuestos .Browser__screen {
   background: url(asset_path('mockup.svg')) 0 0 no-repeat;
 }
-.Browser--indicadores .Browser__screen {
+.Browser.Browser--indicadores .Browser__screen {
   background: url(asset_path('mockup.svg')) 0 0 no-repeat;
 }
-.Browser--participacion .Browser__screen {
-  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
+.Browser.Browser--participacion .Browser__screen {
+  background: url(asset_path('modules/participacion.png')) 0 0 no-repeat!Important;
+  background-size: 634px !important;
+  top: 32px;
 }
-
+.Browser.Browser--medium.Browser--participacion .Browser__screen {
+  background-size: 800px!important;
+}
 .Browser.Browser--large .Browser__screen {
   top: 44px;
   background: url(asset_path('mockup.svg')) 0 0 no-repeat;
