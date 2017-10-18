@@ -8,7 +8,7 @@
   {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
 {% endif %}
 
-<a href="{{ post.url | prepend: site.baseurl }}" class="Blog__thumbnail" style="{% if image_url != blank %} background-image: url('{{ image_url }}'){% endif %}"> 
+<a href="{{ post.url | prepend: site.baseurl }}" class="Blog__thumbnail" style="{% if image_url != '' %} background-image: url('{{ image_url }}'){% endif %}"> 
 </a>
 <div class="Blog__entryTitle">
   <a class="Blog__entryLink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>

@@ -1,0 +1,17 @@
+---
+layout: v2/default
+title: Blog
+permalink: /temas/
+---
+
+<div class="Posts">
+  <h2 class="Blog__title">{{ page.category }}</h2>
+
+  <div class="Posts__inner">
+    {% for post in site.categories[page.category] %}
+    <div class="Posts__post">
+      {% include v2/post.html %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
