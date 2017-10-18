@@ -165,12 +165,23 @@ strong {
   line-height: 120%;
 }
 .Features__keyIcon {
-  background: #f0f0f0;
   width: 112px;
   height: 112px;
   border-radius: 100%;
   margin: 0 auto 24px auto;
+  border: 4px solid $cBlue;
 }
+.Feature__key:nth-child(1) > .Features__keyIcon {
+  border-color: $cRed;
+}
+.Feature__key:nth-child(2) > .Features__keyIcon {
+  border-color: $cYellow;
+}
+
+.Feature__key:nth-child(3) > .Features__keyIcon {
+  border-color: $cGreen;
+}
+
 .Features__title {
   @include sans-serif(42px, 700, $cBlue);
   line-height: 120%;
