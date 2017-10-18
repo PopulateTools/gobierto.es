@@ -38,6 +38,7 @@ Los procesos de presupuestos participativos se suelen estructurar en las siguien
 
 ## Madrid, gran proceso, pocos participantes
 
+{% img 'posts/160530-presupuestos-participativos.png' %}
 
 Justo en estos días los vecinos de Madrid [pueden votar sobre las propuestas](https://decide.madrid.es/participatory_budget) enviadas por otros vecinos. Hay para repartir 60 millones de € (para poner en perspectiva la cantidad, recordad que el [presupuesto de Madrid](https://presupuestos.gobierto.es/places/madrid/2015) es de más de 4.000 millones). A este proceso de presupuestos le han precedido distintas iniciativas de participación: un [foro de debates](https://decide.madrid.es/debates), un área de [propuestas](https://decide.madrid.es/proposals), [entrevistas ciudadanas con concejales](https://decide.madrid.es/debates?order=created_at&page=1&search=%23T%C3%BAPreguntas&utf8=%E2%9C%93), un [par de consultas sobre temas específicos](), y ahora los presupuestos participativos.
 

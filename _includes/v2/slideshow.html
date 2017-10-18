@@ -8,6 +8,7 @@
   {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
 {% endif %}
 
+
 <div class="Slideshow">
   <div class="Slideshow__inner">
     <div class="Slideshow__content">
@@ -21,9 +22,9 @@
       <a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('{{ image_url }}')"></a>
       <a class="Slideshow__itemTitle" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       <div class="Slideshow__itemDescription">{{ post.subtitle }}</div>
-      {% capture image_url %}{% endcapture %}
       {% endfor %}
     </div>
   </div>
 </div>
+
 

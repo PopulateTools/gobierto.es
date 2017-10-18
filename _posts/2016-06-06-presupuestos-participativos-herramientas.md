@@ -39,6 +39,13 @@ A continuación hacemos una pequeña reseña de herramientas que nos parecen int
 
 Balancing Act es una herramienta de simulación interactiva sobre el presupuesto federal en Estados Unidos. Te muestra el déficit, la sostenibilidad a largo plazo, y el origen (impuestos) y destino de los gastos. Permite ir modificando tanto la fuente como la finalidad del dinero. La herramienta te guía y te ofrece ayuda contextual acerca de los temas claves sobre los que tendrás que opinar.
 
+{% img 'posts/160606-balancing-act-1' %}
+
+{% img 'posts/160606-balancing-act-2' %}
+
+{% img 'posts/160606-balancing-act-3' %}
+
+{% img 'posts/160606-balancing-act-tax-receipt' %}
 
 También es interesante que en base a información de tus ingresos y de la composición de tu hogar te muestra tu "recibo de impuestos", desglosando el total en cada uno de los temas a los que se dedicaría tu aportación.
 
@@ -50,6 +57,7 @@ Visita: [usa.abalancingact.com](http://usa.abalancingact.com)
 
 "Eres alcalde por un día", y tienes que repartir los 602 millones de dólares del presupuesto de la ciudad de Nueva Orleans. Es la extensión virtual de un proceso presencial que tuvo éxito. El sistema va guardando las participaciones individuales para al final del proceso generar un meta-presupuesto, el "presupuesto de la gente".
 
+{% img 'posts/160606-bigeasybudgetgame.png' %}
 
 Visita: [bigeasybudgetgame.com](https://bigeasybudgetgame.com)
 
@@ -61,6 +69,7 @@ Esta herramienta de una compañía con base en Reino Unido y Australia da soport
 
 Otro punto muy interesante es que en vez de mostrarte el deficit global que se generaría, te muestran lo que incrementaría lo que te toca pagar a ti.
 
+{% img 'posts/160606-budget-simulator' %}
 
 Visita: [Ejemplo de Austin, EEEUU](https://austintx.budgetsimulator.com)
 
@@ -71,6 +80,7 @@ Visita: [Ejemplo de Austin, EEEUU](https://austintx.budgetsimulator.com)
 
 Distintos periódicos también han creado piezas en torno a visualización y simulación de presupuestos. En este caso es boston.com plantea a sus lectores una pregunta: ¿cómo equilibrarías el presupuesto estatal si tienes que recortar $12.000 millones de gasto? Se puede ir modificando el gasto a una serie de partidas organizadas en temas, y el sistema te muestra como afectaría esa bajada (qué proyectos se verían eliminados, etc)
 
+{% img 'posts/160606-boston.com-1' %}
 
 Visita: [boston.com](http://archive.boston.com/news/politics/2008/specials/budget_game/#/)
 
@@ -80,6 +90,7 @@ Visita: [boston.com](http://archive.boston.com/news/politics/2008/specials/budge
 
 Otro juego-visualización sobre la deuda federal de Estados Unidos, enfocado a estabilizar la deuda en el 60% (desde el 72%) a lo largo de varios años. Esta simulación tiene muchísimo detalle y permite profundizar, tal vez demasiado, en la complejidad del presupuesto federal. Este proyecto forma parte de la campaña [Fix The Debt](http://www.fixthedebt.org/).
 
+{% img 'posts/160606-crfb-1' %}
 
 Visita: [Stabilize The Debt](http://crfb.org/stabilizethedebt/)
 

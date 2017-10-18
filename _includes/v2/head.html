@@ -10,12 +10,6 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  {% if page.title == 'Los mapas no cuentan (toda) la verdad' %}
-  {% javascript v1/post_cartograms %}
-  {% else %}
-  {% javascript v1/charts %}
-  {% endif %}
-
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="{{ site.twitter_username }}" />
   <meta property="og:type" content="article" />

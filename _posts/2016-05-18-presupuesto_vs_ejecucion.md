@@ -21,6 +21,7 @@ Es por ejemplo el caso de [Galbarros](https://presupuestos.gobierto.es/places/ga
 
 Sin embargo, hay muchos otros municipios con grandes desviaciones de presupuesto y en Gobierto, mientras esperamos a los datos del 2015, hemos estado jugando con los datos del 2014 y hemos hecho una pequeña herramienta de visualización de los mismos.
 
+{% img 'posts/b_vs_e_anim.gif' width:'80%' alt:'Municipios dentro y fuera de una desviación de entre el 10% y el 100% del presupuesto' title:'Municipios dentro y fuera de una desviación de entre el 10% y el 100% del presupuesto' %}
 
 Con ella hemos podido descubrir cosas como que, de todos aquellos municipios con datos presupuestarios (6426 de 8192):
 
@@ -28,6 +29,7 @@ Con ella hemos podido descubrir cosas como que, de todos aquellos municipios con
 * un 25% (1612 municipios) se desvían del presupuesto más de un 25% (950 lo superan y 662 ejecutan el 75% de su presupuesto o menos)
 * un 1,1% (73 municipios) se desvía 100% o más de su presupuesto!
 
+{% img 'posts/over_100percent.png' width:'80%' alt:'Municipios con una desviación igual o mayor al 100% de su presupuesto' title:'Municipios con una desviación igual o mayor al 100% de su presupuesto' %}
 
 Curiosamente, estos porcentajes de desviación no se mantienen cuando dividimos los datos por Comunidad Autónoma. Teniendo en cuenta que no hay datos presupuestarios para Navarra, País Vasco, Ceuta y Melilla, y tomando el 10% de desviación como referencia, tendríamos a Madrid, Asturias y Murcia como las comunidades autónomas con mayor número de municipios que se ciñen a su presupuesto (aprox. un 67% de los municipios de esas comunidades dentro de esa desviación).
 
