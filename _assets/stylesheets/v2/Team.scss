@@ -1,0 +1,35 @@
+@import 'helpers/helpers';
+
+.Team {
+  margin: 32px 0 32px;
+  display: grid;
+  grid-gap: 24px;
+  grid-row-gap: 34px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+}
+
+.Team__member {
+  text-align: center;
+}
+
+.Team__memberInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Team__memberInfo span {
+  opacity: .5;
+  font-size: 16px;
+}
+
+.Team__memberPhoto img {
+  border-radius: 4px;
+  max-width: 80px;
+  height: auto;
+}
+
+.Team__memberLink {
+  line-height: 120%;
+}
