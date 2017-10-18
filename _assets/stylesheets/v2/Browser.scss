@@ -10,6 +10,23 @@
   transition: box-shadow $transitionSlow ease-in-out, all $transitionSlow ease-in-out;
 }
 
+.Browser__screen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 44px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: red;
+  border-radius: 6px 6px 0 0;
+  z-index: 1;
+  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 1024px;
+  vertical-align: middle;
+}
+
 .Browser.Browser--large {
   width: 1024px;
   height: 800px;
@@ -20,6 +37,7 @@
 }
 
 .Browser__header {
+  position: relative;
   width: 100%;
   height: 32px;
   background: #f0f0f0;
@@ -28,6 +46,7 @@
   padding: 0 12px;
   box-sizing: border-box;
   align-items: center;
+  z-index: 10;
 }
 
 .Browser.Browser--large .Browser__header,
