@@ -9,10 +9,15 @@
   margin-top: -4px;
 }
 .Logo__populate {
-}
-.Logo__creator {
+  display: block;
+  background: url(asset_path('populate.svg')) 0 0 no-repeat;
+  background-size: cover;
+  width: 140px;
+  height: 42px;
 }
 .Logo__description {
+  margin: 0 0 4px;
+  @include sans-serif(12px, 400, rgba(#333, 0.67));
 }
 
 

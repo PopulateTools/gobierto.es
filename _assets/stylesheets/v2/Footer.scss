@@ -11,9 +11,12 @@
   justify-content: space-between;
 }
 .Footer__logos {
+  display: flex;
   flex: 1;
   padding: 64px 0;
   background: $cWhite;
+  align-items: center;
+  flex-direction: column;
 }
 .Footer__logo {
   margin: auto;
