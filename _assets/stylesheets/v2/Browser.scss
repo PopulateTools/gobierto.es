@@ -45,12 +45,12 @@
 }
 
 
-.Browser.Browser--indicadores .Browser__screen {
+.Browser.Browser--observatorio-estadistico .Browser__screen {
   background: url(asset_path('modules/indicadores.svg')) 0 0 no-repeat!Important;
   background-size: 634px !important;
   top: 32px;
 }
-.Browser.Browser--medium.Browser--indicadores .Browser__screen {
+.Browser.Browser--medium.Browser--observatorio-estadistico .Browser__screen {
   background-size: 800px!important;
 }
 
