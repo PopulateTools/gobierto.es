@@ -139,31 +139,31 @@ var setupSubscription = function () {
     var email = form.querySelector('input[type="email"]').value;
     var user_type = 'Blog Subscribe';
 
-    var isValid = true;
+    if (email) {
+      mixpanel.identify(email);
 
-    mixpanel.identify(email);
+      var date = new Date().toISOString();
 
-    var date = new Date().toISOString();
+      mixpanel.people.set_once({
+        "$created": date
+      });
 
-    mixpanel.people.set_once({
-      "$created": date
-    });
+      mixpanel.people.set({
+        "Web Corp Subscribed": true,
+        "Web Corp Subscribed Date": date,
+        "$email": email
+      });
 
-    mixpanel.people.set({
-      "Web Corp Subscribed": true,
-      "Web Corp Subscribed Date": date,
-      "$email": email
-    });
+      mixpanel.people.union({
+        "User Type": [user_type]
+      });
 
-    mixpanel.people.union({
-      "User Type": [user_type]
-    });
+      var input = form.querySelector('.js-input');
+      var success = form.querySelector('.js-success');
 
-    var input = form.querySelector('.js-input');
-    var success = form.querySelector('.js-success');
-
-    input.classList.add('is-hidden');
-    success.classList.remove('is-hidden');
+      input.classList.add('is-hidden');
+      success.classList.remove('is-hidden');
+    }
   }
 }
 
