@@ -1,5 +1,3 @@
-@import 'helpers/helpers';
-
 .Browser {
   position: relative;
   background: $cWhite;
@@ -58,7 +56,7 @@
 
 
 .Browser.Browser--participacion .Browser__screen {
-  background: url(asset_path('modules/participacion.png')) 0 0 no-repeat!Important;
+  background: url(asset_path('modules/participacion.jpg')) 0 0 no-repeat!Important;
   background-size: 634px !important;
   top: 32px;
 }
