@@ -2,10 +2,10 @@
   {% if post.main_photo_big contains '://' %}
     {% assign image_url = post.main_photo_big %}
   {% else %}
-    {% capture image_url %}/assets/v2/{{ post.main_photo_big }}{% endcapture %}
+    {% capture image_url %}/assets/v1/{{ post.main_photo_big }}{% endcapture %}
   {% endif %}
 {% elsif post.main_photo %}
-  {% capture image_url %}/assets/v2/{{ post.main_photo }}{% endcapture %}
+  {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
 {% endif %}
 
 <a href="{{ post.url | prepend: site.baseurl }}" class="Blog__thumbnail" style="{% if image_url != '' %} background-image: url('{{ image_url }}'){% endif %}">

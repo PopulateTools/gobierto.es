@@ -8,18 +8,22 @@ de {{ site.data.months[m] }}
 de {{ page.date | date: "%Y" -}}
 {% endcapture -%}
 
+<article itemscope itemtype="http://schema.org/Article">
+
 <div class="Post">
   <div class="Post__inner">
     <div class="Post__header">
-      <div class="Post__title">{{ page.title }}</div>
-      <div class="Post__subtitle">{{ page.subtitle }}</div>
+      <div class="Post__title"><h1 itemprop="name headline">{{ page.title }}</h1></div>
+      <div class="Post__subtitle" itemprop="description">{{ page.subtitle }}</div>
     </div>
     <div class="Post__meta">
-      <div class="Post__author">{{ page.author }}</div>
+      <div class="Post__author"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></div>
       <div class="Post__date">
-        {{ i18n_date }}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ i18n_date }}</time>
       </div>
     </div>
-    <div class="Post__content">{{ content }}</div>
+    <div class="Post__content" itemprop="articleBody">{{ content }}</div>
   </div>
 </div>
+
+</article>
