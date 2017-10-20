@@ -80,6 +80,9 @@ strong {
   padding: 64px;
   box-sizing: border-box;
 }
+.Functionalities__explanationContent a {
+  color: $cWhite;
+}
 .Functionalities__explanation div {
   opacity: 1;
   transition: opacity $transitionRegular ease-in-out;
