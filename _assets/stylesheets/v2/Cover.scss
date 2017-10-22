@@ -44,7 +44,7 @@
   z-index: 10;
 }
 .Cover__title {
-  @include sans-serif(48px, 700, $cWhite);
+  @include sans-serif(46px, 700, $cWhite);
   text-transform: uppercase;
   line-height: 120%;
   margin: 0 0 4px;

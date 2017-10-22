@@ -68,6 +68,7 @@
 }
 
 .Tooltip__link {
+  display: block;
   text-decoration: none;
   @include sans-serif(16px, 400, #fff);
   transition: color $transitionRegular linear;
@@ -79,4 +80,3 @@
 .Tooltip__link.is-active {
   font-weight: 700;
 }
-

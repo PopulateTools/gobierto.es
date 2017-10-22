@@ -111,3 +111,35 @@
   font-size: 16px;
   margin: 32px 0 0;
 }
+
+/* TODO: fix class names */
+.quote {
+  @include sans-serif(24px, 700, $cBlue);
+  padding: .5em 0 0 0;
+  background: #FFF;
+  position: relative;
+
+  display: block;
+  width: 80%;
+  font-style: italic;
+  margin: 32px 0;
+  font-size: 24px;
+  line-height: 32px;
+
+}
+.quote cite {
+  display: block;
+  font-size: 18px;
+  font-style: normal;
+  opacity: .5;
+}
+
+.quote:before {
+  display: block;
+  content: "\201C";
+  font-size: 6em;
+  line-height: .75em;
+  position: absolute;
+  left: -20%;
+  color: #DFDFDF;
+}
