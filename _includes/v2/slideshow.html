@@ -1,14 +1,3 @@
-{% if post.main_photo_big %}
-  {% if post.main_photo_big contains '://' %}
-    {% assign image_url = post.main_photo_big %}
-  {% else %}
-    {% capture image_url %}/assets/v1/{{ post.main_photo_big }}{% endcapture %}
-  {% endif %}
-{% elsif post.main_photo %}
-  {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
-{% endif %}
-
-
 <div class="Slideshow">
   <div class="Slideshow__inner">
     <div class="Slideshow__content">
@@ -19,7 +8,7 @@
     </div>
     <div class="Slideshow__items">
       {% for post in site.posts limit:1 %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('/assets/v1/{{ post.main_photo }}')"></a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('{% asset_path '{{ post.main_photo }}' %}')"></a>
       <a class="Slideshow__itemTitle" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       <div class="Slideshow__itemDescription">{{ post.subtitle }}</div>
       {% endfor %}

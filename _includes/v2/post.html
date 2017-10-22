@@ -12,6 +12,6 @@
 </a>
 <div class="Blog__entryTitle">
   <a class="Blog__entryLink" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></div>
-<div class="Blog__entryDescription">{{ post.excerpt }}</div>
+<div class="Blog__entryDescription">{{ post.excerpt | strip_html | strip_newlines | truncate: 160  }}</div>
 
 {% capture image_url %}{% endcapture %}
