@@ -74,3 +74,16 @@
 .Slideshow__link:hover {
   color: darken($cGreen, 20%);
 }
+
+@media (max-width: $cMediaTablet) {
+  .Slideshow__content {
+    margin: 0 0 32px;
+  }
+  .Slideshow__items {
+    width: auto;
+  }
+  .Slideshow__inner {
+    width: 90%;
+    flex-direction: column;
+  }
+}

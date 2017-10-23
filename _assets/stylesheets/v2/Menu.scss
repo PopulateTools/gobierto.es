@@ -1,0 +1,58 @@
+.Menu__icon {
+  display: none;
+  background: red;
+  border-radius: none;
+  width: 20px;
+  height: 20px;
+}
+
+.Menu.is-open .Menu__content {
+  transform: translate(0, 0);
+}
+
+.Menu__List {
+}
+
+.Menu__content {
+  width: 50%;
+  height: 100%;
+  background: #fff;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(1000px, 0);
+  z-index: 100;
+  transition: transform $transitionSlow ease-in-out;
+}
+
+.Menu__content {
+  text-align: center;
+  overflow-y: auto;
+}
+
+.Menu__item {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+}
+
+.Menu__content .Tooltip__link {
+  color: $cBlue;
+}
+
+@media (max-width: $cMediaStretched) {
+}
+
+@media (max-width: $cMediaTablet) {
+  .Menu__icon {
+    display: block;
+  }
+  .Menu__content {
+    width: 100%;
+    position: fixed;
+  }
+}

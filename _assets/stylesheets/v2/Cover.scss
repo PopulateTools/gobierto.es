@@ -1,5 +1,3 @@
-
-
 .Cover {
   position: relative;
   overflow: hidden;
@@ -65,8 +63,7 @@
 }
 
 
-/*
-@media all and (max-width: 700px) {
+@media (max-width: $cMediaTablet) {
   .Cover__keys {
     flex-direction: column;
   }
@@ -75,10 +72,14 @@
   }
   .Cover__inner {
     width: 90%;
-    background: red;
   }
   .Cover__browser {
     display: none;
   }
 }
-*/
+
+@media (max-width: $cMediaMobile) {
+  .Cover__title {
+    @include sans-serif(32px, 700, $cWhite);
+  }
+}

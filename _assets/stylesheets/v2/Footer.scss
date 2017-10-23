@@ -1,5 +1,3 @@
-
-
 .Footer {
   border-top: 1px solid $cGreen;
 }
@@ -50,4 +48,26 @@
 }
 .Footer__section {
   margin: 0 0 8px;
+}
+
+@media (max-width: $cMediaTablet) {
+  .Footer__content {
+    margin: 0;
+    width: auto;
+    flex-direction: column-reverse;
+  }
+  .Footer__inner {
+    width: auto;
+  }
+  .Footer__navigation {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .Footer__area {
+    margin: 0 0 32px;
+  }
+  .Logo__creator {
+    margin: 32px 0 0;
+  }
 }

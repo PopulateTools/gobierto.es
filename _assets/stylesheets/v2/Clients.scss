@@ -12,13 +12,13 @@
 }
 .Clients__content {
   text-align: center;
-  width: $innerSize;
   margin: auto;
   padding: 48px 0;
 }
 .Clients__title {
-  @include sans-serif(24px, 700, $cBlue);
+  line-height: 120%;
   margin: 0 0 48px;
+  @include sans-serif(24px, 700, $cBlue);
 }
 .Client__link {
 }
@@ -37,3 +37,19 @@
   opacity: 0.5;
 }
 
+@media (max-width: $cMediaTablet) {
+  .Clients__content {
+    margin: 0 0 32px;
+    width: auto;
+  }
+  .Clients__inner {
+    width: 90%;
+  }
+
+  .Client__logos {
+    flex-direction: column;
+  }
+  .Client__logo {
+    margin: 16px 0;
+  }
+}
