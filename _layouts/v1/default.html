@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+{% include v1/head.html %}
+<body class="{{ page.layout }} {% if page.url == '/' %}section_home{% endif %} {{ page.class }}">
+
+  {% include v1/header.html %}
+
+  {{ content }}
+
+  {% include v1/footer.html %}
+
+  {% if jekyll.environment == "development" %}
+    <!-- dev -->
+  {% elsif jekyll.environment == "production" %}
+    <!-- prod -->
+  {% endif %}
+
+  {% include v1/analytics_footer.html %}
+
+</body>
+
+</html>

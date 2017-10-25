@@ -1,0 +1,110 @@
+---
+layout: v1/default
+---
+
+<progress value="0"></progress>
+
+<article itemscope itemtype="http://schema.org/Article" class="{% if page.main_photo_big %} big_photo {% endif %}">
+
+  {% if page.main_photo_big %}
+  <header>
+    {% if page.main_photo_big contains '://' %}
+      <img src="{{ page.main_photo_big }}" class="heading" itemprop="img heading" title="{% if page.main_photo_caption %}{{ page.main_photo_caption }}{% endif %}">
+    {% else %}
+      {% img 'v1/{{ page.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+    {% endif %}
+    <div class="header_text">
+      <div class="bg"></div>
+      <div class="column">
+        <h1 itemprop="name headline">{{ page.title }}</h1>
+        <p class="subtitle" itemprop="description">{{ page.subtitle }}</p>
+      </div>
+    </div>
+
+
+  </header>
+  {% endif %}
+
+  <div class="column">
+
+    {% if page.main_photo %}
+      {% img 'v1/{{ page.main_photo }}' class:'pure-img heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+      <header>
+        <h1 itemprop="name headline">{{ page.title }}</h1>
+        <p class="subtitle" itemprop="description">{{ page.subtitle }}</p>
+      </header>
+    {% elsif page.main_photo == null and page.main_photo_big == null %}
+      <header>
+        <h1 itemprop="name headline">{{ page.title }}</h1>
+        <p class="subtitle" itemprop="description">{{ page.subtitle }}</p>
+      </header>
+    {% endif %}
+
+    <div class="meta clearfix">
+
+      <div class="tool authored">
+        {% if page.author %}
+          Por <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        {% endif %}
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>
+      </div>
+
+
+      <div class="tools">
+
+        {% if page.element_type != 'static_page' %}
+        <div class="tool reading_time">
+          <span><i class="fa fa-clock-o"></i> Reading time:</span>
+          {% assign words = content | number_of_words %}
+          {% if words < 360 %}
+            1 minute
+          {% else %}
+            {{ words | divided_by:270 }} minutes
+          {% endif %}
+        </div>
+        {% endif %}
+
+
+      </div>
+
+    </div>
+
+
+    <div class="content" itemprop="articleBody">
+      {{ content }}
+    </div>
+
+    <div class="separator"></div>
+
+  </div><!-- .column -->
+
+</article>
+
+<div class="posts_index column_w">
+
+  <h3 class="center m_v_1">Últimos posts</h3>
+
+  <div class="pure-g">
+
+    {% for post in site.posts limit:3 %}
+      {% include v1/post.html %}
+    {% endfor %}
+
+  </div>
+
+  <!--
+    {% for category in site.category %}
+      <a href="{{ category.url | prepend: site.baseurl }}">{{ category.title }}</a>
+    {% endfor %}
+  -->
+
+</div>
+
+<div class="column_c page_navitation clearfix">
+  {% if page.previous.url %}
+    <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
+  {% endif %}
+  {% if page.next.url %}
+    <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
+  {% endif %}
+</div>
