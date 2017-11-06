@@ -3,12 +3,12 @@ layout: v2/default
 kind: module
 permalink: /modulos/datos-abiertos/
 ---
-
 {% assign module = site.data.modules.datos-abiertos %}
 
 {% include v2/module_cover.html module=module %}
 {% include v2/features.html title=module.title features=module.features %}
 {% include v2/functionalities.html title=module.title functionalities=module.functionalities %}
+{% include v2/global_functionalities.html %}
 {% include v2/users.html users=module.users %}
 {% include v2/demo.html %}
 {% include v2/slideshow.html %}
