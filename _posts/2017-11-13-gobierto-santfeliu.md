@@ -29,7 +29,7 @@ Además de poder consultar los datos, Sant Feliu pone a disposición de sus veci
 
 ## Visualización de presupuesto y ejecución
 
-El módulo de [visualización de presupuestos](http://gobierto.es/modulos/presupuestos/) de Gobierto ofrece una herramienta interactiva para explorar el progreso de la [ejecución presupuestaria](https://pressupost.santfeliu.cat/presupuestos/ejecucion/2017#functional,economic) del municipio.
+El módulo de [visualización de presupuestos](https://gobierto.es/modulos/presupuestos/) de Gobierto ofrece una herramienta interactiva para explorar el progreso de la [ejecución presupuestaria](https://pressupost.santfeliu.cat/presupuestos/ejecucion/2017#functional,economic) del municipio.
 
 {% img 'posts/171113-santfeliu-3.png' class:'inline caption' title:"Gráfica interactiva para visualizar información de contexto sobre ejecución presupuestaria / Gobierto" %}
 
