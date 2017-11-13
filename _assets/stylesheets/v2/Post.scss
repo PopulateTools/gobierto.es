@@ -5,12 +5,22 @@
 .Post__inner {
   width: $innerSize;
   margin: auto;
+
+  @media all and (max-width : $cMediaMobile) {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 1em;
+  }
 }
 
 .Post__header {
   width: 960px;
   margin: 0 auto 32px;
   text-align: center;
+
+  @media all and (max-width : $cMediaMobile) {
+    width: 100%;
+  }
 }
 
 .Post img.heading {
@@ -38,6 +48,10 @@
   @include sans-serif(42px, 700, $cBlue);
   line-height: 120%;
   margin: 0 0 8px;
+
+  @media all and (max-width : $cMediaMobile) {
+    @include sans-serif(24px, 700, $cBlue);
+  }
 }
 
 .Post__subtitle {
@@ -46,6 +60,10 @@
   text-transform: uppercase;
   width: 800px;
   margin: auto;
+
+  @media all and (max-width : $cMediaMobile) {
+    width: 100%;
+  }
 }
 
 .Post__image {
@@ -61,6 +79,11 @@
   width: 800px;
   @include sans-serif(20px, 400, #333);
   line-height: 145%;
+
+  @media all and (max-width : $cMediaMobile) {
+    width: 100%;
+    @include sans-serif(16px, 400, #333);
+  }
 }
 
 .Post__content h2 {
