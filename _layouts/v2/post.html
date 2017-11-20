@@ -23,7 +23,11 @@ de {{ page.date | date: "%Y" -}}
     <div class="Post__inner">
       <div class="Post__header">
         {% if page.main_photo %}
-          {% img 'v1/{{ page.main_photo }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+          {% if page.main_photo contains '://' %}
+            wadus
+          {% else %}
+            {% img 'v1/{{ page.main_photo }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+          {% endif %}
         {% endif %}
         <div class="Post__title"><h1 itemprop="name headline">{{ page.title }}</h1></div>
         <div class="Post__subtitle" itemprop="description">{{ page.subtitle }}</div>
@@ -41,7 +45,7 @@ de {{ page.date | date: "%Y" -}}
         <div class="Post__categories">
           Más sobre:
           {% for cat in page.categories %}
-          <a href="/temas/{{cat}}">{{ cat }}</a> · 
+          <a href="/temas/{{cat}}">{{ cat }}</a> ·
           {% endfor %}
         </div>
         {% endif %}
@@ -49,3 +53,5 @@ de {{ page.date | date: "%Y" -}}
     </div>
   </div>
 </article>
+
+{% include v2/contact.html %}

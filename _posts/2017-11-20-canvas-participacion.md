@@ -2,12 +2,13 @@
 layout: v2/post
 title: 'El canvas de la participación'
 subtitle: 'La gente no quiere participar: ¿cómo conseguir cambiarlo? Herramientas y metodología para hacer participación online'
-date: 2017-11-08
+date: 2017-11-20
 categories:
   - participacion
   - recursos
 author: Álvaro Ortiz
-main_photo: posts/170921-mapa.png
+main_photo: posts/171120-canvas-cover.png
+# https://images.unsplash.com/photo-1458419948946-19fb2cc296af?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 ---
 
 ## Herramientas para diseñar participación
@@ -111,4 +112,11 @@ Una vez que han utilizado los mecanismos...
 Una vez que han continuado utilizando los mecanismos...
 
 * ¿Cómo comunico los resultados de la participación?
-*
+* ¿Qué canales utilizaré?
+* ¿Puedo dar información a priori sobre los plazos que se manejarán?
+* ¿Puedo ofrecer herramientas para realizar el seguimiento?
+* ¿Qué expectativas existen sobre la concrección de los resultados? ¿Cómo puedo regularlas?
+
+---
+
+En próximas entregas comentaremos como se ha aplicado de forma concreta esta herramienta en distintos proyectos, y cómo nos ayuda a ir dando forma a nuestro [módulo de participación](/modulos/participacion/).
