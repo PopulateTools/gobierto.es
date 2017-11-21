@@ -63,7 +63,6 @@
   transition: all $transitionRegular ease-in-out;
 }
 
-
 .Slideshow__link {
   color: $cGreen;
   text-decoration: none;
@@ -85,5 +84,11 @@
   .Slideshow__inner {
     width: 90%;
     flex-direction: column;
+  }
+}
+
+@media (max-width: $cMediaStretched) {
+  .Slideshow__inner {
+    width: 90%;
   }
 }

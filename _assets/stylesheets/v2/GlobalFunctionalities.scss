@@ -45,7 +45,6 @@
   color: $cRed;
 }
 
-
 .GlobalFunctionalities__itemIcon--calendar {
   background: url(asset_path('calendar.svg')) no-repeat 0 0;
   background-size: cover;
@@ -82,4 +81,13 @@
 }
 .GlobalFunctionalities__itemIcon {
   margin: 0 auto 36px;
+}
+
+@media (max-width: $cMediaStretched) {
+  .GlobalFunctionalities__inner {
+    width: 90%;
+  }
+  .GlobalFunctionalities__header {
+    width: 100%;
+  }
 }

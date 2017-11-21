@@ -80,7 +80,7 @@
 
 @media (max-width: $cMediaStretched) {
   .ModuleCover__inner {
-    width: 95%;
+    width: 90%;
   }
   .ModuleCover__top {
     justify-content: space-between;
@@ -108,11 +108,5 @@
   .ModuleCover__browser,
   .ModuleCover__header {
     width: 100%;
-  }
-}
-
-@media (max-width: $cMediaMobile) {
-  .ModuleCover {
-    padding: 25px 0;
   }
 }

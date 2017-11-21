@@ -54,3 +54,9 @@
   opacity: 0.7;
   @include sans-serif(24px, 400, #676767);
 }
+
+@media (max-width: $cMediaStretched) {
+  .Users__inner {
+    width: 90%;
+  }
+}
