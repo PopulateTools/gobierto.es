@@ -90,3 +90,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: $cMediaTablet) {
+  .Functionalities__content {
+    flex-direction: column;
+  }
+}
