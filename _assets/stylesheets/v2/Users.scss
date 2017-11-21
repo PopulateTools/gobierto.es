@@ -60,3 +60,9 @@
     width: 90%;
   }
 }
+
+@media (max-width: $cMediaMobile) {
+  .Users__description {
+    width: 32px;
+  }
+}

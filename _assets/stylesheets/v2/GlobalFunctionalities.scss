@@ -91,3 +91,12 @@
     width: 100%;
   }
 }
+
+@media (max-width: $cMediaMobile) {
+  .GlobalFunctionalities__content {
+    flex-direction: column;
+  }
+  .GlobalFunctionalities__item {
+    width: 100%;
+  }
+}

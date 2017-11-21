@@ -96,3 +96,15 @@
     flex-direction: column;
   }
 }
+
+@media (max-width: $cMediaMobile) {
+  .Icon__tick {
+    width: 32px;
+  }
+  .FunctionalityList__item {
+    padding: 18px 0;
+  }
+  .FunctionalityList__itemContent {
+    width: 100%;
+  }
+}

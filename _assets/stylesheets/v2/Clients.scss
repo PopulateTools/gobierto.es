@@ -36,6 +36,12 @@
   opacity: 0.5;
 }
 
+@media (max-width: $cMediaMobile) {
+  .Client__logo {
+    margin: 16px auto !important;
+  }
+}
+
 @media (max-width: $cMediaTablet) {
   .Clients__content {
     margin: 0 0 32px;
