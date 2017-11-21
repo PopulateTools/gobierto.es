@@ -1,9 +1,20 @@
-
-
 .Header {
   background: $cWhite;
   padding: 32px 0 24px;
   border-bottom: 1px solid $cSubtleGray;
+}
+.Header__logo {
+  @media all and (max-width : $cMediaMobile) {
+    padding: 0 1em;
+  }
+}
+.Header__CTA {
+  min-width: 136px;
+  display: block;
+
+  @media all and (max-width : $cMediaMobile) {
+    display: none;
+  }
 }
 .Header__inner {
   display: flex;
@@ -13,12 +24,22 @@
   align-items: center;
   position: relative;
   z-index: 100;
+
+  @media all and (max-width : $cMediaMobile) {
+    width: auto;
+    text-align: left;
+  }
 }
 .Header__options {
   display: flex;
   width: 416px;
   justify-content: space-between;
   align-items: center;
+
+  @media all and (max-width : $cMediaMobile) {
+    display: block;
+    text-align: center;
+  }
 }
 .Header__option {
   padding: 5px 0;
@@ -34,17 +55,9 @@
   margin: 0 5px;
   transition: color $transitionSlow ease-in-out;
 }
-
-.Header__CTA {
-  min-width: 136px;
-  display: block;
+.Header__link.Header__tooltip {
+  padding: 0;
 }
-.Header__Button {
-  min-width: 136px;
-  display: block;
-  box-sizing: border-box;
-}
-
 .Header__link.is-active {
   font-weight: 700;
 }
@@ -52,6 +65,11 @@
 }
 .Header__link:hover {
   color: $cDarkGray;
+}
+.Header__Button {
+  min-width: 136px;
+  display: block;
+  box-sizing: border-box;
 }
 
 #banner {

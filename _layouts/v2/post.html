@@ -11,17 +11,24 @@ de {{ page.date | date: "%Y" -}}
 <article itemscope itemtype="http://schema.org/Article">
 
   <div class="Post">
+
     {% if page.main_photo_big %}
-    {% if page.main_photo_big contains '://' %}
-    <div class="Post__image" style="background-image: url('{{ page.main_photo_big }}')"></div>
-    {% else %}
-    <div class="Post__image" style="background-image: url('{% asset_path '{{ page.main_photo_big }}' %}')"></div>
+      {% if page.main_photo_big contains '://' %}
+        <img src="{{ page.main_photo_big }}" class="heading" itemprop="img heading" title="{% if page.main_photo_caption %}{{ page.main_photo_caption }}{% endif %}">
+      {% else %}
+        {% img 'v1/{{ page.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+      {% endif %}
     {% endif %}
-    {% elsif page.main_photo %}
-    <div class="Post__image" style="background-image: url('{% asset_path '{{ page.main_photo }}' %}')"></div>
-    {% endif %}
+
     <div class="Post__inner">
       <div class="Post__header">
+        {% if page.main_photo %}
+          {% if page.main_photo contains '://' %}
+            wadus
+          {% else %}
+            {% img 'v1/{{ page.main_photo }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+          {% endif %}
+        {% endif %}
         <div class="Post__title"><h1 itemprop="name headline">{{ page.title }}</h1></div>
         <div class="Post__subtitle" itemprop="description">{{ page.subtitle }}</div>
       </div>
@@ -36,9 +43,9 @@ de {{ page.date | date: "%Y" -}}
 
         {% if page.categories %}
         <div class="Post__categories">
-          Archivado en: 
+          Más sobre:
           {% for cat in page.categories %}
-          <a href="/temas/{{cat}}">#{{ cat }}</a>
+          <a href="/temas/{{cat}}">{{ cat }}</a> ·
           {% endfor %}
         </div>
         {% endif %}
@@ -46,3 +53,5 @@ de {{ page.date | date: "%Y" -}}
     </div>
   </div>
 </article>
+
+{% include v2/contact.html %}

@@ -7,6 +7,10 @@
 .Footer__content {
   display: flex;
   justify-content: space-between;
+
+  @media all and (max-width : $cMediaMobile) {
+    display: block;
+  }
 }
 .Footer__logos {
   display: flex;
@@ -15,6 +19,11 @@
   background: $cWhite;
   align-items: center;
   flex-direction: column;
+
+  @media all and (max-width : $cMediaMobile) {
+    display: block;
+    text-align: center;
+  }
 }
 .Footer__logo {
   margin: auto;
@@ -25,6 +34,10 @@
   flex: 3;
   background: $cGreen;
   justify-content: center;
+
+  @media all and (max-width : $cMediaMobile) {
+    display: block;
+  }
 }
 .Footer__link {
   @include sans-serif(18px, 400, $cWhite);
@@ -40,6 +53,10 @@
 }
 .Footer__area {
   margin: 0 0 0 112px;
+
+  @media all and (max-width : $cMediaMobile) {
+    margin: 0 1em;
+  }
 }
 .Footer__areaTitle {
   @include sans-serif(18px, 700, $cWhite);
