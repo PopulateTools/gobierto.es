@@ -78,3 +78,17 @@
   margin: 0 8px 0 0;
 }
 
+@media all and (max-width : $cMediaCompact) {
+  .About__content {
+    width: 100%;
+  }
+}
+
+@media all and (max-width : $cMediaStretched) {
+  .About__header {
+    width: 90%;
+  }
+  .About__inner {
+    width: 90%;
+  }
+}
