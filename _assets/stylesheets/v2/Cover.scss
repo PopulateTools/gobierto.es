@@ -63,15 +63,18 @@
 }
 
 
+@media (max-width: $cMediaStretched) {
+  .Cover__inner {
+    width: 90%;
+  }
+}
+
 @media (max-width: $cMediaTablet) {
   .Cover__keys {
     flex-direction: column;
   }
   .Cover__header {
     width: 100%;
-  }
-  .Cover__inner {
-    width: 90%;
   }
   .Cover__browser {
     display: none;

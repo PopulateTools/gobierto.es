@@ -44,6 +44,17 @@ var setupIntroCover = function () {
 
   if (cover) {
     cover.classList.add('Cover--intro');
+
+    var browser = document.querySelector('.Browser--large');
+
+    if (browser) {
+      var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+
+      if (Number(w) <= 1024) {
+        browser.classList.remove('Browser--large');
+        browser.classList.add('Browser--medium');
+      }
+    }
   }
 };
 

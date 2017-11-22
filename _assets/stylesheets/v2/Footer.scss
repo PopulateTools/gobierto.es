@@ -7,10 +7,6 @@
 .Footer__content {
   display: flex;
   justify-content: space-between;
-
-  @media all and (max-width : $cMediaMobile) {
-    display: block;
-  }
 }
 .Footer__logos {
   display: flex;

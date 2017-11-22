@@ -82,13 +82,36 @@
 }
 
 @media (max-width: $cMediaMobile) {
-  .Modules__inner {
-    width: 90%;
-  }
   .Module__browser {
     display: none;
   }
   .Module__content {
     width: 100%;
+  }
+}
+
+@media (max-width: $cMediaStretched) {
+  .Modules__inner {
+    width: 90%;
+  }
+  .Module__preview {
+    right: -50%;
+    top: initial;
+    margin-top: 0;
+  }
+  .Module__listItem:nth-child(even) .Module__preview {
+    left: -50%;
+  }
+  .Module__featureDescription {
+    width: auto;
+  }
+}
+
+@media (max-width: $cMediaTablet) {
+  .Module__preview {
+    right: -100%;
+  }
+  .Module__listItem:nth-child(even) .Module__preview {
+    left: -100%;
   }
 }
