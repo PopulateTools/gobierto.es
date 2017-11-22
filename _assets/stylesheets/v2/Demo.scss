@@ -50,3 +50,9 @@
     width: 90%;
   }
 }
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Demo {
+    padding: 60px 0;
+  }
+}

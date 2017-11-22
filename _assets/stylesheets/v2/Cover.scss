@@ -3,7 +3,6 @@
   overflow: hidden;
   padding: 100px 0;
   background: $cBlue;
-
 }
 .Cover--intro .Cover__browser {
   transform: rotate(-6deg) translate(0, 0);
@@ -84,5 +83,11 @@
 @media (max-width: $cMediaMobile) {
   .Cover__title {
     @include sans-serif(32px, 700, $cWhite);
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Cover {
+    padding: 50px 0;
   }
 }

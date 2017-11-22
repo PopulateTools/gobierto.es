@@ -51,3 +51,9 @@
     width: 90%;
   }
 }
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Features {
+    padding: 60px 0;
+  }
+}

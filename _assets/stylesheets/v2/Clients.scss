@@ -61,10 +61,13 @@
 }
 
 @media (max-width: $cMediaStretched) {
-  .Clients {
-    padding: 23px;
-  }
   .Clients__inner {
     width: 100%;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Clients {
+    padding: 23px;
   }
 }

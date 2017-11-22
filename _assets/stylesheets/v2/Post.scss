@@ -203,3 +203,9 @@
 .Post__content img.Shadow {
   box-shadow: 0 0 15px 1px rgba(0,0,0,0.20);
 }
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Post {
+    padding: 32px 0 64px;
+  }
+}

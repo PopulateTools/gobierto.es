@@ -84,3 +84,9 @@
     margin: 32px 0 0;
   }
 }
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Footer__navigation {
+    padding: 40px 0;
+  }
+}

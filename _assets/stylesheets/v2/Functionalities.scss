@@ -102,6 +102,12 @@
     padding: 18px 0;
   }
   .FunctionalityList__itemContent {
-    width: 100%;
+    flex: 1;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Functionalities {
+    padding: 60px 0;
   }
 }

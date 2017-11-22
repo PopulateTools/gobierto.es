@@ -115,3 +115,12 @@
     left: -100%;
   }
 }
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Modules {
+    padding: 40px 0;
+  }
+  .Module__listItem {
+    padding: 63px 0;
+  }
+}
