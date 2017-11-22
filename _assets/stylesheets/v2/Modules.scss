@@ -124,3 +124,12 @@
     padding: 63px 0;
   }
 }
+
+@media (max-width: $cMediaTablet) and (orientation: landscape) {
+  .Module__browser {
+    display: none;
+  }
+  .Module__content {
+    width: 100%;
+  }
+}
