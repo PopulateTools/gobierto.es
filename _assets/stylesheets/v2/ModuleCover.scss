@@ -115,4 +115,18 @@
   .ModuleCover {
     padding: 50px 0;
   }
+  .ModuleCover__keys {
+    flex-direction: column;
+
+    > :nth-child(even) {
+      margin: 24px 0;
+    }
+
+    .ModuleCover__key {
+      width: 100%;
+    }
+  }
+  .ModuleCover__title {
+    font-size: 36px;
+  }
 }

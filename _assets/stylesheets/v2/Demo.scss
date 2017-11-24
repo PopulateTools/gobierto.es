@@ -14,6 +14,9 @@
 .Demo__content {
   width: 464px;
 }
+.Demo__form {
+  width: 560px;
+}
 .Demo__title {
   @include sans-serif(42px, 700, $cWhite);
   line-height: 120%;
@@ -34,6 +37,9 @@
 @media (max-width: $cMediaTablet) {
   .Demo__content {
     margin: 0 0 32px;
+    width: auto;
+  }
+  .Demo__form {
     width: auto;
   }
   .Demo__inner {
