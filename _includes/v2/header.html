@@ -29,49 +29,30 @@
     </div>
 
     <div class="Menu">
-      <button class="Button Menu__icon js-hamburger"></button>
+      <button class="Menu--open js-hamburger">
+        <i class="fa fa-bars" aria-hidden="true"></i>
+      </button>
       <div class="Menu__content">
-        <button class="Button Button--close js-hamburger-close">x</button>
-        <ul class="Menu__List">
+        <button class="Menu--close js-hamburger-close">
+          <i class="fa fa-2x fa-times" aria-hidden="true"></i>
+        </button>
+        <ul class="Menu__list">
           <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
+            <a href="/acerca-de" class="Header__link Menu__link">Nosotros</a>
           </li>
-          <li class="Menu__item">
+          <li id="Menu__item--modules" class="Menu__item">
             <strong>Módulos</strong>
-            <ul class="Tooltip__items">
-              <li class="Header__option">
-                <a href="/modulos/presupuestos" class="Header__link">Presupuestos</a>
-              </li>
-              <li class="Header__option">
-                <a href="/modulos/participacion" class="Header__link">Participación</a>
-              </li>
-              <li class="Header__option">
-                <a href="/modulos/altos-cargos-y-agendas" class="Header__link">Altos Cargos y Agendas</a>
-              </li>
-              <li class="Header__option">
-                <a href="/modulos/indicadores" class="Header__link">Indicadores</a>
-              </li>
+            <ul class="Menu__sublist">
+              {% for node in site.data.modules %}
+              <li><a href="{{ node[1].permalink }}" class="Header__link Menu__link{% if page.url == node[1].permalink %} is-active{% endif %}">{{ node[1].short-title }}</a></li>
+              {% endfor %}
             </ul>
           </li>
-
           <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
+            <a href="/blog" class="Header__link Menu__link {% if page.url == '/blog/' or page.layout == 'v2/post' %} is-active {% endif %}">Blog</a>
           </li>
           <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
-          </li>
-
-          <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
-          </li>
-          <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
-          </li>
-          <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
-          </li>
-          <li class="Menu__item">
-            <a href="/acerca-de" class="Header__link">Nosotros</a>
+            <a href="/temas/clientes" class="Header__link Menu__link js-smooth-scroll">Clientes</a>
           </li>
         </ul>
       </div>

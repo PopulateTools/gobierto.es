@@ -1,22 +1,29 @@
-.Menu__icon {
+.Menu,
+.Menu--open {
   display: none;
-  background: red;
-  border-radius: none;
-  width: 20px;
-  height: 20px;
 }
+
+.Menu--open,
+.Menu--close {
+  color: $cCyan;
+
+  @include appearance();
+  @include reset-button();
+}
+
+// $closeButtonHeight: 87px;
+// .Menu--close {
+//   height: $closeButtonHeight;
+// }
 
 .Menu.is-open .Menu__content {
   transform: translate(0, 0);
 }
 
-.Menu__List {
-}
-
 .Menu__content {
   width: 50%;
   height: 100%;
-  background: #fff;
+  background-color: $cWhite;
   position: fixed;
   top: 0;
   right: 0;
@@ -24,28 +31,72 @@
   transform: translate(1000px, 0);
   z-index: 100;
   transition: transform $transitionSlow ease-in-out;
-}
-
-.Menu__content {
   text-align: center;
   overflow-y: auto;
 }
 
+.Menu__list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: calc(100%);
+
+  > :nth-child(odd) {
+    background-color: $cBlue;
+
+    .Menu__link:hover {
+      color: rgba($cCyan, 0.5);
+    }
+  }
+  > :nth-child(even) {
+    background-color: $cCyan;
+
+    .Menu__link:hover {
+      color: rgba($cBlue, 0.5);
+    }
+  }
+}
+
 .Menu__item {
+  display: flex;
+  flex: 1;
   text-align: center;
   justify-content: center;
   align-items: center;
-  height: 250px;
   width: 100%;
-  border-bottom: 1px solid #ccc;
 }
 
-.Menu__content .Tooltip__link {
-  color: $cBlue;
+#Menu__item--modules.Menu__item {
+  flex: 3;
+  flex-direction: column;
+  @include sans-serif(42px, 700, $cWhite);
+
+  strong {
+    margin: 0 0 5px;
+  }
+
+  .Menu__sublist {
+    width: 100%;
+  }
+
+  .Menu__link {
+    margin: 0;
+    @include sans-serif(20px, 400, $cWhite);
+  }
+}
+
+.Menu__link {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  @include sans-serif(42px, 700, $cWhite);
 }
 
 @media (max-width: $cMediaTablet) {
-  .Menu__icon {
+  .Menu,
+  .Menu--open {
     display: block;
   }
   .Menu__content {

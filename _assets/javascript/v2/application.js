@@ -13,19 +13,23 @@ function isScrolledIntoView(elem) {
 var setupHamburger = function () {
   var hamburger = document.querySelector('.js-hamburger');
   var close = document.querySelector('.js-hamburger-close');
+  var close = document.querySelector('.js-hamburger-close');
 
   if (hamburger && close) {
     hamburger.onclick = function () {
       hamburger.parentElement.classList.add('is-open');
+      document.body.style.overflowY = 'hidden';
 
       bindEscKey(function () {
         hamburger.parentElement.classList.remove('is-open');
+        document.body.removeAttribute('style');
         document.onkeyup = null;
       });
     }
 
     close.onclick = function () {
       hamburger.parentElement.classList.remove('is-open');
+      document.body.removeAttribute('style');
     }
   }
 };
