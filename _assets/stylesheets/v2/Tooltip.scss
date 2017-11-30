@@ -1,19 +1,7 @@
-
-
-.Tooltip__target {
-  margin: 0 0 0 3px;
-  display: inline-block;
-  background: url(asset_path('tooltip-target.svg')) 0 0 no-repeat;
-  width: 10px;
-  height: 6px;
-  background-size: cover;
-  vertical-align: middle;
-}
-
 .Tooltip {
   position: absolute;
   top: 36px;
-  right: -100px;
+  left: 0;
   min-width: 180px;
   background: $cGreen;
   border-radius: 4px;
@@ -25,21 +13,19 @@
   opacity: 1;
 }
 
+.Tooltip__target {
+  margin: 0 0 0 3px;
+  display: inline-block;
+  background: url(asset_path('tooltip-target.svg')) 0 0 no-repeat;
+  width: 10px;
+  height: 6px;
+  background-size: cover;
+  vertical-align: middle;
+}
+
 .Tooltip--hidden {
   pointer-events: none;
   opacity: 0;
-}
-
-.Tooltip::before {
-  position: absolute;
-  margin-left: -7px;
-  top: -14px;
-  border: 7px solid transparent;
-  border-bottom: 7px solid rgba(0,0,0,0.08);
-  content: '';
-  width: 0;
-  height: 0;
-  left: 50%;
 }
 
 .Tooltip::after {
