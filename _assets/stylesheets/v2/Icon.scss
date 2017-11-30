@@ -14,11 +14,10 @@
 .Icon__tick {
   display: inline-block;
   background: url(asset_path('tick.svg')) 0 0 no-repeat;
-  background-size: cover;
+  background-size: auto;
   vertical-align: middle;
-  width: 30px;
-  height: 28px;
-  background-size: 29px 27px;
+  width: 32px;
+  height: 30px;
 }
 
 .Icon__ok {
