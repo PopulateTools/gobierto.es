@@ -64,6 +64,7 @@ var setupIntroCover = function () {
 
 var setupTooltips = function () {
   var tooltips = document.querySelectorAll('.js-tooltip');
+  var timeoutIDs = new Array(tooltips.length);
 
   for (var i = 0; i < tooltips.length; i++) {
     var tooltip = tooltips[i];
@@ -72,12 +73,20 @@ var setupTooltips = function () {
     var parent = tooltip.parentElement.querySelector('button');
 
     tooltip.parentElement.onmouseleave = function () {
-      tooltip.classList.add('Tooltip--hidden');
+      timeoutIDs[i] = setTimeout(function () {
+        tooltip.classList.add('Tooltip--hidden');
+      }, 300);
+    }
+
+    tooltip.onmouseover = function () {
+      if (timeoutIDs[i]) {
+        clearTimeout(timeoutIDs[i]);
+      }
     }
 
     parent.onmouseover = function () {
       tooltip.classList.remove('Tooltip--hidden');
-      tooltip.style.right = '-' + (target.offsetLeft + target.offsetWidth + 1)+ 'px';
+      tooltip.style.left = -tooltip.getBoundingClientRect().width / 2 + parent.getBoundingClientRect().width + 'px';
     }
   };
 
