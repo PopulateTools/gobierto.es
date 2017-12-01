@@ -37,8 +37,6 @@
 .Functionalities__features {
   background: $cBlue;
 }
-.FunctionalityList {
-}
 .FunctionalityList__itemShadow {
   width: 40px;
   height: 100%;
@@ -81,6 +79,9 @@
 
   @include sans-serif(16px, 400, $cWhite);
 }
+.Functionality__explanation {
+  display: none;
+}
 
 @media (max-width: $cMediaStretched) {
   .Functionalities__inner {
@@ -103,6 +104,12 @@
   }
   .FunctionalityList__itemContent {
     flex: 1;
+  }
+  .Functionalities__explanation {
+    display: none;
+  }
+  .Functionality__explanation {
+    display: block;
   }
 }
 

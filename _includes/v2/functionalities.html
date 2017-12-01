@@ -11,13 +11,16 @@
       <div class="Functionalities__features">
         <ul class="FunctionalityList">
           {% for f in include.functionalities %}
-          <li class="FunctionalityList__item js-functionality" data-explanation="{{ f.explanation }}">
-            <span class="Icon__tick"></span>
-            <div class="FunctionalityList__itemShadow"></div>
-            <div class="FunctionalityList__itemContent">
-              <div class="FunctionalityList__itemTitle">{{ f.title }}</div>
-              <div class="FunctionalityList__itemDescription">{{ f.description }}</div>
+          <li class="js-functionality">
+            <div class="FunctionalityList__item">
+              <span class="Icon__tick"></span>
+              <div class="FunctionalityList__itemShadow"></div>
+              <div class="FunctionalityList__itemContent">
+                <div class="FunctionalityList__itemTitle">{{ f.title }}</div>
+                <div class="FunctionalityList__itemDescription">{{ f.description }}</div>
+              </div>
             </div>
+            <p class="Functionality__explanation">{{ f.explanation }}</p>
           </li>
           {% endfor %}
         </ul>

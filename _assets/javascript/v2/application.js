@@ -132,7 +132,7 @@ var setupFunctionalities = function () {
   for (var i = 0; i < functionalities.length; i++) {
     var functionality = functionalities[i];
     functionality.onmouseenter = function () {
-      var explanationText = this.getAttribute('data-explanation');
+      var explanationText = this.querySelector('p').innerHTML;
 
       if (window.currentExplanation == explanationText) {
         return;
