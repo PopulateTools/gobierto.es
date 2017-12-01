@@ -105,6 +105,15 @@
   .Module__featureDescription {
     flex: 1;
   }
+  .Module__browser.Browser.Browser--medium {
+    width: 75vw;
+  }
+}
+
+@media (max-width: $cMediaCompact) {
+  .Module__browser.Browser.Browser--medium {
+    width: 65vw;
+  }
 }
 
 @media (max-width: $cMediaTablet) {

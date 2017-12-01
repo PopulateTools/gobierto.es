@@ -59,7 +59,7 @@ var setupIntroCover = function () {
       if (Number(w) < bpMedium) {
         browser.classList.remove('Browser--large');
         browser.classList.add('Browser--small');
-      } else if (Number(w) <= bpLarge) {
+      } else if (Number(w) < bpLarge) {
         browser.classList.remove('Browser--large');
         browser.classList.add('Browser--medium');
       }
