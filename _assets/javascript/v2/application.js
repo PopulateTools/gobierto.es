@@ -13,23 +13,22 @@ function isScrolledIntoView(elem) {
 var setupHamburger = function () {
   var hamburger = document.querySelector('.js-hamburger');
   var close = document.querySelector('.js-hamburger-close');
-  var close = document.querySelector('.js-hamburger-close');
 
   if (hamburger && close) {
     hamburger.onclick = function () {
       hamburger.parentElement.classList.add('is-open');
-      document.body.style.overflowY = 'hidden';
+      document.body.classList.add('is-fixed');
 
       bindEscKey(function () {
         hamburger.parentElement.classList.remove('is-open');
-        document.body.removeAttribute('style');
+        document.body.classList.remove('is-fixed');
         document.onkeyup = null;
       });
     }
 
     close.onclick = function () {
       hamburger.parentElement.classList.remove('is-open');
-      document.body.removeAttribute('style');
+      document.body.classList.remove('is-fixed');
     }
   }
 };
@@ -53,8 +52,14 @@ var setupIntroCover = function () {
 
     if (browser) {
       var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      var bpLarge = 1280;
+      var bpMedium = 1024;
 
-      if (Number(w) <= 1024) {
+      // Lower resolutions first
+      if (Number(w) < bpMedium) {
+        browser.classList.remove('Browser--large');
+        browser.classList.add('Browser--small');
+      } else if (Number(w) <= bpLarge) {
         browser.classList.remove('Browser--large');
         browser.classList.add('Browser--medium');
       }

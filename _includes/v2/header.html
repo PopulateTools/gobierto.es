@@ -6,7 +6,7 @@
         <a href="/acerca-de" class="Header__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Nosotros</a>
       </li>
       <li class="Header__option">
-        <button class="Header__link Header__tooltip{% if page.kind == 'module' %} is-active{% endif %}">Módulos <span class="Tooltip__target js-tooltip-target"></span></button>
+        <button class="Header__link Header__link--nopadding{% if page.kind == 'module' %} is-active{% endif %}">Módulos <span class="Tooltip__target js-tooltip-target"></span></button>
         <div class="Tooltip Tooltip--hidden js-tooltip">
 
           <ul class="Tooltip__items">
@@ -30,11 +30,11 @@
 
     <div class="Menu">
       <button class="Menu--open js-hamburger">
-        <i class="fa fa-bars" aria-hidden="true"></i>
+        <i class="Icon__navicon" aria-hidden="true"></i>
       </button>
       <div class="Menu__content">
         <button class="Menu--close js-hamburger-close">
-          <i class="fa fa-2x fa-times" aria-hidden="true"></i>
+          <i class="Icon__close" aria-hidden="true"></i>
         </button>
         <ul class="Menu__list">
           <li class="Menu__item">

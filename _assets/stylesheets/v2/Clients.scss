@@ -19,8 +19,6 @@
   margin: 0 0 48px;
   @include sans-serif(24px, 700, $cBlue);
 }
-.Client__link {
-}
 .Client__logos {
   display: flex;
   justify-content: space-between;
@@ -34,12 +32,6 @@
 }
 .Client__logo:hover {
   opacity: 0.5;
-}
-
-@media (max-width: $cMediaMobile) {
-  .Client__logo {
-    margin: 16px auto !important;
-  }
 }
 
 @media (max-width: $cMediaTablet) {
@@ -57,6 +49,12 @@
   }
   .Client__logo {
     margin: 16px 0;
+  }
+}
+
+@media (max-width: $cMediaMobile) {
+  .Client__logo {
+    margin: 16px auto;
   }
 }
 

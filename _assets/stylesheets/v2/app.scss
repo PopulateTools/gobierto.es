@@ -38,6 +38,10 @@ body {
   line-height: 135%;
 }
 
+body.is-fixed {
+  position: fixed;
+}
+
 strong {
   font-weight: 700;
 }

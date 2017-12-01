@@ -96,3 +96,21 @@
   width: 1071px;
   height: 879px;
 }
+
+.Icon__navicon {
+  display: inline-block;
+  background: url(asset_path('navicon.svg')) 0 0 no-repeat;
+  background-size: auto;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}
+
+.Icon__close {
+  display: inline-block;
+  background: url(asset_path('close.svg')) 0 0 no-repeat;
+  background-size: auto;
+  vertical-align: middle;
+  width: 30px;
+  height: 30px;
+}

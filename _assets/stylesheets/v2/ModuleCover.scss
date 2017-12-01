@@ -97,13 +97,12 @@
 @media (max-width: $cMediaTablet) {
   .ModuleCover__top {
     flex-direction: column;
-
-    :first-child {
-      margin: 0 0 (25px / 2);
-    }
-    :last-child {
-      margin: (25px / 2) 0 0 0;
-    }
+  }
+  .ModuleCover__top :first-child {
+    margin: 0 0 (25px / 2);
+  }
+  .ModuleCover__top :last-child {
+    margin: (25px / 2) 0 0 0;
   }
   .ModuleCover__browser,
   .ModuleCover__header {
@@ -117,14 +116,12 @@
   }
   .ModuleCover__keys {
     flex-direction: column;
-
-    > :nth-child(even) {
-      margin: 24px 0;
-    }
-
-    .ModuleCover__key {
-      width: 100%;
-    }
+  }
+  .ModuleCover__keys > :nth-child(even) {
+    margin: 24px 0;
+  }
+  .ModuleCover__keys .ModuleCover__key {
+    width: 100%;
   }
   .ModuleCover__title {
     font-size: 36px;

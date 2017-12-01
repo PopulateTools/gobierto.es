@@ -55,7 +55,7 @@
   margin: 0 5px;
   transition: color $transitionSlow ease-in-out;
 }
-.Header__link.Header__tooltip {
+.Header__link--nopadding {
   padding: 0;
 }
 .Header__link.is-active {
@@ -106,9 +106,6 @@
   }
   .Header__CTA {
     display: none;
-  }
-  .Header .Logo {
-    //background-size: 100px;
   }
   .Header__inner {
     width: 90%;

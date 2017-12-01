@@ -11,11 +11,6 @@
   @include reset-button();
 }
 
-// $closeButtonHeight: 87px;
-// .Menu--close {
-//   height: $closeButtonHeight;
-// }
-
 .Menu.is-open .Menu__content {
   transform: translate(0, 0);
 }
@@ -40,21 +35,18 @@
   flex-direction: column;
   align-items: stretch;
   height: calc(100%);
-
-  > :nth-child(odd) {
-    background-color: $cBlue;
-
-    .Menu__link:hover {
-      color: rgba($cCyan, 0.5);
-    }
-  }
-  > :nth-child(even) {
-    background-color: $cCyan;
-
-    .Menu__link:hover {
-      color: rgba($cBlue, 0.5);
-    }
-  }
+}
+.Menu__list > :nth-child(odd) {
+  background-color: $cBlue;
+}
+.Menu__list > :nth-child(odd) .Menu__link:hover {
+  color: rgba($cCyan, 0.5);
+}
+.Menu__list > :nth-child(even) {
+  background-color: $cCyan;
+}
+.Menu__list > :nth-child(even) .Menu__link:hover {
+  color: rgba($cBlue, 0.5);
 }
 
 .Menu__item {
@@ -82,6 +74,10 @@
   .Menu__link {
     margin: 0;
     @include sans-serif(20px, 400, $cWhite);
+  }
+
+  .Menu__link:hover {
+    color: rgba($cBlue, 0.5);
   }
 }
 
