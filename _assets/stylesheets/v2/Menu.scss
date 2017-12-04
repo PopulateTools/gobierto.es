@@ -30,6 +30,14 @@
   overflow-y: auto;
 }
 
+.Menu__content__inner {
+  padding: 32px 0 24px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
 .Menu__list {
   display: flex;
   flex-direction: column;
@@ -58,29 +66,6 @@
   width: 100%;
 }
 
-#Menu__item--modules.Menu__item {
-  flex: 3;
-  flex-direction: column;
-  @include sans-serif(42px, 700, $cWhite);
-
-  strong {
-    margin: 0 0 5px;
-  }
-
-  .Menu__sublist {
-    width: 100%;
-  }
-
-  .Menu__link {
-    margin: 0;
-    @include sans-serif(20px, 400, $cWhite);
-  }
-
-  .Menu__link:hover {
-    color: rgba($cBlue, 0.5);
-  }
-}
-
 .Menu__link {
   display: inline-flex;
   width: 100%;
@@ -88,6 +73,29 @@
   align-items: center;
   justify-content: center;
   @include sans-serif(42px, 700, $cWhite);
+}
+
+.Menu__item--modules {
+  flex: 3;
+  flex-direction: column;
+  @include sans-serif(42px, 700, $cWhite);
+}
+
+.Menu__item--modules strong {
+  margin: 0 0 5px;
+}
+
+.Menu__sublist {
+  width: 100%;
+}
+
+.Menu__item--modules .Menu__link {
+  margin: 0;
+  @include sans-serif(20px, 400, $cWhite);
+}
+
+.Menu__item--modules .Menu__link:hover {
+  color: rgba($cBlue, 0.5);
 }
 
 @media (max-width: $cMediaTablet) {

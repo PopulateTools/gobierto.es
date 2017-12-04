@@ -33,14 +33,16 @@
         <i class="Icon__navicon" aria-hidden="true"></i>
       </button>
       <div class="Menu__content">
-        <button class="Menu--close js-hamburger-close">
-          <i class="Icon__close" aria-hidden="true"></i>
-        </button>
+        <div class="Menu__content__inner">          
+          <button class="Menu--close js-hamburger-close">
+            <i class="Icon__close" aria-hidden="true"></i>
+          </button>
+        </div>
         <ul class="Menu__list">
           <li class="Menu__item">
             <a href="/acerca-de" class="Header__link Menu__link">Nosotros</a>
           </li>
-          <li id="Menu__item--modules" class="Menu__item">
+          <li class="Menu__item Menu__item--modules">
             <strong>Módulos</strong>
             <ul class="Menu__sublist">
               {% for node in site.data.modules %}

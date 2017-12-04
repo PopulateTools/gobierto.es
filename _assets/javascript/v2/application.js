@@ -17,7 +17,11 @@ var setupHamburger = function () {
   if (hamburger && close) {
     hamburger.onclick = function () {
       hamburger.parentElement.classList.add('is-open');
-      document.body.classList.add('is-fixed');
+
+      setTimeout(function () {
+        // Set class once Menu is shown, in order to avoid the background elements misalignment
+        document.body.classList.add('is-fixed');
+      }, 250);
 
       bindEscKey(function () {
         hamburger.parentElement.classList.remove('is-open');
