@@ -111,6 +111,15 @@
   .Functionality__explanation {
     display: block;
   }
+  .Functionality__explanation a {
+    color: $cGreen;
+  }
+  .FunctionalityList__itemShadow {
+    display: none;
+  }
+  .FunctionalityList__item:hover {
+    background: none;
+  }
 }
 
 @media (max-width: $cMediaMobile) and (orientation: portrait) {
