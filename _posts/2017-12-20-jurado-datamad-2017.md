@@ -9,9 +9,9 @@ author: Fernando Blat
 main_photo: posts/171220-dataton-cover.png
 ---
 
-Este pasado fin de semana terminaó la segunda edición del Concurso de Periodismo de Datos y el Datatón Ciudad de Madrid 2017, donde uno de los fundadores de Gobierto ha participado como jurado, revisando los trabajos y ayudando a decidir a los ganadores.
+Este pasado fin de semana terminó la segunda edición del Concurso de Periodismo de Datos y el Datatón Ciudad de Madrid 2017, donde Fernando Blat, uno de los fundadores de Gobierto ha participado como jurado, revisando los trabajos y ayudando a decidir a los ganadores.
 
-Este año el concurso se dividía en dos categorías: periodismo de datos y desarrollo de aplicaciones. En ambas categorías era requisito utilizar datos del [portal de datos abiertos de Madrid](http://datos.madrid.es/portal/site/egob/). 
+Este año el concurso se dividía en dos categorías: periodismo de datos y desarrollo de aplicaciones. En ambas categorías era requisito utilizar datos del [portal de datos abiertos de Madrid](http://datos.madrid.es/portal/site/egob/).
 
 Se recibieron muchos más proyectos que el año pasado, de temas tan diversos como alergias, recorridos de los autobuses urbanos, gentrificación y alquiler, o un análisis de las incidencias registradas en el AVISA 010, el servicio de asistencia de Madrid.
 
@@ -38,7 +38,7 @@ Se recibieron muchos más proyectos que el año pasado, de temas tan diversos co
 
 ## La importancia de estas iniciativas
 
-Desde Gobierto somos bastante críticos con los portales de datos abiertos, y siempre hemos defendido que su implantación muchas veces no tienen sentido si no se acompaña de iniciativas que muestren y fomenten su uso desde la ciudadanía.
+Desde Gobierto pensamos que hay muchas oportunidades para mejorar los portales de datos abiertos de las ciudades. Iniciativas como esta pueden darlos a conocer y a generar demanda de ciudadanos y empresas para exigir la mejora de estos portales, cuyo desarrollo por otro lado no es sencillo.
 
 El periodismo de datos es un clarísimo ejemplo de cómo se pueden utilizar datos para explicar situaciones y contar historias. También lo es el desarrollo de herramientas que exploten los datos y ofrezcan una visión práctica de los mismos mediante su explotación.
 
