@@ -43,18 +43,23 @@
   flex-direction: column;
   align-items: stretch;
   height: calc(100%);
-}
-.Menu__list > :nth-child(odd) {
   background-color: $cBlue;
-}
-.Menu__list > :nth-child(odd) .Menu__link:hover {
-  color: rgba($cCyan, 0.5);
-}
-.Menu__list > :nth-child(even) {
-  background-color: $cCyan;
-}
-.Menu__list > :nth-child(even) .Menu__link:hover {
-  color: rgba($cBlue, 0.5);
+
+
+  // > :nth-child(odd) {
+  //
+  //
+  //   .Menu__link:hover {
+  //     color: rgba($cCyan, 0.5);
+  //   }
+  // }
+  // > :nth-child(even) {
+  //
+  //
+  //   .Menu__link:hover {
+  //     color: rgba($cBlue, 0.5);
+  //   }
+  // }
 }
 
 .Menu__item {
@@ -78,8 +83,7 @@
 .Menu__item--modules {
   flex: 3;
   flex-direction: column;
-  @include sans-serif(42px, 700, $cWhite);
-}
+  // @include sans-serif(20px, 700, $cWhite);
 
 .Menu__item--modules strong {
   margin: 0 0 5px;
@@ -94,8 +98,23 @@
   @include sans-serif(20px, 400, $cWhite);
 }
 
-.Menu__item--modules .Menu__link:hover {
-  color: rgba($cBlue, 0.5);
+// .Menu__link {
+.Menu__item a {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  @include sans-serif(20px, 700, $cCyan);
+  padding: 1em;
+}
+.Menu__item a:hover {
+  color: rgba($cCyan, 0.8);
+}
+.Menu__item {
+  .Menu__sublist a {
+    padding: initial;
+  }
 }
 
 @media (max-width: $cMediaTablet) {
