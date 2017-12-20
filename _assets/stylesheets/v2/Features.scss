@@ -32,7 +32,6 @@
 .Feature__key:nth-child(2) > .Features__keyIcon {
   border-color: $cYellow;
 }
-
 .Feature__key:nth-child(3) > .Features__keyIcon {
   border-color: $cGreen;
 }
@@ -44,4 +43,33 @@
 .Features__description {
   @include sans-serif(36px, 700, $cYellow);
   line-height: 120%;
+}
+
+@media (max-width: $cMediaStretched) {
+  .Features__inner {
+    width: 90%;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Features {
+    padding: 60px 0;
+  }
+  .Features__keys {
+    flex-direction: column;
+
+    > :nth-child(even) {
+      margin: 12px 0;
+    }
+
+    .Feature__key {
+      width: 100%;
+    }
+  }
+  .Features__title {
+    font-size: 36px;
+  }
+  .Features__description {
+    font-size: 32px;
+  }
 }

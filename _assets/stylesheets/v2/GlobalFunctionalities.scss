@@ -45,7 +45,6 @@
   color: $cRed;
 }
 
-
 .GlobalFunctionalities__itemIcon--calendar {
   background: url(asset_path('calendar.svg')) no-repeat 0 0;
   background-size: cover;
@@ -82,4 +81,34 @@
 }
 .GlobalFunctionalities__itemIcon {
   margin: 0 auto 36px;
+}
+
+@media (max-width: $cMediaStretched) {
+  .GlobalFunctionalities__inner {
+    width: 90%;
+  }
+  .GlobalFunctionalities__header {
+    width: 100%;
+  }
+}
+
+@media (max-width: $cMediaMobile) {
+  .GlobalFunctionalities__content {
+    flex-direction: column;
+  }
+  .GlobalFunctionalities__item {
+    width: 100%;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .GlobalFunctionalities {
+    padding: 60px 0;
+  }
+  .GlobalFunctionalities__title {
+    font-size: 36px;
+  }
+  .GlobalFunctionalities__description {
+    font-size: 32px;
+  }
 }

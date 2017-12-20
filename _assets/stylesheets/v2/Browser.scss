@@ -83,6 +83,14 @@
   width: 800px;
   height: 540px;
 }
+.Cover__browser.Browser--medium {
+  width: 75vw;
+  height: 540px;
+}
+.Browser.Browser--small {
+  width: 65vw;
+  height: 540px;
+}
 
 .Browser__header {
   position: relative;

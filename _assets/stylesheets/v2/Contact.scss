@@ -1,4 +1,3 @@
-
 .Contact {
   padding: 120px 0;
 }
@@ -72,4 +71,36 @@
   border-radius: 0;
   font-size: 20px;
   padding: 24px;
+}
+
+@media (max-width: $cMediaMobile) {
+  .Contact__input {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $cMediaCompact) {
+  .Contact__content {
+    margin: 0 0 32px;
+    width: auto;
+  }
+  .Contact__inner {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $cMediaStretched) {
+  .Contact__inner {
+    width: 90%;
+  }
+  .Contact__inputField.Input__field {
+    width: auto;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Contact {
+    padding: 60px 0;
+  }
 }

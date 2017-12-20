@@ -1,5 +1,3 @@
-
-
 .Demo {
   padding: 120px 0;
 }
@@ -16,6 +14,9 @@
 .Demo__content {
   width: 464px;
 }
+.Demo__form {
+  width: 560px;
+}
 .Demo__title {
   @include sans-serif(42px, 700, $cWhite);
   line-height: 120%;
@@ -31,4 +32,33 @@
   font-size: 20px;
   width: 100%;
   padding: 23px 0;
+}
+
+@media (max-width: $cMediaTablet) {
+  .Demo__content {
+    margin: 0 0 32px;
+    width: auto;
+  }
+  .Demo__form {
+    width: auto;
+  }
+  .Demo__inner {
+    width: 90%;
+    flex-direction: column;
+  }
+  .Demo__input {
+    width: 100%;
+  }
+}
+
+@media (max-width: $cMediaStretched) {
+  .Demo__inner {
+    width: 90%;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Demo {
+    padding: 60px 0;
+  }
 }

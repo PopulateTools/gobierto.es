@@ -1,0 +1,129 @@
+.Menu,
+.Menu--open {
+  display: none;
+}
+
+.Menu--open,
+.Menu--close {
+  color: $cCyan;
+
+  @include appearance();
+  @include reset-button();
+}
+
+.Menu.is-open .Menu__content {
+  transform: translate(0, 0);
+}
+
+.Menu__content {
+  width: 50%;
+  height: 100%;
+  background-color: $cWhite;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  transform: translate(1000px, 0);
+  z-index: 100;
+  transition: transform $transitionSlow ease-in-out;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.Menu__content__inner {
+  padding: 32px 0 24px;
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  margin: auto;
+}
+
+.Menu__list {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: calc(100%);
+  background-color: $cBlue;
+
+
+  // > :nth-child(odd) {
+  //
+  //
+  //   .Menu__link:hover {
+  //     color: rgba($cCyan, 0.5);
+  //   }
+  // }
+  // > :nth-child(even) {
+  //
+  //
+  //   .Menu__link:hover {
+  //     color: rgba($cBlue, 0.5);
+  //   }
+  // }
+}
+
+.Menu__item {
+  display: flex;
+  flex: 1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.Menu__link {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  @include sans-serif(42px, 700, $cWhite);
+}
+
+.Menu__item--modules {
+  flex: 3;
+  flex-direction: column;
+  // @include sans-serif(20px, 700, $cWhite);
+
+.Menu__item--modules strong {
+  margin: 0 0 5px;
+}
+
+.Menu__sublist {
+  width: 100%;
+}
+
+.Menu__item--modules .Menu__link {
+  margin: 0;
+  @include sans-serif(20px, 400, $cWhite);
+}
+
+// .Menu__link {
+.Menu__item a {
+  display: inline-flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  @include sans-serif(20px, 700, $cCyan);
+  padding: 1em;
+}
+.Menu__item a:hover {
+  color: rgba($cCyan, 0.8);
+}
+.Menu__item {
+  .Menu__sublist a {
+    padding: initial;
+  }
+}
+
+@media (max-width: $cMediaTablet) {
+  .Menu,
+  .Menu--open {
+    display: block;
+  }
+  .Menu__content {
+    width: 100%;
+    position: fixed;
+  }
+}

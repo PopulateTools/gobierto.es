@@ -18,14 +18,21 @@ var setupHamburger = function () {
     hamburger.onclick = function () {
       hamburger.parentElement.classList.add('is-open');
 
+      setTimeout(function () {
+        // Set class once Menu is shown, in order to avoid the background elements misalignment
+        document.body.classList.add('is-fixed');
+      }, 250);
+
       bindEscKey(function () {
         hamburger.parentElement.classList.remove('is-open');
+        document.body.classList.remove('is-fixed');
         document.onkeyup = null;
       });
     }
 
     close.onclick = function () {
       hamburger.parentElement.classList.remove('is-open');
+      document.body.classList.remove('is-fixed');
     }
   }
 };
@@ -44,6 +51,23 @@ var setupIntroCover = function () {
 
   if (cover) {
     cover.classList.add('Cover--intro');
+
+    var browser = document.querySelector('.Browser--large');
+
+    if (browser) {
+      var w = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+      var bpLarge = 1280;
+      var bpMedium = 1024;
+
+      // Lower resolutions first
+      if (Number(w) < bpMedium) {
+        browser.classList.remove('Browser--large');
+        browser.classList.add('Browser--small');
+      } else if (Number(w) < bpLarge) {
+        browser.classList.remove('Browser--large');
+        browser.classList.add('Browser--medium');
+      }
+    }
   }
 };
 
@@ -112,7 +136,7 @@ var setupFunctionalities = function () {
   for (var i = 0; i < functionalities.length; i++) {
     var functionality = functionalities[i];
     functionality.onmouseenter = function () {
-      var explanationText = this.getAttribute('data-explanation');
+      var explanationText = this.querySelector('p').innerHTML;
 
       if (window.currentExplanation == explanationText) {
         return;

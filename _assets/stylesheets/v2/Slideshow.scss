@@ -1,5 +1,3 @@
-
-
 .Slideshow {
   background: $cWhite;
   padding: 120px 0;
@@ -63,7 +61,6 @@
   transition: all $transitionRegular ease-in-out;
 }
 
-
 .Slideshow__link {
   color: $cGreen;
   text-decoration: none;
@@ -73,4 +70,29 @@
 
 .Slideshow__link:hover {
   color: darken($cGreen, 20%);
+}
+
+@media (max-width: $cMediaTablet) {
+  .Slideshow__content {
+    margin: 0 0 32px;
+  }
+  .Slideshow__items {
+    width: auto;
+  }
+  .Slideshow__inner {
+    width: 90%;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: $cMediaStretched) {
+  .Slideshow__inner {
+    width: 90%;
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Slideshow {
+    padding: 60px 0;
+  }
 }

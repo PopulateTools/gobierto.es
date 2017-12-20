@@ -1,5 +1,3 @@
-
-
 .Header {
   background: $cWhite;
   padding: 32px 0 24px;
@@ -11,6 +9,9 @@
   }
 }
 .Header__CTA {
+  min-width: 136px;
+  display: block;
+
   @media all and (max-width : $cMediaMobile) {
     display: none;
   }
@@ -54,7 +55,7 @@
   margin: 0 5px;
   transition: color $transitionSlow ease-in-out;
 }
-button.Header__link {
+.Header__link--nopadding {
   padding: 0;
 }
 .Header__link.is-active {
@@ -65,55 +66,10 @@ button.Header__link {
 .Header__link:hover {
   color: $cDarkGray;
 }
-
-.Header__hamburger {
-  display: none;
-}
-
-.Header__hamburgerIcon {
-  display: none;
-  background: red;
-  border-radius: none;
-  width: 20px;
-  height: 20px;
-}
-
-.Header__hamburger.is-open .Header__hamburgerMenu {
-  transform: translate(0, 0);
-}
-
-.Header__hamburgerList {
-}
-
-.Header__hamburgerMenu {
-  width: 50%;
-  height: 100%;
-  background: #fff;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  transform: translate(1000px, 0);
-  z-index: 100;
-  transition: transform $transitionSlow ease-in-out;
-}
-
-.Header__hamburgerMenu {
-  text-align: center;
-  overflow-y: auto;
-}
-
-.Header__hamburgerItem {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 100%;
-  border-bottom: 1px solid #ccc;
-}
-
-.Header__hamburgerMenu .Tooltip__link {
-  color: $cBlue;
+.Header__Button {
+  min-width: 136px;
+  display: block;
+  box-sizing: border-box;
 }
 
 #banner {
@@ -132,11 +88,15 @@ button.Header__link {
   margin: auto;
 }
 
-
-/*
 @media (max-width: $cMediaStretched) {
   .Header__inner {
     width: 90%;
+  }
+
+  .Header__options {
+    display: flex;
+    width: 100%;
+    margin: 0 32px;
   }
 }
 
@@ -144,24 +104,8 @@ button.Header__link {
   .Header__inner {
     width: 90%;
   }
-}
-
-@media (max-width: $cMediaMobile) {
-  .Header__hamburger {
-    display: block;
-  }
-  .Header__hamburgerIcon {
-    display: block;
-  }
   .Header__CTA {
     display: none;
-  }
-  .Header__hamburgerMenu {
-    width: 100%;
-    position: fixed;
-  }
-  .Header .Logo {
-    background-size: 100px;
   }
   .Header__inner {
     width: 90%;
@@ -170,4 +114,3 @@ button.Header__link {
     display: none;
   }
 }
-*/

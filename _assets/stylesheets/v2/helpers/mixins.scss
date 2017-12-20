@@ -1,0 +1,24 @@
+@mixin appearance($value: none) {
+	-webkit-appearance: $value;
+	   -moz-appearance: $value;
+	        appearance: $value;
+}
+
+@mixin reset-button() {
+    overflow: visible; // Shrinkwrap the text in IE7-
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    font: inherit; // Inherit font settings (doesn’t work in IE7-)
+    line-height: normal; // Override line-height to avoid spacing issues
+    cursor: pointer; // Buttons don’t make the cursor change in all browsers
+
+    /* Remove mystery padding in Gecko browsers.
+     * See https://bugzilla.mozilla.org/show_bug.cgi?id=140562
+     */
+    &::-moz-focus-inner {
+        padding: 0;
+        border: 0;
+    }
+}

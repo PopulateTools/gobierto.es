@@ -1,11 +1,8 @@
-
-
 .Cover {
   position: relative;
   overflow: hidden;
   padding: 100px 0;
   background: $cBlue;
-
 }
 .Cover--intro .Cover__browser {
   transform: rotate(-6deg) translate(0, 0);
@@ -65,20 +62,32 @@
 }
 
 
-/*
-@media all and (max-width: 700px) {
+@media (max-width: $cMediaStretched) {
+  .Cover__inner {
+    width: 90%;
+  }
+}
+
+@media (max-width: $cMediaTablet) {
   .Cover__keys {
     flex-direction: column;
   }
   .Cover__header {
     width: 100%;
   }
-  .Cover__inner {
-    width: 90%;
-    background: red;
-  }
   .Cover__browser {
     display: none;
   }
 }
-*/
+
+@media (max-width: $cMediaMobile) {
+  .Cover__title {
+    @include sans-serif(32px, 700, $cWhite);
+  }
+}
+
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .Cover {
+    padding: 50px 0;
+  }
+}

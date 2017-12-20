@@ -20,5 +20,8 @@
   @include sans-serif(12px, 400, rgba(#333, 0.67));
 }
 
-
-
+@media (max-width: $cMediaMobile) {
+  .Logo__populate {
+    margin: 0 auto;
+  }
+}

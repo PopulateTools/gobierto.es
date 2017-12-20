@@ -99,24 +99,11 @@
   grid-gap: 24px;
   grid-row-gap: 34px;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  // TODO: IE/edge don't understand CSS GRID
 }
 
 @media only screen and (min-width : $cMediaStretched) {
   .Posts__inner {
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  }
-}
-
-
-@media only screen and (max-width : 1280px) {
-  .Posts__inner {
-    width: $innerSize;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  }
-}
-
-@media only screen and (max-width : $cMediaStretched) {
-  .Posts__inner {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   }
 }
