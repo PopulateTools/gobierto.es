@@ -5,7 +5,7 @@ permalink: /temas/
 ---
 
 <div class="Posts">
-  <h2 class="Blog__title"><a href="/blog" class="Blog__titleLink">Blog</a> &mdash; {{ page.category }}</h2>
+  <h2 class="Blog__title"><a href="/blog" class="Blog__titleLink">Blog</a> &mdash; {{ page.title }}</h2>
 
   <div class="Posts__inner">
     {% for post in site.categories[page.category] %}
