@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Gobierto · Herramientas para conectar con tus vecinos"
-description: Gobierto crea herramientas de transparencia y participación que funcionan de verdad para mejorar la comunicación con  tus vecinos
+title: "Gobierto · Plataforma de Gobierto Abierto open source"
+description: Gobierto ofrece metodología y herramientas open source para desplegar iniciativas de gobierno abierto. Transparencia, Participación, Rendición de Cuentas y Comunicación Ciudadana.
 baseurl: "" # the subpath of your site, e.g. /blog
 
 # default permalink for blog posts
