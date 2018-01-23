@@ -27,6 +27,6 @@ Fundador de Vizzuality. Nos hablará sobre cómo los datos abiertos pueden salva
 
 <div class="separator blue short"></div>
 
-Será el próximo jueves 25 de enero a las 19pm. [Designit](https://twitter.com/Designit_ES) nos dará de beber. Puedes apuntarte en la [página del meetup](https://www.meetup.com/es-ES/preview/Civic-Tech-Madrid).
+Será el próximo jueves 25 de enero a las 19pm. [Designit](https://twitter.com/Designit_ES) nos dará de beber. Puedes apuntarte en la [página del meetup](https://www.meetup.com/Civic-Tech-Madrid/events/246715873/).
 
 Y tendremos streaming. Puedes seguir a [@gobierto](https://twitter.com/gobierto) donde iremos haciendo seguimiento del evento.
