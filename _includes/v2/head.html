@@ -17,6 +17,24 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} · Gobierto</title>
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
 
+  {% if page.main_photo_big %}
+    {% if page.main_photo_big contains '://' %}
+      <meta property="og:image" content="{{page.main_photo_big}}" />
+    {% else %}
+      <meta property="og:image" content="{{site.url}}{% asset_path v1/{{page.main_photo_big}} %}" />
+    {% endif %}
+  {% else %}
+    {% if page.main_photo %}
+      {% if page.main_photo_big contains '://' %}
+        <meta property="og:image" content="{{page.main_photo}}" />
+      {% else %}
+        <meta property="og:image" content="{{site.url}}{% asset_path v1/{{page.main_photo}} %}" />
+      {% endif %}
+    {% else %}
+      <meta property="og:image" content="{{site.url}}{% asset_path 'v1/posts/_default_post_image.png' %}" />
+    {% endif %}
+  {% endif %}
+
   <meta name="description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
 
