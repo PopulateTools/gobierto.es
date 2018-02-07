@@ -127,3 +127,15 @@
     font-size: 36px;
   }
 }
+
+.ModuleCover__Video {
+  position: relative;
+  background: $cWhite;
+  width: 634px;
+  overflow:hidden;
+}
+@media (max-width: $cMediaMobile) and (orientation: portrait) {
+  .ModuleCover__Video {
+    width: 100%;
+  }
+}
