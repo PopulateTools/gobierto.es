@@ -33,4 +33,4 @@ El desarrollo de Decidim es un ejemplo de buenas prácticas en cuanto a la creac
 
 {% img 'v1/posts/180123-decidim-3.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
-En la [organización de Decidim de Github](http://github.com/decidim) podéis echar un vistazo a los distintos repositorios y proyectos. En [meta.decidim](meta.decidim) te puedes involucrar para participar en el desarrollo del proyecto.
+En la [organización de Decidim de Github](http://github.com/decidim) podéis echar un vistazo a los distintos repositorios y proyectos. En [meta.decidim](http://meta.decidim.barcelona) te puedes involucrar para participar en el desarrollo del proyecto.
