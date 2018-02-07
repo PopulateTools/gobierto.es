@@ -46,3 +46,5 @@ Sobre la experiencias de los distintos usuarios potenciales:
 En un próximo post contaremos como hemos aplicado estas premisas para diseñar el sistema de agendas de Gobierto.
 
 Os dejamos una interesante y reciente análisis a cargo de Miguel Ángel Gonzalo: [La publicidad de la agenda de los parlamentarios](http://miguelgonzalo.net/la-publicidad-de-la-agenda-parlamentaria/).
+
+En Gobierto: [Publicacion de agendas de altos cargos: sincronización automática desde IBM Notes, Google Calendar y Outlook](/blog/20180207-gobierto-agendas.html)
