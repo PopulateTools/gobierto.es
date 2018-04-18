@@ -8,7 +8,7 @@ categories:
   - gobierto
   - femp
 author: Fernando Blat
-main_photo: posts/2018-04-12-guia-datos-abiertos.png
+main_photo: posts/180412-guia-datos-abiertos.png
 ---
 
 El año pasado se creó el Grupo de Trabajo de Datos Abiertos de la [FEMP](http://www.femp.es/) con el objetivo de ayudar a la apertura y difusión de datos abiertos en los municipios. En el grupo no sólo había entidades locales invitadas, sino también empresas como Populate, e instituciones como Red.es y el Medialab Prado de Madrid, donde tienen lugar las reuniones.
