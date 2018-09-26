@@ -42,3 +42,8 @@ Más recursos:
 - Consulta nuestra serie de [conversaciones sobre participación con expertos](/temas/participacion/) que están poniendo iniciativas en marcha a nivel municipal
 - Nuestra serie sobre [presupuestos participativos](/blog/20160530-presupuestos-participativos.html)
 - [Nuestros principios de diseño](/blog/20170711-principios-de-diseno-gobierto.html)
+
+<div class="txtCtaBox">
+  <div class="Module__shadow"></div>
+  <a href="/modulos/participacion/">Tu plataforma de participación de Gobierto</a>
+</div>

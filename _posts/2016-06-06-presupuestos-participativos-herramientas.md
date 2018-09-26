@@ -15,6 +15,12 @@ main_photo_big: https://images.unsplash.com/photo-1457685373807-8c4d8be4c560?cro
 
 Parte 3 de 3 de la serie sobre presupuestos y participación. Lee las entradas anteriores: [Madrid: gran proceso, pocos participantes ¿Qué más se puede hacer?](/blog/20160530-presupuestos-participativos.html) y [¿Qué pasaría si nuestro municipio fuese como nuestra comunidad de vecinos?](/blog/20160602-presupuestos-participativos-retos-alternativas.html)
 
+
+<div class="txtCtaBox">
+  <div class="Module__shadow"></div>
+  <a href="/modulos/participacion/">Monta tus presupuestos participativos con la herramienta de participación de Gobierto</a>
+</div>
+
 <div class="separator"></div>
 
 Las iniciativas que más exito tienen a la hora de recabar opinión sobre presupuestos son aquellas que tienen una complejidad progresiva, permiten una participación informada y tienen un componente de juego que favorece que la gente se involucre. Para ello, muchas organizaciones han optado por herramientas en torno a la *simulación de presupuestos*. En este artículo os dejamos algunos ejemplos.
@@ -102,3 +108,8 @@ Visita: [Consultas sobre presupuestos de Gobierto](/blog/20161020-alternativa-pr
 <div class="separator"></div>
 
 **En Gobierto estamos diseñando nuestra propia herramienta de consultas sobre presupuestos**, que acompañará a nuestra [herramienta de visualización](/visualizacion_presupuestos_municipales) (¡y otras!). Si trabajas en una administración pública y estás pensando en poner en marcha iniciativas de participación y consulta, nos encantará hablar contigo para compartir nuestras ideas y recabar feedback sobre tus necesidades. [Escríbenos](mailto:abre@gobierto.es).
+
+<div class="txtCtaBox">
+  <div class="Module__shadow"></div>
+  <a href="/modulos/participacion/">Monta tus presupuestos participativos con la herramienta de participación de Gobierto</a>
+</div>

@@ -107,3 +107,28 @@
 //     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
 //   }
 // }
+.txtCtaBox {
+  position: relative;
+  background: $cBlue;
+  border-radius: 4px;
+  .Module__shadow {
+    width: 100%;
+    height: 100%;
+  }
+  a {
+    z-index: 100;
+    display: block;
+    position: relative;
+    @include sans-serif(22px, 600, $cWhite);
+    text-decoration: none;
+    padding: 2em 3em;
+
+    margin: 0 0 2rem 0;
+    text-align: center;
+    transition: opacity $transitionRegular linear;
+  }
+  a:hover {
+    color: $cWhite;
+    opacity: .7;
+  }
+}
