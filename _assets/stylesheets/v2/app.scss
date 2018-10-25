@@ -72,3 +72,21 @@ strong {
   top: -2px;
   left: -4px;
 }
+
+.separator {
+  margin: 3em 0;
+  border-top: 1px solid $cSubtleGray;
+}
+.separator.blue {
+  border-top: 1px solid rgba($cBlue, 0.3);
+}
+.separator_short {
+  margin: 3em auto;
+  border-top: 1px solid $cSubtleGray;
+  width: 33%;
+}
+.separator.short {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
