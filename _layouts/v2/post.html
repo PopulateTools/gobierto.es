@@ -4,8 +4,8 @@ layout: v2/default
 {% capture i18n_date -%}
 {{ page.date | date: "%-d" -}}
 {% assign m = page.date | date: "%-m" | minus: 1 %}
-de {{ site.data.months[m] }}
-de {{ page.date | date: "%Y" -}}
+{{ site.data.months[m] }}
+{{ page.date | date: "%Y" -}}
 {% endcapture -%}
 
 <article itemscope itemtype="http://schema.org/Article">
@@ -49,6 +49,28 @@ de {{ page.date | date: "%Y" -}}
           {% endfor %}
         </div>
         {% endif %}
+
+
+        <div class="Posts__last">
+          <h2>Últimos posts publicados</h2>
+
+        {% for post in site.posts limit:5 %}
+          <div class="Posts__post">
+            <a class="Blog__entryLink" href="{{ post.url | prepend: site.baseurl }}">
+              <span class="date">{{ post.date | date_to_string }}</span>
+              <span itemprop="name headline">{{ post.title }}</span>
+            </a>
+          </div>
+
+        {% endfor %}
+          <div class="Posts__post">
+            <a class="Blog__entryLink" href="/blog/">
+              <span class="date"> </span>
+              <span itemprop="name headline">ver todos</span>
+            </a>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>

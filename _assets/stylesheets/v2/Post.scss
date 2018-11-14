@@ -225,3 +225,19 @@
   height: 100%;
   z-index: 100;
 }
+.Posts__last {
+  margin: 5em 0;
+  .Posts__post {
+    margin: 0 0 .5em 0;
+  }
+  a .date {
+    display: inline-block;
+    width: 15%;
+    color: $cGray;
+    font-weight: normal;
+
+    @media all and (max-width : $cMediaTablet) {
+      display: block;
+    }
+  }
+}

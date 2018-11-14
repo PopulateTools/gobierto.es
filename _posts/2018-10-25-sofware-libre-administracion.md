@@ -14,7 +14,7 @@ Este año no asistimos a Novagob, tenemos que optimizar nuestro tiempo y decidim
 
 Pero si que estamos pendientes de la conversación. Hemos podido [leer este tweet](https://twitter.com/ffranrojas/status/1055384541123264512) donde se cuenta que ha habido un empate entre el debate de software libre vs. software propietario. Y claro, eso del empate nos ha chirriado mucho.
 
-Obviamente tenemos nuestro porque nosotros ya estamos haciendo software abierto para administraciones, pero aún así trataremos de dejar algunos argumentos al respecto (y supongo que quién opinaba en Novagob a favor del software propietario tendría el suyo).
+Obviamente tenemos nuestro sesgo porque nosotros ya estamos haciendo software abierto para administraciones, pero aún así trataremos de dejar algunos argumentos al respecto (y supongo que quién opinaba en Novagob a favor del software propietario tendría el suyo).
 
 Ya hay muchos posts donde se pueden leer razones por las que una administración pública debería producir software libre.
 
@@ -24,7 +24,7 @@ Y que veremos con mucha extrañeza que existiese una época en la que estaba per
 
 ## Derecho
 
-Este punto justifica por si mismo que el software pagado por la administración sea libre: si existe la opción de que sea abierto o cerrado, y nos puede costar lo mismo (cuando no menos), los ciudadanos deberíamos poder acceder a la fuente porque está pagado con nuestro dinero.
+Este punto justifica por si mismo que el software pagado por la administración sea libre: si existe la opción de que sea abierto o cerrado, y nos puede costar lo mismo (cuando no menos), los ciudadanos deberíamos poder acceder al código fuente porque está pagado con nuestro dinero.
 
 
 ## Calidad y seguridad
@@ -36,14 +36,14 @@ Cuando el código es abierto (está publicado, es accesible, está documentado) 
 
 Una vez que has comenzado a usar el software cerrado de un proveedor, que controlan ellos y no tu, cambiar es muy caro. Esto hace subir el precio del software y del mantenimiento y evolución: o cambiar es muy caro, o porque es tan caro cambiar el proveedor no se cambia y el proveedor comienza a abusar de su posición.
 
-Esto lo hemos vivido en primera persona en Gobierto: uno de los Ayuntamientos que usan Gobierto ha tenido que pagar miles de euros para que su proveedor propietario desarrolle una funcionalidad para exponer datos bastante básicos. Además del coste absurdo (explotar los datos de tu propio sistema debería ser un por defecto de cualquier sistema) el proveedor lo ha hecho mal (un problema de enconding en un fichero CSV a estas alturas del campeonato)
+Esto lo hemos vivido en primera persona: uno de los Ayuntamientos que usan Gobierto ha tenido que pagar miles de euros para que su proveedor propietario desarrolle una funcionalidad para exponer datos bastante básicos. Además del coste absurdo (explotar los datos de tu propio sistema debería ser un por defecto de cualquier sistema) el proveedor lo ha hecho mal (un problema de enconding en un fichero CSV a estas alturas del campeonato)
 
 Una anécdota no es una estadística, pero seguro que te has encontrado casos similares.
 
 
 ## Eficiencia
 
-Miles de entes públicos necesitan usar decenas de programas. Con una obligación de usar y generar software libre y la emergencia de proyectos con una gobernanza abierta y distribuida la colaboración entre administraciones aumentaría drasticamente. Decidim, el software de participación promovido por el Ayuntamiento de Barcelona y usado (usado realmente, más allá de una nota de prensa) por decenas de administraciones es un buen ejemplo ([lee más aquí sobre cómo se organiza el desarrollo de Decidim](/blog/20180123-decidim-diseno-populate.html)).
+Miles de entes públicos necesitan usar decenas de programas. Con una obligación de usar y generar software libre y la emergencia de proyectos con una gobernanza abierta y distribuida la colaboración entre administraciones aumentaría drásticamente. Decidim, el software de participación promovido por el Ayuntamiento de Barcelona y usado (usado realmente, más allá de una nota de prensa) por decenas de administraciones es un buen ejemplo ([lee más aquí sobre cómo se organiza el desarrollo de Decidim](/blog/20180123-decidim-diseno-populate.html)).
 
 [Existen iniciativas](https://administracionelectronica.gob.es/pae_Home/pae_SolucionesCTT/pae_CTT_-__Que_es_.html#.W9HD9VJ9jUI) para promover la reutilización, pero esta reutilización aumentaría significativamente si hubiese obligación de tener código libre.
 
