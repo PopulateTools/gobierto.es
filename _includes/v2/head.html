@@ -5,6 +5,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript" charset="utf-8"></script>
   {% stylesheet v2/app %}
   {% javascript v2/application %}
+  {% if page.title == 'Los mapas no cuentan (toda) la verdad' %}
+    {% javascript v2/cartograms %}
+  {% endif %}
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
