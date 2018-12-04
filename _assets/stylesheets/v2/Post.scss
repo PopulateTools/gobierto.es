@@ -87,6 +87,12 @@
   @media all and (max-width : $cMediaMobile) {
     @include sans-serif(16px, 400, #333);
   }
+
+  .min_full_wide {
+    width: 140%;
+    margin-left: -20%;
+  }
+
 }
 
 .Post__content h2 {
