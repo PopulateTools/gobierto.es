@@ -296,7 +296,7 @@ author: Martín González
   text-transform: uppercase;
   font-size: 0.75rem;
 }
-@media (min-width: 1240px) {
+@media (min-width: 1200px) {
   .js-cartogram,
   .js-map {
     display: inline-block;

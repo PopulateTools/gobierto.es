@@ -80,18 +80,25 @@
   @include sans-serif(20px, 400, #333);
   line-height: 145%;
 
+  .min_full_wide {
+    width: 140%;
+    margin-left: -20%;
+    margin-bottom: 2em;
+  }
+
   @media all and (max-width : $cMediaStretched) {
     width: 100%;
+    .min_full_wide {
+      width: 100%;
+      margin-left: 0;
+    }
   }
 
   @media all and (max-width : $cMediaMobile) {
     @include sans-serif(16px, 400, #333);
   }
 
-  .min_full_wide {
-    width: 140%;
-    margin-left: -20%;
-  }
+
 
 }
 
