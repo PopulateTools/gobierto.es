@@ -1,9 +1,13 @@
 ---
-layout: v2/post
 title: "¿Quién entra en tu portal de gobierno abierto?"
-subtitle: "Habitualmente hablamos del objeto de la transparencia y la participación en générico: los ciudadanos. Pero ¿quienes son? ¿Qué motivos tienen para entrar en un portal de gobierno abierto?"
-date: 2017-04-05 18:00:00 +0100
-categories: transparencia, participacion
+date: 2017-04-05 19:00:00 +02:00
+categories:
+- transparencia,
+- participacion
+layout: v2/post
+subtitle: 'Habitualmente hablamos del objeto de la transparencia y la participación
+  en générico: los ciudadanos. Pero ¿quienes son? ¿Qué motivos tienen para entrar
+  en un portal de gobierno abierto?'
 author: Rafa de las Cuevas
 main_photo: posts/170406-quien-entra-portal-gob-abierto.png
 ---

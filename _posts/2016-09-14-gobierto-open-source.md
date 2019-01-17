@@ -1,13 +1,13 @@
 ---
-layout: v2/post
-title: "Abrimos Gobierto: ya es open source"
-subtitle: Abrimos el código de Gobierto
-date: 2016-09-14 9:00:00 +0100
+title: 'Abrimos Gobierto: ya es open source'
+date: 2016-09-14 10:00:00 +02:00
 categories:
-  - gobierto
-  - tecnologia
+- gobierto
+- tecnologia
+layout: v2/post
+subtitle: Abrimos el código de Gobierto
 author: Álvaro Ortiz
-main_photo_big:
+main_photo_big: 
 ---
 
 Hoy anunciamos que Gobierto ya es software libre. Era nuestro plan desde que empezamos a imaginarnos esta herramienta pero es hoy cuando liberamos el código  y elegimos una licencia específica. Cualquier persona puede descargar el software para comenzar a usarlo, modificarlo según necesite, y aportar cambios y mejoras al proyecto.

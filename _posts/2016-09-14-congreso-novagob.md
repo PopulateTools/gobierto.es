@@ -1,10 +1,10 @@
 ---
-layout: v2/post
-title: "Gobierto en Congreso Novagob 2016"
-subtitle: Participamos en la mesa Gobierno abierto como palanca de cambio
-date: 2016-09-14 8:00:00 +0100
+title: Gobierto en Congreso Novagob 2016
+date: 2016-09-14 09:00:00 +02:00
 categories:
-  - gobierto
+- gobierto
+layout: v2/post
+subtitle: Participamos en la mesa Gobierno abierto como palanca de cambio
 author: Álvaro Ortiz
 main_photo_big: posts/160914-la-laguna.jpg
 ---

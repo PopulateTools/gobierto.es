@@ -1,11 +1,11 @@
 ---
-layout: v2/post
-title: 'Populate diseña Decidim, el software de participación del Ayuntamiento de Barcelona'
-subtitle: ''
-date: 2018-01-23
+title: Populate diseña Decidim, el software de participación del Ayuntamiento de Barcelona
+date: 2018-01-23 00:00:00 +01:00
 categories:
-  - experiencia_de_usuario
-  - clientes
+- experiencia_de_usuario
+- clientes
+layout: v2/post
+subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/180123-decidim-1.png
 ---

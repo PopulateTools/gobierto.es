@@ -1,14 +1,14 @@
 ---
-layout: v2/post
-title: ¿Cuándo terminará tu municipio de pagar toda su deuda?
-subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse de su deuda
-date: 2016-09-01 8:00:00 +0100
+title: "¿Cuándo terminará tu municipio de pagar toda su deuda?"
+date: 2016-09-01 09:00:00 +02:00
 categories:
-  - transparencia
-  - visualizacion_de_datos
-# excerpt: Even more estimulating excerpt to be used in case you need it.
+- transparencia
+- visualizacion_de_datos
+layout: v2/post
+subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse
+  de su deuda
 author: Populate
-main_photo_big:
+main_photo_big: 
 ---
 
 <div class="tool">

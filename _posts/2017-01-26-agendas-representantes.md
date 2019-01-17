@@ -1,11 +1,11 @@
 ---
+title: Las claves de un sistema de agendas para entidades públicas
+date: 2017-01-26 08:00:00 +01:00
+categories:
+- transparencia
 layout: v2/post
-title: "Las claves de un sistema de agendas para entidades públicas"
 subtitle: Diseñando el sistema de agendas ideal
-date: 2017-01-26 8:00:00 +0100
-categories: transparencia
 author: Álvaro Ortiz
-# main_photo:
 ---
 
 Cabría esperar que las reuniones de cargos públicos fuesen accesibles: que cualquiera pueda saber qué empresas han ido a ver a tal concejal o consejero; con quién se ha reunido tal alcalde o presidente... Cabría pensar que tener visibilidad sobre a qué dedican su tiempo nuestros representantes es algo básico, y que una Ley de Transparencia joven lo tendría en cuenta. Pero la reciente Ley de Transparencia española no lo tuvo: no dice nada sobre la publicación de agendas.

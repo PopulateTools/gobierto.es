@@ -1,11 +1,13 @@
 ---
-layout: v2/post
-title: 'Publicacion de agendas de altos cargos: sincronización automática desde IBM Notes, Google Calendar y Outlook'
-subtitle: 'Gobierto estrena sus conectores con las herramientas de calendario más populares para dar transparencia a las agendas de altos cargos'
-date: 2018-02-07
+title: 'Publicacion de agendas de altos cargos: sincronización automática desde IBM
+  Notes, Google Calendar y Outlook'
+date: 2018-02-07 00:00:00 +01:00
 categories:
-  - transparencia
-  - gobierto
+- transparencia
+- gobierto
+layout: v2/post
+subtitle: Gobierto estrena sus conectores con las herramientas de calendario más populares
+  para dar transparencia a las agendas de altos cargos
 author: Álvaro Ortiz
 main_photo: posts/180207-agendas.png
 ---

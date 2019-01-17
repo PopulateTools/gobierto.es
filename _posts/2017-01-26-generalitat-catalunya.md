@@ -1,9 +1,11 @@
 ---
+title: La Generalitat de Catalunya cuenta con Gobierto para mejorar su portal de transparencia
+date: 2017-01-26 08:00:00 +01:00
+categories:
+- clientes
 layout: v2/post
-title: "La Generalitat de Catalunya cuenta con Gobierto para mejorar su portal de transparencia"
-subtitle: Incorporan el Comparador de Presupuestos de Gobierto para explorar y analizar los presupuestos de todos los municipios catalanes
-date: 2017-01-26 8:00:00 +0100
-categories: clientes
+subtitle: Incorporan el Comparador de Presupuestos de Gobierto para explorar y analizar
+  los presupuestos de todos los municipios catalanes
 author: Álvaro Ortiz
 main_photo: posts/170126-gencat.png
 ---

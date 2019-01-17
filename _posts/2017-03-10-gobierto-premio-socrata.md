@@ -1,11 +1,13 @@
 ---
+title: El proyecto de Gobierto para la Generalitat de Catalunya es premiado en la
+  conferencia anual de Socrata
+date: 2017-03-10 08:00:00 +01:00
+categories:
+- clientes
 layout: v2/post
-title: "El proyecto de Gobierto para la Generalitat de Catalunya es premiado en la conferencia anual de Socrata"
-subtitle: la integración de los datos abiertos de presupuestos municipales catalanes en Gobierto es destacado por el proveedor del portal open data
-date: 2017-03-10 8:00:00 +0100
-categories: clientes
+subtitle: la integración de los datos abiertos de presupuestos municipales catalanes
+  en Gobierto es destacado por el proveedor del portal open data
 author: Álvaro Ortiz
-# main_photo:
 ---
 
 La solución de Gobierto para la Generalitat de Catalunya ha resultado premiada en la reciente conferencia anual de Socrata. El premio valora cómo una aplicación en modo SAAS hace uso de datos hospedados en Socrata. Los ganadores son elegidos mediante el voto popular de los asistentes a la conferencia (¡lo cual nos hace más ilusión si cabe!).

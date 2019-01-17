@@ -1,16 +1,14 @@
 ---
-layout: v2/post
-title: 'Consolidando la experiencia de usuario online de las administraciones públicas'
-subtitle: 'Metodología, diseño de servicios, y patrones para ganar eficiencia'
-date: 2017-06-15
+title: Consolidando la experiencia de usuario online de las administraciones públicas
+date: 2017-06-15 00:00:00 +02:00
 categories:
-  - gobierto
-  - experiencia_de_usuario
-  - estrategia
+- gobierto
+- experiencia_de_usuario
+- estrategia
+layout: v2/post
+subtitle: Metodología, diseño de servicios, y patrones para ganar eficiencia
 author: Álvaro Ortiz
 main_photo_big: https://images.unsplash.com/reserve/81gZijLSWfge41LgzqQ6_Moving%20Parts.JPG?dpr=1&auto=format&fit=crop&w=1500&h=700&q=80&cs=tinysrgb&crop=&bg=d
-
-
 ---
 
 ## ¿Qué teníamos antes del 010 o las ventanillas únicas?

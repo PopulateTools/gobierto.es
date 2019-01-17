@@ -1,11 +1,11 @@
 ---
-layout: v2/post
-title: "Anunciamos las consultas sobre presupuestos de Gobierto"
-subtitle: Una alternativa ágil y eficiente a los presupuestos participativos
-date: 2016-10-20 9:00:00 +0100
+title: Anunciamos las consultas sobre presupuestos de Gobierto
+date: 2016-10-20 10:00:00 +02:00
 categories:
-  - gobierto
-  - diseno_de_servicios
+- gobierto
+- diseno_de_servicios
+layout: v2/post
+subtitle: Una alternativa ágil y eficiente a los presupuestos participativos
 author: Álvaro Ortiz
 main_photo_big: posts/161020-consultas-portada.png
 ---

@@ -1,10 +1,11 @@
 ---
-layout: v2/post
 title: 'IV CivicTechMadrid: Nos mudamos al MediaLab Prado'
-subtitle: 'Analía Plaza, Javier Arteaga y David González nos hablarán de diseño, datos, ciudades, el mundo...  '
-date: 2018-01-22
+date: 2018-01-22 00:00:00 +01:00
 categories:
-  - participacion
+- participacion
+layout: v2/post
+subtitle: 'Analía Plaza, Javier Arteaga y David González nos hablarán de diseño, datos,
+  ciudades, el mundo...  '
 author: Álvaro Ortiz
 main_photo: posts/180125-civictechmadrid.png
 ---

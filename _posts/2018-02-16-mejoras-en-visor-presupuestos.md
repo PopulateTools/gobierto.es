@@ -1,11 +1,11 @@
 ---
-layout: v2/post
-title: 'Mejoras y novedades en el visor de presupuestos de Gobierto'
-subtitle: ''
-date: 2018-02-16
+title: Mejoras y novedades en el visor de presupuestos de Gobierto
+date: 2018-02-16 00:00:00 +01:00
 categories:
-  - transparencia
-  - gobierto
+- transparencia
+- gobierto
+layout: v2/post
+subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/180220-gobierto-facturas.png
 ---

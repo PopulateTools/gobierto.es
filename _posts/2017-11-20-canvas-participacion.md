@@ -1,14 +1,14 @@
 ---
-layout: v2/post
-title: 'El canvas de la participación'
-subtitle: 'La gente no quiere participar: ¿cómo conseguir cambiarlo? Herramientas y metodología para hacer participación online'
-date: 2017-11-20
+title: El canvas de la participación
+date: 2017-11-20 00:00:00 +01:00
 categories:
-  - participacion
-  - recursos
+- participacion
+- recursos
+layout: v2/post
+subtitle: 'La gente no quiere participar: ¿cómo conseguir cambiarlo? Herramientas
+  y metodología para hacer participación online'
 author: Álvaro Ortiz
 main_photo: posts/171120-canvas-cover.png
-# https://images.unsplash.com/photo-1458419948946-19fb2cc296af?auto=format&fit=crop&w=1350&q=60&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D
 ---
 
 ## Herramientas para diseñar participación

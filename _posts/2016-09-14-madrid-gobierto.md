@@ -1,12 +1,12 @@
 ---
-layout: v2/post
-title: "Los presupuestos municipales de Madrid, un ejemplo de uso de Gobierto"
-subtitle: Una herramienta para explorar los presupuestos municipales de la capital
-date: 2016-09-14 9:00:00 +0100
+title: Los presupuestos municipales de Madrid, un ejemplo de uso de Gobierto
+date: 2016-09-14 10:00:00 +02:00
 categories:
-  - transparencia
-  - visualizacion_de_datos
-  - clientes
+- transparencia
+- visualizacion_de_datos
+- clientes
+layout: v2/post
+subtitle: Una herramienta para explorar los presupuestos municipales de la capital
 author: Álvaro Ortiz
 main_photo_big: posts/160922-madrid.png
 ---

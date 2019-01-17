@@ -1,10 +1,11 @@
 ---
-layout: v2/post
-title: "Panorama sobre los presupuestos participativos en España"
-subtitle: Repasamos varias iniciativas de presupuestos participativos en municipios de distintos tamaños. ¿Qué podemos aprender de ellos?
-date: 2016-12-12 10:00:00 +0100
+title: Panorama sobre los presupuestos participativos en España
+date: 2016-12-12 10:00:00 +01:00
 categories:
-  - participacion
+- participacion
+layout: v2/post
+subtitle: Repasamos varias iniciativas de presupuestos participativos en municipios
+  de distintos tamaños. ¿Qué podemos aprender de ellos?
 author: Rafa de las Cuevas
 main_photo_big: posts/161202-presupuestosparticipatexam_00.jpg
 ---

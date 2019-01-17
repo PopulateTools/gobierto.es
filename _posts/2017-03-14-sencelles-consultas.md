@@ -1,11 +1,11 @@
 ---
+title: Sencelles lanza una consulta sobre sus presupuestos con Gobierto
+date: 2017-03-14 08:00:00 +01:00
+categories:
+- clientes
 layout: v2/post
-title: "Sencelles lanza una consulta sobre sus presupuestos con Gobierto"
 subtitle: El municipio mallorquín consulta a sus vecinos sobre el destino del presupuesto
-date: 2017-03-14 8:00:00 +0100
-categories: clientes
 author: Álvaro Ortiz
-# main_photo:
 ---
 
 Sencelles acaba de lanzar una consulta utilizando la herramienta de Gobierto para preguntar a sus vecinos sobre el destino del presupuesto. La herramienta de Gobierto es una alternativa sencilla y ágil frente a los presupuestos participativos: permite preguntar a los vecinos sobre lo que consideran más prioritario para el municipio, en un proceso sencillo y directo.

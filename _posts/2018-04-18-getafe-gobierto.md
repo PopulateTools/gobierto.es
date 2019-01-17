@@ -1,10 +1,12 @@
 ---
-layout: v2/post
-title: 'Getafe estrena su portal de gobierno abierto con Gobierto'
-subtitle: 'El nuevo portal va más allá de la Ley de Transparencia para facilitar el acceso a las cuentas públicas, la actividad de los cargos públicos y las principales cifras sobre la ciudad'
-date: 2018-04-18
+title: Getafe estrena su portal de gobierno abierto con Gobierto
+date: 2018-04-18 00:00:00 +02:00
 categories:
-  - clientes
+- clientes
+layout: v2/post
+subtitle: El nuevo portal va más allá de la Ley de Transparencia para facilitar el
+  acceso a las cuentas públicas, la actividad de los cargos públicos y las principales
+  cifras sobre la ciudad
 author: Álvaro Ortiz
 main_photo: posts/180418-getafe-1.png
 ---

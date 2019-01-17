@@ -1,11 +1,11 @@
 ---
-layout: v2/post
 title: 'Gobierto Contratos: explorando los contratos de una organización pública'
-subtitle: ''
-date: 2018-11-20
+date: 2018-11-20 00:00:00 +01:00
 categories:
-  - gobierno_abierto
-  - tecnologia
+- gobierno_abierto
+- tecnologia
+layout: v2/post
+subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/181119-Gobierto-Scrolly-Cover.png
 ---

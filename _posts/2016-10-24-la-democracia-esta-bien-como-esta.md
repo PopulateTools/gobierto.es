@@ -1,9 +1,11 @@
 ---
+title: La democracia, ¿está bien como está?
+date: 2016-10-24 10:00:00 +02:00
+categories:
+- transparencia
 layout: v2/post
-title: "La democracia, ¿está bien como está?"
-subtitle: La historia demuestra que los gobiernos más abiertos producen sociedades más desarrolladas
-date: 2016-10-24 9:00:00 +0100
-categories: transparencia
+subtitle: La historia demuestra que los gobiernos más abiertos producen sociedades
+  más desarrolladas
 author: Rafa de las Cuevas
 main_photo_big: posts/161024-historia-gobierno-abierto-1.png
 ---

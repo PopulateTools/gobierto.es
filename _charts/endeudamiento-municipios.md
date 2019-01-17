@@ -1,6 +1,6 @@
 ---
-layout: v1/chart
 title: Endeudamiento municipios respecto al total de su presupuesto
+layout: v1/chart
 description: Endeudamiento municipios respecto al total de su presupuesto
 source_name: Ministerio Hacienda y Administraciones Públicas
 source_url: http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/DeudaViva.aspx

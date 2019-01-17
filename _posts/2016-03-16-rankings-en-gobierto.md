@@ -1,16 +1,14 @@
 ---
+title: 'Lanzamos los rankings en Gobierto: ¿quién se gasta más en qué?'
+date: 2016-03-16 14:00:00 +01:00
+categories:
+- gobierto
+- experiencia_de_usuario
+- visualizacion_de_datos
 layout: v2/post
-title: "Lanzamos los rankings en Gobierto: ¿quién se gasta más en qué?"
-subtitle: Explora los gastos e ingresos por tamaño del municipio, gasto total, por habitante y comunidad autónoma
-date:   2016-03-16 14:00:00 +0100
-categories:
-# excerpt: Even more estimulating excerpt to be used in case you need it.
+subtitle: Explora los gastos e ingresos por tamaño del municipio, gasto total, por
+  habitante y comunidad autónoma
 author: Álvaro Ortiz
-categories:
-  - gobierto
-  - experiencia_de_usuario
-  - visualizacion_de_datos
-# main_photo: path/to/image/url
 ---
 
 Hoy lanzamos los rankings en Gobierto Presupuestos Municipales. Es una nueva forma de explorar los datos de ingresos y gastos de los municipios. Te permite consultar en modo lista aquellos municipios con más gasto/ingreso total o por habitante; ordenar por partidas específicas; o limitar el listado por tamaño de municipio, ingreso/gasto total o por habitante; y por comunidad autónoma.

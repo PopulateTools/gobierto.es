@@ -1,15 +1,15 @@
 ---
+title: 'Presupuesto vs. Ejecución: Análisis de la desviación de los presupuestos municipales
+  y el gasto real'
+date: 2016-05-18 15:00:00 +02:00
+categories:
+- gobierto
+- transparencia
+- visualizacion_de_datos
 layout: v2/post
-title: "Presupuesto vs. Ejecución: Análisis de la desviación de los presupuestos municipales y el gasto real"
-subtitle: Un ejercicio de comparación entre lo que presupuestan los municipios de España y lo que realmente acaban gastando
-date:   2016-05-18 14:00:00 +0100
-categories:
-# excerpt: Even more estimulating excerpt to be used in case you need it.
+subtitle: Un ejercicio de comparación entre lo que presupuestan los municipios de
+  España y lo que realmente acaban gastando
 author: Jorge Gómez Sancha
-categories:
-  - gobierto
-  - transparencia
-  - visualizacion_de_datos
 main_photo_big: https://images.unsplash.com/photo-1443110189928-4448af4a2bc5?ixlib=rb-0.3.5&q=70&fm=jpg&crop=entropy&w=1600&h=700&fit=crop&s=c196b4d48c998f817f60f28ff2564500
 ---
 

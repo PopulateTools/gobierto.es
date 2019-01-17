@@ -1,13 +1,15 @@
 ---
+title: Gobierto colabora con la Diputación de Valencia para poner en marcha iniciativas
+  de gobierno abierto
+date: 2016-12-15 08:00:00 +01:00
+categories:
+- clientes
 layout: v2/post
-title: "Gobierto colabora con la Diputación de Valencia para poner en marcha iniciativas de gobierno abierto"
-subtitle: Ayudamos a la Diputación a implantar el módulo de Personas y Agendas de Gobierto
-date: 2016-12-15 8:00:00 +0100
-categories: clientes
+subtitle: Ayudamos a la Diputación a implantar el módulo de Personas y Agendas de
+  Gobierto
 author: Álvaro Ortiz
 main_photo_big: posts/161214-dival.jpg
 ---
-
 
 La Diputación de Valencia ha definido la **Estrategia GO!**, una estrategia global de gobierno abierto cuya implantación está sucediendo, como no podía ser de otra forma, en abierto. Desde [go.dival.es](http://go.dival.es) puedes consultar el plan y los pasos que se van dando. Es un estupendo manual sobre cómo abrir organizaciones. Tanto, que el plan ha recibido el Premio Novagob a la mejor iniciativa de Gobierno Abierto en 2016.
 

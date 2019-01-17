@@ -1,11 +1,12 @@
 ---
-layout: v2/post
-title: "Participación: una lista de la compra compartida"
-subtitle: "¿Confundimos participar con decidir? Las propuestas ciudadanas mejoran cuando pasan por una fase de deliberación clara y estructurada"
-date: 2017-04-11 19:30:00 +0100
+title: 'Participación: una lista de la compra compartida'
+date: 2017-04-11 20:30:00 +02:00
 categories:
-  - participacion
-  - gobierno_abierto
+- participacion
+- gobierno_abierto
+layout: v2/post
+subtitle: "¿Confundimos participar con decidir? Las propuestas ciudadanas mejoran
+  cuando pasan por una fase de deliberación clara y estructurada"
 author: Rafa de las Cuevas
 main_photo_big: posts/170411-participacion-lista-compra.png
 ---

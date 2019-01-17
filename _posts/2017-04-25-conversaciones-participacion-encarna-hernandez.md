@@ -1,11 +1,14 @@
 ---
-layout: v2/post
-title: 'Encarna Hernández: "La deliberación sigue siendo muy necesaria. Tenemos que trasladar sus esquemas al ámbito online"'
-subtitle: "Seguimos nuestra serie de conversaciones con expertos en participación ciudadana. Encarna Hernández vivió desde dentro el primer presupuesto participativo municipal de la Región de Murcia"
-date: 2017-04-25
+title: 'Encarna Hernández: "La deliberación sigue siendo muy necesaria. Tenemos que
+  trasladar sus esquemas al ámbito online"'
+date: 2017-04-25 00:00:00 +02:00
 categories:
-  - participacion
-  - gobierno_abierto
+- participacion
+- gobierno_abierto
+layout: v2/post
+subtitle: Seguimos nuestra serie de conversaciones con expertos en participación ciudadana.
+  Encarna Hernández vivió desde dentro el primer presupuesto participativo municipal
+  de la Región de Murcia
 author: Rafa de las Cuevas
 main_photo: posts/170419-conversaciones-participacion-encarna_h.png
 ---

@@ -1,13 +1,12 @@
 ---
+title: 'Ayuntamiento: ¿cómo puedes conectar mejor con tus vecinos?'
+date: 2016-03-09 14:00:00 +01:00
+categories:
+- comunicacion_clara
 layout: v2/post
-title: "Ayuntamiento: ¿cómo puedes conectar mejor con tus vecinos?"
-subtitle: Cumplir la Ley de Transparencia es un gran avance en cuanto a la cantidad de información que se que se proporciona a nuestros vecinos. Pero, ¿es suficiente?
-date:   2016-03-09 14:00:00 +0100
-categories:
-# excerpt: Even more estimulating excerpt to be used in case you need it.
+subtitle: Cumplir la Ley de Transparencia es un gran avance en cuanto a la cantidad
+  de información que se que se proporciona a nuestros vecinos. Pero, ¿es suficiente?
 author: Álvaro Ortiz
-categories:
-  - comunicacion_clara
 main_photo_big: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?crop=entropy&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
 ---
 

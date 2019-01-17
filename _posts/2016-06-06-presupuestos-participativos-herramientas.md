@@ -1,15 +1,14 @@
 ---
+title: Presupuestos participativos (3 de 3) - 5 ejemplos de participación ciudadana
+  efectiva
+date: 2016-06-06 09:00:00 +02:00
+categories:
+- participacion
+- experiencia_de_usuario
+- diseno_de_servicios
 layout: v2/post
-title: "Presupuestos participativos (3 de 3) - 5 ejemplos de participación ciudadana efectiva"
 subtitle: Ejemplos de herramientas para comunicar presupuestos y recopilar opiniones
-date: 2016-06-06 8:00:00 +0100
-categories:
-# excerpt: Even more estimulating excerpt to be used in case you need it.
 author: Álvaro Ortiz
-categories:
-  - participacion
-  - experiencia_de_usuario
-  - diseno_de_servicios
 main_photo_big: https://images.unsplash.com/photo-1457685373807-8c4d8be4c560?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600
 ---
 

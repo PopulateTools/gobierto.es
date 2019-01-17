@@ -1,6 +1,6 @@
 ---
-layout: v1/chart
 title: Explora cuánto destina cada municipio a pagar la deuda
+layout: v1/chart
 description: Porcentaje de la partida Deuda Pública respecto al presupuesto total
 source_name: Ministerio Hacienda y Administraciones Públicas
 source_url: http://www.minhap.gob.es/es-ES/Areas%20Tematicas/Administracion%20Electronica/OVEELL/Paginas/DeudaViva.aspx

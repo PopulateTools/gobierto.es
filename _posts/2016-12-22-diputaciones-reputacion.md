@@ -1,9 +1,11 @@
 ---
+title: Una campaña de mejora de reputación de las Diputaciones
+date: 2016-12-22 09:00:00 +01:00
+categories:
+- transparencia
 layout: v2/post
-title: "Una campaña de mejora de reputación de las Diputaciones"
-subtitle: Nadie sabe muy bien qué hace una diputación, pero ¿podrían sobrevivir los pueblos pequeños sin ellas?
-date: 2016-12-22 9:00:00 +0100
-categories: transparencia
+subtitle: Nadie sabe muy bien qué hace una diputación, pero ¿podrían sobrevivir los
+  pueblos pequeños sin ellas?
 author: Rafa de las Cuevas
 main_photo_big: posts/161221-diputaciones_00.jpg
 ---

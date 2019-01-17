@@ -1,12 +1,13 @@
 ---
-layout: v2/post
-title: 'Gobierto colabora con la FEMP en el grupo de trabajo de Datos Abiertos'
-subtitle: 'El grupo publicó el año pasado la Guía de los Datos Abiertos para Entidades Locales'
-date: 2018-04-12
+title: Gobierto colabora con la FEMP en el grupo de trabajo de Datos Abiertos
+date: 2018-04-12 00:00:00 +02:00
 categories:
-  - datos-abiertos
-  - gobierto
-  - femp
+- datos-abiertos
+- gobierto
+- femp
+layout: v2/post
+subtitle: El grupo publicó el año pasado la Guía de los Datos Abiertos para Entidades
+  Locales
 author: Fernando Blat
 main_photo: posts/180412-guia-datos-abiertos.png
 ---

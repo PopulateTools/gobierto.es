@@ -1,14 +1,15 @@
 ---
-layout: v2/post
-title: "Presupuesto vs. Ejecución: comprueba cómo tu ayuntamiento ha gastado realmente el dinero planificado en el presupuesto"
-subtitle: Ampliamos nuestro comparador de presupuestos mostrando la información de la ejecución del presupuesto de los municipios de España
-date: 2016-08-30 8:00:00 +0100
+title: 'Presupuesto vs. Ejecución: comprueba cómo tu ayuntamiento ha gastado realmente
+  el dinero planificado en el presupuesto'
+date: 2016-08-30 09:00:00 +02:00
 categories:
-  - transparencia
-  - visualizacion_de_datos
-# excerpt: Even more estimulating excerpt to be used in case you need it.
+- transparencia
+- visualizacion_de_datos
+layout: v2/post
+subtitle: Ampliamos nuestro comparador de presupuestos mostrando la información de
+  la ejecución del presupuesto de los municipios de España
 author: Álvaro Ortiz
-main_photo_big:
+main_photo_big: 
 ---
 
 "Me encanta que los planes salgan bien" (John "Hannibal" Smith). ¡A todos nos encanta! Pero si alguna vez has hecho un presupuesto, sabes bien que acertar no siempre es fácil. En unas cuentas municipales, además del presupuesto (el plan de cuánto vamos a ingresar y cómo lo vamos a gastar) existe el concepto de ejecución presupuestaria: el resultado real de cómo finalmente se ha ingresado y gastado a lo largo del año.
