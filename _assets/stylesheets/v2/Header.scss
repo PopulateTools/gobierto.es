@@ -5,7 +5,11 @@
 }
 .Header__logo {
   @media all and (max-width : $cMediaMobile) {
-    padding: 0 1em;
+    padding: 0;
+    .Logo {
+      width: 150px;
+      height: 34px;
+    }
   }
 }
 .Header__CTA {
@@ -32,7 +36,7 @@
 }
 .Header__options {
   display: flex;
-  width: 416px;
+  width: 50%;
   justify-content: space-between;
   align-items: center;
 
@@ -110,7 +114,44 @@
   .Header__inner {
     width: 90%;
   }
-  .Header__options {
+  .Header__options,
+  .Menu__global {
     display: none;
+  }
+}
+
+.Menu__global {
+  background: $cCyan;
+  text-align: center;
+
+  a {
+    font-size: .85em;
+    color: #FFF;
+    display: inline-block;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    // transition: transform 0.15s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: background $transitionRegular ease-in-out;
+  }
+  span.text {
+    transition: color $transitionRegular ease-in-out;
+  }
+  a:hover {
+    // transform: scale(1.05);
+    background: $cCyanDark;
+    span.text {
+      // color: $cBlue;
+      // text-decoration: none;
+    }
+  }
+  a.is-active {
+    background: $cCyanDark;
+  }
+  .fas {
+    margin-right: .35em;
+    opacity: .6;
+  }
+  a:last-child {
+    margin-right: 0;
   }
 }
