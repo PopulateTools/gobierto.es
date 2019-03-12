@@ -20,13 +20,14 @@
 
   @media all and (max-width : $cMediaStretched) {
     width: 100%;
+    margin: 0;
   }
 }
 
 .Post img.heading {
   width: 100%;
   height: auto;
-  margin: 0 0 2em;
+  margin: 1em 0;
 }
 
 .Post__meta {
@@ -241,7 +242,7 @@
 .Posts__last {
   margin: 5em 0;
   .Posts__post {
-    margin: 0 0 .5em 0;
+    margin: 0 0 1em 0;
   }
   a .date {
     display: inline-block;
@@ -251,6 +252,7 @@
 
     @media all and (max-width : $cMediaTablet) {
       display: block;
+      width: initial;
     }
   }
 }

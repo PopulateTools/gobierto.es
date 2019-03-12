@@ -23,6 +23,9 @@ layout: v2/default
 
     <div class="Post__inner">
       <div class="Post__header">
+        <div class="Post__title"><h1 itemprop="name headline">{{ page.title }}</h1></div>
+        <div class="Post__subtitle" itemprop="description">{{ page.subtitle }}</div>
+
         {% if page.main_photo %}
           {% if page.main_photo contains '://' %}
             wadus
@@ -30,17 +33,17 @@ layout: v2/default
             {% img 'v1/{{ page.main_photo }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
           {% endif %}
         {% endif %}
-        <div class="Post__title"><h1 itemprop="name headline">{{ page.title }}</h1></div>
-        <div class="Post__subtitle" itemprop="description">{{ page.subtitle }}</div>
-      </div>
-      <div class="Post__meta">
-        <div class="Post__author"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></div>
-        <div class="Post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ i18n_date }}</time>
-        </div>
+        
       </div>
       <div class="Post__content" itemprop="articleBody">
         {{ content }}
+
+        <div class="Post__meta">
+          <div class="Post__author"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></div>
+          <div class="Post__date">
+            <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ i18n_date }}</time>
+          </div>
+        </div>
 
         {% if page.categories %}
         <div class="Post__categories">

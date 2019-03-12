@@ -5,7 +5,11 @@
 }
 .Header__logo {
   @media all and (max-width : $cMediaMobile) {
-    padding: 0 1em;
+    padding: 0;
+    .Logo {
+      width: 150px;
+      height: 34px;
+    }
   }
 }
 .Header__CTA {
@@ -110,7 +114,8 @@
   .Header__inner {
     width: 90%;
   }
-  .Header__options {
+  .Header__options,
+  .Menu__global {
     display: none;
   }
 }
