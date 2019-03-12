@@ -6,8 +6,11 @@
         <a href="/acerca-de" class="Header__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Acerca de</a>
       </li>
       <li class="Header__option">
-        <button class="Header__link Header__link--nopadding{% if page.kind == 'module' %} is-active{% endif %}">Módulos <span class="Tooltip__target js-tooltip-target"></span></button>
-        <div class="Tooltip Tooltip--hidden js-tooltip">
+        <button class="Header__link Header__link--nopadding{% if page.kind == 'module' %} is-active{% endif %}">
+          Qué ofrece
+          <!-- <span class="Tooltip__target js-tooltip-target"></span> -->
+        </button>
+        <!-- <div class="Tooltip Tooltip--hidden js-tooltip">
 
           <ul class="Tooltip__items">
             {% for node in site.data.modules %}
@@ -15,13 +18,16 @@
             {% endfor %}
           </ul>
 
-        </div>
+        </div> -->
       </li>
       <li class="Header__option">
-        <a href="/blog" class="Header__link {% if page.url == '/blog/' or page.layout == 'v2/post' %} is-active {% endif %}">Blog</a>
+        <a href="/temas/clientes" class="Header__link js-smooth-scroll {% if page.url == '/temas/clientes/' %} is-active {% endif %}" title="Clientes de Gobierto">Quién lo usa</a>
       </li>
       <li class="Header__option">
-        <a href="/temas/clientes" class="Header__link js-smooth-scroll">Clientes</a>
+        <a href="/blog" class="Header__link {% if page.url == '/blog/' %} is-active {% endif %}">Blog</a>
+      </li>
+      <li class="Header__option">
+        <a href="/temas/clientes" class="Header__link js-smooth-scroll">Contacto</a>
       </li>
     </ul>
     <div class="Header__CTA">
@@ -55,7 +61,7 @@
             <a href="/blog" class="Header__link Menu__link {% if page.url == '/blog/' or page.layout == 'v2/post' %} is-active {% endif %}">Blog</a>
           </li>
           <li class="Menu__item">
-            <a href="/temas/clientes" class="Header__link Menu__link js-smooth-scroll">Clientes</a>
+            <a href="/temas/clientes" class="Header__link Menu__link js-smooth-scroll">Quién lo usa</a>
           </li>
         </ul>
       </div>
@@ -65,6 +71,10 @@
 
 <menu class="Menu__global">
   {% for module in site.data.modules %}
-    <a href="{{ module[1].permalink }}" title="{{ module[1].title }}"><i class="fas fa-{{ module[1].icon }}"></i> <span class="text">{{ module[1].short-title }}</span></a>
+    <a
+      href="{{ module[1].permalink }}"
+      title="{{ module[1].title }}"
+      class="{% if page.url == module[1].permalink %} is-active {% endif %}"
+     "><i class="fas fa-{{ module[1].icon }}"></i> <span class="text">{{ module[1].short-title }}</span></a>
   {% endfor %}
 </menu>

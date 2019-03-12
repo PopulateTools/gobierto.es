@@ -1,6 +1,7 @@
 .Clients {
   background: $cWhite;
-  padding: 56px;
+  margin-bottom: 2em;
+  border-bottom: 1px solid $cSubtleGray;
 }
 .Clients__inner {
   display: flex;
@@ -16,8 +17,14 @@
 }
 .Clients__title {
   line-height: 120%;
-  margin: 0 0 48px;
+  margin: 0 25% 48px;
   @include sans-serif(24px, 700, $cBlue);
+
+  @media all and (max-width : $cMediaMobile) {
+    margin: 0 0 48px;
+    @include sans-serif(18px, 700, $cBlue);
+  }
+
 }
 .Client__logos {
   display: flex;

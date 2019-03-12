@@ -36,7 +36,7 @@
 }
 .Header__options {
   display: flex;
-  width: 416px;
+  width: 50%;
   justify-content: space-between;
   align-items: center;
 
@@ -122,27 +122,30 @@
 
 .Menu__global {
   background: $cCyan;
-  padding: .5em;
   text-align: center;
 
   a {
     font-size: .85em;
     color: #FFF;
     display: inline-block;
-    margin-right: 3em;
+    padding: 1em 1.5em;
     text-decoration: none;
     // transition: transform 0.15s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: color $transitionRegular ease-in-out;
+    transition: background $transitionRegular ease-in-out;
   }
   span.text {
     transition: color $transitionRegular ease-in-out;
   }
   a:hover {
     // transform: scale(1.05);
+    background: $cCyanDark;
     span.text {
-      color: $cBlue;
-      text-decoration: none;
+      // color: $cBlue;
+      // text-decoration: none;
     }
+  }
+  a.is-active {
+    background: $cCyanDark;
   }
   .fas {
     margin-right: .35em;

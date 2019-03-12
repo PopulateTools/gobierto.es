@@ -1,6 +1,6 @@
 {
   "presupuestos": {
-    "permalink": "/modulos/presupuestos",
+    "permalink": "/modulos/presupuestos/",
     "title": "Visualización de presupuestos",
     "short-title": "Presupuestos",
     "icon": "money-bill",
@@ -62,7 +62,7 @@
     ]
   },
   "observatorio-estadistico": {
-    "permalink": "/modulos/observatorio-estadistico",
+    "permalink": "/modulos/observatorio-estadistico/",
     "title": "Observatorio estadístico",
     "short-title": "Observatorio",
     "icon": "chart-bar",
@@ -111,7 +111,7 @@
     }]
   },
   "altos-cargos-y-agendas": {
-    "permalink": "/modulos/altos-cargos-y-agendas",
+    "permalink": "/modulos/altos-cargos-y-agendas/",
     "title": "Altos cargos y agendas",
     "short-title": "Cargos y agendas",
     "icon": "address-book",
@@ -161,7 +161,7 @@
     }]
   },
   "participacion": {
-    "permalink": "/modulos/participacion",
+    "permalink": "/modulos/participacion/",
     "title": "Participación Ciudadana",
     "short-title": "Participación",
     "icon": "users",
@@ -222,7 +222,7 @@
     }]
   },
   "planificacion": {
-    "permalink": "/modulos/planificacion",
+    "permalink": "/modulos/planificacion/",
     "title": "Planificación",
     "short-title": "Planificación",
     "icon": "calendar",
@@ -279,7 +279,7 @@
     }]
   },
   "datos-abiertos": {
-    "permalink": "/modulos/datos-abiertos",
+    "permalink": "/modulos/datos-abiertos/",
     "title": "Portal de Datos abiertos",
     "short-title": "Datos abiertos",
     "icon": "database",
