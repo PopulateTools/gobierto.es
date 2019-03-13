@@ -69,6 +69,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  border-top: 1px solid $cOrange;
 }
 
 .Menu__link {
@@ -114,7 +115,7 @@
 }
 .Menu__item {
   .Menu__sublist a {
-    padding: initial;
+    padding: .25em 0;
   }
 }
 

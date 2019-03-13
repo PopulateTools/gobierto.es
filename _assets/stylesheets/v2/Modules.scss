@@ -3,7 +3,7 @@
   padding: 80px 0;
   overflow: hidden;
 }
-.Modules__inner {
+.Modules__inner, .inner {
   width: $innerSize;
   margin: auto;
 }
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: $cMediaStretched) {
-  .Modules__inner {
+  .Modules__inner, .inner {
     width: 90%;
   }
   .Module__preview {
@@ -141,4 +141,169 @@
   .Module__content {
     width: 100%;
   }
+}
+
+
+
+.Module__v2 {
+  color: $cText;
+  background: #FFF;
+  line-height: 1.2;
+
+  h1 {
+    @include sans-serif(46px, 700);
+    color: $cCyan;
+  }
+  h2 {
+    @include sans-serif(28px, 700);
+  }
+  h3 {
+    @include sans-serif(22px, 700);
+  }
+  p {
+    margin-bottom: 1.5em;
+  }
+  p.intro, h2.intro {
+    @include sans-serif(28px, 300);
+  }
+
+  .Section_featured_curved {
+    background: url(asset_path('modules/section_bg.svg')) no-repeat top left;
+    background-size: 60vw;
+    min-height: 475px;
+  }
+  .Section_featured_curved_content {
+    padding: 8em 8em 0em 52vw;
+    h2 {
+      @include sans-serif(32px, 600);
+    }
+  }
+
+}
+.Module__intro {
+  border: 1px solid transparent;
+}
+.Module__intro.Module--Contracts {
+  background: #FFF;
+
+  .inner {
+    padding: 5vh 50% 5vh 0;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    box-sizing: border-box;
+    background: url(asset_path('modules/Illustration_Contracts.svg')) no-repeat right;
+    // background-size: contain;
+    background-size: 40%;
+    height: 60vh;
+    max-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+}
+.bg_virgulillas_with_gradient {
+  background-image: url(asset_path('virgulillas_white.svg')), linear-gradient(0deg, #01909E 0%, #A7DEE3 63%);
+}
+.bg_virgulillas_with_cyan_bg {
+  background: #008e9c url("/assets/v2/virgulillas_white.svg") repeat;
+  background-size: cover;
+}
+.Module__screen-container {
+  text-align: center;
+  padding-top: 4em;
+
+  .Screens {
+    width: 85%;
+    margin: auto;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+.block_text_featured {
+  font-size: 32px;
+  color: #FFF;
+  text-align: center;
+  p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+
+
+
+// to componentize
+.round-50 {
+  border-radius: 42px;
+  padding: .85em 1em .5em 1.25em;
+}
+.bg_subtle_gray {
+  background: $cSubtleGray;
+}
+.created_by {
+  margin-top: 3em;
+  font-size: .85em;
+  font-weight: 300;
+}
+.v_c {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.columns-2 {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    width: 47%;
+  }
+}
+.columns-3 {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    width: 29%;
+  }
+}
+.p_v_1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.p_v_2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.p_v_3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.p_v_4 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.m_v_1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.m_v_2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.m_v_3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.m_v_4 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.center {
+  text-align: center;
 }

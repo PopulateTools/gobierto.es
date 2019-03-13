@@ -2,9 +2,25 @@
 <html>
 {% include v2/head.html %}
 <body>
+<div class="">
   {% include v2/header.html %}
   {{ content }}
   {% include v2/footer.html %}
   {% include v2/analytics_footer.html %}
+
+  <script type="text/javascript">
+    enterView({
+     selector: '.sticky',
+     offset: 1,
+     enter: function(el) {
+      el.classList.add('is-sticky');
+    },
+    exit: function (el) {
+			el.classList.remove('is-sticky');
+		}
+    });
+  </script>
+
+</div>
 </body>
 </html>
