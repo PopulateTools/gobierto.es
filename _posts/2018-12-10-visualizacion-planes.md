@@ -2,7 +2,7 @@
 layout: v2/post
 title: 'Me encanta que los planes salgan bien'
 subtitle: ''
-date: 2019-03-15
+date: 2019-05-15
 categories:
   - gobierno_abierto
   - tecnologia
