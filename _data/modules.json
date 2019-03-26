@@ -336,5 +336,13 @@
         "explanation": "El portal de datos abiertos de Gobierto está basado en CKAN, el portal de datos abiertos de código abierto por excelenecia.<br><br> El backoffice y backend utilizados son los nativos de CKAN, con lo que te aseguras la independencia tecnológica al poder desplegar de forma autónoma un CKAN sin necesidad de utilizar Gobierto. "
       }
     ]
+  },
+  "contratos": {
+    "permalink": "/modulos/contratos/",
+    "title": "Visualización de contratos públicos",
+    "short-title": "Contratos",
+    "icon": "file-signature",
+    "description": "",
+    "url": "contratos"
   }
 }

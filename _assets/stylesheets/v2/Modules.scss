@@ -166,14 +166,48 @@
   p.intro, h2.intro {
     @include sans-serif(28px, 300);
   }
-
+  img {
+    width: 100%;
+    height: auto;
+  }
+  img.icon {
+    width: initial;
+  }
+  p.sub {
+    @include sans-serif(24px, 500);
+    margin: 1em 0;
+    opacity: .5;
+    line-height: 1.4;
+  }
   .Section_featured_curved {
+    position: relative;
     background: url(asset_path('modules/section_bg.svg')) no-repeat top left;
     background-size: 60vw;
-    min-height: 475px;
+    min-height: 420px;
+  }
+  .Section_featured_curved_image {
+    position: absolute;
+    width: 19vw;
+    padding: 2em 10vw;
+    img {
+      width: 100%;
+    }
   }
   .Section_featured_curved_content {
     padding: 8em 8em 0em 52vw;
+
+    @media (max-width: $cMediaMobile) {
+      padding: 8em 1em 0;
+
+      .columns-3 {
+        display: block;
+        > div {
+          width: initial;
+          margin: 0 0 1em 0;
+        }
+      }
+    }
+
     h2 {
       @include sans-serif(32px, 600);
     }
@@ -186,19 +220,35 @@
 .Module__intro.Module--Contracts {
   background: #FFF;
 
-  .inner {
-    padding: 5vh 50% 5vh 0;
-    margin-top: 2em;
-    margin-bottom: 2em;
+  .Module__intro-content {
+    min-width: 300px;
+    width: 50%;
     box-sizing: border-box;
-    background: url(asset_path('modules/Illustration_Contracts.svg')) no-repeat right;
-    // background-size: contain;
-    background-size: 40%;
-    height: 60vh;
-    max-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
+    @media (max-width: $cMediaMobile) {
+      padding: 0;
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: $cMediaMobile) {
+    .columns-2 {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+    .front_image {
+      padding: 0;
+      margin: 1em 0;
+    }
   }
 
 }
@@ -232,6 +282,10 @@
     margin: auto;
     text-align: center;
     font-weight: bold;
+
+    @media (max-width: $cMediaMobile) {
+      width: 90%;
+    }
   }
 }
 
@@ -263,6 +317,15 @@
   > div {
     width: 47%;
   }
+
+  @media (max-width: $cMediaMobile) {
+    display: block;
+
+    > div {
+      width: 100%;
+    }
+  }
+
 }
 .columns-3 {
   display: flex;
@@ -270,6 +333,14 @@
 
   > div {
     width: 29%;
+  }
+
+  @media (max-width: $cMediaMobile) {
+    display: block;
+
+    > div {
+      width: 100%;
+    }
   }
 }
 .p_v_1 {

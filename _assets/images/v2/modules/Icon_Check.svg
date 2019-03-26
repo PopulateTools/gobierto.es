@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="102px" height="98px" viewBox="0 0 102 98" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Icon_Check</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#02C3CD" offset="0%"></stop>
+            <stop stop-color="#01909E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gobierto-Contratos-Proto-v2" transform="translate(-1108.000000, -4330.000000)" fill="url(#linearGradient-1)">
+            <g id="noun_Checkbox_972345" transform="translate(1124.000000, 4354.000000)">
+                <g id="Group">
+                    <path d="M8.17432662,40.541375 L2.32146926,34.7088401 L4.3907524,32.6467419 L10.2436098,38.4792769 L16.0985367,32.6446796 L18.1678198,34.7067777 L12.3128929,40.541375 L18.1678198,46.3759723 L16.0985367,48.4380704 L10.2436098,42.6034731 L4.3907524,48.4360081 L2.32146926,46.3739099 L8.17432662,40.541375 Z M6.28097561,16.7825 L0.0351219512,10.5554167 L2.10439024,8.49333333 L7.1795122,13.5508333 L17.3034146,0.5775 L19.6156098,2.36833333 L8.47317073,16.6454167 L6.28097561,16.7825 Z M32.195122,33.25 L70.2439024,33.25 L70.2439024,36.1666667 L32.195122,36.1666667 L32.195122,33.25 Z M32.195122,4.08333333 L70.2439024,4.08333333 L70.2439024,7 L32.195122,7 L32.195122,4.08333333 Z M32.195122,44.9166667 L49.7560976,44.9166667 L49.7560976,47.8333333 L32.195122,47.8333333 L32.195122,44.9166667 Z M32.195122,15.75 L52.6829268,15.75 L52.6829268,18.6666667 L32.195122,18.6666667 L32.195122,15.75 Z" id="Combined-Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
