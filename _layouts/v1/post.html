@@ -11,7 +11,7 @@ layout: v1/default
     {% if page.main_photo_big contains '://' %}
       <img src="{{ page.main_photo_big }}" class="heading" itemprop="img heading" title="{% if page.main_photo_caption %}{{ page.main_photo_caption }}{% endif %}">
     {% else %}
-      {% asset 'v1/{{ page.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+      {% asset '{{ page.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
     {% endif %}
     <div class="header_text">
       <div class="bg"></div>
@@ -28,7 +28,7 @@ layout: v1/default
   <div class="column">
 
     {% if page.main_photo %}
-      {% asset 'v1/{{ page.main_photo }}' class:'pure-img heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+      {% asset '{{ page.main_photo }}' class:'pure-img heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
       <header>
         <h1 itemprop="name headline">{{ page.title }}</h1>
         <p class="subtitle" itemprop="description">{{ page.subtitle }}</p>
@@ -87,7 +87,7 @@ layout: v1/default
   <div class="pure-g">
 
     {% for post in site.posts limit:3 %}
-      {% include v1/post.html %}
+      {% include post.html %}
     {% endfor %}
 
   </div>

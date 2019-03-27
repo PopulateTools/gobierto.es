@@ -21,20 +21,20 @@ Ahora se puede hacer una exploración sobre las facturas que recibe (y reconoce 
 
 ## Contexto personalizado en la comparación del presupuesto
 
-{% asset 'v1/posts/180220-gobierto-comparador.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/180220-gobierto-comparador.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 Nuestro visor de presupuestos ya ofrecía información de contexto sobre como se compara el presupuesto de un municipio con la media provincial, autonómica y estatal. Estos datos salen de **Populate Data**, nuestro servicio de explotación de datos públicos, que es lo que también alimenta nuestro comparador ([presupuestos.gobierto.es](http://presupuestos.gobierto.es)) y proyectos como [España en Cifras](https://medium.com/lets-populate/españa-en-cifras-a-data-journalism-project-by-populate-7481916b5d92).
 
 ## Más datos en el Recibo de tus impuestos
 
-{% asset 'v1/posts/180220-gobierto-recibo.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/180220-gobierto-recibo.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 El Recibo de tus Impuestos permite ver la aportación concreta de un ciudadano al presupuesto municipal. Hasta ahora se mostraba el año en curso; a partir de ahora hay opción de incluir varios años y poder ir viendo como evoluciona cada concepto.
 
 
 ## Gestor de contenidos
 
-{% asset 'v1/posts/180220-gobierto-cms.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/180220-gobierto-cms.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 En breve estrenaremos el primer sitio que hace uso del módulo de gestión de contenidos para publicar su portal de transparencia.
 

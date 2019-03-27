@@ -59,19 +59,15 @@ plugins: [jekyll-assets]
 
 # Plugin: jekyll-assets
 assets:
+  source_maps: true
   dirname: assets
   baseurl: /assets/
   sources:
     - _assets/javascript
-    - _assets/images/v1
+    - _assets/images
     - _assets/images/v2
     - _assets/stylesheets
   # gzip: [ text/css, application/javascript ]
   digest: false
-  # compressors:
-  #   uglifier:
-  #     harmony: true
-  #     compress:
-  #       unused: false
 
 timezone: Europe/Madrid

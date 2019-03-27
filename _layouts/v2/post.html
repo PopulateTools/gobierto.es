@@ -17,7 +17,7 @@ layout: v2/default
       {% if page.main_photo_big contains '://' %}
         <img src="{{ page.main_photo_big }}" class="heading" itemprop="img heading" title="{% if page.main_photo_caption %}{{ page.main_photo_caption }}{% endif %}">
       {% else %}
-        {% asset 'v1/{{ page.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+        {% asset '{{ page.main_photo_big }}' @path class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
       {% endif %}
     {% endif %}
 
@@ -32,7 +32,7 @@ layout: v2/default
           {% if page.main_photo contains '://' %}
             wadus
           {% else %}
-            {% asset 'v1/{{ page.main_photo }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+            {% asset '{{ page.main_photo }}' @path class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
           {% endif %}
         {% endif %}
 

@@ -19,14 +19,14 @@
   bottom: 0;
   border-radius: 6px 6px 0 0;
   z-index: 1;
-  background: url(asset('mockup.svg')) 0 0 no-repeat;
+  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
   background-size: cover;
   width: 637px;
   vertical-align: middle;
 }
 
 .Browser.Browser--altos-cargos-y-agendas .Browser__screen {
-  background: url(asset('modules/agenda.svg')) 0 0 no-repeat!Important;
+  background: url(asset_path('modules/agenda.svg')) 0 0 no-repeat!Important;
   background-size: 634px !important;
   top: 32px;
 }
@@ -36,7 +36,7 @@
 
 
 .Browser.Browser--presupuestos .Browser__screen {
-  background: url(asset('modules/presupuestos.svg')) 0 0 no-repeat!Important;
+  background: url(asset_path('modules/presupuestos.svg')) 0 0 no-repeat!Important;
   background-size: 634px !important;
   top: 32px;
 }
@@ -46,7 +46,7 @@
 
 
 .Browser.Browser--observatorio-estadistico .Browser__screen {
-  background: url(asset('modules/indicadores.svg')) 0 0 no-repeat!Important;
+  background: url(asset_path('modules/indicadores.svg')) 0 0 no-repeat!Important;
   background-size: 634px !important;
   top: 32px;
 }
@@ -56,7 +56,7 @@
 
 
 .Browser.Browser--participacion .Browser__screen {
-  background: url(asset('modules/participacion.jpg')) 0 0 no-repeat!Important;
+  background: url(asset_path('modules/participacion.jpg')) 0 0 no-repeat!Important;
   background-size: 634px !important;
   top: 32px;
 }
@@ -66,12 +66,12 @@
 
 .Browser.Browser--large .Browser__screen {
   top: 44px;
-  background: url(asset('mockup.svg')) 0 0 no-repeat;
+  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
   width: 1024px;
 }
 .Browser.Browser--medium .Browser__screen {
   top: 44px;
-  background: url(asset('mockup.svg')) 0 0 no-repeat;
+  background: url(asset_path('mockup.svg')) 0 0 no-repeat;
   width: 800px;
 }
 

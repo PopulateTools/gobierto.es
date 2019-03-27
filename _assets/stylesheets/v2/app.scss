@@ -1,7 +1,7 @@
 @import 'helpers/reset';
 @import 'helpers/mobile';
 @import 'helpers/helpers';
-@import '../v1/_vendor/populities';
+// @import '../v1/_vendor/populities';
 
 @import 'About';
 @import 'Team';
@@ -65,7 +65,7 @@ strong {
   content: '';
   position: relative;
   display: inline-block;
-  background: url(asset('mark.svg')) 0 0 no-repeat;
+  background: url(asset_path('mark.svg')) 0 0 no-repeat;
   background-size: cover;
   vertical-align: middle;
   width: 20px;
