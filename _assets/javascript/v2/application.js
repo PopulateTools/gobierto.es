@@ -1,4 +1,4 @@
-//= require ../v1/analytics
+//= require ./analytics
 //= require ./vendor/enter-view.min
 
 function isScrolledIntoView(elem) {

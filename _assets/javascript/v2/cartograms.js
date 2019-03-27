@@ -3,10 +3,10 @@
 //= require ./vendor/topojson
 //= require ./vendor/d3-composite-projections
 //= require ./vendor/jquery-3.0.0.min
-//= require ../v1/charts/epaCartogram
-//= require ../v1/charts/epaMap
-//= require ../v1/charts/epaPlacesMap
-//= require ../v1/charts/incomeProvinceCartogram
+//= require ./charts/epaCartogram
+//= require ./charts/epaMap
+//= require ./charts/epaPlacesMap
+//= require ./charts/incomeProvinceCartogram
 
 $(function(){
   if ($('.js-cartogram').length !== 0) {
