@@ -5,13 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-  {% stylesheet v1/main %}
-  {% stylesheet v1/charts %}
+  {% asset v1/main %}
+  {% asset v1/charts %}
 
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
-  {% javascript v1/application %}
-  {% javascript v1/charts %}
+  {% asset v1/application %}
+  {% asset v1/charts %}
 
 </head>
 

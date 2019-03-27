@@ -67,9 +67,9 @@ main_photo_big:
 
 <p>Algunos ejemplos de la proyección (ver nota al pie para detalles sobre cómo hemos proyectado los datos):</p>
 
-{% img 'posts/160901-debt-ex2' %}
+{% asset 'posts/160901-debt-ex2' %}
 
-{% img 'posts/160901-debt-ex3' %}
+{% asset 'posts/160901-debt-ex3' %}
 
 <div class="separator blue short"></div>
 

@@ -8,7 +8,7 @@
     </div>
     <div class="Slideshow__items">
       {% for post in site.posts limit:1 %}
-      <a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('{% asset_path '{{ post.main_photo }}' %}')"></a>
+      <a href="{{ post.url | prepend: site.baseurl }}" class="Slideshow__thumbnail" style="background-image: url('{% asset '{{ post.main_photo }}' %}')"></a>
       <a class="Slideshow__itemTitle" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       <div class="Slideshow__itemDescription">{{ post.subtitle }}</div>
       {% endfor %}

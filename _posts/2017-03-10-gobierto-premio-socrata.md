@@ -18,6 +18,6 @@ Socrata es una de las soluciones open data por excelencia. Permite crear un port
 
 Es un ejemplo de "libro" de reutilización de datos: la Generalitat publica una vez sus datos, y cualquier usuario (particular o empresa) puede conectarse para descargarlos y darles nueva vida. Es precisamente lo que hace nuestro comparador: descargamos los datos, los importamos a nuestro sistema, y la aplicación permite explorarlos de nuevas formas.
 
-{% img 'posts/170310-socrata.jpg' class:'inline caption' title:"En la imagen Xavi Puig de la Generalitat de Catalunya y Toni Rubio de Desidedatum" %}
+{% asset 'posts/170310-socrata.jpg' class:'inline caption' title:"En la imagen Xavi Puig de la Generalitat de Catalunya y Toni Rubio de Desidedatum" %}
 
 Puedes visitar el Comparador de Presupuestos de la Generalitat (el producto premiado) en [pressupostosmunicipals.transparenciacatalunya.cat](http://pressupostosmunicipals.transparenciacatalunya.cat). Más información sobre [el proyecto](/blog/20170126-generalitat-catalunya.html).

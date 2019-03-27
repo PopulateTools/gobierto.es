@@ -2,7 +2,7 @@
 
 .Logo {
   display: block;
-  background: url(asset_path('logo-gobierto.svg')) 0 0 no-repeat;
+  background: url(asset('logo-gobierto.svg')) 0 0 no-repeat;
   background-size: contain;
   width: 194px;
   height: 34px;
@@ -14,14 +14,14 @@
 }
 .Logo__populate {
   display: block;
-  background: url(asset_path('populate.svg')) 0 0 no-repeat;
+  background: url(asset('populate.svg')) 0 0 no-repeat;
   background-size: cover;
   width: 140px;
   height: 42px;
 }
 .Logo__sergio-jimenez {
   display: block;
-  background: url(asset_path('logo-sergio-jimenez-lite.png')) 0 0 no-repeat;
+  background: url(asset('logo-sergio-jimenez-lite.png')) 0 0 no-repeat;
   background-size: cover;
   width: 140px;
   height: 42px;

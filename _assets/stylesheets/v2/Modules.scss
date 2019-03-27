@@ -181,7 +181,7 @@
   }
   .Section_featured_curved {
     position: relative;
-    background: url(asset_path('modules/section_bg.svg')) no-repeat top left;
+    background: url(asset('modules/section_bg.svg')) no-repeat top left;
     background-size: 60vw;
     min-height: 420px;
   }
@@ -253,7 +253,7 @@
 
 }
 .bg_virgulillas_with_gradient {
-  background-image: url(asset_path('virgulillas_white.svg')), linear-gradient(0deg, #01909E 0%, #A7DEE3 63%);
+  background-image: url(asset('virgulillas_white.svg')), linear-gradient(0deg, #01909E 0%, #A7DEE3 63%);
 }
 .bg_virgulillas_with_cyan_bg {
   background: #008e9c url("/assets/v2/virgulillas_white.svg") repeat;

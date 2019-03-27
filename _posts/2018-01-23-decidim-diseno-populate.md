@@ -16,7 +16,7 @@ Continuamos nuestra colaboración con el Ayuntamiento de Barcelona en el context
 
 En Populate trabajaremos mano a mano con el equipo de Producto de Decidim para continuar con la evolución del software: diseño y conceptualización de nuevas secciones, iteración y mejora de las existentes, investigación de usuarios, mejora en los procesos de desarrollo en lo relativo a código front-end...
 
-{% img 'v1/posts/180123-decidim-2.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'v1/posts/180123-decidim-2.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 Una de las primeras iniciativas es **consolidar y extender el sistema de diseño de Decidim**: la librería de **[patrones](http://gobierto.es/blog/20170615-patrones-y-estandares-en-la-administracion.html)** y componentes. Este sistema permite garantizar la coherencia de estilo y elementos entre distintas pantallas, aumentar la velocidad de desarrollo y facilitar la creación de nuevas secciones. En el futuro, también será un elemento fundamental para aquellos equipos externos que creen módulos o plugins sin la supervisión directa del equipo de producto. En próximos posts relataremos la evolución de este sistema de diseño.
 
@@ -31,6 +31,6 @@ El desarrollo de Decidim es un ejemplo de buenas prácticas en cuanto a la creac
 * **Código ético y contrato social**: Han definido un [código de garantías y colaboración democráticas](https://decidim.org/es/contract/), el contrato social que todos los miembros del proyecto Decidim se comprometen a seguir.
 * **Contratación**: se ha realizado un gran esfuerzo para el proceso de contratación se adapte a estas realidades de código abierto y colaboración distribuida, y en el que empresas pequeñas puedan tener oportunidades frente a las grandes consultoras.
 
-{% img 'v1/posts/180123-decidim-3.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'v1/posts/180123-decidim-3.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 En la [organización de Decidim de Github](http://github.com/decidim) podéis echar un vistazo a los distintos repositorios y proyectos. En [meta.decidim](http://meta.decidim.barcelona) te puedes involucrar para participar en el desarrollo del proyecto.

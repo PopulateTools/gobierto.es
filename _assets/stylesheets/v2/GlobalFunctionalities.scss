@@ -1,6 +1,6 @@
 .GlobalFunctionalities {
   padding: 120px 0;
-  background: $cRed url(asset_path('logo-shadow.svg')) no-repeat 50% 50%;
+  background: $cRed url(asset('logo-shadow.svg')) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -46,21 +46,21 @@
 }
 
 .GlobalFunctionalities__itemIcon--calendar {
-  background: url(asset_path('calendar.svg')) no-repeat 0 0;
+  background: url(asset('calendar.svg')) no-repeat 0 0;
   background-size: cover;
 	width: 154px;
 	height: 120px;
 }
 
 .GlobalFunctionalities__itemIcon--cog {
-  background: url(asset_path('cog.svg')) no-repeat 0 0;
+  background: url(asset('cog.svg')) no-repeat 0 0;
   background-size: cover;
 	width: 120px;
 	height: 120px;
 }
 
 .GlobalFunctionalities__itemIcon--bubbles {
-  background: url(asset_path('bubbles.svg')) no-repeat 0 0;
+  background: url(asset('bubbles.svg')) no-repeat 0 0;
   background-size: cover;
 	width: 213px;
 	height: 120px;

@@ -16,7 +16,7 @@
 .Tooltip__target {
   margin: 0 0 0 3px;
   display: inline-block;
-  background: url(asset_path('tooltip-target.svg')) 0 0 no-repeat;
+  background: url(asset('tooltip-target.svg')) 0 0 no-repeat;
   width: 10px;
   height: 6px;
   background-size: cover;

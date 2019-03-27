@@ -9,7 +9,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  background: url(asset_path('methodology-shadow.svg')) no-repeat 50% 50%;
+  background: url(asset('methodology-shadow.svg')) no-repeat 50% 50%;
   $w: 1400px;
   width:  $w;
   height: $w;

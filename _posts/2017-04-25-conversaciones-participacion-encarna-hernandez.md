@@ -20,7 +20,7 @@ main_photo: posts/170419-conversaciones-participacion-encarna_h.png
 En el campo profesional, ahora soy directora de comunicación en [NovaGob](http://novagob.org/), y también participo en proyectos que desarrollamos desde su laboratorio de Gobierno ([NovaGob.Lab](https://lab.novagob.org/)) en materia de participación ciudadana. En NovaGob tenemos una visión de las políticas de participación ciudadana conectada con los conceptos de innovación abierta y gobernanza inteligente.
 
 <div class="separator blue short"></div>
-{% img 'posts/170419-conversaciones-encarna-MolinayCabannes.jpg' %}
+{% asset 'posts/170419-conversaciones-encarna-MolinayCabannes.jpg' %}
 <p>Charla de José Molina e Yves Cabannes sobre presupuestos participativos en Molina de Segura</p>
 <div class="separator blue short"></div>
 
@@ -39,7 +39,7 @@ Siguen siendo necesarios escenarios presenciales y territorializados, pero la te
 Cada modelo de participación tiene sus sesgos que pueden ser atajados desde la complementaridad. No hace mucho, al hilo de la propuesta pionera de presupuesto participativo en la Región de Murcia, realicé algunas consideraciones al respecto, centradas en la necesaria complementariedad entre lo presencial y lo digital y la posibilidad de combinar la participación individual con la intervención de colectivos. Un ejemplo: se pueden recabar propuestas de actuación telemáticamente sin que por ello se desconecte la tradicional influencia de colectivos y asociaciones, que pueden capitalizar parte del proceso.
 
 <div class="separator blue short"></div>
-{% img 'posts/170419-conversaciones-encarna-flyer.png' %}
+{% asset 'posts/170419-conversaciones-encarna-flyer.png' %}
 <p>Página de la guía de los presupuestos participativos de Molina de Segura</p>
 <div class="separator blue short"></div>
 

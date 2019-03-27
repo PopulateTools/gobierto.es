@@ -42,7 +42,7 @@ Cada provincia tiene su Diputación, menos en las comunidades uniprovinciales (A
 
 En España hay 8.125 municipios. ¿Cuantos tienen menos de 20.000 hab. y están en comunidades de varias provincias? Nada menos que 6.942. Es decir, **el 85% de los municipios se encuentran bajo el paragüas de las Diputaciones**. Y si nos vamos a los muy pequeños (menos de 1.000 hab.), las cifras son especialmente significativas: un **56%**. Hay que tener en cuenta que la mayoría de la población española se concentra en unos cientos de núcleos más grandes de población, en los que se pueden optimizar mejor los costes de la recogida de basura, abastecimiento de agua, internet...
 
-{% img 'posts/161221-diputaciones01.jpg' %}
+{% asset 'posts/161221-diputaciones01.jpg' %}
 
 ## ¿Cuánto dinero gastan y cómo se financian?
 

@@ -22,7 +22,7 @@ En 1973, **Peter Godber**, jefe de policía, amasaba una fortuna de varios millo
 
 Cuando los periódicos filtraron la investigación sobre el origen ilícito de la fortuna de Godber, éste huyó a Londres sin que las autoridades movieran un dedo para impedirlo. Fue la gota que colmó el vaso. Una oleada de indignación recorrió la ciudad y la gente se lanzó a las calles para exigir al gobierno una respuesta contundente.
 
-{% img 'posts/161118-hongkong_02.png' %}
+{% asset 'posts/161118-hongkong_02.png' %}
 
 ## Información y participación ciudadana
 
@@ -36,7 +36,7 @@ Como resultado de estas acciones aumentó el porcentaje de participación ciudad
 
 Hong Kong creció exponencialmente durante los años 80, 90 y 2000, y su desarrollo económico fue meteórico. Algunos expertos dicen que se convirtió en un punto de referencia financiera gracias a la labor de la comisión. 
 
-{% img 'posts/161118-hongkong_03.png' %}
+{% asset 'posts/161118-hongkong_03.png' %}
 
 A pesar de que la ciudadanía sigue apoyando su labor, el ICAC tiene el reto permanente de mantener su independencia y justificar su existencia en un mundo donde la corrupción cada vez está más globalizada. Hong Kong conserva su imagen de ciudad transparente, pero recientes casos de corrupción como el de su Jefe Ejecutivo, [Donald Tsang](https://www.theguardian.com/world/2015/oct/05/hong-kongs-former-leader-donald-tsang-charged-over-corruption-allegations) siguen poniendo a prueba a la comisión y apuntan a la necesidad de arrojar más luz sobre los asuntos públicos.
 

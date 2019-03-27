@@ -27,25 +27,25 @@ Algunos de los datos que te contamos a través de visualizaciones e indicadores:
 
 ### Población
 
-{% img 'posts/170425-indicadores-2.png' %}
+{% asset 'posts/170425-indicadores-2.png' %}
 
 Estos datos son de Madrid y muestran el número de habitantes según la edad. Las tarjetas resumen otros indicadores relevantes. Añadimos contexto con comparaciones entre el municipio, la provincia y el país, además de aportar datos por habitante, en el caso de los coches, o el porcentaje de población activa del municipio. Los gráficos de línea (o [_sparklines_](https://en.wikipedia.org/wiki/Sparkline)) que incluimos en algunas tarjetas ayudan a entender la tendencia de cada cifra en los últimos meses o años.
 
-{% img 'posts/170425-indicadores-3.png' %}
+{% asset 'posts/170425-indicadores-3.png' %}
 
 ### Empleo
-{% img 'posts/170425-indicadores-4.png' %}
+{% asset 'posts/170425-indicadores-4.png' %}
 
 El desempleo es uno de los problemas que más preocupan a la sociedad. Por eso, en nuestros indicadores hemos ido un poco más allá, calculando una aproximación de la tasa de paro a nivel local. Esta cifra la comparamos con la de España y la de la Comunidad Autonóma en los últimos cinco años. También la hemos aproximado según el sexo y la edad, factores relevantes que influyen en el indicador.
 
 No son unas cifras exactas pero sirven para tener una referencia, un contexto bastante completo que no era accesible facilmente.
 
-{% img 'posts/170425-indicadores-5.png' %}
+{% asset 'posts/170425-indicadores-5.png' %}
 
 Cada mes el [Servicio Público de Empleo Estatal](https://www.sepe.es/) (SEPE) publica el número de desempleados y contratos a nivel local. Hemos añadido unas tarjetas que muestran de una manera clara la evolución del mercado laboral por sector económico. También es importante entender el contexto, por eso tenemos el número de afiliados a la Seguridad Social, de autónomos y de empresas.
 
 ### Economía
-{% img 'posts/170425-indicadores-6.png' %}
+{% asset 'posts/170425-indicadores-6.png' %}
 
 ¿Cómo contextualizamos a un municipio en términos económicos? Creemos que comparar la renta bruta media y la población es un ejercicio interesante, ya que se pueden ver los diferentes _clusters_ que se forman en la provincia. Aquí Madrid destaca por su elevado número de habitantes, saliéndose de la tendencia provincial.
 
@@ -53,7 +53,7 @@ Para profundizar en esa cifra hemos agregado varias tarjetas sobre renta e impue
 
 También hemos calculado la media del impuesto a las construcciones y turismos en la provincia. Esto ayuda a colocar el municipio en su contexto de una manera más clara.
 
-{% img 'posts/170425-indicadores-7.png' %}
+{% asset 'posts/170425-indicadores-7.png' %}
 
 ## Próximas iteraciones
 

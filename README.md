@@ -29,11 +29,11 @@ By default, an image in a post will take the full width of the column. Options:
 
 <strong>Inline image</strong> Add the class "inline":
 
-<code>{% img 'v1/articles/160404-main_article-01' class:'inline' %}</code>
+<code>{% asset 'v1/articles/160404-main_article-01' class:'inline' %}</code>
 
 <strong>Full width image</strong> Add the class "full_width": 
 
-<code>{% img 'v1/articles/160404-main_article-01' class:'full_width' %}</code>
+<code>{% asset 'v1/articles/160404-main_article-01' class:'full_width' %}</code>
 
 Add classes **f_right** and **f_left** to make the image slideout of the column in either direction.
 
@@ -42,7 +42,7 @@ Add classes **f_right** and **f_left** to make the image slideout of the column 
 If you want to show a caption of the image, you can add an attribute title to the img, and a class caption to make it show. If you only add the title, it will function as the normal html title element. Example: 
 
 ```
-{% img 'v1/articles/00Divorce/160403-wadus-1' class:'full_width caption' title:'Caption of the image' %}
+{% asset 'v1/articles/00Divorce/160403-wadus-1' class:'full_width caption' title:'Caption of the image' %}
 ```
 
 

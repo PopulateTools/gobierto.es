@@ -64,7 +64,7 @@
   position: relative;
 }
 .Module__shadow {
-  background: url(asset_path('module-shadow.svg')) no-repeat 0 0;
+  background: url(asset('module-shadow.svg')) no-repeat 0 0;
   top: 0px;
   left: 20px;
   position: absolute;

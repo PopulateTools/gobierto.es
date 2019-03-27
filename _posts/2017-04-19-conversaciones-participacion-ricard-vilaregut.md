@@ -40,7 +40,7 @@ La nueva esfera es la esfera ciudadana no organizada, en la cual, efectivamente,
 Tenemos un pastel y hay unos comensales. ¿Cual es la forma más justa de repartirse el pastel? Pues que uno corte el pastel y que otro escoja el corte. La persona que corta el pastel sabrá que tiene que ser muy justo; tendrá que cortar a mitades iguales porque el que escoge es el otro. Esta metáfora nos explica muy bien la idea de que la parte política representativa y la parte deliberativa tienen que ser muy conscientes de que tienen que ser muy justos, muy del interés común porque finalmente decidirá el ciudadano no organizado a través de un proceso tecnológico. Creo que esta fórmula es muy interesante porque garantiza un equilibrio entre las dos partes.
 
 <div class="separator blue short"></div>
-{% img 'posts/170425-participa-badalona.png' %}
+{% asset 'posts/170425-participa-badalona.png' %}
 <div class="separator blue short"></div>
 
 **¿Cómo podemos reducir los sesgos? ¿Cómo atajamos las brechas generacionales, tecnológicas y socioeconómicas?**

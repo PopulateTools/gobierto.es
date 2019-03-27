@@ -51,11 +51,11 @@ exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bi
 
 plugins: [jekyll-assets]
 
-jekyll-press:
-  exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
-  js_options: {}      # js minifier options
-  css_options: {}     # css minifier options
-  html_options: {}    # html minifier options
+# jekyll-press:
+#   exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
+#   js_options: {}      # js minifier options
+#   css_options: {}     # css minifier options
+#   html_options: {}    # html minifier options
 
 # Plugin: jekyll-assets
 assets:
@@ -66,7 +66,12 @@ assets:
     - _assets/images/v1
     - _assets/images/v2
     - _assets/stylesheets
-  gzip: [ text/css, application/javascript ]
+  # gzip: [ text/css, application/javascript ]
   digest: false
+  # compressors:
+  #   uglifier:
+  #     harmony: true
+  #     compress:
+  #       unused: false
 
 timezone: Europe/Madrid
