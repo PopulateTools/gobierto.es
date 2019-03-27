@@ -1,17 +1,14 @@
 ---
-layout: v2/post
-title: 'Me encanta que los planes salgan bien'
-subtitle: ''
-date: 2019-05-15
+title: Me encanta que los planes salgan bien
+date: 2019-05-15 00:00:00 +02:00
 categories:
-  - gobierno_abierto
-  - tecnologia
+- gobierno_abierto
+- tecnologia
+layout: v2/post
+subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/181119-Gobierto-Scrolly-Cover.png
 ---
-
-
-
 
 <div class="separator blue short"></div>
 

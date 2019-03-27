@@ -8,7 +8,7 @@ layout: v2/post
 subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse
   de su deuda
 author: Populate
-main_photo_big:
+main_photo_big: 
 ---
 
 <div class="tool">
