@@ -17,9 +17,11 @@ layout: v2/default
       {% if page.main_photo_big contains '://' %}
         <img src="{{ page.main_photo_big }}" class="heading" itemprop="img heading" title="{% if page.main_photo_caption %}{{ page.main_photo_caption }}{% endif %}">
       {% else %}
-        {% img 'v1/{{ page.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+        {% asset '{{ page.main_photo_big }}' @path class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
       {% endif %}
     {% endif %}
+
+
 
     <div class="Post__inner">
       <div class="Post__header">
@@ -30,10 +32,10 @@ layout: v2/default
           {% if page.main_photo contains '://' %}
             wadus
           {% else %}
-            {% img 'v1/{{ page.main_photo }}' class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
+            {% asset '{{ page.main_photo }}' @path class:'heading' itemprop:'img heading' title:'{{ page.main_photo_caption }}' %}
           {% endif %}
         {% endif %}
-        
+
       </div>
       <div class="Post__content" itemprop="articleBody">
         {{ content }}

@@ -18,7 +18,7 @@ En un futuro cercano se continuará publicando información como el Plan de Actu
 
 Como novedad, para este lanzamiento con Eplugues hemos mejorado la visualización de población del Observatorio. Ahora puedes consultar la pirámide por sexo, ver de forma clara la población activa, así como la edad media, mediana y la más común del municipio. Y comparar de forma muy sencilla con la comunidad autónoma y toda España.
 
-{% img 'v1/posts/180926-esplugues-piramide.gif' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/180926-esplugues-piramide.gif' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 Visita el portal abierto de Esplugues: [portalobert.esplugues.cat](https://portalobert.esplugues.cat)
 

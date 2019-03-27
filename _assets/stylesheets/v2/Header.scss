@@ -2,6 +2,10 @@
   background: $cWhite;
   padding: 32px 0 24px;
   border-bottom: 1px solid $cSubtleGray;
+
+  @media all and (max-width : $cMediaMobile) {
+    padding: 14px 0 10px;
+  }
 }
 .Header__logo {
   @media all and (max-width : $cMediaMobile) {
@@ -120,6 +124,14 @@
   }
 }
 
+
+
+.is-sticky {
+  position: sticky;
+  top: -1px;
+  z-index: 1000;
+}
+
 .Menu__global {
   background: $cCyan;
   text-align: center;
@@ -131,7 +143,7 @@
     padding: 1em 1.5em;
     text-decoration: none;
     // transition: transform 0.15s cubic-bezier(0.77, 0.2, 0.05, 1);
-    transition: background $transitionRegular ease-in-out;
+    transition: background $transitionRegular ease-in-out, padding $transitionRegular ease-in-out;
   }
   span.text {
     transition: color $transitionRegular ease-in-out;
@@ -153,5 +165,68 @@
   }
   a:last-child {
     margin-right: 0;
+  }
+  .menu-logo {
+    display: none;
+    transition: all $transitionRegular ease-in-out;
+  }
+}
+.Menu__global.is-sticky {
+  padding-left: 120px;
+  a {
+    padding: .5em 1.5em;
+  }
+  .menu-logo {
+    display: inline-block;
+    left: 0;
+    position: absolute;
+  }
+}
+.Menu__slide {
+  transition: transform $transitionSlow ease-in-out;
+  transform: translate(-140vh, 0);
+  position: fixed;
+
+  a {
+    font-size: .85em;
+    color: #FFF;
+    display: inline-block;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    // transition: transform 0.15s cubic-bezier(0.77, 0.2, 0.05, 1);
+    transition: background $transitionRegular ease-in-out, padding $transitionRegular ease-in-out;
+  }
+
+}
+.Menu__slide.is-open {
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  top: 0;
+  background: $cBlue;
+
+  .js-hamburger-desktop-close {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    z-index: 10000;
+  }
+}
+.Menu__slide--inner {
+  padding: 1em;
+  display: flex;
+  height: 100%;
+  width: 75%;
+  flex-direction: column;
+  margin: auto;
+
+  p.main {
+    font-size: 36px;
+    line-height: 120%;
+    margin: 0 0 2em 0;
+  }
+  p.secondary {
+    font-size: 24px;
   }
 }

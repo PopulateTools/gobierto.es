@@ -7,10 +7,14 @@ layout: v2/default
 <div class="Posts">
   <h2 class="Blog__title">El blog de Gobierto</h2>
   <div class="Posts__inner">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:10 %}
     <div class="Posts__post">
       {% include v2/post.html %}
     </div>
     {% endfor %}
   </div>
 </div>
+
+<h2>Todo el archivo</h2>
+
+{% include v2/blog_themes_index.html %}

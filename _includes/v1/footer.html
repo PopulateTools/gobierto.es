@@ -59,7 +59,7 @@
 	        {% if post.main_photo_big contains '://' %}
 			      <img src="{{ post.main_photo_big }}" class="heading" itemprop="img heading" title="{% if post.main_photo_caption %}{{ post.main_photo_caption }}{% endif %}">
 			    {% else %}
-			      {% img 'v1/{{ post.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ post.main_photo_caption }}' %}
+			      {% asset 'v1/{{ post.main_photo_big }}' class:'heading' itemprop:'img heading' title:'{{ post.main_photo_caption }}' %}
 			    {% endif %}
 			  {% endif %}
 	    </a>
@@ -97,7 +97,7 @@
 
 		<div class="pure-g">
 
-			<a href="/" title="Gobierto">{% img 'v1/logo_gobierto' class:'logo_gobierto' %}</a>
+			<a href="/" title="Gobierto">{% asset 'v1/logo_gobierto' class:'logo_gobierto' %}</a>
 
 			<menu>
 
@@ -130,7 +130,7 @@
 					<p>Gobierto es <a href="/open-source">open source</a></p>
 					<div class="logo_populate">
 						<p>Un producto de</p>
-    				<a href="http://populate.tools" target="_blank" title="Tools for civic engagement">{% img 'v1/logo_populate' %}</a>
+    				<a href="http://populate.tools" target="_blank" title="Tools for civic engagement">{% asset 'v1/logo_populate' %}</a>
     			</div>
 				</div>
 

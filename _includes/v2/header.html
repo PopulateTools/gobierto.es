@@ -69,7 +69,10 @@
   </div>
 </div>
 
-<menu class="Menu__global">
+<div class="Menu__global sticky" >
+
+  <a href="/" class="menu-logo js-hamburger-desktop" aria-hidden="true"><i class="fas fa-bars" ></i> Gobierto</a>
+
   {% for module in site.data.modules %}
     <a
       href="{{ module[1].permalink }}"
@@ -77,4 +80,27 @@
       class="{% if page.url == module[1].permalink %} is-active {% endif %}"
      "><i class="fas fa-{{ module[1].icon }}"></i> <span class="text">{{ module[1].short-title }}</span></a>
   {% endfor %}
-</menu>
+</div>
+
+<div class="Menu__slide">
+
+  <a href="/" class="menu-logo " aria-hidden="true"><i class="fas fa-bars" ></i> Gobierto</a>
+
+  <div class="Menu__slide--inner">
+
+    <p class="main">Gobierto es la plataforma de gobierno abierto open source para administraciones públicas</p>
+
+    <p class="main">{% for module in site.data.modules %}
+      <a
+        href="{{ module[1].permalink }}"
+        title="{{ module[1].title }}"
+        class="{% if page.url == module[1].permalink %} is-active {% endif %}"
+       "><i class="fas fa-{{ module[1].icon }}"></i> <span class="text">{{ module[1].short-title }}</span></a>
+    {% endfor %}</p>
+
+    <p class="main">En nuestro blog contamos historias con datos y cómo usan Gobierto nuestros clientes para conseguir sus objetivos de transparencia, rendición de cuentas y participación.</p>
+
+    <a class="js-hamburger-desktop-close" aria-hidden="true"><i class="fas fa-bars"></i> cerrar</a>
+
+  </div>
+</div>

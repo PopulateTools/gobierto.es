@@ -3,7 +3,7 @@
   padding: 80px 0;
   overflow: hidden;
 }
-.Modules__inner {
+.Modules__inner, .inner {
   width: $innerSize;
   margin: auto;
 }
@@ -91,7 +91,7 @@
 }
 
 @media (max-width: $cMediaStretched) {
-  .Modules__inner {
+  .Modules__inner, .inner {
     width: 90%;
   }
   .Module__preview {
@@ -141,4 +141,240 @@
   .Module__content {
     width: 100%;
   }
+}
+
+
+
+.Module__v2 {
+  color: $cText;
+  background: #FFF;
+  line-height: 1.2;
+
+  h1 {
+    @include sans-serif(46px, 700);
+    color: $cCyan;
+  }
+  h2 {
+    @include sans-serif(28px, 700);
+  }
+  h3 {
+    @include sans-serif(22px, 700);
+  }
+  p {
+    margin-bottom: 1.5em;
+  }
+  p.intro, h2.intro {
+    @include sans-serif(28px, 300);
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  img.icon {
+    width: initial;
+  }
+  p.sub {
+    @include sans-serif(24px, 500);
+    margin: 1em 0;
+    opacity: .5;
+    line-height: 1.4;
+  }
+  .Section_featured_curved {
+    position: relative;
+    background: url(asset_path('modules/section_bg.svg')) no-repeat top left;
+    background-size: 60vw;
+    min-height: 420px;
+  }
+  .Section_featured_curved_image {
+    position: absolute;
+    width: 19vw;
+    padding: 2em 10vw;
+    img {
+      width: 100%;
+    }
+  }
+  .Section_featured_curved_content {
+    padding: 8em 8em 0em 52vw;
+
+    @media (max-width: $cMediaMobile) {
+      padding: 8em 1em 0;
+
+      .columns-3 {
+        display: block;
+        > div {
+          width: initial;
+          margin: 0 0 1em 0;
+        }
+      }
+    }
+
+    h2 {
+      @include sans-serif(32px, 600);
+    }
+  }
+
+}
+.Module__intro {
+  border: 1px solid transparent;
+}
+.Module__intro.Module--Contracts {
+  background: #FFF;
+
+  .Module__intro-content {
+    min-width: 300px;
+    width: 50%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    @media (max-width: $cMediaMobile) {
+      padding: 0;
+      margin: 0;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  @media (max-width: $cMediaMobile) {
+    .columns-2 {
+      display: flex;
+      flex-direction: column-reverse;
+      padding: 0;
+    }
+    .front_image {
+      padding: 0;
+      margin: 1em 0;
+    }
+  }
+
+}
+.bg_virgulillas_with_gradient {
+  background-image: url(asset_path('virgulillas_white.svg')), linear-gradient(0deg, #01909E 0%, #A7DEE3 63%);
+}
+.bg_virgulillas_with_cyan_bg {
+  background: #008e9c url("/assets/v2/virgulillas_white.svg") repeat;
+  background-size: cover;
+}
+.Module__screen-container {
+  text-align: center;
+  padding-top: 4em;
+
+  .Screens {
+    width: 85%;
+    margin: auto;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
+.block_text_featured {
+  font-size: 32px;
+  color: #FFF;
+  text-align: center;
+  p {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+
+    @media (max-width: $cMediaMobile) {
+      width: 90%;
+    }
+  }
+}
+
+
+
+
+// to componentize
+.round-50 {
+  border-radius: 42px;
+  padding: .85em 1em .5em 1.25em;
+}
+.bg_subtle_gray {
+  background: $cSubtleGray;
+}
+.created_by {
+  margin-top: 3em;
+  font-size: .85em;
+  font-weight: 300;
+}
+.v_c {
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.columns-2 {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    width: 47%;
+  }
+
+  @media (max-width: $cMediaMobile) {
+    display: block;
+
+    > div {
+      width: 100%;
+    }
+  }
+
+}
+.columns-3 {
+  display: flex;
+  justify-content: space-between;
+
+  > div {
+    width: 29%;
+  }
+
+  @media (max-width: $cMediaMobile) {
+    display: block;
+
+    > div {
+      width: 100%;
+    }
+  }
+}
+.p_v_1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.p_v_2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.p_v_3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.p_v_4 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.m_v_1 {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.m_v_2 {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+.m_v_3 {
+  padding-top: 3em;
+  padding-bottom: 3em;
+}
+.m_v_4 {
+  padding-top: 4em;
+  padding-bottom: 4em;
+}
+.center {
+  text-align: center;
 }

@@ -2,8 +2,6 @@
 title: 'Lanzamos los rankings en Gobierto: ¿quién se gasta más en qué?'
 date: 2016-03-16 14:00:00 +01:00
 categories:
-- gobierto
-- experiencia_de_usuario
 - visualizacion_de_datos
 layout: v2/post
 subtitle: Explora los gastos e ingresos por tamaño del municipio, gasto total, por

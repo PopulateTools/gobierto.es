@@ -2,7 +2,7 @@
   {% if post.main_photo_big contains '://' %}
     {% assign image_url = post.main_photo_big %}
   {% else %}
-    {% capture image_url %}/assets/v1/{{ post.main_photo_big }}{% endcapture %}
+    {% capture image_url %}/assets/{{ post.main_photo_big }}{% endcapture %}
   {% endif %}
 {% endif %}
 
@@ -10,7 +10,7 @@
   {% if page.main_photo contains '://' %}
     {% assign image_url = post.main_photo %}
   {% else %}
-    {% capture image_url %}/assets/v1/{{ post.main_photo }}{% endcapture %}
+    {% capture image_url %}/assets/{{ post.main_photo }}{% endcapture %}
   {% endif %}
 {% endif %}
 

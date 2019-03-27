@@ -18,19 +18,19 @@ Los ayuntamientos españoles están obligados a reportar su presupuesto y la inf
 
 Puedes acceder desde la  "Ejecución vs. Presupuesto" en la página de cada municipio.
 
-{% img 'posts/160830-pres-vs-eje-1.png' %}
+{% asset 'posts/160830-pres-vs-eje-1.png' %}
 
 <div class="separator_short"></div>
 
 En primer lugar te mostramos un resumen general: la desviación total de ingresos y gastos para el año en cuestión.
 
-{% img 'posts/160830-pres-vs-eje-2.png' %}
+{% asset 'posts/160830-pres-vs-eje-2.png' %}
 
 <div class="separator_short"></div>
 
 Y para que puedas entrar en detalle, te mostramos las partidas cuya ejecución más se ha desviado del plan:
 
-{% img 'posts/160830-pres-vs-eje-3.png' %}
+{% asset 'posts/160830-pres-vs-eje-3.png' %}
 
 <div class="separator_short"></div>
 

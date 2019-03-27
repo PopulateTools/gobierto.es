@@ -2,7 +2,6 @@
 title: "¿Cómo emplea nuestro ayuntamiento el dinero de nuestros impuestos?"
 date: 2016-02-01 14:00:00 +01:00
 categories:
-- transparencia
 - gobierto
 layout: v2/post
 subtitle: Lanzamos Gobierto Presupuestos Municipales (presupuestos.gobierto.es), una

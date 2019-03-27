@@ -1,4 +1,5 @@
-//= require ../v1/analytics
+//= require ./analytics
+//= require ./vendor/enter-view.min
 
 function isScrolledIntoView(elem) {
   var scrollPosition = window.scrollY;
@@ -10,6 +11,42 @@ function isScrolledIntoView(elem) {
 
 }
 
+var setupHamburgerDesktop = function () {
+  var hamburgerDesktop = document.querySelector('.js-hamburger-desktop');
+  var closeDesktop = document.querySelector('.js-hamburger-desktop-close');
+  var menuHover = document.querySelector('.Menu__slide');
+
+  hamburgerDesktop.addEventListener('click', function(e){
+    e.preventDefault();
+  });
+  closeDesktop.addEventListener('click', function(e){
+    e.preventDefault();
+  });
+
+  if (hamburgerDesktop && closeDesktop) {
+    hamburgerDesktop.onmouseover = function () {
+      menuHover.classList.add('is-open');
+
+      setTimeout(function () {
+        // Set class once Menu is shown, in order to avoid the background elements misalignment
+        document.body.classList.add('is-fixed');
+      }, 250);
+
+      bindEscKey(function () {
+        hamburgerDesktop.parentElement.classList.remove('is-open');
+        document.body.classList.remove('is-fixed');
+        document.onkeyup = null;
+      });
+    }
+
+    closeDesktop.onclick = function () {
+      menuHover.classList.remove('is-open');
+      document.body.classList.remove('is-fixed');
+    }
+  }
+
+};
+
 var setupHamburger = function () {
   var hamburger = document.querySelector('.js-hamburger');
   var close = document.querySelector('.js-hamburger-close');
@@ -17,6 +54,7 @@ var setupHamburger = function () {
   if (hamburger && close) {
     hamburger.onclick = function () {
       hamburger.parentElement.classList.add('is-open');
+      console.log('menu lateral');
 
       setTimeout(function () {
         // Set class once Menu is shown, in order to avoid the background elements misalignment
@@ -221,4 +259,5 @@ window.onload = function () {
   setupSmoothScroll();
   setupSubscription();
   setupFunctionalities();
+  // setupHamburgerDesktop();
 };

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="287px" height="245px" viewBox="0 0 287 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 13</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="65" y="0" width="147" height="217"></rect>
+        <filter x="-14.3%" y="-9.7%" width="128.6%" height="119.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.167402627 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Gobierto-Contratos-Proto-v2" transform="translate(-172.000000, -1750.000000)">
+            <g id="Group-13" transform="translate(172.000000, 1764.000000)">
+                <rect id="Rectangle-Copy-5" fill="#F9F9F9" x="0" y="22" width="117" height="173"></rect>
+                <path d="M51.5,45.4421883 L131.5,45.5" id="Line-5-Copy-9" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M19.5,64.5 L131.5,64.5" id="Line-5-Copy-8" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M19.5,82.5 L131.5,82.5" id="Line-5-Copy-7" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M19.5,101.5 L131.5,101.5" id="Line-5-Copy-6" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M19.5,121.5 L76.5,121.5" id="Line-5-Copy-5" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <rect id="Rectangle-Copy-9" fill="#F9F9F9" x="170" y="22" width="117" height="173"></rect>
+                <path d="M189.371681,45.5 L244,45.5" id="Line-5-Copy-14" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M189.371681,64.5 L272.628319,64.5" id="Line-5-Copy-13" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M189.371681,82.5 L272.628319,82.5" id="Line-5-Copy-12" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M189.371681,101.5 L272.628319,101.5" id="Line-5-Copy-11" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M189.5,121.5 L246.5,121.5" id="Line-5-Copy-10" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <rect id="Rectangle" fill="#F9F9F9" x="65" y="0" width="147" height="217"></rect>
+                <g id="Rectangle-Copy-3">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#F9F9F9" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M81.5,63.5 L193.5,63.5" id="Line-5" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M81.5,82.5 L193.5,82.5" id="Line-5-Copy" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M81.5,100.5 L193.5,100.5" id="Line-5-Copy-2" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M81.5,119.5 L193.5,119.5" id="Line-5-Copy-3" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <path d="M81.5,139.5 L138.5,139.5" id="Line-5-Copy-4" stroke="#01909E" stroke-width="3" opacity="0.400000006" stroke-linecap="round"></path>
+                <rect id="Rectangle" fill="#01909E" x="82" y="18.5" width="23" height="23"></rect>
+                <rect id="Rectangle-Copy-10" fill="#01909E" x="20" y="35.9421883" width="19" height="19"></rect>
+                <rect id="Rectangle-Copy-4" fill="#01909E" x="255" y="35.9421883" width="19" height="19"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

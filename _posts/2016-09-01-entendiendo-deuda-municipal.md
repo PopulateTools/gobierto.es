@@ -8,7 +8,7 @@ layout: v2/post
 subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse
   de su deuda
 author: Populate
-main_photo_big: 
+main_photo_big:
 ---
 
 <div class="tool">
@@ -56,7 +56,7 @@ main_photo_big:
   <div class="separator blue short"></div>
 
   <div class="full_width">
-    <link type="text/css" rel="stylesheet" href="/assets/v1/feature_debt_projection_interactive.css">
+    <link type="text/css" rel="stylesheet" href="/assets/v2/feature_debt_projection_interactive.css">
     <iframe src="/widgets/debt_projection_interactive/" id="debt_evolution_widget" scrolling="no" style="border: 0; padding: 0; margin: 0; height: 350px; width: 100%;" frameborder="no" align="center"></iframe>
 
   </div>
@@ -67,9 +67,9 @@ main_photo_big:
 
 <p>Algunos ejemplos de la proyección (ver nota al pie para detalles sobre cómo hemos proyectado los datos):</p>
 
-{% img 'posts/160901-debt-ex2' %}
+{% asset 'posts/160901-debt-ex2' %}
 
-{% img 'posts/160901-debt-ex3' %}
+{% asset 'posts/160901-debt-ex3' %}
 
 <div class="separator blue short"></div>
 

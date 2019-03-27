@@ -301,38 +301,48 @@
     }, {
       "title": "ONGs y asociaciones"
     }],
-    "functionalities": [{
-      "title": "Publica tu catálogo de datos",
-      "description": "",
-      "explanation": "Gestión y publicación de tu catálogo de datos. Personaliza las categorías para clasificar tus conjuntos. Elige los recursos que deseas publicar para cada conjunto. Organiza el contenido con tags, grupos y categorías.<br><br>Posibilidad de crear Organizaciones: contenedores independientes de datos por área funcional con autonomía para la gestión."
-    }, {
-      "title": "Integración con tus fuentes",
-      "description": "",
-      "explanation": "Configuramos los procesos de ETL (extracción, transformación y carga) para extraer automaticamente los datos de tus sistemas y cargarlos en el portal con la periocidad definida."
-    }, {
-      "title": "Ciclo de vida del dato",
-      "description": "",
-      "explanation": "Te ayudamos a definir una estrategia de apertura de datos y replantear el ciclo de vida de tus datos teniendo en cuenta el contexto digital y la apertura de datos.<br><br>Plantea la publicación abierta de tus datos desde el inicio y configura los procesos necesarios para automatizarlo."
-    }, {
-      "title": "Indexación y búsqueda",
-      "description": "",
-      "explanation": "Indexación automática de tus metadatos y de los datos que añadas al portal, para permitir la búsqueda del contenido mediante un motor de búsqueda moderno y con una velocidad de respuesta muy alta."
-    }, {
-      "title": "Visualización de datos",
-      "description": "",
-      "explanation": "En conjunto con otros módulos de Gobierto, visualización avanzada de los datasets más importantes.<br><br>Visualizaciones básicas de todos los datasets con herramientas de filtrado. Posibilidad de activar funcionalidades de visor geoespacial."
-    }, {
-      "title": "Formatos abiertos y reutilizables",
-      "description": "",
-      "explanation": "Soporte para los formatos de datos abiertos y reutilizables más populares: CSV, JSON, XML...<br><br>Posibilidad de publicar los formatos originales, y varios formatos para cada conjunto."
-    }, {
-      "title": "Seguimiento de novedades",
-      "description": "",
-      "explanation": "Feed de novedades y suscripción a datasets: los usuarios podrán recibir alertas automáticas cuando sus datasets monitorizados sean actualizados."
-    }, {
-      "title": "Basado en CKAN",
-      "description": "",
-      "explanation": "El portal de datos abiertos de Gobierto está basado en CKAN, el portal de datos abiertos de código abierto por excelenecia.<br><br> El backoffice y backend utilizados son los nativos de CKAN, con lo que te aseguras la independencia tecnológica al poder desplegar de forma autónoma un CKAN sin necesidad de utilizar Gobierto. "
-    }
-  ]}
+    "functionalities": [
+      {
+        "title": "Publica tu catálogo de datos",
+        "description": "",
+        "explanation": "Gestión y publicación de tu catálogo de datos. Personaliza las categorías para clasificar tus conjuntos. Elige los recursos que deseas publicar para cada conjunto. Organiza el contenido con tags, grupos y categorías.<br><br>Posibilidad de crear Organizaciones: contenedores independientes de datos por área funcional con autonomía para la gestión."
+      }, {
+        "title": "Integración con tus fuentes",
+        "description": "",
+        "explanation": "Configuramos los procesos de ETL (extracción, transformación y carga) para extraer automaticamente los datos de tus sistemas y cargarlos en el portal con la periocidad definida."
+      }, {
+        "title": "Ciclo de vida del dato",
+        "description": "",
+        "explanation": "Te ayudamos a definir una estrategia de apertura de datos y replantear el ciclo de vida de tus datos teniendo en cuenta el contexto digital y la apertura de datos.<br><br>Plantea la publicación abierta de tus datos desde el inicio y configura los procesos necesarios para automatizarlo."
+      }, {
+        "title": "Indexación y búsqueda",
+        "description": "",
+        "explanation": "Indexación automática de tus metadatos y de los datos que añadas al portal, para permitir la búsqueda del contenido mediante un motor de búsqueda moderno y con una velocidad de respuesta muy alta."
+      }, {
+        "title": "Visualización de datos",
+        "description": "",
+        "explanation": "En conjunto con otros módulos de Gobierto, visualización avanzada de los datasets más importantes.<br><br>Visualizaciones básicas de todos los datasets con herramientas de filtrado. Posibilidad de activar funcionalidades de visor geoespacial."
+      }, {
+        "title": "Formatos abiertos y reutilizables",
+        "description": "",
+        "explanation": "Soporte para los formatos de datos abiertos y reutilizables más populares: CSV, JSON, XML...<br><br>Posibilidad de publicar los formatos originales, y varios formatos para cada conjunto."
+      }, {
+        "title": "Seguimiento de novedades",
+        "description": "",
+        "explanation": "Feed de novedades y suscripción a datasets: los usuarios podrán recibir alertas automáticas cuando sus datasets monitorizados sean actualizados."
+      }, {
+        "title": "Basado en CKAN",
+        "description": "",
+        "explanation": "El portal de datos abiertos de Gobierto está basado en CKAN, el portal de datos abiertos de código abierto por excelenecia.<br><br> El backoffice y backend utilizados son los nativos de CKAN, con lo que te aseguras la independencia tecnológica al poder desplegar de forma autónoma un CKAN sin necesidad de utilizar Gobierto. "
+      }
+    ]
+  },
+  "contratos": {
+    "permalink": "/modulos/contratos/",
+    "title": "Visualización de contratos públicos",
+    "short-title": "Contratos",
+    "icon": "file-signature",
+    "description": "",
+    "url": "contratos"
+  }
 }

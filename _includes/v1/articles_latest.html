@@ -3,10 +3,10 @@
   <div class="story clearfix">
     <a href="{{ article.url | prepend: site.baseurl }}">
       {% if article.image_small %}
-        {% img 'v1/{{ article.image_small }}' %}
+        {% asset 'v1/{{ article.image_small }}' %}
       {% else %}
         {% if article.main_photo %}
-          {% img 'v1/{{ article.main_photo }}' %}
+          {% asset 'v1/{{ article.main_photo }}' %}
         {% endif %}
       {% endif %}
     </a>
