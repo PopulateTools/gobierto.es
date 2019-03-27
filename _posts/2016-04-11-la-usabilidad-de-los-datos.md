@@ -2,7 +2,6 @@
 title: La usabilidad de los datos
 date: 2016-04-11 15:00:00 +02:00
 categories:
-- transparencia
 - comunicacion_clara
 layout: v2/post
 subtitle: Usabilidad, datos públicos y Ley de Transparencia

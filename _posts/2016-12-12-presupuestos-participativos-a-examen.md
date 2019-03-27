@@ -19,11 +19,8 @@ Por eso en Gobierto estamos recopilando información de presupuestos participati
 Cada municipio pone sus propias reglas, y el tipo de proceso varía en función del tamaño de los municipios. Pero existen ciertas características comunes:
 
 * Casi todos mezclan la participación offline y online
-
 * Los vecinos pueden presentar y discutir sus propias propuestas antes de votarlas
-
 * El dinero normalmente sale de la partida del presupuesto destinada a Inversiones: El capítulo VI de la partida de gastos según su clasificación económica.
-
 * El proceso suele durar un año, para incorporar los resultados al presupuesto del año siguiente.
 
 Vamos a hacer un repaso por algunos de los más significativos. Lo que sigue es un pequeño esbozo, a modo de introducción, de un informe que estamos preparando.
@@ -59,17 +56,11 @@ Por último, el caso de **[Guadalajara](https://presupuestos.gobierto.es/places/
 ## ¿Qué conclusiones podemos sacar?
 
 * El mayor reto al que se enfrentan los ayuntamientos es el **informativo**. Si los ciudadanos están informados y conocen cómo funciona un presupuesto municipal será mucho más fácil que se involucren en su gestión.
-
 * Informar sobre el propio proceso puede ser complejo. Muchos de ellos tienen varias fases (propuestas, debates, votaciones…), sistemas propios de deliberación y la necesidad de presentar de forma clara y ordenada todas las propuestas. Por eso es importante poner el foco en la **experiencia de usuario** a la hora de diseñar la estrategia informativa online y offline.
-
 * Muchos de estos procesos tienen un grado de implicación elevado y requieren una cultura fuerte de participación. Si existen iniciativas previas más leves y rápidas, es posible crear una cultura de participación progresiva.
-
 * La movilización social es uno de los grandes retos. Conseguir que los colectivos con menos presencia (jóvenes, inmigrantes) se sientan integrados y escuchados.
-
 * Las propuestas ciudadanas van desde las muy detalladas y concretas a las generalistas y trasversales. De nuevo, es importante la información y diseño previo para ayudar a filtrar correctamente todas y ahorrar tiempo a los técnicos del ayuntamiento que estudian su viabilidad, caso por caso.
-
 * Cuanto más cercana y concreta es la propuesta, mayor participación. Los asuntos de barrio generan más interés que las políticas de amplio calado.
-
 * Aunque todavía no se haya conseguido una participación masiva, sí está creciendo el número de procesos y de ciudadanos involucrados.
 
 Queda mucho por hacer, pero si echamos la vista atrás podemos ver que todos estos procesos han revitalizado el debate ciudadano. Los municipios han conseguido acercar a sus vecinos todavía más a su labor de gobierno.

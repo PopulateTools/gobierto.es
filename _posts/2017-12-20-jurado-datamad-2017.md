@@ -2,7 +2,7 @@
 title: Premios Datamad 2017
 date: 2017-12-20 00:00:00 +01:00
 categories:
-- datos-abiertos
+- datos_abiertos
 layout: v2/post
 subtitle: Gobierto es jurado en los premios del hackaton de datos abiertos de Madrid
 author: Fernando Blat

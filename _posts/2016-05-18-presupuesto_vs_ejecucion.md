@@ -3,8 +3,6 @@ title: 'Presupuesto vs. Ejecución: Análisis de la desviación de los presupues
   y el gasto real'
 date: 2016-05-18 15:00:00 +02:00
 categories:
-- gobierto
-- transparencia
 - visualizacion_de_datos
 layout: v2/post
 subtitle: Un ejercicio de comparación entre lo que presupuestan los municipios de

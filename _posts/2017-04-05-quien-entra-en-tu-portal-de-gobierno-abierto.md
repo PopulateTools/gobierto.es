@@ -2,7 +2,7 @@
 title: "¿Quién entra en tu portal de gobierno abierto?"
 date: 2017-04-05 19:00:00 +02:00
 categories:
-- transparencia,
+- transparencia
 - participacion
 layout: v2/post
 subtitle: 'Habitualmente hablamos del objeto de la transparencia y la participación

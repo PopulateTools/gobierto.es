@@ -4,9 +4,6 @@ title: 'Presupuestos participativos - Madrid: gran proceso, pocos participantes 
 date: 2016-05-30 15:00:00 +02:00
 categories:
 - participacion
-- experiencia_de_usuario
-- diseno_de_servicios
-- investigacion
 layout: v2/post
 subtitle: Mini serie sobre presupuestos participativos, retos y posibilidades para
   articular la participación
