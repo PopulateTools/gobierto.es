@@ -22,7 +22,7 @@
         {% for category in site.categories %}
           {% capture category_name %}{{ category | first }}{% endcapture %}
           <p name="{{ category_name }}" id="{{ category_name }}"></p>
-          <h2 class="category-head"><a href="/temas/{{ category_name | replace: "_", " " }}">{{ category_name | replace: "_", " " }}</a></h2>
+          <h2 class="category-head"><a href="/temas/{{ category_name }}">{{ category_name | replace: "_", " " }}</a></h2>
 
           {% for post in site.categories[category_name] %}
           <article class="archive-item" style="margin-bottom: 12px; line-height: 1;">

@@ -13,6 +13,7 @@ layout: v2/default
   {% endif %}
 
   <div class="Posts__inner">
+
     {% for post in site.categories[page.category] %}
     <div class="Posts__post">
       {% include v2/post.html %}

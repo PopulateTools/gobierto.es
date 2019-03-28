@@ -1,5 +1,6 @@
 //= require ./analytics
 //= require ./vendor/enter-view.min
+// require v1/charts
 
 function isScrolledIntoView(elem) {
   var scrollPosition = window.scrollY;

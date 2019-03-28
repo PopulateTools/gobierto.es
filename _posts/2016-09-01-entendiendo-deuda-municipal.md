@@ -5,10 +5,9 @@ categories:
 - transparencia
 - visualizacion_de_datos
 layout: v2/post
-subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse
-  de su deuda
+subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse de su deuda
 author: Populate
-main_photo_big: 
+main_photo_big:
 ---
 
 <div class="tool">
@@ -56,7 +55,7 @@ main_photo_big:
   <div class="separator blue short"></div>
 
   <div class="full_width">
-    <link type="text/css" rel="stylesheet" href="/assets/v2/feature_debt_projection_interactive.css">
+    {% asset 'v2/feature_debt_projection_interactive.css' %}
     <iframe src="/widgets/debt_projection_interactive/" id="debt_evolution_widget" scrolling="no" style="border: 0; padding: 0; margin: 0; height: 350px; width: 100%;" frameborder="no" align="center"></iframe>
 
   </div>
