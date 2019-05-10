@@ -65,7 +65,7 @@ assets:
   sources:
     - _assets/javascript
     - _assets/images
-    - _assets/images/v2
+    # - _assets/images/v2
     - _assets/stylesheets
   # gzip: [ text/css, application/javascript ]
   digest: false

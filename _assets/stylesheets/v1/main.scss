@@ -1,7 +1,7 @@
-@charset "utf-8"; 
+@charset "utf-8";
 
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,500,600,700|PT+Serif:400,700");
-@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";        
+@import "//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css";
 @import "//file.myfontastic.com/RQkH79Rxqr7puZEUKkrAcL/icons.css";
 
 $color_main: #368CA5;
@@ -42,14 +42,13 @@ $font_headings: 'PT Serif';
   "_vendor/populities",
   "_vendor/magnific-popup",
   "_vendor/bourbon/bourbon",
-  "_vendor/tipsy",
   "_vendor/select-and-tweet",
-  
+
   "progress_bar",
   "style",
   "home",
   "responsive"
-  
+
 ;
 
 body {
@@ -80,5 +79,3 @@ html, button, input, select, textarea, .pure-g [class *= "pure-u"] {
   font-size: 20px;
   font-color: #888;
 }
-
-

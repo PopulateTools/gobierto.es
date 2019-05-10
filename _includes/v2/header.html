@@ -6,21 +6,6 @@
         <a href="/acerca-de" class="Header__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Acerca de</a>
       </li>
       <li class="Header__option">
-        <button class="Header__link Header__link--nopadding{% if page.kind == 'module' %} is-active{% endif %}">
-          Qué ofrece
-          <!-- <span class="Tooltip__target js-tooltip-target"></span> -->
-        </button>
-        <!-- <div class="Tooltip Tooltip--hidden js-tooltip">
-
-          <ul class="Tooltip__items">
-            {% for node in site.data.modules %}
-            <li class="Tooltip__item"><a href="{{ node[1].permalink }}" class="Tooltip__link{% if page.url == node[1].permalink %} is-active{% endif %}">{{ node[1].short-title }}</a></li>
-            {% endfor %}
-          </ul>
-
-        </div> -->
-      </li>
-      <li class="Header__option">
         <a href="/temas/clientes" class="Header__link js-smooth-scroll {% if page.url == '/temas/clientes/' %} is-active {% endif %}" title="Clientes de Gobierto">Quién lo usa</a>
       </li>
       <li class="Header__option">
