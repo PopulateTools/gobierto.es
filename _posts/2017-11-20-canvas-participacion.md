@@ -46,7 +46,7 @@ En Gobierto vemos la participación ciudadana como un mecanismo que aporte la m�
 
 El canvas de la participación es una de las herramientas que utilizamos en nuestros proyectos. No ofrece respuestas rápidas, sino todo lo contrario: muchas preguntas que nos ayuden a entender y analizar nuestra realidad como paso previo para dar solución a las necesidades de organizaciones y ciudadanos. Se puede resumir en este cuadro, este lienzo en blanco que puedes completar para tu proyecto:
 
-{% asset 'posts/171108-CanvasParticipacion.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/171108-CanvasParticipacion.png' itemprop:'img heading' class='Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 Notas y comentarios pero sobre todo, **preguntas**, sobre cada tema:
 
@@ -70,7 +70,7 @@ Para cada tipo de participación necesitaremos herramientas diferentes.
 * ¿Qué interés cívico tienen?
 * ¿Cuales son los incentivos y motivaciones de cada grupo?
 
-{% asset 'posts/171108-CanvasParticipacion-Ejes.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/171108-CanvasParticipacion-Ejes.png' itemprop:'img heading' class='Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 ### Qué entedemos por participación
 

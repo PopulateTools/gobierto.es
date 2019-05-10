@@ -47,11 +47,11 @@ Además, se ofrece un cuadro de mando interno para los gestores de la organizaci
 
 Aquí mostramos algunos diseños preliminares de la herramienta:
 
-{% asset 'posts/181119-Gobierto-Contratos-Inicio-Scrolly.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/181119-Gobierto-Contratos-Inicio-Scrolly.png' itemprop:'img heading' class='Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
-{% asset 'posts/181119-Gobierto-Contratos-Proveedor.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/181119-Gobierto-Contratos-Proveedor.png' itemprop:'img heading' class='Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
-{% asset 'posts/181119-Contratos-DashboardInterno.png' itemprop:'img heading' class:'Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
+{% asset 'posts/181119-Contratos-DashboardInterno.png' itemprop:'img heading' class='Outline Shadow' style:"padding\: 1em; box-sizing\: border-box" %}
 
 <div class="separator blue short"></div>
 

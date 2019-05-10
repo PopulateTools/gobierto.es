@@ -136,14 +136,27 @@
   background: $cCyan;
   text-align: center;
 
+  .menu_column {
+    max-width: $innerSize;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
   a {
     font-size: .85em;
     color: #FFF;
     display: inline-block;
     padding: 1em 1.5em;
     text-decoration: none;
-    // transition: transform 0.15s cubic-bezier(0.77, 0.2, 0.05, 1);
     transition: background $transitionRegular ease-in-out, padding $transitionRegular ease-in-out;
+
+    @media (max-width: 1250px) {
+      padding: 1em .5em;
+    }
+    @media (max-width: 860px) {
+      font-size: .75em;
+    }
+
   }
   span.text {
     transition: color $transitionRegular ease-in-out;
@@ -174,7 +187,8 @@
 .Menu__global.is-sticky {
   padding-left: 120px;
   a {
-    padding: .5em 1.5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
   }
   .menu-logo {
     display: inline-block;

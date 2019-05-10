@@ -56,11 +56,20 @@
 
 
 .Browser.Browser--participacion .Browser__screen {
-  background: url(asset_path('modules/participacion.jpg')) 0 0 no-repeat!Important;
+  background: url(asset_path('modules/participacion.jpg')) 0 0 no-repeat !important;
   background-size: 634px !important;
   top: 32px;
 }
 .Browser.Browser--medium.Browser--participacion .Browser__screen {
+  background-size: 800px!important;
+}
+
+.Browser.Browser--planificacion .Browser__screen {
+  background: url(asset_path('modules/planificacion.jpg')) 0 0 no-repeat !important;
+  background-size: 634px !important;
+  top: 32px;
+}
+.Browser.Browser--medium.Browser--planificacion .Browser__screen {
   background-size: 800px!important;
 }
 
