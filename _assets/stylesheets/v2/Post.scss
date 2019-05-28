@@ -11,15 +11,15 @@
     box-sizing: border-box;
     padding: 0 1em;
   }
+  @media all and (max-width : $cMediaCompact) {
+    width: 90%;
+  }
+  @media all and (max-width : $cMediaMobile) {
+    width: 95%;
+  }
 }
 
-@media all and (max-width : $cMediaCompact) {
-  width: 90%;
-}
 
- @media all and (max-width : $cMediaMobile) {
-  width: 95%;
-}
 
 .Post__header {
   width: 960px;
@@ -240,6 +240,7 @@ blockquote.quote:before {
   color: #DFDFDF;
   left: -22%;
   top: -14px;
+  z-index: -1;
 }
 caption {
   width: 100%;
