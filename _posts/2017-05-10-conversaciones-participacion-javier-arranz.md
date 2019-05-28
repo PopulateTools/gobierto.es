@@ -33,7 +33,7 @@ Esta ciudad ha tenido desde hace muchos años un espíritu bastante participativ
 Pero hubo un evento que marcó un antes y un después: El [foro ciudadano de Irún](http://www.forociudadanoirunes.org/) en 2001. Constituido en modelo ágora griega, movió a más de 400 personas y se configuró con cinco ejes estratégicos que tenían formas asamblearias de trabajo, aportaciones ya por internet, etc. Eso dio lugar al **Libro blanco del primer foro ciudadano de Irún**, un documento que se ha tenido muy presente a la hora de construir programas electorales y acciones de gobierno. Entre los mayores impulsores de los presupuestos participativos estaban personas que siguen manteniendo vivo ese foro.
 
 <div class="separator blue short"></div>
-{% asset 'posts/170510-arranz03.JPG' class:'caption' title:'Una de las sesiones presenciales de los presupuestos participativos de Irún' %}
+{% asset 'posts/170510-arranz03.JPG' class='caption' title='Una de las sesiones presenciales de los presupuestos participativos de Irún' %}
 <div class="separator blue short"></div>
 
 **¿Qué lecciones podemos aprender de la participación tradicional y aplicarlas a nuevos procesos de participación apoyada en la tecnología?**
@@ -56,7 +56,7 @@ Aparte de todos esos proyectos se incorporan otros tantos para los que no han es
 Y todo esto se consolida en una sesión de presentación abierta a toda la ciudadanía en la que se explican en detalle los proyectos (el año pasado fueron 48). Se vota, y lo que sale se incorpora al presupuesto. Lo que tenemos claro es que estamos aprendiendo. Cada año nos hemos encontrado con situaciones distintas. Por ejemplo, un año tuvimos un efecto lobby brutal.
 
 <div class="separator blue short"></div>
-{% asset 'posts/170510-arranz05.jpg' class:'caption' title:'Grupo de trabajo de los presupuestos participativos en el antiguo hospital de Irún' %}
+{% asset 'posts/170510-arranz05.jpg' class='caption' title='Grupo de trabajo de los presupuestos participativos en el antiguo hospital de Irún' %}
 <div class="separator blue short"></div>
 
 **Hablando de los lobbies, ¿cómo intentáis reducir ese tipo sesgos, o las brechas generacionales, tecnológicas y de género?**
@@ -78,7 +78,7 @@ También abrimos los procesos de participación a vías tradicionales. Siempre d
 También hemos tenido en cuenta la participación de personas sordomudas incorporando un intérprete de lenguaje de signos; algo que no cuesta nada porque los pone la diputación provincial. Y siempre se da apoyo a personas con otro tipo de deficiencias físicas o cognitivas.
 
 <div class="separator blue short"></div>
-{% asset 'posts/170510-arranz04.jpg' class:'caption' title:'Centro cívico del Ayuntamiento de Irún' %}
+{% asset 'posts/170510-arranz04.jpg' class='caption' title='Centro cívico del Ayuntamiento de Irún' %}
 <div class="separator blue short"></div>
 
 **A veces se propaga el miedo a que ganen propuestas muy descabelladas o que no recojan el interés general. ¿Hace falta más deliberación en los procesos participativos? ¿Estamos confundiendo participar con decidir?**

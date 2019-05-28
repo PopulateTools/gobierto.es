@@ -147,9 +147,23 @@
   margin: 0 0 1em;
 }
 
+.Post__content ul, .Post__content ol {
+  margin: 0 0 24px 12px;
+}
 
-.Post__content ul {
-  margin: 0 0 24px 32px;
+.Post__content ol {
+  list-style: none;
+  counter-reset: my-awesome-counter;
+
+  li {
+    counter-increment: my-awesome-counter;
+  }
+  li::before {
+    content: counter(my-awesome-counter) ". ";
+    color: $cYellow;
+    font-size: 14px;
+    font-weight: bold;
+  }
 }
 
 .Post__content li {
@@ -157,6 +171,14 @@
   padding: 0 0 0 20px;
   line-height: 1.2;
 }
+
+.Post__content li:before {
+  content: '•';
+  font-size: 24px;
+  color: $cYellow;
+  margin: 0 8px 0 -18px
+}
+
 .Post__content {
   // p + ul {
   //
@@ -168,12 +190,7 @@
   height: auto;
 }
 
-.Post__content li:before {
-  content: '•';
-  font-size: 24px;
-  color: $cYellow;
-  margin: 0 8px 0 -18px
-}
+
 
 .Post__content hr {
   border: none;
@@ -191,39 +208,56 @@
   font-size: 16px;
   margin: 32px 0 0;
 }
-
-/* TODO: fix class names */
-.quote {
+blockquote {
+  margin: 0 0 2em 0;
+  padding: 2em;
+  font-size: .85em;
+  line-height: 1.5em;
+  background: $cSubtleGray;
+}
+blockquote.quote {
   @include sans-serif(24px, 700, $cBlue);
+  display: block;
+  width: 80%;
+  line-height: 32px;
+  margin: 2em 15% 2em 17%;
   padding: .5em 0 0 0;
   background: #FFF;
   position: relative;
-
-  display: block;
-  width: 80%;
-  font-style: italic;
-  margin: 32px 0;
-  font-size: 24px;
-  line-height: 32px;
-
+  cite {
+    display: block;
+    font-size: 18px;
+    font-style: normal;
+    opacity: .5;
+  }
 }
-.quote cite {
-  display: block;
-  font-size: 18px;
-  font-style: normal;
-  opacity: .5;
-}
-
-.quote:before {
+blockquote.quote:before {
   display: block;
   content: "\201C";
   font-size: 6em;
-  line-height: .75em;
   position: absolute;
-  left: -20%;
+  line-height: 1;
   color: #DFDFDF;
+  left: -22%;
+  top: -14px;
+}
+caption {
+  width: 100%;
+  display: block;
+  font-size: .85em;
+  color: #999;
+  line-height: 1.3em;
+  margin: .5em 0 0 0;
 }
 
+.Post__content {
+  .image {
+    margin-bottom: 2em;
+    img.Outline {
+      margin-bottom: 0;
+    }
+  }
+}
 .Post__content img.Outline {
   margin: 2em 0;
   border: 1px solid $cYellow;
@@ -276,7 +310,7 @@
   padding: 1em 1.25em;
   border-radius: 4px;
   margin: 0 0 1em 0;
-  font-size: .85em;
+  font-size: 1em;
   line-height: 1.3;
   font-variant: all-small-caps;
   opacity: .8;
