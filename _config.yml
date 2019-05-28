@@ -9,6 +9,7 @@
 title: "Gobierto · Plataforma de Gobierto Abierto open source"
 description: Gobierto ofrece metodología y herramientas open source para desplegar iniciativas de gobierno abierto. Transparencia, Participación, Rendición de Cuentas y Comunicación Ciudadana.
 baseurl: "" # the subpath of your site, e.g. /blog
+url: https://gobierto.es
 
 # default permalink for blog posts
 permalink: /blog/:year:month:day-:title.html
