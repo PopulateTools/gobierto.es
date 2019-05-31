@@ -144,6 +144,8 @@ Os dejamos algunos recursos (todo en inglés de momento, iremos actualizando): s
     - [Bristol City Council](http://style.bristol.gov.uk/)
     - [Helsinki OpenCity Design System](http://opencity.design/)
     - [Chicago Design System](https://chicagodesignsystem.org/)
+  - Regional
+    - [Junta de Castilla y León Guía de Estilo](https://www.jcyl.es/junta/guia/index.html)
   - Nacional
     - [GOV.UK Design System](https://design-system.service.gov.uk/)
     - [Canada Design System](https://www.canada.ca/en/government/about/design-system.html)

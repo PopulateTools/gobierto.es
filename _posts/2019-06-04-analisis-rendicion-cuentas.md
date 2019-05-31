@@ -1,7 +1,7 @@
 ---
 title: "Rendición de cuentas: análisis de iniciativas municipales"
 subtitle: '¿Cómo explican los municipios y diputaciones lo que hacen?'
-date: 2019-05-30 00:00:00 +02:00
+date: 2019-06-04 00:00:00 +02:00
 categories:
 - gobierno_abierto
 layout: v2/post
