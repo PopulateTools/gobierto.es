@@ -38,10 +38,14 @@
 }
 
 .Post__meta {
-  margin: 0 auto 32px;
-  text-align: center;
+  margin: 3em auto;
+  padding: 14px 0;
+  border-top: 1px solid $cGray;
+  border-bottom: 1px solid $cGray;
+  text-align: left;
   @include sans-serif(18px, 400, #333);
   opacity: .7;
+  font-size: 0.85em;
 }
 
 .Post__author {
@@ -322,5 +326,27 @@ caption {
   td {
     border-top: 1px solid $cSubtleGray;
     padding: 5px 5px 15px 0;
+  }
+}
+
+article {
+  position: relative;
+}
+
+.js-toc {
+  background: #f6f8fa;
+  top: 3em;
+  left: 1em;
+  width: 120px;
+  padding: 10px;
+  border-radius: 4px;
+  font-size: .75em;
+  line-height: 1.2;
+
+  a {
+    color: $cBlue;
+  }
+  li {
+    margin: 0 0 1em 0;
   }
 }

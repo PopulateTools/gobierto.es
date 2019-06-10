@@ -11,6 +11,8 @@ layout: v2/default
 
 <article itemscope itemtype="http://schema.org/Article">
 
+  <!-- <div class="sticky js-toc"></div> -->
+
   <div class="Post">
 
     {% if page.main_photo_big %}
@@ -35,8 +37,11 @@ layout: v2/default
         {% endif %}
 
       </div>
-      <div class="Post__content" itemprop="articleBody">
-        {{ content }}
+      <div class="Post__content"  itemprop="articleBody">
+
+        <div class="js-toc-content">
+          {{ content }}
+        </div>
 
         <div class="Post__meta">
           <div class="Post__author"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></div>
