@@ -44,8 +44,19 @@
   border-bottom: 1px solid $cGray;
   text-align: left;
   @include sans-serif(18px, 400, #333);
-  opacity: .7;
   font-size: 0.85em;
+  display: flex;
+  justify-content: space-between;
+
+  .Post__author_container {
+    width: 50%;
+    opacity: .7;
+  }
+  .share-icons {
+    width: 50%;
+    text-align: right;
+    align-self: center;
+  }
 }
 
 .Post__author {

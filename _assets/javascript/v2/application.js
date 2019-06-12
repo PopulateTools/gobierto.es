@@ -2,6 +2,9 @@
 //= require ./vendor/enter-view.min
 // require v1/charts
 //= require ./vendor/jquery-3.0.0.min
+//= require ./vendor/flight.min
+//= require ./vendor/jquery.magnific-popup.min
+//= require ./components/shareContent
 
 function isScrolledIntoView(elem) {
   var scrollPosition = window.scrollY;
@@ -276,6 +279,32 @@ $(function(){
     }
   });
 
+  // Modals
+  $('.open_modal').magnificPopup({
+    type: 'inline',
+    removalDelay: 300,
+    mainClass: 'mfp-fade'
+  });
+
+  $('.close_modal').click(function(e) {
+    $.magnificPopup.close();
+  });
+
+  $('.bar-share-subscribe').hide();
+
+});
+
+// Scroll to top button appear
+$(document).scroll(function() {
+
+  var scrollDistance = $(this).scrollTop();
+  if (scrollDistance > 400) {
+    $('.scroll-to-top').fadeIn();
+    $('.bar-share-subscribe').fadeIn();
+  } else {
+    $('.scroll-to-top').fadeOut();
+    $('.bar-share-subscribe').fadeOut();
+  }
 });
 
 window.onload = function () {
