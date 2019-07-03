@@ -70,5 +70,8 @@ assets:
     - _assets/stylesheets
   # gzip: [ text/css, application/javascript ]
   digest: false
+  defaults:
+    js: { integrity: false } # true on JEKYLL_ENV=production
+    css: { integrity: false } # true on JEKYLL_ENV=production
 
 timezone: Europe/Madrid
