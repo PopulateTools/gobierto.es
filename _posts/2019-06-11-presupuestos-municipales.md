@@ -44,7 +44,7 @@ En esta visualización puedes explorar la deuda viva (la deuda total pendiente d
   <my-visualizer id="visualizer-1"></my-visualizer>
 </div>
 
-(jueuga y cambia otras series con los dos selectores inferiores - y de paso nos das feedback de la nueva herramienta que estamos preparando basada en Populate Data)
+(juega y cambia otras series con los dos selectores inferiores - y de paso nos das feedback de la nueva herramienta que estamos preparando basada en Populate Data)
 
 
 También puedes visualizar los datos de forma geolocalizada. Este es el mapa de deuda viva por municipio:
