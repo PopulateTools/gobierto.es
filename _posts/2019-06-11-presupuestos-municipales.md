@@ -5,15 +5,15 @@ date: 2019-07-03 00:00:00 +02:00
 categories:
 - visualizacion_de_datos
 layout: v2/post
-author: Pedro Álvarez y Álvaro Ortiz
-main_photo: posts/190703-top-ingresos-ventas
+author: Pedro Álvarez, Fernando Blat y Álvaro Ortiz
+main_photo: posts/190703-top-ingresos-ventas.png
 ---
+
+Se acaban de publicar los datos de los presupuestos municipales de 2019, así que actualizamos **Gobierto Presupuestos Municipales**, nuestro comparador de los presupuestos de los ayuntamientos españoles. Y aprovechamos para darnos una vuelta y bucear en los datos.
 
 <script src="https://unpkg.com/vue"></script>
 <script src="https://data-visualizer.populate.tools/dist/my-visualizer.min.js"></script>
 <script src="https://data-visualizer.populate.tools/lib/connector.populate.umd.min.js"></script>
-
-Se acaban de publicar los datos de los presupuestos municipales de 2019, así que actualizamos **Gobierto Presupuestos Municipales**, nuestro comparador de los presupuestos de los ayuntamientos españoles. Y aprovechamos para darnos una vuelta y bucear en los datos.
 
 ## Los municipios con más presupuesto
 
@@ -53,6 +53,15 @@ También puedes visualizar los datos de forma geolocalizada. Este es el mapa de 
 {% asset 'posts/190703-mapa' class='Outline Shadow caption' title="Ranking de ingresos por habitante, municipios de más de 50.000 habitantes - <a href='https://presupuestos.gobierto.es/mapas/2019' target='blank'>explora</a>" %}
 </div>
 
+
+Y, ¿cómo ha evolucionado la deuda a lo largo de los años? Hemos agrupado por provincia para mostrar como ha cambiado en el tiempo:
+
+<div class="min_full_wide" style="margin-bottom: 3em; ">
+  {% asset 'posts/190703-deuda-animacion' class='Outline Shadow caption' title="Evolución de la deuda por municipio agrupada por provincias a lo largo de los años" %}
+</div>
+
+
+
 ## En venta
 
 ¿De dónde obtienen ingresos los municipios? Además de las distintas transferencias de otras administraciones y de tasas e impuestos, los municipios pueden vender terrenos. Este es el ránking de ingresos por venta de terrenos:
@@ -74,7 +83,7 @@ Todos estos datos están disponibles en <a href="https://populate.tools/data">Po
 
 ## Tu municipio, tús análisis
 
-Entra en <a href="https://presupuestos.gobierto.es"><strong>presupuestos.gobierto.es</strong></a>, explora los datos de tu municipio y comienza a realizar tus análisis con las distintas herramientas disponibles. Compártelo en Twitter con <a href="https://twitter.com/hashtag/GobiertoPresupuestosActualizado">#GobiertoPresupuestosActualizado</a>
+Entra en <a href="https://presupuestos.gobierto.es"><strong>presupuestos.gobierto.es</strong></a>, explora los datos de tu municipio y comienza a realizar tus análisis con las distintas herramientas disponibles. Compártelo en Twitter con <a href="https://twitter.com/hashtag/Presupuestos2019">#GobiertoPresupuestosActualizado</a>
 
 
 
