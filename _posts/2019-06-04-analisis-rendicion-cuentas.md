@@ -4,6 +4,7 @@ subtitle: '¿Cómo explican los municipios y diputaciones lo que hacen?'
 date: 2019-06-10 00:00:00 +02:00
 categories:
 - gobierno_abierto
+- recursos
 layout: v2/post
 author: Álvaro Ortiz
 main_photo: posts/190606-pam-portada.jpg
@@ -190,7 +191,7 @@ La participación ciudadana, como tema transversal, también toca a los planes d
 
 <div class="separator blue short"></div>
 
-Esperamos que este análisis general sobre los que consideramos elementos clave para ofrecer una buena experiencia de usuario en el consumo de los planes contribuya a mejorar estas iniciativas. 
+Esperamos que este análisis general sobre los que consideramos elementos clave para ofrecer una buena experiencia de usuario en el consumo de los planes contribuya a mejorar estas iniciativas.
 
 
 En Gobierto: [Planificación y Rendición de Cuentas: el caso de Esplugues de Llobregat](/blog/20190510-visualizacion-planes.html)

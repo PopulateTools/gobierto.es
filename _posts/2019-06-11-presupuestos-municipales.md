@@ -96,7 +96,7 @@ Entra en <a href="https://presupuestos.gobierto.es"><strong>presupuestos.gobiert
         y: "ds-deuda-municipal",
         range: 2018
       },
-      aspectRatio: "1"
+      aspectRatio: "2"
     }
   ]);
   var config1 = new Visualizer([
@@ -108,7 +108,7 @@ Entra en <a href="https://presupuestos.gobierto.es"><strong>presupuestos.gobiert
         range: 2018,
         aggregation: ["Madrid", "Barcelona", "Sevilla", "Valencia"]
       },
-      aspectRatio: "1"
+      aspectRatio: "2"
     }
   ]);
 
