@@ -7,5 +7,5 @@ gem "uglifier"
 gem "therubyracer"
 
 group :jekyll_plugins do
-  gem "jekyll-assets"
+  gem "jekyll-assets", ">= 3.0.12"
 end
