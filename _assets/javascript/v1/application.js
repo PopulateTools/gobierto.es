@@ -6,7 +6,6 @@
 //= require ./vendor/jquery.magnific-popup.min
 //= require ./vendor/jquery.waypoints.min
 //= require ./vendor/jquery.waypoints.inview
-//= require ./vendor/tipsy
 //= require ./vendor/flight.min
 //= require ./vendor/select-and-tweet
 //= require ./vendor/klass
@@ -20,13 +19,6 @@ var min_scroll_to_show_social_links = 650;
 
 function getCurrentScroll() {
   return window.pageYOffset || document.documentElement.scrollTop;
-}
-
-function rebindAll() {
-  $('.tipsit').tipsy({fade: true, gravity: 's', html: true});
-  $('.tipsit-n').tipsy({fade: true, gravity: 'n', html: true});
-  $('.tipsit-w').tipsy({fade: true, gravity: 'w', html: true});
-  $('.tipsit-e').tipsy({fade: true, gravity: 'e', html: true});
 }
 
 function show_social_links_footer() {
@@ -53,8 +45,6 @@ function show_temp(el, time, show_after) {
 }
 
 $(function(){
-
-  rebindAll();
 
   $(".stick_ip").stick_in_parent();
 
