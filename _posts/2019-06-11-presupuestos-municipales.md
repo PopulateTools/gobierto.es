@@ -97,6 +97,9 @@ Entra en <a href="https://presupuestos.gobierto.es"><strong>presupuestos.gobiert
         range: 2018
       },
       aspectRatio: "2"
+    },
+    {
+      type: "Line"
     }
   ]);
   var config1 = new Visualizer([
