@@ -1,6 +1,6 @@
 ---
 title: "5 cosas que puedes hacer con Gobierto Planificación"
-subtitle: 'Wadus'
+subtitle: 'Formas de personalizar la herramienta para gestionar y publicar tus planes como necesites'
 date: 2019-09-09 00:00:00 +02:00
 categories:
 - gobierno_abierto
