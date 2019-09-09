@@ -11,7 +11,7 @@ main_photo: posts/190911-qv_1.jpg
 
 Entre las experiencias más novedosas en los sistemas de elección en los últimos tiempos encontramos el voto cuadrático. Un método original creado por economistas y no por expertos en ciencia política; dato este relevante, como ahora veremos.
 
-Detengámonos por un momento en el significado del término::
+Detengámonos por un momento en el significado del término:
 
 **cuadrático, ca**
 1. adj. Mat. Perteneciente o relativo al cuadrado.
