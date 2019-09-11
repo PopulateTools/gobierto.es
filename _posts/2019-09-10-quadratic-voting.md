@@ -30,7 +30,7 @@ Mediante la votación cuadrática podemos conseguir una mejor manera de tomar de
 ## ¿Cómo funciona el voto cuadrático?
 
 * A cada votante se le entrega un número limitado de fichas (tokens), pongamos que 100, para gastar en cada una de las opciones de su interés según su criterio.
-* Para cada opción se pueden dar uno, dos, tres votos o más. **El coste de cada voto es el resultado de multiplicar ese valor por sí mismo** ese mismo número de veces. Es decir: obtendremos el coste en fichas calculando la potencia del número de votos entregado a una opción elevado a ese mismo número (1<sup>1</sup>,2<sup>2</sup>,3<sup>3</sup>,4<sup>4</sup>, …, 10<sup>10</sup>); de ahí la idea de voto o votación cuadrática.
+* Para cada opción se pueden dar uno, dos, tres votos o más. **El coste de cada voto es el resultado de multiplicar ese valor por sí mismo**. Es decir: obtendremos el coste en fichas calculando el cuadrado del número de votos entregado a una opción (1<sup>2</sup>,2<sup>2</sup>,3<sup>2</sup>,4<sup>2</sup>, …, 10<sup>2</sup>); de ahí la idea de voto o votación cuadrática.
 * De esta forma si a la opción A le doy un voto, el coste será de una ficha, si a la opción B le doy dos votos el coste será de 4 fichas y si a la opción C le doy 10 votos gastaría todas mis fichas, en nuestro caso 100.
 
 A simple vista podemos sacar algunas ideas preliminares:
