@@ -78,6 +78,3 @@ En Gobierto:
 * [Las claves de un sistema de agendas para entidades públicas](https://gobierto.es/blog/20170126-agendas-representantes.html)
 * [Portal Abierto de Esplugues de Llobregat, basado en Gobierto](/blog/20180926-esplugues-gobierto.html)
 
-<p style="font-size: .75em;">
-  Fuente Foto Torres de Colón: <a href="https://destinoinfinito.com/construccion-torres-colon/">https://destinoinfinito.com/construccion-torres-colon/</a>
-</p>
