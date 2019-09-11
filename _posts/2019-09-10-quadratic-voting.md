@@ -1,5 +1,5 @@
 ---
-title: "Contra la tiranía de la mayoría"
+title: "Voto cuadrático: Contra la tiranía de la mayoría"
 subtitle: 'Una aproximación al voto cuadrático'
 date: 2019-09-11 00:00:00 +02:00
 categories:
@@ -56,17 +56,17 @@ El término es una apropiación de la cultura de los pueblos nativos de América
 
 ## ¿Nos imaginamos este método en nuestro contexto?
 
-En los procesos de presupuestos participativos encontramos en muchas ocasiones un conjunto de propuestas muy elevado y, si miramos de una forma más precisa, en gran medida con demasiada paja. Entonces, ¿cómo poder seleccionar aquellos proyectos de calidad. Aplicar el voto cuadrático a los presupuestos participativos puede generar una idea más clara de cuál es el sentir general del conjunto de personas participantes pues al contrario de otros sistemas como el de carrito de la compra —interesante pero en el que prima el coste como elemento diferenciador con el consiguiente posible sesgo introducido por los técnicos a la hora de valorar cada propuesta— con este método se tiene en cuenta el nivel de entusiasmo de cada participante con cada propuesta. 
+En los procesos de presupuestos participativos encontramos en muchas ocasiones un conjunto de propuestas muy elevado y, si miramos de una forma más precisa, en gran medida con demasiada paja. Entonces, ¿cómo poder seleccionar aquellos proyectos de calidad. Aplicar el voto cuadrático a los presupuestos participativos puede generar una idea más clara de cuál es el sentir general del conjunto de personas participantes pues al contrario de otros sistemas como el de carrito de la compra —interesante pero en el que prima el coste como elemento diferenciador con el consiguiente posible sesgo introducido por los técnicos a la hora de valorar cada propuesta— con este método se tiene en cuenta el nivel de entusiasmo de cada participante con cada propuesta.
 
-Yendo más lejos incluso sería posible combinar ambos sistemas, realizando una primera selección, una criba, mediante el voto cuadrático para después finalizar la selección mediante un sistema de carrito de la compra una vez se ha realizado la evaluación económica de los mismos. 
+Yendo más lejos incluso sería posible combinar ambos sistemas, realizando una primera selección, una criba, mediante el voto cuadrático para después finalizar la selección mediante un sistema de carrito de la compra una vez se ha realizado la evaluación económica de los mismos.
 
-Claro está, por muy novedoso que sea el método no es la primera ocasión en la cual nos topamos con sofisticados mecanismos para la elección de un conjunto de ideas o personas. En muchos de los procesos de primarias de partidos y candidaturas municipalistas de los últimos años encontraremos experiencias con sistemas como Borda o Dowdall. 
+Claro está, por muy novedoso que sea el método no es la primera ocasión en la cual nos topamos con sofisticados mecanismos para la elección de un conjunto de ideas o personas. En muchos de los procesos de primarias de partidos y candidaturas municipalistas de los últimos años encontraremos experiencias con sistemas como Borda o Dowdall.
 
-Estos sistemas de votación nos permiten ordenar a nuestro gusto un conjunto de candidaturas —o incluso de propuestas en el caso de programas— y el resultado final permite obtener un grupo de cinco, diez o veinte posiciones más acordes al sentir general maximizando la proporcionalidad. No obstante la diferencia principal con el  voto cuadrático es la imposibilidad de manifestar el grado de interés por cada una de las opciones seleccionadas. 
+Estos sistemas de votación nos permiten ordenar a nuestro gusto un conjunto de candidaturas —o incluso de propuestas en el caso de programas— y el resultado final permite obtener un grupo de cinco, diez o veinte posiciones más acordes al sentir general maximizando la proporcionalidad. No obstante la diferencia principal con el  voto cuadrático es la imposibilidad de manifestar el grado de interés por cada una de las opciones seleccionadas.
 
 Es posible por tanto que muy pronto veamos aplicar el sistema de voto cuadrático a una primarias. Bueno, posible en teoría pues no parece existir ahora mismo un ambiente proclive a investigar y experimentar en formas extensión democrática en los partidos políticos, más bien al contrario parece este en un periodo de cierta involución si lo comparamos con los avances de los pasados cinco años.
 
-El voto cuadrático puede suponer un interesante nuevo sistema para la toma de decisiones colectivas. Como en tantas otras ocasiones adoptar sistemas con cierto nivel de complejidad puede permitirnos obtener mejores resultados. Sin embargo el coste de implementar procesos más complejos puede ser una barrera a la hora de participar y requiere sin duda de una mejor formación o buena comunicación del proceso antes de ponerlo en marcha. 
+El voto cuadrático puede suponer un interesante nuevo sistema para la toma de decisiones colectivas. Como en tantas otras ocasiones adoptar sistemas con cierto nivel de complejidad puede permitirnos obtener mejores resultados. Sin embargo el coste de implementar procesos más complejos puede ser una barrera a la hora de participar y requiere sin duda de una mejor formación o buena comunicación del proceso antes de ponerlo en marcha.
 
 Además se debería investigar cuál sería el efecto de usar este método en órdenes de magnitud mayores, pues el ejemplo que hemos visto es muy reducido y no sabemos bien cuál puede ser el impacto de la escala a la hora de implementar el voto cuadrático en un proceso de, por ejemplo, una ciudad  de 3,5 millones de habitantes. Esperemos por tanto poder evaluar procesos realizados mediante el voto cuadrático muy pronto y observar de este modo cuáles son los límites de esta innovador y novedoso mecanismo de toma de decisiones.
 
@@ -77,4 +77,3 @@ En Gobierto:
 * [Publicacion de agendas de altos cargos: sincronización automática desde IBM Notes, Google Calendar y Outlook](/blog/20180207-gobierto-agendas.html)
 * [Las claves de un sistema de agendas para entidades públicas](https://gobierto.es/blog/20170126-agendas-representantes.html)
 * [Portal Abierto de Esplugues de Llobregat, basado en Gobierto](/blog/20180926-esplugues-gobierto.html)
-
