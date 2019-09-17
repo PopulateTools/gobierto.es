@@ -1,6 +1,6 @@
 ---
 title: "Ética y datos en la administracion pública"
-subtitle: 'Primera aproximación al tema'
+subtitle: 'Aproximación a partir de tres enfoques'
 date: 2019-09-17 00:00:00 +02:00
 categories:
 - ética y datos, transparencia
@@ -25,19 +25,17 @@ Para afrontar una estratégia de datos en la administración pública se deberí
 - ¿pueden los afectados interactuar con la organización?
 - ¿cuales son las medidas para mitigar esos riesgos?
 - ¿existe un plan de revisión de los riesgos?
-- ¿cḿo se evalúa hasta cuando es vigente el propósito?
+- ¿cómo se evalúa hasta cuando es vigente el propósito?
 
 ## ¿Existe una ética de los datos?
 
-Tal y como ocurre en el sector privado, en la sociedad en su conjunto, el uso de los datos masivos ha producido la irrupción de una ética fundamentada en estudiar y evaluar los problemas morales relacionados con los datos, teniendo en cuenta la generación, grabación, transformación, procesamiento, difusión, intercambio y uso, así como de los algoritmos, incluyendo la inteligencia artificial, el aprendizaje automático o los robots. Como ya avanzaba el paper publicado por el **Instituto Alan Turing** (Floridi, L. and Taddeo, M. (2016). What is data ethics?  Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2083), p.20160360.), la ética de los datos surge para formular y respaldar soluciones moralmente buenas (por ejemplo, conductas correctas o valores correctos) basadas en datos o la interacción de los mismos. 
+Tal y como ocurre en el sector privado, en la sociedad en su conjunto, el uso de los datos masivos ha producido la irrupción de una ética fundamentada en estudiar y evaluar los problemas morales relacionados con los datos, teniendo en cuenta la generación, grabación, transformación, procesamiento, difusión, intercambio y uso, así como de los algoritmos, incluyendo la inteligencia artificial, el aprendizaje automático o los robots. Como ya avanzaba el paper publicado por el **Instituto Alan Turing** (Floridi, L. and Taddeo, M. (2016). [What is data ethics?](https://www.turing.ac.uk/research/publications/what-data-ethics)  Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2083), p.20160360.), la ética de los datos surge para formular y respaldar soluciones moralmente buenas (por ejemplo, conductas correctas o valores correctos) basadas en datos o la interacción de los mismos. 
 
-Pero no se trata únicamente de tener una visión crítica en un plano teórico, también es necesario entender este proceso como una práctica en la generación de servicios o estrategias basadas en datos masivos. En esa línea encontramos el trabajo de la **ODI** (The Data Ethics Canvas user guide, Open Data Institute 2017) en el cual se plantea una primera aproximación práctica al tema, elaborando lo que podríamos llamar guía de buenas prácticas o manual de uso.
+Pero no se trata únicamente de tener una visión crítica en un plano teórico, también es necesario entender este proceso como una práctica en la generación de servicios o estrategias basadas en datos masivos. En esa línea encontramos el trabajo de la **ODI** ([The Data Ethics Canvas user guide](https://es.scribd.com/document/358778143/ODI-the-Data-Ethics-Canvas-User-Guide-2017-09-13), Open Data Institute 2017) en el cual se plantea una primera aproximación práctica al tema, elaborando lo que podríamos llamar guía de buenas prácticas o manual de uso.
 
 Este cambio tecnológico y social pone de relieve las diferentes dimensiones morales de todo tipo de datos, incluso datos que nunca se traducen directamente en información, pero que pueden utilizarse para apoyar acciones o generar comportamientos, por ejemplo.
 
 Cada vez se usan más los datos para generar servicios o bien para mejorar los existentes en la administración pública. Trasladar esa visión de la ética de datos a esos desarrollos es indispensable.
-
-Nos planteamos afrontar este reto mediante tres enfoques.
 
 ## Tres enfoques imprescindibles
 
