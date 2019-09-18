@@ -3,7 +3,7 @@ title: "Ética y datos en la administracion pública"
 subtitle: 'Aproximación a partir de tres enfoques'
 date: 2019-09-17 00:00:00 +02:00
 categories:
-- ética y datos, transparencia
+- transparencia
 layout: v2/post
 author: Pedro Álvarez
 main_photo: posts/190917-etica-datos-ilus.png
