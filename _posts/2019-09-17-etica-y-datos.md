@@ -1,7 +1,7 @@
 ---
 title: "Ética y datos en la administracion pública"
 subtitle: 'Aproximación a partir de tres enfoques'
-date: 2019-09-17 00:00:00 +02:00
+date: 2019-09-18 00:00:00 +02:00
 categories:
 - transparencia
 layout: v2/post
