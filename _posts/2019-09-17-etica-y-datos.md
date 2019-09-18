@@ -18,7 +18,7 @@ Cuando se habla y trabaja en las llamadas estrategias basadas en los datos masiv
 Para afrontar una estratégia de datos en la administración pública se debería partir de una reflexión que al menos tuviese en cuenta las siguientes preguntas:
 
 - ¿cuál es el propósito y hasta qué punto es relevante?
-- ¿se ha identificado a las personas o comunidades de persona afectadas?
+- ¿se ha identificado a las personas o comunidades de personas afectadas?
 - ¿se cuenta con una evaluación de los riesgos y limitaciones potenciales?
 - ¿qué podría afectar negativamente (o positivamente) a las personas y a la sociedad?
 - ¿se están comunicando estos riesgos adecuadamente?
@@ -29,9 +29,11 @@ Para afrontar una estratégia de datos en la administración pública se deberí
 
 ## ¿Existe una ética de los datos?
 
-Tal y como ocurre en el sector privado, en la sociedad en su conjunto, el uso de los datos masivos ha producido la irrupción de una ética fundamentada en estudiar y evaluar los problemas morales relacionados con los datos, teniendo en cuenta la generación, grabación, transformación, procesamiento, difusión, intercambio y uso, así como de los algoritmos, incluyendo la inteligencia artificial, el aprendizaje automático o los robots. Como ya avanzaba el paper publicado por el **Instituto Alan Turing** (Floridi, L. and Taddeo, M. (2016). [What is data ethics?](https://www.turing.ac.uk/research/publications/what-data-ethics)  Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2083), p.20160360.), la ética de los datos surge para formular y respaldar soluciones moralmente buenas (por ejemplo, conductas correctas o valores correctos) basadas en datos o la interacción de los mismos. 
+Tal y como ocurre en el sector privado, el uso de los datos masivos ha producido en la sociedad la irrupción de una ética fundamentada en estudiar y evaluar los problemas morales relacionados con los datos, teniendo en cuenta la generación, grabación, transformación, procesamiento, difusión, intercambio y uso, así como de los algoritmos, incluyendo la inteligencia artificial, el aprendizaje automático o los robots. 
 
-Pero no se trata únicamente de tener una visión crítica en un plano teórico, también es necesario entender este proceso como una práctica en la generación de servicios o estrategias basadas en datos masivos. En esa línea encontramos el trabajo de la **ODI** ([The Data Ethics Canvas user guide](https://es.scribd.com/document/358778143/ODI-the-Data-Ethics-Canvas-User-Guide-2017-09-13), Open Data Institute 2017) en el cual se plantea una primera aproximación práctica al tema, elaborando lo que podríamos llamar guía de buenas prácticas o manual de uso.
+Como ya avanzaba el paper publicado por el **Instituto Alan Turing** (Floridi, L. and Taddeo, M. (2016). [What is data ethics?](https://www.turing.ac.uk/research/publications/what-data-ethics)  Philosophical Transactions of the Royal Society A: Mathematical, Physical and Engineering Sciences, 374(2083), p.20160360.), **la ética de los datos surge para formular y respaldar soluciones moralmente buenas** (por ejemplo, conductas correctas o valores correctos) basadas en datos o la interacción de los mismos. 
+
+Pero no se trata únicamente de tener una visión crítica en un plano teórico. También es necesario entender este proceso como una práctica en la generación de servicios o estrategias basadas en datos masivos. En esa línea encontramos el trabajo de la **ODI** ([The Data Ethics Canvas User Guide](https://es.scribd.com/document/358778143/ODI-the-Data-Ethics-Canvas-User-Guide-2017-09-13), Open Data Institute 2017) en el cual se plantea una primera aproximación práctica al tema, elaborando lo que podríamos llamar guía de buenas prácticas o manual de uso.
 
 Este cambio tecnológico y social pone de relieve las diferentes dimensiones morales de todo tipo de datos, incluso datos que nunca se traducen directamente en información, pero que pueden utilizarse para apoyar acciones o generar comportamientos, por ejemplo.
 
@@ -41,15 +43,15 @@ Cada vez se usan más los datos para generar servicios o bien para mejorar los e
 
 A nuestro entender encontramos tres enfoque que a día de hoy se hace imprescindible poner en marcha a la hora de afrontar la transformación de una administración pública basada en los datos.
 
-1. Diseño
+### 1. Diseño
 
 Si no se afronta desde el diseño no sirve. Para tener éxito en nuestra labor es necesario introducir la ética desde el diseño, sino es así será casi imposible poder introducir más adelante alguna modificación sustancial que afrontar algunos de los riesgos a los cuales nos enfrentamos.
 
-2. Transparencia 
+### 2. Transparencia 
 
 Una vez más, la transparencia. Puede parecer trivial pero no lo es. Si pensamos en servicios públicos basados en datos, si de verdad creemos en la necesidad de poner en marcha estos servicios en base a determinadas premisas éticas, no se entendería si el perceptor del servicio no tiene la capacidad de informarse sobre cómo se ha generado este. Por tanto los algoritmos y métricas utilizados deben ser fácilmente comprendidos, o al menos validados y revisados por personas cualificadas.
 
-3. Evaluación y revisión de los riesgos.
+### 3. Evaluación y revisión de los riesgos.
 
 El auge del uso de datos masivos y la irrupción de servicios basados en estos va de la mano de un cambio tecnológico de gran envergadura. Es un magma en continuo cambio y evolución. Atendiendo a la necesidad de adaptarse a esos cambios es imprescindible pensar en fórmulas para evaluar la aplicación ética a nuestra actividad.
 
@@ -57,13 +59,13 @@ Además, y esto es algo importante a tener en cuenta, la propia mirada a un prob
 
 ## Un camino por recorrer
 
-La asunción de estas pautas no es más que un punto de partida. Se trata de un tema complejo y no exento de cierta controversia. Ahora, cuando recibimos cada día noticias de aplicaciones basadas en Inteligencia Artificial o aprendizaje automático, es cuando debemos plantear las implicaciones morales de todo esto y en su caso, evaluar cuales deben ser las medidas correctivas para atender a los posibles riesgos de usar la ciencia de datos en el entorno de las administraciones públicas.
+La asunción de estas pautas no es más que un punto de partida. Se trata de un tema complejo y no exento de cierta controversia. Cuando recibimos cada día noticias de aplicaciones basadas en Inteligencia Artificial o aprendizaje automático, es cuando debemos plantear las implicaciones morales de todo esto y en su caso, evaluar cuales deben ser las medidas para atender a los posibles riesgos de usar la ciencia de datos en el entorno de las administraciones públicas.
 
 
 <div class="separator blue short"></div>
 
 En Gobierto:
 
-* [Publicacion de agendas de altos cargos: sincronización automática desde IBM Notes, Google Calendar y Outlook](/blog/20180207-gobierto-agendas.html)
-* [Las claves de un sistema de agendas para entidades públicas](https://gobierto.es/blog/20170126-agendas-representantes.html)
-* [Portal Abierto de Esplugues de Llobregat, basado en Gobierto](/blog/20180926-esplugues-gobierto.html)
+* [Consolidando la experiencia de usuario online de las administraciones públicas](https://gobierto.es/blog/20170615-patrones-y-estandares-en-la-administracion.html)
+* [El canvas de la participación](https://gobierto.es/blog/20171120-canvas-participacion.html)
+* [Sistemas de diseño en administraciones públicas](https://gobierto.es/blog/20190524-sistemas-diseno.html)
