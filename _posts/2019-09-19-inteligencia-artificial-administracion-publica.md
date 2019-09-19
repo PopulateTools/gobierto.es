@@ -1,7 +1,7 @@
 ---
 title: "Inteligencia Artificial en la Administración pública"
 subtitle: 'Un repaso a varios casos reales'
-date: 2019-09-19 00:00:00 +02:00
+date: 2019-09-20 00:00:00 +02:00
 categories:
 - tecnologia
 - datos_abiertos
@@ -43,6 +43,8 @@ Seguro que has leído mucho sobre la revolución que supone la IA, pero te vamos
 Buscando un enfoque práctico y realista del tema, hemos recopilado una lista de ejemplos de uso en administraciones.
 
 ### Predicciones
+
+{% asset 'posts/190920-firebird.jpg' class='Outline Shadow caption' %}
 
 La IA uede detectar patrones en conjuntos de datos que serían muy difíciles de procesar por un humano, ya que es capaz de detectar correlaciones entre diferentes variables entre sí en base a eventos ocurridos en el pasado. En Atlanta (Estados Unidos), un equipo formado por investigadores de la Universidad de Emory y el departamento de bomberos, creó [Firebird](http://firebird.gatech.edu/), un software de predicción de riesgo de incendios en los edificios de la ciudad.
 
