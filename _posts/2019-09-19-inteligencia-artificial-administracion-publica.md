@@ -12,7 +12,7 @@ main_photo: posts/190919-machine-learning.jpg
 
 Dentro de la Inteligencia Artificial (IA) hay una rama que está cogiendo mucha tracción, a veces más por simples menciones que por casos de uso válidos que nos muestren su potencial: el aprendizaje automático (_machine learning_ o _ML_).
 
-El _machine learning_ combina estadística, ordenadores y datos y que permite plantear un modelo matemático (un programa de software) capaz de resolver un problema aprendiendo a base de ejemplos (datos) de forma iterativa, de forma supervisada o automática.
+El _machine learning_ combina estadística, ordenadores y datos. Permite plantear un modelo matemático (un programa de software) capaz de resolver un problema aprendiendo a base de ejemplos (datos) de forma iterativa, de forma supervisada o automática.
 
 La administración pública supone un buen contexto para desarrollar algunas soluciones con aprendizaje automático por diversas razones:
 
