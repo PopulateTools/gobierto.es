@@ -1,5 +1,5 @@
 ---
-title: "Inteligencia Artificial en la Administración pública"
+title: "Inteligencia Artificial en la administración pública: casos de uso"
 subtitle: 'Un repaso a varios casos reales'
 date: 2019-09-20 00:00:00 +02:00
 categories:
@@ -10,9 +10,9 @@ author: Fernando Blat
 main_photo: posts/190919-machine-learning.jpg
 ---
 
-Dentro de la Inteligencia Artificial (IA) hay una rama que está cogiendo mucha tracción últimamente, a veces más por simples menciones que por casos de uso válidos que nos muestren su potencial: el aprendizaje automático (conocido en inglés como _machine learning_ o simplemente _ML_).
+Dentro de la Inteligencia Artificial (IA) hay una rama que está cogiendo mucha tracción, a veces más por simples menciones que por casos de uso válidos que nos muestren su potencial: el aprendizaje automático (_machine learning_ o _ML_).
 
-El aprendizaje automático es una disciplina que combina estadística, ordenadores y datos y que tiene la peculiaridad que permite plantear un modelo matemático (en forma de programa software) que es capaz de resolver un problema aprendiendo a base de ejemplos (datos, cuantos más datos mejor) de forma iterativa, de forma supervisada o automática.
+El _machine learning_ combina estadística, ordenadores y datos. Permite plantear un modelo matemático (un programa de software) capaz de resolver un problema aprendiendo a base de ejemplos (datos) de forma iterativa, de forma supervisada o automática.
 
 La administración pública supone un buen contexto para desarrollar algunas soluciones con aprendizaje automático por diversas razones:
 
