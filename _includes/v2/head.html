@@ -34,7 +34,7 @@
     {% endif %}
   {% else %}
     {% if page.main_photo %}
-      {% if page.main_photo_big contains '://' %}
+      {% if page.main_photo contains '://' %}
         <meta property="og:image" content="{{page.main_photo}}" />
       {% else %}
         <meta property="og:image" content="{{site.url}}{% asset {{page.main_photo}} @path %}" />
