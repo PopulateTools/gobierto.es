@@ -59,15 +59,15 @@ Cuando trabajas con tablas de datos que no has creado tu lo primero que necesita
 
 Las vistas son un concepto presente en los sistemas de bases de datos desde siempre. Se trata de realizar vistas alternativas de una tabla de datos para dar una forma nueva a los datos, o para combinar datos de varias tablas; teniendo como resultado una nueva tabla de datos (que está basada en la original, y cuyos datos se modificarán si la original se actualiza). Cuando aplicas un filtro a los datos también estás realizando una vista. **¿Y si las vistas que realicen distintos usuarios pueden ser compartidas entre ellos?**
 
-Por ejemplo, podemos tener una tabla con las mediciones individuales de visitas de ciudadanos a una dependencia del ayuntamiento (un registro por cada visita, con la fecha y hora de la visita, entre otros datos). Pero para entender los datos probablemente necesitemos ver agregar por semana o mes. Si yo preparo (vía SQL o con ayuda de un interfaz) esta vista, será interesante que otros usuarios puedan acceder a ella.
+Por ejemplo, podemos tener una tabla con las mediciones individuales de visitas de ciudadanos a una dependencia del ayuntamiento (un registro por cada visita, con la fecha y hora de la visita, entre otros datos). Pero para entender los datos probablemente necesitemos agregar por semana o mes. Si yo preparo (vía SQL o con ayuda de un interfaz) esta vista será interesante que otros usuarios puedan acceder a ella.
 
 {% asset 'posts/190925-metabase.png' class='Outline Shadow caption' title="Construcción de dashboards en Metabase" %}
 
 ### 3. Visualizar
 
-La visualización de datos es clave para sacar aprendizajes (a falta una mejor traducción para _insights_) y entender con mayor rapidez un conjunto de datos. Los datos y su visualización van muy pegados. Hay muchas herramientas de visualización muy sofisticadas por lo que cabría cuestionarse si una herramienta para compartir datos debe contener funcionalidades de visualización.
+La visualización de datos es clave para sacar aprendizajes (a falta una mejor traducción para _insights_) y entender con mayor rapidez un conjunto de datos. Los datos y su visualización van muy pegados. Hay muchas herramientas de visualización  sofisticadas por lo que cabe cuestionarse si una herramienta para compartir datos debe contener funcionalidades de visualización.
 
-La situación actual es que el software de portales de datos abiertos tienen unas pobres herramientas de visualización, porque hacerlo bien es complicado.
+Los sistemas de portales de datos abiertos tienen unas pobres herramientas de visualización, porque hacerlo bien es complicado.
 
 Para afinar un poco con la visualización dado el origen heterogeneo de las estructuras de datos publicados, según nuestra experiencia, es necesario poder hacer algunas transformaciones previas. Si no puedes hacerlo en la propia herramienta debes hacerlo en otra distinta, lo que complica tu flujo de trabajo y te saca de la herramienta original.
 
@@ -80,7 +80,7 @@ A partir de aquí **puedes crear gráficas y juntar diversas gráficas para comp
 
 Si puedo crear vistas de los datos, crear gráficas, y componer dashboards, el objetivo es poder compartirlos para que otras personas con las mismas necesidades puedan aprovechar mi esfuerzo.
 
-Y permitir remezclar (hacer forks, versiones derivadas) de mis consultas y gráficos, y que se puedan publicar de nuevo. Así, tendría un espacio donde puedo ver qué derivaciones han creado el resto de usuarios sobre un dataset dentro de un mismo entorno y poder hacer yo lo mismo.
+Y permitir remezclar (hacer_forks_, versiones derivadas) de mis consultas y gráficos, y que se puedan publicar de nuevo. Así, tendría un espacio donde puedo ver qué derivaciones han creado el resto de usuarios sobre un dataset dentro de un mismo entorno y poder hacer yo lo mismo.
 
 
 <div class="separator blue short"></div>
@@ -105,14 +105,6 @@ Y permitir remezclar (hacer forks, versiones derivadas) de mis consultas y gráf
 
 CKAN es el gran protagonista de los datos abiertos en los últimos años. En Populate hemos hecho algunas implementaciones y después de haber tenido las manos en la masa, hay algunos aspectos que pensamos que podrían mejorar significativamente. Pero lo dejamos para el próximos post, que este ya se va alargando.
 
-
-
-<div class="separator blue short"></div>
-
-En Gobierto:
-
-* [Ética y datos en la administración pública](/blog/20190918-etica-y-datos.html)
-* [Consolidando la experiencia de usuario online de las administraciones públicas](https://gobierto.es/blog/20170615-patrones-y-estandares-en-la-administracion.html)
 
 <div class="separator blue short"></div>
 
