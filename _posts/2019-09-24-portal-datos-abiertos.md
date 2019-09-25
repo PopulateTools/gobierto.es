@@ -28,7 +28,7 @@ Un portal de datos abiertos es un reflejo de este data lake platónico, o al men
 Bien. Parece que los temblores han cesado. ¿Por qué es interesante?
 
 * **Interfaz para descubrir y explorar datos**: En muchas organizaciones en las que no hay un repositorio central de datos si no muchas fuentes inconexas y ubicaciones desconocidas (sabes el Excel que guarda tu compañero, pero no sabes los Excels que generan en otros departamentos), un portal de datos abiertos sirve como un _hub_ de datos para que **cualquiera dentro -y fuera- de la organización pueda descubrir, explorar y consumir datos**.
-* **Aumenta el uso**: **Los portales de datos abiertos se usan poco** (solo hay que ver la mayoría de "vistas a un dataset" de muchos portales). Si se usan poco hay pocas razones para mejorarlos, por lo que muchos portales se quedan en promesas a medias (datos desactualizados, incompletos...) y tenemos entre manos una inversión poco rentable. Como ese parque en las afueras que no termina de usarse y el paso del tiempo y la falta de mantenimiento estropean.  
+* **Aumenta el uso**: **Los portales de datos abiertos se usan poco** (solo hay que ver la mayoría de "vistas a un dataset" de muchos portales). Si se usan poco hay pocas razones para mejorarlos, por lo que muchos portales se quedan en promesas a medias (datos desactualizados, incompletos...) y tenemos entre manos una inversión poco rentable. Como ese parque en las afueras que no termina de usarse y el paso del tiempo y la falta de mantenimiento estropean.
 * **El uso guia las mejoras**: Si conseguimos que los usuarios internos además de los externos hagan uso de este repositorio de datos estaremos poniendo en valor los datos de la organización, un primer paso en esa quimérica dirección del _data-driven_.
 * **2 por el precio de 1**: En vez de dedicarse a hacer dos productos esencialmente similares, concentrar los recursos en solo uno resultará en un mejor producto con más funcionalidades que además mejorarán guiadas por uso real. (Hay organizaciones que generan muchísimos datos que tienen unas exigencias técnicas muy altas. Pero debes preguntarte si es tu caso)
 
@@ -80,7 +80,7 @@ A partir de aquí **puedes crear gráficas y juntar diversas gráficas para comp
 
 Si puedo crear vistas de los datos, crear gráficas, y componer dashboards, el objetivo es poder compartirlos para que otras personas con las mismas necesidades puedan aprovechar mi esfuerzo.
 
-Y permitir remezclar (hacer_forks_, versiones derivadas) de mis consultas y gráficos, y que se puedan publicar de nuevo. Así, tendría un espacio donde puedo ver qué derivaciones han creado el resto de usuarios sobre un dataset dentro de un mismo entorno y poder hacer yo lo mismo.
+Y permitir remezclar (hacer _forks_, versiones derivadas) de mis consultas y gráficos, y que se puedan publicar de nuevo. Así, tendría un espacio donde puedo ver qué derivaciones han creado el resto de usuarios sobre un dataset dentro de un mismo entorno y poder hacer yo lo mismo.
 
 
 <div class="separator blue short"></div>
@@ -88,7 +88,7 @@ Y permitir remezclar (hacer_forks_, versiones derivadas) de mis consultas y grá
 
 ## Ejemplos de herramientas
 
-¿Existe una herramienta como esta? Hay algunos ejemplos que contienen algunas de las ideas comentadas:  
+¿Existe una herramienta como esta? Hay algunos ejemplos que contienen algunas de las ideas comentadas:
 
 * [Metabase](https://www.metabase.com/)
 * [data.world](http://data.world)
