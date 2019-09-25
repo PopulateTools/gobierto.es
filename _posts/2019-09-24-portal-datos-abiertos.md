@@ -1,7 +1,7 @@
 ---
 title: "Portales de datos abiertos como herramienta para los propios usuarios de una organización"
 subtitle: 'Cómo debería ser un portal de open data para que sirva a los propios usuarios de la organización'
-date: 2019-09-24 00:00:00 +02:00
+date: 2019-09-25 00:00:00 +02:00
 categories:
 - datos_abiertos
 layout: v2/post
