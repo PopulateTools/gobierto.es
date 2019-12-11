@@ -1,11 +1,9 @@
 ---
-title: "10 reflexiones después del Congreso Internacional de Transparenica"
+title: "10 reflexiones después del Congreso Internacional de Transparencia"
 subtitle: 'Algunas ideas surgidas al llegar del CIT19'
 date: 2019-10-24 12:00:00 +02:00
 categories:
-- datos_abiertos
 - transparencia
-- gobierno_abierto
 layout: v2/post
 author: Pedro Álvarez
 main_photo: posts/191024-cit19-1.jpg
