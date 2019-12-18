@@ -2,10 +2,12 @@
   background: $cWhite;
   padding: 32px 0;
 }
+
 .About__inner {
   width: $innerSize;
   margin: auto;
 }
+
 .About__title {
   margin: 0 auto 32px;
   @include sans-serif(42px, 700, $cYellow);
@@ -30,7 +32,6 @@
 .About__content h2 {
   margin: 48px 0 16px 0;
   text-transform: uppercase;
-
   @include sans-serif(22px, 700, $cYellow);
 }
 
@@ -43,6 +44,7 @@
 .About__content em {
   font-style: italic;
 }
+
 .About__content strong {
   font-weight: 700;
 }
@@ -62,7 +64,6 @@
   margin: 0 0 16px;
 }
 
-
 .About__content ul {
   margin: 0 0 0 32px;
 }
@@ -78,13 +79,13 @@
   margin: 0 8px 0 0;
 }
 
-@media all and (max-width : $cMediaCompact) {
+@media all and (max-width: $cMediaCompact) {
   .About__content {
     width: 100%;
   }
 }
 
-@media all and (max-width : $cMediaStretched) {
+@media all and (max-width: $cMediaStretched) {
   .About__header {
     width: 90%;
   }
