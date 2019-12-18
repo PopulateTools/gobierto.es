@@ -10,7 +10,7 @@ main_photo: posts/191218-Cover.png
 ---
 
 <div class="notice">
-Siguiendo [nuestra linea de reflexionar en voz alta](https://twitter.com/gobierto/status/1199672003738759169) sobre las cosas en las que estamos trabajando, compartimos en este post algunas ideas sobre un eventual producto.
+Siguiendo <a href="https://twitter.com/gobierto/status/1199672003738759169">nuestra linea de reflexionar en voz alta</a> sobre las cosas en las que estamos trabajando, compartimos en este post algunas ideas sobre un eventual producto.
 </div>
 
 A todos nos encanta que los planes salgan bien. Probablemente no solo por conseguir el objetivo, si no por _conseguir el objetivo que se había planeado_. Pero **planificar bien es un arte** complejo: empezando por elegir lo que se debe hacer, definir cómo se quiere conseguir, y acertar con la medición de los resultados.
