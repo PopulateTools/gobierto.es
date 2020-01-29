@@ -18,14 +18,14 @@ Cuando tienes que poner en marcha una plataforma online de participación ciudad
 
 Nos hemos centrado en tres proyectos consolidados hoy en día en el ámbito de la participación ciudadana: CONSUL, Decidim y Gobierto. El análisis pretende afrontar la toma de decisión ─seleccionar la plataforma adecuada─ a partir de la revisión de estos tres proyectos así como de algunas de sus implantaciones más conocidas.
 
-Antes de empezar sería bueno preguntarnos …
+Antes de empezar sería bueno preguntarnos:
 
 1. ¿qué tipos de procesos quiero impulsar?
 2. ¿cual es el resultado esperado?
 3. ¿dispongo de los recursos para llevar a cabo el proyecto de puesta en marcha?
 4. ¿cómo será el equipo que gestione el proceso?
 
-Para la elaboración de esta guía se han definido unos criterios a partir de la **experiencia,  de la exploración y análisis de diversos proyectos de participación**. Estos criterios se han definido teniendo en cuenta el punto de vista del responsable de participación que debe tomar la decisión o elaborar la propuesta para su organización.
+Para la elaboración de esta guía se han definido unos criterios a partir de la **experiencia, de la exploración y análisis de diversos proyectos de participación**. Estos criterios se han definido teniendo en cuenta el punto de vista del responsable de participación que debe tomar la decisión o elaborar la propuesta para su organización.
 
 
 |**Tipos de procesos** | presupuestos participativos, consultas, votaciones, legislación colaborativa, planes, ... |
@@ -58,7 +58,7 @@ Tal y como se ha producido el proceso de desarrollo de CONSUL, Decidim y Gobiert
 
 ### Debates
 
-Todas las plataformas pueden permitir debates. Si bien existen algunas diferencias. 
+Todas las plataformas pueden permitir debates. Si bien existen algunas diferencias.
 
 Mientras que en CONSUL existe un componente de debate en el nivel principal, tanto en Decidim como Gobierto los debates son componentes para enriquecer cada proceso.
 
@@ -69,7 +69,7 @@ Incluir la posibilidad de debates mediante hilos ha permitido tener una delibera
 
 ### Iniciativas ciudadanas
 
-Las iniciativas ciudadanas son un mecanismo de democracia directa esencial si queremos abrir nuestra institución a la participación bottom-up (de abajo a arriba). Se trata de propuestas realizadas por la ciudadanía que han de superar un umbral de apoyos para tomarse en consideración. Recientemente recordábamos en Twitter el informe **¿Firmar para influir en política?** presentado en la XIX Conferencia Internacional de la OIDP e  2019. En este informe se pueden descubrir las referencias internacionales más relevantes en cuanto a las iniciativas ciudadanas refieres.
+Las iniciativas ciudadanas son un mecanismo de democracia directa esencial si queremos abrir nuestra institución a la participación bottom-up (de abajo a arriba). Se trata de propuestas realizadas por la ciudadanía que han de superar un umbral de apoyos para tomarse en consideración. Recientemente recordábamos en Twitter el informe **¿Firmar para influir en política?** presentado en la XIX Conferencia Internacional de la OIDP de 2019. En este informe se pueden descubrir las referencias internacionales más relevantes en cuanto a las iniciativas ciudadanas refieres.
 
 Tanto CONSUL como Decidim disponen de la capacidad de recoger firmas presencial o digitalmente. Gobierto en cambio no cuenta con un sistema de validación de firmas presenciales.
 
@@ -83,13 +83,13 @@ Las iniciativas ciudadanas deben alcanzar un umbral para poder ser aceptadas o p
 Las consultas como tal no existen en CONSUL, si bien es posible encontrar un funcionamiento semejante dentro del componente __Procesos__. Esta opción permite llevar a cabo procesos segmentados en fases de debate, propuestas o comentarios a un documento (más adelante hablaremos de esta funcionalidad en el apartado de legislación colaborativa).
 
 El mecanismo de consultas de Decidim es el más sofisticado. Dentro de una consulta se puede disponer diferentes mecanismos de participación (debates, encuestas, propuestas, votaciones) e incluso otros elementos para mejorar el proceso participativo (páginas, blog, resultados).
- 
+
 
 ### Presupuestos participativos
 
 Las tres plataformas han servido de soporte para llevar a cabo procesos de presupuestos participativos.  Si bien han sido muy distintos los enfoques.
 
-Este es el componente más maduro de CONSUL o al menos el que más ha servido para su extensión. Ha sido probado en diferentes contextos y permite dar cobertura a todo el proceso de presupuestos participativos desde la propuesta, el filtrado colaborativo, la evaluación por técnicos de la institución y la votación final. Para este último paso implementa el sistema de carrito de la compra. Con este mecanismo de carrito de la compra el ciudadano debe seleccionar aquellos proyectos que alcancen el presupuesto total asignado en esa edición de presupuestos participativos, pudiendo “llenar” dicha cesta con los proyectos de gasto que más le interese siempre y cuando no supere el límite establecido.
+Este es el componente más maduro de CONSUL o al menos el que más ha servido para su extensión. Ha sido probado en diferentes contextos y permite dar cobertura a todo el proceso de presupuestos participativos desde la propuesta, el filtrado colaborativo, la evaluación por técnicos de la institución y la votación final. Para este último paso implementa el sistema de carrito de la compra. Con este mecanismo el ciudadano debe seleccionar aquellos proyectos que alcancen el presupuesto total asignado en esa edición de presupuestos participativos, pudiendo "llenar" dicha cesta con los proyectos de gasto que más le interese siempre y cuando no supere el límite establecido.
 
 En Decidim los presupuestos participativos funcionan de una forma similar a las propuestas. Actualmente no disponen de unos mecanismos específicos para la evaluación de los proyectos de gasto. Sin embargo en los próximos desarrollos previstos está la evolución y mejora de este componente.
 
@@ -139,7 +139,7 @@ La participación es entendida de muy distinta forma dependiendo de la organizac
 
 La facilidad a la hora de personalizar un proceso nos permite ajustar la plataforma a la manera de entender la participación por cada organización, sus tiempos y flujos. Obviamente siempre es necesaria cierta acomodación del funcionamiento de la organización al software pero cuanto más flexible sea éste a la hora de configurar un proceso más posibilidades tendremos a la hora de poner en marcha nuestro proceso y más exitoso será este.
 
-Este es uno de los **aspectos más relevantes de Decidim**, su capacidad de personalizar el proceso de participación tanto en componentes como en fases. También es necesario destacar cómo la puesta en marcha de procesos de participación híbridos permite congeniar espacios presenciales con la comunidad digital activa en la plataforma. 
+Este es uno de los **aspectos más relevantes de Decidim**, su capacidad de personalizar el proceso de participación tanto en componentes como en fases. También es necesario destacar cómo la puesta en marcha de procesos de participación híbridos permite congeniar espacios presenciales con la comunidad digital activa en la plataforma.
 
 
 ### Adaptarse a distintos contextos y tipos de organizaciones
@@ -164,12 +164,12 @@ Las plataformas de participación no se basan única y exclusivamente en funcion
 
 Concretamente nos hemos detenido en comparar las siguientes herramientas:
 
-- newsletter,
-- dashboard de propuestas,
-- backend de funcionarios,
-- espacio de comunidad, …
+- newsletter
+- dashboard de propuestas
+- backend de funcionarios
+- espacio de comunidad
 
-Según este criterio las diferencias son notables. En general, tal y como se mencionaba al principio de esta guía, están muy marcadas las diferencias a partir de cómo se ha gestado cada modelo de participación y también de cuál ha sido su evolución. 
+Según este criterio las diferencias son notables. En general, tal y como se mencionaba al principio de esta guía, están muy marcadas las diferencias a partir de cómo se ha gestado cada modelo de participación y también de cuál ha sido su evolución.
 
 En CONSUL podemos encontrar algunas innovaciones muy interesantes. Entre ellas destaca el **dashboard de propuesta**, un componente pensado para mejorar la capacidad del proponente para involucrarse en la consecución de su objetivo: conseguir superar el umbral de las iniciativas ciudadanas.
 
@@ -191,9 +191,9 @@ Muchas organizaciones tienen capacidad y recursos para afrontar proyectos de des
 
 El hecho de ser plataformas de participación basadas en software libre garantiza además de la posibilidad de reutilización y mejora del software otro factor muy importante a tener en cuenta: la libertad de proveedor. Al tener nuestro desarrollo en algún repositorio público facilitaremos la labor de los posibles proveedores, se facilita la posibilidad de trabajar entre el equipo propio y otros de fuera, o permite licitar un proyecto en base a lotes.
 
-Fáciles de mantener
-Compatibilidad con el core
-Reutilizables
+- Fáciles de mantener
+- Compatibilidad con el core
+- Reutilizables
 
 No todas las mejoras o cambios introducidos en un proyecto de software son susceptibles de servir para cualquier contexto.  Sin embargo si es posible pensar esos desarrollos con la mínima abstracción necesaria para hacerlo trasladables a otros entornos.
 
@@ -206,16 +206,16 @@ En este aspecto Gobierto cuenta con la ventaja de tener detrás un equipo de des
 
 ## Out-of-the-box
 
-Todas las plataformas de participación analizadas cuentan con una serie de aspectos bścisos acordes con otros productos del mercado.
+Todas las plataformas de participación analizadas cuentan con una serie de aspectos básicos acordes con otros productos del mercado.
 
 - localización
 - multitenant
 - accesibilidad
 - API, open data
 
-En cuanto a la localización, la posibilidad de llevar cada uno de estas plataformas a cualquier entorno, ya sea por idioma o cualquier otra de las características de localización, los tres proyectos analizados tienen esa funcionalidad integrada. Aún así, probablemente debido a su gran extensión, es CONSUL el software que a día de hoy tiene una mayor traslación a otros idiomas ([46](https://crowdin.com/project/consul) en total). 
+En cuanto a la localización, la posibilidad de llevar cada uno de estas plataformas a cualquier entorno, ya sea por idioma o cualquier otra de las características de localización, los tres proyectos analizados tienen esa funcionalidad integrada. Aún así, probablemente debido a su gran extensión, es CONSUL el software que a día de hoy tiene una mayor traslación a otros idiomas ([46](https://crowdin.com/project/consul) en total).
 
-**El sistema multientidad de Gobierto destaca por formar parte del diseño original** de la plataforma con las ventajas en cuanto a la arquitectura y posterior desarrollo. En el caso de Decidim se optó por este cambio para dar cobertura a algunas necesidades; aunque no ha sido hasta hace poco que se han podido desambiguar algunas partes de la configuración entre sitios ([Allow customizing Oauth providers for each tenant](https://github.com/decidim/decidim/pull/5516)). 
+**El sistema multientidad de Gobierto destaca por formar parte del diseño original** de la plataforma con las ventajas en cuanto a la arquitectura y posterior desarrollo. En el caso de Decidim se optó por este cambio para dar cobertura a algunas necesidades; aunque no ha sido hasta hace poco que se han podido desambiguar algunas partes de la configuración entre sitios ([Allow customizing Oauth providers for each tenant](https://github.com/decidim/decidim/pull/5516)).
 
 Todas las plataformas analizadas cumplen con las pautas de accesibilidad requeridas, o al menos están preparadas para ello. Es posible que algunos portales de participación no se ajusten a la norma [EN 301 549 V1.1.2 Requisitos de accesibilidad para productos y servicios TIC](https://administracionelectronica.gob.es/pae_Home/pae_Actualidad/pae_Noticias/Anio2018/Octubre/Noticia-2018-10-05-Nueva-version-de-la-norma-EN-301-549.html#.XRSJQibtYgY) o deba hacerse una evaluación ex profeso para validar el grado de cumplimeinto.
 
