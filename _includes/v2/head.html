@@ -3,9 +3,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript" charset="utf-8"></script> -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script> -->
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css"> -->
-
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css"> -->
+  
   {% asset v2/app.css %}
   {% asset v2/application %}
 
@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
 
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="{{ site.twitter_username }}" />
@@ -24,30 +24,18 @@
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %} · Gobierto</title>
-  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" />
-
-  {% if page.main_photo_big %}
-    {% if page.main_photo_big contains '://' %}
-      <meta property="og:image" content="{{page.main_photo_big}}" />
-    {% else %}
-      <meta property="og:image" content="{{site.url}}{% asset {{page.main_photo_big}} @path %}" />
-    {% endif %}
-  {% else %}
-    {% if page.main_photo %}
-      {% if page.main_photo contains '://' %}
-        <meta property="og:image" content="{{page.main_photo}}" />
-      {% else %}
-        <meta property="og:image" content="{{site.url}}{% asset {{page.main_photo}} @path %}" />
-      {% endif %}
-    {% else %}
-      <meta property="og:image" content="{{site.url}}{% asset 'posts/_default_post_image.png' @path %}" />
-    {% endif %}
-  {% endif %}
+  <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}" /> {% if page.main_photo_big %} {% if page.main_photo_big contains '://' %}
+  <meta property="og:image" content="{{page.main_photo_big}}" /> {% else %}
+  <meta property="og:image" content="{{site.url}}{% asset {{page.main_photo_big}} @path %}" /> {% endif %} {% else %} {% if page.main_photo %} {% if page.main_photo contains '://' %}
+  <meta property="og:image" content="{{page.main_photo}}" /> {% else %}
+  <meta property="og:image" content="{{site.url}}{% asset {{page.main_photo}} @path %}" /> {% endif %} {% else %}
+  <meta property="og:image" content="{{site.url}}{% asset 'posts/_default_post_image.png' @path %}" /> {% endif %} {% endif %}
 
   <meta name="description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}" />
+  <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="{% asset 'v2/favicons/apple-touch-icon-57x57.png' @path %}" >
+  <link rel="apple-touch-icon" sizes="57x57" href="{% asset 'v2/favicons/apple-touch-icon-57x57.png' @path %}">
   <link rel="apple-touch-icon" sizes="60x60" href="{% asset 'v2/favicons/apple-touch-icon-60x60.png' @path %}">
   <link rel="apple-touch-icon" sizes="72x72" href="/{% asset 'v2/favicons/apple-touch-icon-72x72.png' @path %}">
   <link rel="apple-touch-icon" sizes="76x76" href="{% asset 'v2/favicons/apple-touch-icon-76x76.png' @path %}">

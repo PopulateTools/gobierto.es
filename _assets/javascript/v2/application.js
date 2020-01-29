@@ -12,39 +12,39 @@ function isScrolledIntoView(elem) {
   var rect = elem.getBoundingClientRect();
   var elemTop = rect.y + window.scrollY - 100;
   var elemBottom = elemTop + rect.height - 300;
-  return !(scrollPosition < elemTop || scrollPosition > elemBottom )
+  return !(scrollPosition < elemTop || scrollPosition > elemBottom)
 
 }
 
-var setupHamburgerDesktop = function () {
+var setupHamburgerDesktop = function() {
   var hamburgerDesktop = document.querySelector('.js-hamburger-desktop');
   var closeDesktop = document.querySelector('.js-hamburger-desktop-close');
   var menuHover = document.querySelector('.Menu__slide');
 
-  hamburgerDesktop.addEventListener('click', function(e){
+  hamburgerDesktop.addEventListener('click', function(e) {
     e.preventDefault();
   });
-  closeDesktop.addEventListener('click', function(e){
+  closeDesktop.addEventListener('click', function(e) {
     e.preventDefault();
   });
 
   if (hamburgerDesktop && closeDesktop) {
-    hamburgerDesktop.onmouseover = function () {
+    hamburgerDesktop.onmouseover = function() {
       menuHover.classList.add('is-open');
 
-      setTimeout(function () {
+      setTimeout(function() {
         // Set class once Menu is shown, in order to avoid the background elements misalignment
         document.body.classList.add('is-fixed');
       }, 250);
 
-      bindEscKey(function () {
+      bindEscKey(function() {
         hamburgerDesktop.parentElement.classList.remove('is-open');
         document.body.classList.remove('is-fixed');
         document.onkeyup = null;
       });
     }
 
-    closeDesktop.onclick = function () {
+    closeDesktop.onclick = function() {
       menuHover.classList.remove('is-open');
       document.body.classList.remove('is-fixed');
     }
@@ -52,35 +52,35 @@ var setupHamburgerDesktop = function () {
 
 };
 
-var setupHamburger = function () {
+var setupHamburger = function() {
   var hamburger = document.querySelector('.js-hamburger');
   var close = document.querySelector('.js-hamburger-close');
 
   if (hamburger && close) {
-    hamburger.onclick = function () {
+    hamburger.onclick = function() {
       hamburger.parentElement.classList.add('is-open');
       console.log('menu lateral');
 
-      setTimeout(function () {
+      setTimeout(function() {
         // Set class once Menu is shown, in order to avoid the background elements misalignment
         document.body.classList.add('is-fixed');
       }, 250);
 
-      bindEscKey(function () {
+      bindEscKey(function() {
         hamburger.parentElement.classList.remove('is-open');
         document.body.classList.remove('is-fixed');
         document.onkeyup = null;
       });
     }
 
-    close.onclick = function () {
+    close.onclick = function() {
       hamburger.parentElement.classList.remove('is-open');
       document.body.classList.remove('is-fixed');
     }
   }
 };
 
-var bindEscKey = function (callback) {
+var bindEscKey = function(callback) {
   document.onkeyup = function(e) {
     e = e || window.event;
     if (e.keyCode == 27) {
@@ -89,7 +89,7 @@ var bindEscKey = function (callback) {
   };
 };
 
-var setupIntroCover = function () {
+var setupIntroCover = function() {
   var cover = document.querySelector('.js-cover');
 
   if (cover) {
@@ -114,7 +114,7 @@ var setupIntroCover = function () {
   }
 };
 
-var setupTooltips = function () {
+var setupTooltips = function() {
   var tooltips = document.querySelectorAll('.js-tooltip');
   var timeoutIDs = new Array(tooltips.length);
 
@@ -124,19 +124,19 @@ var setupTooltips = function () {
     var target = tooltip.parentElement.querySelector('.js-tooltip-target');
     var parent = tooltip.parentElement.querySelector('button');
 
-    tooltip.parentElement.onmouseleave = function () {
-      timeoutIDs[i] = setTimeout(function () {
+    tooltip.parentElement.onmouseleave = function() {
+      timeoutIDs[i] = setTimeout(function() {
         tooltip.classList.add('Tooltip--hidden');
       }, 300);
     }
 
-    tooltip.onmouseover = function () {
+    tooltip.onmouseover = function() {
       if (timeoutIDs[i]) {
         clearTimeout(timeoutIDs[i]);
       }
     }
 
-    parent.onmouseover = function () {
+    parent.onmouseover = function() {
       tooltip.classList.remove('Tooltip--hidden');
       tooltip.style.left = -tooltip.getBoundingClientRect().width / 2 + parent.getBoundingClientRect().width + 'px';
     }
@@ -144,13 +144,13 @@ var setupTooltips = function () {
 
 };
 
-var setupSmoothScroll = function () {
+var setupSmoothScroll = function() {
   var elements = document.querySelectorAll('.js-smooth-scroll');
 
   for (var i = 0; i < elements.length; i++) {
     var e = elements[i];
 
-    e.onclick = function (evt) {
+    e.onclick = function(evt) {
       var hash = this.href.toString().split('#')[1];
       var el = document.getElementById(hash);
 
@@ -166,7 +166,7 @@ var setupSmoothScroll = function () {
   }
 }
 
-var setupFunctionalities = function () {
+var setupFunctionalities = function() {
   var explanation = document.querySelector('.js-explanation');
   var functionalities = document.querySelectorAll('.js-functionality');
 
@@ -178,7 +178,7 @@ var setupFunctionalities = function () {
 
   for (var i = 0; i < functionalities.length; i++) {
     var functionality = functionalities[i];
-    functionality.onmouseenter = function () {
+    functionality.onmouseenter = function() {
       var explanationText = this.querySelector('p').innerHTML;
 
       if (window.currentExplanation == explanationText) {
@@ -193,7 +193,7 @@ var setupFunctionalities = function () {
 
       explanation.classList.add('is-hidden');
 
-      window.explanationTimeout = setTimeout(function () {
+      window.explanationTimeout = setTimeout(function() {
         explanation.querySelector('div').innerHTML = explanationText;
         explanation.classList.remove('is-hidden');
       }.bind(this), 200);
@@ -201,14 +201,14 @@ var setupFunctionalities = function () {
   };
 }
 
-var setupSubscription = function () {
+var setupSubscription = function() {
   var form = document.querySelector('.js-subscribe');
 
   if (!form) {
     return;
   }
 
-  form.onsubmit = function (e) {
+  form.onsubmit = function(e) {
     e.preventDefault();
     e.stopPropagation();
 
@@ -243,7 +243,7 @@ var setupSubscription = function () {
   }
 }
 
-window.onscroll = function () {
+window.onscroll = function() {
   var elements = document.querySelectorAll('.js-module-cover');
 
   for (var i = 0; i < elements.length; i++) {
@@ -257,20 +257,20 @@ window.onscroll = function () {
   }
 }
 
-$(function(){
+$(function() {
 
   // autocaptions for article images
   $('article img.caption').after(function() {
-    if($(this).attr('title') !== undefined && $(this).attr('title').length > 0) {
+    if ($(this).attr('title') !== undefined && $(this).attr('title').length > 0) {
 
       var classesToAdd = '';
-      if($(this).hasClass('inline')) {
+      if ($(this).hasClass('inline')) {
         classesToAdd += ' inline ';
       }
-      if($(this).hasClass('f_right')) {
+      if ($(this).hasClass('f_right')) {
         classesToAdd += ' f_right ';
       }
-      if($(this).hasClass('f_left')) {
+      if ($(this).hasClass('f_left')) {
         classesToAdd += ' f_left ';
       }
 
@@ -307,7 +307,7 @@ $(document).scroll(function() {
   }
 });
 
-window.onload = function () {
+window.onload = function() {
   setupTooltips();
   setupHamburger();
   setupIntroCover();
