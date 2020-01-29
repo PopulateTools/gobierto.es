@@ -1,5 +1,5 @@
 ---
-title: "Guía para elegir una plataforma de participación ciudadana"
+title: "Herramientas de participación ciudadana: análisis y comparativa"
 subtitle: 'Análisis del software open source de participación: Consul, Decidim, Gobierto'
 date: 2020-01-29 00:00:00 +02:00
 categories:
@@ -9,8 +9,6 @@ layout: v2/post
 author: Pedro Álvarez
 main_photo: posts/200129-consul_decidim.jpg
 ---
-
-
 
 Cuando tienes que poner en marcha una plataforma online de participación ciudadana surgen algunas preguntas iniciales: **¿qué plataforma elegir?, ¿cómo saber cuál es la más adecuada para mis necesidades?, ¿servirá para procesos de participación en el futuro?** Con esta guía pretendemos ayudar a quién se hace estas preguntas, analizando las opciones más usadas en España en los últimos años, de las basadas en **software de código abierto**.
 
@@ -95,7 +93,7 @@ Incluir la posibilidad de debates mediante hilos ha permitido tener una delibera
 
 Las iniciativas ciudadanas son un mecanismo de democracia directa esencial si queremos abrir nuestra institución a la participación bottom-up (de abajo a arriba). Se trata de propuestas realizadas por la ciudadanía que han de superar un umbral de apoyos para tomarse en consideración. Recientemente recordábamos en Twitter el informe **¿Firmar para influir en política?** presentado en la XIX Conferencia Internacional de la OIDP de 2019. En este informe se pueden descubrir las referencias internacionales más relevantes en cuanto a las iniciativas ciudadanas refieres.
 
-Tanto CONSUL como Decidim disponen de la capacidad de recoger firmas presencial o digitalmente. Gobierto en cambio no cuenta con un sistema de validación de firmas presenciales.
+Los tres sistemas disponen de la capacidad de recoger firmas presencial o digitalmente. 
 
 {% asset 'posts/200129-consul_decidim_2.png' class='Outline Shadow caption' title="Iniciativa "Calle de Elisa Moragas " activa en decidim.barcelona" %}
 
@@ -113,13 +111,15 @@ El mecanismo de consultas de Decidim es el más sofisticado. Dentro de una consu
 
 Las tres plataformas han servido de soporte para llevar a cabo procesos de presupuestos participativos.  Si bien han sido muy distintos los enfoques.
 
-Este es el componente más maduro de CONSUL o al menos el que más ha servido para su extensión. Ha sido probado en diferentes contextos y permite dar cobertura a todo el proceso de presupuestos participativos desde la propuesta, el filtrado colaborativo, la evaluación por técnicos de la institución y la votación final. Para este último paso implementa el sistema de carrito de la compra. Con este mecanismo el ciudadano debe seleccionar aquellos proyectos que alcancen el presupuesto total asignado en esa edición de presupuestos participativos, pudiendo "llenar" dicha cesta con los proyectos de gasto que más le interese siempre y cuando no supere el límite establecido.
+Este es el componente más maduro de CONSUL o al menos el que más ha servido para su extensión. Ha sido probado en diferentes contextos y permite dar cobertura a todo el proceso de presupuestos participativos desde la propuesta, el filtrado colaborativo, la evaluación por técnicos de la institución y la votación final. 
+
+Para este último paso implementa el sistema de carrito de la compra. Con este mecanismo el ciudadano debe seleccionar aquellos proyectos que alcancen el presupuesto total asignado en esa edición de presupuestos participativos, pudiendo "llenar" dicha cesta con los proyectos de gasto que más le interese siempre y cuando no supere el límite establecido.
 
 En Decidim los presupuestos participativos funcionan de una forma similar a las propuestas. Actualmente no disponen de unos mecanismos específicos para la evaluación de los proyectos de gasto. Sin embargo en los próximos desarrollos previstos está la evolución y mejora de este componente.
 
 {% asset 'posts/200129-consul_decidim_3.png' class='Outline Shadow caption' title="Resultado de los presupuestos participativos de Madrid en 2019" %}
 
-A diferencia de CONSUL o Decidim, Gobierto cuenta con la posibilidad de abrir la participación ciudadana al proyecto de presupuestos de la institución. Es un enfoque distinto pensado para obtener la valoración de partidas (o grupos de partidas) por parte de vecinos y vecinas, que pueden mostrar
+A diferencia de CONSUL o Decidim, Gobierto cuenta con la posibilidad de abrir la participación ciudadana al proyecto de presupuestos de la institución. Es un enfoque distinto pensado para obtener la valoración de partidas (o grupos de partidas) por parte de vecinos y vecinas.
 
 
 ### Votaciones
@@ -209,15 +209,11 @@ No se entendería hoy en día levantar una plataforma de estas características 
 Los tres proyectos han sido implementados en diferentes entornos integrando sus sistema de autenticación con el sistema Cl@ave, los certificados digitales de la FNMT o un punto de SSO (Single Sign On).
 
 
-## Desarrollos ad hoc y evolución de nuestra plataforma
+## Desarrollos ad hoc y evolución de la plataforma
 
 Muchas organizaciones tienen capacidad y recursos para afrontar proyectos de desarrollo o integración, al menos en parte.
 
-El hecho de ser plataformas de participación basadas en software libre garantiza además de la posibilidad de reutilización y mejora del software otro factor muy importante a tener en cuenta: la libertad de proveedor. Al tener nuestro desarrollo en algún repositorio público facilitaremos la labor de los posibles proveedores, se facilita la posibilidad de trabajar entre el equipo propio y otros de fuera, o permite licitar un proyecto en base a lotes.
-
-- Fáciles de mantener
-- Compatibilidad con el core
-- Reutilizables
+El hecho de ser plataformas de participación basadas en software libre garantiza además de la posibilidad de reutilización y mejora del software. Otro factor muy importante a tener en cuenta: la libertad de proveedor. Al tener nuestro desarrollo en algún repositorio público facilitaremos la labor de los posibles proveedores, se facilita la posibilidad de trabajar entre el equipo propio y otros de fuera, o permite licitar un proyecto en base a lotes.
 
 No todas las mejoras o cambios introducidos en un proyecto de software son susceptibles de servir para cualquier contexto.  Sin embargo si es posible pensar esos desarrollos con la mínima abstracción necesaria para hacerlo trasladables a otros entornos.
 
@@ -225,7 +221,7 @@ El modelo de enorme extensión de CONSUL ha permitido establecer un conjunto de 
 
 El proyecto Decidim a pesar de ser inicialmente impulsado por el Ayuntamiento de Barcelona ha conseguido consolidarse como una comunidad de software libre en la que encontramos un ecosistema de contribuidores de todo tipo como de empresas e instituciones que aportan desarrollos y mejoras.
 
-En este aspecto Gobierto cuenta con la ventaja de tener detrás un equipo de desarrollo que continuamente trabaja en el  proyecto, y el respaldo de una empresa consolidada y rentable como es **[Populate](https://populate.tools).**
+Gobierto cuenta con un equipo de desarrollo que continuamente trabaja en el  proyecto, y el respaldo de una empresa consolidada y rentable como es **[Populate](https://populate.tools).**
 
 
 ## Out-of-the-box
@@ -252,18 +248,22 @@ Decidim también cuenta con una API GraphQL, la cual implementación además ha 
 
 ## Entonces, ¿cuál elijo?
 
-Esperamos con esta guía rápida haber puesto algo de luz en el tema. Aún así no es fácil tomar una decisión de estas características y requiere en primer lugar de la elaboración de una mínima estrategia para nuestro modelo de participación, o al menos establecer las prioridades. Con la retrospectiva hecha en esta guía se han recorrido los aspectos clave de cada plataforma y cual es el nivel de madurez para facilitar la toma de decisión por parte de las personas responsables del proyecto de participación de una organización. Para profundizar en el tema en muchos casos será necesario conocer cual es el proyecto y hacer un estudio específico a esas circunstancias.
+Esta guía analiza los aspectos clave de cada plataforma y el nivel de madurez para facilitar la toma de decisión por parte del responsable de participación de una organización. 
 
+A partir de aquí, consideramos que lo apropiado es analizar los requerimientos del proyecto de participación de la organización para ver como encajan con lo que ofrece cada herramienta. Este punto lo desarrollamos en un post anterior: [¿Cómo elegir una herramienta de participación ciudadana?](/blog/20170728-como-elegir-herramienta-participacion.html)
+
+
+<div class="separator blue short"></div>
 
 ### Referencias
 
 Esta retrospectiva se ha hecho a partir de la observación y el análisis de las tres plataformas mencionadas. Así mismo se ha tenido en cuenta la experiencia acumulada por el equipo de Populate en proyectos de participación ciudadana prestando servicios al Ayuntamiento de Madrid, Ajuntament de Barcelona, Diputación de Valladolid, Ayuntamiento de Alcobendas, entre otros.
 
-Puedes encontrar otras entradas acerca del tema en el [blog de Gobierto](https://gobierto.es/blog/) y la [web de Populate](https://populate.tools/#projects):
+Puedes encontrar otras entradas acerca del tema en el [blog de Gobierto](/blog/) y la [web de Populate](https://populate.tools/#projects):
 
-- [¿Cómo elegir una herramienta de participación ciudadana?](https://gobierto.es/blog/20170728-como-elegir-herramienta-participacion.html)
-- [Mejorando Consul, el software de participación creado por el Ayuntamiento de Madrid](https://gobierto.es/blog/20170419-mejoras-consul.html)
-- [Panorama sobre los presupuestos participativos en España](https://gobierto.es/blog/20161212-presupuestos-participativos-a-examen.html)
+- [¿Cómo elegir una herramienta de participación ciudadana?](/blog/20170728-como-elegir-herramienta-participacion.html)
+- [Mejorando Consul, el software de participación creado por el Ayuntamiento de Madrid](/blog/20170419-mejoras-consul.html)
+- [Panorama sobre los presupuestos participativos en España](/blog/20161212-presupuestos-participativos-a-examen.html)
 
 Además se han tenido en cuenta otros recursos y comparativas anteriores, como son:
 
@@ -271,4 +271,4 @@ Además se han tenido en cuenta otros recursos y comparativas anteriores, como s
 - [Democracias futuras](https://archive.org/details/democraciasfuturasLICPD_201906/mode/2up) (publicación), ParticipaLab, VVAA
 - [Democracias futuras](https://archive.org/details/DemocraciasFuturasVisiones/mode/2up) (libro), ParticipaLab, VVAA
 
-<div class="separator blue short"></div>
+

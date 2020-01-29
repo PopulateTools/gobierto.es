@@ -40,6 +40,7 @@ En Gobierto estamos poniendo en marcha nuestro módulo de Participación en cola
 
 Más recursos:
 
+- [Herramientas de participación ciudadana: análisis y comparativa](/blog/20200128-como-elegir-plataforma-participacion-ciudadana.html)
 - Consulta nuestra serie de [conversaciones sobre participación con expertos](/temas/participacion/) que están poniendo iniciativas en marcha a nivel municipal
 - Nuestra serie sobre [presupuestos participativos](/blog/20160530-presupuestos-participativos.html)
 - [Nuestros principios de diseño](/blog/20170711-principios-de-diseno-gobierto.html)
