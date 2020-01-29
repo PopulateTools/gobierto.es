@@ -1,6 +1,6 @@
 ---
 title: "Guía para elegir una plataforma de participación ciudadana"
-subtitle: 'CONSUL vs. Decidim … o Gobierto'
+subtitle: 'Análisis del software open source de participación: Consul, Decidim, Gobierto'
 date: 2020-01-29 00:00:00 +02:00
 categories:
 - participacion
@@ -11,7 +11,31 @@ main_photo: posts/200129-consul_decidim.jpg
 ---
 
 
+
 Cuando tienes que poner en marcha una plataforma online de participación ciudadana surgen algunas preguntas iniciales: **¿qué plataforma elegir?, ¿cómo saber cuál es la más adecuada para mis necesidades?, ¿servirá para procesos de participación en el futuro?** Con esta guía pretendemos ayudar a quién se hace estas preguntas, analizando las opciones más usadas en España en los últimos años, de las basadas en **software de código abierto**.
+
+En esta guía hablaremos de: 
+
+<ol class="toc-list ">
+
+  <li class="toc-list-item"><a href="#cómo-elegir-una-plataforma-adecuada-para-mi-organización" class="toc-link node-name--H2 ">Cómo elegir una plataforma adecuada para mi organización</a></li>
+
+  <li class="toc-list-item"><a href="#tipos-de-proceso" class="toc-link node-name--H2 ">Tipos de proceso</a></li>
+  
+  <li class="toc-list-item"><a href="#personalización-de-los-procesos" class="toc-link node-name--H2 ">Personalización de los procesos</a></li>
+
+  <li class="toc-list-item"><a href="#herramientas" class="toc-link node-name--H2 ">Herramientas</a></li>
+  
+  <li class="toc-list-item"><a href="#integración-con-sistemas-de-información" class="toc-link node-name--H2 ">Integración con sistemas de información</a></li>
+  
+  <li class="toc-list-item"><a href="#desarrollos-ad-hoc-y-evolución-de-nuestra-plataforma" class="toc-link node-name--H2 ">Desarrollos ad hoc y evolución de nuestra plataforma</a></li>
+  
+  <li class="toc-list-item"><a href="#out-of-the-box" class="toc-link node-name--H2 ">Out-of-the-box</a></li>
+  
+  <li class="toc-list-item"><a href="#entonces-cuál-elijo" class="toc-link node-name--H2 ">Entonces, ¿cuál elijo?</a></li>
+  
+</ol>
+
 
 
 ## Cómo elegir una plataforma adecuada para mi organización
@@ -35,7 +59,7 @@ Para la elaboración de esta guía se han definido unos criterios a partir de la
 |**Out of the box** |Multilenguaje, accesibilidad, API|
 
 
-Tanto CONSUL como Decidim han tenido un desarrollo muy marcado por los dos ayuntamientos impulsores de sendos proyectos de software libre. Y aunque en un principio compartieron un mismo código enseguida se consolidaron como dos iniciativas diferenciadas. Esto ha tenido como resultado una evolución en paralelo con marcadas diferencias, muchas de ellas relacionadas con modelos de participación dispares.
+**Tanto CONSUL como Decidim han tenido un desarrollo muy marcado por los dos ayuntamientos impulsores** de sendos proyectos de software libre. Y aunque en un principio compartieron un mismo código enseguida se consolidaron como dos iniciativas diferenciadas. Esto ha tenido como resultado una evolución en paralelo con marcadas diferencias, muchas de ellas relacionadas con modelos de participación dispares.
 
 Si por un lado Decide Madrid se ha caracterizado por impulsar una participación sin mediación y a los mayores niveles de escala posibles, Decidim Barcelona ha apostado más por mantener espacios presenciales en consonancia con la plataforma, planteando procesos híbridos, permitiendo participar en una asamblea de forma presencial y al mismo tiempo desde la plataforma.
 
