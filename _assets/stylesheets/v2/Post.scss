@@ -304,6 +304,15 @@ caption {
   padding-bottom: 56.25%; /* 16:9 */
   padding-top: 25px;
   height: 0;
+  margin-bottom: 2em;
+}
+@media (min-width: $cMediaLarge) {
+  .video_wrapper.bigger {
+    width: 144%;
+    margin: 0 0 0 -22%;
+    padding-bottom: 78.25%;
+    margin-bottom: 2em;
+  }
 }
 .video_wrapper iframe {
   position: absolute;
