@@ -65,20 +65,20 @@ El software usado para implementar los portales varía según la diputación. Al
 
 | **Diputaciones** | **Software** | **Datasets** <span>&nbsp;&nbsp;&nbsp;&nbsp;</span> | **Actualizado** |
 | ------------ | ------------- | ------------- | ------------- |
-|Barcelona|DKAN|66|Diaria|
-|Bizkaia|CKAN|455|30/01/2020|
-|Cádiz|OGoov|54|20/04/2018|
-|Castellón|OpenDataSoft|60|Diaria|
-|Cuenca|Liferay|20|-|
-|Guipuzkoa|Liferay|2.012|Diaria|
-|Huesca|CKAN|49|26/09/2018|
-|Lleida|Socrata|144|30/01/2020|
-|Lugo|Liferay|-|01/04/2016|
-|Málaga|ASP.Net|1.000|-|
-|Salamanca|CKAN|37|30/01/2020|
-|Tarragona|Socrata|34|Diaria|
-|Teruel|¿Wordpress?|91||23/01/2020*|
-|Valladolid|Liferay|-|-|
+|[Barcelona](https://dadesobertes.diba.cat/)|DKAN|66|Diaria|
+|[Bizkaia](https://www.opendatabizkaia.eus/es/catalogo)|CKAN|455|30/01/2020|
+|[Cádiz](https://datosabiertos.dipucadiz.es/data/)|OGoov|54|20/04/2018|
+|[Castellón](https://datosabiertos.dipcas.es/explore/?sort=modified)|OpenDataSoft|60|Diaria|
+|[Cuenca](https://www.dipucuenca.es/open-data)|Liferay|20|-|
+|[Guipuzkoa](http://www.gipuzkoairekia.eus/es/datu-irekien-katalogoa)|Liferay|2.012|Diaria|
+|[Huesca](http://datosabiertos.dphuesca.es/dataset)|CKAN|49|26/09/2018|
+|[Lleida](https://portaltransparencia.diputaciolleida.cat/es/browse)|Socrata|144|30/01/2020|
+|[Lugo](http://portaltransparencia.deputacionlugo.org/web/guest/open-data)|Liferay|-|01/04/2016|
+|[Málaga](http://www.malaga.es/gobiernoabierto/datosabiertos/)|ASP.Net|1.000|-|
+|[Salamanca](https://datosabiertossalamanca.es/dataset?organization=diputacion-de-salamanca)|CKAN|37|30/01/2020|
+|[Tarragona](https://www.seu-e.cat/es/web/dipta/dades-obertes)|Socrata|34|Diaria|
+|[Teruel](https://236ws.dpteruel.es/transparencia/dpteruel/open-data/buscador-datasets/)|¿Wordpress?|91||23/01/2020*|
+|[Valladolid](https://gobiernoabierto.diputaciondevalladolid.es/catalogo)|Liferay|-|-|
 
 El número de datasets es muy dispar. Algunas diputaciones ofrecen un par de miles de conjuntos de datos y otros apenas unas decenas. Esto se debe en parte a que algunas diputaciones, cumpliendo su objetivo de proveer de servicios a algunos de los municipios que las conforman pero no tienen los suficientes recursos, no solo publican datos sobre ellas mismas si no que también proveen de información sobre dichos municipios, sus ayuntamientos o mancomunidades, por lo que el volumen de información que producen es mayor. 
 
@@ -102,10 +102,10 @@ Resulta muy complicado conocer cuales son los ejemplos de reutilización o relev
 
 Pasamos a enumerar algunos casos en los que la utilización de los datos abiertos de la administración ha reportado beneficios a la sociedad mediante la creación de aplicaciones que usan esa información y favorecen al desarrollo económico: 
 
-Lurraldebus: Una aplicación que suministra información sobre el transporte público de Guipuzkoa. 
-Moveuskadi: Gracias a los datos abiertos del gobierno vasco al descargar GoogleMaps puedes tener toda la información de la red de transportes de la Comunidad Autónoma Vasca. 
-Aquadaia: Esta empresa ha desarrollado una aplicación de recomendación de riego con la opción de reducir el consumo de agua. Obtiene la mayoría de sus datos abiertos de GDAS ( Global Data Assimilation System).
-app turismo Diputación de barcelona
+- [Lurraldebus](http://www.lurraldebus.eus/es): Una aplicación que suministra información sobre el transporte público de Guipuzkoa. 
+- [Moveuskadi](http://www.moveuskadi.euskadi.eus/aa31-home/es/aa27aModuloWar/?locale=es): Gracias a los datos abiertos del gobierno vasco al descargar GoogleMaps puedes tener toda la información de la red de transportes de la Comunidad Autónoma Vasca. 
+- [Aquadaia](http://www.aquadaia.com/): Esta empresa ha desarrollado una aplicación de recomendación de riego con la opción de reducir el consumo de agua. Obtiene la mayoría de sus datos abiertos de GDAS ( Global Data Assimilation System).
+- [Barcelona és molt més](https://dadesobertes.diba.cat/participa/projectes-opendata/barcelona-es-molt-mes): app de turismo de la Diputación de barcelona.
 
 
 ## A modo de Conclusión
