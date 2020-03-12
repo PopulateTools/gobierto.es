@@ -9,12 +9,12 @@ author: Pedro Álvarez
 main_photo: posts/200313-Anna-Pelaez.jpg
 ---
 
-El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso CNIS**, el principal congreso sobre innovación y transformación digital en administraciones públicas. Desde Gobierto aprovechamos para realizar una serie de entrevistas con personas clave en torno al gobierno abierto, planificación, datos... Hoy publicamos la primera.
+El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso CNIS**, el principal congreso sobre innovación y transformación digital en administraciones públicas. Desde Gobierto aprovechamos para realizar una serie de entrevistas con personas clave en torno al gobierno abierto, planificación, datos...
 
 ## Anna Pelaez, Responsable de la Unidad de Gobierno Abierto y Transparenica del Ayuntamiento de Cambrils
 
 <div class="video_wrapper bigger">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OdGloR8ugt8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/a92uSS43OdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 La conversación con Ana Peláez arranca con una novedad, la puesta en marcha de una nueva Ordenanza de Transparencia y Buen Gobierno del Ayuntamiento de Cambrils. Pero ¿cómo ha sido el proceso de redacción y aprobación? “El ayuntamiento tiene una comisión interdisciplinar de administración electrónica formada por servicios jurídicos, archivística, atención al ciudadano y nuevas tecnologías. Esta comisión fue la encargada de elaborar el proyecto” que más tarde “fue trabajado en una comisión técnico-politica, con todos los grupos políticos representados en el consistorio”. 
