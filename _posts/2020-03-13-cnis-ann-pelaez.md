@@ -1,9 +1,9 @@
 ---
 title: "Conversaciones CNIS: Anna Pelaez"
 subtitle: 'Si gestionas de una forma eficiente y eficaz pero no lo sabes transmitir, de poco sirve'
-date: 2020-02-13 00:00:00 +02:00
+date: 2020-03-13 00:00:00 +02:00
 categories:
-- transparenica
+- transparencia
 layout: v2/post
 author: Pedro Álvarez
 main_photo: posts/200313-Anna-Pelaez.jpg
