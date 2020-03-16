@@ -1,5 +1,5 @@
 ---
-title: "Conversaciones CNIS: José Luis Aznarte"
+title: "Conversaciones CNIS: José Luis Aznarte (UNED)"
 subtitle: 'Un marco ético no puede ser impuesto de arriba a abajo, debe ser la propia comunidad quien lo desarrolle y se apropie de ello'
 date: 2020-03-17 00:00:00 +02:00
 categories:
@@ -14,7 +14,7 @@ El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso C
 ## José Luis Aznarte, Vicerrectorado de Digitalización e Innovación · UNED
 
 <div class="video_wrapper bigger">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/a92uSS43OdM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/iFPHqXgIEeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Comenzamos la conversación con José Luis hablando del proyecto ED3 recién impulsado por la UNED y de la necesidad de **dotarse de un marco ético** a la hora de gestionar volúmenes tan grandes de datos sensibles. “La UNED se plantea usar el montón de datos que tenemos, no obstante la UNED es una universidad semi presencial con lo cual muchas de las actividades ocurren en internet, y para hacer uso de esos datos no nos queda más remedio que reconocer que son datos delicados, personales y que hay que tener mucho cuidado” y añade José Luis que **“este marco ético va a determinar qué se puede y no se puede hacer dentro de la UNED con estos datos”** haciendo énfasis en el nivel alto de exigencia que se va a marcar la universidad para cumplir con este marco.  
