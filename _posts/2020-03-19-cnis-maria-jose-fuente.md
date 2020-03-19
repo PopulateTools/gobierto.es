@@ -14,7 +14,7 @@ El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso C
 ## María José de la Fuente, Diputada de Empleo y Asuntos Generales - Diputación de Palencia
 
 <div class="video_wrapper bigger">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/iFPHqXgIEeA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/cKzycj4y2w0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Comenzamos la entrevista hablando del proyecto de **presupuestos alineados con los ODS** (Objetivos de Desarrollo Sostenible) de la Diputación de Palencia de . “Lo primero que se hace es correlacionar qué partidas presupuestarias tenemos en cada área de gasto y como esto tiene relación con el cumplimiento de algún objetivo de desarrollo sostenible a través de sus metas.” explica María José, llegando a la conclusión de que la diputación cumplía con 15 Objetivos de Desarrollo Sostenible y 167 metas. 
