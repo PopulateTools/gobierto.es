@@ -1,5 +1,5 @@
 ---
-title: "Conversaciones CNIS: Anna Pelaez"
+title: "Conversaciones CNIS: Anna Pelaez (Ajuntament de Cambrils)"
 subtitle: 'Si gestionas de una forma eficiente y eficaz pero no lo sabes transmitir, de poco sirve'
 date: 2020-03-13 00:00:00 +02:00
 categories:
