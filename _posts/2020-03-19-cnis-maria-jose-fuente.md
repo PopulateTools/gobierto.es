@@ -6,7 +6,7 @@ categories:
 - gobierno_abierto
 layout: v2/post
 author: Pedro Álvarez
-main_photo: posts/200319-maria-jose-fuente
+main_photo: posts/200319-maria-jose-fuente.jpg
 ---
 
 El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso CNIS**, el principal congreso sobre innovación y transformación digital en administraciones públicas. Desde Gobierto aprovechamos para realizar una serie de entrevistas con personas clave en torno al gobierno abierto, planificación, datos...
