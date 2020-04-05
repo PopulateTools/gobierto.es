@@ -35,7 +35,7 @@ sections:
   label: Static pages
   create: all
   match: "**/*"
-upload_dir: uploads
+upload_dir: _assets/images
 public_path: "/_assets/images"
 front_matter_path: ''
 use_front_matter_path: false
