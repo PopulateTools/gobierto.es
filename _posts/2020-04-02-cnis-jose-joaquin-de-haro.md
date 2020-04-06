@@ -10,8 +10,6 @@ author: Pedro Álvarez
 main_photo: posts/200402-jose-joaquin-de-haro.jpg
 
 ---
-TEST
-
 El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso CNIS**, el principal congreso sobre innovación y transformación digital en administraciones públicas. Desde Gobierto aprovechamos para realizar una serie de entrevistas con personas clave en torno al gobierno abierto, planificación, datos...
 
 ## José Joaquín de Haro, Jefe de Modernización administrativa y TIC · Diputación de Barcelona
