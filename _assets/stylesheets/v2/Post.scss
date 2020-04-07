@@ -239,6 +239,23 @@ blockquote {
   line-height: 1.5em;
   background: $cSubtleGray;
 }
+.blockquote_light {
+  opacity: .60;
+  position: relative;
+  padding: 0 0 0 1.5em;
+  margin: 0 0 2em 0;
+}
+.blockquote_light:before {
+  display: block;
+  content: "";
+  position: absolute;
+  color: #DFDFDF;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 5px;
+  background: $cGray;
+}
 blockquote.quote {
   @include sans-serif(24px, 700, $cBlue);
   display: block;
@@ -281,6 +298,18 @@ caption {
     margin-bottom: 2em;
     img.Outline {
       margin-bottom: 0;
+    }
+    img.bigger {
+      width: 144%;
+      margin: 0 0 0 -22%;
+    }
+    @media (min-width: $cMediaLarge) {
+      .Post__content img.bigger {
+        width: 144%;
+        margin: 0 0 0 -22%;
+        padding-bottom: 78.25%;
+        margin-bottom: 2em;
+      }
     }
   }
 }
