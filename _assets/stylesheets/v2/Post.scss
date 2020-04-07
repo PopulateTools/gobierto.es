@@ -296,26 +296,19 @@ caption {
 .Post__content {
   .image {
     margin-bottom: 2em;
-    img.Outline {
-      margin-bottom: 0;
-    }
-    img.bigger {
+  }
+  img.Outline {
+    border: 5px solid;
+    margin: 2em 0;
+    border: 1px solid $cYellow;
+  }
+  
+  @media (min-width: $cMediaLarge) {
+    img.Bigger {
       width: 144%;
-      margin: 0 0 0 -22%;
-    }
-    @media (min-width: $cMediaLarge) {
-      .Post__content img.bigger {
-        width: 144%;
-        margin: 0 0 0 -22%;
-        padding-bottom: 78.25%;
-        margin-bottom: 2em;
-      }
+      margin-left: -22%;
     }
   }
-}
-.Post__content img.Outline {
-  margin: 2em 0;
-  border: 1px solid $cYellow;
 }
 .Post__content img.Shadow {
   box-shadow: 0 0 15px 1px rgba(0,0,0,0.20);

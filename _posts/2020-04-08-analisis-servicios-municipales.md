@@ -3,10 +3,10 @@ title: "¿Cómo informan los ayuntamientos de los servicios que ofrecen?"
 subtitle: 'Análisis del diseño de información en webs municipales'
 date: 2020-04-08 00:00:00 +02:00
 categories:
-- experncia_de_usuario
+- experiencia_de_usuario
 layout: v2/post
 author: Álvaro Ortiz
-main_photo: posts/200402-jose-joaquin-de-haro.jpg
+main_photo: posts/200408-Servicios-Portada.png
 ---
 
 Los servicios que el ciudadano disfruta de forma concreta, como una instalación deportiva o ayudas a la dependencia (frente a otros pasivos como el alcantarillado o la iluminación) son uno de los principales retos y oportunidades para un municipio: 
@@ -32,43 +32,62 @@ Nos centramos en el canal web, asumiendo que el diseño de información desarrol
 
 ## 1. Navegación principal: literales, organización contenido
 
-<div class="notice">
-  ¿Cómo estructuran la navegación principal las webs de los ayuntamientos? ¿Cuáles son las características principales? ¿Qué literales son los más usados? ¿Cuáles son los literales más apropiados?
-</div>
+¿Cómo estructuran la navegación principal las webs de los ayuntamientos? ¿Cuáles son las características principales? ¿Qué literales son los más usados? ¿Cuáles son los literales más apropiados?
 
 Para realizar este estudio hemos analizado la página principal de las webs de los [cien ayuntamientos de mayor tamaño en España](https://presupuestos.gobierto.es/ranking/2019/I/economic/population), y hemos revisado los elementos que conforman el menú de navegación principal.  
 
 <div class="blockquote_light">
-La navegación principal continua siendo un elemento relevante en el descubrimiento de los contenidos dentro de una web. En el caso del catálogo de servicios de 
+Aunque la búsqueda, ya sea interna o través de buscadores externos, es una pieza importante en el acceso a un contenido, en el caso de los municipios consideramos que la navegación principal continua siendo un elemento relevante en el descubrimiento de los contenidos, dada la importancia de la "marca", y la relativa ausencia de competencia en la provisión de muchos de los servicios.
 </div>
 
-hey ho
+{% asset 'posts/200408-Servicios-TopTerminos.png' class='Outline Shadow caption' style='display: block; max-width: 550px; margin: auto;' title="Términos más utilizados en los menús de navegación principales" %}
+
+Este análisis nos da una imagen de cuáles son los temas que los gestores de las webs consideran prioritarios. 
 
 
-- tabla top literales
+- Funcionamiento de la institucion
+- Trámites y servicios
+- Turismo, promoción
+
+- El Ayuntamiento
+
+- Trámites
 
 
 ## 2. Página principal 
 
-{% asset 'posts/200408-Servicios-Homes.png' class='Outline bigger Shadow caption' title="Iniciativa "Calle de Elisa Moragas " activa en decidim.barcelona" %}
+¿Cómo se distribuye el espacio en la página principal de las webs? ¿Qué temas están presentes, y cuánto espacio se dedica a cada uno? Hemos analizado una selección de sites y hemos agrupado los temas según su frecuencia: 
 
-- mapa
-- conclusiones?
+{% asset 'posts/200408-Servicios-Homes.png' class='Outline Bigger Shadow caption' title="" %}
+
+Como se puede observar en casi todos los casos los temas que se seleccionan para la _home_ son los siguientes:
+
+- Navegación
+- Actualidad
+- Temas
+- Trámites y servicios
+- Accesos directos
+- Transparencia / Participación
 
 
-## 2. Arquitectura de la información: Situación de los servicios y trámites dentro de la estructura de información de la web
+{% asset 'posts/200408-Servicios-RelacionPresencia.png' class='Outline Shadow caption' title="" %}
+
+## 3. Arquitectura de la información: Situación de los servicios y trámites dentro de la estructura de información de la web
 
 
-## 3. Explicación de un servicio
+## 4. Explicación de un servicio
 
 Catálogo de servicios
 
 
 
-4. Cómo utilizar/tramitar un servicio
+## 5. Cómo utilizar/tramitar un servicio
 
 
 
-5. Ayuda / Ampliar información
+## 6. Ayuda / Ampliar información
+
+
+## Conclusiones
 
 
