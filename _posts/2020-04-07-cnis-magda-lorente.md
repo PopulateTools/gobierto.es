@@ -14,7 +14,7 @@ El pasado 3 y 4 de marzo tuvo lugar en La Nave de Madrid el décimo **Congreso C
 ## Magda Lorente, Jefa de Sección de Asistencia a Sistemas de Información Local · Diputación de Barcelona
 
 <div class="video_wrapper bigger">
-<iframe width="560" height="315" src="https://www.youtube.com/embed/1H4fhza_TBA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/LhxxBhk322I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
 Las PYMEL (pequeñas y medianas entidades locales) se encuentran en pleno proceso de transformación digital, pero tienen dos características muy positivas para afrontar este reto: la dimensión y el carácter horizontal. **“Esta estructura permite que al final los procesos de transformación digital se gestionen alrededor de la mesa del pleno, entonces impulsar cambios es más fácil porque no tienes que contar con distintos departamentos”**.
