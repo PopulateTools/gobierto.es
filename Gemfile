@@ -9,5 +9,5 @@ gem "therubyracer"
 
 group :jekyll_plugins do
   gem "jekyll-assets", ">= 3.0.12"
-  gem "jekyll-commonmark"
+#  gem "jekyll-commonmark"
 end
