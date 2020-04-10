@@ -3,7 +3,7 @@ title: "Colaboramos con la UNED en el diseño de su estrategia de datos y ética
 subtitle: 'Populate implementa la plataforma de participación para la consulta sobre ética y datos'
 date: 2020-02-12 00:00:00 +02:00
 categories:
-- participacion
+- clientes
 layout: v2/post
 author: Pedro Álvarez
 main_photo: posts/200212-UNED.png
