@@ -4,7 +4,7 @@ date: 2016-10-20 10:00:00 +02:00
 categories:
 - gobierto
 - diseno_de_servicios
-layout: v2/post
+layout: post
 subtitle: Una alternativa ágil y eficiente a los presupuestos participativos
 author: Álvaro Ortiz
 main_photo_big: posts/161020-consultas-portada.png

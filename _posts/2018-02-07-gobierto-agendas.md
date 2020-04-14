@@ -5,7 +5,7 @@ date: 2018-02-07 00:00:00 +01:00
 categories:
 - transparencia
 - gobierto
-layout: v2/post
+layout: post
 subtitle: Gobierto estrena sus conectores con las herramientas de calendario más populares
   para dar transparencia a las agendas de altos cargos
 author: Álvaro Ortiz

@@ -4,7 +4,7 @@ title: 'Presupuesto vs. Ejecución: Análisis de la desviación de los presupues
 date: 2016-05-18 15:00:00 +02:00
 categories:
 - visualizacion_de_datos
-layout: v2/post
+layout: post
 subtitle: Un ejercicio de comparación entre lo que presupuestan los municipios de
   España y lo que realmente acaban gastando
 author: Jorge Gómez Sancha

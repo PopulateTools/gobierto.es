@@ -1,10 +1,10 @@
 ---
 title: Blog
 permalink: "/temas/"
-layout: v2/default
+layout: default
 ---
 
-<div class="Posts">
+<div class="container mx-auto my-32">
 
   {% if page.title == 'Clientes' %}
     {% include v2/clients.html %}
@@ -16,7 +16,7 @@ layout: v2/default
 
     {% for post in site.categories[page.category] %}
     <div class="Posts__post">
-      {% include v2/post.html %}
+      {% include post.html %}
     </div>
     {% endfor %}
   </div>

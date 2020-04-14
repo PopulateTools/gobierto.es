@@ -5,7 +5,7 @@ date: 2017-05-03 00:00:00 +02:00
 categories:
 - participacion
 - gobierno_abierto
-layout: v2/post
+layout: post
 subtitle: "¿Cómo se construye una concejalía de participación desde cero? La concejala
   de Participación de A Coruña nos cuenta su experiencia y explica los temores y lugares
   comunes que suelen aparecer en torno a los presupuestos participativos"

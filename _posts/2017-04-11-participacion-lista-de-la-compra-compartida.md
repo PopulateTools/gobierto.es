@@ -4,7 +4,7 @@ date: 2017-04-11 20:30:00 +02:00
 categories:
 - participacion
 - gobierno_abierto
-layout: v2/post
+layout: post
 subtitle: "¿Confundimos participar con decidir? Las propuestas ciudadanas mejoran
   cuando pasan por una fase de deliberación clara y estructurada"
 author: Rafa de las Cuevas

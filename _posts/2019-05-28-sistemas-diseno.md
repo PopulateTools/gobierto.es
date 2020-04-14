@@ -4,7 +4,7 @@ subtitle: 'Cómo puede una administración pública mejorar la experiencia de us
 date: 2019-05-24 00:00:00 +02:00
 categories:
 - experiencia_de_usuario
-layout: v2/post
+layout: post
 author: Álvaro Ortiz
 main_photo: posts/190528-sistemas-02.png
 ---

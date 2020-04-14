@@ -4,7 +4,7 @@ date: 2018-11-20 00:00:00 +01:00
 categories:
 - gobierno_abierto
 - tecnologia
-layout: v2/post
+layout: post
 subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/181119-Gobierto-Scrolly-Cover.png

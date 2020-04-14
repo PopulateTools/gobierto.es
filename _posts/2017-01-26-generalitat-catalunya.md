@@ -3,7 +3,7 @@ title: La Generalitat de Catalunya cuenta con Gobierto para mejorar su portal de
 date: 2017-01-26 08:00:00 +01:00
 categories:
 - clientes
-layout: v2/post
+layout: post
 subtitle: Incorporan el Comparador de Presupuestos de Gobierto para explorar y analizar
   los presupuestos de todos los municipios catalanes
 author: Álvaro Ortiz

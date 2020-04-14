@@ -1,0 +1,32 @@
+$color-brand-green: #008E9C; 
+$color-brand-blue-dark: #12365B;
+
+$color-yellow-soft: #F7C65A;
+$color-green-soft: #59BAC3;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+  color: $color-brand-green;
+  text-decoration: underline;
+}
+
+.color-pink-light { color: #FF776D; }
+.color-brand-green { color: $color-brand-green; }
+.color-brand-blue-dark { color: $color-brand-blue-dark; }
+
+.bg-yellow-soft { background: $color-yellow-soft; }
+.bg-green-soft { background: $color-green-soft; }
+.bg-brand-blue-dark { background: $color-brand-blue-dark; }
+
+.post {
+  p {
+    margin-bottom: 2em; 
+  }
+}

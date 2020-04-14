@@ -3,7 +3,7 @@ title: "¿Cómo emplea nuestro ayuntamiento el dinero de nuestros impuestos?"
 date: 2016-02-01 14:00:00 +01:00
 categories:
 - gobierto
-layout: v2/post
+layout: post
 subtitle: Lanzamos Gobierto Presupuestos Municipales (presupuestos.gobierto.es), una
   herramienta para consultar y entender cómo tu municipio emplea tu dinero
 author: Álvaro Ortiz

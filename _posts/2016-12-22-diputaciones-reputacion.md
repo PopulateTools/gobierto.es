@@ -3,7 +3,7 @@ title: Una campaña de mejora de reputación de las Diputaciones
 date: 2016-12-22 09:00:00 +01:00
 categories:
 - transparencia
-layout: v2/post
+layout: post
 subtitle: Nadie sabe muy bien qué hace una diputación, pero ¿podrían sobrevivir los
   pueblos pequeños sin ellas?
 author: Rafa de las Cuevas

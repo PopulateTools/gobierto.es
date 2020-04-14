@@ -1,6 +1,178 @@
 ---
-layout: v2/default
+layout: default
 ---
+
+<div class="xl:max-w-screen-xl mx-auto p-16 md:p-0 lg:p-0 md:flex items-center items-stretch">
+
+  <div class="lg:w-2/3 md:pl-16 xl:pl-0 md:pr-16 lg:pr-32 xl:pr-64">
+
+    <h1 class="text-4xl md:pt-32 mb-4 color-brand-blue-dark font-black">Diseño de <strong>servicios digitales</strong> con las <strong>personas y los datos</strong> en el centro</h1>
+    <h2 class="text-2xl mb-24 color-brand-blue-dark opacity-50">Ayudamos a las <strong>administraciones públicas</strong> a <strong>conectar mejor con los ciudadanos</strong> mediante <strong>servicios digitales de calidad</strong> que sitúan a las <strong>personas y los datos en el centro</strong>.</h2>
+    <p class="pb-16">Conoce nuestros <a href="#servicios">servicios</a> y nuestra <a href="#producto">plataforma de software</a>.</p>
+
+  </div>
+
+  <div class="lg:w-1/3 md:text-xs lg:text-base py-2 px-4 lg:p-16" style="background: #F9F7F4; ">
+
+    {% include sidebar_blog.html %}
+
+  </div>
+
+</div>
+
+<div class="py-16 bg-yellow-soft" id="servicios">
+
+  <div class="container mx-auto">
+
+    <div class="text-3xl font-bold mb-16 color-brand-green">Te ayudamos con...</div>
+    
+    <div class="grid grid-cols-2 lg:grid-cols-3">
+      
+      {% for service in site.data.services %}
+      <div class="mb-8 pr-4">
+        <h2 class="color-brand-blue-dark text-xl font-bold">{{ service[1].title }}</h2>
+        <ul>
+          {% for feature in service[1].features %}
+          <li class="text-gray-700">{{ feature }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+
+    </div>
+  
+  </div>
+  
+</div>
+
+<div class="py-16 bg-green-soft">
+
+  <div class="container mx-auto">
+
+    <div class="text-3xl font-bold mb-16 color-brand-blue-dark opacity-75">Te ayudamos a...</div>
+    
+    <div class="grid grid-cols-3 lg:grid-cols-6">
+      
+      {% for item in site.we_help_you_to %}
+      <div class="mb-8 pr-4">
+        <h2 class="color-brand-blue-dark text-xl font-bold">{{ item }}</h2>
+      </div>
+      {% endfor %}
+
+    </div>
+  
+  </div>
+  
+</div>
+
+
+<div class="container mx-auto pr-64 pl-16 py-32">
+
+  <div class="text-4xl mb-4 color-brand-blue-dark">
+    Basamos nuestro trabajo en <strong>hacer las preguntas apropiadas y colaborar contigo para encontrar las respuestas e implementar las soluciones</strong>
+  </div>
+
+  <div class="text-3xl" id="home_questions">
+  {% for item in site.home_questions %}
+    <div class="inline color-brand-green opacity-25 duration-500">{{ item }}</div>
+  {% endfor %}
+  </div>
+
+</div>
+
+<script>
+
+var elements = document.getElementById("home_questions").children;
+
+for(let i = 0; i < elements.length; i++) { 
+  highlightPhrase(i); 
+} 
+
+function highlightPhrase(i, targetColor) { 
+  setTimeout(function() { 
+    elements[i].classList.toggle("opacity-25");
+    // elements[i].classList.toggle("font-bold");
+    elements[i-1].classList.toggle("opacity-25");
+    // elements[i-1].classList.toggle("font-bold");
+  }, 2000 * i); 
+} 
+
+</script>
+
+
+<div class="py-16 bg-yellow-soft" id="producto">
+
+  <div class="container mx-auto py-8 flex" x-data="{ tab: 'datos-abiertos' }">
+
+    <div class="w-1/6 pr-12">
+
+      {% for module_groups in site.data.modules_2020 %}
+      <div class="mb-8 pr-4">
+        <h2 class="px-2 py-1 color-brand-blue-dark text-sm leading-tight font-bold mb-2">{{ module_groups[1].title }}</h2>
+        <ul>
+          {% for modules in module_groups[1].modules %}
+          <li 
+            class="px-2 py-1 rounded-md color-brand-blue-dark text-sm leading-tight mb-1 transition duration-500 ease-in-out hover:bg-orange-200 cursor-pointer"
+            :class="{ 'bg-orange-300': tab === '{{ modules[1].id }}' }" @click="tab = '{{ modules[1].id }}'">{{ modules[1].title }}</li>
+          
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+
+    </div>
+
+
+    <div class="w-5/6 pr-12">
+      
+      {% for module_groups in site.data.modules_2020 %}
+        {% for modules in module_groups[1].modules %}
+          <div class="grid grid-cols-3 gap-4" x-show="tab === '{{ modules[1].id }}'" 
+            x-transition:enter="transition ease-out duration-300" 
+            x-transition:enter-start="transform opacity-0 translate-x-64 scale-50" 
+            x-transition:enter-end="transform opacity-100 translate-x-0 scale-100" 
+            >
+            <div class="col-span-1">
+              <h2 class="color-brand-blue-dark text-xl font-bold">{{ modules[1].title }}</h2>
+            </div>
+            <div class="col-span-2 text-sm">
+              description
+            </div>
+            <div class="col-span-3 bg-brand-blue-dark" style="height: 600px;">
+              img
+            </div>
+          </div>
+        {% endfor %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+  
+</div>
+
+
+
+<div class="container mx-auto my-32">
+
+  <div class="text-3xl font-bold mb-16 color-brand-green">Cosas que hemos hecho</div>
+
+  <div class="cases-grid" style="height: 800px;">
+
+    <div class="case-grid-1 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-2 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-3 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-4 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-5 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-6 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-7 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-8 bg-orange-200" style="height: 100px; "></div>
+    <div class="case-grid-9 bg-orange-200" style="height: 100px; "></div>
+
+  </div>
+</div>
+
+
 
 {% include v2/cover.html %}
 {% include v2/methodology.html %}

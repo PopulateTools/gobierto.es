@@ -3,7 +3,7 @@ title: 'Oferta de empleo: Desarrollo de Negocio en Gobierto'
 date: 2016-09-12 09:00:00 +02:00
 categories:
 - gobierto
-layout: v2/post
+layout: post
 subtitle: Ayúdanos a dar a conocer Gobierto y a explicarlo
 author: Gobierto
 main_photo_big: https://images.unsplash.com/40/OSASuBX1SGu4kb3ozvne_IMG_1088.jpg?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600

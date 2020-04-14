@@ -5,7 +5,7 @@ date: 2017-05-10 00:00:00 +02:00
 categories:
 - participacion
 - gobierno_abierto
-layout: v2/post
+layout: post
 subtitle: El modelo de participación de Irún está enraizado con modelos previos muy
   consensuados. Javier Arranz explica los mecanismos de sus presupuestos participativos
   y enumera algunas dificultades como el “efecto lobby”

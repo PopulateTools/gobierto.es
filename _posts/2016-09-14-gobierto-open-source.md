@@ -4,7 +4,7 @@ date: 2016-09-14 10:00:00 +02:00
 categories:
 - gobierto
 - tecnologia
-layout: v2/post
+layout: post
 subtitle: Abrimos el código de Gobierto
 author: Álvaro Ortiz
 main_photo_big: 

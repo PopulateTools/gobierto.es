@@ -4,7 +4,7 @@ date: 2018-02-16 00:00:00 +01:00
 categories:
 - transparencia
 - gobierto
-layout: v2/post
+layout: post
 subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/180220-gobierto-facturas.png

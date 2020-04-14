@@ -3,7 +3,7 @@ title: Las claves de un sistema de agendas para entidades públicas
 date: 2017-01-26 08:00:00 +01:00
 categories:
 - transparencia
-layout: v2/post
+layout: post
 subtitle: Diseñando el sistema de agendas ideal
 author: Álvaro Ortiz
 ---

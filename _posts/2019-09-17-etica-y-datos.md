@@ -4,7 +4,7 @@ subtitle: 'Aproximación a partir de tres enfoques'
 date: 2019-09-18 00:00:00 +02:00
 categories:
 - transparencia
-layout: v2/post
+layout: post
 author: Pedro Álvarez
 main_photo: posts/190917-etica-datos-ilus.png
 ---

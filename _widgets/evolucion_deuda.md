@@ -1,6 +1,6 @@
 ---
 title: Evolución de la deuda municipal
-layout: v1/slim
+layout: v2/slim
 ---
 
 <div class="tool">

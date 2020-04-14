@@ -1,0 +1,56 @@
+{
+  "diseno": {
+    "permalink": "",
+    "title": "Diseño de producto",
+    "features": [
+      "Conceptualización y definición",
+      "Experiencia de Usuario",
+      "Diseño de interacción y visual"
+    ]
+  },
+  "visualizacion": {
+    "permalink": "",
+    "title": "Visualización",
+    "features": [
+      "Análisis de datos y visualización",
+      "Storytelling y nuevas narrativas",
+      "Cuadros de mando"
+    ]
+  },
+  "datos": {
+    "permalink": "",
+    "title": "Datos",
+    "features": [
+      "Oficina del dato",
+      "Integraciones y ETLs",
+      "Datos abiertos"
+    ]
+  },
+  "software_libre": {
+    "permalink": "",
+    "title": "Software libre",
+    "features": [
+      "Estrategia de software libre",
+      "Consultoría",
+      "Implementación de herramientas"
+    ]
+  },
+  "desarrollo": {
+    "permalink": "",
+    "title": "Desarrollo",
+    "features": [
+      "Arquitectura y definición de software",
+      "Implementación e integraciones",
+      "Desarrollo y mantenimiento"
+    ]
+  },
+  "participacion": {
+    "permalink": "",
+    "title": "Participación",
+    "features": [
+      "Definición procesos participativos",
+      "Herramientas",
+      "Comunicación"
+    ]
+  }
+}

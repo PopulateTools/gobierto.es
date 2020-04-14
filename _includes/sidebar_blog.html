@@ -1,0 +1,16 @@
+
+<h2 class="text-sm font-bold color-pink-light mt-2 mb-4">En nuestro blog</h2>
+
+{% for post in site.posts limit:3 %}
+  <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+{% endfor %}
+
+<h2 class="text-sm font-bold color-pink-light mt-12 mb-4">#ConversacionesGobierto</h2>
+
+wadus
+
+<h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
+
+<a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+<a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>

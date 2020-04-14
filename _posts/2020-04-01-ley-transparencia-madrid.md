@@ -4,7 +4,7 @@ subtitle: 'Análisis de las diferencias de la Ley de Transparencia de la Comunid
 date: 2020-04-01 00:00:00 +02:00
 categories:
 - transparencia
-layout: v2/post
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200330-ley-transparencia-madrid.jpg
 ---

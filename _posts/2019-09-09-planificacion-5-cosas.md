@@ -4,7 +4,7 @@ subtitle: 'Formas de personalizar la herramienta para gestionar y publicar tus p
 date: 2019-09-09 00:00:00 +02:00
 categories:
 - gobierno_abierto
-layout: v2/post
+layout: post
 author: "Álvaro Ortiz"
 main_photo: posts/190909-Cover.png
 ---

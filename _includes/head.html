@@ -2,19 +2,25 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript" charset="utf-8"></script> -->
   <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css"> -->
+
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@200;400;500;700;900&display=swap" rel="stylesheet">
+
+  <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+
+  {% asset app.css %}
   
-  {% asset v2/app.css %}
-  {% asset v2/application %}
+  {% asset v2/application %} <!-- js -->
 
   {% if page.title == 'Los mapas no cuentan (toda) la verdad' %}
     {% asset v2/cartograms.js %}
   {% endif %}
-
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-6jHF7Z3XI3fF4XZixAuSu0gGKrXwoX/w3uFPxC56OtjChio7wtTGJWRW53Nhx6Ev" crossorigin="anonymous">
-
+  
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ " /feed.xml " | prepend: site.baseurl | prepend: site.url }}">
 
@@ -35,21 +41,7 @@
   <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
   />
 
-  <link rel="apple-touch-icon" sizes="57x57" href="{% asset 'v2/favicons/apple-touch-icon-57x57.png' @path %}">
-  <link rel="apple-touch-icon" sizes="60x60" href="{% asset 'v2/favicons/apple-touch-icon-60x60.png' @path %}">
-  <link rel="apple-touch-icon" sizes="72x72" href="/{% asset 'v2/favicons/apple-touch-icon-72x72.png' @path %}">
-  <link rel="apple-touch-icon" sizes="76x76" href="{% asset 'v2/favicons/apple-touch-icon-76x76.png' @path %}">
-  <link rel="apple-touch-icon" sizes="114x114" href="{% asset 'v2/favicons/apple-touch-icon-114x114.png' @path %}">
-  <link rel="apple-touch-icon" sizes="120x120" href="{% asset 'v2/favicons/apple-touch-icon-120x120.png' @path %}">
-  <link rel="apple-touch-icon" sizes="144x144" href="{% asset 'v2/favicons/apple-touch-icon-144x144.png' @path %}">
-  <link rel="apple-touch-icon" sizes="152x152" href="{% asset 'v2/favicons/apple-touch-icon-152x152.png' @path %}">
-  <link rel="apple-touch-icon" sizes="180x180" href="{% asset 'v2/favicons/apple-touch-icon-180x180.png' @path %}">
-  <link rel="icon" type="image/png" href="{% asset 'v2/favicons/favicon-32x32.png' @path %}" sizes="32x32">
-  <link rel="icon" type="image/png" href="{% asset 'v2/favicons/android-chrome-192x192.png' @path %}" sizes="192x192">
   <link rel="icon" type="image/png" href="{% asset 'v2/favicons/favicon-96x96.png' @path %}" sizes="96x96">
-  <link rel="icon" type="image/png" href="{% asset 'v2/favicons/favicon-16x16.png' @path %}" sizes="16x16">
-  <link rel="manifest" href="{% asset 'v2/favicons/manifest.json' @path %}">
-  <link rel="mask-icon" href="{% asset 'v2/favicons/safari-pinned-tab.svg' @path %}" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="msapplication-TileImage" content="{% asset 'v2/favicons/mstile-144x144.png' @path %}">
   <meta name="theme-color" content="#A33A00">

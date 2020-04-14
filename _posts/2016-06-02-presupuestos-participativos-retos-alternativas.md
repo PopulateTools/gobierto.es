@@ -4,7 +4,7 @@ title: Presupuestos participativos - ¿Qué pasaría si nuestro municipio fuese 
 date: 2016-06-02 09:00:00 +02:00
 categories:
 - participacion
-layout: v2/post
+layout: post
 subtitle: Retos, mínimos, y principios para definir el camino a la participación
 author: Álvaro Ortiz
 main_photo_big: https://images.unsplash.com/photo-1464013778555-8e723c2f01f8?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600

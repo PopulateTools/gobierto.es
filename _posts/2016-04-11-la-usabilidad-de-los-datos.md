@@ -3,7 +3,7 @@ title: La usabilidad de los datos
 date: 2016-04-11 15:00:00 +02:00
 categories:
 - comunicacion_clara
-layout: v2/post
+layout: post
 subtitle: Usabilidad, datos públicos y Ley de Transparencia
 author: Álvaro Ortiz
 main_photo_big: https://images.unsplash.com/photo-1457369804613-52c61a468e7d?crop=entropy&fit=crop&fm=jpg&h=700&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600

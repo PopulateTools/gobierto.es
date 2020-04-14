@@ -5,7 +5,7 @@ categories:
 - transparencia
 - visualizacion_de_datos
 - clientes
-layout: v2/post
+layout: post
 subtitle: Una herramienta para explorar los presupuestos municipales de la capital
 author: Álvaro Ortiz
 main_photo_big: posts/160922-madrid.png

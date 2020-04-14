@@ -3,7 +3,7 @@ title: Sencelles lanza una consulta sobre sus presupuestos con Gobierto
 date: 2017-03-14 08:00:00 +01:00
 categories:
 - clientes
-layout: v2/post
+layout: post
 subtitle: El municipio mallorquín consulta a sus vecinos sobre el destino del presupuesto
 author: Álvaro Ortiz
 ---

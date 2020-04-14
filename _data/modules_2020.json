@@ -1,0 +1,64 @@
+{
+  "group_informacion": {
+    "id": "informacion",
+    "title": "Información",
+    "modules": {
+      "datos_abiertos": {
+        "id": "datos-abiertos",
+        "title": "Datos abiertos"
+      },
+      "cms": {
+        "id": "cms",
+        "title": "CMS"
+      }
+    }
+  },
+  "group_gestion": {
+    "id": "gestion",
+    "title": "Gestión",
+    "modules": {
+      "planificacion": {
+        "id": "planificacion",
+        "title": "Planificación"
+      },
+      "cuadros_mando": {
+        "id": "cuadros-de-mando",
+        "title": "Cuadros de Mando"
+      },
+      "catalogo_servicios": {
+        "id": "catalogo-de-servicios",
+        "title": "Catálogo de servicios"
+      }
+    }
+  },
+  "group_transparencia": {
+    "id": "transparencia",
+    "title": "Transparencia",
+    "modules": {
+      "inversiones": {
+        "id": "inversiones",
+        "title": "Inversiones"
+      },
+      "contratos": {
+        "id": "contratos-y-subvenciones",
+        "title": "Contratos y subvenciones"
+      },
+      "presupuestos": {
+        "id": "visualizacion-de-presupuestos",
+        "title": "Presupuestos"
+      },
+      "altos_cargos": {
+        "id": "altos-cargos-y-agendas",
+        "title": "Altos cargos y agendas"
+      },
+      "costes": {
+        "id": "costes-y-endeudamiento",
+        "title": "Costes y endeudamiento"
+      },
+      "comparador": {
+        "id": "comparador-de-presupuestos",
+        "title": "Comparador de presupuestos"
+      }
+    }
+  }
+}

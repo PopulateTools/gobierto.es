@@ -5,7 +5,7 @@ date: 2020-01-29 00:00:00 +02:00
 categories:
 - participacion
 - recursos
-layout: v2/post
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200129-consul_decidim.jpg
 ---

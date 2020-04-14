@@ -50,7 +50,9 @@ twitter_hashtag_for_social_share: '#gobierto'
 markdown: kramdown
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bin', '.git', '.asset-cache', node_modules]
 
-plugins: [jekyll-assets]
+plugins:
+  - jekyll-assets 
+#  - jekyll-postcss
 
 # jekyll-press:
 #   exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
@@ -75,3 +77,24 @@ assets:
     css: { integrity: false } # true on JEKYLL_ENV=production
 
 timezone: Europe/Madrid
+
+
+#### CONTENT ####
+
+we_help_you_to: 
+  - Imaginar
+  - Investigar
+  - Definir
+  - Construir
+  - Comunicar
+  - Analizar
+
+home_questions: 
+  - ¿Cómo se está usando nuestro producto? 
+  - ¿Qué datos gestiono que podrían aportar valor si se hacen accesibles? 
+  - ¿Qué forma debería tener el producto que hemos imaginado? 
+  - ¿Cómo usamos APIs para reutilizar esfuerzos? 
+  - ¿Cómo puedo ayudar a que los trabajadores públicos hagan un uso más eficiente de su tiempo?
+  - ¿Cómo afecta el origen de los usuarios y sus formas de acceder?
+  - ¿Cómo planteamos una estrategia de involucración progresiva?
+  - ¿Qué tipo de servicio digital debería construir?
