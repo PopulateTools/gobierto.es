@@ -1,12 +1,27 @@
-<script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.0.1/dist/alpine.js" defer></script>
+<script>
+// window.onscroll = function() {scrollFunction()};
 
+// function scrollFunction() {
+//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+//     document.getElementById("nav-header").classList.add("h-4");
+//   } else {
+//     document.getElementById("nav-header").classList.remove("h-4");
+//   }
+// }
+</script>
 
-<nav x-data="{ open: false }" @keydown.window.escape="open = false" class="bg-gray-800">
-  <div class="max-w-7xl container mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex items-center justify-between h-16">
+<nav 
+  x-data="{ open: false }" 
+  @keydown.window.escape="open = false" 
+  class="bg-gray-800 bg-cover bg-center fixed md:relative w-full transition-all duration-500 ease-in-out" 
+  id="nav-header" 
+  style="background-image: url( '{% asset bg-header.jpg @path %}' );"
+>
+  <div class="max-w-7xl container mx-auto px-4">
+    <div class="flex items-center justify-between h-12 md:h-16">
       <div class="flex items-center w-full justify-between">
         <div class="flex-shrink-0">
-          <a href="/">GOBIERTO_LOGO</a>
+          <a href="/">{% asset 'Gobierto-Logo-Text-White.png' class="transition w-32 md:w-48" %}</a>
         </div>
         <div class="hidden md:block">
           <div class="ml-10 flex items-baseline content-end">

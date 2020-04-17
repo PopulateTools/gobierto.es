@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="xl:max-w-screen-xl mx-auto p-16 md:p-0 lg:p-0 md:flex items-center items-stretch">
+<div class="xl:max-w-screen-xl mx-auto p-8 pt-32 md:pt-0 md:p-0 lg:p-0 md:flex items-center items-stretch">
 
   <div class="lg:w-2/3 md:pl-16 xl:pl-0 md:pr-16 lg:pr-32 xl:pr-64">
 
-    <h1 class="text-4xl md:pt-32 mb-4 color-brand-blue-dark font-black">Diseño de <strong>servicios digitales</strong> con las <strong>personas y los datos</strong> en el centro</h1>
+    <h1 class="text-3xl md:text-4xl md:pt-32 mb-4 color-brand-blue-dark font-black">Diseño de <strong>servicios digitales</strong> con las <strong>personas y los datos</strong> en el centro</h1>
     <h2 class="text-2xl mb-24 color-brand-blue-dark opacity-50">Ayudamos a las <strong>administraciones públicas</strong> a <strong>conectar mejor con los ciudadanos</strong> mediante <strong>servicios digitales de calidad</strong> que sitúan a las <strong>personas y los datos en el centro</strong>.</h2>
     <p class="pb-16">Conoce nuestros <a href="#servicios">servicios</a> y nuestra <a href="#producto">plataforma de software</a>.</p>
 
@@ -20,22 +20,27 @@ layout: default
 
 </div>
 
-<div class="py-16 bg-yellow-soft" id="servicios">
+<div class="py-16 px-8 md:px-0 bg-yellow-soft" id="servicios">
 
-  <div class="container mx-auto">
+  <div class="container mx-auto ">
 
     <div class="text-3xl font-bold mb-16 color-brand-green">Te ayudamos con...</div>
     
-    <div class="grid grid-cols-2 lg:grid-cols-3">
+    <div class="md:grid grid-cols-2 lg:grid-cols-3">
       
       {% for service in site.data.services %}
-      <div class="mb-8 pr-4">
-        <h2 class="color-brand-blue-dark text-xl font-bold">{{ service[1].title }}</h2>
-        <ul>
-          {% for feature in service[1].features %}
-          <li class="text-gray-700">{{ feature }}</li>
-          {% endfor %}
-        </ul>
+      <div class="mb-8 pr-4 flex">
+        <div class="items-strech pr-4 w-16">
+          {% asset '{{ service[1].shape }}' %}
+        </div>
+        <div>
+          <h2 class="color-brand-blue-dark text-xl font-bold">{{ service[1].title }}</h2>
+          <ul>
+            {% for feature in service[1].features %}
+            <li class="text-gray-700">{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
       {% endfor %}
 
@@ -45,18 +50,20 @@ layout: default
   
 </div>
 
-<div class="py-16 bg-green-soft">
+<div class="py-16 px-8 md:px-0 bg-green-soft" style="background-color: #86D4D2; ">
 
   <div class="container mx-auto">
 
-    <div class="text-3xl font-bold mb-16 color-brand-blue-dark opacity-75">Te ayudamos a...</div>
+    <div class="md:text-3xl font-bold mb-16 color-brand-blue-dark opacity-75" >Te ayudamos a...</div>
     
-    <div class="grid grid-cols-3 lg:grid-cols-6">
-      
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 flex">
+
       {% for item in site.we_help_you_to %}
-      <div class="mb-8 pr-4">
-        <h2 class="color-brand-blue-dark text-xl font-bold">{{ item }}</h2>
-      </div>
+        <div class="mb-8 pr-4 self-end">
+          {% capture shape %}shape-{% cycle '7', '8', '9', '10', '11', '12' %}{% endcapture %}
+          {% asset '{{ shape }}' class="w-16" %}
+          <h2 class="color-brand-blue-dark text-xl font-bold">{{ item }}</h2>
+        </div>  
       {% endfor %}
 
     </div>
@@ -66,13 +73,16 @@ layout: default
 </div>
 
 
-<div class="container mx-auto pr-64 pl-16 py-32">
+<div 
+  class="container mx-auto p-8 md:p-16 lg:pr-64 lg:pl-16 lg:py-64 md:bg-right" 
+  style="background-image: url( '{% asset shape-circle-big.svg @path %}' ); background-repeat: no-repeat; "
+>
 
-  <div class="text-4xl mb-4 color-brand-blue-dark">
+  <div class="md:text-4xl mb-4 color-brand-blue-dark">
     Basamos nuestro trabajo en <strong>hacer las preguntas apropiadas y colaborar contigo para encontrar las respuestas e implementar las soluciones</strong>
   </div>
 
-  <div class="text-3xl" id="home_questions">
+  <div class="md:text-3xl" id="home_questions">
   {% for item in site.home_questions %}
     <div class="inline color-brand-green opacity-25 duration-500">{{ item }}</div>
   {% endfor %}
@@ -113,8 +123,8 @@ function highlightPhrase(i, targetColor) {
           {% for modules in module_groups[1].modules %}
           <li 
             class="px-2 py-1 rounded-md color-brand-blue-dark text-sm leading-tight mb-1 transition duration-500 ease-in-out hover:bg-orange-200 cursor-pointer"
-            :class="{ 'bg-orange-300': tab === '{{ modules[1].id }}' }" @click="tab = '{{ modules[1].id }}'">{{ modules[1].title }}</li>
-          
+            :class="{ 'bg-orange-300': tab === '{{ modules[1].id }}' }" @click="tab = '{{ modules[1].id }}'"
+          >{{ modules[1].title }}</li>
           {% endfor %}
         </ul>
       </div>
@@ -151,26 +161,8 @@ function highlightPhrase(i, targetColor) {
   
 </div>
 
+{% include clients.html %}  
 
-
-<div class="container mx-auto my-32">
-
-  <div class="text-3xl font-bold mb-16 color-brand-green">Cosas que hemos hecho</div>
-
-  <div class="cases-grid" style="height: 800px;">
-
-    <div class="case-grid-1 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-2 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-3 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-4 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-5 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-6 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-7 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-8 bg-orange-200" style="height: 100px; "></div>
-    <div class="case-grid-9 bg-orange-200" style="height: 100px; "></div>
-
-  </div>
-</div>
 
 
 

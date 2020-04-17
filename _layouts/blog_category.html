@@ -1,0 +1,37 @@
+---
+title: Blog
+permalink: "/temas/"
+layout: default
+---
+
+{% if page.title == 'Clientes' %}
+
+  {% include clients.html %}
+  
+{% else %}  
+
+<div class="mx-auto p-8 md:p-0 lg:p-0 lg:flex items-center items-stretch">
+  
+  <div class="container mx-auto max-w-screen-md my-16 md:p-8 xl:p-0 post text-gray-800">
+  
+    <div class="mb-8 text-xs uppercase color-brand-yellow">
+      <a href="/blog">Blog</a> <span class="text-gray-500 inline-block mx-2">/</span>
+      {{ page.title }}
+    </div>
+
+    {% for post in site.categories[page.category] %}
+      {% include post.html %}
+    {% endfor %}
+  
+  </div>
+
+  <!-- <div class="lg:w-1/3 md:text-xs lg:text-base py-2 px-4 lg:p-16" style="background: #F9F7F4; "> -->
+  <div class="w-1/4 md:text-xs lg:text-base py-2 px-4 lg:p-8 xl:p-12" style="background: #F9F7F4; ">
+
+    {% include sidebar_blog.html %}
+
+  </div>
+  
+</div>
+
+{% endif %}

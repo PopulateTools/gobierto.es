@@ -1,4 +1,4 @@
-<div class="Footer">
+<!-- <div class="Footer">
   <div class="Footer__inner">
     <div class="Footer__content">
       <div class="Footer__logos">
@@ -63,15 +63,15 @@
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
-<footer class="container mx-auto text-sm my-64 text-gray-500">
+<footer class="container mx-auto text-sm my-64 text-gray-500 p-8 md:p-0">
 
   <div class="my-16">LOGO</div>
 
-  <div class="flex leading-7">
+  <div class="md:flex leading-7">
       
-    <div class="flex-1 ">
+    <div class="flex-1 mb-4">
       <div class="uppercase color-brand-blue-dark font-bold ">Servicios</div>
       <ul>
       {% for service in site.data.services %}
@@ -80,7 +80,7 @@
     </ul>
     </div>
 
-    <div class="flex-1 ">
+    <div class="flex-1 mb-4">
       <div class="uppercase color-brand-blue-dark font-bold">Producto</div>
       <ul>
         {% for module_groups in site.data.modules_2020 %}
@@ -91,7 +91,7 @@
       </ul>
     </div>
 
-    <div class="flex-1 ">
+    <div class="flex-1 mb-4">
       <div class="uppercase color-brand-blue-dark font-bold">Quién lo usa</div>
       <ul>
         <li><a href="">Clientes</a></li>
@@ -100,7 +100,7 @@
       </ul>
     </div>
 
-    <div class="flex-1 ">
+    <div class="flex-1 mb-4">
       <div class="uppercase color-brand-blue-dark font-bold">Blog</div>
       <ul>
         <li><a href="/blog">Últimos posts</a></li>
@@ -111,7 +111,7 @@
       </ul>
     </div>
 
-    <div class="flex-1 ">
+    <div class="flex-1 mb-4">
       <div class="uppercase color-brand-blue-dark font-bold">Acerca de</div>
       <ul>
         <li><a href="#">Quiénes somos</a></li>
