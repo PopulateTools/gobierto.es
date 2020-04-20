@@ -5,11 +5,13 @@
     "modules": {
       "datos_abiertos": {
         "id": "datos-abiertos",
-        "title": "Datos abiertos"
+        "title": "Datos abiertos",
+        "img": "modules/mod_datos_1.png"
       },
       "cms": {
         "id": "cms",
-        "title": "CMS"
+        "title": "CMS",
+        "img": "modules/mod_cms_1.png"
       }
     }
   },
@@ -19,15 +21,8 @@
     "modules": {
       "planificacion": {
         "id": "planificacion",
-        "title": "Planificación"
-      },
-      "cuadros_mando": {
-        "id": "cuadros-de-mando",
-        "title": "Cuadros de Mando"
-      },
-      "catalogo_servicios": {
-        "id": "catalogo-de-servicios",
-        "title": "Catálogo de servicios"
+        "title": "Planificación",
+        "img": "modules/mod_plans_1.png"
       }
     }
   },
@@ -37,27 +32,33 @@
     "modules": {
       "inversiones": {
         "id": "inversiones",
-        "title": "Inversiones"
+        "title": "Inversiones", 
+        "img": "modules/mod_inv_1.png"
       },
       "contratos": {
         "id": "contratos-y-subvenciones",
-        "title": "Contratos y subvenciones"
+        "title": "Contratos y subvenciones", 
+        "img": "modules/mod_con_1.png"
       },
       "presupuestos": {
         "id": "visualizacion-de-presupuestos",
-        "title": "Presupuestos"
+        "title": "Presupuestos",
+        "img": "modules/mod_pres_1.png"
       },
       "altos_cargos": {
         "id": "altos-cargos-y-agendas",
-        "title": "Altos cargos y agendas"
+        "title": "Altos cargos y agendas", 
+        "img": "modules/mod_inv_1.png"
       },
       "costes": {
         "id": "costes-y-endeudamiento",
-        "title": "Costes y endeudamiento"
+        "title": "Costes y endeudamiento", 
+        "img": "modules/mod_costes_1.png"
       },
       "comparador": {
         "id": "comparador-de-presupuestos",
-        "title": "Comparador de presupuestos"
+        "title": "Comparador de presupuestos", 
+        "img": "modules/mod_com_1.png"
       }
     }
   }

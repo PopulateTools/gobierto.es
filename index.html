@@ -61,7 +61,8 @@ layout: default
       {% for item in site.we_help_you_to %}
         <div class="mb-8 pr-4 self-end">
           {% capture shape %}shape-{% cycle '7', '8', '9', '10', '11', '12' %}{% endcapture %}
-          {% asset '{{ shape }}' class="w-16" %}
+          {% capture margin %}{% cycle 'my-1', '', 'my-2', '', '', '' %}{% endcapture %}
+          {% asset '{{ shape }}' class="w-16 {{ margin }} " %}
           <h2 class="color-brand-blue-dark text-xl font-bold">{{ item }}</h2>
         </div>  
       {% endfor %}
@@ -74,7 +75,7 @@ layout: default
 
 
 <div 
-  class="container mx-auto p-8 md:p-16 lg:pr-64 lg:pl-16 lg:py-64 md:bg-right" 
+  class="container lg:max-w-screen-lg mx-auto p-8 md:p-16 md:py-32 lg:pr-64 lg:pl-16 md:bg-right" 
   style="background-image: url( '{% asset shape-circle-big.svg @path %}' ); background-repeat: no-repeat; "
 >
 
@@ -110,9 +111,9 @@ function highlightPhrase(i, targetColor) {
 </script>
 
 
-<div class="py-16 bg-yellow-soft" id="producto">
+<div class="py-8 bg-yellow-soft" id="producto">
 
-  <div class="container mx-auto py-8 flex" x-data="{ tab: 'datos-abiertos' }">
+  <div class="p-4 lg:max-w-screen-xl mx-auto flex" x-data="{ tab: 'datos-abiertos' }">
 
     <div class="w-1/6 pr-12">
 
@@ -133,7 +134,7 @@ function highlightPhrase(i, targetColor) {
     </div>
 
 
-    <div class="w-5/6 pr-12">
+    <div class="w-5/6">
       
       {% for module_groups in site.data.modules_2020 %}
         {% for modules in module_groups[1].modules %}
@@ -148,8 +149,10 @@ function highlightPhrase(i, targetColor) {
             <div class="col-span-2 text-sm">
               description
             </div>
-            <div class="col-span-3 bg-brand-blue-dark" style="height: 600px;">
-              img
+            <div class="col-span-3 bg-brand-blue-dark">
+              {% if modules[1].img %}
+                {% asset '{{ modules[1].img }}' style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" %} 
+              {% endif %}
             </div>
           </div>
         {% endfor %}
