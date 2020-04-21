@@ -4,12 +4,8 @@ subtitle: '¿Qué hace la Oficina Municipal del Dato del Ayuntamiento de Barcelo
 date: 2020-03-31 00:00:00 +02:00
 categories:
 - datos_abiertos
-<<<<<<< HEAD
-layout: post
-=======
 conversaciones_gobierto: true
-layout: v2/post
->>>>>>> master
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200331-marius-boada-i-pla.jpg
 ---

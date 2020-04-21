@@ -4,12 +4,8 @@ subtitle: 'Presupuesto alineado con los ODS'
 date: 2020-03-19 00:00:00 +02:00
 categories:
 - gobierno_abierto
-<<<<<<< HEAD
-layout: post
-=======
 conversaciones_gobierto: true
-layout: v2/post
->>>>>>> master
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200319-maria-jose-fuente.jpg
 ---

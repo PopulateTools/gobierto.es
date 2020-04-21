@@ -4,12 +4,8 @@ subtitle: 'El valor añadido de la transformación digital es mejorar la organiz
 date: 2020-04-07T00:00:00.000+00:00
 categories:
 - transparencia
-<<<<<<< HEAD
-layout: post
-=======
 conversaciones_gobierto: true
-layout: v2/post
->>>>>>> master
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200407-magda-lorente.jpg
 ---

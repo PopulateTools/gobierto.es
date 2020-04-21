@@ -5,12 +5,8 @@ subtitle: Generar valor automatizando la transparencia y control organizativo si
 date: 2020-04-01T22:00:00.000+00:00
 categories:
 - transparencia
-<<<<<<< HEAD
-layout: post
-=======
 conversaciones_gobierto: true
-layout: v2/post
->>>>>>> master
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200402-jose-joaquin-de-haro.jpg
 
