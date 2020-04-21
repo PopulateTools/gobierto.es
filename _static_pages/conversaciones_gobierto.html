@@ -1,0 +1,103 @@
+---
+title: #ConversacionesGobierto
+description: Una serie de conversciones con personajes relevantes del mundo de los datos, la gestión pública, el gobierno abierto...
+permalink: "/conversaciones/"
+layout: v2/default
+img: 
+---
+
+<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+
+<div class="bg-white py-16">
+
+  <div class="container max-w-screen-xl mx-auto text-gray-800 px-8 xl:px-0">
+
+    <div class="md:flex">
+      <div class="md:w-1/3">
+        
+        <h1 class="text-2xl font-black mb-4 text-gray-700">#ConversacionesGobierto</h1>
+
+        <p class="text-2xl mb-8 leading-snug text-gray-500">Una serie de conversaciones con personajes relevantes del mundo de los datos, la gestión pública, el gobierno abierto...</p>
+    
+        <div class="text-l leading-relaxed text-gray-700">
+          
+          <div class="lg:flex">
+
+            <div class="lg:w-1/2">
+
+              <div>📊 datos</div>
+              
+              <div>🔎 transparencia</div>
+              
+              <div>🌡indicadores</div>
+              
+              <div>✏️ diseño de servicios</div>
+
+              <div>🙌 participación</div>
+            
+            </div>
+            
+            <div class="lg:w-1/2">
+                
+              <div>⚖️ ética</div>
+              
+              <div>🔑 #civictech</div>
+              
+              <div>🌈 ODS</div>
+              
+              <div>💎 innovación pública</div>
+            
+            </div>
+
+          </div>
+        
+        </div>
+
+        <div class="ml-form-embed my-16"
+          data-account="973324:w1x9v5r3g2"
+          data-form="1991460:c6f7p9">
+        </div> 
+
+
+      </div>
+
+      <div class="md:w-2/3 md:pl-16 xl:pl-32">
+
+        <div class="uppercase text-sm text-gray-500 font-bold">Próximas conversaciones</div>
+
+        {% asset 'conv_gobierto/2004-CG-adelgado-small.png' style="border: 1px solid #CCC;" class="mb-8" %}
+
+        <div class="my-4"><span class="text-gray-500">28 abr</span> <a href="https://twitter.com/adelgado" class="font-bold underline">Antonio Delgado</a>, Datadista</div>
+
+        <div class="my-4"><span class="text-gray-500">12 mayo</span> <a href="https://twitter.com/baobablosa" class="font-bold underline">Virginia Losa</a>, Diputación de Palencia</div>
+
+        <div class="my-4"><span class="text-gray-500">26 mayo</span> <a href="https://twitter.com/raulolivan" class="font-bold underline">Raúl Oliván</a>, Gobierno de Aragón</div>
+
+
+        <div class="mt-16 uppercase text-sm text-gray-500 font-bold">Conversaciones recientes</div>
+
+        {% for post in site.posts %}
+          {% if post.conversaciones_gobierto %}
+          <div class="Posts__post mb-16">
+            {% include v2/post.html %}
+          </div>
+          {% endif %}
+        {% endfor %}
+
+        <div class="ml-form-embed"
+          data-account="973324:w1x9v5r3g2"
+          data-form="1991460:c6f7p9">
+        </div> 
+
+      </div>
+
+    </div>
+
+    <div class="my-16">
+      Previas
+    </div>
+
+
+  </div>
+
+</div>
