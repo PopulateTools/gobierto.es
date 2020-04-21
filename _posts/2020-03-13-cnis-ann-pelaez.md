@@ -4,7 +4,12 @@ subtitle: 'Si gestionas de una forma eficiente y eficaz pero no lo sabes transmi
 date: 2020-03-13 00:00:00 +02:00
 categories:
 - transparencia
+<<<<<<< HEAD
 layout: post
+=======
+conversaciones_gobierto: true
+layout: v2/post
+>>>>>>> master
 author: Pedro Álvarez
 main_photo: posts/200313-Anna-Pelaez.jpg
 ---

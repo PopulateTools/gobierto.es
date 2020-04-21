@@ -1,0 +1,91 @@
+<div class="Header">
+  <div class="Header__inner">
+    <div class="Header__logo"><a href="/" class="Logo"></a></div>
+    <ul class="Header__options">
+      <li class="Header__option">
+        <a href="/acerca-de" class="Header__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Acerca de</a>
+      </li>
+      <li class="Header__option">
+        <a href="/temas/clientes" class="Header__link js-smooth-scroll {% if page.url == '/temas/clientes/' %} is-active {% endif %}" title="Clientes de Gobierto">Quién lo usa</a>
+      </li>
+      <li class="Header__option">
+        <a href="/blog" class="Header__link {% if page.url == '/blog/' %} is-active {% endif %}">Blog</a>
+      </li>
+      <li class="Header__option">
+        <a href="/temas/clientes" class="Header__link js-smooth-scroll">Contacto</a>
+      </li>
+    </ul>
+    <div class="Header__CTA">
+      <a href="/#demo" class="Button Header__button js-smooth-scroll">Solicita una demo</a>
+      <a href="https://populate.tools/blog/gobierto" target="_blank" class="Button Header__button js-smooth-scroll">English</a>
+    </div>
+
+    <div class="Menu">
+      <button class="Menu--open js-hamburger">
+        <i class="Icon__navicon" aria-hidden="true"></i>
+      </button>
+      <div class="Menu__content">
+        <ul class="Menu__list">
+          <li class="Menu__item">
+            <button class="Menu--close js-hamburger-close">
+              <i class="Icon__close" aria-hidden="true"></i>
+            </button>
+          </li>
+          <li class="Menu__item">
+            <a href="/acerca-de" class="Header__link Menu__link">Nosotros</a>
+          </li>
+          <li class="Menu__item Menu__item--modules">
+            <strong>Módulos</strong>
+            <ul class="Menu__sublist">
+              {% for node in site.data.modules %}
+              <li><a href="{{ node[1].permalink }}" class="Header__link Menu__link{% if page.url == node[1].permalink %} is-active{% endif %}">{{ node[1].short-title }}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          <li class="Menu__item">
+            <a href="/blog" class="Header__link Menu__link {% if page.url == '/blog/' or page.layout == 'v2/post' %} is-active {% endif %}">Blog</a>
+          </li>
+          <li class="Menu__item">
+            <a href="/temas/clientes" class="Header__link Menu__link js-smooth-scroll">Quién lo usa</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Menu__global sticky" >
+
+  <a href="/" class="menu-logo js-hamburger-desktop" aria-hidden="true"><i class="fas fa-bars" ></i> Gobierto</a>
+
+  {% for module in site.data.modules %}
+    <a
+      href="{{ module[1].permalink }}"
+      title="{{ module[1].title }}"
+      class="{% if page.url == module[1].permalink %} is-active {% endif %}"
+     ><i class="fas fa-{{ module[1].icon }}"></i> <span class="text">{{ module[1].short-title }}</span></a>
+  {% endfor %}
+</div>
+
+<div class="Menu__slide">
+
+  <a href="/" class="menu-logo " aria-hidden="true"><i class="fas fa-bars" ></i> Gobierto</a>
+
+  <div class="Menu__slide--inner">
+
+    <p class="main">Gobierto es la plataforma de gobierno abierto open source para administraciones públicas</p>
+
+    <p class="main">{% for module in site.data.modules %}
+      <a
+        href="{{ module[1].permalink }}"
+        title="{{ module[1].title }}"
+        class="{% if page.url == module[1].permalink %} is-active {% endif %}"
+       "><i class="fas fa-{{ module[1].icon }}"></i> <span class="text">{{ module[1].short-title }}</span></a>
+    {% endfor %}</p>
+
+    <p class="main">En nuestro blog contamos historias con datos y cómo usan Gobierto nuestros clientes para conseguir sus objetivos de transparencia, rendición de cuentas y participación.</p>
+
+    <a class="js-hamburger-desktop-close" aria-hidden="true"><i class="fas fa-bars"></i> cerrar</a>
+
+  </div>
+</div>

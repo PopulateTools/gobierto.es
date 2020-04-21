@@ -1,0 +1,14 @@
+<script type="text/javascript">
+  // {{ jekyll.environment }}
+  {% if jekyll.environment == "development" -%}
+  ga('create', 'UA-69636046-3', 'auto');
+  ga('send', 'pageview');
+  mixpanel.init("a22a372d8b32aee7752b0f1a6094b6d8");
+  {% elsif jekyll.environment == "production" -%}
+  ga('create', 'UA-69636046-1', 'auto');
+  ga('send', 'pageview');
+  mixpanel.init("846fad87149cef36298ce1a22b0003cf");
+  {% endif -%}
+</script>
+
+  
