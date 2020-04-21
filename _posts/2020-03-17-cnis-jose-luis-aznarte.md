@@ -4,6 +4,7 @@ subtitle: 'Un marco ético no puede ser impuesto de arriba a abajo, debe ser la 
 date: 2020-03-17 00:00:00 +02:00
 categories:
 - transparencia
+conversaciones_gobierto: true
 layout: v2/post
 author: Pedro Álvarez
 main_photo: posts/200317-jose-luis-aznarte.jpg
