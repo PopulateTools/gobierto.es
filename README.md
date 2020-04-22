@@ -14,8 +14,10 @@ bundle install
 ## Start application in local environment
 
 <code>
-jekyll serve -w --future
+bundle exec jekyll s --future --incremental --livereload
 </code>
+
+(--incremental gives much faster build time; remove if assets are not being reloaded properly)
 
 ## Deploy
 
