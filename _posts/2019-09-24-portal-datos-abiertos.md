@@ -4,6 +4,7 @@ subtitle: 'Cómo debería ser un portal de open data para que sirva a los propio
 date: 2019-09-25 00:00:00 +02:00
 categories:
 - datos_abiertos
+analysis: true
 layout: v2/post
 author: Álvaro Ortiz
 main_photo: posts/190924-datos.jpg

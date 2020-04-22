@@ -4,6 +4,7 @@ subtitle: 'Análisis del diseño de información en webs municipales'
 date: 2020-04-08 00:00:00 +02:00
 categories:
 - experiencia_de_usuario
+analysis: true
 layout: v2/post
 author: Álvaro Ortiz
 main_photo: posts/200408-Servicios-Portada.png
@@ -77,69 +78,77 @@ Esta interpretación puede resultar controvertida. No buscamos establecer una co
 
 ¿Cómo encaja la oferta de servicios en la estructura general de la web? ¿Qué camino debo recorrer para acceder? ¿Los servicios se cuentan de forma homogenea entre departamentos? ¿Hay una estructura de información coherente? ¿Puedo entender de un vistazo todos los servicios que se ofrecen? ¿Qué criterios se siguen para clasificar un servicio? ¿Se clasifican los servicios según el perfil, necesidad, naturaleza...?
 
----
+La base para guiar las decisiones de diseño (qué poner, dónde ponerlo, óomo organizarlo, cómo contarlo) es que **el ciudadano necesita entender qué le ofrece su ayuntamiento y cómo lo puede "consumir"**. Algunos elementos básicos a tener en cuenta: 
 
+### Visión de conjunto, destino claro y único
 
-¿Cómo encaja la oferta de servicios en la estructura general de la web? 
+Cuando una persona necesita buscar algo concreto es necesario tenerlo enmarcado en un catálogo que permita la exploración. Es necesario un punto de partida que el usuario pueda identificar como el inicio de su camino en el descubrimiento. En este sentido, la dicotomía presente en algunos municipios de Servicios y Trámites puede generar confusión.
 
-¿Qué camino debo recorrer para acceder? 
+### Clasificación
 
-¿Los servicios se cuentan de forma homogenea entre departamentos? 
+¿Qué criterios se siguen para clasificar los servicios? Hay una tendencia natural en las organizaciones a reflejar las estructuras internas hacia el exterior. Pero esto a veces no funciona porque las estructuras internas no coinciden con el modelo mental del usuario. Hay que preguntarse como entiende un ciudadano 
 
-¿Hay una estructura de información coherente? 
+Es recomendable crear un sistema de taxonomías que clasifique los servicios en varias dimensiones. Las básicas, que además no suponen apenas complejidad en su definición, podrían ser las siguientes: 
 
-¿Puedo entender de un vistazo todos los servicios que se ofrecen? 
+- Destinatario
+- Necesidad
+- Tema
 
-¿Qué criterios se siguen para clasificar un servicio? 
+### Ejemplos 
 
-¿Se clasifican los servicios según el perfil, necesidad, naturaleza...?
+Hemos seleccionado algunos ejemplos para ilustrar algunas de estas ideas: 
 
+{% asset 'posts/200408-ejemplos-santander-1.png' class='Outline Shadow caption' title="" %} {% asset 'posts/200408-ejemplos-santander-2.png' class='Outline Shadow caption' title="" %} El [Ayuntamiento de Santander](https://santander.es) tiene un punto de destino único para los servicios y permite explorarlos de acuerdo a distintos criterios. Una vez que accedes a la sección puedes explorar destacados, destinatarios, trámites... 
 
-Ejemplos interesantes
-Santander
-Vitoria
-Sant Feliu
+{% asset 'posts/200408-ejemplos-vitoria-1.png' class='Outline Shadow caption' title="" %} El [Ayuntamiento de Vitoria-Gasteiz](https://www.vitoria-gasteiz.org/) propone una solución muy efectiva por compacta: un menú desplegable que directamente te muestra los destinatarios. Si sabes de antemano el trámite, también puedes acceder. Esta solución permite mucha agilidad, ya que no tienes que cargar una página para ver las opciones. 
 
+{% asset 'posts/200408-ejemplos-santfeliu-1.png' class='Outline Shadow caption' title="" %} En el caso de [Sant Feliu de Llobregat](https://www.santfeliu.cat/) hay una solución sobria pero efectiva: también un desplegable con los temas principales y acceso a un directorio de todos los servicios. 
 
-Consideramos que hay algunas recomendaciones de base respecto a cómo una entidad debería explicar los servicios que ofrece, y comienzan por una apropiada  organización de la información (arquitectura de la información) 
-
-Ofrecer 
-
-{% asset 'posts/200408-ejemplos-santander-1.png' class='Outline Shadow caption' title="" %}
-
-{% asset 'posts/200408-ejemplos-santander-2.png' class='Outline Shadow caption' title="" %}
-
-{% asset 'posts/200408-ejemplos-vitoria-1.png' class='Outline Shadow caption' title="" %}
-
-{% asset 'posts/200408-ejemplos-santfeliu-1.png' class='Outline Shadow caption' title="" %}
-
-{% asset 'posts/200408-ejemplos-valladolid-1.png' class='Outline Shadow caption' title="" %}
-
-
-- Puntos de partida: ciudadano quiere entender qué le ofrece su ayuntamiento, 
-- Lugar de los servicios en la estructura de la web
-- Clasificación: Taxonomías
-- Buscador
-
+{% asset 'posts/200408-ejemplos-valladolid-1.png' class='Outline Shadow caption' title="" %} [El Ayuntamiento de Valladolid](https://www.valladolid.gob.es/) mezcla trámites y servicios pero presenta una clasificación por temas, perfiles y hechos vitales que consideramos que facilita mucho la exploración e identificación de la necesidad. 
 
 
 ## 4. Explicación de un servicio
 
 Una vez que accedo a un servicio
 
+
+### Servicio vs. Servicios de un Servicio-Departamento
+
+
+### Información
+
+Ideal 
+
+vs. 
+
+realidad: breve introducción al área, poco detalle, falta de enlaces...
 Mapa de servicios, servicios relacionados
-Catálogo de servicios
+
+
+### Coherencia
+
 - Homogeneización -> dependiendo del departamento, necesario tener una guía y unos estándares
+¿Los servicios se cuentan de forma homogenea entre departamentos? ¿Hay una estructura de información coherente? 
 
 
+### Ya se lo que quiero, ¿cómo lo consigo?
 
-## 5. Cómo utilizar/tramitar un servicio
+Cómo utilizar/tramitar un servicio
 
 
-
-## 6. Ayuda / Ampliar información
 
 
 ## Conclusiones
+
+
+
+Lista de comprobación para explicar tus servicios al ciudadano
+
+- [ ] Destino único donde tener una visión completa de todos los servicios
+- [ ] Organización de los servicios por destinatario, necesidad y tema
+- [ ] Ficha del servicio: 
+  - Información: Qué es, qué ofrece, a quién va dirigido, requerimientos, servicios relacionados
+  - Cómo tramitarlo
+  - Cómo ampliar información
 
 
