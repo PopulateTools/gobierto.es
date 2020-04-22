@@ -1,5 +1,5 @@
 ---
-title: "Conversciones CNIS: Borja Colón (Diputación de Castellón)"
+title: "Conversaciones CNIS: Borja Colón (Diputación de Castellón)"
 subtitle: 'Mejorar en la toma de decisiones sobre la base de datos públicos reutilizables'
 date: 2020-04-14T00:00:00.000+00:00
 categories:

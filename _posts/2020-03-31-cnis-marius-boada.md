@@ -1,5 +1,5 @@
 ---
-title: "Conversciones CNIS: Màrius Boada i Pla (Ajuntament de Barcelona)"
+title: "Conversaciones CNIS: Màrius Boada i Pla (Ajuntament de Barcelona)"
 subtitle: '¿Qué hace la Oficina Municipal del Dato del Ayuntamiento de Barcelona?'
 date: 2020-03-31 00:00:00 +02:00
 categories:

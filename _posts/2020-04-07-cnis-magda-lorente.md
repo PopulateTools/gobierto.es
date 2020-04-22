@@ -1,5 +1,5 @@
 ---
-title: "Conversciones CNIS: Magda Lorente (Diputación de Barcelona)"
+title: "Conversaciones CNIS: Magda Lorente (Diputación de Barcelona)"
 subtitle: 'El valor añadido de la transformación digital es mejorar la organización y planificación en la gestión'
 date: 2020-04-07T00:00:00.000+00:00
 categories:

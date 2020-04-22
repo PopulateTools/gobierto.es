@@ -1,16 +1,27 @@
+<div class="text-sm">
 
-<h2 class="text-sm font-bold color-pink-light mt-2 mb-4">En nuestro blog</h2>
+  <h2 class="font-bold color-pink-light mt-2 mb-4">En nuestro blog</h2>
 
-{% for post in site.posts limit:3 %}
-  <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-{% endfor %}
+  {% for post in site.posts limit:3 %}
+    <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  {% endfor %}
 
-<h2 class="text-sm font-bold color-pink-light mt-12 mb-4">#ConversacionesGobierto</h2>
+  <h2 class="font-bold color-pink-light mt-12 mb-4"><a class="color-pink-light" href="/conversaciones/">#ConversacionesGobierto</a></h2>
 
-wadus
+  {% for post in site.posts limit:3 %}
+    
+    {% if post.conversaciones_gobierto %}
+      {% if forloop.index == 1 %}
+      <a class="block mb-2" href="{{ post.url }}">{% asset '{{ post.main_photo }}' %} </a>
+      {% endif %}  
+      <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title  | remove: 'Conversaciones CNIS: ' }}</a>
+    {% endif %}
+  {% endfor %}
 
-<h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
+  <h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
 
-<a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-<a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-<a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  <a class="block text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+
+</div>

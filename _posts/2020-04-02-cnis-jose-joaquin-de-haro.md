@@ -1,5 +1,5 @@
 ---
-title: 'Conversciones CNIS: José Joaquín de Haro (Diputación de Albacete)'
+title: 'Conversaciones CNIS: José Joaquín de Haro (Diputación de Albacete)'
 subtitle: Generar valor automatizando la transparencia y control organizativo sin
   la intervención de capital humano
 date: 2020-04-01T22:00:00.000+00:00
