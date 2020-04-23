@@ -58,6 +58,9 @@ a {
     font-size: 22px;
     text-transform: uppercase;
   }
+  h2:first-child {
+    margin-top: 0;
+  }
   h3 {
     margin: 32px 0 16px 0;
     font-size: 18px;
