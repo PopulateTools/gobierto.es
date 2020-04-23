@@ -5,6 +5,7 @@ categories:
 - visualizacion_de_datos
 - gobierto
 layout: post
+module: observatorio
 subtitle: Un paseo por el nuevo módulo de indicadores, que resume y contextualiza
   los datos abiertos de población, empleo y economía
 author: Martín González

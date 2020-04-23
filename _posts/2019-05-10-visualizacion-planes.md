@@ -4,6 +4,7 @@ subtitle: 'Gobierto presenta su herramienta de rendición de cuentas'
 date: 2019-05-10 00:00:00 +02:00
 categories:
 - gobierno_abierto
+module: planificacion
 layout: post
 author: Álvaro Ortiz
 main_photo: posts/190510-PAM-Esplugues.png

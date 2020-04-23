@@ -4,6 +4,7 @@ date: 2017-01-26 08:00:00 +01:00
 categories:
 - clientes
 client: Generalitat de Catalunya
+module: comparador-de-presupuestos
 layout: post
 subtitle: Incorporan el Comparador de Presupuestos de Gobierto para explorar y analizar
   los presupuestos de todos los municipios catalanes

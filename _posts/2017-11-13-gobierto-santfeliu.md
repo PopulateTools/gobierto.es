@@ -1,13 +1,14 @@
 ---
 title: Sant Feliu publica con Gobierto su proyecto de presupuestos para compartir
   con ciudadanos y oposición
+subtitle: Sant Feliu de Llobregat permite visualizar su presupuesto municipal y el borrador de presupuesto para el próximos ejercicio
 date: 2017-11-13 00:00:00 +01:00
 categories:
 - clientes
 client: Ajuntament de Sant Feliu de Llobregat
+module: presupuestos
 layout: post
-subtitle: Sant Feliu de Llobregat permite visualizar su presupuesto municipal y el
-  borrador de presupuesto para el próximos ejercicio
+  
 author: Álvaro Ortiz
 main_photo: posts/171113-santfeliu-1.png
 ---

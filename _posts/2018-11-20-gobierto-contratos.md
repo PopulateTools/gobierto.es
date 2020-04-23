@@ -3,7 +3,7 @@ title: 'Gobierto Contratos: explorando los contratos de una organización públi
 date: 2018-11-20 00:00:00 +01:00
 categories:
 - gobierno_abierto
-- tecnologia
+module: contratos
 layout: post
 subtitle: ''
 author: Álvaro Ortiz

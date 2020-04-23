@@ -75,7 +75,7 @@ layout: default
 
 
 <div 
-  class="container lg:max-w-screen-lg mx-auto p-8 md:p-16 md:py-32 lg:pr-64 lg:pl-16 md:bg-right" 
+  class="lg:max-w-screen-xl mx-auto p-8 md:p-16 md:py-32 lg:pr-64 lg:pl-16 md:bg-right" 
   style="background-image: url( '{% asset shape-circle-big.svg @path %}' ); background-repeat: no-repeat; "
 >
 
@@ -134,7 +134,7 @@ function highlightPhrase(i, targetColor) {
     </div>
 
 
-    <div class="w-5/6">
+    <div class="w-5/6 color-brand-blue-dark ">
       
       {% for module_groups in site.data.modules_2020 %}
         {% for modules in module_groups[1].modules %}
@@ -147,12 +147,13 @@ function highlightPhrase(i, targetColor) {
               <h2 class="color-brand-blue-dark text-xl font-bold">{{ modules[1].title }}</h2>
             </div>
             <div class="col-span-2 text-sm">
-              description
+              {{ modules[1].heading }}
             </div>
-            <div class="col-span-3 bg-brand-blue-dark">
+            <div class="col-span-3">
               {% if modules[1].img %}
-                {% asset '{{ modules[1].img }}' style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" %} 
+                <a href="/modulos/{{ modules[1].id }}" class="block transform duration-500 hover:-translate-x-3">{% asset '{{ modules[1].img }}' style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" %}</a>
               {% endif %}
+              <p class="mt-8">{{ modules[1].subheading }}</p>
             </div>
           </div>
         {% endfor %}
@@ -165,14 +166,3 @@ function highlightPhrase(i, targetColor) {
 </div>
 
 {% include clients.html %}  
-
-
-
-
-{% include v2/cover.html %}
-{% include v2/methodology.html %}
-{% include v2/modules.html %}
-{% include v2/demo.html %}
-{% include v2/slideshow.html %}
-{% include v2/contact.html %}
-{% include v2/clients.html %}
