@@ -28,13 +28,21 @@
             <!-- {% if page.permalink == '/acerca-de/' %} is-active{% endif %} -->
             <a href="/#servicios" class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Servicios</a>
             
-            <div @click.away="open = false" class="relative" x-data="{ open: false }">
+            <div @click.away="open = false" class="relative z-50" x-data="{ open: false }">
               <a 
                 @mouseenter="open = true"                  
                 href="/#producto" 
                 id="product-menu" aria-label="User menu" aria-haspopup="true" x-bind:aria-expanded="open"
                 class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Producto</a>
-              <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="origin-center absolute w-48 rounded-md shadow-lg">
+              <div x-show="open" 
+                x-transition:enter="transition ease-out duration-100" 
+                x-transition:enter-start="transform opacity-0 scale-95" 
+                x-transition:enter-end="transform opacity-100 scale-100" 
+                x-transition:leave="transition ease-in duration-75" 
+                x-transition:leave-start="transform opacity-100 scale-100" 
+                x-transition:leave-end="transform opacity-0 scale-95" 
+                class="origin-center absolute w-48 rounded-md shadow-lg"
+              >
                 <div class="py-1 rounded-md bg-white shadow-xs">
                   {% for node in site.data.modules %}
                   <div class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {% if page.url == node[1].permalink %} is-active{% endif %}">

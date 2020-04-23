@@ -22,7 +22,45 @@
       "planificacion": {
         "id": "planificacion",
         "title": "Planificación",
-        "img": "modules/mod_plans_1.png"
+        "img": "modules/mod_plans_1.png",
+        "heading": "Articula la rendición de cuentas de tu organización",
+        "subheading": "Explica tus planes de forma visual y muestra el progreso",
+        "key0": "Ofrece una visualización clara de tus planes estratégicos y de actuación",
+        "key1": "Permite a los ciudadanos explorar los planes y consultar su estado de ejecución",
+        "key2": "Rendición de cuentas de tus planes: ofrece actualizaciones sobre cada proyecto, línea, eje...",
+        "functionalities": [{
+          "title": "Elaboración",
+          "description": "Edición colaborativa online",
+          "explanation": "Una herramienta para la creación colaborativa de tus planes. Permite a tus equipos colaborar añadiendo proyectos, categorizando, priorizando y compartiendo borradores. Gestiona el flujo de trabajo para la aprobación y publicación.<br><br>Proporciona a cada responsable de proyecto un interfaz sencillo para publicar actualizaciones sobre el estado de los mismos, añadiendo notas y documentación.<br><br>Cuadro de mando compartido para el equipo y gestores."
+        }, {
+          "title": "Publicación y visualización",
+          "description": "Comparte tus planes ",
+          "explanation": "Publica tu planificación de forma visual y atractiva para facilitar su exploración y comprensión.<br><br>Publica tus <strong>Planes estratégicos</strong>, <strong>Planes de actuación (PAM)</strong> y <strong>Planes sectoriales</strong>.<br><br>Permite explorar los ejes, líneas, actuaciones y proyectos. Decide el nivel de detalle que quieres hacer público."
+        }, {
+          "title": "Informa sobre el progreso",
+          "description": "Seguimiento del plan",
+          "explanation": "Ofrece información actualizada sobre el progreso en el cumplimiento del plan. Visualiza el cumplimiento de cada proyecto y muestra el estado agregado de progreso por categoría y del plan en su conjunto.<br><br>Identifica los progresos o categorías con retrasos relevantes y sus causas."
+        }, {
+          "title": "Rendición de cuentas",
+          "description": "Automatiza la rendición",
+          "explanation": "Estructura tu rendición de cuentas con la publicación de los informes de progreso de los planes, generados de forma automática. Dispón de un panel en tiempo real sobre el estado de los compromisos adquiridos en el plan, con acceso al detalle de la evolución de los mismos a través de las fichas de proyectos.<br><br>Permite a los usuarios recibir alertas automáticas para que estén informados de forma periódica, generando impactos de comunicación de calidad con un coste marginal."
+        }, {
+          "title": "Personaliza la estructura",
+          "description": "Flexibilidad para organizar tu información",
+          "explanation": "Organiza el contenido de tus planes de forma flexible: define los niveles jerarquicos que necesites (ejes, líneas de actuación, actuaciones, proyectos...) y personaliza el número de niveles que necesitas. Configura dependencias entre proyectos."
+        }, {
+          "title": "Proyectos",
+          "description": "Baja al detalle",
+          "explanation": "Personaliza tu ficha de proyecto para mostrar sus características de acuerdo a las necesidades de tu organización y de tu plan: nombre, descripción, fechas, estado, porcentaje de progreso...<br><br>Añade información sobre los proyectos: imágenes, documentos, videos... Ilustra el estado de un proyecto con un dossier multimedia."
+        }, {
+          "title": "Evaluación y participación",
+          "description": "Colaboració ciudadana para la elaboración",
+          "explanation": "Permite a tus usuarios opinar sobre las prioridades planteadas durante el proceso de elaboración del plan para informar las decisiones del equipo gestor.<br><br>Incorpora las opiniones y comentarios de los ciudadanos sobre actuaciones a realizar.<br><br>Haz de la elaboración del plan un proceso colaborativo."
+        }, {
+          "title": "Conecta con el presupuesto",
+          "description": "Datos enlazados",
+          "explanation": "Relaciona un proyecto con su correspondiente partida presupuestaria. En conjunto con <a href='/modulos/presupuestos'>Gobierto Presupuestos</a>, podrás mostrar proyectos en el presupuesto, y las cifras asociadas a los proyectos desde Gobierto Planes, enlazando partidas y proyectos."
+        }]
       }
     }
   },
@@ -41,14 +79,45 @@
         "img": "modules/mod_con_1.png"
       },
       "presupuestos": {
-        "id": "visualizacion-de-presupuestos",
+        "id": "presupuestos",
         "title": "Presupuestos",
         "img": "modules/mod_pres_1.png"
       },
-      "altos_cargos": {
+      "altos-cargos-y-agendas": {
         "id": "altos-cargos-y-agendas",
         "title": "Altos cargos y agendas", 
-        "img": "modules/mod_peo_1.png"
+        "img": "modules/mod_peo_1.png", 
+        "heading": "",
+        "subheading": "Muestra el organigrama y agendas de altos cargos y directivos de tu organización y permite seguir su actividad con alertas personalizadas.",
+        "key0": "Muestra el organigrama de tu organización y datos personales: formación, experiencia, declaraciones de bienes y actividades…",
+        "key1": "Publica la agenda de cada alto cargo, directamente sincronizada con su agenda de Outlook, Google o IBM Notes.",
+        "key2": "Permite a los vecinos seguir a una persona para estar al tanto de sus actividades.",
+        "youtube_video_id": "LIKSD5c2hlg",
+        "functionalities": [{
+          "title": "Perfiles personales",
+          "description": "Una ficha con toda la información de cada persona",
+          "explanation": "Publica toda la información sobre tus cargos y directivos; a la que obliga la Ley de Transparencia, pero también la que resultará útil para tus ciudadanos: biografía, curriculum, experiencia, intereses...<br><br>Adjunta el original de los CVs y personaliza la imagen de cada cargo o directivo. <br><br>Configura el tipo y estructura de la información que quieres publicar. Formas de contacto personalizables e integración con redes sociales."
+        }, {
+          "title": "Agendas sincronizadas",
+          "description": "Haz transparente la agenda de tu organización",
+          "explanation": "Gobierto publica de forma automática la agenda de cada cargo para simplificar esta tarea. Nos sincronizamos con Outlook, Google Calendar o IBM Notes. Puedes configurar los eventos que se publican, o moderar antes de publicar. <br><br>Una vez que la información de cada evento se ha cargado, puedes complementarla o mejorarla a través de un interfaz web moderno. Visualiza los eventos en un formato de calendario con vista diaria, semanal o mensual, y permite consultar el archivo en modo listado. <br><br>Cada evento dispondrá de una URL permanente para facilitar el compartir en redes sociales y generar actividad en torno a cada evento."
+        }, {
+          "title": "Declaraciones",
+          "description": "Bienes y actividades, viajes, obsequios...",
+          "explanation": "Gobierto te permite publicar en un formato visualmente atractivo y usable el contenido de las declaraciones definidas por la Ley de Transparencia.<br><br>La información se publica en un formato tabla, directamente visible en el navegador sin necesidad de descargar adjuntos poco usables.<br><br>Personaliza la estructura de la información que publicas de acuerdo a tus modelos de declaraciones, además de permitir adjuntar los archivos originales escaneados.<br><br>Toda la información de las declaraciones puede ser exportada como datos abiertos en formatos reutilizables para su proceso en otras herramientas."
+        }, {
+          "title": "Grupos políticos y áreas directivas",
+          "description": "Personaliza Gobierto con tus grupos políticos",
+          "explanation": "Define los grupos políticos en tu organización y permite la exploración de cargos filtrando en base a este criterio. Diferencia entre cargos del gobierno y oposición. Permite explorar a los directivos de acuerdo a su área, que podrás personalizar."
+        }, {
+          "title": "Seguimiento de eventos y personas",
+          "description": "Conecta con tus vecinos",
+          "explanation": "A través de Gobierto CRM un ciudadano podrá hacer seguimiento de la actividad de los cargos, de un cargo específico, o de un evento concreto. El usuario podrá suscribirse y recibir notificaciones de nuevos eventos en la agenda, así como de la actualización que tenga lugar sobre un evento.<br><br>Además de la información a priori que se publique sobre un evento (tema, fecha y hora, localización, asistentes) Gobierto permite actualizar la ficha del evento con información sobre la misma: fotografías, videos, un resumen de lo tratado... Estas actualizaciones llegarán de forma automática a los ciudadanos, y podrán ser compartidas en redes sociales."
+        }, {
+          "title": "Blog",
+          "description": "Diario personal de cada cargo",
+          "explanation": "Cada cargo o directivo dispondrá de un blog para publicar su propio diario. Cada persona podrá gestionar directamente su propio perfil y blog, o se podrán designar usuarios editores para gestionar personas específicas.<br><br>Cada entrada de blog puede ser compartida en redes sociales."
+        }]
       },
       "costes": {
         "id": "costes-y-endeudamiento",

@@ -6,14 +6,5 @@ kind: module
 excerpt: Visualiza y permite realizar seguimiento de planes estratégicos, de actuación, sectoriales...
 ---
 
-{% assign module = site.data.modules.planificacion %}
-
-{% include v2/module_cover.html module=module %}
-{% include v2/features.html title=module.title features=module.features %}
-{% include v2/functionalities.html title=module.title functionalities=module.functionalities %}
-{% include v2/global_functionalities.html %}
-{% include v2/users.html users=module.users %}
-{% include v2/demo.html %}
-{% include v2/slideshow.html %}
-{% include v2/contact.html %}
-{% include v2/clients.html %}
+{% assign module = site.data.modules_2020.group_gestion.modules.planificacion %}
+{% include module.html module=module %}

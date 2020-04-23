@@ -1,71 +1,6 @@
-<!-- <div class="Footer">
-  <div class="Footer__inner">
-    <div class="Footer__content">
-      <div class="Footer__logos">
-        <a href="/" class="Footer__logo Logo"></a>
-        <div class="Logo__creator">
-          <div class="Logo__description">Es un producto de</div>
-          <a href="http://populate.tools" class="Logo__populate"></a>
-        </div>
-      </div>
-      <div class="Footer__navigation">
-        <div class="Footer__area">
-          <div class="Footer__areaTitle">Gobierto</div>
-          <ul class="Footer__sections">
-            <li class="Footer__section">
-              <a href="/#demo" class="Footer__link js-smooth-scroll">Solicita una demo</a>
-            </li>
-            <li class="Footer__section">
-              <a href="/acerca-de" class="Footer__link{% if page.permalink == '/acerca-de/' %} is-active{% endif %}">Nosotros</a>
-            </li>
-            <li class="Footer__section">
-              <a href="/blog" class="Footer__link {% if page.url == '/blog/' or page.layout == 'post' %} is-active {% endif %}">Blog</a>
-            </li>
-            <li class="Footer__section">
-              <a href="/temas/clientes" class="Footer__link js-smooth-scroll">Clientes</a>
-            </li>
-            <li class="Footer__section">
-              <a href="/open-source" class="Footer__link js-smooth-scroll">Gobierto es software libre</a>
-            </li>
-          </ul>
-        </div>
 
-        <div class="Footer__area">
-          <div class="Footer__areaTitle">Módulos</div>
-          <ul class="Footer__sections">
 
-            {% for node in site.data.modules %}
-            <li class="Footer__section">
-              <a href="{{ node[1].permalink }}" class="Footer__link{% if page.url == node[1].permalink %} is-active{% endif %}">{{ node[1].short-title }}</a>
-            </li>
-
-            {% endfor %}
-          </ul>
-        </div>
-        <div class="Footer__area">
-          <div class="Footer__areaTitle">Contacto</div>
-          <ul class="Footer__sections">
-
-            <li class="Footer__section">
-              <a href="mailto:abre@gobierto.es" class="Footer__link">abre@gobierto.es</a>
-            </li>
-
-            <li class="Footer__section">
-              <a href="http://twitter.com/gobierto" class="Footer__link">@gobierto</a>
-            </li>
-
-            <li class="Footer__section">
-              <a href="http://twitter.com/populate_" class="Footer__link">@populate_</a>
-            </li>
-
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-<footer class="container mx-auto text-sm my-64 text-gray-500 p-8 md:p-0">
+<footer class="container mx-auto text-sm my-32 text-gray-500 p-8 md:p-0">
 
   <div class="my-16">{% asset 'LogoGobierto@2x' class="transition w-32 md:w-40 lg:-m-10" %}</div>
 
@@ -85,7 +20,7 @@
       <ul>
         {% for module_groups in site.data.modules_2020 %}
         {% for modules in module_groups[1].modules %}
-        <li>{{ modules[1].title }}</li>
+        <li><a href="/modulos/{{ modules[1].id }}/">{{ modules[1].title }}</a></li>
         {% endfor %}
         {% endfor %}
       </ul>
@@ -104,10 +39,9 @@
       <div class="uppercase color-brand-blue-dark font-bold">Blog</div>
       <ul>
         <li><a href="/blog">Últimos posts</a></li>
-        <li><a href="/blog">Análisis</a></li>
-        <li><a href="/blog">Guías</a></li>
+        <li><a href="/blog">Análisis y guías</a></li>
         <li><a href="/blog">Exploraciones de datos</a></li>
-        <li><a href="/blog">#ConversacionesGobierto</a></li>
+        <li><a href="/conversaciones/">#ConversacionesGobierto</a></li>
       </ul>
     </div>
 
