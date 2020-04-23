@@ -239,6 +239,23 @@ blockquote {
   line-height: 1.5em;
   background: $cSubtleGray;
 }
+.blockquote_light {
+  opacity: .60;
+  position: relative;
+  padding: 0 0 0 1.5em;
+  margin: 0 0 2em 0;
+}
+.blockquote_light:before {
+  display: block;
+  content: "";
+  position: absolute;
+  color: #DFDFDF;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  width: 5px;
+  background: $cGray;
+}
 blockquote.quote {
   @include sans-serif(24px, 700, $cBlue);
   display: block;
@@ -279,14 +296,19 @@ caption {
 .Post__content {
   .image {
     margin-bottom: 2em;
-    img.Outline {
-      margin-bottom: 0;
+  }
+  img.Outline {
+    border: 5px solid;
+    margin: 2em 0;
+    border: 1px solid $cYellow;
+  }
+  
+  @media (min-width: $cMediaLarge) {
+    img.Bigger {
+      width: 144%;
+      margin-left: -22%;
     }
   }
-}
-.Post__content img.Outline {
-  margin: 2em 0;
-  border: 1px solid $cYellow;
 }
 .Post__content img.Shadow {
   box-shadow: 0 0 15px 1px rgba(0,0,0,0.20);

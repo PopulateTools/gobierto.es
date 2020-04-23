@@ -3,7 +3,7 @@ title: Software libre en la administración pública
 date: 2018-10-25 00:00:00 +02:00
 categories:
 - gobierno_abierto
-- tecnologia
+analysis: true
 layout: v2/post
 subtitle: Uno de esos debates a los que se vuelve regularlmente, pero a los que hay
   que volver, hasta que lo consigamos
