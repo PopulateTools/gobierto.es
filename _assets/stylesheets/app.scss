@@ -7,6 +7,9 @@ $color-pink-light: #FF776D;
 $color-yellow-soft: #F7C65A;
 $color-green-soft: #59BAC3;
 
+$color_facebook: #3A589A;
+$color_twitter: #00ABEF;
+$color_linkedin: #0074B5;
 
 html {
   scroll-behavior: smooth;
@@ -113,8 +116,25 @@ a {
     line-height: 1.5em;
     background: #cbd5e0;
   }
+  .blockquote_light {
+    opacity: .60;
+    position: relative;
+    padding: 0 0 0 1.5em;
+    margin: 0 0 2em 0;
+  }
+  .blockquote_light:before {
+    display: block;
+    content: "";
+    position: absolute;
+    color: #DFDFDF;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 5px;
+    background: #DDD;
+  }
   blockquote.quote {
-    font-wight: 700;
+    font-weight: 700;
     font-size: 24px;
     color: $color-brand-green;
     display: block;
@@ -151,6 +171,20 @@ a {
     line-height: 1.3em;
     margin: .5em 0 0 0;
   }
+  img.Outline {
+    margin: 2em 0;
+    border: 1px solid #DDD;
+  }
+  img.Shadow {
+    box-shadow: 0 0 6px 1px rgba(0,0,0,0.15);
+  }
+  @media (min-width: 1200px) {
+    img.Bigger {
+      max-width: initial;
+      width: 128%;
+      margin-left: -14%;
+    }
+  }
 }
 
 .video_wrapper {
@@ -180,4 +214,25 @@ a {
 
 .shadow-img {
   box-shadow: 0 0 20px 0 rgba(0,0,0,.25)
+}
+
+.share-icons {
+  i.fa-twitter {
+    background: $color_twitter;
+  }
+  i.fa-linkedin-in {
+    background: $color_linkedin;
+  }
+  i.fa-envelope-open {
+    background: $color-brand-yellow;
+  }
+  i.fa-twitter:hover {
+    background: darken($color_twitter, 10%);
+  }
+  i.fa-linkedin-in:hover {
+    background: darken($color_linkedin, 10%);
+  }
+  i.fa-envelope-open:hover {
+    background: darken($color-brand-yellow, 10%);
+  }
 }

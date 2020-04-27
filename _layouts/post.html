@@ -3,17 +3,17 @@ layout: blog
 ---
 
 {% capture i18n_date -%}
-{{ page.date | date: "%-d" -}}
-{% assign m = page.date | date: "%-m" | minus: 1 %}
-{{ site.data.months[m] }}
-{{ page.date | date: "%Y" -}}
+  {{ page.date | date: "%-d" -}}
+  {% assign m = page.date | date: "%-m" | minus: 1 %}
+  {{ site.data.months[m] }}
+  {{ page.date | date: "%Y" -}}
 {% endcapture -%}
 
 <div class="mb-4 text-xs uppercase opacity-50">
   <a href="/blog">Blog</a> <span class="text-gray-500 inline-block mx-2">/</span>
   {% if page.categories %}
     {% for cat in page.categories limit:1 %}
-      <a href="/temas/{{cat}}">{{ cat }}</a>
+      <a href="/temas/{{cat}}">{{ cat | replace: "_", " " }}</a>
     {% endfor %}
   {% endif %}
 </div>
@@ -31,8 +31,8 @@ layout: blog
   {% endif %}
 
   <div class="">
-    <h1 class="text-3xl font-bold color-brand-blue-dark" itemprop="name headline" data-share-text>{{ page.title }}</h1>
-    <div class="mb-4 color-brand-yellow" itemprop="description">{{ page.subtitle }}</div>
+    <h1 class="text-4xl font-bold mb-2 leading-tight color-brand-blue-dark" itemprop="name headline" data-share-text>{{ page.title }}</h1>
+    <div class="text-2xl leading-tight mb-8 color-brand-yellow" itemprop="description">{{ page.subtitle }}</div>
 
     {% if page.main_photo %}
       {% if page.main_photo contains '://' %}
@@ -46,13 +46,11 @@ layout: blog
       {{ content }}
     </div>
 
-    <div class="Post__meta">
+    <div class="mt-16 my-4 bg-gray-100 py-2 px-3 text-sm md:flex justify-between items-center">
 
-      <div class="Post__author_container">
-        <div class="Post__author"><span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span></div>
-        <div class="Post__date">
-          <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ i18n_date }}</time>
-        </div>
+      <div class="mb-8 md:mb-0">
+        <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
+        <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished" class="opacity-50 inline-block ml-2">{{ i18n_date }}</time>
       </div>
 
       {% include share_icons.html %}
@@ -60,32 +58,32 @@ layout: blog
     </div>
 
     {% if page.categories %}
-    <div class="Post__categories">
+    <div class="text-sm px-3 text-gray-500">
       Más sobre:
       {% for cat in page.categories %}
-      <a href="/temas/{{cat}}">{{ cat }}</a> ·
+      <a href="/temas/{{cat}}">{{ cat | replace: "_", " " }}</a> ·
       {% endfor %}
     </div>
     {% endif %}
 
+    
+    <div class="my-4 md:my-16 pt-4">
+      
+      <h3>Últimos posts publicados</h3>
 
-    <div class="Posts__last">
-      <h2>Últimos posts publicados</h2>
+      <div class="md:grid grid-cols-4 gap-8">
+        {% for post in site.posts limit:4 %}
+          <div class="mb-4 md:mb-0 ">
+            <a class=" no-underline " href="{{ post.url | prepend: site.baseurl }}">
+              <span class="date block text-xs text-gray-500">{{ post.date | date_to_string }}</span>
+              <span class="underline text-sm font-bold leading-snug block" itemprop="name headline">{{ post.title }}</span>
+            </a>
+          </div>
+        {% endfor %}
+      </div>
 
-    {% for post in site.posts limit:5 %}
-      <div class="Posts__post">
-        <a class="Blog__entryLink" href="{{ post.url | prepend: site.baseurl }}">
-          <span class="date">{{ post.date | date_to_string }}</span>
-          <span itemprop="name headline">{{ post.title }}</span>
-        </a>
-      </div>
-    {% endfor %}
-      <div class="Posts__post">
-        <a class="Blog__entryLink" href="/blog/">
-          <span class="date"> </span>
-          <span itemprop="name headline">ver todos</span>
-        </a>
-      </div>
+      <a class="block my-8 text-xs opacity-50 text-right" href="/blog/">ver todos</a>
+      
     </div>
 
   </div>

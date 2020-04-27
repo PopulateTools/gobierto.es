@@ -16,12 +16,13 @@
     <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title  | remove: 'Conversaciones CNIS: ' }}</a>
   {% endfor %}
 
-  <h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
+  {% if page.url != "/" %}
+    <h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
 
-  {% assign analysises = site.posts | where: "analysis", "true" %}
-  {% for post in analysises limit:3 %} 
-    <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title }}</a>
-  {% endfor %}
-  
+    {% assign analysises = site.posts | where: "analysis", "true" %}
+    {% for post in analysises limit:3 %} 
+      <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+  {% endif %}
 
 </div>
