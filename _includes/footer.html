@@ -8,7 +8,7 @@
   <div class="my-4 md:my-16"><a href="/">{% asset 'LogoGobierto@2x' class="transition w-32 md:w-40 -ml-10" %}</a></div>
 
   <div class="md:flex leading-7">
-      
+
     <div class="flex-1 mb-4">
       <div class="uppercase color-brand-blue-dark font-bold ">Servicios</div>
       <ul>
@@ -23,7 +23,11 @@
       <ul>
         {% for module_groups in site.data.modules_2020 %}
         {% for modules in module_groups[1].modules %}
-        <li><a href="/modulos/{{ modules[1].id }}/">{{ modules[1].title }}</a></li>
+        <li>
+          {% if modules[1].functionalities %}
+            <a href="/modulos/{{ modules[1].id }}/">{{ modules[1].title }}</a>
+          {% endif %}
+        </li>
         {% endfor %}
         {% endfor %}
       </ul>
@@ -57,7 +61,7 @@
         <li><a href="http://twitter.com/populate_">@populate_</a></li>
       </ul>
     </div>
-  
+
   </div>
 
   <div class="my-16 font-xs">
