@@ -144,8 +144,8 @@
         "title": "Inversiones", 
         "img": "modules/mod_inv_1.png"
       },
-      "contratos-y-subvenciones": {
-        "id": "contratos-y-subvenciones",
+      "contratos": {
+        "id": "contratos",
         "title": "Contratos y subvenciones", 
         "img": "modules/mod_con_1.png",
         "heading": "Toda la información sobre tus contratos públicos de manera clara y sencilla sin esfuerzo",
