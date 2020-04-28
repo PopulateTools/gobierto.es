@@ -25,6 +25,16 @@ Los servicios que el ciudadano disfruta de forma concreta, como una instalación
 
 En este post analizamos algunas cuestiones formales relativas al primer punto: nos preguntarnos **cómo los ayuntamientos cuentan a sus vecinos los servicios que ofrecen, cómo los organizan, explican**, y permiten hacer usos iniciales y continuados (renovaciones, repetición de un servicio que ya he utilizado). En otras palabras, como los municipios hacen su diseño de información.
 
+En este post: 
+
+<ol class="toc-list ">
+  <li class="toc-list-item"><a href="#1-navegación-principal-literales-organización-contenido" class="toc-link node-name--H2 ">Navegación principal: literales, organización contenido</a></li>
+  <li class="toc-list-item"><a href="#2-página-principal" class="toc-link node-name--H2 ">Página principal</a></li>
+  <li class="toc-list-item"><a href="#3-arquitectura-de-la-información-situación-de-los-servicios-y-trámites-dentro-de-la-estructura-de-información-de-la-web" class="toc-link node-name--H2 ">Arquitectura de la información: Situación de los servicios y trámites dentro de la estructura de información de la web</a></li>
+  <li class="toc-list-item"><a href="#4-explicación-de-un-servicio" class="toc-link node-name--H2 ">Explicación de un servicio</a></li>
+  <li class="toc-list-item"><a href="#conclusiones" class="toc-link node-name--H2 ">Conclusiones</a></li>
+</ol>
+
 Nos centramos en el canal web, asumiendo que el diseño de información desarrollado en este canal puede tener un reflejo natural y servir de base a la explotación de esta información en otros canales (telefónico, presencial, o especialmente un sistema de información que alimente a todos los canales). 
 
 Este análisis se enmarca en un proyecto que estamos haciendo para un municipio consistente en conceptualizar un catálogo de servicios: desde la visión interna que ayude a la organización a homogeneizar la información e indicadores hasta el diseño del catálogo de cara al ciudadano, finalizando con la implementación de la herramienta para gestionarlo en Gobierto. Pronto noticias. 
