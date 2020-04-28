@@ -43,7 +43,7 @@
                 x-transition:leave-end="transform opacity-0 scale-95" 
                 class="origin-center absolute w-48 rounded-md shadow-lg"
               >
-                <div class="py-1 rounded-md bg-white shadow-xs">
+                <div class="py-1 rounded-md bg-white shadow-xs" @mouseleave="open = false">
 
                   {% for module_groups in site.data.modules_2020 %}
                     {% for modules in module_groups[1].modules %}
