@@ -132,7 +132,9 @@ layout: default
             </div>
             <div class="lg:col-span-3">
               {% if modules[1].img %}
-                <a href="/modulos/{{ modules[1].id }}" class="block transform duration-500 hover:-translate-x-3">{% asset '{{ modules[1].img }}' style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" %}</a>
+                {% if modules[1].functionalities %}<a href="/modulos/{{ modules[1].id }}" class="block transform duration-500 hover:-translate-x-3">{% endif %}
+                  {% asset '{{ modules[1].img }}' style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" %}
+                {% if modules[1].functionalities %}</a>{% endif %}
               {% endif %}
               <p class="mt-8">{{ modules[1].subheading }}</p>
             </div>

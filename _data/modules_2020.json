@@ -144,10 +144,48 @@
         "title": "Inversiones", 
         "img": "modules/mod_inv_1.png"
       },
-      "contratos": {
+      "contratos-y-subvenciones": {
         "id": "contratos-y-subvenciones",
         "title": "Contratos y subvenciones", 
-        "img": "modules/mod_con_1.png"
+        "img": "modules/mod_con_1.png",
+        "heading": "Toda la información sobre tus contratos públicos de manera clara y sencilla sin esfuerzo",
+        "subheading": "Encuentra, conoce y explica la situación de todos y cada uno de los contratos públicos de tu Administración aprovechando los datos que ya has publicado",
+        "key0": "Ofrece una visualización clara de tus planes estratégicos y de actuación",
+        "key1": "Permite a los ciudadanos explorar los planes y consultar su estado de ejecución",
+        "key2": "Creado por Gobierto y <a href=''>Sergio Jimenez</a> de Analítica Pública",
+        "functionalities": [{
+          "title": "Elaboración",
+          "description": "Edición colaborativa online",
+          "explanation": "Una herramienta para la creación colaborativa de tus planes. Permite a tus equipos colaborar añadiendo proyectos, categorizando, priorizando y compartiendo borradores. Gestiona el flujo de trabajo para la aprobación y publicación.<br><br>Proporciona a cada responsable de proyecto un interfaz sencillo para publicar actualizaciones sobre el estado de los mismos, añadiendo notas y documentación.<br><br>Cuadro de mando compartido para el equipo y gestores."
+        }, {
+          "title": "Publicación y visualización",
+          "description": "Comparte tus planes ",
+          "explanation": "Publica tu planificación de forma visual y atractiva para facilitar su exploración y comprensión.<br><br>Publica tus <strong>Planes estratégicos</strong>, <strong>Planes de actuación (PAM)</strong> y <strong>Planes sectoriales</strong>.<br><br>Permite explorar los ejes, líneas, actuaciones y proyectos. Decide el nivel de detalle que quieres hacer público."
+        }, {
+          "title": "Informa sobre el progreso",
+          "description": "Seguimiento del plan",
+          "explanation": "Ofrece información actualizada sobre el progreso en el cumplimiento del plan. Visualiza el cumplimiento de cada proyecto y muestra el estado agregado de progreso por categoría y del plan en su conjunto.<br><br>Identifica los progresos o categorías con retrasos relevantes y sus causas."
+        }, {
+          "title": "Rendición de cuentas",
+          "description": "Automatiza la rendición",
+          "explanation": "Estructura tu rendición de cuentas con la publicación de los informes de progreso de los planes, generados de forma automática. Dispón de un panel en tiempo real sobre el estado de los compromisos adquiridos en el plan, con acceso al detalle de la evolución de los mismos a través de las fichas de proyectos.<br><br>Permite a los usuarios recibir alertas automáticas para que estén informados de forma periódica, generando impactos de comunicación de calidad con un coste marginal."
+        }, {
+          "title": "Personaliza la estructura",
+          "description": "Flexibilidad para organizar tu información",
+          "explanation": "Organiza el contenido de tus planes de forma flexible: define los niveles jerarquicos que necesites (ejes, líneas de actuación, actuaciones, proyectos...) y personaliza el número de niveles que necesitas. Configura dependencias entre proyectos."
+        }, {
+          "title": "Proyectos",
+          "description": "Baja al detalle",
+          "explanation": "Personaliza tu ficha de proyecto para mostrar sus características de acuerdo a las necesidades de tu organización y de tu plan: nombre, descripción, fechas, estado, porcentaje de progreso...<br><br>Añade información sobre los proyectos: imágenes, documentos, videos... Ilustra el estado de un proyecto con un dossier multimedia."
+        }, {
+          "title": "Evaluación y participación",
+          "description": "Colaboració ciudadana para la elaboración",
+          "explanation": "Permite a tus usuarios opinar sobre las prioridades planteadas durante el proceso de elaboración del plan para informar las decisiones del equipo gestor.<br><br>Incorpora las opiniones y comentarios de los ciudadanos sobre actuaciones a realizar.<br><br>Haz de la elaboración del plan un proceso colaborativo."
+        }, {
+          "title": "Conecta con el presupuesto",
+          "description": "Datos enlazados",
+          "explanation": "Relaciona un proyecto con su correspondiente partida presupuestaria. En conjunto con <a href='/modulos/presupuestos'>Gobierto Presupuestos</a>, podrás mostrar proyectos en el presupuesto, y las cifras asociadas a los proyectos desde Gobierto Planes, enlazando partidas y proyectos."
+        }]
       },
       "presupuestos": {
         "id": "presupuestos",

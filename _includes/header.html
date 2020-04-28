@@ -44,11 +44,17 @@
                 class="origin-center absolute w-48 rounded-md shadow-lg"
               >
                 <div class="py-1 rounded-md bg-white shadow-xs">
-                  {% for node in site.data.modules %}
-                  <div class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {% if page.url == node[1].permalink %} is-active{% endif %}">
-                    <i class="fas fa-{{ node[1].icon }}"></i> <a href="{{ node[1].permalink }}">{{ node[1].short-title }}</a>
-                  </div>
+
+                  {% for module_groups in site.data.modules_2020 %}
+                    {% for modules in module_groups[1].modules %}
+                      {% if modules[1].functionalities %}
+                      <div class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {% if page.url == node[1].permalink %} is-active{% endif %}">
+                        <a href="/modulos/{{ modules[1].id }}">{{ modules[1].title }}</a>
+                      </div>
+                      {% endif %}
+                    {% endfor %}
                   {% endfor %}
+
                 </div>
               </div>
             </div>
