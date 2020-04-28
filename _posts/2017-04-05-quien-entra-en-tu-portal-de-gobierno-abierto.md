@@ -4,7 +4,7 @@ date: 2017-04-05 19:00:00 +02:00
 categories:
 - transparencia
 - participacion
-layout: v2/post
+layout: post
 subtitle: 'Habitualmente hablamos del objeto de la transparencia y la participación
   en générico: los ciudadanos. Pero ¿quienes son? ¿Qué motivos tienen para entrar
   en un portal de gobierno abierto?'

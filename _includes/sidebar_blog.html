@@ -1,0 +1,30 @@
+<div class="text-sm">
+
+  <h2 class="font-bold color-pink-light mt-2 mb-4">En nuestro blog</h2>
+
+  {% for post in site.posts limit:3 %}
+    <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+  {% endfor %}
+
+  <h2 class="font-bold color-pink-light mt-12 mb-4"><a class="color-pink-light" href="/conversaciones/">#ConversacionesGobierto</a></h2>
+
+  {% assign conversaciones = site.posts | where: "conversaciones_gobierto", "true" %}
+  {% for post in conversaciones limit:1 %} 
+    {% if forloop.index == 1 %}
+    <a class="block mb-2" href="{{ post.url }}">{% asset '{{ post.main_photo }}' %} </a>
+    {% endif %}  
+    <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title  | remove: 'Conversaciones CNIS: ' }}</a>
+  {% endfor %}
+
+  {% if page.url != "/" %}
+    <h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
+
+    {% assign analysises = site.posts | where: "categories", "analisis" %}
+    {% for post in analysises limit:3 %} 
+      <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title }}</a>
+    {% endfor %}
+
+    <a class="block md:text-xs lg:text-sm mt-4 mb-4 opacity-50" href="/temas/analisis/">ver todos</a>
+  {% endif %}
+
+</div>

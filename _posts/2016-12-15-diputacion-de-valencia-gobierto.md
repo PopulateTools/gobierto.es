@@ -4,7 +4,8 @@ title: Gobierto colabora con la Diputación de Valencia para poner en marcha ini
 date: 2016-12-15 08:00:00 +01:00
 categories:
 - clientes
-layout: v2/post
+client: Diputación de Valencia
+layout: post
 subtitle: Ayudamos a la Diputación a implantar el módulo de Personas y Agendas de
   Gobierto
 author: Álvaro Ortiz

@@ -203,18 +203,10 @@ sup {
   margin: 0 8px 0 -18px
 }
 
-.Post__content {
-  // p + ul {
-  //
-  // }
-}
-
 .Post__content img {
   width: 100%;
   height: auto;
 }
-
-
 
 .Post__content hr {
   border: none;
@@ -302,16 +294,15 @@ caption {
     margin: 2em 0;
     border: 1px solid $cYellow;
   }
-  
+  img.Shadow {
+    box-shadow: 0 0 15px 1px rgba(0,0,0,0.20);
+  }
   @media (min-width: $cMediaLarge) {
     img.Bigger {
       width: 144%;
       margin-left: -22%;
     }
   }
-}
-.Post__content img.Shadow {
-  box-shadow: 0 0 15px 1px rgba(0,0,0,0.20);
 }
 
 @media (max-width: $cMediaMobile) and (orientation: portrait) {

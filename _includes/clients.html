@@ -1,0 +1,22 @@
+<div class="container mx-auto md:my-16 p-8 py-16">
+
+  <div class="text-3xl font-bold md:mb-16 color-brand-green">Cosas que hemos hecho</div>
+  
+  {% assign clients = site.posts | where: "categories", "clientes" %}
+  
+  <div class="md:-m-6 lg:flex flex-auto flex-wrap client-card">
+  {% for post in clients %}
+    <div class="{% cycle 'lg:w-2/5', 'lg:w-3/5 md:text-right ', 'lg:w-3/5', 'lg:w-2/5 md:text-right' %} transform hover:scale-105 duration-500 ">
+      <div class="my-6 md:m-6 p-6 hover:shadow-md duration-300 md:h-56 {% cycle 'bg-brand-blue-dark', 'bg-brand-green', 'bg-brand-yellow', 'bg-red', 'bg-green-soft' %}">
+        <div class="relative h-full  ">
+          <div class="md:text-xl font-bold {% cycle 'xl:w-2/3', 'md:w-1/2 md:float-right', 'md:w-1/2', 'md:w-2/3 md:float-right' %}">
+            <a class="{% cycle 'text-white', 'color-brand-blue-dark', 'color-brand-blue-dark', 'color-brand-blue-dark', 'color-brand-blue-dark' %}  no-underline" href="{{ post.url }}">{{ post.title }}</a>
+          </div>
+          <div class="text-sm uppercase font-bold md:absolute md:bottom-0 color-brand-yellow">{{ post.client }}</div>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+  </div>
+
+</div>

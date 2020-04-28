@@ -4,7 +4,7 @@ title: Populate recibe el premio al Periodista del Año por su participación en
 date: 2017-06-26 00:00:00 +02:00
 categories:
 - gobierto
-layout: v2/post
+layout: post
 subtitle: La Asociación de la Prensa de Madrid premia de forma colectiva a todos los
   españoles que participaron en el proyecto
 author: Álvaro Ortiz

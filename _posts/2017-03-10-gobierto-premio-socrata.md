@@ -4,7 +4,8 @@ title: El proyecto de Gobierto para la Generalitat de Catalunya es premiado en l
 date: 2017-03-10 08:00:00 +01:00
 categories:
 - clientes
-layout: v2/post
+module: presupuestos
+layout: post
 subtitle: la integración de los datos abiertos de presupuestos municipales catalanes
   en Gobierto es destacado por el proveedor del portal open data
 author: Álvaro Ortiz

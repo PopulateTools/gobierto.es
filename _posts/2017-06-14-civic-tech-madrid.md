@@ -3,7 +3,7 @@ title: CivicTechMadrid, encuentros sobre diseño y tecnología cívica
 date: 2017-06-14 00:00:00 +02:00
 categories:
 - gobierto
-layout: v2/post
+layout: post
 subtitle: 'Primera edición: miércoles 21 de junio'
 author: Álvaro Ortiz
 main_photo: posts/170614-CivicTechMadridBase.png

@@ -1,19 +1,10 @@
 ---
 title: Publicación de agendas de altos cargos y perfiles
 permalink: "/modulos/altos-cargos-y-agendas/"
-layout: v2/default
+layout: default
 kind: module
 excerpt: "Transparencia de agendas. Muestra el organigrama y agendas de altos cargos y directivos de tu organización y permite seguir su actividad con alertas personalizadas."
 ---
 
-{% assign module = site.data.modules.altos-cargos-y-agendas %}
-
-{% include v2/module_cover.html module=module youtube_video_id=module.youtube_video_id %}
-{% include v2/features.html title=module.title features=module.features %}
-{% include v2/functionalities.html title=module.title functionalities=module.functionalities %}
-{% include v2/global_functionalities.html %}
-{% include v2/users.html users=module.users %}
-{% include v2/demo.html %}
-{% include v2/slideshow.html %}
-{% include v2/contact.html %}
-{% include v2/clients.html %}
+{% assign module = site.data.modules_2020.group_transparencia.modules.altos-cargos-y-agendas %}
+{% include module.html module=module %}

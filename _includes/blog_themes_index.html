@@ -1,0 +1,36 @@
+<div class="flex">
+
+  <div class="w-1/3 pr-16" >
+
+    <div class="sticky top-0" style="padding-top: 75px;">
+    <ul style="margin: 0;">
+      {% assign sorted_cats = site.categories | sort %}
+
+      {% for category in sorted_cats %}
+        {% capture category_name %}{{ category | first }}{% endcapture %}
+        <li style="margin-bottom: 4px; font-size: 0.85em; line-height: 1;"><a href="#{{ category_name }}">{{ category_name | replace: "_", " " }}</a></li>
+      {% endfor %}
+    </ul>
+    </div>
+
+  </div>
+
+  <div class="w-2/3">
+
+    {% for category in site.categories | sort %}
+      {% capture category_name %}{{ category | first }}{% endcapture %}
+      <p name="{{ category_name }}" id="{{ category_name }}"></p>
+      <h2 class="category-head"><a href="/temas/{{ category_name }}">{{ category_name | replace: "_", " " }}</a></h2>
+
+      {% for post in site.categories[category_name] %}
+      <article class="mb-4 flex">
+        <div class="text-xs text-gray-500 w-24 flex-none">{{ post.date | date_to_string }}</div>
+        <div><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
+      </article>
+      {% endfor %}
+
+    {% endfor %}
+
+  </div>
+
+</div>

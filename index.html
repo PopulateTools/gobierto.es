@@ -1,11 +1,173 @@
 ---
-layout: v2/default
+layout: default
 ---
 
-{% include v2/cover.html %}
-{% include v2/methodology.html %}
-{% include v2/modules.html %}
-{% include v2/demo.html %}
-{% include v2/slideshow.html %}
-{% include v2/contact.html %}
-{% include v2/clients.html %}
+<div class="xl:max-w-screen-xl mx-auto p-8 pt-32 md:pt-0 md:p-0 lg:p-0 md:flex items-center items-stretch">
+
+  <div class="lg:w-2/3 md:pl-16 md:pr-16 lg:pr-32 xl:pr-64">
+
+    <h1 class="text-3xl md:text-4xl md:pt-32 mb-4 color-brand-blue-dark font-black">Diseño de <strong>servicios digitales</strong> con las <strong>personas y los datos</strong> en el centro</h1>
+    <h2 class="text-2xl mb-24 color-brand-blue-dark opacity-50">Ayudamos a las <strong>administraciones públicas</strong> a <strong>conectar mejor con los ciudadanos</strong> mediante <strong>servicios digitales de calidad</strong> que sitúan a las <strong>personas y los datos en el centro</strong>.</h2>
+    <p class="pb-16">Conoce nuestros <a href="#servicios">servicios</a> y nuestra <a href="#producto">plataforma de software</a>.</p>
+
+  </div>
+
+  <div class="lg:w-1/3 md:text-xs lg:text-base py-2 px-4 lg:p-16" style="background: #F9F7F4; ">
+
+    {% include sidebar_blog.html %}
+
+  </div>
+
+</div>
+
+<div class="py-16 px-8 md:px-0 bg-yellow-soft" id="servicios">
+
+  <div class="container mx-auto px-8">
+
+    <div class="text-3xl font-bold mb-16 color-brand-green">Te ayudamos con...</div>
+
+    <div class="md:grid grid-cols-2 lg:grid-cols-3">
+
+      {% for service in site.data.services %}
+      <div class="mb-8 pr-4 flex">
+        <div class="items-strech pr-4 w-16">
+          {% asset '{{ service[1].shape }}' %}
+        </div>
+        <div>
+          <h2 class="color-brand-blue-dark text-xl font-bold">{{ service[1].title }}</h2>
+          <ul>
+            {% for feature in service[1].features %}
+            <li class="text-gray-700">{{ feature }}</li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="py-16 px-8 md:px-0 bg-green-soft" style="background-color: #86D4D2; ">
+
+  <div class="container mx-auto px-8">
+
+    <div class="md:text-3xl font-bold mb-16 color-brand-blue-dark opacity-75" >Te ayudamos a...</div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 flex">
+
+      {% for item in site.we_help_you_to %}
+        <div class="mb-8 pr-4 self-end">
+          {% capture shape %}shape-{% cycle '7', '8', '9', '10', '11', '12' %}{% endcapture %}
+          {% capture margin %}{% cycle 'my-1', '', 'my-2', '', '', '' %}{% endcapture %}
+          {% asset '{{ shape }}' class="w-16 {{ margin }} " %}
+          <h2 class="color-brand-blue-dark text-xl font-bold">{{ item }}</h2>
+        </div>
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>
+
+
+<div
+  class="lg:max-w-screen-xl mx-auto p-8 md:p-16 md:py-32 lg:pr-64 lg:pl-16 md:bg-right"
+  style="background-image: url( '{% asset shape-circle-big.svg @path %}' ); background-repeat: no-repeat; "
+>
+
+  <div class="md:text-4xl mb-4 color-brand-blue-dark">
+    Basamos nuestro trabajo en <strong>hacer las preguntas apropiadas y colaborar contigo para encontrar las respuestas e implementar las soluciones</strong>
+  </div>
+
+  <div class="md:text-3xl" id="home_questions">
+  {% for item in site.home_questions %}
+    <div class="inline color-brand-green opacity-25 duration-500">{{ item }}</div>
+  {% endfor %}
+  </div>
+
+</div>
+
+<div class="py-8 bg-yellow-soft" id="producto">
+
+  <div class="p-4 lg:max-w-screen-xl mx-auto lg:flex" x-data="{ tab: 'datos-abiertos' }">
+
+    <div class="py-8 lg:w-1/6 pr-12">
+
+      {% for module_groups in site.data.modules_2020 %}
+      <div class="mb-8 pr-4">
+        <h2 class="px-2 py-1 color-brand-blue-dark text-sm leading-tight font-bold mb-2">{{ module_groups[1].title }}</h2>
+        <ul>
+          {% for modules in module_groups[1].modules %}
+          <li
+            class="px-2 py-1 rounded-md color-brand-blue-dark text-sm leading-tight mb-1 transition duration-500 ease-in-out hover:bg-orange-200 cursor-pointer"
+            :class="{ 'bg-orange-300': tab === '{{ modules[1].id }}' }" 
+            @click="tab = '{{ modules[1].id }}'"
+          ><a href="#module-pad" class="no-underline color-brand-blue-dark">{{ modules[1].title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+
+    </div>
+
+
+    <div class="py-8 lg:w-5/6 color-brand-blue-dark" id="module-pad">
+      
+      {% for module_groups in site.data.modules_2020 %}
+        {% for modules in module_groups[1].modules %}
+          <div class="lg:grid grid-cols-3 gap-4" x-show="tab === '{{ modules[1].id }}'" 
+            x-transition:enter="transition ease-out duration-300" 
+            x-transition:enter-start="transform opacity-0 translate-x-64 scale-50" 
+            x-transition:enter-end="transform opacity-100 translate-x-0 scale-100" 
+            >
+            <div class="lg:col-span-1">
+              <h2 class="color-brand-blue-dark text-xl font-bold">{{ modules[1].title }}</h2>
+            </div>
+            <div class="lg:col-span-2 text-sm">
+              {{ modules[1].heading }}
+            </div>
+            <div class="lg:col-span-3">
+              {% if modules[1].img %}
+                {% if modules[1].functionalities %}<a href="/modulos/{{ modules[1].id }}" class="block transform duration-500 hover:-translate-x-3">{% endif %}
+                  {% asset '{{ modules[1].img }}' style="box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);" %}
+                {% if modules[1].functionalities %}</a>{% endif %}
+              {% endif %}
+              <p class="mt-8">{{ modules[1].subheading }}</p>
+            </div>
+          </div>
+        {% endfor %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>
+
+{% include clients.html %}
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var elements = document.getElementById("home_questions").children;
+
+  for(var i = 0; i < elements.length; i++) {
+    highlightPhrase(i);
+  }
+
+  function highlightPhrase(i) {
+    setTimeout(function() {
+      elements[i].classList.toggle("opacity-25");
+      if(i > 0) {
+        elements[i-1].classList.toggle("opacity-25");
+      }
+      // elements[i].classList.toggle("font-bold");
+      // elements[i-1].classList.toggle("font-bold");
+    }, 2000 * i);
+  }
+});
+</script>

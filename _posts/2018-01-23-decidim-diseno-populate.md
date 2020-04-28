@@ -4,7 +4,8 @@ date: 2018-01-23 00:00:00 +01:00
 categories:
 - experiencia_de_usuario
 - clientes
-layout: v2/post
+client: Ajuntament de Barcelona
+layout: post
 subtitle: ''
 author: Álvaro Ortiz
 main_photo: posts/180123-decidim-1.png

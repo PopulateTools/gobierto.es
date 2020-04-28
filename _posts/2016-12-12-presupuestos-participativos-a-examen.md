@@ -3,7 +3,7 @@ title: Panorama sobre los presupuestos participativos en España
 date: 2016-12-12 10:00:00 +01:00
 categories:
 - participacion
-layout: v2/post
+layout: post
 subtitle: Repasamos varias iniciativas de presupuestos participativos en municipios
   de distintos tamaños. ¿Qué podemos aprender de ellos?
 author: Rafa de las Cuevas

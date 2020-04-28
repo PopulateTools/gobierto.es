@@ -1,0 +1,95 @@
+
+{% if page.url != '/newsletter/' %}
+  {% include newsletter.html %}
+{% endif %}
+
+<footer class="container mx-auto text-sm md:my-16 text-gray-500 p-8">
+
+  <div class="my-4 md:my-16"><a href="/">{% asset 'LogoGobierto@2x' class="transition w-32 md:w-40 -ml-10" %}</a></div>
+
+  <div class="md:flex leading-7">
+
+    <div class="flex-1 mb-4">
+      <div class="uppercase color-brand-blue-dark font-bold ">Servicios</div>
+      <ul>
+      {% for service in site.data.services %}
+        <li>{{ service[1].title }}</li>
+      {% endfor %}
+    </ul>
+    </div>
+
+    <div class="flex-1 mb-4">
+      <div class="uppercase color-brand-blue-dark font-bold">Producto</div>
+      <ul>
+        {% for module_groups in site.data.modules_2020 %}
+        {% for modules in module_groups[1].modules %}
+        <li>
+          {% if modules[1].functionalities %}
+            <a href="/modulos/{{ modules[1].id }}/">{{ modules[1].title }}</a>
+          {% endif %}
+        </li>
+        {% endfor %}
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="flex-1 mb-4">
+      <div class="uppercase color-brand-blue-dark font-bold">Quién lo usa</div>
+      <ul>
+        <li><a href="/temas/clientes">Clientes</a></li>
+      </ul>
+    </div>
+
+    <div class="flex-1 mb-4">
+      <div class="uppercase color-brand-blue-dark font-bold">Blog</div>
+      <ul>
+        <li><a href="/blog">Últimos posts</a></li>
+        <li><a href="/temas/analisis">Análisis y guías</a></li>
+        <li><a href="/conversaciones/">#ConversacionesGobierto</a></li>
+      </ul>
+    </div>
+
+    <div class="flex-1 mb-4">
+      <div class="uppercase color-brand-blue-dark font-bold">Acerca de</div>
+      <ul>
+        <li><a href="/acerca-de/">Quiénes somos</a></li>
+        <li><a href="/open-source">Software libre</a></li>
+        <li><a href="https://gobierto.readme.io">Documentación</a></li>
+        <li class="mt-8"><a href="mailto:abre@gobierto.es">abre@gobierto.es</a></li>
+        <li><a href="http://twitter.com/gobierto">@gobierto</a></li>
+        <li><a href="http://twitter.com/populate_">@populate_</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="my-16 font-xs">
+    Gobierto es un producto de <a href="https://populate.tools" >Populate</a>
+  </div>
+
+</footer>
+
+<script type="text/javascript">
+  // {{ jekyll.environment }}
+  {% if jekyll.environment == "development" -%}
+  ga('create', 'UA-69636046-3', 'auto');
+  ga('send', 'pageview');
+  mixpanel.init("a22a372d8b32aee7752b0f1a6094b6d8");
+  {% elsif jekyll.environment == "production" -%}
+  ga('create', 'UA-69636046-1', 'auto');
+  ga('send', 'pageview');
+  mixpanel.init("846fad87149cef36298ce1a22b0003cf");
+  {% endif -%}
+</script>
+
+<!-- MailerLite Universal -->
+<script>
+(function(m,a,i,l,e,r){ m['MailerLiteObject']=e;function f(){
+var c={ a:arguments,q:[]};var r=this.push(c);return "number"!=typeof r?r:f.bind(c.q);}
+f.q=f.q||[];m[e]=m[e]||f.bind(f.q);m[e].q=m[e].q||f.q;r=a.createElement(i);
+var _=a.getElementsByTagName(i)[0];r.async=1;r.src=l+'?v'+(~~(new Date().getTime()/1000000));
+_.parentNode.insertBefore(r,_);})(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+var ml_account = ml('accounts', '973324', 'w1x9v5r3g2', 'load');
+</script>
+<!-- End MailerLite Universal -->

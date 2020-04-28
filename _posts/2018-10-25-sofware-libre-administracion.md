@@ -3,8 +3,8 @@ title: Software libre en la administración pública
 date: 2018-10-25 00:00:00 +02:00
 categories:
 - gobierno_abierto
-analysis: true
-layout: v2/post
+- analisis
+layout: post
 subtitle: Uno de esos debates a los que se vuelve regularlmente, pero a los que hay
   que volver, hasta que lo consigamos
 author: Álvaro Ortiz
@@ -17,7 +17,7 @@ Pero si que estamos pendientes de la conversación. Hemos podido [leer este twee
 
 Obviamente tenemos nuestro sesgo porque nosotros ya estamos haciendo software abierto para administraciones, pero aún así trataremos de dejar algunos argumentos al respecto (y supongo que quién opinaba en Novagob a favor del software propietario tendría el suyo).
 
-Ya hay muchos posts donde se pueden leer razones por las que una administración pública debería producir software libre.
+Ya hay muchos posts donde se pueden leer razones por las que una administración pública debería producir [software libre](/open-source/).
 
 Nosotros vamos más allá: pensamos que debería ser obligatorio que el software generado por una administración pública sea abierto. Y estamos convencidos de que así será dentro de unos años, tal vez décadas.
 

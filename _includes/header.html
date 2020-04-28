@@ -1,0 +1,92 @@
+<script>
+// window.onscroll = function() {scrollFunction()};
+
+// function scrollFunction() {
+//   if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+//     document.getElementById("nav-header").classList.add("h-4");
+//   } else {
+//     document.getElementById("nav-header").classList.remove("h-4");
+//   }
+// }
+</script>
+
+<nav 
+  x-data="{ open: false }" 
+  @keydown.window.escape="open = false" 
+  class="bg-gray-800 bg-cover bg-center fixed md:relative w-full transition-all duration-500 ease-in-out z-10 top-0" 
+  id="nav-header" 
+  style="background-image: url( '{% asset bg-header.jpg @path %}' );"
+>
+  <div class="max-w-7xl container mx-auto px-4">
+    <div class="flex items-center justify-between h-12 md:h-16">
+      <div class="flex items-center w-full justify-between">
+        <div class="flex-shrink-0">
+          <a href="/">{% asset 'Gobierto-Logo-Text-White.png' class="transition w-32 md:w-48" %}</a>
+        </div>
+        <div class="hidden md:block">
+          <div class="ml-10 flex items-baseline content-end">
+            <!-- {% if page.permalink == '/acerca-de/' %} is-active{% endif %} -->
+            <a href="/#servicios" class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Servicios</a>
+            
+            <div @click.away="open = false" class="relative z-50" x-data="{ open: false }">
+              <a 
+                @mouseenter="open = true"                  
+                href="/#producto" 
+                id="product-menu" aria-label="User menu" aria-haspopup="true" x-bind:aria-expanded="open"
+                class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Producto</a>
+              <div x-show="open" 
+                x-transition:enter="transition ease-out duration-100" 
+                x-transition:enter-start="transform opacity-0 scale-95" 
+                x-transition:enter-end="transform opacity-100 scale-100" 
+                x-transition:leave="transition ease-in duration-75" 
+                x-transition:leave-start="transform opacity-100 scale-100" 
+                x-transition:leave-end="transform opacity-0 scale-95" 
+                class="origin-center absolute w-48 rounded-md shadow-lg"
+              >
+                <div class="py-1 rounded-md bg-white shadow-xs" @mouseleave="open = false">
+
+                  {% for module_groups in site.data.modules_2020 %}
+                    {% for modules in module_groups[1].modules %}
+                      {% if modules[1].functionalities %}
+                      <div class="block px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 {% if page.url == node[1].permalink %} is-active{% endif %}">
+                        <a href="/modulos/{{ modules[1].id }}">{{ modules[1].title }}</a>
+                      </div>
+                      {% endif %}
+                    {% endfor %}
+                  {% endfor %}
+
+                </div>
+              </div>
+            </div>
+
+            <a href="/temas/clientes" class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Clientes</a>
+            <a href="/blog" class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Blog</a>
+            <a href="/acerca-de" class="no-underline ml-4 px-3 py-2 rounded-md text-sm font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Acerca de</a>
+          </div>
+        </div>
+      </div>
+      <div class="hidden md:block">
+        <div class="ml-4 flex items-center md:ml-6">
+          
+        </div>
+      </div>
+      <div class="-mr-2 flex md:hidden">
+        <button @click="open = !open" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:bg-gray-700 focus:text-white" x-bind:aria-label="open ? 'Close main menu' : 'Main menu'" x-bind:aria-expanded="open">
+          <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
+            <path :class="{'hidden': open, 'inline-flex': !open }" class="inline-flex" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            <path :class="{'hidden': !open, 'inline-flex': open }" class="hidden" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div :class="{'block': open, 'hidden': !open}" class="hidden md:hidden " @click="open = !open" >
+    <div class="px-2 pt-2 pb-3 sm:px-3">
+      <a href="/#servicios" class="block px-3 py-2 rounded-md text-base font-medium text-white focus:outline-none focus:text-white focus:bg-gray-700">Servicios</a>
+      <a href="/#producto" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Producto</a>
+      <a href="/temas/clientes/" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Clientes</a>
+      <a href="/blog/" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Blog</a>
+      <a href="/acerca-de/" class="mt-1 block px-3 py-2 rounded-md text-base font-medium text-gray-300 hover:text-white hover:bg-gray-700 focus:outline-none focus:text-white focus:bg-gray-700">Acerca de</a>
+    </div>
+  </div>
+</nav>

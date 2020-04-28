@@ -4,7 +4,7 @@ date: 2016-09-01 09:00:00 +02:00
 categories:
 - transparencia
 - visualizacion_de_datos
-layout: v2/post
+layout: post
 subtitle: Herramienta interactiva para entender cuándo tu ayuntamiento podrá deshacerse de su deuda
 author: Populate
 main_photo_big:
@@ -50,12 +50,36 @@ main_photo_big:
 
 <p><strong>¿Cuánto tiempo tardaremos en pagar la deuda municipal (si no se generase nueva deuda)?</strong></p>
 
+<!--
+
+PENDING 
+
+@media screen and (max-width: 1024px) {
+	.column .tool {
+    margin: 0 -5%;
+    width: 110%;
+  }
+}
+@media screen and (max-width: 740px) {
+	/* features */
+  #debt_evolution_widget {
+    height: 700px !important;
+  }
+  .debt_story_slides {
+    .block {
+      padding: 1em;
+      margin-bottom: 1em;
+    }
+  }
+}
+
+-->
+
 <div class="tool">
 
   <div class="separator blue short"></div>
 
   <div class="full_width">
-    {% asset 'v2/feature_debt_projection_interactive.css' %}
     <iframe src="/widgets/debt_projection_interactive/" id="debt_evolution_widget" scrolling="no" style="border: 0; padding: 0; margin: 0; height: 350px; width: 100%;" frameborder="no" align="center"></iframe>
 
   </div>

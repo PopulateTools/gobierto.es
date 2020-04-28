@@ -5,7 +5,7 @@ date: 2017-04-25 00:00:00 +02:00
 categories:
 - participacion
 - gobierno_abierto
-layout: v2/post
+layout: post
 subtitle: Seguimos nuestra serie de conversaciones con expertos en participación ciudadana.
   Encarna Hernández vivió desde dentro el primer presupuesto participativo municipal
   de la Región de Murcia

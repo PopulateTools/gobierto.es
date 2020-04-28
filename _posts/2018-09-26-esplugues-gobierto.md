@@ -3,9 +3,10 @@ title: Portal Abierto de Esplugues de Llobregat, basado en Gobierto
 date: 2018-09-26 00:00:00 +02:00
 categories:
 - clientes
-layout: v2/post
+layout: post
 subtitle: Presupuestos, agendas de altos cargos, observatorio estadístico y más información
   para acercar la administración de Esplugues a sus ciudadanos
+client: Ajuntament d'Esplugues de Llobregat
 author: Álvaro Ortiz
 main_photo: posts/180926-esplugues.png
 ---

@@ -2,7 +2,7 @@
 title: Conversaciones Gobierto
 subtitle: Una serie de conversaciones con personajes relevantes del mundo de los datos, la gestión pública, el gobierno abierto...
 permalink: "/conversaciones/"
-layout: v2/default
+layout: default
 main_photo: conv_gobierto/2004-CG-adelgado-small.png
 ---
 
@@ -53,7 +53,7 @@ main_photo: conv_gobierto/2004-CG-adelgado-small.png
         
         </div>
 
-        <div class="ml-form-embed my-16"
+        <div class="ml-form-embed my-16 sticky top-0"
           data-account="973324:w1x9v5r3g2"
           data-form="1991460:c6f7p9">
         </div> 
@@ -78,8 +78,8 @@ main_photo: conv_gobierto/2004-CG-adelgado-small.png
 
         {% for post in site.posts %}
           {% if post.conversaciones_gobierto %}
-          <div class="Posts__post mb-16">
-            {% include v2/post.html %}
+          <div class="mb-16">
+            {% include post.html %}
           </div>
           {% endif %}
         {% endfor %}

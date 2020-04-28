@@ -5,8 +5,8 @@ date: 2017-04-19 10:00:00 +02:00
 categories:
 - clientes
 - participacion
-- gobierno_abierto
-layout: v2/post
+client: Ayuntamiento de Madrid
+layout: post
 subtitle: 'Colaboración entre administraciones y sector privado: haciendo más eficiente
   el uso de los recursos'
 author: Álvaro Ortiz

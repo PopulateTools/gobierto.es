@@ -6,7 +6,7 @@ categories:
 - participacion
 - experiencia_de_usuario
 - diseno_de_servicios
-layout: v2/post
+layout: post
 subtitle: Ejemplos de herramientas para comunicar presupuestos y recopilar opiniones
 author: Álvaro Ortiz
 main_photo_big: https://images.unsplash.com/photo-1457685373807-8c4d8be4c560?crop=entropy&fit=crop&fm=jpg&h=900&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1600

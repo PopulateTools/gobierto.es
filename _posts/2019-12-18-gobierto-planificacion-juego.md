@@ -4,7 +4,8 @@ subtitle: 'Haciendo de la planificación un ejercicio colectivo'
 date: 2019-12-18 12:00:00 +02:00
 categories:
 - estrategia
-layout: v2/post
+module: planificacion
+layout: post
 author: Álvaro Ortiz
 main_photo: posts/191218-Cover.png
 ---

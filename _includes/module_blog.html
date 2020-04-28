@@ -1,0 +1,32 @@
+
+{% assign posts = site.posts | where: "module", module.id %}
+{% if posts.size >= 1 %}
+<div class="py-4 bg-yellow-soft">
+
+  <div class="p-4 lg:max-w-screen-xl mx-auto">
+
+    <div class="font-bold uppercase color-brand-green mb-4">En nuestro blog</div>
+    
+    <div class="grid md:grid-cols-3 gap-8">
+      {% for post in posts limit:1 %} 
+        <div><a class="block block mb-2" href="{{ post.url }}">{% asset '{{ post.main_photo }}' %} </a></div>
+        <div class="block text-2xl mb-4 pr-24">
+          <a class="block font-bold color-brand-blue-dark" href="{{ post.url }}">{{ post.title }}</a>
+          <div class="opacity-50 color-brand-blue-dark">{{ post.subtitle }}</div>
+        </div>
+      {% endfor %}
+
+      {% if posts.size > 1 %}
+        <div>
+        {% for post in posts offset:1 limit:4 %}
+          <a class="block text-xs mb-1 color-brand-blue-dark" href="{{ post.url }}">{{ post.title }}</a>
+          <div class="opacity-50 text-xs mb-8 color-brand-blue-dark">{{ post.subtitle }}</div>
+        {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+
+  </div>
+
+</div>
+{% endif %}

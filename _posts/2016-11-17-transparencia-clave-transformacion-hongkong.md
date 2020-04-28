@@ -3,7 +3,7 @@ title: 'Transparencia: La clave de la transformación de Hong Kong'
 date: 2016-11-17 08:00:00 +01:00
 categories:
 - transparencia
-layout: v2/post
+layout: post
 subtitle: El gobierno y los ciudadanos impulsaron una nueva cultura de información
   pública para limpiar de corrupción la metrópolis china
 author: Rafa de las Cuevas

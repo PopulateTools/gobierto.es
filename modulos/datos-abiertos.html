@@ -1,19 +1,10 @@
 ---
 title: Portal de datos abiertos basado en CKAN integrado en Gobierto
 permalink: "/modulos/datos-abiertos/"
-layout: v2/default
+layout: default
 kind: module
 excerpt: El mejor portal de datos abiertos del mundo, CKAN, integrado en Gobierto
 ---
 
-{% assign module = site.data.modules.datos-abiertos %}
-
-{% include v2/module_cover.html module=module %}
-{% include v2/features.html title=module.title features=module.features %}
-{% include v2/functionalities.html title=module.title functionalities=module.functionalities %}
-{% include v2/global_functionalities.html %}
-{% include v2/users.html users=module.users %}
-{% include v2/demo.html %}
-{% include v2/slideshow.html %}
-{% include v2/contact.html %}
-{% include v2/clients.html %}
+{% assign module = site.data.modules_2020.group_informacion.modules.datos-abiertos %}
+{% include module.html module=module %}

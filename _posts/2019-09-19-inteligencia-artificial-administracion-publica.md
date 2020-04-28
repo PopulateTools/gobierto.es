@@ -5,7 +5,7 @@ date: 2019-09-20 00:00:00 +02:00
 categories:
 - tecnologia
 - datos_abiertos
-layout: v2/post
+layout: post
 author: Fernando Blat
 main_photo: posts/190919-machine-learning.jpg
 ---

@@ -4,7 +4,8 @@ subtitle: 'Actualizamos el comparador de presupuestos de Gobierto con los datos 
 date: 2019-07-03 00:00:00 +02:00
 categories:
 - visualizacion_de_datos
-layout: v2/post
+module: comparador-de-presupuestos
+layout: post
 author: Pedro Álvarez, Fernando Blat y Álvaro Ortiz
 main_photo: posts/190703-top-ingresos-ventas.png
 ---

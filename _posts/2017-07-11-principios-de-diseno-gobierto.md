@@ -6,7 +6,7 @@ categories:
 - gobierto
 - experiencia_de_usuario
 - estrategia
-layout: v2/post
+layout: post
 subtitle: Una serie de reglas que dirigen, simplifican y normalizan las decisiones
   que tomamos
 author: Álvaro Ortiz

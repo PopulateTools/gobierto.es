@@ -4,8 +4,9 @@ subtitle: '¿Cómo explican los municipios y diputaciones lo que hacen?'
 date: 2019-06-10 00:00:00 +02:00
 categories:
 - gobierno_abierto
-analysis: true
-layout: v2/post
+- analisis
+module: planificacion
+layout: post
 author: Álvaro Ortiz
 main_photo: posts/190606-pam-portada.jpg
 ---

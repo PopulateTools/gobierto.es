@@ -4,7 +4,7 @@ title: Populate colabora en el desarrollo de la herramienta de participación de
 date: 2017-01-13 08:00:00 +01:00
 categories:
 - clientes
-layout: v2/post
+layout: post
 subtitle: Diseñamos y construimos para el Medialab-Prado del Ayuntamiento de Madrid
   el módulo de legislación colaborativa de Cónsul, la herramienta de participación
   disponible en decide.madrid.es

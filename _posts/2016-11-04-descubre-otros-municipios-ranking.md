@@ -4,7 +4,7 @@ date: 2016-11-04 09:00:00 +01:00
 categories:
 - transparencia
 - visualizacion_de_datos
-layout: v2/post
+layout: post
 subtitle: Cómo usar los rankings de Gobierto para mejorar la gestión del dinero público
 author: Rafa de las Cuevas
 main_photo_big: posts/161104-rankings-01.png

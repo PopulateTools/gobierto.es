@@ -5,7 +5,7 @@ date: 2017-04-19 10:00:00 +02:00
 categories:
 - participacion
 - gobierno_abierto
-layout: v2/post
+layout: post
 subtitle: Empezamos una nueva serie de entrevistas a expertos en participación con
   Ricard Vilaregut, Doctor en Ciencia política y asesor en los últimos procesos participativos
   del Ayuntamiento de Badalona

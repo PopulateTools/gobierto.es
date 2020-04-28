@@ -1,0 +1,27 @@
+{% if post.main_photo_big %}
+  {% if post.main_photo_big contains '://' %}
+    {% assign image_url = post.main_photo_big %}
+  {% else %}
+    {% capture image_url %}/assets/{{ post.main_photo_big }}{% endcapture %}
+  {% endif %}
+{% endif %}
+
+{% if post.main_photo %}
+  {% if page.main_photo contains '://' %}
+    {% assign image_url = post.main_photo %}
+  {% else %}
+    {% capture image_url %}/assets/{{ post.main_photo }}{% endcapture %}
+  {% endif %}
+{% endif %}
+
+<div class="mb-16">
+  
+  <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="Blog__thumbnail" style="{% if image_url != '' %} background-image: url('{{ image_url }}'){% endif %}"></a> -->
+  {% if post.main_photo %}{% unless page.main_photo contains '://' %}
+  <a href="{{ post.url | prepend: site.baseurl }}" class="" >{% asset '{{ post.main_photo }}' %}</a>
+  {% endunless %}{% endif %}
+  <h2 class="my-4 text-xl font-bold"><a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+  <div class="">{{ post.excerpt | strip_html | strip_newlines | truncate: 250  }}</div>
+
+</div>
+{% capture image_url %}{% endcapture %}

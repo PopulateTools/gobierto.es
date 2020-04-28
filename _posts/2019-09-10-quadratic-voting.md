@@ -4,7 +4,7 @@ subtitle: 'Una aproximación al voto cuadrático'
 date: 2019-09-11 00:00:00 +02:00
 categories:
 - participacion
-layout: v2/post
+layout: post
 author: Pedro Álvarez
 main_photo: posts/190911-qv_1.jpg
 ---

@@ -4,7 +4,7 @@ date: 2017-11-20 00:00:00 +01:00
 categories:
 - participacion
 - recursos
-layout: v2/post
+layout: post
 subtitle: 'La gente no quiere participar: ¿cómo conseguir cambiarlo? Herramientas
   y metodología para hacer participación online'
 author: Álvaro Ortiz

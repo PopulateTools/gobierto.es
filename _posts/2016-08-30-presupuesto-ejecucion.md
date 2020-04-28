@@ -5,7 +5,7 @@ date: 2016-08-30 09:00:00 +02:00
 categories:
 - transparencia
 - visualizacion_de_datos
-layout: v2/post
+layout: post
 subtitle: Ampliamos nuestro comparador de presupuestos mostrando la información de
   la ejecución del presupuesto de los municipios de España
 author: Álvaro Ortiz

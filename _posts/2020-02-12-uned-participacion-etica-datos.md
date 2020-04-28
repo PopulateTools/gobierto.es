@@ -4,7 +4,9 @@ subtitle: 'Populate implementa la plataforma de participación para la consulta 
 date: 2020-02-12 00:00:00 +02:00
 categories:
 - clientes
-layout: v2/post
+module: participacion
+client: UNED
+layout: post
 author: Pedro Álvarez
 main_photo: posts/200212-UNED.png
 ---

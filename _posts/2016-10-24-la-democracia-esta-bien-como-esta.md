@@ -3,7 +3,7 @@ title: La democracia, ¿está bien como está?
 date: 2016-10-24 10:00:00 +02:00
 categories:
 - transparencia
-layout: v2/post
+layout: post
 subtitle: La historia demuestra que los gobiernos más abiertos producen sociedades
   más desarrolladas
 author: Rafa de las Cuevas

@@ -1,0 +1,238 @@
+$color-brand-green: #008E9C; 
+$color-brand-yellow: #F8B206;
+$color-brand-blue-dark: #12365B;
+
+$color-red: #f05f50;
+$color-pink-light: #FF776D;
+$color-yellow-soft: #F7C65A;
+$color-green-soft: #59BAC3;
+
+$color_facebook: #3A589A;
+$color_twitter: #00ABEF;
+$color_linkedin: #0074B5;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+a {
+  color: $color-brand-green;
+  text-decoration: underline;
+}
+
+.color-brand-green { color: $color-brand-green; }
+.color-brand-yellow { color: $color-brand-yellow; }
+.color-brand-blue-dark { color: $color-brand-blue-dark; }
+.color-pink-light { color: $color-pink-light; }
+.color-red { color: $color-red; }
+
+.bg-yellow-soft { background: $color-yellow-soft; }
+.bg-green-soft { background: $color-green-soft; }
+.bg-brand-blue-dark { background: $color-brand-blue-dark; }
+.bg-brand-green { background: $color-brand-green; }
+.bg-brand-yellow { background: $color-brand-yellow; }
+.bg-red { background: $color-red; }
+
+
+
+.client-card a::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* POST Styles */
+
+.post {
+  p {
+    margin-bottom: 2em; 
+  }
+  h2 {
+    font-weight: 700;
+    margin: 48px 0 16px 0;
+    color: $color-brand-yellow;
+    font-size: 22px;
+    text-transform: uppercase;
+  }
+  h2:first-child {
+    margin-top: 0;
+  }
+  h3 {
+    margin: 32px 0 16px 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: $color-red;
+    text-transform: uppercase;
+  }
+  em {
+    font-style: italic;
+  }
+  strong {
+    font-weight: 700;
+  }
+  ul, ol {
+    margin: 0 0 24px 12px;
+  }
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+  
+    li {
+      counter-increment: my-awesome-counter;
+    }
+    li::before {
+      content: counter(my-awesome-counter) ". ";
+      color: $color-brand-yellow;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  }
+  li {
+    margin: 0 0 8px 0;
+    padding: 0 0 0 20px;
+    line-height: 1.2;
+  }
+  li:before {
+    content: '•';
+    font-size: 24px;
+    color: $color-brand-yellow;
+    margin: 0 8px 0 -18px
+  }
+  img {
+    width: 100%;
+    height: auto;
+  }
+  blockquote {
+    margin: 0 0 2em 0;
+    padding: 2em;
+    font-size: .85em;
+    line-height: 1.5em;
+    background: #cbd5e0;
+  }
+  .blockquote_light {
+    opacity: .60;
+    position: relative;
+    padding: 0 0 0 1.5em;
+    margin: 0 0 2em 0;
+  }
+  .blockquote_light:before {
+    display: block;
+    content: "";
+    position: absolute;
+    color: #DFDFDF;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    width: 5px;
+    background: #DDD;
+  }
+  blockquote.quote {
+    font-weight: 700;
+    font-size: 24px;
+    color: $color-brand-green;
+    display: block;
+    width: 80%;
+    line-height: 32px;
+    margin: 2em 15% 2em 17%;
+    padding: .5em 0 0 0;
+    background: #FFF;
+    position: relative;
+    z-index: 10;
+    cite {
+      display: block;
+      font-size: 18px;
+      font-style: normal;
+      opacity: .5;
+    }
+  }
+  blockquote.quote:before {
+    display: block;
+    content: "\201C";
+    font-size: 6em;
+    position: absolute;
+    line-height: 1;
+    color: #DFDFDF;
+    left: -22%;
+    top: -14px;
+    z-index: -1;
+  }
+  caption {
+    width: 100%;
+    display: block;
+    font-size: .8em;
+    color: #a0aec0;
+    line-height: 1.3em;
+    margin: .5em 0 0 0;
+  }
+  img.Outline {
+    margin: 2em 0;
+    border: 1px solid #DDD;
+  }
+  img.Shadow {
+    box-shadow: 0 0 6px 1px rgba(0,0,0,0.15);
+  }
+  @media (min-width: 1200px) {
+    img.Bigger {
+      max-width: initial;
+      width: 128%;
+      margin-left: -14%;
+    }
+  }
+}
+
+.video_wrapper {
+  width: 100%;
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+  margin-bottom: 2em;
+}
+@media (min-width: 1500px) {
+  .video_wrapper.bigger {
+    width: 144%;
+    margin: 0 0 0 -22%;
+    padding-bottom: 78.25%;
+    margin-bottom: 2em;
+  }
+}
+.video_wrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+
+.shadow-img {
+  box-shadow: 0 0 20px 0 rgba(0,0,0,.25)
+}
+
+.share-icons {
+  i.fa-twitter {
+    background: $color_twitter;
+  }
+  i.fa-linkedin-in {
+    background: $color_linkedin;
+  }
+  i.fa-envelope-open {
+    background: $color-brand-yellow;
+  }
+  i.fa-twitter:hover {
+    background: darken($color_twitter, 10%);
+  }
+  i.fa-linkedin-in:hover {
+    background: darken($color_linkedin, 10%);
+  }
+  i.fa-envelope-open:hover {
+    background: darken($color-brand-yellow, 10%);
+  }
+}

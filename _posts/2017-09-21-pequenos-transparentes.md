@@ -4,7 +4,7 @@ title: 'Programa Pequeños Transparentes: herramientas gratuitas de transparenci
 date: 2017-09-21 00:00:00 +02:00
 categories:
 - gobierto
-layout: v2/post
+layout: post
 subtitle: Gobierto lanza el Programa Pequeños Transparentes para proporcionar de forma
   gratuita herramientas de transparencia a pequeños ayuntamientos
 author: Álvaro Ortiz

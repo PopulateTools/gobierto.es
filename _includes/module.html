@@ -1,0 +1,62 @@
+<div class="px-4 md:px-0 md:flex items-center my-16">
+
+  <div class="w-full md:w-2/3 lg:w-1/2 md:px-16 xl:px-24 color-brand-blue-dark ">
+
+    <div class="text-sm font-bold uppercase color-brand-green">Gobierto {{ module.title }}</div>
+
+    <h1 class="mt-8 mb-2 text-4xl font-bold leading-tight">{{ module.heading }}</h1>
+    <h2 class="mb-16 text-4xl font-light opacity-50 leading-tight">{{ module.subheading }}</h2>
+
+    <div class="text-sm opacity-75">
+      <div class="mb-4">{{ module.key0 }}</div>
+      <div class="mb-4">{{ module.key1 }}</div>
+      <div class="mb-4">{{ module.key2 }}</div>
+    </div>
+  
+  </div>
+
+  <div class="w-full md:w-1/3 lg:w-1/2 ">
+    <div class="shadow-img transform transition-transform duration-500 scale-100 hover:scale-105" style="--transform-rotate: 2deg;" >
+      {% asset '{{ module.img }}'  %}
+    </div>
+  </div>
+
+</div>
+
+{% if include.youtube_video_id %}
+<div class="">
+  <div class="video_wrapper">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/{{ include.youtube_video_id }}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+  </div>
+</div>
+{% endif %}
+
+{% include module_blog.html %}
+
+<div class="pb-32 color-brand-blue-dark p-4 lg:max-w-screen-xl mx-auto ">
+
+  <div class="uppercase color-brand-green my-16 text-lg">
+    <div class="font-bold">Qué te ofrece </div>
+    Gobierto {{ module.title }}
+  </div>
+
+  <div class="grid grid-cols-1 gap-8 md:grid-cols-2 md:gap-12 lg:grid-cols-3 md:gap-16">
+
+    {% for f in module.functionalities %}
+    <div class="bg-orange-100">
+      <div class="h-4 w-full {% cycle 'bg-brand-blue-dark', 'bg-brand-green', 'bg-brand-yellow', 'bg-red', 'bg-green-soft' %}"></div>
+      <div class="pt-8 md:pt-32 px-8 pb-8">
+        <div class="text-2xl font-bold">{{ f.title }}</div>
+        <div class="text-2xl font-light text-gray-500">{{ f.description }}</div>
+        <div class="text-sm opacity-75 mt-4">{{ f.explanation }}</div>
+      </div>
+    </div>
+    {% endfor %}
+
+  </div>
+
+</div>
+
+
+{% include module_lead.html %}
+
