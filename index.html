@@ -25,9 +25,9 @@ layout: default
   <div class="container mx-auto ">
 
     <div class="text-3xl font-bold mb-16 color-brand-green">Te ayudamos con...</div>
-    
+
     <div class="md:grid grid-cols-2 lg:grid-cols-3">
-      
+
       {% for service in site.data.services %}
       <div class="mb-8 pr-4 flex">
         <div class="items-strech pr-4 w-16">
@@ -45,9 +45,9 @@ layout: default
       {% endfor %}
 
     </div>
-  
+
   </div>
-  
+
 </div>
 
 <div class="py-16 px-8 md:px-0 bg-green-soft" style="background-color: #86D4D2; ">
@@ -55,7 +55,7 @@ layout: default
   <div class="container mx-auto">
 
     <div class="md:text-3xl font-bold mb-16 color-brand-blue-dark opacity-75" >Te ayudamos a...</div>
-    
+
     <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 flex">
 
       {% for item in site.we_help_you_to %}
@@ -64,18 +64,18 @@ layout: default
           {% capture margin %}{% cycle 'my-1', '', 'my-2', '', '', '' %}{% endcapture %}
           {% asset '{{ shape }}' class="w-16 {{ margin }} " %}
           <h2 class="color-brand-blue-dark text-xl font-bold">{{ item }}</h2>
-        </div>  
+        </div>
       {% endfor %}
 
     </div>
-  
+
   </div>
-  
+
 </div>
 
 
-<div 
-  class="lg:max-w-screen-xl mx-auto p-8 md:p-16 md:py-32 lg:pr-64 lg:pl-16 md:bg-right" 
+<div
+  class="lg:max-w-screen-xl mx-auto p-8 md:p-16 md:py-32 lg:pr-64 lg:pl-16 md:bg-right"
   style="background-image: url( '{% asset shape-circle-big.svg @path %}' ); background-repeat: no-repeat; "
 >
 
@@ -91,26 +91,6 @@ layout: default
 
 </div>
 
-<script>
-
-var elements = document.getElementById("home_questions").children;
-
-for(let i = 0; i < elements.length; i++) { 
-  highlightPhrase(i); 
-} 
-
-function highlightPhrase(i, targetColor) { 
-  setTimeout(function() { 
-    elements[i].classList.toggle("opacity-25");
-    // elements[i].classList.toggle("font-bold");
-    elements[i-1].classList.toggle("opacity-25");
-    // elements[i-1].classList.toggle("font-bold");
-  }, 2000 * i); 
-} 
-
-</script>
-
-
 <div class="py-8 bg-yellow-soft" id="producto">
 
   <div class="p-4 lg:max-w-screen-xl mx-auto flex" x-data="{ tab: 'datos-abiertos' }">
@@ -122,7 +102,7 @@ function highlightPhrase(i, targetColor) {
         <h2 class="px-2 py-1 color-brand-blue-dark text-sm leading-tight font-bold mb-2">{{ module_groups[1].title }}</h2>
         <ul>
           {% for modules in module_groups[1].modules %}
-          <li 
+          <li
             class="px-2 py-1 rounded-md color-brand-blue-dark text-sm leading-tight mb-1 transition duration-500 ease-in-out hover:bg-orange-200 cursor-pointer"
             :class="{ 'bg-orange-300': tab === '{{ modules[1].id }}' }" @click="tab = '{{ modules[1].id }}'"
           >{{ modules[1].title }}</li>
@@ -135,13 +115,13 @@ function highlightPhrase(i, targetColor) {
 
 
     <div class="w-5/6 color-brand-blue-dark ">
-      
+
       {% for module_groups in site.data.modules_2020 %}
         {% for modules in module_groups[1].modules %}
-          <div class="grid grid-cols-3 gap-4" x-show="tab === '{{ modules[1].id }}'" 
-            x-transition:enter="transition ease-out duration-300" 
-            x-transition:enter-start="transform opacity-0 translate-x-64 scale-50" 
-            x-transition:enter-end="transform opacity-100 translate-x-0 scale-100" 
+          <div class="grid grid-cols-3 gap-4" x-show="tab === '{{ modules[1].id }}'"
+            x-transition:enter="transition ease-out duration-300"
+            x-transition:enter-start="transform opacity-0 translate-x-64 scale-50"
+            x-transition:enter-end="transform opacity-100 translate-x-0 scale-100"
             >
             <div class="col-span-1">
               <h2 class="color-brand-blue-dark text-xl font-bold">{{ modules[1].title }}</h2>
@@ -162,7 +142,29 @@ function highlightPhrase(i, targetColor) {
     </div>
 
   </div>
-  
+
 </div>
 
-{% include clients.html %}  
+{% include clients.html %}
+
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  var elements = document.getElementById("home_questions").children;
+
+  for(var i = 0; i < elements.length; i++) {
+    highlightPhrase(i);
+  }
+
+  function highlightPhrase(i) {
+    setTimeout(function() {
+      elements[i].classList.toggle("opacity-25");
+      if(i > 0) {
+        elements[i-1].classList.toggle("opacity-25");
+      }
+      // elements[i].classList.toggle("font-bold");
+      // elements[i-1].classList.toggle("font-bold");
+    }, 2000 * i);
+  }
+});
+</script>
