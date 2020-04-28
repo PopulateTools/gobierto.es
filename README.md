@@ -21,9 +21,7 @@ bundle exec jekyll s --future --incremental --livereload
 
 ## Deploy
 
-```
-bin/deploy.sh
-```
+Any push command to `master` branch is automatically deployed via our deploy bot tool
 
 ## Article tools
 
@@ -33,15 +31,15 @@ By default, an image in a post will take the full width of the column. Options:
 
 <code>{% asset 'v1/articles/160404-main_article-01' class:'inline' %}</code>
 
-<strong>Full width image</strong> Add the class "full_width": 
+<strong>Full width image</strong> Add the class "full_width":
 
 <code>{% asset 'v1/articles/160404-main_article-01' class:'full_width' %}</code>
 
 Add classes **f_right** and **f_left** to make the image slideout of the column in either direction.
 
-### Image captions 
+### Image captions
 
-If you want to show a caption of the image, you can add an attribute title to the img, and a class caption to make it show. If you only add the title, it will function as the normal html title element. Example: 
+If you want to show a caption of the image, you can add an attribute title to the img, and a class caption to make it show. If you only add the title, it will function as the normal html title element. Example:
 
 ```
 {% asset 'v1/articles/00Divorce/160403-wadus-1' class:'full_width caption' title:'Caption of the image' %}
@@ -56,7 +54,7 @@ Just include the following code (the system will include the corresponding link 
 {% social_share TEXT %}
 </code>
 
-Example: 
+Example:
 
 <code>
 {% social_share The text I want to be part of the tweet %}
@@ -70,18 +68,18 @@ Based of [Magnific Popup](http://dimsemenov.com/plugins/magnific-popup/). Two ty
 1. Centered image, meta data below photo: class "popup-gallery"
 2. Image on the left, meta data on the right: classes "popup-gallery popup-gallery-full"
 
-The internal markup for listing photos is the same. 
+The internal markup for listing photos is the same.
 
 ```
 <div class="popup-gallery clearfix" id="gallery">
 
-  <div class="item"><a href="URL/TO/IMG" 
+  <div class="item"><a href="URL/TO/IMG"
     title="Title of the photo"
     subtitle="Description of the photo. ">
       <img src="URL/TO/IMG" >
   </a></div>
 
-  <div class="item"><a href="URL/TO/IMG" 
+  <div class="item"><a href="URL/TO/IMG"
     title="Title of the photo"
     subtitle="Description of the photo. ">
       <img src="URL/TO/IMG" >
