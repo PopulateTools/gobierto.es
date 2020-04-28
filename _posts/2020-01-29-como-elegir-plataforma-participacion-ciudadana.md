@@ -4,8 +4,8 @@ subtitle: 'Análisis del software open source de participación: Consul, Decidim
 date: 2020-01-29 00:00:00 +02:00
 categories:
 - participacion
+- analisis
 module: participacion
-analysis: true
 layout: post
 author: Pedro Álvarez
 main_photo: posts/200129-consul_decidim.jpg

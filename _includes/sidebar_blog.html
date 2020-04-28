@@ -19,10 +19,12 @@
   {% if page.url != "/" %}
     <h2 class="text-sm font-bold color-pink-light mt-12 mb-4">Guías y análisis</h2>
 
-    {% assign analysises = site.posts | where: "analysis", "true" %}
+    {% assign analysises = site.posts | where: "categories", "analisis" %}
     {% for post in analysises limit:3 %} 
       <a class="block md:text-xs lg:text-sm mb-4" href="{{ post.url }}">{{ post.title }}</a>
     {% endfor %}
+
+    <a class="block md:text-xs lg:text-sm mt-4 mb-4 opacity-50" href="/temas/analisis/">ver todos</a>
   {% endif %}
 
 </div>

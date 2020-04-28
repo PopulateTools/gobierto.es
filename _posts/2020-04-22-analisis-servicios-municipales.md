@@ -4,7 +4,7 @@ subtitle: 'Análisis del diseño de información en webs municipales'
 date: 2020-04-22 00:00:00 +02:00
 categories:
 - experiencia_de_usuario
-analysis: true
+- analisis
 layout: post
 author: Álvaro Ortiz
 main_photo: posts/200408-Servicios-Portada.png
