@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html>
-{% include head.html %}
+{% include_cached head.html %}
 <body class="overflow-x-hidden" id="page-top">
 <div>
 
-  {% include header.html %}
+  {% include_cached header.html %}
 
   <main>
   {{ content }}
   </main>
 
-  {% include footer.html %}
+  {% include_cached footer.html %}
 
   <a class="fixed bottom-0 right-0 p-2 md:hidden rounded-full w-10 bg-gray-100 text-center m-2 opacity-75" href="#page-top">
     <i class="fas fa-angle-up"></i>
