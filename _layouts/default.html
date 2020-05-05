@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html>
-{% include_cached head.html %}
+
+{% if jekyll.environment == "production" %}
+  {% include head.html %}
+{% elsif jekyll.environment == "development" %}
+  {% include_cached head.html %}
+{% endif %}
+
 <body class="overflow-x-hidden" id="page-top">
 <div>
 
