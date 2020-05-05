@@ -14,7 +14,7 @@ main_photo: posts/200505-antonio-delgado.jpg
 
 ## Antonio Delgado, fundador de Datadista
 
-Antonio Delgado es uno de los precursores del periodismo de datos. Ha sido editor de Weblogs. Puso en marcha el equipo de datos de El Español, donde realizó análisis cómo **[España en cifras](https://populate.tools/projects/espanaencifras)** para las elecciones de municipales de 2015. Ahora desarrolla su actividad en un medio independiente del que es fundador, **Datadista**. Aquí tienes la conversación (dura 1 hora, puedes guardártela para después ;):
+Antonio Delgado es uno de los precursores del periodismo de datos. Ha sido responsable de innovación editorial de WeblogsSL. Puso en marcha el equipo de datos de El Español, donde realizó análisis cómo **[España en cifras](https://populate.tools/projects/espanaencifras)** para las elecciones de municipales de 2015. Ahora desarrolla su actividad en un medio independiente del que es cofundador junto con [Ana Tudela](https://twitter.com/latule), **Datadista**. Aquí tienes la conversación (dura 1 hora, puedes guardártela para después ;):
 
 <div class="video_wrapper bigger">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/9vdLytpZ-Bc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -65,7 +65,7 @@ Datadista está centrado ahora mismo en los datos de la pandemia del COVID-19. �
 
 El otro trabajo consiste en el análisis de los datos de la COVID en España. En un primer momento el Ministerio empezó a publicar datos en PDF y nosotros necesitábamos tenerlos en un formato accesible, por ejemplo CSV. Al ver que le Ministerio no ponía esos datos a disposición de los ciudadanos, vimos que era una información de relevancia y decidimos publicarlos”.
 
-En el perfil de GitHub de Datadistasta se pueden encontrar más de 30 datasets no sĺo con información del Ministerio de Salud y otras instituciones.
+En el perfil de [GitHub de Datadistasta](https://github.com/datadista/datasets/tree/master/COVID%2019) se pueden encontrar más de 30 datasets relacionados con el COVID-19, no sĺo con información del Ministerio de Salud, tamibén de otros instituciones.
 
 Cómo en otras ocasiones “hemos recopilado datos sobre la contratación de emergencia y además de elaborar una información publicamos el dataset con el que está hecha”.
 
