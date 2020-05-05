@@ -41,8 +41,8 @@
   <meta property="og:description" content="{% if page.subtitle %}{{ page.subtitle | strip_html | strip_newlines | truncate: 160 }}{% elsif page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
   />
 
-  <link rel="icon" type="image/png" href="{% asset 'v2/favicons/favicon-96x96.png' @path %}" sizes="96x96">
+  <link rel="icon" type="image/png" href="{% asset 'favicons/favicon-96x96.png' @path %}" sizes="96x96">
   <meta name="msapplication-TileColor" content="#da532c">
-  <meta name="msapplication-TileImage" content="{% asset 'v2/favicons/mstile-144x144.png' @path %}">
+  <meta name="msapplication-TileImage" content="{% asset 'favicons/mstile-144x144.png' @path %}">
   <meta name="theme-color" content="#A33A00">
 </head>

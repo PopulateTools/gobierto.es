@@ -46,10 +46,11 @@ markdown: kramdown
 #   options: ["SMART", "FOOTNOTES"]
 #   extensions: ["strikethrough", "autolink", "table"]
 
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bin', '.git', '.asset-cache', node_modules, '.jekyll-cache']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'Rakefile', '_config.yml', 'bin', '.git', '.asset-cache', node_modules, '.jekyll-cache', '_assets/images/v1', '_assets/stylesheets/v1', '_assets/stylesheets/v2']
 
 plugins:
   - jekyll-assets
+  - jekyll-include-cache
 
 # jekyll-press:
 #   exclude: '*.xml' # Exclude files from processing - file name, glob pattern or array of file names and glob patterns
@@ -65,7 +66,6 @@ assets:
   sources:
     - _assets/javascript
     - _assets/images
-    - _assets/images/v2
     - _assets/stylesheets
   # gzip: [ text/css, application/javascript ]
   digest: false
