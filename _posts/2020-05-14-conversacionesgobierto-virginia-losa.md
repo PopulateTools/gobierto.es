@@ -35,7 +35,7 @@ Las pequeñas y medianas entidades locales) representan la inmensa mayoría “e
 La actual plantilla de las administraciones públicas está muy envejecida, "en la Diputación de Palencia el 50% se jubila en los próximos 5 años". "Las administraciones, para poder estar en el s.XXI y relanzar nuevo proyectos necesitamos talento joven, necesitamos savia nueva". Para afrontar esta situación se debe hacer un "análisis de la demanda ciudadana, rediseño de los puestos y de los perfiles a seleccionar" [...] "hay que darle un nuevo enfoque a los procesos selectivos implementando nuevos sistemas de pruebas (no memorísticas)".
 
 <blockquote class="quote">
-  Aparte de ser eficientes y eficaces también tenemos que buscar el componente 
+  Aparte de ser eficientes y eficaces también tenemos que buscar el componente humano
   <cite>Virginia Losa</cite>
 </blockquote>
 
