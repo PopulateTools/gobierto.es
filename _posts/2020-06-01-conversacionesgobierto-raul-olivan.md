@@ -17,7 +17,7 @@ main_photo: posts/200601-raul-olivan.png
 
 [Raúl Oliván](https://twitter.com/raulolivan?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor) es Director General de Gobierno Abierto e Innovación Social en el Gobierno de Aragón, anteriormente estuvo durante casi 10 años al frente de [Zaragoza Activa](http://blogzac.es/), ha colaborado con la SEGIB y trabajado en el impulso de laboratorios ciudadanos y en el desarrollo de metodologías abiertas y comunitarias.
 
-Aquí tienes la conversación completa (40n):
+Aquí tienes la conversación completa (40m):
 
 <div class="video_wrapper bigger">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/aypNY-iIKzY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
