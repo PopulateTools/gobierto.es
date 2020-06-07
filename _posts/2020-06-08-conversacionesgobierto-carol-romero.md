@@ -1,19 +1,19 @@
 ---
 title: "Conversaciones Gobierto: Carol Romero (Decidim)"
 subtitle: 'Creemos en un modelo de participación híbrido'
-date: 2020-06-08T00:00:00.000+00:00
+date: 2020-06-01T00:00:00.000+00:00
 categories:
-- gobierno_abierto
+- participacion
 conversaciones_gobierto: true
 layout: post
 author: Pedro Álvarez
-main_photo: posts/200608-carol-romero.png
+main_photo: posts/200608-carol-romero-decidim.png
 
 ---
 
 [#ConversacionesGobierto](/conversaciones/) es una serie de encuentros con personajes relevantes del mundo de los datos, la gestión pública, el gobierno abierto ...
 
-## Carolina Romero, Producto owner proyecto Decidim
+## Carol Romero, Product owner proyecto Decidim
 
 Carol Romero es Técnica del Àrea de Coneixement i Tecnologia de [Localret](https://www.localret.cat/), y desempeña la labor de Product owner del proyecto [Decidim](https://decidim.org/). También forma parte del colectivo y red de mujeres [Hybridas](http://comunicacion.ethicoo.org/hybridas/) desde donde trabajan e investigan en la participación política y cívica con enfoque de género.
 
@@ -41,6 +41,7 @@ O accede directamente a los 10 temas principales de la charla:
 
 (31:28) – [Los límites de la licencia GPL y el contrato social](https://youtu.be/Vl-gNM6FInM?t=1888)
 
-(45:10) – [El papel de Localret con las entidades locales catalanas y el proyecto ‘Consesus’](https://youtu.be/Vl-gNM6FInM?t=2710)
+(45:10) – [El papel de Localret con las entidades locales catalanas y el proyecto ‘Consensus’](https://youtu.be/Vl-gNM6FInM?t=2710)
 
 (52:21) – [Enfoque de género en proyectos civic tech](https://youtu.be/Vl-gNM6FInM?t=3025)
+
