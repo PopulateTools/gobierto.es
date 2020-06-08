@@ -1,7 +1,7 @@
 ---
 title: "Conversaciones Gobierto: Carol Romero (Decidim)"
 subtitle: 'Creemos en un modelo de participación híbrido'
-date: 2020-06-01T00:00:00.000+00:00
+date: 2020-06-08T00:00:00.000+00:00
 categories:
 - participacion
 conversaciones_gobierto: true
@@ -37,7 +37,7 @@ O accede directamente a los 10 temas principales de la charla:
 
 (17:21) – [El estado del proyecto Decidim](https://youtu.be/Vl-gNM6FInM?t=1047)
 
-(23:52) – [La gobernanza del proyuecto mediante la comunidad Metadecidim](https://youtu.be/Vl-gNM6FInM?t=1552)
+(23:52) – [La gobernanza del proyecto mediante la comunidad Metadecidim](https://youtu.be/Vl-gNM6FInM?t=1552)
 
 (31:28) – [Los límites de la licencia GPL y el contrato social](https://youtu.be/Vl-gNM6FInM?t=1888)
 
