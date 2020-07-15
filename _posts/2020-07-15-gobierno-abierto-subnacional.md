@@ -1,7 +1,7 @@
 ---
 title: "Gestionar proyectos de Gobierno Abierto a nivel subnacional: oportunidades y desafíos"
 subtitle: '¿Cuáles son las oportunidades que brinda la implementación de proyectos de gobierno abierto en la dimensión local?'
-date: 2020-07-16T00:00:00.000+00:00
+date: 2020-07-15
 categories:
 - gobierno_abierto
 layout: post
