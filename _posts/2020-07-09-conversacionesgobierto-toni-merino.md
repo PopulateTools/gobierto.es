@@ -1,7 +1,7 @@
 ---
 title: "Conversaciones Gobierto: Toni Merino  (Ajuntament de Mataró)"
 subtitle: '"Si hemos sido capaces de incorporar en el ADN de la organización la innovación tendremos una oportunidad ante la crisis"'
-date: 2020-07-09T00:00:00.000+00:00
+date: 2020-07-09 
 categories:
 - gobierno_abierto
 conversaciones_gobierto: true

@@ -7,7 +7,7 @@ categories:
 conversaciones_gobierto: true
 layout: post
 author: Pedro Álvarez
-main_photo: posts/200601-raul-olivan.png
+main_photo: posts/200601-raul-olivan.jpg
 
 ---
 

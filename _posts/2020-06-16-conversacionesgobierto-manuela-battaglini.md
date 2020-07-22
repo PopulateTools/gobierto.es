@@ -1,7 +1,7 @@
 ---
 title: "Conversaciones Gobierto: Manuela Battaglini  (Transparent Internet)"
 subtitle: '"Si queremos implementar un marco ético debemos hacerlo desde el diseño"'
-date: 2020-06-16T00:00:00.000+00:00
+date: 2020-06-16 
 categories:
 - transparencia
 conversaciones_gobierto: true
