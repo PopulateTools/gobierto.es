@@ -1,12 +1,40 @@
 ---
 title: El blog de Gobierto
 permalink: "/blog/"
-layout: blog
+layout: default
 ---
 
-{% for post in site.posts limit:10 %}
-  {% include post.html %}
-{% endfor %}
+
+<!-- <div class="mx-auto p-4 md:p-0 lg:p-0 lg:flex items-center items-stretch"> -->
+
+<div class="container mx-auto md:my-16 p-8 py-16">
+
+  <h1 class="text-3xl font-bold md:mb-16 color-brand-green">El blog de Gobierto</h1>
+  
+  <div class="grid grid-cols-3 gap-16 ">
+    {% for post in site.posts limit:24 %}
+      <div class="bg-gray-200 shadow-lg">
+        {% if post.main_photo %}{% unless page.main_photo contains '://' %}
+          <div class="h-48 w-full bg-cover bg-center bg-white" style="background-image: url('{% asset '{{ post.main_photo }}' @path %}')"><a href="{{ post.url | prepend: site.baseurl }}" class="block h-full w-full" ></a></div>
+        {% endunless %}{% endif %}
+        <div class="p-4">
+          <h2 class="mb-2 text-l font-bold normal-case"><a class="" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+          <div class="text-xs">{{ post.excerpt | strip_html | strip_newlines | truncate: 250  }}</div>
+          <a class="mt-4 text-xs font-bold no-underline" href="{{ post.url | prepend: site.baseurl }}">Leer →</a>
+        </div>  
+      </div>
+    {% endfor %}
+  </div>
+
+  <h1 class="text-3xl font-bold mt-64 mb-8 color-brand-green">Todos los archivos</h1>
+  <div class="post">
+  {% include blog_themes_index.html %}
+  </div>
 
 
-{% include blog_themes_index.html %}
+</div>
+
+
+
+
+
