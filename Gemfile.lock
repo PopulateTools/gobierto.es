@@ -112,6 +112,7 @@ DEPENDENCIES
   jekyll
   jekyll-assets (>= 3.0.12)
   jekyll-include-cache
+  kramdown (>= 2.3.0)
   kramdown-parser-gfm
   liquid-c
   sassc
