@@ -9,6 +9,7 @@ gem "uglifier"
 gem "therubyracer"
 gem "sprockets", "~> 3.7"
 gem 'jekyll-include-cache'
+gem "kramdown-parser-gfm"
 
 group :jekyll_plugins do
   gem "jekyll-assets", ">= 3.0.12"
