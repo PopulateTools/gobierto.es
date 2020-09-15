@@ -77,6 +77,9 @@ a {
   strong {
     font-weight: 700;
   }
+  p ~ ul {
+    margin-top: -1em;
+  }
   ul, ol {
     margin: 0 0 24px 12px;
   }
