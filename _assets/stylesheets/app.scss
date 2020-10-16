@@ -100,13 +100,16 @@ a {
   li {
     margin: 0 0 8px 0;
     padding: 0 0 0 20px;
+    position: relative;
     // line-height: 1.5;
   }
   li:before {
     content: '•';
     font-size: 24px;
     color: $color-brand-yellow;
-    margin: 0 8px 0 -18px
+    position: absolute;
+    top: -5px;
+    left: 0;
   }
   img {
     width: 100%;
@@ -117,7 +120,7 @@ a {
     padding: 2em;
     font-size: .85em;
     line-height: 1.5em;
-    background: #cbd5e0;
+    background: rgba(150,137,171,.15);
   }
   .blockquote_light {
     opacity: .60;
@@ -188,6 +191,15 @@ a {
       margin-left: -14%;
     }
   }
+  .notice {
+    background: rgba(150,137,171,.15);
+    padding: 1em 1.25em;
+    border-radius: 4px;
+    margin: 0 0 2em 0;
+    font-size: 1em;
+    line-height: 1.3;
+    opacity: .8;
+  }
 }
 
 .video_wrapper {
@@ -238,4 +250,16 @@ a {
   i.fa-envelope-open:hover {
     background: darken($color-brand-yellow, 10%);
   }
+}
+
+.littlefoot-footnote__button {
+  background: $color-brand-yellow;
+}
+.littlefoot-footnote__button.is-active, .littlefoot-footnote__button:hover, .littlefoot-footnote__button:focus {
+  background: darken($color-brand-yellow, 10%);
+}
+.littlefoot-footnote__content {
+  padding: 1.25em 1.5em;
+  font-size: .8rem;
+  line-height: 1.5;
 }
