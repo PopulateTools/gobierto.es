@@ -4,7 +4,7 @@ subtitle: 'Populate ha facilitado la elaboración colaborativa del plan estraté
 date: 2020-10-16
 categories:
 - clientes
-client: UdG
+client: SILME
 layout: post
 author: Álvaro Ortiz
 main_photo: posts/201015-SILME.webp
