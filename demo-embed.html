@@ -1,0 +1,12 @@
+---
+title: Demo Gobierto Embed
+permalink: "/demo-embed/"
+layout: default
+---
+
+<script type="text/javascript" src="https://alcobendas.gobify.net/embed.js"></script>
+{% if jekyll.environment == "production" %}
+<div gobierto-embed="https://alcobendas.gobify.net/agendas" base-path="https://gobierto.es/demo-embed/"></div>
+{% elsif jekyll.environment == "development" %}
+<div gobierto-embed="http://madrid.gobierto.test/agendas" base-path="http://localhost:4000/demo-embed/"></div>
+{% endif %}
