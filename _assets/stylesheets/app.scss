@@ -48,11 +48,16 @@ a {
   height: 100%;
 }
 
+
+
 /* POST Styles */
 
 .post {
   p {
     margin-bottom: 2em; 
+  }
+  h1 ~ h2 {
+    margin-top: 0;
   }
   h2 {
     font-weight: 700;
@@ -262,4 +267,11 @@ a {
   padding: 1.25em 1.5em;
   font-size: .8rem;
   line-height: 1.5;
+}
+
+code, pre {
+  background: #f1f1f1;
+  padding: .75em 1em;
+  font-size: 13px;
+  font-family: monospace;
 }
