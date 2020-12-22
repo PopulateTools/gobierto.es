@@ -1,6 +1,6 @@
 ---
 title: "La Diputación de Barcelona publica su PAM con Gobierto"
-subtitle: 'Populate ha facilitado la elaboración colaborativa del plan estratégico de SILME'
+subtitle: 'Los municipios apoyados por la Diputación también podrán utilizarlo'
 date: 2020-10-16
 categories:
 - clientes
