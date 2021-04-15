@@ -2,10 +2,9 @@
 backend:
   name: git-gateway
   repo: PopulateTools/gobierto.es
-  identity_url: 'http://gobierto-blog.netlify.app/.netlify/identity'
-  gateway_url: 'http://gobierto-blog.netlify.app/.netlify/git'
+  identity_url: 'https://www.gobierto.es/.netlify/identity'
+  gateway_url: 'https://www.gobierto.es/.netlify/git'
   branch: master
-local_backend: true
 media_folder: /_assets/images/posts
 public_folder: /assets
 collections:
