@@ -1,0 +1,30 @@
+# config.yml
+backend:
+  name: git-gateway
+  repo: PopulateTools/gobierto.es
+  identity_url: 'https://gobierto-blog.netlify.app/.netlify/identity'
+  gateway_url: 'https://gobierto-blog.netlify.app/.netlify/git'
+  branch: master
+local_backend: true
+media_folder: /_assets/images/posts
+public_folder: /assets
+collections:
+  - name: 'blog'
+    label: 'Blog'
+    folder: '_posts/'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: true
+    fields:
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Categories', name: 'categories', widget: 'string', required: false }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Subtitle', name: 'subtitle', widget: 'string', required: false }
+      - { label: "Author", name: "author", widget: "string", required: false}
+      - { label: "Main Photo", name: "main_photo", widget: "image", required: false}
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+publish_mode: editorial_workflow
+
+
