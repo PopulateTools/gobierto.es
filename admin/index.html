@@ -13,12 +13,12 @@
       if (document.readyState === "loading") {
         document.addEventListener("DOMContentLoaded", function () {
           netlifyIdentity.init({
-            APIUrl: "https://gobierto-blog.netlify.app/.netlify/identity"
+            APIUrl: "http://gobierto-blog.netlify.app/.netlify/identity"
           });
         });
       } else {
         netlifyIdentity.init({
-          APIUrl: "https://gobierto-blog.netlify.app/.netlify/identity"
+          APIUrl: "http://gobierto-blog.netlify.app/.netlify/identity"
         });
       }
     </script>
