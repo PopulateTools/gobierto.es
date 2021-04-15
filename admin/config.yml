@@ -5,7 +5,6 @@ backend:
   identity_url: 'http://gobierto-blog.netlify.app/.netlify/identity'
   gateway_url: 'http://gobierto-blog.netlify.app/.netlify/git'
   branch: master
-local_backend: true
 media_folder: /_assets/images/posts
 public_folder: /assets
 collections:
