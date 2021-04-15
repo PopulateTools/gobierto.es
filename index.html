@@ -1,7 +1,6 @@
 ---
 layout: default
 ---
-
 <div class="xl:max-w-screen-xl mx-auto p-8 pt-32 md:pt-0 md:p-0 lg:p-0 md:flex items-center items-stretch">
 
   <div class="lg:w-2/3 md:pl-16 md:pr-16 lg:pr-32 xl:pr-64">
@@ -170,15 +169,4 @@ document.addEventListener("DOMContentLoaded", function() {
     }, 2000 * i);
   }
 });
-</script>
-<script>
-  if (window.netlifyIdentity) {
-    window.netlifyIdentity.on("init", user => {
-      if (!user) {
-        window.netlifyIdentity.on("login", () => {
-          document.location.href = "/admin/";
-        });
-      }
-    });
-  }
 </script>
