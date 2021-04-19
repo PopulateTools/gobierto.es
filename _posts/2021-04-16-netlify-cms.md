@@ -7,3 +7,7 @@ author: Jorge Aznar
 main_photo: /assets/190703-mapa.png
 ---
 Use Netlify CMS with any static site generator for a faster and more flexible web project
+
+
+
+![](/assets/190703-deuda-animacion.gif)
