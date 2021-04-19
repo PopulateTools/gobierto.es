@@ -6,7 +6,7 @@ backend:
   gateway_url: 'https://gobierto-blog.netlify.app/.netlify/git'
   branch: master
 media_folder: "_assets/images/posts"
-public_folder: "posts"
+public_folder: posts
 collections:
   - name: 'blog'
     label: 'Blog'
