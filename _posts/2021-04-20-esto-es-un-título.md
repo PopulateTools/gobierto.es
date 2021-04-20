@@ -7,4 +7,5 @@ subtitle: Esto es un subtitulo
 author: Jorge Aznar
 main_photo: posts/workflow.png
 ---
-![Presupuestos participativos de Madrid](posts/workflow.png)
+\
+<img src="/assets/posts/workflow.png" alt="" />
