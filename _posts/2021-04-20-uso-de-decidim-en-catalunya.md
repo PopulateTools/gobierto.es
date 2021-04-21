@@ -3,6 +3,7 @@ layout: post
 title: Uso de Decidim en Catalunya
 date: 2021-04-20T19:21:12.650Z
 subtitle: ¿Cuánto y cómo se está usando Decidim en el sector público catalán?
+main_photo: posts/decidim.png
 ---
 La plataforma de participación ciudadana Decidim sigue expandiéndose a ritmo constante tanto a nivel local como internacional. Después de su puesta en marcha de la mano del Ayuntamiento de Barcelona en 2016 y de la [remodelación del diseño de la instancia de la capital catalana por Populate en 2018](https://gobierto.es/blog/20180123-decidim-diseno-populate.html), cada vez son más los ayuntamientos del principado que apuestan por hibridar la participación digital con la presencial.
 
