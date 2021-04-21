@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Esto es un título
-categories: ""
+categories: gobierto
 date: 2021-04-20T08:21:52.708Z
 subtitle: Esto es un subtitulo
-author: ""
-main_photo: ""
+author: Jorge Aznar
+main_photo: posts/workflow.png
 ---
 La plataforma de participación ciudadana Decidim sigue expandiéndose a ritmo constante tanto a nivel local como internacional. Después de su puesta en marcha de la mano del Ayuntamiento de Barcelona en 2016 y de la [remodelación del diseño de la instancia de la capital catalana por Populate en 2018](https://gobierto.es/blog/20180123-decidim-diseno-populate.html), cada vez son más los ayuntamientos del principado que apuestan por hibridar la participación digital con la presencial.
 
