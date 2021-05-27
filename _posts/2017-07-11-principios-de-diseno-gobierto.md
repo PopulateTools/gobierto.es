@@ -5,7 +5,6 @@ date: 2017-07-11 00:00:00 +02:00
 categories:
 - gobierto
 - experiencia_de_usuario
-- estrategia
 layout: post
 subtitle: Una serie de reglas que dirigen, simplifican y normalizan las decisiones
   que tomamos

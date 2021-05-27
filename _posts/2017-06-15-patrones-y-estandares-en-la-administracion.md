@@ -4,7 +4,6 @@ date: 2017-06-15 00:00:00 +02:00
 categories:
 - gobierto
 - experiencia_de_usuario
-- estrategia
 layout: post
 subtitle: Metodología, diseño de servicios, y patrones para ganar eficiencia
 author: Álvaro Ortiz

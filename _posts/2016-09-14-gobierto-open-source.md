@@ -3,7 +3,6 @@ title: 'Abrimos Gobierto: ya es open source'
 date: 2016-09-14 10:00:00 +02:00
 categories:
 - gobierto
-- tecnologia
 layout: post
 subtitle: Abrimos el código de Gobierto
 author: Álvaro Ortiz
