@@ -122,10 +122,14 @@ a {
   }
   blockquote {
     margin: 0 0 2em 0;
-    padding: 2em;
-    font-size: .85em;
+    padding: 1.75em 2em;
+    font-size: 1rem;
     line-height: 1.5em;
-    background: rgba(150,137,171,.15);
+    background: rgba(150,137,171,.1);
+
+    p:last-child {
+      margin-bottom: 0;
+    }
   }
   .blockquote_light {
     opacity: .60;
@@ -256,7 +260,11 @@ a {
     background: darken($color-brand-yellow, 10%);
   }
 }
-
+.littlefoot {
+  --popover-max-height: 50vh;
+  --popover-font-size:  1rem;
+  --popover-width: 50vw;
+}
 .littlefoot-footnote__button {
   background: $color-brand-yellow;
 }

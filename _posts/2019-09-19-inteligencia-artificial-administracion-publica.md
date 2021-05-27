@@ -3,7 +3,6 @@ title: "Inteligencia Artificial en la administración pública: casos de uso"
 subtitle: 'Un repaso a varios casos reales'
 date: 2019-09-20 00:00:00 +02:00
 categories:
-- tecnologia
 - datos_abiertos
 layout: post
 author: Fernando Blat
